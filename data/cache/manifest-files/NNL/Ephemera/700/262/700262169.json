@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262169/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; בן אפרים,ליבוביץ; פוליטיקה; סוציאליזם",
+  "label": "שיחת חברים על תנועת הפועלים בארץ - במצב המדיני הנוכחי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים על תנועת הפועלים בארץ - במצב המדיני הנוכחי"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; בן אפרים,ליבוביץ; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262169"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262169"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262169/sequence/IE9165733",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים  על תנועת הפועלים בארץ - במצב המדיני הנוכחי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180502",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים  על תנועת הפועלים בארץ - במצב המדיני הנוכחי",
+          "width": 800,
+          "height": 530,
+          "images": [
+            {
+              "@id": "FL9180502",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180502",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180502/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים  על תנועת הפועלים בארץ - במצב המדיני הנוכחי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180502",
+                  "label": "שיחת חברים  על תנועת הפועלים בארץ - במצב המדיני הנוכחי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 530,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180501",
+      "@type": "sc:Range",
+      "label": "REP9180501",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180502",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים  על תנועת הפועלים בארץ - במצב המדיני הנוכחי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262169",
+  "viewingHint": "paged"
+}

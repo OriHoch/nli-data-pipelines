@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700124786/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Local elections -- Israel; Political parties -- Israel; Political candidates -- Israel; Propaganda -- Israel; Yeshivot -- Israel; בחירות לרשויות המקומיות; מועמדים ורשימות; תעמולה; אסיפה; תל אביב",
+  "label": "כל תושבי שכ' הצפון מוזמנים לאספה פומבית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כל תושבי שכ' הצפון מוזמנים לאספה פומבית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מועצת פועלי יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Local elections -- Israel; Political parties -- Israel; Political candidates -- Israel; Propaganda -- Israel; Yeshivot -- Israel; בחירות לרשויות המקומיות; מועמדים ורשימות; תעמולה; אסיפה; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700124786"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700124786"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700124786/sequence/IE5364287",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6256912",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6256912",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6256912",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6256912/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6256912",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6256911",
+      "@type": "sc:Range",
+      "label": "REP6256911",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6256912",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700124786",
+  "viewingHint": "paged"
+}

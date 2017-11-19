@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262191/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; זרובבל; דת; הרצאה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה - הדת - וצבור הפועלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - הדת - וצבור הפועלים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל פועלי ציון - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; זרובבל; דת; הרצאה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262191"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262191"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262191/sequence/IE9164776",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - הדת - וצבור הפועלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180732",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - הדת - וצבור הפועלים",
+          "width": 532,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180732",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180732",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180732/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - הדת - וצבור הפועלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180732",
+                  "label": "הרצאה - הדת - וצבור הפועלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 532
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180730",
+      "@type": "sc:Range",
+      "label": "REP9180730",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180732",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - הדת - וצבור הפועלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262191",
+  "viewingHint": "paged"
+}

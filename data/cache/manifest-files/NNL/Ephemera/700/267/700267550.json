@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267550/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; וו. פרויס (מרצה); הרצאה; פוליטיקה",
+  "label": "אספת-חברים - דו\"ח ממועצת המפלגה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת-חברים - דו\"ח ממועצת המפלגה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל אביב, חוג עולי גרמניה, חוג עולי אוסטריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; וו. פרויס (מרצה); הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267550"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267550"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267550/sequence/IE9705163",
+      "@type": "sc:Sequence",
+      "label": "אספת-חברים - דו\"ח ממועצת המפלגה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706295",
+          "@type": "sc:Canvas",
+          "label": "אספת-חברים - דוח ממועצת המפלגה",
+          "width": 525,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9706295",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706295",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706295/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת-חברים - דוח ממועצת המפלגה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706295",
+                  "label": "אספת-חברים - דוח ממועצת המפלגה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 525
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706294",
+      "@type": "sc:Range",
+      "label": "REP9706294",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706295",
+          "@type": "sc:Canvas",
+          "label": "אספת-חברים - דוח ממועצת המפלגה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267550",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300092/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מנטובה, איטליה. תקנ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מנטובה, איטליה. תקנ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "רושינה, גרשון בן צמח יהודה (חתן) ; ריקה טובה בת דוד חי (כלה) ; עזריאל יצחק בן משה חיים, הלוי (עד) ; רומנילי, בנציון מנחם בן משה יוסף (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מנטובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300092"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד בסיון תקנ\"ה (1795)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 505X415 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mantua, Italy. 1795"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300092"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300092/sequence/IE9199800",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מנטובה, איטליה, תקנ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465399",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 672,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465399",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465399",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465399/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465399",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 672
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465398",
+      "@type": "sc:Range",
+      "label": "REP9465398",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465399",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300092",
+  "viewingHint": "paged"
+}

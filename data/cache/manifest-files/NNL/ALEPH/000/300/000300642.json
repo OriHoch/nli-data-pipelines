@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300642/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. גונארס, איטליה. תקצ\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. גונארס, איטליה. תקצ\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקב בן משה זאכס מעטץ (חתן) ; לוצטו, שרה בת משה רפאל (כלה) ; אליעזר בן יואל עט (עד) ; פורמיגגיני, יחיאל בנימין (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "גונארץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300642"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז בניסן תקצ\"ד (1834)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 685X508מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Gonars, Italy. 1834"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300642"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300642/sequence/IE9203166",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. גונארץ, איטליה, תקצ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466322",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 601,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466322",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466322",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466322/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466322",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 601
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466321",
+      "@type": "sc:Range",
+      "label": "REP9466321",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466322",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300642",
+  "viewingHint": "paged"
+}

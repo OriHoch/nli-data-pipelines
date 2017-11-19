@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300203/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ג'רבה, תוניסיה. תרנ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ג'רבה, תוניסיה. תרנ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "בניהו בן אברהם, הכהן (חתן) ; צ'יאמנטא בת שלום, הכהן (כלה) ; חדאד, כמוס (עד) ; סופיר, חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ג'ירבא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300203"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כ באדר תרנ\"ג (1893)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 220X150 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ḥawmat al-Sūq, Tunisia. 1893"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300203"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300203/sequence/IE9203639",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ג&apos;רבה, תוניסיה, תרנ&quot;ג].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468400",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ג&apos;רבה; תוניסיה; תרנג].",
+          "width": 560,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468400",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468400",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468400/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ג&apos;רבה; תוניסיה; תרנג].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468400",
+                  "label": "[כתובה. ג&apos;רבה; תוניסיה; תרנג].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 560
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468391",
+      "@type": "sc:Range",
+      "label": "REP9468391",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468400",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ג&apos;רבה; תוניסיה; תרנג]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300203",
+  "viewingHint": "paged"
+}

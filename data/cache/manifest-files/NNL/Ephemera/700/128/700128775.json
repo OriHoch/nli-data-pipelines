@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700128775/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Infrastructure (Economics) -- Israel; עיריה - עיריות - מוניציפאלי; תשתיות; מים; Municipality; Water; תל אביב",
+  "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Infrastructure (Economics) -- Israel; עיריה - עיריות - מוניציפאלי; תשתיות; מים; Municipality; Water; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700128775"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700128775"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700128775/sequence/IE10910154",
+      "@type": "sc:Sequence",
+      "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989429",
+          "@type": "sc:Canvas",
+          "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22",
+          "width": 502,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10989429",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10989429",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10989429/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10989429",
+                  "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 502
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10989428",
+      "@type": "sc:Range",
+      "label": "REP10989428",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989429",
+          "@type": "sc:Canvas",
+          "label": "על הספקת המים ובזבוזם - מודעה עירונית מס' 22"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700128775",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300259/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוכרה, אוזבקיסטן. תרמ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוכרה, אוזבקיסטן. תרמ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "משה בן יהודה, הלוי (חתן) ; עיאס, אסתר בת פינחס, הלוי (כלה) ; חיים, כהן (עד) ; זירכי, יצחק בן אהרן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוכרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300259"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בשבט תרמ\"ז (1887)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 320X200 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bukhoro, Uzbekistan. 1887"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300259"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300259/sequence/IE9205478",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוכרה, אוזבקיסטן, תרמ&quot;ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467745",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 506,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467745",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467745",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467745/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467745",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 506
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467744",
+      "@type": "sc:Range",
+      "label": "REP9467744",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467745",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300259",
+  "viewingHint": "paged"
+}

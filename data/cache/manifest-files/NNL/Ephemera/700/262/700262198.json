@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262198/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אברמוביץ; הרצאה; ספרות; פוליטיקה; שלום ובטחון; סוציאליזם",
+  "label": "הרצאה - המשא ומתן - היהודי-ערבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - המשא ומתן - היהודי-ערבי"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ציון והחוגים המרכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אברמוביץ; הרצאה; ספרות; פוליטיקה; שלום ובטחון; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262198"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262198"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262198/sequence/IE9164452",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - המשא ומתן - היהודי-ערבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179940",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - המשא ומתן - היהודי-ערבי",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179940",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179940",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179940/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - המשא ומתן - היהודי-ערבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179940",
+                  "label": "הרצאה - המשא ומתן - היהודי-ערבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179939",
+      "@type": "sc:Range",
+      "label": "REP9179939",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179940",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - המשא ומתן - היהודי-ערבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262198",
+  "viewingHint": "paged"
+}

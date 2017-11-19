@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301127/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יזד, איראן. תרנ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יזד, איראן. תרנ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "רחמים בן עזרא (חתן) ; שרה בת יצחק (כלה) ; משה בן יצחק בן אור שרגא (עד) ; אברהם בן גד (עד) ; אלעזר בן יצחק (עד) ; יחזקאל בן אקאי (עד) ; רביע, אברהם בן יוסף (עד) ; יוסף בן אוה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יזד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301127"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז בניסן תרנ\"ד (1894)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 687X443 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Yazd, Iran. 1894"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301127"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301127/sequence/IE9129258",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יזד, איראן, תרנ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156740",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 555,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156740",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156740",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156740/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156740",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 555
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301127/sequence/IE9203679",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יזד, איראן, תרנ&quot;ד]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156739",
+      "@type": "sc:Range",
+      "label": "REP9156739",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156740",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301127",
+  "viewingHint": "paged"
+}

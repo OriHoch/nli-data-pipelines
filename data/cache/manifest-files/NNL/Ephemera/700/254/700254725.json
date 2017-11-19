@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254725/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; אמיל ונדרוילדה (מרצה); כרטיס כניסה; הרצאה",
+  "label": "כרטיס-כניסה - אמיל ונדרוילדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כרטיס-כניסה - אמיל ונדרוילדה"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; אמיל ונדרוילדה (מרצה); כרטיס כניסה; הרצאה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254725"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254725"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254725/sequence/IE9106679",
+      "@type": "sc:Sequence",
+      "label": "כרטיס-כניסה - אמיל ונדרוילדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9115100",
+          "@type": "sc:Canvas",
+          "label": "כרטיס-כניסה - אמיל ונדרוילדה",
+          "width": 800,
+          "height": 511,
+          "images": [
+            {
+              "@id": "FL9115100",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9115100",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9115100/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כרטיס-כניסה - אמיל ונדרוילדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9115100",
+                  "label": "כרטיס-כניסה - אמיל ונדרוילדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 511,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9115099",
+      "@type": "sc:Range",
+      "label": "REP9115099",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9115100",
+          "@type": "sc:Canvas",
+          "label": "כרטיס-כניסה - אמיל ונדרוילדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254725",
+  "viewingHint": "paged"
+}

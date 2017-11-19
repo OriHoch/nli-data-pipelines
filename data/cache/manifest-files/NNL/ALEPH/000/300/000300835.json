@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300835/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוגומיווביצה, פולין. תרס\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוגומיווביצה, פולין. תרס\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "אליהו בן זאב, הכהן (חתן) ; שרה חיה בת שמואל שרגא (כלה) ; יצחק אריה בן שלום (עד) ; דוד בן אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "באגאמילוויצע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300835"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג בטבת תרס\"ט (1908)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 304X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bogumilowice, Poland. 1908"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300835"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300835/sequence/IE9223077",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוגומילוביצע, פולין, תרס&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470782",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 554,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470782",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470782",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470782/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470782",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 554
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470781",
+      "@type": "sc:Range",
+      "label": "REP9470781",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470782",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300835",
+  "viewingHint": "paged"
+}

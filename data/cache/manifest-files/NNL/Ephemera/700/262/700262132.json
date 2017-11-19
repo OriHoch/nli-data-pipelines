@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262132/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "י. יצחקי (אחראי); פוליטיקה; ההסתדרות; השלטון הבריטי",
+  "label": "למה עזבנו את ועידת ההסתדרות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "למה עזבנו את ועידת ההסתדרות"
+    },
+    {
+      "label": "Publisher",
+      "value": "סיעת פועלי ציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "י. יצחקי (אחראי); פוליטיקה; ההסתדרות; השלטון הבריטי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262132"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262132"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262132/sequence/IE9167634",
+      "@type": "sc:Sequence",
+      "label": "למה עזבנו את ועידת ההסתדרות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180135",
+          "@type": "sc:Canvas",
+          "label": "למה עזבנו את ועידת ההסתדרות",
+          "width": 800,
+          "height": 537,
+          "images": [
+            {
+              "@id": "FL9180135",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180135",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180135/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "למה עזבנו את ועידת ההסתדרות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180135",
+                  "label": "למה עזבנו את ועידת ההסתדרות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 537,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180134",
+      "@type": "sc:Range",
+      "label": "REP9180134",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180135",
+          "@type": "sc:Canvas",
+          "label": "למה עזבנו את ועידת ההסתדרות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262132",
+  "viewingHint": "paged"
+}

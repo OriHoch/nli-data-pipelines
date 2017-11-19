@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260962/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; משה בלוי (רב),יצחק ברויער (ד\"ר),א. דויטש,(ד\"ר,נשיא אגודת ישראל באונגריה),נפתלי לב עוזר (רב צבאי),יעקב לנדוי; אסיפה; הרצאה",
+  "label": "אספת-עם - לונדון-ירושלים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת-עם - לונדון-ירושלים."
+    },
+    {
+      "label": "Publisher",
+      "value": "הסתדרות פועלי אגודת ישראל בארץ ישראל,סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; משה בלוי (רב),יצחק ברויער (ד\"ר),א. דויטש,(ד\"ר,נשיא אגודת ישראל באונגריה),נפתלי לב עוזר (רב צבאי),יעקב לנדוי; אסיפה; הרצאה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260962"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260962"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260962/sequence/IE9159898",
+      "@type": "sc:Sequence",
+      "label": "אספת-עם - לונדון-ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9169959",
+          "@type": "sc:Canvas",
+          "label": "אספת-עם - לונדון-ירושלים",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9169959",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9169959",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9169959/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת-עם - לונדון-ירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9169959",
+                  "label": "אספת-עם - לונדון-ירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9169958",
+      "@type": "sc:Range",
+      "label": "REP9169958",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9169959",
+          "@type": "sc:Canvas",
+          "label": "אספת-עם - לונדון-ירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260962",
+  "viewingHint": "paged"
+}

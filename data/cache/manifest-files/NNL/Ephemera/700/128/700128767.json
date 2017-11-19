@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700128767/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Education -- Israel; עיריה - עיריות - מוניציפאלי; חינוך; גנים; Municipality; תל אביב",
+  "label": "גני הילדים עירוניים נפתחים מחר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גני הילדים עירוניים נפתחים מחר"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Education -- Israel; עיריה - עיריות - מוניציפאלי; חינוך; גנים; Municipality; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700128767"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700128767"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700128767/sequence/IE10910101",
+      "@type": "sc:Sequence",
+      "label": "גני הילדים עירוניים נפתחים מחר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992094",
+          "@type": "sc:Canvas",
+          "label": "גני הילדים עירוניים נפתחים מחר",
+          "width": 800,
+          "height": 380,
+          "images": [
+            {
+              "@id": "FL10992094",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10992094",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10992094/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גני הילדים עירוניים נפתחים מחר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10992094",
+                  "label": "גני הילדים עירוניים נפתחים מחר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 380,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10992093",
+      "@type": "sc:Range",
+      "label": "REP10992093",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992094",
+          "@type": "sc:Canvas",
+          "label": "גני הילדים עירוניים נפתחים מחר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700128767",
+  "viewingHint": "paged"
+}

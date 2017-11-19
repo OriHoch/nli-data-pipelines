@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700137125/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חתונה של בני קוצין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חתונה של בני קוצין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "מושב מסילות ציון"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700137125"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700137125"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700137125/sequence/IE6428004",
+      "@type": "sc:Sequence",
+      "label": "חתונה של בני קוצין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10412767",
+          "@type": "sc:Canvas",
+          "label": "חתונה של בני קוצין",
+          "width": 800,
+          "height": 799,
+          "images": [
+            {
+              "@id": "FL10412767",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10412767",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10412767/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חתונה של בני קוצין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10412767",
+                  "label": "חתונה של בני קוצין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 799,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10412766",
+      "@type": "sc:Range",
+      "label": "REP10412766",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10412767",
+          "@type": "sc:Canvas",
+          "label": "חתונה של בני קוצין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700137125",
+  "viewingHint": "paged"
+}

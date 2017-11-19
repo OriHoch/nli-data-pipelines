@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253487/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; חברה; פוליטיקה",
+  "label": "תשובה גלויה! למזכירות מועצת פועלי יפו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תשובה גלויה! למזכירות מועצת פועלי יפו"
+    },
+    {
+      "label": "Publisher",
+      "value": "סיעת פועלי-ציון במועצת פועלי יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; חברה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253487"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253487"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253487/sequence/IE9063128",
+      "@type": "sc:Sequence",
+      "label": "תשובה גלויה! למזכירות מועצת פועלי יפו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070870",
+          "@type": "sc:Canvas",
+          "label": "תשובה גלויה! למזכירות מועצת פועלי יפו",
+          "width": 533,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9070870",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070870",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070870/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תשובה גלויה! למזכירות מועצת פועלי יפו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070870",
+                  "label": "תשובה גלויה! למזכירות מועצת פועלי יפו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 533
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070869",
+      "@type": "sc:Range",
+      "label": "REP9070869",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070870",
+          "@type": "sc:Canvas",
+          "label": "תשובה גלויה! למזכירות מועצת פועלי יפו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253487",
+  "viewingHint": "paged"
+}

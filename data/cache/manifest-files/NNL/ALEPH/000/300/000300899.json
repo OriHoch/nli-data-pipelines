@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300899/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוכרה, אוזבקיסטן. תרכ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוכרה, אוזבקיסטן. תרכ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "בנימין בן משה ברוך, הכהן (חתן) ; חנה בת משה (כלה) ; מתתיהו בן משה (עד) ; בארי, יוסף בן משה אליה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוכרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300899"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א בטבת תרכ\"ב (1861)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 434X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bukhoro, Uzbekistan. 1861"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300899"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300899/sequence/IE9128982",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוכרה, אוזבקיסטן, תרכ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156580",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 698,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156580",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156580",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156580/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156580",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 698
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300899/sequence/IE9203289",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוכרה, אוזבקיסטן, תרכ&quot;ב]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156579",
+      "@type": "sc:Range",
+      "label": "REP9156579",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156580",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300899",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303869/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טרנוב, פולין. תרמ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טרנוב, פולין. תרמ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "פיש, אשר ישעיהו בן יחיאל אוכל (חתן) ; בלוינאר, דבורה בת יצחק (כלה) ; אליהו בן יהודה ליב (עד) ; טננבוים, יחזקאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טארנא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303869"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרמ\"ב (1882)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 229X290 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tarnow, Poland. 1882"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303869"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303869/sequence/IE9195424",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טרנוב; פולין; תרמב].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462756",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 633,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462756",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462756",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462756/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462756",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 633
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462755",
+      "@type": "sc:Range",
+      "label": "REP9462755",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462756",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303869",
+  "viewingHint": "paged"
+}

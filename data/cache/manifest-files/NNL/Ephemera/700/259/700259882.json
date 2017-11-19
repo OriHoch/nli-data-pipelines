@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259882/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; מחאה; פוליטיקה",
+  "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון),הועד המרכזי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; מחאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259882"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259882"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259882/sequence/IE9168468",
+      "@type": "sc:Sequence",
+      "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182176",
+          "@type": "sc:Canvas",
+          "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית! ",
+          "width": 602,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9182176",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9182176",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9182176/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית! ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9182176",
+                  "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית! ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 602
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9182175",
+      "@type": "sc:Range",
+      "label": "REP9182175",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182176",
+          "@type": "sc:Canvas",
+          "label": "לכל הפועלים בארץ! - הלאה הסתה הפוגרומית! "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259882",
+  "viewingHint": "paged"
+}

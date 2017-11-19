@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136278/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "פיזנר, אלן",
+  "label": "סטודנטים מארה\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סטודנטים מארה\"ב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "פיזנר, אלן",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136278"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136278"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136278/sequence/IE6422975",
+      "@type": "sc:Sequence",
+      "label": "סטודנטים מארה\"ב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408833",
+          "@type": "sc:Canvas",
+          "label": "סטודנטים מארהב",
+          "width": 800,
+          "height": 779,
+          "images": [
+            {
+              "@id": "FL10408833",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10408833",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10408833/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סטודנטים מארהב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10408833",
+                  "label": "סטודנטים מארהב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 779,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10408832",
+      "@type": "sc:Range",
+      "label": "REP10408832",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408833",
+          "@type": "sc:Canvas",
+          "label": "סטודנטים מארהב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136278",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303171/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תילונת, מרוקו. תרע\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תילונת, מרוקו. תרע\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "סבאג, משה בן מסעוד (חתן) ; סויסא, חשיבא בת מכלוף בן משה (כלה) ; חיון, אברהם בר מהר\"א (עד) ; רביבו, שמעון בן אליהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תאלעינת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303171"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באלול תרע\"ח (1918)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 265X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Telouet, Morocco. 1918"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303171"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303171/sequence/IE9205201",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תלענת, מרוקו, תרצ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468617",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 581,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468617",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468617",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468617/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468617",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 581
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468616",
+      "@type": "sc:Range",
+      "label": "REP9468616",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468617",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303171",
+  "viewingHint": "paged"
+}

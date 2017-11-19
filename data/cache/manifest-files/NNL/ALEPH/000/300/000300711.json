@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300711/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רחובות, ישראל. תש\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רחובות, ישראל. תש\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "שרעבי, חזקיה בן והב (חתן) ; מזרחי, מזל רבקה בת יצחק (כלה) ; לולוי, סלימאן יחיא (עד) ; מעברי, שלמה יוסף (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רחובות. שעריים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300711"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח בתשרי תש\"ב (1941)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 440X280 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rehovot, Israel. 1941"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300711"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300711/sequence/IE9128802",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רחובות, ארץ ישראל, תש&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156758",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 522,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156758",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156758",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156758/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156758",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 522
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300711/sequence/IE9203022",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רחובות, ארץ ישראל, תש&quot;ב]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156757",
+      "@type": "sc:Range",
+      "label": "REP9156757",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156758",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300711",
+  "viewingHint": "paged"
+}

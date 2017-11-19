@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300014/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אתונה, יוון. תרפ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אתונה, יוון. תרפ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "קארלו בן מרדכי, כהן (חתן) ; שאקיס, מינה בת בכור (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אתינה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300014"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד בכסלו תרפ\"ב (1921)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 670X452 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Athens, Greece. 1921"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300014"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300014/sequence/IE9202684",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אתונה, יוון, תרפ&quot;ב].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466523",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 547,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466523",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466523",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466523/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466523",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 547
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466522",
+      "@type": "sc:Range",
+      "label": "REP9466522",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466523",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300014",
+  "viewingHint": "paged"
+}

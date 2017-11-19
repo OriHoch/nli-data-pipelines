@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302447/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרצ\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרצ\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקבי, ינקל בן מיכאל (חתן) ; אג'יקוקא, חנה בת יצחק (כלה) ; ביניא, מיכאל (עד) ; חסידוף, דניאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302447"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י באלול תרצ\"ח (1938)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X352 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 1938"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302447"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302447/sequence/IE9206603",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל, תרצ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468843",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 568,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468843",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468843",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468843/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468843",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 568
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468842",
+      "@type": "sc:Range",
+      "label": "REP9468842",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468843",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302447",
+  "viewingHint": "paged"
+}

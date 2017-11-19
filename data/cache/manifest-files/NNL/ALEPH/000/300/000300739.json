@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300739/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אל צרם, תימן. תרנ\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אל צרם, תימן. תרנ\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "אבראהים בן יעקב (חתן) ; אלאבדר, סעידה בת סאלם (כלה) ; יוסף בן דאוד (עד) ; חיים בן יחיא (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אל-צרם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300739"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טז בשבט ב'ר\"ז לשטרות (1896)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 247X175 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300739"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300739/sequence/IE9205996",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אל צרם, תימן, תרנ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468375",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 571,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468375",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 571
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468374",
+      "@type": "sc:Range",
+      "label": "REP9468374",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468375",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300739",
+  "viewingHint": "paged"
+}

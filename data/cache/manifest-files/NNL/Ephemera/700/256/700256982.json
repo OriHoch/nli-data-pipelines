@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256982/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב-יפו; תעסוקה; אבטלה; כלכלה",
+  "label": "לכל צבור העובדים ביפו!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל צבור העובדים ביפו!"
+    },
+    {
+      "label": "Publisher",
+      "value": "ההסתדרות הכללית של העובדים העברים בארץ-ישראל-מועצת פועלי יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב-יפו; תעסוקה; אבטלה; כלכלה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256982"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1920"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256982"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256982/sequence/IE9065499",
+      "@type": "sc:Sequence",
+      "label": "לכל צבור העובדים ביפו!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071563",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור העובדים ביפו! ",
+          "width": 443,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9071563",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071563",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071563/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל צבור העובדים ביפו! ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071563",
+                  "label": "לכל צבור העובדים ביפו! ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 443
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071559",
+      "@type": "sc:Range",
+      "label": "REP9071559",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071563",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור העובדים ביפו! "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256982",
+  "viewingHint": "paged"
+}

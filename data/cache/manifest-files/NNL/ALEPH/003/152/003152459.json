@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003152459/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. זיבריטץ, פולין. תר\"ס.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. זיבריטץ, פולין. תר\"ס."
+    },
+    {
+      "label": "Contributor",
+      "value": "כץ, רפאל זאב בן ישכר בער (חתן) ; סגל, הענא אסתר בת עקיבא (כלה) ; יצחק ישכר בן יהושע העשל (עד) ; קלין, פינחס בן צבי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר זיבריטץ : זופניק, קנטללער עט האמערשמיד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003152459"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד בכסלו תר\"ס (1899)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דף : מסגרת בדפוס ; 340X213 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Siebritz (?), Poland. 1899"
+    },
+    {
+      "label": "SysNum",
+      "value": "003152459"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003152459/sequence/IE9196783",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. זיבריטץ; פולין; תר&quot;ס].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463463",
+          "@type": "sc:Canvas",
+          "label": "3152459",
+          "width": 800,
+          "height": 655,
+          "images": [
+            {
+              "@id": "FL9463463",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463463",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463463/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3152459",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463463",
+                  "label": "3152459",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 655,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463462",
+      "@type": "sc:Range",
+      "label": "REP9463462",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463463",
+          "@type": "sc:Canvas",
+          "label": "3152459"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003152459",
+  "viewingHint": "paged"
+}

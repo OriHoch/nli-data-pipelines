@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300188/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תילית, מרוקו. תרפ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תילית, מרוקו. תרפ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "מלכה, דוד בן חיים (חתן) ; פחימה, סוליכה בת מאיר (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תיילית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300188"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח באלול תרפ\"ט (1929)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 230X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tillit, Morocco. 1929"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300188"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300188/sequence/IE9206076",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תילית, מרוקו, תרפ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468864",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 639,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468864",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468864",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468864/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468864",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 639
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468863",
+      "@type": "sc:Range",
+      "label": "REP9468863",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468864",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300188",
+  "viewingHint": "paged"
+}

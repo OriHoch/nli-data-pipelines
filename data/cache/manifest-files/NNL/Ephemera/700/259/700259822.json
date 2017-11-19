@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259822/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מגדר; נשים; פוליטיקה",
+  "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל צבור הפועלות - יום הפועלת הבין לאומי."
+    },
+    {
+      "label": "Publisher",
+      "value": "ועדת הפועלות שע\"י מפלגת פועלי א\"י (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מגדר; נשים; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259822"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259822"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259822/sequence/IE9229510",
+      "@type": "sc:Sequence",
+      "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231407",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי",
+          "width": 747,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9231407",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9231407",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9231407/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9231407",
+                  "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 747
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9231406",
+      "@type": "sc:Range",
+      "label": "REP9231406",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231407",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור הפועלות - יום הפועלת הבין לאומי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259822",
+  "viewingHint": "paged"
+}

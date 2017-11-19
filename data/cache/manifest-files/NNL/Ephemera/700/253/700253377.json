@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253377/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; אסיפה; בחירות",
+  "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; אסיפה; בחירות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253377"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253377"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253377/sequence/IE9063736",
+      "@type": "sc:Sequence",
+      "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071810",
+          "@type": "sc:Canvas",
+          "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים",
+          "width": 800,
+          "height": 527,
+          "images": [
+            {
+              "@id": "FL9071810",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071810",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071810/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071810",
+                  "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 527,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071807",
+      "@type": "sc:Range",
+      "label": "REP9071807",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071810",
+          "@type": "sc:Canvas",
+          "label": "אספת חברי הסניף - המשך הבירור על מצע הבחירות למועצת פועלי ירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253377",
+  "viewingHint": "paged"
+}

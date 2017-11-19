@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700111923/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Infrastructure (Economics) -- Israel; Transportation -- Israel; תשתיות; עיריה - עיריות - מוניציפאלי; תחבורה; Urban Ad",
+  "label": "אל תושבי עירנו - שרות האוטובוסים הצבוריים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אל תושבי עירנו - שרות האוטובוסים הצבוריים"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Infrastructure (Economics) -- Israel; Transportation -- Israel; תשתיות; עיריה - עיריות - מוניציפאלי; תחבורה; Urban Ad"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700111923"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700111923"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700111923/sequence/IE5027410",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394986",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 616,
+          "images": [
+            {
+              "@id": "FL5394986",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5394986",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5394986/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5394986",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 616,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5394985",
+      "@type": "sc:Range",
+      "label": "REP5394985",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394986",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700111923",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303083/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ניו יורק, ניו יורק. תרצ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ניו יורק, ניו יורק. תרצ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "ברנהרד, יצחק יוסף בן שלמה (חתן) ; רוזן, בונה בת ישראל הלוי (כלה) ; צבי הירש, הכהן (עד) ; ויטמן, שלמה בן מתתיהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "נו יארק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303083"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בתמוז תרצ\"א (1931)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 466X370 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. New York, N.Y. 1931"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303083"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303083/sequence/IE9202195",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ניו יורק, ארצות הברית, תרצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465267",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 646,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465267",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465267",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465267/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465267",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 646
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465265",
+      "@type": "sc:Range",
+      "label": "REP9465265",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465267",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303083",
+  "viewingHint": "paged"
+}

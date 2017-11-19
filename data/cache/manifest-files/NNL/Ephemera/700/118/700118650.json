@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700118650/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Lectures and lecturing -- Israel; Israel -- Civilization; Israel -- History; שוהם (ד\"ר); תרבות; היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל -- היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל; הרצאה; בנין הארץ",
+  "label": "תערך במועדון המכבי - הרצאת ד\"ר שוהם - על הנושא - כמות ואיכות בבנין הארץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תערך במועדון המכבי - הרצאת ד\"ר שוהם - על הנושא - כמות ואיכות בבנין הארץ"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Lectures and lecturing -- Israel; Israel -- Civilization; Israel -- History; שוהם (ד\"ר); תרבות; היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל -- היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל; הרצאה; בנין הארץ"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700118650"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700118650"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700118650/sequence/IE5018998",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388196",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 607,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5388196",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5388196",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5388196/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5388196",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 607
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5388195",
+      "@type": "sc:Range",
+      "label": "REP5388195",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388196",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700118650",
+  "viewingHint": "paged"
+}

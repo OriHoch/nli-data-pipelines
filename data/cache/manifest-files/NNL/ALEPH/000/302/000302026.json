@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302026/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מחנה יהודה, פתח תקווה, ישראל. תרצ\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מחנה יהודה, פתח תקווה, ישראל. תרצ\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "עמר, שלמה בן יוסף (חתן) ; כהן, בדרה בת אברהם (כלה) ; גמל, יוסף בן משה (עד) ; רצאבי, יעקב בן דוד (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מחנה יהודה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302026"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בכסלו תרצ\"ח (1937)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 363X245 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mahaneh Yehudah, Petah Tikva, Israel. 1937"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302026"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302026/sequence/IE9199194",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פתח תקוה, מחנה יהודה, ארץ ישראל, תרצ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464752",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 593,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464752",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464752",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464752/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464752",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 593
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464751",
+      "@type": "sc:Range",
+      "label": "REP9464751",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464752",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302026",
+  "viewingHint": "paged"
+}

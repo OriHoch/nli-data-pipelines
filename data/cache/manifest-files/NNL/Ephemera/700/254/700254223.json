@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254223/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מזון; קומוניזם; פועלים; חברה; מחאה; היסטוריה ארץ-ישראלית",
+  "label": "למאסר הספרסים-מרעיבי העם!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "למאסר הספרסים-מרעיבי העם!"
+    },
+    {
+      "label": "Publisher",
+      "value": "המפלגה הקומוניסטית הפלשתינאית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מזון; קומוניזם; פועלים; חברה; מחאה; היסטוריה ארץ-ישראלית"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254223"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254223"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254223/sequence/IE9098395",
+      "@type": "sc:Sequence",
+      "label": "למאסר הספרסים-מרעיבי העם!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9110018",
+          "@type": "sc:Canvas",
+          "label": "למאסר הספרסים-מרעיבי העם! ",
+          "width": 583,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9110018",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9110018",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9110018/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "למאסר הספרסים-מרעיבי העם! ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9110018",
+                  "label": "למאסר הספרסים-מרעיבי העם! ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 583
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9110017",
+      "@type": "sc:Range",
+      "label": "REP9110017",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9110018",
+          "@type": "sc:Canvas",
+          "label": "למאסר הספרסים-מרעיבי העם! "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254223",
+  "viewingHint": "paged"
+}

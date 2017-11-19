@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301225/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Karaites",
+  "label": "כתובה יהודית-קראית. יבפטוריה, אוקראינה. תרכ\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה יהודית-קראית. יבפטוריה, אוקראינה. תרכ\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "מרדכי בן יצחק (חתן) ; ברוכה בת משה (כלה) ; הללוביץ, משה (אבי הכלה) ; ברוכוביץ, יהודה, כהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יגוזלוב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Karaites"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301225"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו באלול תרכ\"ו (1866)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 830X505 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah (Karaite). Evpatoria, Ukraine. 1866"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301225"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301225/sequence/IE9206845",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יבפטוריה, אוקראינה, תרכ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470428",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יבפטוריה; אוקראינה; תרכו]",
+          "width": 497,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470428",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470428",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470428/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. יבפטוריה; אוקראינה; תרכו]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470428",
+                  "label": "[כתובה. יבפטוריה; אוקראינה; תרכו]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 497
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470427",
+      "@type": "sc:Range",
+      "label": "REP9470427",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470428",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יבפטוריה; אוקראינה; תרכו]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301225",
+  "viewingHint": "paged"
+}

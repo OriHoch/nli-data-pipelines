@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259881/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פוליטיקה; מלחמה",
+  "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון),הועד המרכזי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פוליטיקה; מלחמה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259881"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259881"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259881/sequence/IE9168527",
+      "@type": "sc:Sequence",
+      "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181598",
+          "@type": "sc:Canvas",
+          "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן",
+          "width": 572,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9181598",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9181598",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9181598/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9181598",
+                  "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 572
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9181597",
+      "@type": "sc:Range",
+      "label": "REP9181597",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181598",
+          "@type": "sc:Canvas",
+          "label": "צום 1 אוגוסט - אלע קעגן די קריגם-געתארן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259881",
+  "viewingHint": "paged"
+}

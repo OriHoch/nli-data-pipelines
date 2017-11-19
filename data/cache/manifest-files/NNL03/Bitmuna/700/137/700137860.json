@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700137860/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מצעד 1 במאי בירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצעד 1 במאי בירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700137860"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1955"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700137860"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700137860/sequence/IE6426765",
+      "@type": "sc:Sequence",
+      "label": "מצעד 1 במאי בירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10412081",
+          "@type": "sc:Canvas",
+          "label": "מצעד 1 במאי בירושלים",
+          "width": 800,
+          "height": 799,
+          "images": [
+            {
+              "@id": "FL10412081",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10412081",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10412081/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצעד 1 במאי בירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10412081",
+                  "label": "מצעד 1 במאי בירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 799,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10412080",
+      "@type": "sc:Range",
+      "label": "REP10412080",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10412081",
+          "@type": "sc:Canvas",
+          "label": "מצעד 1 במאי בירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700137860",
+  "viewingHint": "paged"
+}

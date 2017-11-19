@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003255821/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ביילבה, פולין. תש\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ביילבה, פולין. תש\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "שמואל בן חנוך (חתן) ; רבקה בת הרצקי (כלה) ; גרבינא, חיים בער (עד) ; רוטברד, מרדכי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ביעלאווא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003255821"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז באדר ב תש\"ו (1946)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 293X208 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bielawa, Poland. 1946"
+    },
+    {
+      "label": "SysNum",
+      "value": "003255821"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003255821/sequence/IE9196790",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. בילאווא; פולין; תש&quot;ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463498",
+          "@type": "sc:Canvas",
+          "label": "3255821",
+          "width": 578,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463498",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463498",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463498/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3255821",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463498",
+                  "label": "3255821",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 578
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463497",
+      "@type": "sc:Range",
+      "label": "REP9463497",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463498",
+          "@type": "sc:Canvas",
+          "label": "3255821"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003255821",
+  "viewingHint": "paged"
+}

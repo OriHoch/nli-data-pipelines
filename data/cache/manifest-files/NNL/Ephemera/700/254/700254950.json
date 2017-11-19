@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254950/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "נס ציונה; ד. בן אפרים (אחראי); סכסוך עבודה; שביתה",
+  "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון"
+    },
+    {
+      "label": "Publisher",
+      "value": "הועד המרכזי של מפלגת פועלי א\"י פועלי ציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "נס ציונה; ד. בן אפרים (אחראי); סכסוך עבודה; שביתה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254950"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254950"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254950/sequence/IE9127893",
+      "@type": "sc:Sequence",
+      "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9133458",
+          "@type": "sc:Canvas",
+          "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון",
+          "width": 586,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9133458",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9133458",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9133458/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9133458",
+                  "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 586
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9133457",
+      "@type": "sc:Range",
+      "label": "REP9133457",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9133458",
+          "@type": "sc:Canvas",
+          "label": "לעזרת הפועלים הערבים השובתים בנס-ציונה! - לקרן השביתה והארגון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254950",
+  "viewingHint": "paged"
+}

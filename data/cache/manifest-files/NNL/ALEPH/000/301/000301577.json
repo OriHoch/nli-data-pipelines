@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301577/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פולין. אחרי תרנ\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פולין. אחרי תרנ\"ד"
+    },
+    {
+      "label": "Publisher",
+      "value": "פולין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301577"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרנ\"ד (1894)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 230X190 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Poland. after 1894"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301577"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301577/sequence/IE9198174",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פולין, אחרי תרנ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463232",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 613,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463232",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463232",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463232/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463232",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463231",
+      "@type": "sc:Range",
+      "label": "REP9463231",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463232",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301577",
+  "viewingHint": "paged"
+}

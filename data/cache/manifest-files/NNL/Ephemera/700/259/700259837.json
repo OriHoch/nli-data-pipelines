@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259837/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ב. בןרןכןב,ישראל,ג'ורג',ניר,ערעם,צוקר; אזכרה",
+  "label": "אספת אזכרה לב. בורוכוב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת אזכרה לב. בורוכוב."
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ב. בןרןכןב,ישראל,ג'ורג',ניר,ערעם,צוקר; אזכרה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259837"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259837"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259837/sequence/IE9170965",
+      "@type": "sc:Sequence",
+      "label": "אספת אזכרה לב. בורוכוב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181394",
+          "@type": "sc:Canvas",
+          "label": "אספת אזכרה לב. בורוכוב",
+          "width": 604,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9181394",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9181394",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9181394/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת אזכרה לב. בורוכוב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9181394",
+                  "label": "אספת אזכרה לב. בורוכוב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 604
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9181393",
+      "@type": "sc:Range",
+      "label": "REP9181393",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181394",
+          "@type": "sc:Canvas",
+          "label": "אספת אזכרה לב. בורוכוב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259837",
+  "viewingHint": "paged"
+}

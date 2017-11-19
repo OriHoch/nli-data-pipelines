@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300768/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צפת, ישראל. תרל\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צפת, ישראל. תרל\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "מזרחי, ראובן בן אברהם (חתן) ; מזרחי, כ'אתון בת אגא כ'אן (כלה) ; ואעיש, ישועה (עד) ; ישמעאל, הכהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צפת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300768"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו באלול תרל\"ד (1874)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 302X205 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tsefat, Israel. 1874"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300768"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300768/sequence/IE9215135",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צפת, ארץ ישראל, תרל&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469462",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. צפת; ארץ ישראל; תרלד]",
+          "width": 565,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469462",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469462",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469462/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. צפת; ארץ ישראל; תרלד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469462",
+                  "label": "[כתובה. צפת; ארץ ישראל; תרלד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 565
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469461",
+      "@type": "sc:Range",
+      "label": "REP9469461",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469462",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. צפת; ארץ ישראל; תרלד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300768",
+  "viewingHint": "paged"
+}

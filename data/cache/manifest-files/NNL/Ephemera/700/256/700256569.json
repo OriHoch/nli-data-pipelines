@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256569/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; כנס; מועמדים ורשימות; פוליטיקה; ציונות",
+  "label": "אספה פומבית - לקראת הקונגרס הציוני הי\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - לקראת הקונגרס הציוני הי\"ז"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; כנס; מועמדים ורשימות; פוליטיקה; ציונות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256569"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256569"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256569/sequence/IE9066067",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - לקראת הקונגרס הציוני הי\"ז",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069741",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - לקראת הקונגרס הציוני היז",
+          "width": 602,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069741",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069741",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069741/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - לקראת הקונגרס הציוני היז",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069741",
+                  "label": "אספה פומבית - לקראת הקונגרס הציוני היז",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 602
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069739",
+      "@type": "sc:Range",
+      "label": "REP9069739",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069741",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - לקראת הקונגרס הציוני היז"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256569",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003495540/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלכסנדריה, מצרים. תש\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלכסנדריה, מצרים. תש\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "אבולעפיה, חיים ויקטור בן יצחק (חתן) ; ששון, לוסי בת יוסף (כלה) ; אנג'ל, אהרן, מאלכסנדריה (עד) ; אבן עטר, מימון, 1867-1958 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "נא אמון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003495540"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה בתשרי תש\"ד (1943)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 400X306 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Alexandria, Egypt. 1943"
+    },
+    {
+      "label": "SysNum",
+      "value": "003495540"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003495540/sequence/IE9195675",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. אלכסנדריה; מצרים; תש&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463544",
+          "@type": "sc:Canvas",
+          "label": "3495540",
+          "width": 619,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463544",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463544",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463544/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3495540",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463544",
+                  "label": "3495540",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 619
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463543",
+      "@type": "sc:Range",
+      "label": "REP9463543",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463544",
+          "@type": "sc:Canvas",
+          "label": "3495540"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003495540",
+  "viewingHint": "paged"
+}

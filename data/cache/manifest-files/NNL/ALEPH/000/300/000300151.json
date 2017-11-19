@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300151/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. שיראז, איראן. תרנ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. שיראז, איראן. תרנ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד בן זרחי (חתן) ; כ'אטון ג'אן בת מאיר (כלה) ; אבאבא בן יוסף (עד) ; אהרן בן מור אברהם (עד) ; אג'א בן באבא בן ב'נצ'י שאול (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "שיראז"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300151"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה בכסלו תרנ\"ט (1898)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 355X225 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Shiraz, Iran. 1898"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300151"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300151/sequence/IE9207171",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. שירז, איראן, תרנ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470017",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 525,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470017",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470017",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470017/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470017",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 525
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470015",
+      "@type": "sc:Range",
+      "label": "REP9470015",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470017",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300151",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302914/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בומבי, הודו. תש\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בומבי, הודו. תש\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "אשטמכר, רחמים בן דוד (חתן) ; נגוכר, בת שבע בת דניאל (כלה) ; שפמכר, שלום בנימין (עד) ; אוושכר, אליה יעקב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בומבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302914"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה באייר תש\"ג (1943)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X340 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bombay, India. 1943"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302914"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302914/sequence/IE9198042",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בומבי, הודו, תש&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462229",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 547,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462229",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462229",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462229/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462229",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 547
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462228",
+      "@type": "sc:Range",
+      "label": "REP9462228",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462229",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302914",
+  "viewingHint": "paged"
+}

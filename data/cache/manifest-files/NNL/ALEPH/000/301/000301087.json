@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301087/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. תקצ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. תקצ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "מנולא, יעקב יוסף חיים בן שבתי רפאל (חתן) ; קפואה, סמירלדה בת משה יצחק (כלה) ; מילנו, משה ברוך בן יהודה (עד) ; מנש, שלמה דוד בן שבתי מיכאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301087"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז באב תקצ\"א (1831)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 790X550 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1831"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301087"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301087/sequence/IE9129203",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, תקצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156738",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 600,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156738",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156738",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156738/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156738",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 600
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301087/sequence/IE9203593",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, תקצ&quot;א]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156737",
+      "@type": "sc:Range",
+      "label": "REP9156737",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156738",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301087",
+  "viewingHint": "paged"
+}

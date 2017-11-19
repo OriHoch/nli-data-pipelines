@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262208/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; ערם; הרצאה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל פועלי ציון - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; ערם; הרצאה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262208"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262208"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262208/sequence/IE9168878",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179308",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179308",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179308",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179308/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179308",
+                  "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179306",
+      "@type": "sc:Range",
+      "label": "REP9179306",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179308",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - על המצב (המלחמה מבחוץ ומבפנים)"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262208",
+  "viewingHint": "paged"
+}

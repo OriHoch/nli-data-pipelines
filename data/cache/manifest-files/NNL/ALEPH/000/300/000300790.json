@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300790/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רדאע, תימן. תש\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רדאע, תימן. תש\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלנגאר, מחפוץ בן יעקב אוץ' (חתן) ; אלנגאר, שמס בת מוסא בן מנצור (כלה) ; נסים בן צאלח בנימין (עד) ; עואץ, שמעון צאלח (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קאע גרן אלקבאייל כ'ארז רדאע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300790"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו באב ב'רנ\"ז לשטרות (1946)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 300X215 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ridāʻ, Yemen. 1946"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300790"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300790/sequence/IE9207883",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רדאע, תימן, תש&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469307",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 603,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469307",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469307",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469307/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469307",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 603
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469306",
+      "@type": "sc:Range",
+      "label": "REP9469306",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469307",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300790",
+  "viewingHint": "paged"
+}

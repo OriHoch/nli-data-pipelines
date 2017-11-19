@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262206/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; שמעוני; הרצאה; לאומיות; סוציאליזם",
+  "label": "הרצאה - בנתיבי הגולה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - בנתיבי הגולה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל פועלי ציון - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; שמעוני; הרצאה; לאומיות; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262206"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262206"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262206/sequence/IE9168984",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - בנתיבי הגולה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180025",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - בנתיבי הגולה",
+          "width": 527,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180025",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180025",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180025/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - בנתיבי הגולה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180025",
+                  "label": "הרצאה - בנתיבי הגולה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180024",
+      "@type": "sc:Range",
+      "label": "REP9180024",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180025",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - בנתיבי הגולה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262206",
+  "viewingHint": "paged"
+}

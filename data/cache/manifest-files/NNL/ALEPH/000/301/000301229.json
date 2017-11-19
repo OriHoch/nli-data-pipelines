@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301229/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טקירדא, טורקיה. תרנ\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טקירדא, טורקיה. תרנ\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "ירושלמי, אברהם בן נסים עזרא (חתן) ; בן שושן, זינבול בת שלמה (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רודושג'יק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301229"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בניסן תרנ\"ט (1899)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 129X303 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tekirdağ, Turkey. 1899"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301229"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301229/sequence/IE9197568",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רודוסטו, תורכיה, תרנ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461765",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רודוסטו; תורכיה; תרנט]",
+          "width": 800,
+          "height": 350,
+          "images": [
+            {
+              "@id": "FL9461765",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461765",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461765/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. רודוסטו; תורכיה; תרנט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461765",
+                  "label": "[כתובה. רודוסטו; תורכיה; תרנט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 350,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461764",
+      "@type": "sc:Range",
+      "label": "REP9461764",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461765",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רודוסטו; תורכיה; תרנט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301229",
+  "viewingHint": "paged"
+}

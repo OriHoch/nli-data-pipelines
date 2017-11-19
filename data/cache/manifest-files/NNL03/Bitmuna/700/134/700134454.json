@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700134454/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ים המלח",
+  "label": "מעינות אל-ספי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מעינות אל-ספי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ים המלח",
+        "ארץ ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף גדעון שיפטן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700134454"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700134454"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700134454/sequence/IE6417630",
+      "@type": "sc:Sequence",
+      "label": "מעינות אל-ספי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10404801",
+          "@type": "sc:Canvas",
+          "label": " מעינות אל-ספי ",
+          "width": 756,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10404801",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10404801",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10404801/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " מעינות אל-ספי ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10404801",
+                  "label": " מעינות אל-ספי ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 756
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10404800",
+      "@type": "sc:Range",
+      "label": "REP10404800",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10404801",
+          "@type": "sc:Canvas",
+          "label": " מעינות אל-ספי "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700134454",
+  "viewingHint": "paged"
+}

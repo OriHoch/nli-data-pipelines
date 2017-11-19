@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700111810/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Music Performance -- Israel; Programs; Gymnastics -- Israel; Hanukkah; Jews -- Identity; Dance -- Israel; פרידמן-לבוב (מנהל מקהלה); A Sport Performance; מופע מוסיקה; תכנייה; התעמלות; חנוכה; התאגרפות; ריקודים",
+  "label": "נשף המכבים - ביום המכבים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נשף המכבים - ביום המכבים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Music Performance -- Israel; Programs; Gymnastics -- Israel; Hanukkah; Jews -- Identity; Dance -- Israel; פרידמן-לבוב (מנהל מקהלה); A Sport Performance; מופע מוסיקה; תכנייה; התעמלות; חנוכה; התאגרפות; ריקודים"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700111810"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "700111810"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700111810/sequence/IE5026795",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394576",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 528,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5394576",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5394576",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5394576/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5394576",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 528
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5394575",
+      "@type": "sc:Range",
+      "label": "REP5394575",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394576",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700111810",
+  "viewingHint": "paged"
+}

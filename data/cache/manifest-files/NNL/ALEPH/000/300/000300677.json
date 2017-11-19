@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300677/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רצאבה, תימן. תרצ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רצאבה, תימן. תרצ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "חסן, מוסא בן מוסא יחיא (חתן) ; סאלם, סלאמה בת אברהם (כלה) ; שמעון (עד) ; יוסף בן אבראהים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רצאבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300677"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד באלול ב'רמ\"ג לשטרות (1932)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 190X163 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ratzhaba, Yemen. 1932"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300677"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300677/sequence/IE9128708",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רצאבה, תימן, תרצ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156633",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 679,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156633",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 679
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300677/sequence/IE9202890",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רצאבה, תימן, תרצ&quot;ב]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156632",
+      "@type": "sc:Range",
+      "label": "REP9156632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156633",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300677",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301467/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טהראן, איראן. תרצ\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טהראן, איראן. תרצ\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "זאקי, נגאר אלאה בן עזיז (חתן) ; שוכת כ'אנום בת יוסף בן אפרים (כלה) ; שלמה בן ישראל, הכהן (עד) ; עזיז בן יצחק (עד) ; שמואל בן מרדכי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טהראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301467"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כב בכסלו תרצ\"ג (1932)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tehran, Iran. 1932"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301467"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301467/sequence/IE9198124",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טהרן, איראן, תרצ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462815",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 562,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462815",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462815",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462815/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462815",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 562
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462814",
+      "@type": "sc:Range",
+      "label": "REP9462814",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462815",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301467",
+  "viewingHint": "paged"
+}

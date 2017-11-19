@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267882/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; היסטוריה; ציונות; קונגרס ציוני",
+  "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני הי\"ט בלוצרן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני הי\"ט בלוצרן"
+    },
+    {
+      "label": "Publisher",
+      "value": "רשימת פועלי ארץ-ישראל/סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; היסטוריה; ציונות; קונגרס ציוני"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267882"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267882"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267882/sequence/IE9705271",
+      "@type": "sc:Sequence",
+      "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני הי\"ט בלוצרן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706985",
+          "@type": "sc:Canvas",
+          "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני היט בלוצרן",
+          "width": 800,
+          "height": 524,
+          "images": [
+            {
+              "@id": "FL9706985",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706985",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706985/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני היט בלוצרן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706985",
+                  "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני היט בלוצרן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 524,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706984",
+      "@type": "sc:Range",
+      "label": "REP9706984",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706985",
+          "@type": "sc:Canvas",
+          "label": "המשך שיחת חברים על הנושא: סיעת הפועלים בקונגרס צהיוני היט בלוצרן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267882",
+  "viewingHint": "paged"
+}

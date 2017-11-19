@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301368/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. וילנה, ליטא. אחרי תרכ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. וילנה, ליטא. אחרי תרכ\"ז."
+    },
+    {
+      "label": "Publisher",
+      "value": "וילנה : Fin and Rosenkranz"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301368"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1867"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 215X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Vilnius, Lithuania. after 1867"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301368"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301368/sequence/IE9204051",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וילנה, ליטא, אחרי תרכ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468117",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וילנה; ליטא; אחרי תרכז]",
+          "width": 676,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468117",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468117",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468117/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. וילנה; ליטא; אחרי תרכז]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468117",
+                  "label": "[כתובה. וילנה; ליטא; אחרי תרכז]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 676
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468116",
+      "@type": "sc:Range",
+      "label": "REP9468116",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468117",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וילנה; ליטא; אחרי תרכז]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301368",
+  "viewingHint": "paged"
+}

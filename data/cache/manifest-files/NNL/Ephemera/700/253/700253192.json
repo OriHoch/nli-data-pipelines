@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253192/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "הרצאה; חוגים; יהדות; פוליטיקה; פנאי",
+  "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "הרצאה; חוגים; יהדות; פוליטיקה; פנאי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253192"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253192"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253192/sequence/IE9067350",
+      "@type": "sc:Sequence",
+      "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069863",
+          "@type": "sc:Canvas",
+          "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה ",
+          "width": 533,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069863",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069863",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069863/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069863",
+                  "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 533
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069862",
+      "@type": "sc:Range",
+      "label": "REP9069862",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069863",
+          "@type": "sc:Canvas",
+          "label": "חוגים להשתלמות ומחזורי הרצאות בשביל חברי המפלגה "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253192",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300959/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בונדה, גרמניה. תרי\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בונדה, גרמניה. תרי\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "ואן דאם, שמואל בן יהודה ליב (חתן) ; גלא בת שמעון (כלה) ; אורי בן נפתלי (עד) ; חיים בן יוסף (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר בונדא במדינת הנובר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300959"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כז בסיון תרי\"ח (1858)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 210X164 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bunde, Germany. 1858"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300959"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300959/sequence/IE9201478",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בונדה, גרמניה, תרי&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464336",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 666,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464336",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464336",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464336/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464336",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 666
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464335",
+      "@type": "sc:Range",
+      "label": "REP9464335",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464336",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300959",
+  "viewingHint": "paged"
+}

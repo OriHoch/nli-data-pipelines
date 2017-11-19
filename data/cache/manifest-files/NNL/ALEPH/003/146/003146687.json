@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003146687/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קולאשי, גאורגיה. תש\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קולאשי, גאורגיה. תש\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלום בן אהרן (חתן) ; חוה בת אהרן (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קולאש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003146687"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בתשרי תש\"א (1940)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף : איורים צבעוניים ; 540X410 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kulashi, Georgia. 1940"
+    },
+    {
+      "label": "SysNum",
+      "value": "003146687"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003146687/sequence/IE9195938",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. קולאש; גרוזיה; תש&quot;א].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465844",
+          "@type": "sc:Canvas",
+          "label": "3146687-r",
+          "width": 609,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465844",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465844",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465844/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3146687-r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465844",
+                  "label": "3146687-r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 609
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465843",
+          "@type": "sc:Canvas",
+          "label": "3146687-v",
+          "width": 609,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465843",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465843",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465843/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3146687-v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465843",
+                  "label": "3146687-v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 609
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465842",
+      "@type": "sc:Range",
+      "label": "REP9465842",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465844",
+          "@type": "sc:Canvas",
+          "label": "3146687-r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465843",
+          "@type": "sc:Canvas",
+          "label": "3146687-v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003146687",
+  "viewingHint": "paged"
+}

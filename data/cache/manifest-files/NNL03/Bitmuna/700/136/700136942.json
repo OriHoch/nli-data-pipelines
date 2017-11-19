@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136942/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "טקס סיום מחזור בבי\"ס לשוטרים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טקס סיום מחזור בבי\"ס לשוטרים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136942"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136942"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136942/sequence/IE6425988",
+      "@type": "sc:Sequence",
+      "label": "טקס סיום מחזור בבי\"ס לשוטרים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10411852",
+          "@type": "sc:Canvas",
+          "label": "טקס סיום מחזור בביס לשוטרים",
+          "width": 800,
+          "height": 756,
+          "images": [
+            {
+              "@id": "FL10411852",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10411852",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10411852/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טקס סיום מחזור בביס לשוטרים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10411852",
+                  "label": "טקס סיום מחזור בביס לשוטרים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 756,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10411851",
+      "@type": "sc:Range",
+      "label": "REP10411851",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10411852",
+          "@type": "sc:Canvas",
+          "label": "טקס סיום מחזור בביס לשוטרים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136942",
+  "viewingHint": "paged"
+}

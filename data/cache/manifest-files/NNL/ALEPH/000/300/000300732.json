@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300732/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ורונה, איטליה. תקס\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ורונה, איטליה. תקס\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "גריגו, חיים ישראל בן קלונימוס בן יצחק (חתן) ; גריגו, פיסילה בת קלונימוס בן אברהם (כלה) ; מריני, יוסף בן שמעון (עד) ; כלבי, יחיאל בן מנחם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וירונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300732"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בסיון תקס\"א (1801)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 795X505 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Verona, Italy. 1801"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300732"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300732/sequence/IE9128838",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וירונה, איטליה, תקס&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156760",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 541,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156760",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156760",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156760/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156760",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 541
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300732/sequence/IE9203066",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וירונה, איטליה, תקס&quot;א]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156759",
+      "@type": "sc:Range",
+      "label": "REP9156759",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156760",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300732",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301155/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פירנצה, איטליה. תר\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פירנצה, איטליה. תר\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "סירוי, רפאל משה חיים בן דוד (חתן) ; חזק, פאני בת שבתי בן זרח (כלה) ; קסטלנובו, שלמה ידידיה (עד) ; גליקו, אברהם מלאכי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פירינצי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301155"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ט באדר א תר\"ח (1848)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 585X370 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Florence, Italy. 1848"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301155"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301155/sequence/IE10229162",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פירנצה, איטליה, תר\"ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243952",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פירנצה, איטליה, תרח]",
+          "width": 510,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243952",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243952",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243952/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פירנצה, איטליה, תרח]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243952",
+                  "label": "[כתובה. פירנצה, איטליה, תרח]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 510
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243951",
+      "@type": "sc:Range",
+      "label": "REP10243951",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243952",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פירנצה, איטליה, תרח]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301155",
+  "viewingHint": "paged"
+}

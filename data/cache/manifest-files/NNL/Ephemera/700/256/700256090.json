@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256090/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; פועלים; אירוע; כנס; מפלגות",
+  "label": "אספת היסוד למפלגת פועלי ארץ ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת היסוד למפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ-ישראל סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; פועלים; אירוע; כנס; מפלגות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256090"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256090"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256090/sequence/IE9066990",
+      "@type": "sc:Sequence",
+      "label": "אספת היסוד למפלגת פועלי ארץ ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070973",
+          "@type": "sc:Canvas",
+          "label": "אספת היסוד למפלגת פועלי ארץ ישראל",
+          "width": 532,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9070973",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070973",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070973/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת היסוד למפלגת פועלי ארץ ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070973",
+                  "label": "אספת היסוד למפלגת פועלי ארץ ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 532
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070970",
+      "@type": "sc:Range",
+      "label": "REP9070970",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070973",
+          "@type": "sc:Canvas",
+          "label": "אספת היסוד למפלגת פועלי ארץ ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256090",
+  "viewingHint": "paged"
+}

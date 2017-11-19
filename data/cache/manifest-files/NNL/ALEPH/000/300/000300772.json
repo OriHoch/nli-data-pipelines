@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300772/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלד'הם, תימן. תרצ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלד'הם, תימן. תרצ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "נגאר, עואץ בן מנצור (חתן) ; נגאר, לאה בת יחיא בן מנצור (כלה) ; אלכ'לפי, סאלם בן שמעון (עד) ; צפר, צאלח בן עואץ' (עד) ; נגאר, מחפוץ' בן יעקב, כהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אל-ד'הם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300772"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בשבט ב'רמ\"ד לשטרות (1933)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 240X183 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300772"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300772/sequence/IE9215143",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלד&apos;הם, תימן, תרצ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469506",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלד&apos;הם; תימן; תרצג]",
+          "width": 660,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469506",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469506",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469506/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אלד&apos;הם; תימן; תרצג]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469506",
+                  "label": "[כתובה. אלד&apos;הם; תימן; תרצג]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 660
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469505",
+      "@type": "sc:Range",
+      "label": "REP9469505",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469506",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלד&apos;הם; תימן; תרצג]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300772",
+  "viewingHint": "paged"
+}

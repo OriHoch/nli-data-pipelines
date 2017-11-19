@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302537/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ורונה, איטליה. תקפ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ורונה, איטליה. תקפ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "אהרן חיים בן גרשון, הלוי (חתן) ; מריאן, לאורה בת אברהם (כלה) ; באר, משה שבתי בן מנחם רפאל חיים, -תקצ\"א (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וירונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302537"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תקפ\"ב (1822)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X382 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Verona, Italy. 1822"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302537"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302537/sequence/IE9206665",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וירונה, איטליה, תקפ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469442",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 800,
+          "height": 718,
+          "images": [
+            {
+              "@id": "FL9469442",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469442",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469442/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469442",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 718,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469441",
+      "@type": "sc:Range",
+      "label": "REP9469441",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469442",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302537",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256086/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "עבודה; פועלים; מפלגות; חברה",
+  "label": "הערב חתונת הפוה\"צ ואה\"ע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הערב חתונת הפוה\"צ ואה\"ע"
+    },
+    {
+      "label": "Publisher",
+      "value": "הפועל הצעיר, אחדות העבודה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "עבודה; פועלים; מפלגות; חברה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256086"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256086"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256086/sequence/IE9067035",
+      "@type": "sc:Sequence",
+      "label": "הערב חתונת הפוה\"צ ואה\"ע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072530",
+          "@type": "sc:Canvas",
+          "label": "הערב חתונת הפוהצ ואהע",
+          "width": 800,
+          "height": 305,
+          "images": [
+            {
+              "@id": "FL9072530",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072530",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072530/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הערב חתונת הפוהצ ואהע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072530",
+                  "label": "הערב חתונת הפוהצ ואהע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 305,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072528",
+      "@type": "sc:Range",
+      "label": "REP9072528",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072530",
+          "@type": "sc:Canvas",
+          "label": "הערב חתונת הפוהצ ואהע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256086",
+  "viewingHint": "paged"
+}

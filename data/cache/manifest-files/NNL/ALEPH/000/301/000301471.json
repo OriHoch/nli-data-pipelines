@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301471/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פררה, איטליה. תרס\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פררה, איטליה. תרס\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "ויטלי, אפרים יוסף טוביה אנג'לו בן שלמה, כהן (חתן) ; אשכנזי, קלרה בת אפרים (כלה) ; ירא, יוסף חיים בן שבתי חנניא (עד) ; שלמה בן יעקב, הלוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פירארא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301471"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בחשון תרס\"ב (1901)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 405X288 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ferrara, Italy. 1901"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301471"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301471/sequence/IE9124288",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פררה, איטליה, תרס&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9136101",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 585,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9136101",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9136101",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9136101/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9136101",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 585
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301471/sequence/IE9204603",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פררה, איטליה, תרס&quot;ב]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9136100",
+      "@type": "sc:Range",
+      "label": "REP9136100",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9136101",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301471",
+  "viewingHint": "paged"
+}

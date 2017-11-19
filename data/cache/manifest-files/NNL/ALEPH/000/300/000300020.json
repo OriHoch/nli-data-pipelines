@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300020/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הראת, אפגניסטן. תרמ\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הראת, אפגניסטן. תרמ\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "רפאל בן ניסן (חתן) ; רחל בת בצלאל (כלה) ; שמואל בן אליהו (עד) ; שמחה בן אליהו (עד) ; גול, בנימין בן יעקב (עד) ; יהודה בן ראובן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "הראת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300020"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יח באלול תרמ\"ג (1883)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 567X435 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Herat, Afghanistan. 1883"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300020"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300020/sequence/IE9202699",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הראת, אפגניסטן, תרמ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466638",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 613,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466638",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466638",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466638/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466638",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466637",
+      "@type": "sc:Range",
+      "label": "REP9466637",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466638",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300020",
+  "viewingHint": "paged"
+}

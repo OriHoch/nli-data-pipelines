@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700126145/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Costume -- Israel; Contests; Purim; Fasts and feasts -- Israel; Masquerades -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; Dance -- Israel; Awards -- Israel; תחרות תחפושות; פורים; נשף מסיכות; תזמורת; רקודים; פרסים; בית המכבי; House of Maccabi Beit Hamaccabi; חיפה",
+  "label": "נשף מסכות עממי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נשף מסכות עממי"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Costume -- Israel; Contests; Purim; Fasts and feasts -- Israel; Masquerades -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; Dance -- Israel; Awards -- Israel; תחרות תחפושות; פורים; נשף מסיכות; תזמורת; רקודים; פרסים; בית המכבי; House of Maccabi Beit Hamaccabi; חיפה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700126145"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700126145"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700126145/sequence/IE11626595",
+      "@type": "sc:Sequence",
+      "label": "נשף מסכות עממי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL11629037",
+          "@type": "sc:Canvas",
+          "label": "נשף מסכות עממי",
+          "width": 800,
+          "height": 537,
+          "images": [
+            {
+              "@id": "FL11629037",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL11629037",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL11629037/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נשף מסכות עממי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL11629037",
+                  "label": "נשף מסכות עממי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 537,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP11629031",
+      "@type": "sc:Range",
+      "label": "REP11629031",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL11629037",
+          "@type": "sc:Canvas",
+          "label": "נשף מסכות עממי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700126145",
+  "viewingHint": "paged"
+}

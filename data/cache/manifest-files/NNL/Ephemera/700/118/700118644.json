@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700118644/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Hanukkah; Lectures and lecturing -- Israel; History; Israel -- Civilization; י. בורלא; תרבות; חנוכה; הרצאה; היסטוריה",
+  "label": "הרצאת י. בורלא - על הנושא - הנצחון הקים של החשמונאים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאת י. בורלא - על הנושא - הנצחון הקים של החשמונאים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Hanukkah; Lectures and lecturing -- Israel; History; Israel -- Civilization; י. בורלא; תרבות; חנוכה; הרצאה; היסטוריה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700118644"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700118644"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700118644/sequence/IE5018945",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388076",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 296,
+          "images": [
+            {
+              "@id": "FL5388076",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5388076",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5388076/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5388076",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 296,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5388075",
+      "@type": "sc:Range",
+      "label": "REP5388075",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388076",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700118644",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259835/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "י. יצחקי (מרצה),ז. אברמוביץ; אסיפה; הרצאה; נאום; פוליטיקה",
+  "label": "אספה פומבית - הזו היא התשובה?",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - הזו היא התשובה?"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון),סניף יפו-תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "י. יצחקי (מרצה),ז. אברמוביץ; אסיפה; הרצאה; נאום; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259835"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259835"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259835/sequence/IE9171098",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - הזו היא התשובה?",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182676",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - הזו היא התשובה?",
+          "width": 800,
+          "height": 603,
+          "images": [
+            {
+              "@id": "FL9182676",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9182676",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9182676/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - הזו היא התשובה?",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9182676",
+                  "label": "אספה פומבית - הזו היא התשובה?",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 603,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9182675",
+      "@type": "sc:Range",
+      "label": "REP9182675",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182676",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - הזו היא התשובה?"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259835",
+  "viewingHint": "paged"
+}

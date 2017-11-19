@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300922/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רג'ו אמיליה, איטליה. תרי\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רג'ו אמיליה, איטליה. תרי\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "פיזא, אדם בן מיכאל דיווירולי (חתן) ; ליאוצי, אסתר בת אברהם (כלה) ; יעקב בן מרדכי לוי (עד) ; דיאינה, קולונימוס בן יעקב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ריגייו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300922"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד באייר תרי\"ג (1853)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X270 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Reggio Emilia, Italy. 1853"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300922"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300922/sequence/IE9204894",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רג&apos;יו אמיליה, איטליה, תרי&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466298",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רג&apos;יו אמיליה; איטליה; תריג]",
+          "width": 655,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466298",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466298",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466298/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. רג&apos;יו אמיליה; איטליה; תריג]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466298",
+                  "label": "[כתובה. רג&apos;יו אמיליה; איטליה; תריג]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 655
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466297",
+      "@type": "sc:Range",
+      "label": "REP9466297",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466298",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רג&apos;יו אמיליה; איטליה; תריג]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300922",
+  "viewingHint": "paged"
+}

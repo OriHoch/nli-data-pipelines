@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136098/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "סיפור על 'דויד'",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סיפור על 'דויד'"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136098"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1951"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136098"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136098/sequence/IE6421353",
+      "@type": "sc:Sequence",
+      "label": "סיפור על 'דויד'",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10405955",
+          "@type": "sc:Canvas",
+          "label": "סיפור על 'דויד'",
+          "width": 782,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10405955",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10405955",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10405955/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סיפור על 'דויד'",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10405955",
+                  "label": "סיפור על 'דויד'",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 782
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10405954",
+      "@type": "sc:Range",
+      "label": "REP10405954",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10405955",
+          "@type": "sc:Canvas",
+          "label": "סיפור על 'דויד'"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136098",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700124902/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Music Performance -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; Music -- Israel; Concerts -- Israel; Israel -- Civilization; מופע מוסיקה; תזמורת; מוסיקה קלאסית; קונצרט; תרבות; תל אביב",
+  "label": "הערב - חגיגת ההסתדרות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הערב - חגיגת ההסתדרות"
+    },
+    {
+      "label": "Publisher",
+      "value": "ההסתדרות הכללית של העובדים העברים בא\"י מועצת פועלי יפו-ת\"א, ועדת התרבות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Music Performance -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; Music -- Israel; Concerts -- Israel; Israel -- Civilization; מופע מוסיקה; תזמורת; מוסיקה קלאסית; קונצרט; תרבות; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700124902"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700124902"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700124902/sequence/IE11627570",
+      "@type": "sc:Sequence",
+      "label": "הערב - חגיגת ההסתדרות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL11628677",
+          "@type": "sc:Canvas",
+          "label": "הערב - חגיגת ההסתדרות",
+          "width": 800,
+          "height": 530,
+          "images": [
+            {
+              "@id": "FL11628677",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL11628677",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL11628677/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הערב - חגיגת ההסתדרות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL11628677",
+                  "label": "הערב - חגיגת ההסתדרות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 530,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP11628676",
+      "@type": "sc:Range",
+      "label": "REP11628676",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL11628677",
+          "@type": "sc:Canvas",
+          "label": "הערב - חגיגת ההסתדרות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700124902",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300022/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בצרה, עיראק. תקנ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בצרה, עיראק. תקנ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "סלימאן בן דוד בנימין (חתן) ; כצ'יר, צלחא בת יחזקאל (כלה) ; מנחם בן משה יוסף (עד) ; מצליח, בנימין בן יעקב (עד) ; באנא, שלמה משה דניאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בצרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300022"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כא בסיון תקנ\"ט (1799)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 610X425 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Basrah, Iraq. 1799"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300022"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300022/sequence/IE9207353",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בצרה, עיראק, תקנ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468264",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 569,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468264",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468264",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468264/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468264",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 569
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468260",
+      "@type": "sc:Range",
+      "label": "REP9468260",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468264",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300022",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254162/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מאיר סלונים, דוד פראי, בילצקי (ד\"ר), חנוך בז'וזה; אסיפה; פוליטיקה",
+  "label": "אספת פרידה אנטיפשיסטית למגוייסים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת פרידה אנטיפשיסטית למגוייסים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מאיר סלונים, דוד פראי, בילצקי (ד\"ר), חנוך בז'וזה; אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254162"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254162"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254162/sequence/IE9099680",
+      "@type": "sc:Sequence",
+      "label": "אספת פרידה אנטיפשיסטית למגוייסים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9110190",
+          "@type": "sc:Canvas",
+          "label": "אספת פרידה אנטיפשיסטית למגוייסים",
+          "width": 800,
+          "height": 591,
+          "images": [
+            {
+              "@id": "FL9110190",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9110190",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9110190/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת פרידה אנטיפשיסטית למגוייסים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9110190",
+                  "label": "אספת פרידה אנטיפשיסטית למגוייסים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 591,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9110188",
+      "@type": "sc:Range",
+      "label": "REP9110188",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9110190",
+          "@type": "sc:Canvas",
+          "label": "אספת פרידה אנטיפשיסטית למגוייסים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254162",
+  "viewingHint": "paged"
+}

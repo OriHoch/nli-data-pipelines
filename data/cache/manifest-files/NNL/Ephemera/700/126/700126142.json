@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700126142/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Orchestra -- Israel; Music -- Performance -- Israel; Dance -- Israel; Parties -- Israel; תזמורת; רקודים; נשף; פתח תקוה",
+  "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Orchestra -- Israel; Music -- Performance -- Israel; Dance -- Israel; Parties -- Israel; תזמורת; רקודים; נשף; פתח תקוה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700126142"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700126142"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700126142/sequence/IE10910569",
+      "@type": "sc:Sequence",
+      "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989661",
+          "@type": "sc:Canvas",
+          "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10989661",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10989661",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10989661/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10989661",
+                  "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10989659",
+      "@type": "sc:Range",
+      "label": "REP10989659",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989661",
+          "@type": "sc:Canvas",
+          "label": "נשף תלבשות ומסכות גרנדיוזי - האחרון בנשפי העונה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700126142",
+  "viewingHint": "paged"
+}

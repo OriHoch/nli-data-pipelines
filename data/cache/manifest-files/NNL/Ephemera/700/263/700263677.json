@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700263677/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; יוסף אליהו שלוש (אחד ממיסדי תל אביב,חבר מועצתה ושופט כבוד במשפט עירוני); מודעת אבל; עיריה - עיריות - מוניציפאלי",
+  "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; יוסף אליהו שלוש (אחד ממיסדי תל אביב,חבר מועצתה ושופט כבוד במשפט עירוני); מודעת אבל; עיריה - עיריות - מוניציפאלי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700263677"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700263677"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700263677/sequence/IE9161503",
+      "@type": "sc:Sequence",
+      "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9174541",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש",
+          "width": 800,
+          "height": 594,
+          "images": [
+            {
+              "@id": "FL9174541",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9174541",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9174541/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9174541",
+                  "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 594,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9174540",
+      "@type": "sc:Range",
+      "label": "REP9174540",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9174541",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירונית - מודיעים בצער רב על מותו של מר - יוסף אליהו שלוש"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700263677",
+  "viewingHint": "paged"
+}

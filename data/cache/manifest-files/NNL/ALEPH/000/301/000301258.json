@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301258/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מקנס, מרוקו. תרפ\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מקנס, מרוקו. תרפ\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "וענונו, יצחק בן אליהו (חתן) ; לחזאן, אסתר בת ישועה בן מסעוד אבן (כלה) ; משאש, מימון (עד) ; בירדוגו, אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכנאסה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301258"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כ באדר א תרפ\"ד (1924)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 420X295 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Meknes, Morocco. 1924"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301258"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301258/sequence/IE9197580",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מכנאס, מרוקו, תרפ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461852",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מכנאס; מרוקו; תרפד]",
+          "width": 571,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461852",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461852",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461852/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. מכנאס; מרוקו; תרפד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461852",
+                  "label": "[כתובה. מכנאס; מרוקו; תרפד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 571
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461851",
+      "@type": "sc:Range",
+      "label": "REP9461851",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461852",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מכנאס; מרוקו; תרפד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301258",
+  "viewingHint": "paged"
+}

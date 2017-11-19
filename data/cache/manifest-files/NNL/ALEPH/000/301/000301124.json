@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301124/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הראת, אפגניסטן. תרל\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הראת, אפגניסטן. תרל\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד בן ניסן (חתן) ; שמואל בן בנימין (עד) ; מרדכי בן אברהם (עד) ; שמואל בן אליהו (עד) ; שמואל בן יצחק (כותב)"
+    },
+    {
+      "label": "Publisher",
+      "value": "הראת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301124"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בסיון תרל\"ג (1873)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 620X505 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Herat, Afghanistan. 1873"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301124"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301124/sequence/IE9124031",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הראת, אפגניסטן, תרל&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135213",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 625,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9135213",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9135213",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9135213/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9135213",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301124/sequence/IE9204476",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הראת, אפגניסטן, תרל&quot;ג]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9135212",
+      "@type": "sc:Range",
+      "label": "REP9135212",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135213",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301124",
+  "viewingHint": "paged"
+}

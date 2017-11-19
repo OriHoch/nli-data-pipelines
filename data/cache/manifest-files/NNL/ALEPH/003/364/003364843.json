@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003364843/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלג'יר, אלג'יריה. תק\"ס.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלג'יר, אלג'יריה. תק\"ס."
+    },
+    {
+      "label": "Contributor",
+      "value": "דנינוס, יעקב בן אברהם (חתן) ; ביבס, קמרא בת שמואל (כלה) ; דורן, צמח (עד) ; שקרון, משה (עד) ; טוב עלם, שלמה בן משה (מעתיק)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלגזאיר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003364843"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כב באב תק\"ס (1800)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 520X330 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Algiers, Algeria. 1800"
+    },
+    {
+      "label": "SysNum",
+      "value": "003364843"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003364843/sequence/IE9195182",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. אלג&apos;יר; אלג&apos;יריה; תק&quot;ס].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467143",
+          "@type": "sc:Canvas",
+          "label": "3364843-01",
+          "width": 515,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467143",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467143",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467143/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3364843-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467143",
+                  "label": "3364843-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 515
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467142",
+      "@type": "sc:Range",
+      "label": "REP9467142",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467143",
+          "@type": "sc:Canvas",
+          "label": "3364843-01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003364843",
+  "viewingHint": "paged"
+}

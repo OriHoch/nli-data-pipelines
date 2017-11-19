@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700255254/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; סוציאליזם; פועלים; כנס",
+  "label": "הכונו לכנוס הארצי הששי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכונו לכנוס הארצי הששי."
+    },
+    {
+      "label": "Publisher",
+      "value": "הבחרות הסוציאליסטית העברית בארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; סוציאליזם; פועלים; כנס"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700255254"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל ציור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700255254"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700255254/sequence/IE9076555",
+      "@type": "sc:Sequence",
+      "label": "הכונו לכנוס הארצי הששי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9084101",
+          "@type": "sc:Canvas",
+          "label": "הכונו לכנוס הארצי הששי ",
+          "width": 586,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9084101",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9084101",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9084101/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכונו לכנוס הארצי הששי ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9084101",
+                  "label": "הכונו לכנוס הארצי הששי ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 586
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9084100",
+      "@type": "sc:Range",
+      "label": "REP9084100",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9084101",
+          "@type": "sc:Canvas",
+          "label": "הכונו לכנוס הארצי הששי "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700255254",
+  "viewingHint": "paged"
+}

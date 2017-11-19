@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300502/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איזמיר, טורקיה. תרע\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איזמיר, טורקיה. תרע\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "חיים בן יעקב, הלוי (חתן) ; ג'יליבי, מלכה בת שבתי קאבולי (כלה) ; חאגיז, משה (עד) ; אבולעפיה, נסים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אזמיר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300502"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו באב תרע\"ט (1919)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 700X510 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Izmir, Turkey. 1919"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300502"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300502/sequence/IE9222917",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איזמיר, תורכיה, תרע&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470495",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470495",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470495",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470495/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470495",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470494",
+      "@type": "sc:Range",
+      "label": "REP9470494",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470495",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300502",
+  "viewingHint": "paged"
+}

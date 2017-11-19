@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002914519/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. וינה, אוסטריה. תרפ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. וינה, אוסטריה. תרפ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלמה יהודה בן צבי (חתן) ; ברמא רחל בת איזק הלוי (כלה) ; אברהם יוסף בן נפתלי השל (עד) ; יעקב בן אלחנן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וויען : הוצאת מנורה, מאיר קונשטאדט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002914519"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א באלול תרפ\"א (1921)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף : מסגרת מעוטרת בצבע כחול ; 465X305 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Vienna, Austria. 1921"
+    },
+    {
+      "label": "SysNum",
+      "value": "002914519"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002914519/sequence/IE9196566",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. וינה; אוסטריה; תרפ&quot;א].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461897",
+          "@type": "sc:Canvas",
+          "label": "2914519",
+          "width": 538,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461897",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461897",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461897/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2914519",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461897",
+                  "label": "2914519",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 538
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461896",
+      "@type": "sc:Range",
+      "label": "REP9461896",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461897",
+          "@type": "sc:Canvas",
+          "label": "2914519"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002914519",
+  "viewingHint": "paged"
+}

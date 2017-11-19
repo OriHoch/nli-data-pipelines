@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262170/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; י גליקשטיין,ז. ליבוביץ; נשים; פוליטיקה; סוציאליזם",
+  "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; י גליקשטיין,ז. ליבוביץ; נשים; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262170"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262170"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262170/sequence/IE9165688",
+      "@type": "sc:Sequence",
+      "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180677",
+          "@type": "sc:Canvas",
+          "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!",
+          "width": 800,
+          "height": 600,
+          "images": [
+            {
+              "@id": "FL9180677",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180677",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180677/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180677",
+                  "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 600,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180676",
+      "@type": "sc:Range",
+      "label": "REP9180676",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180677",
+          "@type": "sc:Canvas",
+          "label": "הכונו ל-1 במאי,יום הסולידריות הבינלאומית!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262170",
+  "viewingHint": "paged"
+}

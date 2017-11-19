@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301062/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Levirate",
+  "label": "כתובה. פס, מרוקו. תרצ\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פס, מרוקו. תרצ\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "שקרון, מסעוד בן אהרן (חתן) ; הלוי, מרים מרימא בת משה (כלה) ; אבן דנאן, שמואל בן יצחק (עד) ; דנאן, ציון אבן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Levirate"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301062"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יח בתמוז תרצ\"ח (1938)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 360X231 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Fès, Morocco. 1938"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301062"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301062/sequence/IE9205782",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פאס, מרוקו, תרצ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467278",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תרצח]",
+          "width": 527,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467278",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467278",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467278/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פאס; מרוקו; תרצח]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467278",
+                  "label": "[כתובה. פאס; מרוקו; תרצח]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467277",
+      "@type": "sc:Range",
+      "label": "REP9467277",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467278",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תרצח]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301062",
+  "viewingHint": "paged"
+}

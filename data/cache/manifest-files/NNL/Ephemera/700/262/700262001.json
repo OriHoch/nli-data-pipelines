@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262001/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; ז. אברמוביץ; אסיפה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה - תכנית החומש (פיאטיליטקה)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - תכנית החומש (פיאטיליטקה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף יפו-תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; ז. אברמוביץ; אסיפה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262001"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262001"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262001/sequence/IE9164017",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - תכנית החומש (פיאטיליטקה)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180367",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - תכנית החומש (פיאטיליטקה)",
+          "width": 606,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180367",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180367",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180367/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - תכנית החומש (פיאטיליטקה)",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180367",
+                  "label": "הרצאה - תכנית החומש (פיאטיליטקה)",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 606
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180366",
+      "@type": "sc:Range",
+      "label": "REP9180366",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180367",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - תכנית החומש (פיאטיליטקה)"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262001",
+  "viewingHint": "paged"
+}

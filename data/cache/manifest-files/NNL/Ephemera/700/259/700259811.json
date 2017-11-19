@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259811/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "בחירות; מועמדים ורשימות; פוליטיקה",
+  "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י."
+    },
+    {
+      "label": "Publisher",
+      "value": "סיעת פועלי ציון במ.פ. י"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בחירות; מועמדים ורשימות; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259811"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259811"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259811/sequence/IE9229602",
+      "@type": "sc:Sequence",
+      "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231516",
+          "@type": "sc:Canvas",
+          "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י.",
+          "width": 413,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9231516",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9231516",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9231516/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9231516",
+                  "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 413
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9231515",
+      "@type": "sc:Range",
+      "label": "REP9231515",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231516",
+          "@type": "sc:Canvas",
+          "label": "אל כל פועלי תל-אביב - סיעת פועלי ציון במ.פ. י."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259811",
+  "viewingHint": "paged"
+}

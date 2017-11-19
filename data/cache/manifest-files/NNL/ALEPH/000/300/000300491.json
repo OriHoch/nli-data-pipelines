@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300491/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רוביגו, איטליה. תק\"ץ.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רוביגו, איטליה. תק\"ץ."
+    },
+    {
+      "label": "Contributor",
+      "value": "פואה, מרדכי בן יצחק (חתן) ; סולם, גרטרודה נינה בת שאול חי ביאנקי (כלה) ; אסקולי, אריה בן יעקב חי (עד) ; מוגמאלמי, ארון חי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רוויגו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300491"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א בחשון תק\"ץ (1829)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 290X269 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rovigo, Italy. 1829"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300491"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300491/sequence/IE9214807",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רוויגו, איטליה, תק&quot;ץ].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470796",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רוויגו; איטליה; תקץ].",
+          "width": 728,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470796",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470796",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470796/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. רוויגו; איטליה; תקץ].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470796",
+                  "label": "[כתובה. רוויגו; איטליה; תקץ].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 728
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470795",
+      "@type": "sc:Range",
+      "label": "REP9470795",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470796",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רוויגו; איטליה; תקץ]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300491",
+  "viewingHint": "paged"
+}

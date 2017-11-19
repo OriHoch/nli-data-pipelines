@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253338/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פתח-תקוה; יהודים וערבים; פוליטיקה; פועלים",
+  "label": "השבוע במפלגה - לוח אירועים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "השבוע במפלגה - לוח אירועים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל/סניף פתח-תקוה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פתח-תקוה; יהודים וערבים; פוליטיקה; פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253338"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253338"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253338/sequence/IE9062322",
+      "@type": "sc:Sequence",
+      "label": "השבוע במפלגה - לוח אירועים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069082",
+          "@type": "sc:Canvas",
+          "label": "השבוע במפלגה - לוח אירועים",
+          "width": 524,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069082",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069082",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069082/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "השבוע במפלגה - לוח אירועים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069082",
+                  "label": "השבוע במפלגה - לוח אירועים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 524
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069081",
+      "@type": "sc:Range",
+      "label": "REP9069081",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069082",
+          "@type": "sc:Canvas",
+          "label": "השבוע במפלגה - לוח אירועים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253338",
+  "viewingHint": "paged"
+}

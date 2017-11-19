@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256010/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "אגודה קואופרטיבית",
+  "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה."
+    },
+    {
+      "label": "Publisher",
+      "value": "הסתדרות העובדים העברים הכללית בארץ ישראל - מועצת פועלי יפו - ועדת אגודת עובדי בית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "אגודה קואופרטיבית"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256010"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256010"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256010/sequence/IE9084174",
+      "@type": "sc:Sequence",
+      "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9087613",
+          "@type": "sc:Canvas",
+          "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה",
+          "width": 800,
+          "height": 596,
+          "images": [
+            {
+              "@id": "FL9087613",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9087613",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9087613/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9087613",
+                  "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 596,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9087612",
+      "@type": "sc:Range",
+      "label": "REP9087612",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9087613",
+          "@type": "sc:Canvas",
+          "label": "חברות, העובדות בבתים פרטיים! - להרשם בתוך חברות באגודה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256010",
+  "viewingHint": "paged"
+}

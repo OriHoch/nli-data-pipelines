@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136962/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "עולים חדשים ממרוקו; מושב גילת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עולים חדשים ממרוקו; מושב גילת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "מושב גילת"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136962"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1954"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136962"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136962/sequence/IE6426372",
+      "@type": "sc:Sequence",
+      "label": "עולים חדשים ממרוקו; מושב גילת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408254",
+          "@type": "sc:Canvas",
+          "label": "עולים חדשים ממרוקו; מושב גילת",
+          "width": 784,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10408254",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10408254",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10408254/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עולים חדשים ממרוקו; מושב גילת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10408254",
+                  "label": "עולים חדשים ממרוקו; מושב גילת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 784
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10408253",
+      "@type": "sc:Range",
+      "label": "REP10408253",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408254",
+          "@type": "sc:Canvas",
+          "label": "עולים חדשים ממרוקו; מושב גילת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136962",
+  "viewingHint": "paged"
+}

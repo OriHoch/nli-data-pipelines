@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300749/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מנעם, תימן. תרפ\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מנעם, תימן. תרפ\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "חסן בן אברהם (חתן) ; שד'רה בת יעקב (כלה) ; עוץ' בן חסן, הכהן (עד) ; סיאני, יוסף בן יחיא (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מנעם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300749"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בחשון ב'רל\"ח לשטרות (1926)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 367X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Man'am, Yemen. 1926"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300749"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300749/sequence/IE9202693",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מנעם, תימן, תרפ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466592",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מנעם; תימן; תרפז]",
+          "width": 609,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466592",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466592",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466592/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. מנעם; תימן; תרפז]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466592",
+                  "label": "[כתובה. מנעם; תימן; תרפז]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 609
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466590",
+      "@type": "sc:Range",
+      "label": "REP9466590",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466592",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מנעם; תימן; תרפז]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300749",
+  "viewingHint": "paged"
+}

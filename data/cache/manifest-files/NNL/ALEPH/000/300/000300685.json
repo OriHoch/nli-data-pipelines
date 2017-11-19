@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300685/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלעוקלה, תימן. תרפ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלעוקלה, תימן. תרפ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "עוכשי, יחיא בן סלימאן (חתן) ; סעדה בת סעיד יחיא ישועה (כלה) ; צברי, צאלח בן שמעון (עד) ; סעיד מוסא (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלעוקלה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300685"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יט באב ב'רל\"ב לשטרות (1921)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 190X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Uqlah, Yemen. 1921"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300685"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300685/sequence/IE9222935",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלעוקלה, תימן, תרפ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470525",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 771,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470525",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470525",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470525/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470525",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 771
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470524",
+      "@type": "sc:Range",
+      "label": "REP9470524",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470525",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300685",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003498266/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יאברוב, פולין. תרכ\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יאברוב, פולין. תרכ\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "דרומר, ישעיה בן אברהם (חתן) ; גיטיל בת יצחק אריה (כלה) ; שמשון יהודא שו\"ב וש\"ץ מעזארידש (עד) ; חיים שרגא (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יאברובי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003498266"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז בטבת תרכ\"ט (1868)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 330X195 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jaworow, Poland. 1868"
+    },
+    {
+      "label": "SysNum",
+      "value": "003498266"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003498266/sequence/IE9196962",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. יאברוב; פולין; תרכ&quot;ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464454",
+          "@type": "sc:Canvas",
+          "label": "3498266-01",
+          "width": 509,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464454",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464454",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464454/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3498266-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464454",
+                  "label": "3498266-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 509
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464452",
+      "@type": "sc:Range",
+      "label": "REP9464452",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464454",
+          "@type": "sc:Canvas",
+          "label": "3498266-01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003498266",
+  "viewingHint": "paged"
+}

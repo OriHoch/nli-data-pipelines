@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301199/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טריפולי, לוב. תקפ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טריפולי, לוב. תקפ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "נוטיפיורי, אברהם בן משה (חתן) ; דיאמנטה בת יצחק לביא (כלה) ; גויטע, נסים בן יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טראבלס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301199"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ר\"ח אלול תקפ\"א (1821)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 420X280 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tripoli, Libya. 1821"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301199"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301199/sequence/IE9201807",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טריפולי, לוב, תקפ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467677",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 551,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467677",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467677",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467677/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467677",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 551
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467676",
+      "@type": "sc:Range",
+      "label": "REP9467676",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467677",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301199",
+  "viewingHint": "paged"
+}

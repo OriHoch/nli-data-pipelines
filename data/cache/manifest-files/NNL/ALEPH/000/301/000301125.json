@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301125/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איספהאן, איראן. תר\"ל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איספהאן, איראן. תר\"ל."
+    },
+    {
+      "label": "Contributor",
+      "value": "כודאדאד בן רחמים (חתן) ; רבקה בת משה (כלה) ; שלמה בן דוד (עד) ; יחזקאל בן דוד (עד) ; אברהם בן יעקב (עד) ; יחזקאל בן יעקב (עד) ; משה בן ישועה (כותב)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אצפהא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301125"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד באדר א תר\"ל (1870)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 805X747 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Isfahan, Iran. 1870"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301125"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301125/sequence/IE9196560",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איספהן; איראן; תרל]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461844",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 762,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461844",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461844",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461844/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461844",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 762
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461845",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 719,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461845",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461845",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461845/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461845",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 719
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461843",
+      "@type": "sc:Range",
+      "label": "REP9461843",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461844",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461845",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301125",
+  "viewingHint": "paged"
+}

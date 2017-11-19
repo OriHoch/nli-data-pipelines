@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700128772/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "עיריה - עיריות - מוניציפאלי; רשיונות; תכנון ובניה; Municipality; Licenses; תל אביב",
+  "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "עיריה - עיריות - מוניציפאלי; רשיונות; תכנון ובניה; Municipality; Licenses; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700128772"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700128772"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700128772/sequence/IE10910116",
+      "@type": "sc:Sequence",
+      "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992208",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר",
+          "width": 606,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10992208",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10992208",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10992208/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10992208",
+                  "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 606
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10992205",
+      "@type": "sc:Range",
+      "label": "REP10992205",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992208",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירונית מס' 19 - פרטי הכרזה על קבלת תכניות לגן=מאיר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700128772",
+  "viewingHint": "paged"
+}

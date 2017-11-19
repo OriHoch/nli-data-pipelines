@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300668/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. שרעה, תימן. תרצ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. שרעה, תימן. תרצ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "ואקץ, מנחם בן סעיד (חתן) ; קהלני, חנה בת סעיד (כלה) ; עודי, משה דאוד (עד) ; ערוסי, יוסף מוסא (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "שרעה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300668"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כא באדר ב ב'רמ\"ג לשטרות (1932)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 235X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300668"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300668/sequence/IE9203173",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. שרעה, תימן, תרצ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466418",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 641,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466418",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466418",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466418/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466418",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 641
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466417",
+      "@type": "sc:Range",
+      "label": "REP9466417",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466418",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300668",
+  "viewingHint": "paged"
+}

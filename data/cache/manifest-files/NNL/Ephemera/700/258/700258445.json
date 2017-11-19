@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700258445/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; ז. אברמוביץ; הרצאה; פוליטיקה; פועלי ציון; מרקסיזם",
+  "label": "הרצאה - האמנם משבר?",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - האמנם משבר?"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י פועלי ציון והחוגים המארכסיסטיים בתל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; ז. אברמוביץ; הרצאה; פוליטיקה; פועלי ציון; מרקסיזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700258445"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700258445"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700258445/sequence/IE9173599",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - האמנם משבר?",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182856",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - האמנם משבר?",
+          "width": 597,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9182856",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9182856",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9182856/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - האמנם משבר?",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9182856",
+                  "label": "הרצאה - האמנם משבר?",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 597
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9182855",
+      "@type": "sc:Range",
+      "label": "REP9182855",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182856",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - האמנם משבר?"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700258445",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259135/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "אסיפה; פועלים; מפלגות",
+  "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]"
+    },
+    {
+      "label": "Publisher",
+      "value": "פועלי ציון גרופע און אומפארט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "אסיפה; פועלים; מפלגות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259135"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1927"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259135"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259135/sequence/IE9177053",
+      "@type": "sc:Sequence",
+      "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9184757",
+          "@type": "sc:Canvas",
+          "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]",
+          "width": 572,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9184757",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9184757",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9184757/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9184757",
+                  "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 572
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9184756",
+      "@type": "sc:Range",
+      "label": "REP9184756",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9184757",
+          "@type": "sc:Canvas",
+          "label": "מכתב ביידיש - מפלגת פועלי ציון [מכתב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259135",
+  "viewingHint": "paged"
+}

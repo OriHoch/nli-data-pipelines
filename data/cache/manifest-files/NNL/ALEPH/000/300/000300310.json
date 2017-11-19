@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300310/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אגאדיר, מרוקו. תרצ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אגאדיר, מרוקו. תרצ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "אפריאט, דוד בן יעקב בן סלאלי (חתן) ; אביטבול, רחמה בת ישועה בן יהודה (כלה) ; ונונא, יעקב (עד) ; יפרח, ישראל (עד) ; דנינו, משה (עד) ; לסרי, יעקב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אגאדיר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300310"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כב באדר ב תרצ\"ה (1935)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 360X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Agadir, Morocco. 1935"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300310"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300310/sequence/IE9205601",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אגדיר, מרוקו, תרצ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468522",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 549,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468522",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468522",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468522/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468522",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 549
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468521",
+      "@type": "sc:Range",
+      "label": "REP9468521",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468522",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300310",
+  "viewingHint": "paged"
+}

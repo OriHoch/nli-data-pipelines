@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261985/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "אסיפה; פוליטיקה",
+  "label": "שיחת חברים על הנושא - תוכנית החמש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים על הנושא - תוכנית החמש"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261985"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261985"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261985/sequence/IE9164696",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים על הנושא - תוכנית החמש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179063",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים על הנושא - תוכנית החמש",
+          "width": 466,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179063",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179063",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179063/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים על הנושא - תוכנית החמש",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179063",
+                  "label": "שיחת חברים על הנושא - תוכנית החמש",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 466
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179062",
+      "@type": "sc:Range",
+      "label": "REP9179062",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179063",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים על הנושא - תוכנית החמש"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261985",
+  "viewingHint": "paged"
+}

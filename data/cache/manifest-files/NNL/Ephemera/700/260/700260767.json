@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260767/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חברה; כלכלה; פוליטיקה; רווחה; ילדים",
+  "label": "אנו רעבים! - אנו מופקרים!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אנו רעבים! - אנו מופקרים!"
+    },
+    {
+      "label": "Publisher",
+      "value": "ברית הנוער הקומוניסטית הפלשתינאי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חברה; כלכלה; פוליטיקה; רווחה; ילדים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260767"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260767"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260767/sequence/IE9157480",
+      "@type": "sc:Sequence",
+      "label": "אנו רעבים! - אנו מופקרים!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9165999",
+          "@type": "sc:Canvas",
+          "label": "אנו רעבים! - אנו מופקרים!",
+          "width": 555,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9165999",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9165999",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9165999/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אנו רעבים! - אנו מופקרים!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9165999",
+                  "label": "אנו רעבים! - אנו מופקרים!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 555
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9165997",
+      "@type": "sc:Range",
+      "label": "REP9165997",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9165999",
+          "@type": "sc:Canvas",
+          "label": "אנו רעבים! - אנו מופקרים!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260767",
+  "viewingHint": "paged"
+}

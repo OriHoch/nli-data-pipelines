@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700116632/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Purim; Fasts and feasts -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; פורים; תזמורת; בית המכבי; לילה בנמל שנגחאי; House of Maccabi Beit Hamaccabi; חיפה",
+  "label": "נשפי פורים של אגודת מכבי חיפה בבית המכבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נשפי פורים של אגודת מכבי חיפה בבית המכבי"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Purim; Fasts and feasts -- Israel; Orchestra -- Israel; Music -- Performance -- Israel; פורים; תזמורת; בית המכבי; לילה בנמל שנגחאי; House of Maccabi Beit Hamaccabi; חיפה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700116632"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700116632"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700116632/sequence/IE5019983",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5389362",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 584,
+          "images": [
+            {
+              "@id": "FL5389362",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5389362",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5389362/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5389362",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 584,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5389361",
+      "@type": "sc:Range",
+      "label": "REP5389361",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5389362",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700116632",
+  "viewingHint": "paged"
+}

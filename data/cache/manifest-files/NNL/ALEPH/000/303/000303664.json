@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303664/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תל עדשים, ישראל. תש\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תל עדשים, ישראל. תש\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "מל, משה בן יהושע, הלוי (חתן) ; בלושטין, שרה בת יצחק (כלה) ; ורטר, דוד (עד) ; שליפשטין, ישראל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר תל עדשים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303664"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בכסלו תש\"ד (1943)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X237 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tel Adashim, Israel. 1943"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303664"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303664/sequence/IE9205287",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תל עדשים, ארץ ישראל, תש&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466533",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 567,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466533",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466533",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466533/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466533",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 567
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466531",
+      "@type": "sc:Range",
+      "label": "REP9466531",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466533",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303664",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262189/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; רוכלי,נדל; הרצאה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; רוכלי,נדל; הרצאה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262189"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262189"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262189/sequence/IE9164860",
+      "@type": "sc:Sequence",
+      "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179053",
+          "@type": "sc:Canvas",
+          "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה",
+          "width": 535,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179053",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179053",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179053/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179053",
+                  "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 535
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179051",
+      "@type": "sc:Range",
+      "label": "REP9179051",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179053",
+          "@type": "sc:Canvas",
+          "label": "הרצאה לקראת האחד באבגוסט - המלחמה במלחמה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262189",
+  "viewingHint": "paged"
+}

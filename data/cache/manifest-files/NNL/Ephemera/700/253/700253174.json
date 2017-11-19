@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253174/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "יוסף ברץ; הרצאה; חברה; פוליטיקה; פנאי; אמריקה",
+  "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאת הח' יוסף ברץ על רשמים מאמריקה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ-ישראל, סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "יוסף ברץ; הרצאה; חברה; פוליטיקה; פנאי; אמריקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253174"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253174"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253174/sequence/IE9068765",
+      "@type": "sc:Sequence",
+      "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072792",
+          "@type": "sc:Canvas",
+          "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה",
+          "width": 800,
+          "height": 559,
+          "images": [
+            {
+              "@id": "FL9072792",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072792",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072792/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072792",
+                  "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 559,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072791",
+      "@type": "sc:Range",
+      "label": "REP9072791",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072792",
+          "@type": "sc:Canvas",
+          "label": "הרצאת הח' יוסף ברץ על רשמים מאמריקה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253174",
+  "viewingHint": "paged"
+}

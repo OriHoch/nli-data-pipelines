@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300813/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רדאע, תימן. תרפ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רדאע, תימן. תרפ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "אלפצל, צאלח בן חסן (חתן) ; אלפצל, נצרה בת סאלם (כלה) ; צאהרי, יוסף בן שמעון (עד) ; יעיש הרון (עד) ; צאלח בנימין (עד) ; חתוכה, סאלם בן צאלח (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קאע גרן אלקבאייל כארג רדאע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300813"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בסיון ב'רל\"ב לשטרות (1921)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 205X208 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ridāʻ, Yemen. 1921"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300813"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300813/sequence/IE10229065",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רדאע, תימן, תרפ\"א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243930",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רדאע, תימן, תרפא]",
+          "width": 800,
+          "height": 763,
+          "images": [
+            {
+              "@id": "FL10243930",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243930",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243930/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. רדאע, תימן, תרפא]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243930",
+                  "label": "[כתובה. רדאע, תימן, תרפא]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 763,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243929",
+      "@type": "sc:Range",
+      "label": "REP10243929",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243930",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רדאע, תימן, תרפא]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300813",
+  "viewingHint": "paged"
+}

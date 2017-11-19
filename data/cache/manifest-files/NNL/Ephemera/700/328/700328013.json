@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328013/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון",
+  "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תושבי תל-אביב! - לא להתקהל ברחובות העיר"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328013"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328013"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328013/sequence/IE15635608",
+      "@type": "sc:Sequence",
+      "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15651111",
+          "@type": "sc:Canvas",
+          "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר",
+          "width": 800,
+          "height": 431,
+          "images": [
+            {
+              "@id": "FL15651111",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15651111",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15651111/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15651111",
+                  "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 431,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15651110",
+      "@type": "sc:Range",
+      "label": "REP15651110",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15651111",
+          "@type": "sc:Canvas",
+          "label": "תושבי תל-אביב! - לא להתקהל ברחובות העיר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328013",
+  "viewingHint": "paged"
+}

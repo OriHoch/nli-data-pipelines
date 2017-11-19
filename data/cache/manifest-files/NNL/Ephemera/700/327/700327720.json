@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700327720/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב-יפו; השפה העברית; עלייה; שפות",
+  "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג"
+    },
+    {
+      "label": "Publisher",
+      "value": "מועצת פועלי יפו, עירית תל-אביב, הסתדרות המורים/סניף יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב-יפו; השפה העברית; עלייה; שפות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700327720"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700327720"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700327720/sequence/IE15625212",
+      "@type": "sc:Sequence",
+      "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15646074",
+          "@type": "sc:Canvas",
+          "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15646074",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15646074",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15646074/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15646074",
+                  "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15646073",
+      "@type": "sc:Range",
+      "label": "REP15646073",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15646074",
+          "@type": "sc:Canvas",
+          "label": "שעורי הערב לעברית - ההרשמה תתחיל ביום ג"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700327720",
+  "viewingHint": "paged"
+}

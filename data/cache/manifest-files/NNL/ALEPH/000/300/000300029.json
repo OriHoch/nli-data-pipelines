@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300029/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. משהד, איראן. תרל\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. משהד, איראן. תרל\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם בן מיכאל (חתן) ; סולטן בת דניאל (כלה) ; משה בן שמעון (עד) ; יעקב, כהן (עד) ; מור, אברהם (עד) ; כאשי, מיכאל בן אברהם (עד) ; אלישע בן פינחס (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "משהד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300029"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח בתשרי תרל\"ג (1872)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 605X397 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mashhad, Iran. 1872"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300029"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300029/sequence/IE9210823",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. משהד, איראן, תרל&quot;ג].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469889",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 547,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469889",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469889",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469889/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469889",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 547
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469888",
+      "@type": "sc:Range",
+      "label": "REP9469888",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469889",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300029",
+  "viewingHint": "paged"
+}

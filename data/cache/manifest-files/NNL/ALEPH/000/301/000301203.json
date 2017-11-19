@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301203/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרנ\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרנ\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "ג'אנו, עזרא בן יעקב (חתן) ; פאפיסימידי, מזל בת יוסף (כלה) ; אלנקוה, בכור אהרן (עד) ; יחיאל בכור, הכהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ירו\"ש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301203"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יט באייר תרנ\"ח (1898)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 670X500 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 1898"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301203"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301203/sequence/IE9200584",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל, תרנ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462981",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל; תרנח]",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462981",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462981",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462981/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ירושלים; ארץ ישראל; תרנח]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462981",
+                  "label": "[כתובה. ירושלים; ארץ ישראל; תרנח]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462980",
+      "@type": "sc:Range",
+      "label": "REP9462980",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462981",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל; תרנח]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301203",
+  "viewingHint": "paged"
+}

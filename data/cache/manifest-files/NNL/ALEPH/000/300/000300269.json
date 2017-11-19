@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300269/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוקרשט, רומניה. תש\"-.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוקרשט, רומניה. תש\"-."
+    },
+    {
+      "label": "Publisher",
+      "value": "בוקרשט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300269"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ת\"ש- (194-)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 320X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bucharest, Romania. 194-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300269"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300269/sequence/IE9197498",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוקרסט, רומניה, תש&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464386",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בוקרסט; רומניה; תש-]",
+          "width": 532,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464386",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464386",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464386/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. בוקרסט; רומניה; תש-]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464386",
+                  "label": "[כתובה. בוקרסט; רומניה; תש-]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 532
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464385",
+      "@type": "sc:Range",
+      "label": "REP9464385",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464386",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בוקרסט; רומניה; תש-]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300269",
+  "viewingHint": "paged"
+}

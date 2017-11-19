@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262138/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; יצחקי,בן אפרים; אסיפה; פוליטיקה; שביתה; סוציאליזם",
+  "label": "אספה פומבית - שביתות הפועלים הערבים בארץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - שביתות הפועלים הערבים בארץ"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; יצחקי,בן אפרים; אסיפה; פוליטיקה; שביתה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262138"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262138"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262138/sequence/IE9167274",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - שביתות הפועלים הערבים בארץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179756",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - שביתות הפועלים הערבים בארץ",
+          "width": 532,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179756",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179756",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179756/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - שביתות הפועלים הערבים בארץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179756",
+                  "label": "אספה פומבית - שביתות הפועלים הערבים בארץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 532
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179755",
+      "@type": "sc:Range",
+      "label": "REP9179755",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179756",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - שביתות הפועלים הערבים בארץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262138",
+  "viewingHint": "paged"
+}

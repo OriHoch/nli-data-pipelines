@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003490391/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הריסבורג, פנסילבניה. תרס\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הריסבורג, פנסילבניה. תרס\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "ברוך בן חיים אביגדור (חתן) ; נחמה בת נחום משה (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "האריסבורג פא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003490391"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בסיון תרס\"ט (1909)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "43 x 27.6 cm..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Harrisburg, Pa. 1909"
+    },
+    {
+      "label": "SysNum",
+      "value": "003490391"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003490391/sequence/IE9196528",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. הריסבורג; ארצות הברית; תרס&quot;ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466147",
+          "@type": "sc:Canvas",
+          "label": "3490391",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466147",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466147",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466147/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3490391",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466147",
+                  "label": "3490391",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466145",
+      "@type": "sc:Range",
+      "label": "REP9466145",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466147",
+          "@type": "sc:Canvas",
+          "label": "3490391"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003490391",
+  "viewingHint": "paged"
+}

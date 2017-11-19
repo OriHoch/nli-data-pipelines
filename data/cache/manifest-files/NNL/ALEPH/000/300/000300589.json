@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300589/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. תר\"ם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. תר\"ם"
+    },
+    {
+      "label": "Contributor",
+      "value": "פיורינטינו, גבריאל מיכאל יעקב בן ישמעאל (חתן) ; פונארו, רבקה בת שנה טובה (כלה) ; קפואה, מרדכי יעקב יוסף בן אברהם יצחק (עד) ; טירצינא, יצחק בן יהודה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300589"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג באדר תר\"ם (1880)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 298X215 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1880"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300589"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300589/sequence/IE9214835",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, תר&quot;ם]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470847",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רומא; איטליה; תרם]",
+          "width": 607,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. רומא; איטליה; תרם]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470847",
+                  "label": "[כתובה. רומא; איטליה; תרם]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 607
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470846",
+      "@type": "sc:Range",
+      "label": "REP9470846",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470847",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. רומא; איטליה; תרם]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300589",
+  "viewingHint": "paged"
+}

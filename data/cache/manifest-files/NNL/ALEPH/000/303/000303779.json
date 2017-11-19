@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303779/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טארקי, רוסיה. תרס\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טארקי, רוסיה. תרס\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "מנשה (בן יוסף) (חתן) ; נעמי בת גרשון (כלה) ; משה בן נסים (עד) ; חנוך בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר תרכו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303779"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בכסלו תרס\"ה (1904)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 352X224 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tarki, Russia. 1904"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303779"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303779/sequence/IE10229314",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תרכו, דגסטן, רוסיה, תרס\"ה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10244016",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. תרכו, דגסטן, רוסיה, תרסה].",
+          "width": 511,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10244016",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10244016",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10244016/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. תרכו, דגסטן, רוסיה, תרסה].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10244016",
+                  "label": "[כתובה. תרכו, דגסטן, רוסיה, תרסה].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 511
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10244015",
+      "@type": "sc:Range",
+      "label": "REP10244015",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10244016",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. תרכו, דגסטן, רוסיה, תרסה]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303779",
+  "viewingHint": "paged"
+}

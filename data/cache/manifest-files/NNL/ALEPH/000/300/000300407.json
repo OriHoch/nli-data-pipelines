@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300407/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קולאשי, גאורגיה. תרפ\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קולאשי, גאורגיה. תרפ\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "גבריאל בן משה (חתן) ; חוה בת ראובן (כלה) ; מיכאלשויל, שבתי בן אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קולאש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300407"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז באדר תרפ\"ה (1925)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 412X298 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kulashi, Georgia. 1925"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300407"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300407/sequence/IE9202537",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קולאש, גרוזיה, תרפ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465442",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465442",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465442",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465442/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465442",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465441",
+      "@type": "sc:Range",
+      "label": "REP9465441",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465442",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300407",
+  "viewingHint": "paged"
+}

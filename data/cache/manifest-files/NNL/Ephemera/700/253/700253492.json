@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253492/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; חברה; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; פוליטיקה",
+  "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה."
+    },
+    {
+      "label": "Publisher",
+      "value": "מועצת פועלי יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; חברה; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253492"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1923"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253492"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253492/sequence/IE9062952",
+      "@type": "sc:Sequence",
+      "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071758",
+          "@type": "sc:Canvas",
+          "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9071758",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071758",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071758/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071758",
+                  "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071757",
+      "@type": "sc:Range",
+      "label": "REP9071757",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071758",
+          "@type": "sc:Canvas",
+          "label": "לכל תושבי תל-אביב - תסתלק העיריה מדוכנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253492",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003508744/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בנוני, דרום אפריקה. תר\"ף.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בנוני, דרום אפריקה. תר\"ף."
+    },
+    {
+      "label": "Contributor",
+      "value": "רפן, זאב בן מרדכי דוד (חתן) ; גולדשטיין, חיענע רבקה בת ישראל (כלה) ; צבי יהודא בן נחום בער שו\"ב (עד) ; ברץ, יחיאל בן צבי הירש (עד) ; Rephan, William (groom) ; Goldstein, Rebecca (bride)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בענאני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003508744"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יב בשבט תר\"פ (1920)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 394X238 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Benoni, South Africa. 1920"
+    },
+    {
+      "label": "SysNum",
+      "value": "003508744"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003508744/sequence/IE9196018",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. בנוני; דרום אפריקה; תר&quot;פ].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461816",
+          "@type": "sc:Canvas",
+          "label": "3508744-01r",
+          "width": 490,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461816",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461816",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461816/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3508744-01r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461816",
+                  "label": "3508744-01r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 490
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461817",
+          "@type": "sc:Canvas",
+          "label": "3508744-01v",
+          "width": 489,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461817",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461817",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461817/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3508744-01v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461817",
+                  "label": "3508744-01v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 489
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461815",
+      "@type": "sc:Range",
+      "label": "REP9461815",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461816",
+          "@type": "sc:Canvas",
+          "label": "3508744-01r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461817",
+          "@type": "sc:Canvas",
+          "label": "3508744-01v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003508744",
+  "viewingHint": "paged"
+}

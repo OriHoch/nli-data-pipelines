@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303006/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מרכש, מרוקו. תרצ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מרכש, מרוקו. תרצ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקב בן יוסף בן אברהם, הכהן (חתן) ; עאליא בת מכלוף בן אברהם, הכהן (כלה) ; דין, שלמה (עד) ; זכרי, יעקב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מראקש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303006"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יט באלול תרצ\"ז (1937)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 420X295 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Marrakech, Morocco. 1937"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303006"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303006/sequence/IE9206353",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מראכש, מרוקו, תרצ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468614",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 569,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468614",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468614",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468614/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468614",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 569
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468612",
+      "@type": "sc:Range",
+      "label": "REP9468612",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468614",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303006",
+  "viewingHint": "paged"
+}

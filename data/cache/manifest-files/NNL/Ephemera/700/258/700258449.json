@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700258449/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אברמוביץ,רוכלי,יגאל; הרצאה; פוליטיקה",
+  "label": "הרצאה - 18 שנה למדינת הפועלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - 18 שנה למדינת הפועלים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י פועלי ציון והחוגים המרכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אברמוביץ,רוכלי,יגאל; הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700258449"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700258449"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700258449/sequence/IE9173519",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - 18 שנה למדינת הפועלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9183374",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - 18 שנה למדינת הפועלים",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9183374",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9183374",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9183374/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - 18 שנה למדינת הפועלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9183374",
+                  "label": "הרצאה - 18 שנה למדינת הפועלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9183371",
+      "@type": "sc:Range",
+      "label": "REP9183371",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9183374",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - 18 שנה למדינת הפועלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700258449",
+  "viewingHint": "paged"
+}

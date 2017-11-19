@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700124458/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Local elections -- Israel; Yeshivot -- Israel; עדה פישמן, טובה ברמן, ברכה חבס, א. זברסקי; בחירות לרשויות מקומיות; אסיפה; נשים עובדות; עיריה - עיריות - מוניציפאלי; Women working; Municipality; תל אביב",
+  "label": "אספת האשה העובדת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת האשה העובדת"
+    },
+    {
+      "label": "Publisher",
+      "value": "מועצת פועלי תל אביב- ועדת הבחירות לעירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Local elections -- Israel; Yeshivot -- Israel; עדה פישמן, טובה ברמן, ברכה חבס, א. זברסקי; בחירות לרשויות מקומיות; אסיפה; נשים עובדות; עיריה - עיריות - מוניציפאלי; Women working; Municipality; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700124458"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700124458"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700124458/sequence/IE5379005",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6272241",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6272241",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6272241",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6272241/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6272241",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6272240",
+      "@type": "sc:Range",
+      "label": "REP6272240",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6272241",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700124458",
+  "viewingHint": "paged"
+}

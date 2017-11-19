@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300465/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יפו (תל אביב-יפו), ישראל. תש\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יפו (תל אביב-יפו), ישראל. תש\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "גרינפלד, ישעיה בן שמעון (חתן) ; לאה בת יוסף הלוי (כלה) ; טילינגר, אנשיל (עד) ; יצחק מרדכי, הלוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300465"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג בטבת תש\"ה (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 470X310 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jaffa, Tel Aviv-Yafo, Israel. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300465"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300465/sequence/IE10229035",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יפו, ארץ ישראל, תש\"ה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243910",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יפו, ארץ ישראל, תשה].",
+          "width": 544,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243910",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243910",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243910/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. יפו, ארץ ישראל, תשה].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243910",
+                  "label": "[כתובה. יפו, ארץ ישראל, תשה].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 544
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243909",
+      "@type": "sc:Range",
+      "label": "REP10243909",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243910",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יפו, ארץ ישראל, תשה]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300465",
+  "viewingHint": "paged"
+}

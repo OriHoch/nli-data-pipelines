@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300923/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רוביגו, איטליה. תר\"י",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רוביגו, איטליה. תר\"י"
+    },
+    {
+      "label": "Contributor",
+      "value": "ביאנקיני, אלישע בן בנימין (חתן) ; קרפניטי, חוה אלוירא בת מרדכי יוסף (כלה) ; אסקולי, אריה בן יעקב חי (עד) ; שמואל חי בן יצחק, הלוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רוויגו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300923"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בתשרי תר\"י (1849)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 275X265 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rovigo, Italy. 1849"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300923"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300923/sequence/IE9201451",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רוויגו, איטליה, תר&quot;י]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467517",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 776,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467517",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467517",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467517/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467517",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 776
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467516",
+      "@type": "sc:Range",
+      "label": "REP9467516",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467517",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300923",
+  "viewingHint": "paged"
+}

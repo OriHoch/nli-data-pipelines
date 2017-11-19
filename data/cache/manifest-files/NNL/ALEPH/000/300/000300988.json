@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פררה, איטליה. תק\"ף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פררה, איטליה. תק\"ף"
+    },
+    {
+      "label": "Contributor",
+      "value": "ריאטי, מרדכי בן שמואל ידידיה (חתן) ; פנצי, נחמה בת אלישע (כלה) ; בסן, יוסף דוד בן יעקב חי (עד) ; נפי, חננאל, 1760-1836 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פירארא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בתשרי תק\"ף (1819)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 390X278 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ferrara, Italy. 1819"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300988/sequence/IE9204501",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פררה, איטליה, תק&quot;ף]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469627",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פררה; איטליה; תקף]",
+          "width": 594,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469627",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469627",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469627/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פררה; איטליה; תקף]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469627",
+                  "label": "[כתובה. פררה; איטליה; תקף]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 594
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469626",
+      "@type": "sc:Range",
+      "label": "REP9469626",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469627",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פררה; איטליה; תקף]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300988",
+  "viewingHint": "paged"
+}

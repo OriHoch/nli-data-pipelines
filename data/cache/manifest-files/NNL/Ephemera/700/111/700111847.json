@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700111847/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Music Performance -- Israel; Infrastructure (Economics) -- Israel; Taxation -- Israel; Monicipal Notice No. 4 - Rate for Installation of Water Pipes; מופע מוסיקה; תשתיות; מיסים; תקון פקודת תל אביב",
+  "label": "מודעה עירונית מס' 4 - מס הנחת צנורות להספקת מים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה עירונית מס' 4 - מס הנחת צנורות להספקת מים"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Music Performance -- Israel; Infrastructure (Economics) -- Israel; Taxation -- Israel; Monicipal Notice No. 4 - Rate for Installation of Water Pipes; מופע מוסיקה; תשתיות; מיסים; תקון פקודת תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700111847"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1926"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "700111847"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700111847/sequence/IE5026978",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394772",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 655,
+          "images": [
+            {
+              "@id": "FL5394772",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5394772",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5394772/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5394772",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 655,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5394771",
+      "@type": "sc:Range",
+      "label": "REP5394771",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5394772",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700111847",
+  "viewingHint": "paged"
+}

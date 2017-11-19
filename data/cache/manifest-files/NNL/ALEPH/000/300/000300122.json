@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300122/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אנקונה, איטליה. תקנ\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אנקונה, איטליה. תקנ\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "פואה, מנחם שמואל בן יהודה יונה (חתן) ; ברכה מזל טוב בת יצחק יהודה לוי (כלה) ; אסקולי, חיים יהושע שבתי בן שמואל (עד) ; פיאמיטא, יהושע בן משה אהרן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אנקונא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300122"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בסיון תקנ\"ז (1797)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 595X410 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ancona, Italy. 1797"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300122"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300122/sequence/IE9214948",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אנקונה, איטליה, תקנ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470987",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אנקונה; איטליה; תקנז]",
+          "width": 543,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470987",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470987",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470987/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אנקונה; איטליה; תקנז]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470987",
+                  "label": "[כתובה. אנקונה; איטליה; תקנז]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 543
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470986",
+      "@type": "sc:Range",
+      "label": "REP9470986",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470987",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אנקונה; איטליה; תקנז]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300122",
+  "viewingHint": "paged"
+}

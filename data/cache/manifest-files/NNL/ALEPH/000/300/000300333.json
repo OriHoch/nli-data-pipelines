@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300333/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יזד, איראן. תקצ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יזד, איראן. תקצ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "אלעזר בן שמעון, כהן (חתן) ; בת-שבע בת ראובן (כלה) ; יצחק בן שמואל, מפרס (עד) ; יעקב בן יוסף (עד) ; ישראל בן אבא (עד) ; יוחנן בן יהודה (עד) ; אלעזר בן אהרן (עד) ; דוד בן אלעזר (עד) ; יעקב בן אברהם (עד) ; שמואל בן יצחק (עד) ; אברהם בן דוד (עד) ; רחמים בן ידגאר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יזד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300333"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז באדר תקצ\"ט (1839)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 540X410 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Yazd, Iran. 1839"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300333"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300333/sequence/IE9196246",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יזד; איראן; תקצט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463872",
+          "@type": "sc:Canvas",
+          "label": "FL9463872",
+          "width": 609,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463872",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463872",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463872/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463872",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 609
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463876",
+          "@type": "sc:Canvas",
+          "label": "FL9463876",
+          "width": 610,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463876",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463876",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463876/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463876",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 610
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463871",
+      "@type": "sc:Range",
+      "label": "REP9463871",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463872",
+          "@type": "sc:Canvas",
+          "label": ""
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463876",
+          "@type": "sc:Canvas",
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300333",
+  "viewingHint": "paged"
+}

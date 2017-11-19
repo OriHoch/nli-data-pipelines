@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700137271/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שמי ירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שמי ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700137271"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700137271"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700137271/sequence/IE6425190",
+      "@type": "sc:Sequence",
+      "label": "שמי ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408131",
+          "@type": "sc:Canvas",
+          "label": "שמי ירושלים",
+          "width": 800,
+          "height": 616,
+          "images": [
+            {
+              "@id": "FL10408131",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10408131",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10408131/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שמי ירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10408131",
+                  "label": "שמי ירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 616,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10408129",
+      "@type": "sc:Range",
+      "label": "REP10408129",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408131",
+          "@type": "sc:Canvas",
+          "label": "שמי ירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700137271",
+  "viewingHint": "paged"
+}

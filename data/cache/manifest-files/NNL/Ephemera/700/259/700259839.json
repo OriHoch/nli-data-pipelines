@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259839/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ז. אברמוביץ (כותב),בר חיים (כותב),ב. מ. (כותר); כלכלה; עיריה - עיריות - מוניציפאלי; עיתונות; פוליטיקה; תעסוקה; פועלים",
+  "label": "פועלי ציון - 1.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פועלי ציון - 1."
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון),הועד המרכזי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ז. אברמוביץ (כותב),בר חיים (כותב),ב. מ. (כותר); כלכלה; עיריה - עיריות - מוניציפאלי; עיתונות; פוליטיקה; תעסוקה; פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259839"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259839"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259839/sequence/IE9170807",
+      "@type": "sc:Sequence",
+      "label": "פועלי ציון - 1",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181903",
+          "@type": "sc:Canvas",
+          "label": "פועלי ציון - 1",
+          "width": 800,
+          "height": 657,
+          "images": [
+            {
+              "@id": "FL9181903",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9181903",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9181903/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פועלי ציון - 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9181903",
+                  "label": "פועלי ציון - 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 657,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9181902",
+      "@type": "sc:Range",
+      "label": "REP9181902",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181903",
+          "@type": "sc:Canvas",
+          "label": "פועלי ציון - 1"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259839",
+  "viewingHint": "paged"
+}

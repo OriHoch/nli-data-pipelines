@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300883/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. חלב, סוריה. תרי\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. חלב, סוריה. תרי\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "לבטון, יצחק בן חלפון, נפטר 1911 (חתן) ; חדד, רחל בת יוסף (כלה) ; כאסכי, עזרא בן חלפון (עד) ; ענתיבי, יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300883"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בתמוז תרי\"ז (1857)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 325X260 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Aleppo, Syria. 1857"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300883"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300883/sequence/IE9200466",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. חאלב, סוריה, תרי&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462028",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 678,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462028",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462028",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462028/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462028",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 678
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462027",
+      "@type": "sc:Range",
+      "label": "REP9462027",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462028",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300883",
+  "viewingHint": "paged"
+}

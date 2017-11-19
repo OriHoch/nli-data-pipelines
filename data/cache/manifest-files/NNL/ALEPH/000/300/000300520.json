@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300520/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. המדאן, איראן. תרע\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. המדאן, איראן. תרע\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "יצחק בן אברהם (חתן) ; מרואריד בת אלעזר (כלה) ; יעקב בן רחמים (עד) ; יעקב בן באבאג'אן (עד) ; ששון, יוסף עזרא (עד) ; אורחבה בן באבא (עד) ; מנחם בן שלום (כותב)"
+    },
+    {
+      "label": "Publisher",
+      "value": "המדאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300520"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תרע\"א (1911)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 440X355 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Hamadan, Iran. 1911"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300520"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300520/sequence/IE9212207",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. המדאן, איראן, תרע&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470755",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 642,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470755",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470755",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470755/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470755",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 642
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470754",
+      "@type": "sc:Range",
+      "label": "REP9470754",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470755",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300520",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301166/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איראן. תר\"ם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איראן. תר\"ם"
+    },
+    {
+      "label": "Contributor",
+      "value": "אקא גולאם רזא בן אסתאד גדיר נג'אר, האיספהני (חתן) ; אסראי סולטאן בת אקא מחמד (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "איראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301166"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\"ם (1879)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 800X530 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Iran. 1879"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301166"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301166/sequence/IE10229170",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איראן, תר\"ם]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243956",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איראן, תרם]",
+          "width": 502,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243956",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243956",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243956/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. איראן, תרם]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243956",
+                  "label": "[כתובה. איראן, תרם]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 502
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243955",
+      "@type": "sc:Range",
+      "label": "REP10243955",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243956",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איראן, תרם]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301166",
+  "viewingHint": "paged"
+}

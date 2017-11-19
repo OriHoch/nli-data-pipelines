@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700120584/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Cities and towns -- Israel; עיריה - עיריות - מוניציפאלי; ניקיון; תברואה; Cleanliness; Sanitation; תל אביב",
+  "label": "מודעה עירונית מס' 20 - לפנוי מכשולים ממדרכות וכבישים בגבולות תל-אביב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה עירונית מס' 20 - לפנוי מכשולים ממדרכות וכבישים בגבולות תל-אביב"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Cities and towns -- Israel; עיריה - עיריות - מוניציפאלי; ניקיון; תברואה; Cleanliness; Sanitation; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700120584"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700120584"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700120584/sequence/IE5075735",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6244151",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 607,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6244151",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6244151",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6244151/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6244151",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 607
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6244150",
+      "@type": "sc:Range",
+      "label": "REP6244150",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6244151",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700120584",
+  "viewingHint": "paged"
+}

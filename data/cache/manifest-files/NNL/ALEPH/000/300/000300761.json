@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300761/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צפת, ישראל. תרי\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צפת, ישראל. תרי\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "משה יהודה ליב בן שרגא צבי (חתן) ; גיטל יוכבד בת ישראל, הלוי (כלה) ; חיים ישראל בן יעקב דוב, מראמאן (עד) ; זליג, מאהריב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צפת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300761"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב באדר ב תרי\"א (1851)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 200X143 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tsefat, Israel. 1851"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300761"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300761/sequence/IE9128852",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צפת, ארץ ישראל, תרי&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156570",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 610,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156570",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156570",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156570/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156570",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 610
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300761/sequence/IE9203092",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צפת, ארץ ישראל, תרי&quot;א]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156569",
+      "@type": "sc:Range",
+      "label": "REP9156569",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156570",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300761",
+  "viewingHint": "paged"
+}

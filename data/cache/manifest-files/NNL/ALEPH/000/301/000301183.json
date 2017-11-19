@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301183/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרפ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרפ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלישר, יעקב שמואל בן חיים משה (חתן) ; דאנאן, עזיזה ליזא בת אליהו (כלה) ; שאקו, רפאל, הכהן (עד) ; עזריאל, אברהם בן משה בכור, 1861-1944 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ירושלם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301183"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ל באב = ר\"ח אלול תרפ\"ג (1923)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 625X475 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 1923"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301183"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301183/sequence/IE9212415",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל, תרפ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468861",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 608,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468861",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468861",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468861/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468861",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 608
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468860",
+      "@type": "sc:Range",
+      "label": "REP9468860",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468861",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301183",
+  "viewingHint": "paged"
+}

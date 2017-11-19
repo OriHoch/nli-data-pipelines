@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300771/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תנעם, תימן. תרצ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תנעם, תימן. תרצ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "לוי, יחיא בן אברהם (חתן) ; אלאבהר, חמאמה בת סאלם בן סאלם (כלה) ; צפיר, סאלם בן סאלם (עד) ; מנצור, סאלם בן סעיד (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תנעם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300771"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד באדר ב'רמ\"ב לשטרות (1931)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 303X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tanam, Yemen. 1931"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300771"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300771/sequence/IE9195056",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תנעם; תימן; תרצא]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465240",
+          "@type": "sc:Canvas",
+          "label": "FL9465240",
+          "width": 644,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465240",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465240",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465240/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465240",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 644
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465231",
+          "@type": "sc:Canvas",
+          "label": "FL9465231",
+          "width": 676,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465231",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465231",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465231/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465231",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 676
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465230",
+      "@type": "sc:Range",
+      "label": "REP9465230",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465240",
+          "@type": "sc:Canvas",
+          "label": ""
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465231",
+          "@type": "sc:Canvas",
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300771",
+  "viewingHint": "paged"
+}

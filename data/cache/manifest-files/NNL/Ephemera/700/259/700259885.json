@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259885/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; בחירות; פוליטיקה",
+  "label": "לינקע פועלי ציון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לינקע פועלי ציון"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; בחירות; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259885"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259885"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259885/sequence/IE9168299",
+      "@type": "sc:Sequence",
+      "label": "לינקע פועלי ציון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182160",
+          "@type": "sc:Canvas",
+          "label": "לינקע פועלי ציון",
+          "width": 409,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9182160",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9182160",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9182160/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לינקע פועלי ציון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9182160",
+                  "label": "לינקע פועלי ציון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 409
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9182159",
+      "@type": "sc:Range",
+      "label": "REP9182159",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182160",
+          "@type": "sc:Canvas",
+          "label": "לינקע פועלי ציון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259885",
+  "viewingHint": "paged"
+}

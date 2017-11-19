@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262129/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; יצחקי; סוציאליזם; אוסטריה; האהל",
+  "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף תל אביב ויפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; יצחקי; סוציאליזם; אוסטריה; האהל"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262129"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262129"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262129/sequence/IE9167798",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180564",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית",
+          "width": 800,
+          "height": 637,
+          "images": [
+            {
+              "@id": "FL9180564",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180564",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180564/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180564",
+                  "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 637,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180563",
+      "@type": "sc:Range",
+      "label": "REP9180563",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180564",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - ממרד באוסטריה - להתאבקות עולמית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262129",
+  "viewingHint": "paged"
+}

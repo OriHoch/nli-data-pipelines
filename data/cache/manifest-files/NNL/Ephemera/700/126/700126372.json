@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700126372/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Demonstrations -- Israel; הפגנה; ספר לבן; White Paper; תל אביב",
+  "label": "קול העיר העברית לתושביה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קול העיר העברית לתושביה"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Demonstrations -- Israel; הפגנה; ספר לבן; White Paper; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700126372"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700126372"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700126372/sequence/IE10910183",
+      "@type": "sc:Sequence",
+      "label": "קול העיר העברית לתושביה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989674",
+          "@type": "sc:Canvas",
+          "label": "קול העיר העברית לתושביה",
+          "width": 525,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10989674",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10989674",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10989674/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קול העיר העברית לתושביה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10989674",
+                  "label": "קול העיר העברית לתושביה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 525
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10989673",
+      "@type": "sc:Range",
+      "label": "REP10989673",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10989674",
+          "@type": "sc:Canvas",
+          "label": "קול העיר העברית לתושביה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700126372",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300938/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. נחליאל, ישראל. תרצ\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. נחליאל, ישראל. תרצ\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלמה בן יצחק לוי (חתן) ; כולאלי, שרה בת אברהם (כלה) ; בנימין קניפוס (?) (עד) ; מזרחי, מאיר אליהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "חדרה נחליאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300938"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תרצ\"ו (1936)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 423X352 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Nahali'el, Israel. 1936"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300938"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300938/sequence/IE9203544",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. חדרה. נחליאל, ארץ ישראל, תרצ&quot;ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467239",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. חדרה. נחליאל; ארץ ישראל; תרצו]",
+          "width": 678,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467239",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467239",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467239/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. חדרה. נחליאל; ארץ ישראל; תרצו]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467239",
+                  "label": "[כתובה. חדרה. נחליאל; ארץ ישראל; תרצו]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 678
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467238",
+      "@type": "sc:Range",
+      "label": "REP9467238",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467239",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. חדרה. נחליאל; ארץ ישראל; תרצו]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300938",
+  "viewingHint": "paged"
+}

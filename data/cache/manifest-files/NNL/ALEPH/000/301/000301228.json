@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301228/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אל-טווילה, תימן. תרצ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אל-טווילה, תימן. תרצ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלנגאר, סאלם (חתן) ; אלתעוזי, נעמה בת סאלם גספאן (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טוילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301228"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג באלול ב'רמ\"ח לשטרות (1937)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 117X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Tawila, Yemen. 1937"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301228"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301228/sequence/IE9197564",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טוילה, תימן, תרצ&quot;ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461737",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. טוילה; תימן; תרצז].",
+          "width": 800,
+          "height": 492,
+          "images": [
+            {
+              "@id": "FL9461737",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461737",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461737/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. טוילה; תימן; תרצז].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461737",
+                  "label": "[כתובה. טוילה; תימן; תרצז].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 492,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461736",
+      "@type": "sc:Range",
+      "label": "REP9461736",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461737",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. טוילה; תימן; תרצז]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301228",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003499845/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פילדלפיה, פנסילבניה. תרפ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פילדלפיה, פנסילבניה. תרפ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "גורודצקי, בצלאל בן אליהו הכהן (חתן) ; לפקוביץ', ניסעל בת אברהם הלוי (כלה) ; ניומן, אהרן בן מרדכי שמואל (עד) ; קריגר, מאני בן צבי הלוי (עד) ; גורודצקי, עזרא פ., 1928- בעלים קודמים"
+    },
+    {
+      "label": "Publisher",
+      "value": "פילאדעלפיא, Bloch Publushing Co."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003499845"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יט באדר ב תרפ\"ז (1927)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 430X362 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Philadelphia, Pa. 1927"
+    },
+    {
+      "label": "SysNum",
+      "value": "003499845"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003499845/sequence/IE9197023",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. פילדלפיה; ארצות הברית; תרפ&quot;ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464955",
+          "@type": "sc:Canvas",
+          "label": "3499845-01",
+          "width": 658,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464955",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464955",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464955/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3499845-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464955",
+                  "label": "3499845-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 658
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464954",
+      "@type": "sc:Range",
+      "label": "REP9464954",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464955",
+          "@type": "sc:Canvas",
+          "label": "3499845-01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003499845",
+  "viewingHint": "paged"
+}

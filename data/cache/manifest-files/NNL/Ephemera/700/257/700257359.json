@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700257359/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; בבה אידלסון, דינה בת חורין, פ. נ. ברדה, יהודית גינצבורג; מועמדים ורשימות; כנס",
+  "label": "כנוס חברות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנוס חברות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (רשימה א)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; בבה אידלסון, דינה בת חורין, פ. נ. ברדה, יהודית גינצבורג; מועמדים ורשימות; כנס"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700257359"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700257359"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700257359/sequence/IE9064498",
+      "@type": "sc:Sequence",
+      "label": "כנוס חברות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070435",
+          "@type": "sc:Canvas",
+          "label": "כנוס חברות",
+          "width": 800,
+          "height": 570,
+          "images": [
+            {
+              "@id": "FL9070435",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070435",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070435/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנוס חברות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070435",
+                  "label": "כנוס חברות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 570,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070433",
+      "@type": "sc:Range",
+      "label": "REP9070433",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070435",
+          "@type": "sc:Canvas",
+          "label": "כנוס חברות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700257359",
+  "viewingHint": "paged"
+}

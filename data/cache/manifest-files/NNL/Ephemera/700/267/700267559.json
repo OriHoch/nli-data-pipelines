@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267559/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; בחירות; מועמדים ורשימות; תעמולת בחירות",
+  "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות"
+    },
+    {
+      "label": "Publisher",
+      "value": "רשימתכם - רשימת מפלגת פועלי ארץ ישראל ובלתי מפלגתיים (א)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; בחירות; מועמדים ורשימות; תעמולת בחירות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267559"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1941"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267559"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267559/sequence/IE9705217",
+      "@type": "sc:Sequence",
+      "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706633",
+          "@type": "sc:Canvas",
+          "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות",
+          "width": 589,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9706633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706633",
+                  "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 589
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706632",
+      "@type": "sc:Range",
+      "label": "REP9706632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706633",
+          "@type": "sc:Canvas",
+          "label": "לכל חברי התאגדות עובדי האוניברסיטה - בחירות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267559",
+  "viewingHint": "paged"
+}

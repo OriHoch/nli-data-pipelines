@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328017/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב, צפת; דו\"ח; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון",
+  "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחה\"צ היתה הפגנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחה\"צ היתה הפגנה"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב, צפת; דו\"ח; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328017"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328017"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328017/sequence/IE15635906",
+      "@type": "sc:Sequence",
+      "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחה\"צ היתה הפגנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650349",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחהצ היתה הפגנה",
+          "width": 628,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15650349",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15650349",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15650349/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחהצ היתה הפגנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15650349",
+                  "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחהצ היתה הפגנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 628
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15650348",
+      "@type": "sc:Range",
+      "label": "REP15650348",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650349",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 1 - צפת: אתמול בשעה 3 אחהצ היתה הפגנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328017",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260299/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; א. גוטמן (הסופר ש. בן ציון); מודעת אבל; ספרות; עיריה - עיריות - מוניציפאלי",
+  "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; א. גוטמן (הסופר ש. בן ציון); מודעת אבל; ספרות; עיריה - עיריות - מוניציפאלי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260299"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260299"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260299/sequence/IE9163323",
+      "@type": "sc:Sequence",
+      "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9171032",
+          "@type": "sc:Canvas",
+          "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים ",
+          "width": 800,
+          "height": 610,
+          "images": [
+            {
+              "@id": "FL9171032",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9171032",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9171032/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9171032",
+                  "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 610,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9171031",
+      "@type": "sc:Range",
+      "label": "REP9171031",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9171032",
+          "@type": "sc:Canvas",
+          "label": "תל אביב מבכה את אחד מאזרחיה-בוניה הראשונים "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260299",
+  "viewingHint": "paged"
+}

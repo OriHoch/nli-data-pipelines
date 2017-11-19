@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300601/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרפ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרפ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "ניסן בן נתנאל לוי (חתן) ; באג'י בת דוד (כלה) ; עזריאל, אברהם בן משה בכור, 1861-1944 (עד) ; יעקב בן ניסן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ירושלם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300601"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בחשון תרפ\"ה (1924)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 430X398 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 1924"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300601"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300601/sequence/IE9214857",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל, תרפ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470871",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל; תרפה]",
+          "width": 742,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470871",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470871",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470871/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ירושלים; ארץ ישראל; תרפה]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470871",
+                  "label": "[כתובה. ירושלים; ארץ ישראל; תרפה]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 742
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470870",
+      "@type": "sc:Range",
+      "label": "REP9470870",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470871",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל; תרפה]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300601",
+  "viewingHint": "paged"
+}

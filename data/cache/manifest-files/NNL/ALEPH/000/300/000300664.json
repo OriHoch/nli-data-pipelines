@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300664/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלתאלבי, תימן. תרס\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלתאלבי, תימן. תרס\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "סאלם בן צאלח, כהן (חתן) ; סעדה בת יוסף מתנא (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלתאלבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300664"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באלול ב'רי\"ט לשטרות (1908)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 92X173 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Talebi, Yemen. 1908"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300664"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300664/sequence/IE9203570",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלתאלבי, תימן, תרס&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467485",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלתאלבי; תימן; תרסח]",
+          "width": 800,
+          "height": 446,
+          "images": [
+            {
+              "@id": "FL9467485",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467485",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467485/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אלתאלבי; תימן; תרסח]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467485",
+                  "label": "[כתובה. אלתאלבי; תימן; תרסח]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 446,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467482",
+      "@type": "sc:Range",
+      "label": "REP9467482",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467485",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלתאלבי; תימן; תרסח]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300664",
+  "viewingHint": "paged"
+}

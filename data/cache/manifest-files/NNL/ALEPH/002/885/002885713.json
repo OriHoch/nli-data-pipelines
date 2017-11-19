@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002885713/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בקינגהם, אנגליה. תש\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בקינגהם, אנגליה. תש\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "אהרן בן חיים, מבקינגהם (חתן) ; שרה בת יצחק חיים (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוקינגהם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002885713"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח בתשרי תש\"ה (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 320X242 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Buckingham, England. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "002885713"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002885713/sequence/IE9195959",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. בקינגהם; הממלכה המאוחדת; תש&quot;ה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466036",
+          "@type": "sc:Canvas",
+          "label": "2885713",
+          "width": 602,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466036",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466036",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466036/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2885713",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466036",
+                  "label": "2885713",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 602
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466035",
+      "@type": "sc:Range",
+      "label": "REP9466035",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466036",
+          "@type": "sc:Canvas",
+          "label": "2885713"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002885713",
+  "viewingHint": "paged"
+}

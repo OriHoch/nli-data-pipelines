@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700139059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "קי, דני, 1913-1987; Kaye, Danny, 1913-; קיי, דני, 1913-1987; קמינסקי, דוד דני; Kaye, Danny; Kominsky, David Daniel; Kaminsky, David Daniel; Kay, Dany",
+  "label": "האמן דני-קיי בביקורו בארץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האמן דני-קיי בביקורו בארץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "קי, דני, 1913-1987; Kaye, Danny, 1913-; קיי, דני, 1913-1987; קמינסקי, דוד דני; Kaye, Danny; Kominsky, David Daniel; Kaminsky, David Daniel; Kay, Dany",
+        "ישראל",
+        "עין גב"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700139059"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700139059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700139059/sequence/IE6432158",
+      "@type": "sc:Sequence",
+      "label": "האמן דני-קיי בביקורו בארץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10414294",
+          "@type": "sc:Canvas",
+          "label": "האמן דני-קיי בביקורו בארץ",
+          "width": 767,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10414294",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10414294",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10414294/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האמן דני-קיי בביקורו בארץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10414294",
+                  "label": "האמן דני-קיי בביקורו בארץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 767
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10414293",
+      "@type": "sc:Range",
+      "label": "REP10414293",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10414294",
+          "@type": "sc:Canvas",
+          "label": "האמן דני-קיי בביקורו בארץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700139059",
+  "viewingHint": "paged"
+}

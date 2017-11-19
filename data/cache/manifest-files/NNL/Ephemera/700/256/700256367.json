@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256367/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אליהו גולומב; אסיפה; פוליטיקה",
+  "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ-ישראל - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אליהו גולומב; אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256367"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256367"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256367/sequence/IE9068290",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072418",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ",
+          "width": 800,
+          "height": 535,
+          "images": [
+            {
+              "@id": "FL9072418",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072418",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072418/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072418",
+                  "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 535,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072417",
+      "@type": "sc:Range",
+      "label": "REP9072417",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072418",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - המפלגה נוכח המצב הפוליטי בארץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256367",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300920/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלשעב אלאסוד, תימן. תרכ\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלשעב אלאסוד, תימן. תרכ\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "אבוסארה, יחיא בן סעיד (חתן) ; אלמצ'מוני, בדרה בת מצמון (כלה) ; יחיא בן דאוד (עד) ; יחיא בן מחפוצה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלשעב אלאסוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300920"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באלול ב'קע\"ט לשטרות (1868)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 166X158 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Shi'b Al-Aswad, Yemen. 1868"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300920"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300920/sequence/IE9206364",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלשעב אלאסוד, תימן, תרכ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468728",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 800,
+          "height": 767,
+          "images": [
+            {
+              "@id": "FL9468728",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468728",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468728/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468728",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 767,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468727",
+      "@type": "sc:Range",
+      "label": "REP9468727",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468728",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300920",
+  "viewingHint": "paged"
+}

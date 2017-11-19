@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301136/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יזד, איראן. תרס\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יזד, איראן. תרס\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד בן אקא יצחק (חתן) ; מורואריד בת מרדכי (כלה) ; משה בן יצחק בן אור שרגא (עד) ; באבאי בן בנימין (עד) ; משה בן אקאי (עד) ; פריזר, יחזקאל בן יצחק, 1869-1915 (עד) ; באבא בן מאיר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יזד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301136"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כב באדר תרס\"א (1901)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 1010X645 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Yazd, Iran. 1901"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301136"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301136/sequence/IE9199044",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יזד, איראן, תרס&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462753",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 575,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462753",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462753",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462753/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462753",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 575
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462752",
+      "@type": "sc:Range",
+      "label": "REP9462752",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462753",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301136",
+  "viewingHint": "paged"
+}

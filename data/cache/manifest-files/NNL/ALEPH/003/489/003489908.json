@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003489908/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טנטא, מצרים. תש\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טנטא, מצרים. תש\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "נגרין, משה בכור לוסיין בן אדמון (חתן) ; סונסינו, אנריית בת אלי (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טנטא : ניריה ובית דפוס מארקו גוהר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003489908"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה בתשרי תש\"ד (1943)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 425X315 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tanta, Egypt. 1943"
+    },
+    {
+      "label": "SysNum",
+      "value": "003489908"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003489908/sequence/IE9196237",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. טנטא; מצרים; תש&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463801",
+          "@type": "sc:Canvas",
+          "label": "3489908-01",
+          "width": 600,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463801",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463801",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463801/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3489908-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463801",
+                  "label": "3489908-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 600
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463800",
+      "@type": "sc:Range",
+      "label": "REP9463800",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463801",
+          "@type": "sc:Canvas",
+          "label": "3489908-01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003489908",
+  "viewingHint": "paged"
+}

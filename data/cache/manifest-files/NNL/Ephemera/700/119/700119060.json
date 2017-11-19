@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700119060/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Finance -- Israel; אביעזר פרידמן (בעל מניה); SHARE CERTIFICATE NO. 496; פיננסים; מניה; Share",
+  "label": "תעודת מניה מ. 496.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תעודת מניה מ. 496."
+    },
+    {
+      "label": "Publisher",
+      "value": "אוצר האכרים למשכנתאות בע\"מ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Finance -- Israel; אביעזר פרידמן (בעל מניה); SHARE CERTIFICATE NO. 496; פיננסים; מניה; Share"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700119060"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1940"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "700119060"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700119060/sequence/IE5072504",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5407227",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 536,
+          "images": [
+            {
+              "@id": "FL5407227",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5407227",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5407227/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5407227",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 536,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5407226",
+      "@type": "sc:Range",
+      "label": "REP5407226",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5407227",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700119060",
+  "viewingHint": "paged"
+}

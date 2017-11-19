@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267883/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; היסטוריה; פוליטיקה",
+  "label": "מועצה מורחבת - על הפרק: דו\"ח על מפעל השקל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מועצה מורחבת - על הפרק: דו\"ח על מפעל השקל"
+    },
+    {
+      "label": "Publisher",
+      "value": "רשימת פועלי ארץ-ישראל/סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; היסטוריה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267883"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267883"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267883/sequence/IE9705277",
+      "@type": "sc:Sequence",
+      "label": "מועצה מורחבת - על הפרק: דו\"ח על מפעל השקל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707031",
+          "@type": "sc:Canvas",
+          "label": "מועצה מורחבת - על הפרק: דוח על מפעל השקל",
+          "width": 800,
+          "height": 518,
+          "images": [
+            {
+              "@id": "FL9707031",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9707031",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9707031/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מועצה מורחבת - על הפרק: דוח על מפעל השקל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9707031",
+                  "label": "מועצה מורחבת - על הפרק: דוח על מפעל השקל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 518,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9707030",
+      "@type": "sc:Range",
+      "label": "REP9707030",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707031",
+          "@type": "sc:Canvas",
+          "label": "מועצה מורחבת - על הפרק: דוח על מפעל השקל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267883",
+  "viewingHint": "paged"
+}

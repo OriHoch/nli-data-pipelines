@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300703/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרפ\"-.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרפ\"-."
+    },
+    {
+      "label": "Publisher",
+      "value": "ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300703"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרפ\"- (192-)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 475X317 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 192-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300703"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300703/sequence/IE9199539",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל. תרפ&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461906",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל. תרפ-]",
+          "width": 547,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461906",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461906",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461906/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ירושלים; ארץ ישראל. תרפ-]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461906",
+                  "label": "[כתובה. ירושלים; ארץ ישראל. תרפ-]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 547
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461905",
+      "@type": "sc:Range",
+      "label": "REP9461905",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461906",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ירושלים; ארץ ישראל. תרפ-]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300703",
+  "viewingHint": "paged"
+}

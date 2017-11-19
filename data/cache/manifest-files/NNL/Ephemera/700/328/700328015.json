@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328015/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון",
+  "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328015"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328015"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328015/sequence/IE15635764",
+      "@type": "sc:Sequence",
+      "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650768",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב",
+          "width": 619,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15650768",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15650768",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15650768/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15650768",
+                  "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 619
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15650767",
+      "@type": "sc:Range",
+      "label": "REP15650767",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650768",
+          "@type": "sc:Canvas",
+          "label": "מודעה עירית תל-אביב - אסור בהחלט לצאת מהבית אחרי שעה 6:30 בערב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328015",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301354/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. באקו, אזרבייג'ן. תרצ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. באקו, אזרבייג'ן. תרצ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "הלל בן נתנאל (חתן) ; מירום בת יוסף (כלה) ; ששון, חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בקו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301354"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כ באלול תרצ\"ד (1934)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 444X355 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Baku, Azerbaijan. 1934"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301354"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301354/sequence/IE9204073",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. באקו, אזרביג&apos;ן, תרצ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468425",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. באקו; אזרביג&apos;ן; תרצד]",
+          "width": 639,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468425",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468425",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468425/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. באקו; אזרביג&apos;ן; תרצד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468425",
+                  "label": "[כתובה. באקו; אזרביג&apos;ן; תרצד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 639
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468424",
+      "@type": "sc:Range",
+      "label": "REP9468424",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468425",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. באקו; אזרביג&apos;ן; תרצד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301354",
+  "viewingHint": "paged"
+}

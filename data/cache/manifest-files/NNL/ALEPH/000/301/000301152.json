@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301152/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלחציחה, גאורגיה. תרכ\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלחציחה, גאורגיה. תרכ\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקב בן אברהם (חתן) ; שרה בת שבתי (כלה) ; משה בן מרדכי (עד) ; שלום בן יצחק (עד) ; דניאל בן יהודה (עד) ; יוסף בן דוד (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אחיזקא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301152"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד בחשון תרכ\"ו (1865)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 570X405 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Akhiskha, Georgia. 1865"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301152"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301152/sequence/IE10229126",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אחיזקא, גרוזיה, תרכ\"ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243948",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אחיזקא, גרוזיה, תרכו].",
+          "width": 592,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243948",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243948",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243948/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אחיזקא, גרוזיה, תרכו].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243948",
+                  "label": "[כתובה. אחיזקא, גרוזיה, תרכו].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 592
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243947",
+      "@type": "sc:Range",
+      "label": "REP10243947",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243948",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אחיזקא, גרוזיה, תרכו]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301152",
+  "viewingHint": "paged"
+}

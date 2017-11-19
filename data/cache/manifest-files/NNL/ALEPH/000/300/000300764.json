@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300764/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צפת, ישראל. תרכ\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צפת, ישראל. תרכ\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "יצחק בן מרדכי, הלוי (חתן) ; וענונו, מרים בת יוסף (כלה) ; סמחון, מרדכי אבן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צפת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300764"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בכסלו תרכ\"ז (1866)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 275X232 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tsefat, Israel. 1866"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300764"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300764/sequence/IE9201206",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צפת, ארץ ישראל, תרכ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464935",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 697,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464935",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464935",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464935/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464935",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 697
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464934",
+      "@type": "sc:Range",
+      "label": "REP9464934",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464935",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300764",
+  "viewingHint": "paged"
+}

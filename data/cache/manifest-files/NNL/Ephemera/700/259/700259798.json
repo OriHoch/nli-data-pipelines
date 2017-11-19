@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259798/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; כנס; מחאה; שביתה",
+  "label": "נגד התנקשות הממשלה בזכויות תושבי ת\"א!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נגד התנקשות הממשלה בזכויות תושבי ת\"א!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון),סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; כנס; מחאה; שביתה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259798"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259798"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259798/sequence/IE9229699",
+      "@type": "sc:Sequence",
+      "label": "נגד התנקשות הממשלה בזכויות תושבי ת\"א!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231650",
+          "@type": "sc:Canvas",
+          "label": "נגד התנקשות הממשלה בזכויות תושבי תא!",
+          "width": 584,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9231650",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9231650",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9231650/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נגד התנקשות הממשלה בזכויות תושבי תא!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9231650",
+                  "label": "נגד התנקשות הממשלה בזכויות תושבי תא!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 584
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9231649",
+      "@type": "sc:Range",
+      "label": "REP9231649",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9231650",
+          "@type": "sc:Canvas",
+          "label": "נגד התנקשות הממשלה בזכויות תושבי תא!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259798",
+  "viewingHint": "paged"
+}

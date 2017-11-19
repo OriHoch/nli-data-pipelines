@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253345/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "בחירות; מועמדים ורשימות; תעמולת בחירות",
+  "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל/סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בחירות; מועמדים ורשימות; תעמולת בחירות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253345"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253345"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253345/sequence/IE9062187",
+      "@type": "sc:Sequence",
+      "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069062",
+          "@type": "sc:Canvas",
+          "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל ",
+          "width": 566,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069062",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069062",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069062/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069062",
+                  "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 566
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069061",
+      "@type": "sc:Range",
+      "label": "REP9069061",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069062",
+          "@type": "sc:Canvas",
+          "label": "רשימת מועמדים לבחירות לועידת הצירים במפלגת פועלי ארץ-ישראל "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253345",
+  "viewingHint": "paged"
+}

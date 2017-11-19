@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256709/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; י. שפרינצק, י. קלינוב, א. קצנלסון; כנס; פוליטיקה; ציונות",
+  "label": "אספה פומבית על סף ההכרעה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית על סף ההכרעה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; י. שפרינצק, י. קלינוב, א. קצנלסון; כנס; פוליטיקה; ציונות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256709"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256709"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256709/sequence/IE9062763",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית על סף ההכרעה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071174",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית על סף ההכרעה",
+          "width": 800,
+          "height": 531,
+          "images": [
+            {
+              "@id": "FL9071174",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071174",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071174/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית על סף ההכרעה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071174",
+                  "label": "אספה פומבית על סף ההכרעה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 531,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071172",
+      "@type": "sc:Range",
+      "label": "REP9071172",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071174",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית על סף ההכרעה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256709",
+  "viewingHint": "paged"
+}

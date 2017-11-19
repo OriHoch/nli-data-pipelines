@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254804/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פועלים",
+  "label": "לפועלי הבנין ולצבור הפועלים כולו בת\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לפועלי הבנין ולצבור הפועלים כולו בת\"א"
+    },
+    {
+      "label": "Publisher",
+      "value": "דפוס קואופ' הפועל הצעיר תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254804"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254804"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254804/sequence/IE9103155",
+      "@type": "sc:Sequence",
+      "label": "לפועלי הבנין ולצבור הפועלים כולו בת\"א",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9113078",
+          "@type": "sc:Canvas",
+          "label": "לפועלי הבנין ולצבור הפועלים כולו בתא",
+          "width": 595,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9113078",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9113078",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9113078/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לפועלי הבנין ולצבור הפועלים כולו בתא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9113078",
+                  "label": "לפועלי הבנין ולצבור הפועלים כולו בתא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 595
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9113077",
+      "@type": "sc:Range",
+      "label": "REP9113077",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9113078",
+          "@type": "sc:Canvas",
+          "label": "לפועלי הבנין ולצבור הפועלים כולו בתא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254804",
+  "viewingHint": "paged"
+}

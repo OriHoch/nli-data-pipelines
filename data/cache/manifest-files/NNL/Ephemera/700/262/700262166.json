@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262166/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; טרנופוליר; יהדות; פוליטיקה; סוציאליזם",
+  "label": "שיחת חברים - החיים היהודיים בשנת 1935",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים - החיים היהודיים בשנת 1935"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; טרנופוליר; יהדות; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262166"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262166"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262166/sequence/IE9165877",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים - החיים היהודיים בשנת 1935",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179577",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - החיים היהודיים בשנת 1935",
+          "width": 800,
+          "height": 525,
+          "images": [
+            {
+              "@id": "FL9179577",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179577",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179577/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים - החיים היהודיים בשנת 1935",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179577",
+                  "label": "שיחת חברים - החיים היהודיים בשנת 1935",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 525,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179576",
+      "@type": "sc:Range",
+      "label": "REP9179576",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179577",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - החיים היהודיים בשנת 1935"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262166",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256537/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; פוליטיקה; דו\"ח; ארגון ומנהלה ארגון ומנהלה",
+  "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "החלטות מועצת מפלגת פועלי ארץ-ישראל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; פוליטיקה; דו\"ח; ארגון ומנהלה ארגון ומנהלה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256537"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256537"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256537/sequence/IE9063957",
+      "@type": "sc:Sequence",
+      "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071878",
+          "@type": "sc:Canvas",
+          "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9071878",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071878",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071878/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071878",
+                  "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071877",
+      "@type": "sc:Range",
+      "label": "REP9071877",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071878",
+          "@type": "sc:Canvas",
+          "label": "החלטות מועצת מפלגת פועלי ארץ-ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256537",
+  "viewingHint": "paged"
+}

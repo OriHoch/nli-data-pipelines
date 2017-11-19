@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262137/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "זרובבל; הרצאה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף תל אביב-יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "זרובבל; הרצאה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262137"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262137"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262137/sequence/IE9167331",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179404",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)",
+          "width": 512,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179404",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179404",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179404/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179404",
+                  "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 512
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179403",
+      "@type": "sc:Range",
+      "label": "REP9179403",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179404",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - מייצגי דורות (מדיננזון עד ברגלסון)"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262137",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300612/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אנקונה, איטליה. תקצ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אנקונה, איטליה. תקצ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "מורפורגו, דוד שמואל שבתי בן יהודה אברהם (חתן) ; אסתר ספירנצה בת משה יהודה נחמן (כלה) ; מוסאטי, אברהם בן יעקב ישראל (עד) ; עלמיא, שמואל חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אנקונא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300612"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בטבת תקצ\"ד (1833)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 705X525 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ancona, Italy. 1833"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300612"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300612/sequence/IE9200537",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אנקונה, איטליה, תקצ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462611",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 612,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462611",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462611",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462611/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462611",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 612
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462610",
+      "@type": "sc:Range",
+      "label": "REP9462610",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462611",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300612",
+  "viewingHint": "paged"
+}

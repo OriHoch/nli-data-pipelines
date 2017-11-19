@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261935/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מחאה; פוליטיקה; סוציאליזם; אסירים פוליטיים",
+  "label": "נגד הרז'ים הברברי בבתי הסוהר!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נגד הרז'ים הברברי בבתי הסוהר!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מחאה; פוליטיקה; סוציאליזם; אסירים פוליטיים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261935"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261935"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261935/sequence/IE9166878",
+      "@type": "sc:Sequence",
+      "label": "נגד הרז'ים הברברי בבתי הסוהר!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180355",
+          "@type": "sc:Canvas",
+          "label": "נגד הרז'ים הברברי בבתי הסוהר!",
+          "width": 506,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180355",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180355",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180355/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נגד הרז'ים הברברי בבתי הסוהר!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180355",
+                  "label": "נגד הרז'ים הברברי בבתי הסוהר!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 506
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180354",
+      "@type": "sc:Range",
+      "label": "REP9180354",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180355",
+          "@type": "sc:Canvas",
+          "label": "נגד הרז'ים הברברי בבתי הסוהר!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261935",
+  "viewingHint": "paged"
+}

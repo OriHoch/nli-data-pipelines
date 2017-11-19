@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253297/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; חיים נחמן ביאליק; אסיפה; מודעת אבל",
+  "label": "אספת אבל למותו של ח. נ. ביאליק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת אבל למותו של ח. נ. ביאליק"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל/סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; חיים נחמן ביאליק; אסיפה; מודעת אבל"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253297"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Trauerfeier anlasslich des Ablebens von Ch.N.Bialik"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253297"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253297/sequence/IE9068594",
+      "@type": "sc:Sequence",
+      "label": "אספת אבל למותו של ח. נ. ביאליק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072093",
+          "@type": "sc:Canvas",
+          "label": "אספת אבל למותו של ח. נ. ביאליק ",
+          "width": 800,
+          "height": 526,
+          "images": [
+            {
+              "@id": "FL9072093",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072093",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072093/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת אבל למותו של ח. נ. ביאליק ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072093",
+                  "label": "אספת אבל למותו של ח. נ. ביאליק ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 526,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072090",
+      "@type": "sc:Range",
+      "label": "REP9072090",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072093",
+          "@type": "sc:Canvas",
+          "label": "אספת אבל למותו של ח. נ. ביאליק "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253297",
+  "viewingHint": "paged"
+}

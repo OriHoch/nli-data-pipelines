@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253289/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; דוד בן-גוריון; אסיפה; פוליטיקה",
+  "label": "אספת חברים - הנושא: סיום הויכוחים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת חברים - הנושא: סיום הויכוחים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל/סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; דוד בן-גוריון; אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253289"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253289"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253289/sequence/IE9068715",
+      "@type": "sc:Sequence",
+      "label": "אספת חברים - הנושא: סיום הויכוחים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072830",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - הנושא: סיום הויכוחים",
+          "width": 596,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9072830",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072830",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072830/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת חברים - הנושא: סיום הויכוחים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072830",
+                  "label": "אספת חברים - הנושא: סיום הויכוחים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072829",
+      "@type": "sc:Range",
+      "label": "REP9072829",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072830",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - הנושא: סיום הויכוחים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253289",
+  "viewingHint": "paged"
+}

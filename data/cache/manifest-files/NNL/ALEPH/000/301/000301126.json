@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301126/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. משהד, איראן. תקצ\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. משהד, איראן. תקצ\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם בן רחמים (חתן) ; חנה בת יהודה נסים (כלה) ; דוד בן בנימין, כהן (עד) ; חכים, נסים בן יוסף (עד) ; נוריאל בן יעקב (עד) ; שמחה בן נוריאל (עד) ; אברהם בן שמחה (עד) ; יהודה בן בנימין (עד) ; ניסן בן יהונתן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "משהד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301126"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תקצ\"ד (1834)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 505X325 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mashhad, Iran. 1834"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301126"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301126/sequence/IE9124042",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. משהד, איראן, תקצ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135593",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9135593",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9135593",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9135593/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9135593",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301126/sequence/IE9204487",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. משהד, איראן, תקצ&quot;ד]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9135592",
+      "@type": "sc:Range",
+      "label": "REP9135592",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135593",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301126",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300429/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רמת גן, ישראל. תרצ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רמת גן, ישראל. תרצ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "ראביץ, משה בן שמואל יעקב (חתן) ; חיה בת מנחם זידל, הכהן (כלה) ; באוקוב, יוסף שמעון (עד) ; הורביץ, דוד, פעל במאה ה-20 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רמת גן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300429"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באב תרצ\"ה (1935)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ramat Gan, Israel. 1935"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300429"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300429/sequence/IE9128551",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רמת גן, ארץ ישראל, תרצ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156562",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 568,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156562",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156562",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156562/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156562",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 568
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300429/sequence/IE9202515",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רמת גן, ארץ ישראל, תרצ&quot;ה]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156561",
+      "@type": "sc:Range",
+      "label": "REP9156561",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156562",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300429",
+  "viewingHint": "paged"
+}

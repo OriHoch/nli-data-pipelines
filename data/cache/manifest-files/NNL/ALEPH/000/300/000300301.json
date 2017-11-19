@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300301/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ירושלים, ישראל. תרצ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ירושלים, ישראל. תרצ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלום, גרשם, 1897-1982 (חתן) ; פרויד, פניה בת אלימלך (כלה) ; עגנון, שמואל יוסף, 1888-1970 (עד) ; סימון, עקיבא ארנסט, 1900-1988 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ירושלם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300301"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כ בכסלו תרצ\"ז (1936)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 470X310 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jerusalem, Israel. 1936"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300301"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300301/sequence/IE9202900",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ירושלים, ארץ ישראל, תרצ&quot;ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466387",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 534,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466387",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466387",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466387/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466387",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 534
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466386",
+      "@type": "sc:Range",
+      "label": "REP9466386",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466387",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300301",
+  "viewingHint": "paged"
+}

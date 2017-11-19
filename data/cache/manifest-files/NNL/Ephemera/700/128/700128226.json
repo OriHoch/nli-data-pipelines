@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700128226/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Motion pictures -- Israel; Voluntarism -- Israel; סרט קולנוע; התנדבות; חיפה",
+  "label": "יום סרט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יום סרט"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Motion pictures -- Israel; Voluntarism -- Israel; סרט קולנוע; התנדבות; חיפה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700128226"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700128226"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700128226/sequence/IE10941108",
+      "@type": "sc:Sequence",
+      "label": "יום סרט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992878",
+          "@type": "sc:Canvas",
+          "label": "יום סרט",
+          "width": 598,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10992878",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10992878",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10992878/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יום סרט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10992878",
+                  "label": "יום סרט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 598
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10992877",
+      "@type": "sc:Range",
+      "label": "REP10992877",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992878",
+          "@type": "sc:Canvas",
+          "label": "יום סרט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700128226",
+  "viewingHint": "paged"
+}

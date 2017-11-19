@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262119/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; קובלנוב (אחראי); בחירות; עיריה - עיריות - מוניציפאלי; פוליטיקה",
+  "label": "מכתב גלוי למועצת פועלי ירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מכתב גלוי למועצת פועלי ירושלים"
+    },
+    {
+      "label": "Publisher",
+      "value": "סיעת פועלי ציון במועצת פועלי ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; קובלנוב (אחראי); בחירות; עיריה - עיריות - מוניציפאלי; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262119"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262119"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262119/sequence/IE9168327",
+      "@type": "sc:Sequence",
+      "label": "מכתב גלוי למועצת פועלי ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179518",
+          "@type": "sc:Canvas",
+          "label": "מכתב גלוי למועצת פועלי ירושלים",
+          "width": 387,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179518",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179518",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179518/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מכתב גלוי למועצת פועלי ירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179518",
+                  "label": "מכתב גלוי למועצת פועלי ירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 387
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179517",
+      "@type": "sc:Range",
+      "label": "REP9179517",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179518",
+          "@type": "sc:Canvas",
+          "label": "מכתב גלוי למועצת פועלי ירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262119",
+  "viewingHint": "paged"
+}

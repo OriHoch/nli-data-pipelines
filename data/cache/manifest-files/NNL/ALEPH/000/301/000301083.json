@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301083/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צרפת. תרצ\"-",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צרפת. תרצ\"-"
+    },
+    {
+      "label": "Publisher",
+      "value": "צרפת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301083"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\"צ (1930)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 320X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. France. 193-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301083"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301083/sequence/IE9197936",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צרפת, תרצ&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464389",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 636,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464389",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464389",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464389/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464389",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 636
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464388",
+      "@type": "sc:Range",
+      "label": "REP9464388",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464389",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301083",
+  "viewingHint": "paged"
+}

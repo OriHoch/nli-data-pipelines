@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300035/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פתח תקווה, ישראל. ת\"ש.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פתח תקווה, ישראל. ת\"ש."
+    },
+    {
+      "label": "Contributor",
+      "value": "הוכמן, משה בן יעקב (חתן) ; טויב, לאה בת משה, הכהן (כלה) ; גואל מישאל (עד) ; רבינוביץ, אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פתח תקוה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300035"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח באלול ת\"ש (1940)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Petah Tikva, Israel. 1940"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300035"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300035/sequence/IE9204470",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פתח תקוה, ארץ ישראל, ת&quot;ש]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469355",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פתח תקוה; ארץ ישראל; תש]",
+          "width": 590,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469355",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469355",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469355/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פתח תקוה; ארץ ישראל; תש]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469355",
+                  "label": "[כתובה. פתח תקוה; ארץ ישראל; תש]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 590
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469354",
+      "@type": "sc:Range",
+      "label": "REP9469354",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469355",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פתח תקוה; ארץ ישראל; תש]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300035",
+  "viewingHint": "paged"
+}

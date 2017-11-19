@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267528/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; ב. לוקר (מרצה), מ. נישטדט (מרצה), א. רייס (מרצה); פוליטיקה; אסיפה; הרצאה",
+  "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועה\"פ הציוני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת חברים - ב. לוקר - אחרי ישיבת הועה\"פ הציוני"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; ב. לוקר (מרצה), מ. נישטדט (מרצה), א. רייס (מרצה); פוליטיקה; אסיפה; הרצאה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267528"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267528"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267528/sequence/IE9705031",
+      "@type": "sc:Sequence",
+      "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועה\"פ הציוני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707964",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועהפ הציוני",
+          "width": 800,
+          "height": 605,
+          "images": [
+            {
+              "@id": "FL9707964",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9707964",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9707964/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועהפ הציוני",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9707964",
+                  "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועהפ הציוני",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 605,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9707962",
+      "@type": "sc:Range",
+      "label": "REP9707962",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707964",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - ב. לוקר - אחרי ישיבת הועהפ הציוני"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267528",
+  "viewingHint": "paged"
+}

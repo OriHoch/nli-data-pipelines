@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261988/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "קובלנוב,נדל,אריאלי; אסיפה; פוליטיקה; סוציאליזם",
+  "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עתון בעל פה - בראש האומה או בזנב הבורגנות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "קובלנוב,נדל,אריאלי; אסיפה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261988/sequence/IE9164553",
+      "@type": "sc:Sequence",
+      "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179827",
+          "@type": "sc:Canvas",
+          "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות",
+          "width": 602,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179827",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179827",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179827/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179827",
+                  "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 602
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179826",
+      "@type": "sc:Range",
+      "label": "REP9179826",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179827",
+          "@type": "sc:Canvas",
+          "label": "עתון בעל פה - בראש האומה או בזנב הבורגנות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261988",
+  "viewingHint": "paged"
+}

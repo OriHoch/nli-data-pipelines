@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700325091/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב-יפו; אסיפה; ספורט",
+  "label": "האספה הכללית השנתית של האגודה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האספה הכללית השנתית של האגודה"
+    },
+    {
+      "label": "Publisher",
+      "value": "אגודה להתעמלות ולספורט מכבי ת\"א"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב-יפו; אסיפה; ספורט"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700325091"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700325091"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700325091/sequence/IE15620942",
+      "@type": "sc:Sequence",
+      "label": "האספה הכללית השנתית של האגודה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15644402",
+          "@type": "sc:Canvas",
+          "label": "האספה הכללית השנתית של האגודה",
+          "width": 522,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15644402",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15644402",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15644402/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האספה הכללית השנתית של האגודה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15644402",
+                  "label": "האספה הכללית השנתית של האגודה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 522
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15644401",
+      "@type": "sc:Range",
+      "label": "REP15644401",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15644402",
+          "@type": "sc:Canvas",
+          "label": "האספה הכללית השנתית של האגודה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700325091",
+  "viewingHint": "paged"
+}

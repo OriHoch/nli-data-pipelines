@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300100/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ורונה, איטליה. תקפ\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ורונה, איטליה. תקפ\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "דיבינידטי, נתנאל ברוך בן יצחק טוביה (חתן) ; באזיליאה, סמירלדה בת יהודה מנחם (כלה) ; פרדו, דוד שמואל בן יעקב, 1792-1858 (עד) ; מורטירה, יוסף בן מרדכי, לוי, סופר הקהל (עד) ; שמואל חיים בן נחמיה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וירונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300100"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בסיון תקפ\"ו (1826)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 485X360 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Verona, Italy. 1826"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300100"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300100/sequence/IE9201240",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וירונה, איטליה, תקפ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465206",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 603,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465206",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465206",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465206/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465206",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 603
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465205",
+      "@type": "sc:Range",
+      "label": "REP9465205",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465206",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300100",
+  "viewingHint": "paged"
+}

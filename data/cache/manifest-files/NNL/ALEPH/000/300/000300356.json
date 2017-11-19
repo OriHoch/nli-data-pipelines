@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300356/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איזמיר, טורקיה. תרנ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איזמיר, טורקיה. תרנ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "אבזראדיל, אברהם בן ברוך (חתן) ; רבקה בת מאיר בן עזרא (כלה) ; אבא, יצחק יהודה (עד) ; טבע, חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "איזמיר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300356"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יב בטבת תרנ\"ה (1895)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 630X477 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Izmir, Turkey. 1895"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300356"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300356/sequence/IE9204304",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איזמיר, תורכיה, תרנ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467314",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איזמיר; תורכיה; תרנה]",
+          "width": 615,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467314",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467314",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467314/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. איזמיר; תורכיה; תרנה]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467314",
+                  "label": "[כתובה. איזמיר; תורכיה; תרנה]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 615
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467312",
+      "@type": "sc:Range",
+      "label": "REP9467312",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467314",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איזמיר; תורכיה; תרנה]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300356",
+  "viewingHint": "paged"
+}

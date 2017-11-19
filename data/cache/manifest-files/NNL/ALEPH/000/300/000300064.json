@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300064/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוסטו, איטליה. תקס\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוסטו, איטליה. תקס\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "פואה, גמליאל יהודה בן נתן (חתן) ; פואה, אביגיל בת אברהם יוסף ישעיה הלל (כלה) ; אלחנן בן רפאל שלמה לוי (עד) ; זרח בן אלחנן לוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוסיטו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300064"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג באב תקס\"ה (1805)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 415X397 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Busseto, Italy. 1805"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300064"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300064/sequence/IE9202765",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוסטו, איטליה, תקס&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464832",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 760,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464832",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464832",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464832/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464832",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 760
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464831",
+      "@type": "sc:Range",
+      "label": "REP9464831",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464832",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300064",
+  "viewingHint": "paged"
+}

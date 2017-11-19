@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302509/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הראת, אפגניסטן. תרל\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הראת, אפגניסטן. תרל\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "אבנר בן אליהו (חתן) ; בת שבע בת משה (כלה) ; שמואל בן בנימין (עד) ; יוסף חיים בן יעקב (עד) ; שמואל בן אליהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "הראת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302509"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד באייר תרל\"ח (1878)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 555X342 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Herat, Afghanistan. 1878"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302509"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302509/sequence/IE9202027",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הראת, אפגניסטן, תרל&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467259",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 508,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467259",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467259",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467259/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467259",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 508
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467258",
+      "@type": "sc:Range",
+      "label": "REP9467258",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467259",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302509",
+  "viewingHint": "paged"
+}

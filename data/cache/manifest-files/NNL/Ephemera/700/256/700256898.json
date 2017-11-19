@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256898/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; נ. ניר, מ. ערם, ד. אלכסנדר, י. פטרזייל; פוליטיקה; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; פועלים",
+  "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי"
+    },
+    {
+      "label": "Publisher",
+      "value": "פועלי ציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; נ. ניר, מ. ערם, ד. אלכסנדר, י. פטרזייל; פוליטיקה; מוסדות וארגונים$$aמוסדות שלטון -- מוסדות וארגונים$$aמוסדות שלטון; פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256898"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1927"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256898"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256898/sequence/IE9066390",
+      "@type": "sc:Sequence",
+      "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071920",
+          "@type": "sc:Canvas",
+          "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי",
+          "width": 596,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9071920",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071920",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071920/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071920",
+                  "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071919",
+      "@type": "sc:Range",
+      "label": "REP9071919",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071920",
+          "@type": "sc:Canvas",
+          "label": "הבו משאל עם הסתדרותי - בענין השלום עם הפאשיזם הרביזיוניסטי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256898",
+  "viewingHint": "paged"
+}

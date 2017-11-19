@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262183/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אברמוביץ; הרצאה; פוליטיקה; סוציאליזם; ספרד",
+  "label": "הרצאה - מלחמת הזרמים - בספרד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - מלחמת הזרמים - בספרד"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אברמוביץ; הרצאה; פוליטיקה; סוציאליזם; ספרד"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262183"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262183"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262183/sequence/IE9165098",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - מלחמת הזרמים - בספרד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180623",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - מלחמת הזרמים - בספרד",
+          "width": 531,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180623",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180623",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180623/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - מלחמת הזרמים - בספרד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180623",
+                  "label": "הרצאה - מלחמת הזרמים - בספרד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 531
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180621",
+      "@type": "sc:Range",
+      "label": "REP9180621",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180623",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - מלחמת הזרמים - בספרד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262183",
+  "viewingHint": "paged"
+}

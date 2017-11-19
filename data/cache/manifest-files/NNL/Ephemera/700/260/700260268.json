@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260268/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; שמשון רוזנבוים (ד\"ר,יו\"ר בית המשפט העירוני בת\"א לשעבר)); מודעת אבל; עיריה - עיריות - מוניציפאלי",
+  "label": "מודיעה בצער רב על מות הד\"ר שמשון רוזנבוים ז\"ל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודיעה בצער רב על מות הד\"ר שמשון רוזנבוים ז\"ל"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; שמשון רוזנבוים (ד\"ר,יו\"ר בית המשפט העירוני בת\"א לשעבר)); מודעת אבל; עיריה - עיריות - מוניציפאלי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260268"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260268"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260268/sequence/IE9163843",
+      "@type": "sc:Sequence",
+      "label": "מודיעה בצער רב על מות  הד\"ר שמשון רוזנבוים ז\"ל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9174130",
+          "@type": "sc:Canvas",
+          "label": "מודיעה בצער רב על מות  הדר שמשון רוזנבוים זל",
+          "width": 800,
+          "height": 534,
+          "images": [
+            {
+              "@id": "FL9174130",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9174130",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9174130/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מודיעה בצער רב על מות  הדר שמשון רוזנבוים זל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9174130",
+                  "label": "מודיעה בצער רב על מות  הדר שמשון רוזנבוים זל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 534,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9174121",
+      "@type": "sc:Range",
+      "label": "REP9174121",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9174130",
+          "@type": "sc:Canvas",
+          "label": "מודיעה בצער רב על מות  הדר שמשון רוזנבוים זל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260268",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300240/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פס, מרוקו. תרנ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פס, מרוקו. תרנ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "מרג'אן, מסעוד בן יוסף (חתן) ; מימרן, אסתר בת אליהו בן מסעוד גד (כלה) ; אבן צור, שלמה (עד) ; עטיה, אבא (עד) ; מונסונגו, אהרן (עד) ; אג'יני, שלמה (עד) ; דנאן, סעדיה אבן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300240"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בכסלו תרנ\"ד (1893)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 360X230 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Fès, Morocco. 1893"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300240"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300240/sequence/IE9202600",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פאס, מרוקו, תרנ&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465855",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 551,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465855",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465855",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465855/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465855",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 551
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465854",
+      "@type": "sc:Range",
+      "label": "REP9465854",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465855",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300240",
+  "viewingHint": "paged"
+}

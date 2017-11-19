@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700124758/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Political parties -- Israel; Propaganda -- Israel; Democracy -- Israel; Suffrage -- Israel; Israel -- Politics and government; תעמולת בחירות; בחירות ברשויות המקומיות; דמוקרטיה; זכות בחירה; Local Authorities Elections; תל אביב",
+  "label": "יום הקלפי של הבחירות למועצה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יום הקלפי של הבחירות למועצה"
+    },
+    {
+      "label": "Publisher",
+      "value": "ועדת הבחירות למועצה הרביעית של עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Political parties -- Israel; Propaganda -- Israel; Democracy -- Israel; Suffrage -- Israel; Israel -- Politics and government; תעמולת בחירות; בחירות ברשויות המקומיות; דמוקרטיה; זכות בחירה; Local Authorities Elections; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700124758"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700124758"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700124758/sequence/IE5380141",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6271586",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 609,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6271586",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6271586",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6271586/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6271586",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 609
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6271585",
+      "@type": "sc:Range",
+      "label": "REP6271585",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6271586",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700124758",
+  "viewingHint": "paged"
+}

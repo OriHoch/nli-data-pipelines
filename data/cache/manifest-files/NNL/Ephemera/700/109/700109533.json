@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700109533/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Orchestra -- Israel; Music -- Performance -- Israel; Jazz -- Israel; Sports -- Israel; בן שפר; תזמורת; נשף ריקודים; מוסיקת ג'ז; ספורט; מכירת כרטיסים; Ball; Tickets Sale",
+  "label": "תזמורת ג'ז - תלוה את הרקודים - בנשף הקיצי הגדול של המכבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תזמורת ג'ז - תלוה את הרקודים - בנשף הקיצי הגדול של המכבי"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Orchestra -- Israel; Music -- Performance -- Israel; Jazz -- Israel; Sports -- Israel; בן שפר; תזמורת; נשף ריקודים; מוסיקת ג'ז; ספורט; מכירת כרטיסים; Ball; Tickets Sale"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700109533"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700109533"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700109533/sequence/IE5019418",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388902",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 603,
+          "images": [
+            {
+              "@id": "FL5388902",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5388902",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5388902/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5388902",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 603,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5388901",
+      "@type": "sc:Range",
+      "label": "REP5388901",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388902",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700109533",
+  "viewingHint": "paged"
+}

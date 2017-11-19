@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פס, מרוקו. תר\"ע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פס, מרוקו. תר\"ע"
+    },
+    {
+      "label": "Contributor",
+      "value": "גזלן, מכלוף בן שלם (חתן) ; אדרעי, רחל בת יוסף בן אברהם יצחק (כלה) ; אבן יולי, יוסף, הלוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301059"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד בכסלו תר\"ע (1909)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 353X227 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Fès, Morocco. 1909"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301059/sequence/IE9198711",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פאס, מרוקו, תר&quot;ע]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462650",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תרע]",
+          "width": 531,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462650",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462650",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462650/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פאס; מרוקו; תרע]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462650",
+                  "label": "[כתובה. פאס; מרוקו; תרע]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 531
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462649",
+      "@type": "sc:Range",
+      "label": "REP9462649",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462650",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תרע]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301059",
+  "viewingHint": "paged"
+}

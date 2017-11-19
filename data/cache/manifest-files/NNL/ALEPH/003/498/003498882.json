@@ -1,0 +1,180 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003498882/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בלטימור, מרילנד. תש\"-.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בלטימור, מרילנד. תש\"-."
+    },
+    {
+      "label": "Publisher",
+      "value": "בלטימור, ארה\"ב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003498882"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תש\"- (194-)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 410X310 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Baltimore, Md. 194-"
+    },
+    {
+      "label": "SysNum",
+      "value": "003498882"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003498882/sequence/IE9195861",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. בלטימור; ארצות הברית; תש&quot;-].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465161",
+          "@type": "sc:Canvas",
+          "label": "3498882-01",
+          "width": 607,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465161",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465161",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465161/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3498882-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465161",
+                  "label": "3498882-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 607
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465160",
+          "@type": "sc:Canvas",
+          "label": "3498882-02a",
+          "width": 800,
+          "height": 619,
+          "images": [
+            {
+              "@id": "FL9465160",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465160",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465160/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3498882-02a",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465160",
+                  "label": "3498882-02a",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 619,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465159",
+          "@type": "sc:Canvas",
+          "label": "3498882-02b",
+          "width": 800,
+          "height": 622,
+          "images": [
+            {
+              "@id": "FL9465159",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465159",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465159/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3498882-02b",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465159",
+                  "label": "3498882-02b",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 622,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465158",
+      "@type": "sc:Range",
+      "label": "REP9465158",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465161",
+          "@type": "sc:Canvas",
+          "label": "3498882-01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465160",
+          "@type": "sc:Canvas",
+          "label": "3498882-02a"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465159",
+          "@type": "sc:Canvas",
+          "label": "3498882-02b"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003498882",
+  "viewingHint": "paged"
+}

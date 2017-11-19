@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301405/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. וילהלמסבאד, גרמניה. תר\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. וילהלמסבאד, גרמניה. תר\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "פון פורטהים, ברוך בנדיקס בן יהודה ליאופולד פורגס (חתן) ; גולדשמידט, ברטה בת משה (כלה) ; אונא, אברהם אליקים בן אשר ענזל, מהאנאו (עד) ; היכנברג, שלמה בן יוסף (עד) ; פון פורטהים, וילהלם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ווילהעלמסבאד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301405"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בסיון תר\"ט (1849)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 176X136 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Staatspark Wilhelmsbad, Hanau, Germany. 1849"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301405"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301405/sequence/IE9197668",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וילהלמסבאד, גרמניה, תר&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462490",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וילהלמסבאד; גרמניה; תרט]",
+          "width": 626,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462490",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462490",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462490/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. וילהלמסבאד; גרמניה; תרט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462490",
+                  "label": "[כתובה. וילהלמסבאד; גרמניה; תרט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 626
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462489",
+      "@type": "sc:Range",
+      "label": "REP9462489",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462490",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וילהלמסבאד; גרמניה; תרט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301405",
+  "viewingHint": "paged"
+}

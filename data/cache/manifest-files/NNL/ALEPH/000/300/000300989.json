@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300989/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פררה, איטליה. תקס\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פררה, איטליה. תקס\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "פאנו, משה בן יהודה (חתן) ; ריאטי, חנה בת שמואל (כלה) ; פיסרו, שבתי אלחנן בן מצליח (עד) ; רוסי, יעקב אלישע בן נחמיה חי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פירארא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300989"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג בסיון תקס\"ה (1805)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 352X267 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ferrara, Italy. 1805"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300989"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300989/sequence/IE9204509",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פררה, איטליה, תקס&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469672",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פררה; איטליה; תקסה]",
+          "width": 626,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469672",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469672",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469672/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פררה; איטליה; תקסה]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469672",
+                  "label": "[כתובה. פררה; איטליה; תקסה]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 626
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469671",
+      "@type": "sc:Range",
+      "label": "REP9469671",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469672",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פררה; איטליה; תקסה]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300989",
+  "viewingHint": "paged"
+}

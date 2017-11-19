@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261971/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פוליטיקה; סוציאליזם",
+  "label": "אל צבור הפועלים בארץ!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אל צבור הפועלים בארץ!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261971"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261971"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261971/sequence/IE9165221",
+      "@type": "sc:Sequence",
+      "label": "אל צבור הפועלים בארץ!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180097",
+          "@type": "sc:Canvas",
+          "label": "אל צבור הפועלים בארץ!",
+          "width": 458,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180097",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180097",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180097/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אל צבור הפועלים בארץ!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180097",
+                  "label": "אל צבור הפועלים בארץ!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 458
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180096",
+      "@type": "sc:Range",
+      "label": "REP9180096",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180097",
+          "@type": "sc:Canvas",
+          "label": "אל צבור הפועלים בארץ!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261971",
+  "viewingHint": "paged"
+}

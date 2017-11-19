@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256168/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; בילסקי (ד\"ר, מרצה), נ. חת (עו\"ד, מרצה); תרבות; הרצאה; אירוע",
+  "label": "2 הרצאות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "2 הרצאות"
+    },
+    {
+      "label": "Publisher",
+      "value": "אגודת מכבי חיפה, ועדת התרבות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; בילסקי (ד\"ר, מרצה), נ. חת (עו\"ד, מרצה); תרבות; הרצאה; אירוע"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256168"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "2 Vortrage"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256168"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256168/sequence/IE9067284",
+      "@type": "sc:Sequence",
+      "label": "2 הרצאות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071110",
+          "@type": "sc:Canvas",
+          "label": "2 הרצאות",
+          "width": 800,
+          "height": 604,
+          "images": [
+            {
+              "@id": "FL9071110",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071110",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071110/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2 הרצאות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071110",
+                  "label": "2 הרצאות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 604,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071109",
+      "@type": "sc:Range",
+      "label": "REP9071109",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071110",
+          "@type": "sc:Canvas",
+          "label": "2 הרצאות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256168",
+  "viewingHint": "paged"
+}

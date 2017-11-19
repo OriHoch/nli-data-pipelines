@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700325093/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "הצגה; ספורט; ריקודים; תרבות",
+  "label": "אנו עורכים ערב עליז בבית המכבי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אנו עורכים ערב עליז בבית המכבי."
+    },
+    {
+      "label": "Publisher",
+      "value": "אגודה להתעמלות ולספורט מכבי תל-אביב/מחלקת האטלטיקה הקלה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "הצגה; ספורט; ריקודים; תרבות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700325093"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700325093"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700325093/sequence/IE15621003",
+      "@type": "sc:Sequence",
+      "label": "אנו עורכים ערב עליז בבית המכבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15641027",
+          "@type": "sc:Canvas",
+          "label": "אנו עורכים ערב עליז בבית המכבי",
+          "width": 590,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15641027",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15641027",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15641027/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אנו עורכים ערב עליז בבית המכבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15641027",
+                  "label": "אנו עורכים ערב עליז בבית המכבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 590
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15641026",
+      "@type": "sc:Range",
+      "label": "REP15641026",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15641027",
+          "@type": "sc:Canvas",
+          "label": "אנו עורכים ערב עליז בבית המכבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700325093",
+  "viewingHint": "paged"
+}

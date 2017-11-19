@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253678/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חגים ומועדים; נשף",
+  "label": "אין פורים - בלי נשף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אין פורים - בלי נשף"
+    },
+    {
+      "label": "Publisher",
+      "value": "המכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חגים ומועדים; נשף"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253678"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253678"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253678/sequence/IE9094047",
+      "@type": "sc:Sequence",
+      "label": "אין פורים - בלי נשף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9106235",
+          "@type": "sc:Canvas",
+          "label": "אין פורים - בלי נשף",
+          "width": 800,
+          "height": 494,
+          "images": [
+            {
+              "@id": "FL9106235",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9106235",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9106235/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אין פורים - בלי נשף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9106235",
+                  "label": "אין פורים - בלי נשף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 494,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9106234",
+      "@type": "sc:Range",
+      "label": "REP9106234",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9106235",
+          "@type": "sc:Canvas",
+          "label": "אין פורים - בלי נשף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253678",
+  "viewingHint": "paged"
+}

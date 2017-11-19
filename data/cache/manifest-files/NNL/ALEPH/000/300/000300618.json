@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300618/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קוצ'י, הודו. תרמ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קוצ'י, הודו. תרמ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקב חי בן אפרים, כהן (חתן) ; רחמה בת חיים (כלה) ; רובן, אברהם אליהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קוג'ין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300618"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בשבט תרמ\"ב (1882)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 765X555 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Cochin, India. 1882"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300618"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300618/sequence/IE10229044",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קוצ'ין, הודו, תרמ\"ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243916",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קוצ'ין, הודו, תרמב]",
+          "width": 578,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243916",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243916",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243916/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. קוצ'ין, הודו, תרמב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243916",
+                  "label": "[כתובה. קוצ'ין, הודו, תרמב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 578
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243915",
+      "@type": "sc:Range",
+      "label": "REP10243915",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243916",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קוצ'ין, הודו, תרמב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300618",
+  "viewingHint": "paged"
+}

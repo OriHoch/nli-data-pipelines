@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700257538/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "זכות בחירה; מועמדים ורשימות; תעמולת בחירות",
+  "label": "אל כל חברי ההסתדרות בירושלים!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אל כל חברי ההסתדרות בירושלים!"
+    },
+    {
+      "label": "Publisher",
+      "value": "המפלגה לאחדות העבודה-פועלי ציון ובלתי מפלגתיים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "זכות בחירה; מועמדים ורשימות; תעמולת בחירות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700257538"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700257538"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700257538/sequence/IE9092946",
+      "@type": "sc:Sequence",
+      "label": "אל כל חברי ההסתדרות בירושלים!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9102247",
+          "@type": "sc:Canvas",
+          "label": "אל כל חברי ההסתדרות בירושלים!",
+          "width": 589,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9102247",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9102247",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9102247/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אל כל חברי ההסתדרות בירושלים!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9102247",
+                  "label": "אל כל חברי ההסתדרות בירושלים!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 589
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9102246",
+      "@type": "sc:Range",
+      "label": "REP9102246",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9102247",
+          "@type": "sc:Canvas",
+          "label": "אל כל חברי ההסתדרות בירושלים!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700257538",
+  "viewingHint": "paged"
+}

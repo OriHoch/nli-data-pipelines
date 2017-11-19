@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300131/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פדובה, איטליה. תק\"ץ.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פדובה, איטליה. תק\"ץ."
+    },
+    {
+      "label": "Contributor",
+      "value": "שמואל חי בן שמשון, הלוי (חתן) ; רומנו, רבקה ריקטא בת אברהם חי (כלה) ; גרונדי, מרדכי שמואל, 1799-1852 (עד) ; דלטורה, הלל בן שלמה יחיאל רפאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאדובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300131"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ט בסיון תק\"ץ (1830)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 570X380 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Padua, Italy. 1830"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300131"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300131/sequence/IE9202909",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה, תק&quot;ץ].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466542",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פדובה; איטליה; תקץ].",
+          "width": 540,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466542",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466542",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466542/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פדובה; איטליה; תקץ].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466542",
+                  "label": "[כתובה. פדובה; איטליה; תקץ].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 540
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466541",
+      "@type": "sc:Range",
+      "label": "REP9466541",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466542",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פדובה; איטליה; תקץ]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300131",
+  "viewingHint": "paged"
+}

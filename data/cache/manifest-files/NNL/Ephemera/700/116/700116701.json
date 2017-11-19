@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700116701/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Costume -- Israel; Contests; Purim; Fasts and feasts -- Israel; Masquerades -- Israel; Insurance companies -- Israel; Children -- Israel; תחרות תחפושות; פורים; נשף מסיכות; אולם עדן; הצגה; ילדים; Show; חיפה",
+  "label": "קרנבל לילדים! ג'קי המלח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קרנבל לילדים! ג'קי המלח."
+    },
+    {
+      "label": "Publisher",
+      "value": "[חסר מוציא לאור]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Costume -- Israel; Contests; Purim; Fasts and feasts -- Israel; Masquerades -- Israel; Insurance companies -- Israel; Children -- Israel; תחרות תחפושות; פורים; נשף מסיכות; אולם עדן; הצגה; ילדים; Show; חיפה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700116701"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל ציור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700116701"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700116701/sequence/IE5020303",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5389660",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 611,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5389660",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5389660",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5389660/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5389660",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 611
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5389659",
+      "@type": "sc:Range",
+      "label": "REP5389659",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5389660",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700116701",
+  "viewingHint": "paged"
+}

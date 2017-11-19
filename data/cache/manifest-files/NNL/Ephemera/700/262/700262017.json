@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262017/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; מ. קרדש (אחראי); יהודים וערבים; פוליטיקה; סוציאליזם; חברת החשמל; סכסוך עבודה",
+  "label": "לצבור הפועלים בירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לצבור הפועלים בירושלים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; מ. קרדש (אחראי); יהודים וערבים; פוליטיקה; סוציאליזם; חברת החשמל; סכסוך עבודה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262017"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262017"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262017/sequence/IE9168276",
+      "@type": "sc:Sequence",
+      "label": "לצבור הפועלים בירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180011",
+          "@type": "sc:Canvas",
+          "label": "לצבור הפועלים בירושלים",
+          "width": 403,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180011",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180011",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180011/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לצבור הפועלים בירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180011",
+                  "label": "לצבור הפועלים בירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 403
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180009",
+      "@type": "sc:Range",
+      "label": "REP9180009",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180011",
+          "@type": "sc:Canvas",
+          "label": "לצבור הפועלים בירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262017",
+  "viewingHint": "paged"
+}

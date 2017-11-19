@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303873/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סאטו מארה, רומניה. תר\"-.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סאטו מארה, רומניה. תר\"-."
+    },
+    {
+      "label": "Publisher",
+      "value": "סאטומארע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303873"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\"- (1800)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 390X270 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Satu-Mare, Romania. 18--"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303873"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303873/sequence/IE9194332",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סטמר; רומניה; תר-].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462004",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 556,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462004",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462004",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462004/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462004",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 556
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462002",
+      "@type": "sc:Range",
+      "label": "REP9462002",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462004",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303873",
+  "viewingHint": "paged"
+}

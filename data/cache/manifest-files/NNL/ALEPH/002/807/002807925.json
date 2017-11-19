@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002807925/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מיינץ, גרמניה. תרנ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מיינץ, גרמניה. תרנ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקבי, משה בן שמואל (חתן) ; מלכה מרטה בת יצחק הכהן (כלה) ; משה בן יצחק (עד) ; אברהם בן מנחם הכהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מדינת מגנצא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002807925"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בסיון תרנ\"א (1891)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 216X154 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mainz, Germany. 1891"
+    },
+    {
+      "label": "SysNum",
+      "value": "002807925"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002807925/sequence/IE9196605",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. מינץ; גרמניה; תרנ&quot;א].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462181",
+          "@type": "sc:Canvas",
+          "label": "2807925",
+          "width": 566,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462181",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462181",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462181/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2807925",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462181",
+                  "label": "2807925",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 566
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462180",
+      "@type": "sc:Range",
+      "label": "REP9462180",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462181",
+          "@type": "sc:Canvas",
+          "label": "2807925"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002807925",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253343/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אסיפה; היסטוריה; הרצאה; פוליטיקה",
+  "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל/סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אסיפה; היסטוריה; הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253343"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253343"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253343/sequence/IE9062220",
+      "@type": "sc:Sequence",
+      "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069655",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו",
+          "width": 542,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069655",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069655",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069655/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069655",
+                  "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 542
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069653",
+      "@type": "sc:Range",
+      "label": "REP9069653",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069655",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים על הנושא: מושב הועד הפועל הציוני בלונדון ואחריו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253343",
+  "viewingHint": "paged"
+}

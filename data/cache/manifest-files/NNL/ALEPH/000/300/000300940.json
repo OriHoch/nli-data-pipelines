@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300940/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. כרכור, ישראל. תש\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. כרכור, ישראל. תש\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "לוין, גדעון הנס בן יהושע (חתן) ; חנה בת אשר (כלה) ; זרצקי, משה בן חיים (עד) ; טילמן, צבי בן מנחם אליעזר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כרכור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300940"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד באלול תש\"א (1941)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 470X310 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Karkur, Israel. 1941"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300940"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300940/sequence/IE9215466",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. כרכור, ארץ ישראל, תש&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470453",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470453",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470453",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470453/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470453",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470452",
+      "@type": "sc:Range",
+      "label": "REP9470452",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470453",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300940",
+  "viewingHint": "paged"
+}

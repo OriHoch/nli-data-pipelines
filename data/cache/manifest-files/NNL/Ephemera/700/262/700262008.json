@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262008/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ד. וויסמן (ד\"ר); כלכלה; לאומיות; פוליטיקה; סוציאליזם",
+  "label": "שעורי מדע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שעורי מדע"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ד. וויסמן (ד\"ר); כלכלה; לאומיות; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262008"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262008"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262008/sequence/IE9168826",
+      "@type": "sc:Sequence",
+      "label": "שעורי מדע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180796",
+          "@type": "sc:Canvas",
+          "label": "שעורי מדע",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180796",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180796",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180796/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שעורי מדע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180796",
+                  "label": "שעורי מדע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180795",
+      "@type": "sc:Range",
+      "label": "REP9180795",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180796",
+          "@type": "sc:Canvas",
+          "label": "שעורי מדע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262008",
+  "viewingHint": "paged"
+}

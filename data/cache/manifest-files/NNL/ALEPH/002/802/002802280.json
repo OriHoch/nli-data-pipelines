@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002802280/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קאשן, איראן. תרס\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קאשן, איראן. תרס\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקב בן דוד (חתן) ; נוריגאן בת מאיר (כלה) ; יצחק בן מרדכי (עד) ; יחזקאל בן ישראל (עד) ; אשר בן יעקב (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כאשאן : מסגרת צבעונית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002802280"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א בטבת תרס\"ה (1904)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "445X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kashan, Iran. 1904"
+    },
+    {
+      "label": "SysNum",
+      "value": "002802280"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002802280/sequence/IE9195148",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. קאשאן; איראן; תרס&quot;ה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466548",
+          "@type": "sc:Canvas",
+          "label": "2802280",
+          "width": 644,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466548",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466548",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466548/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2802280",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466548",
+                  "label": "2802280",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 644
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466547",
+      "@type": "sc:Range",
+      "label": "REP9466547",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466548",
+          "@type": "sc:Canvas",
+          "label": "2802280"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002802280",
+  "viewingHint": "paged"
+}

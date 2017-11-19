@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300195/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קהיר, מצרים. תרס\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קהיר, מצרים. תרס\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "מזרחי, יחזקאל בן דוד, הכהן (חתן) ; מזרחי, גוהרה בת אגא באבה בן אברהם (כלה) ; כולי, בכור (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלקאהרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300195"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ל בשבט תרס\"ז (1907)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X325 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Cairo, Egypt. 1907"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300195"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300195/sequence/IE9198168",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קהיר, מצרים, תרס&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463181",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 526,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463181",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463181",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463181/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463181",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 526
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463180",
+      "@type": "sc:Range",
+      "label": "REP9463180",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463181",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300195",
+  "viewingHint": "paged"
+}

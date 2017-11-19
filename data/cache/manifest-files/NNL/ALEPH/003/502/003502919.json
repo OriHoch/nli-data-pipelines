@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003502919/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. לונדון, אנגליה. תרצ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. לונדון, אנגליה. תרצ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "מרקס, אברהם בן מרדכי (חתן) ; מגנסקי, בלומה בת אברהם עמנואל (כלה) ; אברהם מרדכי בן נח (עד) ; משה אריה בן יוסף אהרן (עד) ; Marks, Alfred (groom) ; Magensky, Bertha (bride)"
+    },
+    {
+      "label": "Publisher",
+      "value": "לונדון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003502919"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טז בטבת תרצ\"ד (1934)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 375X245 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. London, England. 1934"
+    },
+    {
+      "label": "SysNum",
+      "value": "003502919"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003502919/sequence/IE9195397",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. לונדון; הממלכה המאחדת; תרצ&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462580",
+          "@type": "sc:Canvas",
+          "label": "3502919-01r",
+          "width": 525,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462580",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462580",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462580/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3502919-01r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462580",
+                  "label": "3502919-01r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 525
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462573",
+          "@type": "sc:Canvas",
+          "label": "3502919-01v",
+          "width": 524,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462573",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462573",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462573/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3502919-01v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462573",
+                  "label": "3502919-01v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 524
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462572",
+      "@type": "sc:Range",
+      "label": "REP9462572",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462580",
+          "@type": "sc:Canvas",
+          "label": "3502919-01r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462573",
+          "@type": "sc:Canvas",
+          "label": "3502919-01v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003502919",
+  "viewingHint": "paged"
+}

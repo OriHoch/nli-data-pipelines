@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300041/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פתח תקווה, ישראל. תש\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פתח תקווה, ישראל. תש\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "ריכושא, אהרן גבריאל בן יוסף (חתן) ; שוילי, שרה בת רפאל בן גבריאל אליה (כלה) ; וינברג, ישראל ש. (עד) ; שפירא, משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פתח תקוה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300041"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בחשון תש\"ה (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 300X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Petah Tikva, Israel. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300041"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300041/sequence/IE9199959",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פתח תקוה, ארץ ישראל, תש&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463014",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 563,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463014",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463014",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463014/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463014",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 563
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463013",
+      "@type": "sc:Range",
+      "label": "REP9463013",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463014",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300041",
+  "viewingHint": "paged"
+}

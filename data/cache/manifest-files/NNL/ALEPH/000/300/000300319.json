@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300319/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פיטיליאנו, איטליה. תקס\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פיטיליאנו, איטליה. תקס\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "סירוי, משה חיים בן רפאל חיים (חתן) ; בן פורת, מזל טוב בת אברהם (כלה) ; לאטיס, יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פטיליינו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300319"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כ בניסן תקס\"ו (1806)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 590X375 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Pitigliano, Italy. 1806"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300319"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300319/sequence/IE9214973",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פיטיליאנו, איטליה, תקס&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9471006",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פיטיליאנו; איטליה; תקסו]",
+          "width": 521,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9471006",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9471006",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9471006/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פיטיליאנו; איטליה; תקסו]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9471006",
+                  "label": "[כתובה. פיטיליאנו; איטליה; תקסו]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 521
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9471005",
+      "@type": "sc:Range",
+      "label": "REP9471005",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9471006",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פיטיליאנו; איטליה; תקסו]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300319",
+  "viewingHint": "paged"
+}

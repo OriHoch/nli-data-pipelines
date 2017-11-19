@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300720/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סניגליה, איטליה. תקצ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סניגליה, איטליה. תקצ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "גליקו, אליקים שמריה בן מהללאל רפאל (חתן) ; קמיריני, חנה בת יצחק (כלה) ; אשכנזי, יהודה שמואל (עד) ; קמיריני, שבתי מרדכי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "סיניגאליא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300720"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ו בטבת תקצ\"א (1830)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 720X575 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Senigallia, Italy. 1830"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300720"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300720/sequence/IE9202708",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סיניגליה, איטליה, תקצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466726",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 648,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466726",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466726",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466726/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466726",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466725",
+      "@type": "sc:Range",
+      "label": "REP9466725",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466726",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300720",
+  "viewingHint": "paged"
+}

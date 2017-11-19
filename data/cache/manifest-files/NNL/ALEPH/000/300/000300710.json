@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300710/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. חלב, סוריה. תקפ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. חלב, סוריה. תקפ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "צפצ'יה, מרדכי בן אליהו (חתן) ; טופל, מרחבה בת גבריאל משען (כלה) ; חמוי, רחמים בן מאיר (עד) ; חמוי, שמעון (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צובא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300710"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באדר א תקפ\"א (1821)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 318X235 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Aleppo, Syria. 1821"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300710"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300710/sequence/IE9214863",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. חאלב, סוריה, תקפ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470881",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. חאלב; סוריה; תקפא]",
+          "width": 607,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470881",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470881",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470881/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. חאלב; סוריה; תקפא]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470881",
+                  "label": "[כתובה. חאלב; סוריה; תקפא]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 607
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470880",
+      "@type": "sc:Range",
+      "label": "REP9470880",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470881",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. חאלב; סוריה; תקפא]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300710",
+  "viewingHint": "paged"
+}

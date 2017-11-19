@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300150/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלצ'לאניאה, תימן. תר\"ן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלצ'לאניאה, תימן. תר\"ן."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלמדע, סעיד בן סעיד (חתן) ; אלחלא, סעידיה בת יוסף (כלה) ; אלעדוי, סאלם בן סעיד (עד) ; אלחדאד, אבראהים בן סאלם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלצ'לאניאה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300150"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד בטבת ב'ר\"א לשטרות (1890)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 360X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300150"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300150/sequence/IE9205614",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלצ&apos;לאניאה, תימן, תר&quot;ן]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468592",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלצ&apos;לאניאה; תימן; תרן]",
+          "width": 556,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468592",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468592",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468592/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אלצ&apos;לאניאה; תימן; תרן]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468592",
+                  "label": "[כתובה. אלצ&apos;לאניאה; תימן; תרן]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 556
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468590",
+      "@type": "sc:Range",
+      "label": "REP9468590",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468592",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלצ&apos;לאניאה; תימן; תרן]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300150",
+  "viewingHint": "paged"
+}

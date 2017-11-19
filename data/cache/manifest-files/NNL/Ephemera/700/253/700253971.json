@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253971/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; רחל כצנלסון, ח. שורר; אספה, בחירות; אסיפת עם; בחירות",
+  "label": "אספה פומבית - פועלות!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - פועלות!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; רחל כצנלסון, ח. שורר; אספה, בחירות; אסיפת עם; בחירות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253971"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253971"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253971/sequence/IE9096541",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - פועלות!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9106753",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - פועלות!",
+          "width": 603,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9106753",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9106753",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9106753/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - פועלות!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9106753",
+                  "label": "אספה פומבית - פועלות!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 603
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9106752",
+      "@type": "sc:Range",
+      "label": "REP9106752",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9106753",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - פועלות!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253971",
+  "viewingHint": "paged"
+}

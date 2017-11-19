@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300024/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. עיראק. תרפ\"-",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. עיראק. תרפ\"-"
+    },
+    {
+      "label": "Contributor",
+      "value": "ששון עזרא (חתן) ; חנכה, כאתון בת יוסף (כלה) ; אלחנן (עד) ; איסטנבולי, יהודה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "עיראק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300024"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרפ\" (1920)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 412X315 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Iraq. 192-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300024"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300024/sequence/IE9202714",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. עיראק, תרפ&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466755",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 614,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466755",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466755",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466755/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466755",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 614
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466754",
+      "@type": "sc:Range",
+      "label": "REP9466754",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466755",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300024",
+  "viewingHint": "paged"
+}

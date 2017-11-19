@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262127/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; פינקל (שחקן),ברטונוב (שחקן); אסיפה; הצגה; פוליטיקה; סוציאליזם; החטא ועונשו",
+  "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי."
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף תל אביב ויפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; פינקל (שחקן),ברטונוב (שחקן); אסיפה; הצגה; פוליטיקה; סוציאליזם; החטא ועונשו"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262127"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262127"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262127/sequence/IE9167893",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179453",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי",
+          "width": 800,
+          "height": 641,
+          "images": [
+            {
+              "@id": "FL9179453",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179453",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179453/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179453",
+                  "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 641,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179452",
+      "@type": "sc:Range",
+      "label": "REP9179452",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179453",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - במערכות הפרולוטריון - לקראת אחד במאי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262127",
+  "viewingHint": "paged"
+}

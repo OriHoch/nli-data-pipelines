@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300890/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תל אביב-יפו, ישראל. תש\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תל אביב-יפו, ישראל. תש\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "ניכטברוקר, ליבל יהודה בן דוד, הלוי (חתן) ; גולדה בת שלמה, הכהן (כלה) ; שמואל בן יצחק שאול, הכהן (עד) ; נחום בן שלום (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300890"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יב באב תש\"ד (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 342X244 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tel Aviv-Yafo, Israel. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300890"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300890/sequence/IE9223115",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תל אביב, ארץ ישראל, תש&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470839",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 666,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470839",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470839",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470839/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470839",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 666
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470837",
+      "@type": "sc:Range",
+      "label": "REP9470837",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470839",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300890",
+  "viewingHint": "paged"
+}

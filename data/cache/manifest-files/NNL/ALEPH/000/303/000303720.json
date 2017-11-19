@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303720/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ארד, רומניה. תרפ\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ארד, רומניה. תרפ\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "משה בן יצחק (חתן) ; מירל בת מרדכי (כלה) ; מנחם חיים בן משה (עד) ; מאיר דב בן משה יהודה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אראד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303720"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בשבט תרפ\"ו (1926)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 337X207 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Arad, Romania. 1926"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303720"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303720/sequence/IE9207278",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ארד, רומניה, תרפ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470560",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 502,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470560",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470560",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470560/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470560",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 502
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470559",
+      "@type": "sc:Range",
+      "label": "REP9470559",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470560",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303720",
+  "viewingHint": "paged"
+}

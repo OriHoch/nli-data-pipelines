@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300978/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מרכש, מרוקו. תר\"ם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מרכש, מרוקו. תר\"ם."
+    },
+    {
+      "label": "Contributor",
+      "value": "קורקוס, מסעוד בן מימון בן יעקב (חתן) ; רוזיליו, שמחה בת ישועה בן שלמה (כלה) ; חרוש, רפאל יוסף (עד) ; חזן, משה בן שלמה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מראכש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300978"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בסיון תר\"ם (1880)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 366X232 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Marrakech, Morocco. 1880"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300978"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300978/sequence/IE9215157",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מראכש, מרוקו, תר&quot;ם]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469564",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מראכש; מרוקו; תרם]",
+          "width": 527,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469564",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469564",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469564/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. מראכש; מרוקו; תרם]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469564",
+                  "label": "[כתובה. מראכש; מרוקו; תרם]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469563",
+      "@type": "sc:Range",
+      "label": "REP9469563",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469564",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מראכש; מרוקו; תרם]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300978",
+  "viewingHint": "paged"
+}

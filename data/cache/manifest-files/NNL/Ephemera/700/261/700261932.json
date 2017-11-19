@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261932/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; פוליטיקה",
+  "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261932"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261932"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261932/sequence/IE9167052",
+      "@type": "sc:Sequence",
+      "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180587",
+          "@type": "sc:Canvas",
+          "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה",
+          "width": 517,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180587",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180587",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180587/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180587",
+                  "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 517
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180586",
+      "@type": "sc:Range",
+      "label": "REP9180586",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180587",
+          "@type": "sc:Canvas",
+          "label": "לכל הפועלים בארץ - גיוס הכחות למלחמה במלחמה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261932",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700254986/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "דן בן אפרים (אחראי); יהודים וערבים; מחאה; שביתה",
+  "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת"
+    },
+    {
+      "label": "Publisher",
+      "value": "הועד המרכזי של פועלי א\"י פועלי ציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "דן בן אפרים (אחראי); יהודים וערבים; מחאה; שביתה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700254986"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700254986"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700254986/sequence/IE9127329",
+      "@type": "sc:Sequence",
+      "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9133320",
+          "@type": "sc:Canvas",
+          "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת",
+          "width": 800,
+          "height": 611,
+          "images": [
+            {
+              "@id": "FL9133320",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9133320",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9133320/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9133320",
+                  "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 611,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9133319",
+      "@type": "sc:Range",
+      "label": "REP9133319",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9133320",
+          "@type": "sc:Canvas",
+          "label": "לכל פועלי ארץ-ישראל - שביתת הפועלים הערבים נמשכת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700254986",
+  "viewingHint": "paged"
+}

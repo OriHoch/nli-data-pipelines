@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300592/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הורודנקה, אוקראינה. תרפ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הורודנקה, אוקראינה. תרפ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד משה בן עזריאל (חתן) ; פרל בת צבי (כלה) ; שמשון בן יעקב (עד) ; יהושע בן אברהם דוד, הכהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "האראדענקא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300592"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בניסן תרפ\"ט (1929)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 332X205 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Horodenka, Ukraine. 1929"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300592"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300592/sequence/IE9214841",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הורודנקה, אוקראינה, תרפ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470859",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. הורודנקה; אוקראינה; תרפט]",
+          "width": 503,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470859",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470859",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470859/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. הורודנקה; אוקראינה; תרפט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470859",
+                  "label": "[כתובה. הורודנקה; אוקראינה; תרפט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 503
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470858",
+      "@type": "sc:Range",
+      "label": "REP9470858",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470859",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. הורודנקה; אוקראינה; תרפט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300592",
+  "viewingHint": "paged"
+}

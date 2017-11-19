@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300308/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ג'רמוק, ארמניה. תר\"ף.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ג'רמוק, ארמניה. תר\"ף."
+    },
+    {
+      "label": "Contributor",
+      "value": "ציון בן יוסף, הכהן (חתן) ; אסתר בת אברהם, הלוי (כלה) ; יוסף בן עובדיה, הלוי (עד) ; משה דוד, הלוי (עד) ; אזלאי, אברהם שלום בן יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ג'רמוך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300308"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בסיון תר\"פ (1920)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 465X360 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Jermuk, Armenia. 1920"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300308"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300308/sequence/IE9200250",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ג&apos;רמוק, ארמניה, תר&quot;ץ]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462888",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ג&apos;רמוק; ארמניה; תרץ]",
+          "width": 613,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462888",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462888",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462888/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ג&apos;רמוק; ארמניה; תרץ]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462888",
+                  "label": "[כתובה. ג&apos;רמוק; ארמניה; תרץ]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462887",
+      "@type": "sc:Range",
+      "label": "REP9462887",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462888",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ג&apos;רמוק; ארמניה; תרץ]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300308",
+  "viewingHint": "paged"
+}

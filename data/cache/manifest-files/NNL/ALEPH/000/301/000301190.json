@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301190/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תל אביב-יפו, ישראל. תרצ\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תל אביב-יפו, ישראל. תרצ\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "צ'רקס, יצחק שמואל בן ישעיהו, נפטר 1964 (חתן) ; קובדלו, איטה בת שלמה דב (כלה) ; שמחה בונם בן יצחק מנחם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301190"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ל בניסן = ר\"ח אייר תרצ\"ח (1938)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X352 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tel Aviv-Yafo, Israel. 1938"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301190"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301190/sequence/IE9199128",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תל אביב, ארץ ישראל, תרצ&quot;ח].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463810",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 571,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463810",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463810",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463810/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463810",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 571
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463808",
+      "@type": "sc:Range",
+      "label": "REP9463808",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463810",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301190",
+  "viewingHint": "paged"
+}

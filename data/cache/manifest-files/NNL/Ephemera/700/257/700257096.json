@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700257096/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מפלגות; מפקד",
+  "label": "מפקד תרצ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפקד תרצ\"ה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ-ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מפלגות; מפקד"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700257096"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700257096"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700257096/sequence/IE9064682",
+      "@type": "sc:Sequence",
+      "label": "מפקד תרצ\"ה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071739",
+          "@type": "sc:Canvas",
+          "label": "מפקד תרצה",
+          "width": 800,
+          "height": 304,
+          "images": [
+            {
+              "@id": "FL9071739",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071739",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071739/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפקד תרצה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071739",
+                  "label": "מפקד תרצה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 304,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071737",
+      "@type": "sc:Range",
+      "label": "REP9071737",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071739",
+          "@type": "sc:Canvas",
+          "label": "מפקד תרצה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700257096",
+  "viewingHint": "paged"
+}

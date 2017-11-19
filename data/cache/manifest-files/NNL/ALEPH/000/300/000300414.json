@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300414/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סיג'ילמסה, מרוקו. תקפ\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סיג'ילמסה, מרוקו. תקפ\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "אדהאן, יוסף בן שלמה (חתן) ; אסולין, שמחה בת יעקב (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "סג'למסא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300414"
+    },
+    {
+      "label": "Creation Date",
+      "value": "אדר א ! תקפ\"ח (1828)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 230X190 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Sijilmassa, Morocco. 1828"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300414"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300414/sequence/IE9203012",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סג&apos;למסא, מרוקו, תקפ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467972",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 674,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467972",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467972",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467972/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467972",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 674
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467969",
+      "@type": "sc:Range",
+      "label": "REP9467969",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467972",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300414",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301466/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. המדאן (?), איראן. תר\"ץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. המדאן (?), איראן. תר\"ץ"
+    },
+    {
+      "label": "Contributor",
+      "value": "עילה, צאלח בן אלעזר (חתן) ; חמידה בת מיכאל (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "המדאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301466"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\"צ? (1930)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Hamadan (?), Iran. 1930"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301466"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301466/sequence/IE9129579",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. המדאן (?), איראן, תר&quot;צ]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156746",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 589,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156746",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156746",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156746/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156746",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 589
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301466/sequence/IE9204131",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. המדאן (?), איראן, תר&quot;צ]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156745",
+      "@type": "sc:Range",
+      "label": "REP9156745",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156746",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301466",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256088/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; תרבות; מפלגות; חברה",
+  "label": "אספת חברים - מסיבת חברים חגיגית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת חברים - מסיבת חברים חגיגית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; תרבות; מפלגות; חברה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256088"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256088"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256088/sequence/IE9067017",
+      "@type": "sc:Sequence",
+      "label": "אספת חברים - מסיבת חברים חגיגית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072698",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - מסיבת חברים חגיגית ",
+          "width": 800,
+          "height": 539,
+          "images": [
+            {
+              "@id": "FL9072698",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072698",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072698/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת חברים - מסיבת חברים חגיגית ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072698",
+                  "label": "אספת חברים - מסיבת חברים חגיגית ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 539,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072697",
+      "@type": "sc:Range",
+      "label": "REP9072697",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072698",
+          "@type": "sc:Canvas",
+          "label": "אספת חברים - מסיבת חברים חגיגית "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256088",
+  "viewingHint": "paged"
+}

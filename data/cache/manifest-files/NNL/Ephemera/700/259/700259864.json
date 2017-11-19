@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259864/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "מחאה; פוליטיקה; פועלים",
+  "label": "הלאה ההסתה הפוגרומית!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הלאה ההסתה הפוגרומית!"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מחאה; פוליטיקה; פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259864"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259864"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259864/sequence/IE9169488",
+      "@type": "sc:Sequence",
+      "label": "הלאה ההסתה הפוגרומית!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181840",
+          "@type": "sc:Canvas",
+          "label": "הלאה ההסתה הפוגרומית!",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9181840",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9181840",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9181840/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הלאה ההסתה הפוגרומית!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9181840",
+                  "label": "הלאה ההסתה הפוגרומית!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9181839",
+      "@type": "sc:Range",
+      "label": "REP9181839",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9181840",
+          "@type": "sc:Canvas",
+          "label": "הלאה ההסתה הפוגרומית!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259864",
+  "viewingHint": "paged"
+}

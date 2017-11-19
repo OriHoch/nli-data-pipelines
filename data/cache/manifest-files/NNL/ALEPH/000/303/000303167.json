@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000303167/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אמסטרדם, הולנד. תרצ\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אמסטרדם, הולנד. תרצ\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "גוטדורפ, אשר אנדריאס בן יעקב (חתן) ; לאה בת בנימין (כלה) ; מעטזעלאהר, יהודה בן חיים הכהן (עד) ; פלדמן, יעקב בן יוסף (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אמשטרדם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000303167"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בתשרי תרצ\"ו (1935)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X215 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Amsterdam, Netherlands. 1935"
+    },
+    {
+      "label": "SysNum",
+      "value": "000303167"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303167/sequence/IE9212722",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אמסטרדם, הולנד, תרצ&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470007",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 516,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470007",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470007",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470007/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470007",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 516
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470006",
+      "@type": "sc:Range",
+      "label": "REP9470006",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470007",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000303167",
+  "viewingHint": "paged"
+}

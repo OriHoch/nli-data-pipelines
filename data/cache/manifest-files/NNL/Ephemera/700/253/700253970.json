@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253970/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; עדה פישמן (נואמת); בחירות; אסיפה",
+  "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת בוחרות פומבית - הבחירות לועידת הפועלות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; עדה פישמן (נואמת); בחירות; אסיפה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253970"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253970"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253970/sequence/IE9096560",
+      "@type": "sc:Sequence",
+      "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9108270",
+          "@type": "sc:Canvas",
+          "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות",
+          "width": 800,
+          "height": 528,
+          "images": [
+            {
+              "@id": "FL9108270",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9108270",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9108270/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9108270",
+                  "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 528,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9108266",
+      "@type": "sc:Range",
+      "label": "REP9108266",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9108270",
+          "@type": "sc:Canvas",
+          "label": "אספת בוחרות פומבית - הבחירות לועידת הפועלות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253970",
+  "viewingHint": "paged"
+}

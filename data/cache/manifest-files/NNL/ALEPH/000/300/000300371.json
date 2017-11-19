@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300371/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלכסנדריה, מצרים. תרצ\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלכסנדריה, מצרים. תרצ\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "גוהר, שחאתה בן יוסף (חתן) ; דויק, אסתר בת דוד, כהן (כלה) ; אבן עטר, מימון, 1867-1958 (עד) ; יהודה, שלמה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "נא אמון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300371"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה באדר א תרצ\"ח (1938)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 490X345 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Alexandria, Egypt. 1938"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300371"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300371/sequence/IE9202960",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלכסנדריה, מצרים, תרצ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467280",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 593,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467280",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467280",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467280/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467280",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 593
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467279",
+      "@type": "sc:Range",
+      "label": "REP9467279",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467280",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300371",
+  "viewingHint": "paged"
+}

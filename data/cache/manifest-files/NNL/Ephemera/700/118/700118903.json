@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700118903/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Lectures and lecturing -- Israel; Workmanship -- Israel; יוסף בודקו (אמן), נתן ביסטריצקי (מרצה), ג. לנדאויר (ד\"ר); הרצאה; אומנות; ירושלים",
+  "label": "האמן העברי יוסף בודקו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האמן העברי יוסף בודקו"
+    },
+    {
+      "label": "Publisher",
+      "value": "בית הנכות הלאומי בצלאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Lectures and lecturing -- Israel; Workmanship -- Israel; יוסף בודקו (אמן), נתן ביסטריצקי (מרצה), ג. לנדאויר (ד\"ר); הרצאה; אומנות; ירושלים"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700118903"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1940"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700118903"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700118903/sequence/IE5071425",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5406821",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 627,
+          "images": [
+            {
+              "@id": "FL5406821",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5406821",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5406821/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5406821",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 627,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5406820",
+      "@type": "sc:Range",
+      "label": "REP5406820",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5406821",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700118903",
+  "viewingHint": "paged"
+}

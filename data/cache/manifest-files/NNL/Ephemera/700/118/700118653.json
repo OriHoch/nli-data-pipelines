@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700118653/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Lectures and lecturing -- Israel; Singing -- Israel; Community music zIsrael; Israel -- Civilization; Israel -- History; דניאל פרסקי, ח. נ. ביאליק; תרבות; היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל -- היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל; הרצאה; שירה",
+  "label": "ירצה בבית המכבי - מר דניאל פרסקי - על ח. נ. ביאליק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ירצה בבית המכבי - מר דניאל פרסקי - על ח. נ. ביאליק"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Lectures and lecturing -- Israel; Singing -- Israel; Community music zIsrael; Israel -- Civilization; Israel -- History; דניאל פרסקי, ח. נ. ביאליק; תרבות; היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל -- היסטוריה ארץ-ישראלית$$aהיסטוריה של ארץ ישראל; הרצאה; שירה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700118653"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700118653"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700118653/sequence/IE5019031",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388247",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 601,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5388247",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5388247",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5388247/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5388247",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 601
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5388246",
+      "@type": "sc:Range",
+      "label": "REP5388246",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5388247",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700118653",
+  "viewingHint": "paged"
+}

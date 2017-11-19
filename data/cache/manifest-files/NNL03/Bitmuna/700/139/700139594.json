@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700139594/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הדייג נינו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הדייג נינו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700139594"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700139594"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700139594/sequence/IE6433503",
+      "@type": "sc:Sequence",
+      "label": "הדייג נינו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10416850",
+          "@type": "sc:Canvas",
+          "label": "הדייג נינו",
+          "width": 800,
+          "height": 775,
+          "images": [
+            {
+              "@id": "FL10416850",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10416850",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10416850/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הדייג נינו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10416850",
+                  "label": "הדייג נינו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 775,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10416849",
+      "@type": "sc:Range",
+      "label": "REP10416849",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10416850",
+          "@type": "sc:Canvas",
+          "label": "הדייג נינו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700139594",
+  "viewingHint": "paged"
+}

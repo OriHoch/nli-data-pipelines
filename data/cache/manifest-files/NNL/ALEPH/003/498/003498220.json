@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003498220/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. כפר סבא, ישראל. תרפ\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. כפר סבא, ישראל. תרפ\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "סקלצקי, יוסף בן אהרן עקיבא, 1909-1995 (חתן) ; מורדוכוביץ, פריידא בת משה חיים (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר סבא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003498220"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בסיון תרפ\"ט (1929)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 220X283 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kefar Sava, Israel. 1929"
+    },
+    {
+      "label": "SysNum",
+      "value": "003498220"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003498220/sequence/IE9196861",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. כפר סבא; ארץ ישראל; תרפ&quot;ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463944",
+          "@type": "sc:Canvas",
+          "label": "3498220",
+          "width": 800,
+          "height": 620,
+          "images": [
+            {
+              "@id": "FL9463944",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463944",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463944/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3498220",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463944",
+                  "label": "3498220",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 620,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463943",
+      "@type": "sc:Range",
+      "label": "REP9463943",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463944",
+          "@type": "sc:Canvas",
+          "label": "3498220"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003498220",
+  "viewingHint": "paged"
+}

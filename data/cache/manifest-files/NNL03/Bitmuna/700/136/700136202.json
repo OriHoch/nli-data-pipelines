@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136202/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בכנסת ישראל ח\"כ דרוזי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בכנסת ישראל ח\"כ דרוזי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136202"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136202"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136202/sequence/IE6421519",
+      "@type": "sc:Sequence",
+      "label": "בכנסת ישראל ח\"כ דרוזי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10407656",
+          "@type": "sc:Canvas",
+          "label": "בכנסת ישראל חכ דרוזי",
+          "width": 781,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10407656",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10407656",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10407656/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בכנסת ישראל חכ דרוזי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10407656",
+                  "label": "בכנסת ישראל חכ דרוזי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 781
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10407655",
+      "@type": "sc:Range",
+      "label": "REP10407655",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10407656",
+          "@type": "sc:Canvas",
+          "label": "בכנסת ישראל חכ דרוזי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136202",
+  "viewingHint": "paged"
+}

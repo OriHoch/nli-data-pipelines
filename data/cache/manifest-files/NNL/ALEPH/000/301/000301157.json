@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מקנס, מרוקו. תרמ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מקנס, מרוקו. תרמ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "אדרעי, יהושע בן אברהם בן שלם בן אברהם (חתן) ; בן חותא, שמחה בת יוסף (כלה) ; ברדוגו, יעקב (עד) ; ברדוגו, שלמה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכנאסה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301157"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה בחשון תרמ\"ב (1881)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 230X180 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Meknes, Morocco. 1881"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301157/sequence/IE10346286",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מכנאס, מרוקו, תרמ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512739",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 633,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512739",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512739",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512739/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512739",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 633
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512738",
+      "@type": "sc:Range",
+      "label": "REP10512738",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512739",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301157",
+  "viewingHint": "paged"
+}

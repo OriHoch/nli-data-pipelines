@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262025/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ערם,יונגר,טרנופולר; אסיפה; בחירות; פוליטיקה; ההסתדרות",
+  "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ערם,יונגר,טרנופולר; אסיפה; בחירות; פוליטיקה; ההסתדרות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262025"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262025"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262025/sequence/IE9167882",
+      "@type": "sc:Sequence",
+      "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180956",
+          "@type": "sc:Canvas",
+          "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות",
+          "width": 800,
+          "height": 522,
+          "images": [
+            {
+              "@id": "FL9180956",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180956",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180956/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180956",
+                  "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 522,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180955",
+      "@type": "sc:Range",
+      "label": "REP9180955",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180956",
+          "@type": "sc:Canvas",
+          "label": "אספת פועלים - לקראת הבחירות לועידת ההסתדרות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262025",
+  "viewingHint": "paged"
+}

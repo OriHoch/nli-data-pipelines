@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267555/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; מנדל זינגר (מרצה); הרצאה; פוליטיקה",
+  "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל אביב, חוג עולי גרמניה, חוג עולי אוסטריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; מנדל זינגר (מרצה); הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267555"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267555"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267555/sequence/IE9705193",
+      "@type": "sc:Sequence",
+      "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706491",
+          "@type": "sc:Canvas",
+          "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל",
+          "width": 515,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9706491",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706491",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706491/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706491",
+                  "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 515
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706490",
+      "@type": "sc:Range",
+      "label": "REP9706490",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706491",
+          "@type": "sc:Canvas",
+          "label": "מנדל זינגר - תנועת הפועלים העברית באינטרנציונל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267555",
+  "viewingHint": "paged"
+}

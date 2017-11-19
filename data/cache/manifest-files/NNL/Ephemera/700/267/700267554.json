@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267554/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; משה ליפובצקי (חבר ועד מפא\"י בירושלים); תרומה; לאומיות; ארץ ישראל",
+  "label": "חוזר מס' ב. - תרומה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חוזר מס' ב. - תרומה."
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; משה ליפובצקי (חבר ועד מפא\"י בירושלים); תרומה; לאומיות; ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267554"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267554"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267554/sequence/IE9705187",
+      "@type": "sc:Sequence",
+      "label": "חוזר מס' ב. - תרומה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706452",
+          "@type": "sc:Canvas",
+          "label": "חוזר מס' ב. - תרומה",
+          "width": 481,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9706452",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706452",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706452/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חוזר מס' ב. - תרומה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706452",
+                  "label": "חוזר מס' ב. - תרומה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 481
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706450",
+      "@type": "sc:Range",
+      "label": "REP9706450",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706452",
+          "@type": "sc:Canvas",
+          "label": "חוזר מס' ב. - תרומה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267554",
+  "viewingHint": "paged"
+}

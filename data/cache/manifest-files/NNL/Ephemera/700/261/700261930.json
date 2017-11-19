@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261930/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; מ. נאדיל,י קושניר; יהודים וערבים; פוליטיקה; שביתה; סוציאליזם",
+  "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; מ. נאדיל,י קושניר; יהודים וערבים; פוליטיקה; שביתה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261930"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261930"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261930/sequence/IE9167156",
+      "@type": "sc:Sequence",
+      "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180151",
+          "@type": "sc:Canvas",
+          "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]",
+          "width": 516,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180151",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180151",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180151/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180151",
+                  "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 516
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180150",
+      "@type": "sc:Range",
+      "label": "REP9180150",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180151",
+          "@type": "sc:Canvas",
+          "label": "מכתב גלוי - למועצת פועלי ירושלים [מכתב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261930",
+  "viewingHint": "paged"
+}

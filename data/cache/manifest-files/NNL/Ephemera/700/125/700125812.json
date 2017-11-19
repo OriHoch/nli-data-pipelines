@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700125812/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Yeshivot -- Israel; Parties -- Israel; אליעזר קפלן, ישראל גורפינקל; אסיפה; בחירות פנימיות; מפלגות; Internal elections; תל-אביב",
+  "label": "אספה פומבית לקראת הבחירות למועצת פועלי יפו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית לקראת הבחירות למועצת פועלי יפו"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת הפועל הצעיר סניף תל-אביב-יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Yeshivot -- Israel; Parties -- Israel; אליעזר קפלן, ישראל גורפינקל; אסיפה; בחירות פנימיות; מפלגות; Internal elections; תל-אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700125812"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700125812"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700125812/sequence/IE5371494",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6260373",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 566,
+          "images": [
+            {
+              "@id": "FL6260373",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6260373",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6260373/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6260373",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 566,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6260372",
+      "@type": "sc:Range",
+      "label": "REP6260372",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6260373",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700125812",
+  "viewingHint": "paged"
+}

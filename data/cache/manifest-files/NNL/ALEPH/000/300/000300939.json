@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300939/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. נהלל, ישראל. תרפ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. נהלל, ישראל. תרפ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "זהבי, יצחק בן ברוך (חתן) ; גורגי, רינה בת אברהם (כלה) ; מושקוביץ, אלכסנדר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "נהלל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300939"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תרפ\"ט (1929)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 395X280 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Nahalal. Israel. 1929"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300939"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300939/sequence/IE9198380",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. נהלל, ארץ ישראל, תרפ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462473",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. נהלל; ארץ ישראל; תרפט]",
+          "width": 587,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462473",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462473",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462473/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. נהלל; ארץ ישראל; תרפט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462473",
+                  "label": "[כתובה. נהלל; ארץ ישראל; תרפט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 587
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462472",
+      "@type": "sc:Range",
+      "label": "REP9462472",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462473",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. נהלל; ארץ ישראל; תרפט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300939",
+  "viewingHint": "paged"
+}

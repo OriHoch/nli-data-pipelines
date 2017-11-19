@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300494/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קונאו, איטליה. תקצ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קונאו, איטליה. תקצ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "קצין, בנימין אליה בן ישראל (חתן) ; לטס, לאה בת דוד חיים (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קוני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300494"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בסיון תקצ\"ב (1832)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 345X260 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Cuneo, Italy. 1832"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300494"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300494/sequence/IE9202394",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קוניאו, איטליה, תקצ&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468113",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קוניאו; איטליה; תקצב]",
+          "width": 620,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468113",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468113",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468113/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. קוניאו; איטליה; תקצב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468113",
+                  "label": "[כתובה. קוניאו; איטליה; תקצב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 620
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468112",
+      "@type": "sc:Range",
+      "label": "REP9468112",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468113",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קוניאו; איטליה; תקצב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300494",
+  "viewingHint": "paged"
+}

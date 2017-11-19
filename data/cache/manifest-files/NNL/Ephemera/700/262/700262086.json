@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262086/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; אברמוביץ,יצחקי,פטרזיל; אסיפה; עלייה",
+  "label": "אספה פומבית - נגד החנקת העליה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - נגד החנקת העליה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון),סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; אברמוביץ,יצחקי,פטרזיל; אסיפה; עלייה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262086"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262086"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262086/sequence/IE9164936",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - נגד החנקת העליה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180339",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - נגד החנקת העליה",
+          "width": 800,
+          "height": 591,
+          "images": [
+            {
+              "@id": "FL9180339",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180339",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180339/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - נגד החנקת העליה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180339",
+                  "label": "אספה פומבית - נגד החנקת העליה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 591,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180338",
+      "@type": "sc:Range",
+      "label": "REP9180338",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180339",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - נגד החנקת העליה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262086",
+  "viewingHint": "paged"
+}

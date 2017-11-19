@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300844/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טשקנט, אוזבקיסטן. תרס\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טשקנט, אוזבקיסטן. תרס\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "יעקבוב, אפרים בן יצחק (חתן) ; פינחסוב, יפה בת שמואל (כלה) ; טמיר, שלמה בן משה (עד) ; יוסף חיים בן פינחס (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טשקנט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300844"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד בשבט תרס\"ד (1904)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 338X222 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "rus"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tashkent, Uzbekistan. 1904"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300844"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300844/sequence/IE10509659",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טשקנט, אוזבקיסטן, תרס\"ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512846",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 559,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512846",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512846",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512846/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512846",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 559
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512847",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 559,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512847",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 559
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512845",
+      "@type": "sc:Range",
+      "label": "REP10512845",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512846",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512847",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300844",
+  "viewingHint": "paged"
+}

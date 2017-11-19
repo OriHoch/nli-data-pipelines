@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003500957/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הוואנה, קובה. תרע\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הוואנה, קובה. תרע\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "טאדז'יר, דוד בן יצחק (חתן) ; פרץ, ריינה בת יצחק מירקאדו (כלה) ; אוזלבו, יוסף (עד) ; עזרא בן אברהם (עד) ; פוניס, אברהם (חותם)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מדינת אבאנה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003500957"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תרע\"ד (1914)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 525X400 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Havana, Cuba. 1914"
+    },
+    {
+      "label": "SysNum",
+      "value": "003500957"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003500957/sequence/IE10509384",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קובה, תרע\"ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512614",
+          "@type": "sc:Canvas",
+          "label": "3500957",
+          "width": 615,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512614",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512614",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512614/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3500957",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512614",
+                  "label": "3500957",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 615
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512613",
+      "@type": "sc:Range",
+      "label": "REP10512613",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512614",
+          "@type": "sc:Canvas",
+          "label": "3500957"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003500957",
+  "viewingHint": "paged"
+}

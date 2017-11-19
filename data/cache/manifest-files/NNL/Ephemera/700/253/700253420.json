@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253420/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אסיפה",
+  "label": "שיחת חברים - על - לקראת הבאות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים - על - לקראת הבאות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל פועלי ציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אסיפה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253420"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253420"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253420/sequence/IE9062961",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים - על - לקראת הבאות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069943",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - על - לקראת הבאות",
+          "width": 522,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069943",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069943",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069943/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים - על - לקראת הבאות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069943",
+                  "label": "שיחת חברים - על - לקראת הבאות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 522
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069941",
+      "@type": "sc:Range",
+      "label": "REP9069941",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069943",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - על - לקראת הבאות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253420",
+  "viewingHint": "paged"
+}

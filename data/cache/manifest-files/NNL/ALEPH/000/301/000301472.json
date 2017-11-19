@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301472/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תל אביב-יפו, ישראל. תרפ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תל אביב-יפו, ישראל. תרפ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד בן מאיר, הלוי (חתן) ; דבורה בת יעקב (כלה) ; מרדכי אברהם בן פינחס (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301472"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א דר\"ח אייר תרפ\"ה (1925)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 500X350 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tel Aviv-Yafo, Israel. 1925"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301472"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301472/sequence/IE9198141",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תל אביב, ארץ ישראל, תרפ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462970",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 572,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462970",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462970",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462970/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462970",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 572
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462969",
+      "@type": "sc:Range",
+      "label": "REP9462969",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462970",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301472",
+  "viewingHint": "paged"
+}

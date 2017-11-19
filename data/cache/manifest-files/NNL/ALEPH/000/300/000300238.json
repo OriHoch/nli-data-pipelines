@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300238/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. נובה מסטו, סלובקיה. תר\"ך.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. נובה מסטו, סלובקיה. תר\"ך."
+    },
+    {
+      "label": "Contributor",
+      "value": "משה יוסף בן דוד (חתן) ; צארטל בת דוד הכהן (כלה) ; קורניצר, ליפמן אליהו (עד) ; ברגלר, ליזר הרש כהן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "עיר חדשה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300238"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ט בניסן תר\"ך (1860)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Nove Mesto, Slovakia. 1860"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300238"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300238/sequence/IE9203687",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. נובה מסטו, סלובקיה, תר&quot;ך]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468841",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. נובה מסטו; סלובקיה; תרך]",
+          "width": 509,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468841",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468841",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468841/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. נובה מסטו; סלובקיה; תרך]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468841",
+                  "label": "[כתובה. נובה מסטו; סלובקיה; תרך]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 509
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468840",
+      "@type": "sc:Range",
+      "label": "REP9468840",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468841",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. נובה מסטו; סלובקיה; תרך]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300238",
+  "viewingHint": "paged"
+}

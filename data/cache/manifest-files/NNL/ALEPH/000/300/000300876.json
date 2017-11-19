@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300876/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צפרו, מרוקו. תרט\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צפרו, מרוקו. תרט\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "הרוש, יעקב בן אברהם (חתן) ; יתאח, מסעודה בת מרדכי (כלה) ; חיים אליהו (עד) ; אג'יני, ישועה בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צפרו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300876"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד בכסלו תרט\"ז (1855)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 324X235 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Sefrou, Morocco. 1855"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300876"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300876/sequence/IE9201375",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צפרו, מרוקו, תרט&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466647",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466647",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466647",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466647/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466647",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466646",
+      "@type": "sc:Range",
+      "label": "REP9466646",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466647",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300876",
+  "viewingHint": "paged"
+}

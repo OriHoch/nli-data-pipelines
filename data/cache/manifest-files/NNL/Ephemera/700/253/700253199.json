@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253199/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; בחירות; פוליטיקה",
+  "label": "לכל חברי המפלגה! הבחירות למועצת הסניף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל חברי המפלגה! הבחירות למועצת הסניף"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; בחירות; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253199"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253199"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253199/sequence/IE9067172",
+      "@type": "sc:Sequence",
+      "label": "לכל חברי המפלגה! הבחירות למועצת הסניף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070454",
+          "@type": "sc:Canvas",
+          "label": "לכל חברי המפלגה! הבחירות למועצת הסניף ",
+          "width": 596,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9070454",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070454",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070454/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל חברי המפלגה! הבחירות למועצת הסניף ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070454",
+                  "label": "לכל חברי המפלגה! הבחירות למועצת הסניף ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070453",
+      "@type": "sc:Range",
+      "label": "REP9070453",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070454",
+          "@type": "sc:Canvas",
+          "label": "לכל חברי המפלגה! הבחירות למועצת הסניף "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253199",
+  "viewingHint": "paged"
+}

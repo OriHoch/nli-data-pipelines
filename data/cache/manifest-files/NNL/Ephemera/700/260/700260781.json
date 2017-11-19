@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260781/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "שלום ובטחון",
+  "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!"
+    },
+    {
+      "label": "Publisher",
+      "value": "פ. ק. פ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260781"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260781"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260781/sequence/IE9157204",
+      "@type": "sc:Sequence",
+      "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9164664",
+          "@type": "sc:Canvas",
+          "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!",
+          "width": 593,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9164664",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9164664",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9164664/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9164664",
+                  "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 593
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9164663",
+      "@type": "sc:Range",
+      "label": "REP9164663",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9164664",
+          "@type": "sc:Canvas",
+          "label": "כל העזרה לברית המועצות - תן יד לשבירת הפשיזם!"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260781",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302557/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בגדאד, עיראק. תרע\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בגדאד, עיראק. תרע\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם עזרא צאלח רחמים (חתן) ; לולו בת משה צאלח ראובן (כלה) ; מאיר בן יוסף בן גבריאל בן אליהו (עד) ; צלאח משה בן שמעון בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בגדאד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302557"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ר\"ח סיון תרע\"ה (1915)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 390X290 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Baghdad, Iraq. 1915"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302557"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302557/sequence/IE9200992",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בגדד, עיראק, תרע&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465784",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 596,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465784",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465784",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465784/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465784",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465783",
+      "@type": "sc:Range",
+      "label": "REP9465783",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465784",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302557",
+  "viewingHint": "paged"
+}

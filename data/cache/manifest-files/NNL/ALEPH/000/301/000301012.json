@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301012/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יזד, איראן. תקע\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יזד, איראן. תקע\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "אהרן בן דניאל (חתן) ; לאה בת יוסף (כלה) ; שמואל בן אור (עד) ; רחמים בן דוד (עד) ; ניסן בן יהודה (עד) ; אליהו בן חנינא (עד) ; פינחס בן אלעזר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יזד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301012"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בניסן תקע\"ד (1814)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 374X342 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Yazd, Iran. 1814"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301012"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301012/sequence/IE9199110",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. יזד, איראן, תקע&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463565",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יזד; איראן; תקעד]",
+          "width": 738,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463565",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463565",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463565/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. יזד; איראן; תקעד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463565",
+                  "label": "[כתובה. יזד; איראן; תקעד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 738
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463563",
+      "@type": "sc:Range",
+      "label": "REP9463563",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463565",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. יזד; איראן; תקעד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301012",
+  "viewingHint": "paged"
+}

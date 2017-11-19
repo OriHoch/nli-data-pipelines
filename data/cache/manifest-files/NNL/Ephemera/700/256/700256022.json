@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256022/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "יפו; אסיפה; אגודה קואופרטיבית",
+  "label": "אספה כללית - דין וחשבון של הועד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה כללית - דין וחשבון של הועד"
+    },
+    {
+      "label": "Publisher",
+      "value": "הסתדרות העובדים העברים הכללית בארץ ישראל - מועצת פועלי יפו - אגודת פועלי העץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "יפו; אסיפה; אגודה קואופרטיבית"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256022"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256022"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256022/sequence/IE9083930",
+      "@type": "sc:Sequence",
+      "label": "אספה כללית - דין וחשבון של הועד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9087475",
+          "@type": "sc:Canvas",
+          "label": "אספה כללית - דין וחשבון של הועד",
+          "width": 527,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9087475",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9087475",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9087475/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה כללית - דין וחשבון של הועד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9087475",
+                  "label": "אספה כללית - דין וחשבון של הועד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9087474",
+      "@type": "sc:Range",
+      "label": "REP9087474",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9087475",
+          "@type": "sc:Canvas",
+          "label": "אספה כללית - דין וחשבון של הועד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256022",
+  "viewingHint": "paged"
+}

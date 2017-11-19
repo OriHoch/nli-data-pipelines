@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253227/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; חברה; פוליטיקה; מסיבה",
+  "label": "מסבת חברים לכבוד חברינו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסבת חברים לכבוד חברינו"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; חברה; פוליטיקה; מסיבה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253227"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253227"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253227/sequence/IE9069559",
+      "@type": "sc:Sequence",
+      "label": "מסבת חברים לכבוד חברינו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071678",
+          "@type": "sc:Canvas",
+          "label": "מסבת חברים לכבוד חברינו ",
+          "width": 800,
+          "height": 613,
+          "images": [
+            {
+              "@id": "FL9071678",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071678",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071678/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסבת חברים לכבוד חברינו ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071678",
+                  "label": "מסבת חברים לכבוד חברינו ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 613,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071675",
+      "@type": "sc:Range",
+      "label": "REP9071675",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071678",
+          "@type": "sc:Canvas",
+          "label": "מסבת חברים לכבוד חברינו "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253227",
+  "viewingHint": "paged"
+}

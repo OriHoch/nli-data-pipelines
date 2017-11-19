@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302442/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מהבאד, איראן. תרצ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מהבאד, איראן. תרצ\"א."
+    },
+    {
+      "label": "Publisher",
+      "value": "סבלאג"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302442"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרצ\"א (1931)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 175X220 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mahabad, Iran. 1931"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302442"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302442/sequence/IE9212539",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סודג&apos; בולאק, איראן, תרצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469367",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 800,
+          "height": 641,
+          "images": [
+            {
+              "@id": "FL9469367",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469367",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469367/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469367",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 641,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469366",
+      "@type": "sc:Range",
+      "label": "REP9469366",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469367",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302442",
+  "viewingHint": "paged"
+}

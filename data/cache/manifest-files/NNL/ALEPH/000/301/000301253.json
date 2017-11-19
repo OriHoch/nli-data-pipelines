@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301253/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. גלאטה, איסטנבול, טורקיה. תרפ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. גלאטה, איסטנבול, טורקיה. תרפ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "יואב, משה בן יוסף (חתן) ; סבן, שיניורו אוז'יני בת נסים צדיק (כלה) ; פאלאג'י, יעקב (עד) ; סאגיס, יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "גלאטה הסמוכה לקושטאנדינה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301253"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז בכסלו תרפ\"א (1920)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 503X352 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Galata, Istanbul, Turkey. 1920"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301253"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301253/sequence/IE9197575",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איסטנבול. גלטה, תורכיה, תרפ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461819",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איסטנבול. גלטה; תורכיה; תרפא]",
+          "width": 542,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461819",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461819",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461819/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. איסטנבול. גלטה; תורכיה; תרפא]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461819",
+                  "label": "[כתובה. איסטנבול. גלטה; תורכיה; תרפא]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 542
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461818",
+      "@type": "sc:Range",
+      "label": "REP9461818",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461819",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איסטנבול. גלטה; תורכיה; תרפא]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301253",
+  "viewingHint": "paged"
+}

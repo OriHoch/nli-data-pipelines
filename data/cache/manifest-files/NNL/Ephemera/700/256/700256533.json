@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256533/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פוליטיקה; שואה וגבורה; לאומיות; אחד בעם",
+  "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מרכז מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פוליטיקה; שואה וגבורה; לאומיות; אחד בעם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256533"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256533"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256533/sequence/IE9064029",
+      "@type": "sc:Sequence",
+      "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070137",
+          "@type": "sc:Canvas",
+          "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל ",
+          "width": 448,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9070137",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070137",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070137/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070137",
+                  "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 448
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070134",
+      "@type": "sc:Range",
+      "label": "REP9070134",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070137",
+          "@type": "sc:Canvas",
+          "label": "לפועלי ארץ-ישראל - להחיש הצלה לשארית ישראל "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256533",
+  "viewingHint": "paged"
+}

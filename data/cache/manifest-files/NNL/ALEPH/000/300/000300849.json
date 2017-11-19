@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300849/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סמרקנד, אוזבקיסטן. תרצ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סמרקנד, אוזבקיסטן. תרצ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "ראובינוב, יוסף בן ראובן יהודה (חתן) ; קטן, ג'וייה בת רפאל (כלה) ; חיימוף, בירכייא (עד) ; עליוף, ידידיה (מוזכר)"
+    },
+    {
+      "label": "Publisher",
+      "value": "סמרקנד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300849"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בכסלו תרצ\"א (1930)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 202X170 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Samarqand, Uzbekistan. 1930"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300849"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300849/sequence/IE9223093",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סמרקנד, אוזבקיסטן, תרצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470807",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 693,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470807",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 693
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470801",
+      "@type": "sc:Range",
+      "label": "REP9470801",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470807",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300849",
+  "viewingHint": "paged"
+}

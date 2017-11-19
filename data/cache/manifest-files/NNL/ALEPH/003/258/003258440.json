@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003258440/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. שטוטגרט, גרמניה. תש\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. שטוטגרט, גרמניה. תש\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "לנגה, אהרן בן מרדכי דוד (חתן) ; פלישמן, פייגא בת ישראל (כלה) ; קורץ, יוסף בן נתן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "שטוטגרט גרמניא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003258440"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י באלול תש\"ו (1946)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 294X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Stuttgart, Germany. 1946"
+    },
+    {
+      "label": "SysNum",
+      "value": "003258440"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003258440/sequence/IE9196692",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. שטוטגרט; גרמניה; תש&quot;ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463066",
+          "@type": "sc:Canvas",
+          "label": "3258440-01",
+          "width": 574,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463066",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463066",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463066/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3258440-01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463066",
+                  "label": "3258440-01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 574
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463065",
+      "@type": "sc:Range",
+      "label": "REP9463065",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463066",
+          "@type": "sc:Canvas",
+          "label": "3258440-01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003258440",
+  "viewingHint": "paged"
+}

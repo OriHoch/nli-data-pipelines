@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300952/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צור מוסא, מרוקו. תרצ\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צור מוסא, מרוקו. תרצ\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "עמאר, יוסף בן משה בן יוסף (חתן) ; אלמליח, סוליקה בת אהרן בן אברהם בן אלעזר (כלה) ; אבן מוחא, אסתר בת מכלוף (כלה) ; דהאן, דוד בן חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צור מוסא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300952"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י באב תרצ\"ב (1932)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 231X181 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Sour Moussa, Morocco. 1932"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300952"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300952/sequence/IE9196030",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צור מוסא; מרוקו; תרצב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12243709",
+          "@type": "sc:Canvas",
+          "label": "Page1",
+          "width": 649,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL12243709",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL12243709",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL12243709/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL12243709",
+                  "label": "Page1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 649
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12243708",
+          "@type": "sc:Canvas",
+          "label": "Page2",
+          "width": 636,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL12243708",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL12243708",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL12243708/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL12243708",
+                  "label": "Page2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 636
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP12243707",
+      "@type": "sc:Range",
+      "label": "REP12243707",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12243709",
+          "@type": "sc:Canvas",
+          "label": "Page1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12243708",
+          "@type": "sc:Canvas",
+          "label": "Page2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300952",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301074/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. תקפ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. תקפ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "קמפניני, יעקב יצחק בן יחיאל יהושע (חתן) ; טירצינו, טוטוביני בת ברוך (כלה) ; קסטרו, שמואל יהודה בן גבריאל (עד) ; רוקס, שמואל יעקב בן יהודה דוד (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301074"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בטבת תקפ\"ה (1824)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 830X565 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1824"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301074"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301074/sequence/IE9223195",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, תקפ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469295",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 570,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469295",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469295",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469295/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469295",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 570
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469294",
+      "@type": "sc:Range",
+      "label": "REP9469294",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469295",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301074",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700128217/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "דיזנגוף (ראש עירית ת\"א), נתן ד. קפלן (יו\"ר הנהלת מכבי אש); טקס; Ceremony; תל אביב",
+  "label": "טכס חלוקת אותות הצטינות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טכס חלוקת אותות הצטינות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי אש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "דיזנגוף (ראש עירית ת\"א), נתן ד. קפלן (יו\"ר הנהלת מכבי אש); טקס; Ceremony; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700128217"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700128217"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700128217/sequence/IE10941021",
+      "@type": "sc:Sequence",
+      "label": "טכס חלוקת אותות הצטינות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992819",
+          "@type": "sc:Canvas",
+          "label": "טכס חלוקת אותות הצטינות",
+          "width": 800,
+          "height": 601,
+          "images": [
+            {
+              "@id": "FL10992819",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10992819",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10992819/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טכס חלוקת אותות הצטינות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10992819",
+                  "label": "טכס חלוקת אותות הצטינות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 601,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10992818",
+      "@type": "sc:Range",
+      "label": "REP10992818",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992819",
+          "@type": "sc:Canvas",
+          "label": "טכס חלוקת אותות הצטינות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700128217",
+  "viewingHint": "paged"
+}

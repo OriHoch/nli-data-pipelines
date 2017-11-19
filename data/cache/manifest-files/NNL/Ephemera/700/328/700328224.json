@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328224/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; אמנות; היסטוריה; המנדט הבריטי",
+  "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל"
+    },
+    {
+      "label": "Publisher",
+      "value": "מוזיאון תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; אמנות; היסטוריה; המנדט הבריטי"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328224"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "The official inauguration of the Museum building by H. E. the high commissioner for Palestine"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328224"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328224/sequence/IE15646739",
+      "@type": "sc:Sequence",
+      "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650311",
+          "@type": "sc:Canvas",
+          "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל",
+          "width": 800,
+          "height": 318,
+          "images": [
+            {
+              "@id": "FL15650311",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15650311",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15650311/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15650311",
+                  "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 318,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15650309",
+      "@type": "sc:Range",
+      "label": "REP15650309",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650311",
+          "@type": "sc:Canvas",
+          "label": "החנוכה הרשמית של בית המוזיאון על ידי ה. מ. הנציב העליון לארץ ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328224",
+  "viewingHint": "paged"
+}

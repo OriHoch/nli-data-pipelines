@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003903635/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פריס, צרפת, תרל\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פריס, צרפת, תרל\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "קורב, שמעון בן יהושע (חתן) ; שרה בת אברהם (כלה) ; כהן, צדוק, מפריס, 1839-1905 (חותם)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פריס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003903635"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח בטבת תרל\"ט (1879)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 350X228 מ\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Paris, France. 1879"
+    },
+    {
+      "label": "SysNum",
+      "value": "003903635"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003903635/sequence/IE47213710",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 901.1821=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213716",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001r",
+          "width": 5353,
+          "height": 8029,
+          "images": [
+            {
+              "@id": "FL47213716",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47213716",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47213716/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47213716",
+                  "label": "Fol. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8029,
+                "width": 5353
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213717",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001v",
+          "width": 5353,
+          "height": 8029,
+          "images": [
+            {
+              "@id": "FL47213717",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47213717",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47213717/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47213717",
+                  "label": "Fol. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8029,
+                "width": 5353
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213718",
+          "@type": "sc:Canvas",
+          "label": "Color",
+          "width": 5353,
+          "height": 8029,
+          "images": [
+            {
+              "@id": "FL47213718",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47213718",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47213718/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47213718",
+                  "label": "Color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8029,
+                "width": 5353
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP47213715",
+      "@type": "sc:Range",
+      "label": "REP47213715",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213716",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213717",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001v"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47213718",
+          "@type": "sc:Canvas",
+          "label": "Color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003903635",
+  "viewingHint": "paged"
+}

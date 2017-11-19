@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262204/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; שלונסקי,אלכסנדר פן,טרנופולר,בן גוריון; הרצאה; ספרות; פוליטיקה; שירה; סוציאליזם; מפא\"י",
+  "label": "הרצאות - ההתאבדות הפנימית במפא\"י מהי? - שלונסקי ואלכסנדר פן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאות - ההתאבדות הפנימית במפא\"י מהי? - שלונסקי ואלכסנדר פן."
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ציון והחוגים המרכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; שלונסקי,אלכסנדר פן,טרנופולר,בן גוריון; הרצאה; ספרות; פוליטיקה; שירה; סוציאליזם; מפא\"י"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262204"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262204"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262204/sequence/IE9169096",
+      "@type": "sc:Sequence",
+      "label": "הרצאות - ההתאבדות הפנימית במפא\"י מהי? - שלונסקי ואלכסנדר פן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180044",
+          "@type": "sc:Canvas",
+          "label": "הרצאות - ההתאבדות הפנימית במפאי מהי? - שלונסקי ואלכסנדר פן",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180044",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180044",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180044/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאות - ההתאבדות הפנימית במפאי מהי? - שלונסקי ואלכסנדר פן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180044",
+                  "label": "הרצאות - ההתאבדות הפנימית במפאי מהי? - שלונסקי ואלכסנדר פן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180042",
+      "@type": "sc:Range",
+      "label": "REP9180042",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180044",
+          "@type": "sc:Canvas",
+          "label": "הרצאות - ההתאבדות הפנימית במפאי מהי? - שלונסקי ואלכסנדר פן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262204",
+  "viewingHint": "paged"
+}

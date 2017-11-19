@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700125490/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Music Performance -- Israel; Music -- Israel; Programs; אירנה זולטן, חנה זמיר וינריך, הילדה קסטן, ס. סיץ', א. רייך (ד\"ר), לב מירסקי; מופע מוסיקה; מוסיקה קלאסית; תכנייה; כרטיסים; Tickets; תל אביב",
+  "label": "ערב אופרות, אופרטות ורקוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ערב אופרות, אופרטות ורקוד"
+    },
+    {
+      "label": "Publisher",
+      "value": "מוזיאון תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Music Performance -- Israel; Music -- Israel; Programs; אירנה זולטן, חנה זמיר וינריך, הילדה קסטן, ס. סיץ', א. רייך (ד\"ר), לב מירסקי; מופע מוסיקה; מוסיקה קלאסית; תכנייה; כרטיסים; Tickets; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700125490"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Operas, Operettas and Dance"
+    },
+    {
+      "label": "SysNum",
+      "value": "700125490"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700125490/sequence/IE5378524",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6269861",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 800,
+          "height": 606,
+          "images": [
+            {
+              "@id": "FL6269861",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6269861",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6269861/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6269861",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 606,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6269860",
+      "@type": "sc:Range",
+      "label": "REP6269860",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6269861",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700125490",
+  "viewingHint": "paged"
+}

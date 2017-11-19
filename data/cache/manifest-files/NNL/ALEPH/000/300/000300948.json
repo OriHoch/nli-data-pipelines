@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300948/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צור מוסא, מרוקו. תר\"ץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צור מוסא, מרוקו. תר\"ץ"
+    },
+    {
+      "label": "Contributor",
+      "value": "אזולאי, דוד בן אברהם בן יעקב (חתן) ; אוחנה, שרה בת יוסף בן חיים (כלה) ; דהאן, יוסף בן אברהם (עד) ; גבאי, מאיר בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צור מוסא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300948"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז באלול תר\"ץ (1930)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 335X227 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Sour Moussa, Morocco. 1930"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300948"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300948/sequence/IE9197881",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צור מוסא, מרוקו, תר&quot;ץ]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463913",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 627,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463913",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463913",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463913/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463913",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 627
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463911",
+      "@type": "sc:Range",
+      "label": "REP9463911",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463913",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300948",
+  "viewingHint": "paged"
+}

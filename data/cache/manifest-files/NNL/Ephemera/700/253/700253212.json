@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253212/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; אסיפה; ציונות; הקונגרס הציוני",
+  "label": "אספה פומבית לקראת הקונגרס הי\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית לקראת הקונגרס הי\"ח"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; אסיפה; ציונות; הקונגרס הציוני"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253212"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253212"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253212/sequence/IE9066657",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית לקראת הקונגרס הי\"ח",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069026",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית לקראת הקונגרס היח ",
+          "width": 531,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069026",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069026",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069026/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית לקראת הקונגרס היח ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069026",
+                  "label": "אספה פומבית לקראת הקונגרס היח ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 531
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069025",
+      "@type": "sc:Range",
+      "label": "REP9069025",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069026",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית לקראת הקונגרס היח "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253212",
+  "viewingHint": "paged"
+}

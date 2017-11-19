@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253209/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; אסיפה; פוליטיקה",
+  "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253209"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253209"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253209/sequence/IE9066775",
+      "@type": "sc:Sequence",
+      "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069049",
+          "@type": "sc:Canvas",
+          "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית ",
+          "width": 800,
+          "height": 694,
+          "images": [
+            {
+              "@id": "FL9069049",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069049",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069049/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069049",
+                  "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 694,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069048",
+      "@type": "sc:Range",
+      "label": "REP9069048",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069049",
+          "@type": "sc:Canvas",
+          "label": "ח. נ. בזה הנך מוזמן לאספת החברים הכללית "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253209",
+  "viewingHint": "paged"
+}

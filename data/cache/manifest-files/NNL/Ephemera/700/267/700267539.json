@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267539/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; י. בן אהרן (מרצה); הרצאה; פוליטיקה",
+  "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל אביב, חוג עולי גרמניה, חוג עולי אוסטריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; י. בן אהרן (מרצה); הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267539"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267539"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267539/sequence/IE9705097",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9708251",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה",
+          "width": 521,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9708251",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9708251",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9708251/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9708251",
+                  "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 521
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9708250",
+      "@type": "sc:Range",
+      "label": "REP9708250",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9708251",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - חזית הפועלים - מול חזית הריאקציה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267539",
+  "viewingHint": "paged"
+}

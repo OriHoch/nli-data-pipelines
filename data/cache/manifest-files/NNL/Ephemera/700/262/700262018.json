@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262018/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "בן גוריון; מחאה; פוליטיקה; שביתה; סוציאליזם; סכוך עבודה",
+  "label": "לפועלי ארץ ישראל לפועלי פתח תקוה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לפועלי ארץ ישראל לפועלי פתח תקוה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - הועד המרכזי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בן גוריון; מחאה; פוליטיקה; שביתה; סוציאליזם; סכוך עבודה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262018"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262018"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262018/sequence/IE9168213",
+      "@type": "sc:Sequence",
+      "label": "לפועלי ארץ ישראל לפועלי פתח תקוה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180000",
+          "@type": "sc:Canvas",
+          "label": "לפועלי ארץ ישראל לפועלי פתח תקוה",
+          "width": 368,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180000",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180000/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לפועלי ארץ ישראל לפועלי פתח תקוה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180000",
+                  "label": "לפועלי ארץ ישראל לפועלי פתח תקוה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 368
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179998",
+      "@type": "sc:Range",
+      "label": "REP9179998",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180000",
+          "@type": "sc:Canvas",
+          "label": "לפועלי ארץ ישראל לפועלי פתח תקוה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262018",
+  "viewingHint": "paged"
+}

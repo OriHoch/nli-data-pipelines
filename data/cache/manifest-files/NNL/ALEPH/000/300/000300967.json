@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300967/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. טביליסי, גאורגיה. תר\"ף.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. טביליסי, גאורגיה. תר\"ף."
+    },
+    {
+      "label": "Contributor",
+      "value": "לוי בן דוד (חתן) ; רבקה בת משה בן מנחם (כלה) ; אזא בן אשר (עד) ; יעקב בן ירמיה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "טפליס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300967"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באדר תר\"פ (1920)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 357X223 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. T'bilisi, Georgia. 1920"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300967"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300967/sequence/IE9201489",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. טביליסי, גרוזיה, תר&quot;ף]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464426",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. טביליסי; גרוזיה; תרף]",
+          "width": 515,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464426",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464426",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464426/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. טביליסי; גרוזיה; תרף]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464426",
+                  "label": "[כתובה. טביליסי; גרוזיה; תרף]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 515
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464425",
+      "@type": "sc:Range",
+      "label": "REP9464425",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464426",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. טביליסי; גרוזיה; תרף]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300967",
+  "viewingHint": "paged"
+}

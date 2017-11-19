@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700257082/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "אלישבע קפלן, ברכה צפירה; מסיבה; אסיפה; תעסוקה; מפלגות",
+  "label": "מסיבת חברים לקראת ההכרעה בהסתדרות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסיבת חברים לקראת ההכרעה בהסתדרות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ-ישראל ובלתי מפלגתיים סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "אלישבע קפלן, ברכה צפירה; מסיבה; אסיפה; תעסוקה; מפלגות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700257082"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700257082"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700257082/sequence/IE9065378",
+      "@type": "sc:Sequence",
+      "label": "מסיבת חברים לקראת ההכרעה בהסתדרות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9068427",
+          "@type": "sc:Canvas",
+          "label": "מסיבת חברים לקראת ההכרעה בהסתדרות ",
+          "width": 559,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9068427",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9068427",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9068427/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסיבת חברים לקראת ההכרעה בהסתדרות ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9068427",
+                  "label": "מסיבת חברים לקראת ההכרעה בהסתדרות ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 559
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9068426",
+      "@type": "sc:Range",
+      "label": "REP9068426",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9068427",
+          "@type": "sc:Canvas",
+          "label": "מסיבת חברים לקראת ההכרעה בהסתדרות "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700257082",
+  "viewingHint": "paged"
+}

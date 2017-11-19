@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003255351/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אולשן, בלארוס. תרל\"ח.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אולשן, בלארוס. תרל\"ח."
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם יהודה בן ישעיה הלוי (חתן) ; אסתר בת יהודה שמואל הלוי (כלה) ; יחיאל מיכל בן עקיבא מאיר הלוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלישאן : אברהם צבי קאצינעלינגבויגען"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003255351"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג באלול תרל\"ח (1878)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 210X155 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb;rus"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Halʹshany, Belarus. 1878"
+    },
+    {
+      "label": "SysNum",
+      "value": "003255351"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003255351/sequence/IE9195144",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. אלשון; בלרוס; תרל&quot;ח].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466457",
+          "@type": "sc:Canvas",
+          "label": "3255351",
+          "width": 593,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466457",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466457",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466457/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3255351",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466457",
+                  "label": "3255351",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 593
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466456",
+      "@type": "sc:Range",
+      "label": "REP9466456",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466457",
+          "@type": "sc:Canvas",
+          "label": "3255351"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003255351",
+  "viewingHint": "paged"
+}

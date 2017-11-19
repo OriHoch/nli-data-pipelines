@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262213/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; י. יצחקי; הרצאה; פוליטיקה; סוציאליזם; הספר הלבן",
+  "label": "הרצאה - הספר הלבן ומגיניו החדשים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - הספר הלבן ומגיניו החדשים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י פועלי ציון - סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; י. יצחקי; הרצאה; פוליטיקה; סוציאליזם; הספר הלבן"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262213"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262213"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262213/sequence/IE9168592",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - הספר הלבן ומגיניו החדשים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180860",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - הספר הלבן ומגיניו החדשים",
+          "width": 800,
+          "height": 574,
+          "images": [
+            {
+              "@id": "FL9180860",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180860",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180860/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - הספר הלבן ומגיניו החדשים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180860",
+                  "label": "הרצאה - הספר הלבן ומגיניו החדשים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 574,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180859",
+      "@type": "sc:Range",
+      "label": "REP9180859",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180860",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - הספר הלבן ומגיניו החדשים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262213",
+  "viewingHint": "paged"
+}

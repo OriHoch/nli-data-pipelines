@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300973/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. תאגאדירת שבאקא, מרוקו. תרפ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. תאגאדירת שבאקא, מרוקו. תרפ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "צראף, אברהם בן מרדכי בן יוסף (חתן) ; אבגי, מאיר בן יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "תאגאדירת שבאקא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300973"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כז בטבת תרפ\"ט (1929)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 356X230 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tagadirt Shbaka, Morocco. 1929"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300973"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300973/sequence/IE9198421",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. תאגאדירת שבאקא, מרוקו, תרפ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462847",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. תאגאדירת שבאקא; מרוקו; תרפט]",
+          "width": 587,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. תאגאדירת שבאקא; מרוקו; תרפט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462847",
+                  "label": "[כתובה. תאגאדירת שבאקא; מרוקו; תרפט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 587
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462846",
+      "@type": "sc:Range",
+      "label": "REP9462846",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462847",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. תאגאדירת שבאקא; מרוקו; תרפט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300973",
+  "viewingHint": "paged"
+}

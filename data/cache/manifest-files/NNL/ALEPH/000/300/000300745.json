@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300745/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אלמודוורה, תימן. תרפ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אלמודוורה, תימן. תרפ\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "מנחם בן והב (חתן) ; ג'אזל בת יוסף (כלה) ; ברוך בן שמואל (עד) ; סאלם בן חסן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלמודוורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300745"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בתמוז ב'רל\"ו לשטרות (1925)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 300X235 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Mudawwa, Yemen. 1925"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300745"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300745/sequence/IE9197441",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלמודוורה, תימן, תרפ&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464016",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלמודוורה; תימן; תרפה]",
+          "width": 655,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464016",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464016",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464016/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. אלמודוורה; תימן; תרפה]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464016",
+                  "label": "[כתובה. אלמודוורה; תימן; תרפה]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 655
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464015",
+      "@type": "sc:Range",
+      "label": "REP9464015",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464016",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. אלמודוורה; תימן; תרפה]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300745",
+  "viewingHint": "paged"
+}

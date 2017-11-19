@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253224/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; חברה; פוליטיקה; ארגון ומנהלה ארגון ומנהלה; מפקד",
+  "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; חברה; פוליטיקה; ארגון ומנהלה ארגון ומנהלה; מפקד"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253224"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253224"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253224/sequence/IE9069614",
+      "@type": "sc:Sequence",
+      "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072384",
+          "@type": "sc:Canvas",
+          "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים",
+          "width": 596,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9072384",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072384",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072384/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072384",
+                  "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072383",
+      "@type": "sc:Range",
+      "label": "REP9072383",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072384",
+          "@type": "sc:Canvas",
+          "label": "מפקד חדש של כל חברי המפלגה וגיוס חברים חדשים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253224",
+  "viewingHint": "paged"
+}

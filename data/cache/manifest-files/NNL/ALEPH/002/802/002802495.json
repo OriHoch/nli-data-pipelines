@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002802495/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מעסכר, אלג'יריה. תרי\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מעסכר, אלג'יריה. תרי\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "אתורג'מן, שמואל בן משה (חתן) ; אתורג'מן, אסתר בת מכלוף (כלה) ; בן חמו, מכלוף (עד) ; אילי, שלמה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלמעסכר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002802495"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בתשרי תרי\"ג (1852)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 350X250 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mascara, Algeria. 1852"
+    },
+    {
+      "label": "SysNum",
+      "value": "002802495"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002802495/sequence/IE9196403",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. מעסכר; אלג&apos;יריה; תרי&quot;ג].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465082",
+          "@type": "sc:Canvas",
+          "label": "2802495",
+          "width": 569,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465082",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465082",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465082/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2802495",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465082",
+                  "label": "2802495",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 569
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465081",
+      "@type": "sc:Range",
+      "label": "REP9465081",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465082",
+          "@type": "sc:Canvas",
+          "label": "2802495"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002802495",
+  "viewingHint": "paged"
+}

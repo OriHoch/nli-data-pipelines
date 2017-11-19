@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300095/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מנטובה, איטליה. תקס\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מנטובה, איטליה. תקס\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "נורצי, שמואל אליעזר בן שלמה יצחק, הנקרא אהרן חי (חתן) ; רינה נחמה בת יהודה חיים, הלוי (כלה) ; רומנילי, בנציון מנחם בן משה יוסף (עד) ; אריאני, מצליח משה בן יהודה רפאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מנטובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300095"
+    },
+    {
+      "label": "Creation Date",
+      "value": "א באלול תקס\"ג (1803)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 344X295 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mantua, Italy. 1803"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300095"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300095/sequence/IE9205999",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מנטובה, איטליה, תקס&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468398",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 754,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468398",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468398",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468398/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468398",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 754
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468397",
+      "@type": "sc:Range",
+      "label": "REP9468397",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468398",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300095",
+  "viewingHint": "paged"
+}

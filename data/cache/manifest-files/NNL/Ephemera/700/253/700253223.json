@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253223/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; אסיפה; פועלים; בניה",
+  "label": "אספת תא אגודת פועלי הבנין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת תא אגודת פועלי הבנין"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; אסיפה; פועלים; בניה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253223"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253223"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253223/sequence/IE9066141",
+      "@type": "sc:Sequence",
+      "label": "אספת תא אגודת פועלי הבנין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070332",
+          "@type": "sc:Canvas",
+          "label": "אספת תא אגודת פועלי הבנין",
+          "width": 613,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9070332",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9070332",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9070332/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת תא אגודת פועלי הבנין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9070332",
+                  "label": "אספת תא אגודת פועלי הבנין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9070331",
+      "@type": "sc:Range",
+      "label": "REP9070331",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9070332",
+          "@type": "sc:Canvas",
+          "label": "אספת תא אגודת פועלי הבנין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253223",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700134478/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "סדום",
+  "label": "מראה ליד מחנה העובדים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מראה ליד מחנה העובדים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "סדום",
+        "ארץ ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף גדעון שיפטן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700134478"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700134478"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700134478/sequence/IE6416559",
+      "@type": "sc:Sequence",
+      "label": "מראה ליד מחנה העובדים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10402893",
+          "@type": "sc:Canvas",
+          "label": " מראה ליד מחנה העובדים ",
+          "width": 768,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10402893",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10402893",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10402893/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " מראה ליד מחנה העובדים ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10402893",
+                  "label": " מראה ליד מחנה העובדים ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 768
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10402892",
+      "@type": "sc:Range",
+      "label": "REP10402892",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10402893",
+          "@type": "sc:Canvas",
+          "label": " מראה ליד מחנה העובדים "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700134478",
+  "viewingHint": "paged"
+}

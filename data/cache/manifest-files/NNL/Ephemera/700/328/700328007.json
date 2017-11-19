@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328007/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; דו\"ח; חברה; עיריה - עיריות - מוניציפאלי; שלום ובטחון",
+  "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; דו\"ח; חברה; עיריה - עיריות - מוניציפאלי; שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328007"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328007"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328007/sequence/IE15635114",
+      "@type": "sc:Sequence",
+      "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650065",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט",
+          "width": 620,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15650065",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15650065",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15650065/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15650065",
+                  "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 620
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15650064",
+      "@type": "sc:Range",
+      "label": "REP15650064",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650065",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 11 - תל-אביב והסביבה: הלילה עבר בשקט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328007",
+  "viewingHint": "paged"
+}

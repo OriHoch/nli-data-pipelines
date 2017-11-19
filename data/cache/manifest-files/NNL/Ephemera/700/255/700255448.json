@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700255448/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "צבי לוין, אריה לוין, אב\"א אחימאיר, ב. צ. ידידיה; מחאה; כנס; ברית תרומפלדור בארץ ישראל",
+  "label": "אספת מחאה - נגד הרדיפות על בית\"ר.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת מחאה - נגד הרדיפות על בית\"ר."
+    },
+    {
+      "label": "Publisher",
+      "value": "נציבות ברית תרומפלדור בארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "צבי לוין, אריה לוין, אב\"א אחימאיר, ב. צ. ידידיה; מחאה; כנס; ברית תרומפלדור בארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700255448"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל ציור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700255448"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700255448/sequence/IE9074365",
+      "@type": "sc:Sequence",
+      "label": "אספת מחאה - נגד הרדיפות על בית\"ר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9083202",
+          "@type": "sc:Canvas",
+          "label": "אספת מחאה - נגד הרדיפות על ביתר",
+          "width": 597,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9083202",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9083202",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9083202/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת מחאה - נגד הרדיפות על ביתר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9083202",
+                  "label": "אספת מחאה - נגד הרדיפות על ביתר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 597
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9083196",
+      "@type": "sc:Range",
+      "label": "REP9083196",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9083202",
+          "@type": "sc:Canvas",
+          "label": "אספת מחאה - נגד הרדיפות על ביתר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700255448",
+  "viewingHint": "paged"
+}

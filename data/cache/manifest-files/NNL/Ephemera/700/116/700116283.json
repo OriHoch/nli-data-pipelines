@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700116283/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Entertainment events -- Israel; Sports -- Israel; Parties -- Israel; Israel -- Civilization; כרטיסים; מופע בידור; תרבות; ספורט; נשף; Tickets; ירושלים",
+  "label": "כרטיס כניסה - נשף התעמלות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כרטיס כניסה - נשף התעמלות."
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Entertainment events -- Israel; Sports -- Israel; Parties -- Israel; Israel -- Civilization; כרטיסים; מופע בידור; תרבות; ספורט; נשף; Tickets; ירושלים"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700116283"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1914"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700116283"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700116283/sequence/IE5017638",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5387035",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 514,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5387035",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5387035",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5387035/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5387035",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 514
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5387034",
+      "@type": "sc:Range",
+      "label": "REP5387034",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5387035",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700116283",
+  "viewingHint": "paged"
+}

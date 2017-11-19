@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300945/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פס, מרוקו. תרי\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פס, מרוקו. תרי\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "סקלי, יעקב בן חיים יהודה בן יעקב בן משה בן אהרן, הכהן (חתן) ; סירירו, מרים בת שלם בן אבא בן יהונתן בן חיים דוד בן מתתיה בן מנחם בן יהושע בן מנחם בן דוד בן מנחם בן דוד בן שאול (כלה) ; מונסונגו, ידידיה (עד) ; אבן צור, שלמה אליהו (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300945"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בכסלו תרי\"ז (1856)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 360X235 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Fès, Morocco. 1856"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300945"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300945/sequence/IE9201025",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פאס, מרוקו, תרי&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465954",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תריז]",
+          "width": 526,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465954",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465954",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465954/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פאס; מרוקו; תריז]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465954",
+                  "label": "[כתובה. פאס; מרוקו; תריז]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 526
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465953",
+      "@type": "sc:Range",
+      "label": "REP9465953",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465954",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פאס; מרוקו; תריז]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300945",
+  "viewingHint": "paged"
+}

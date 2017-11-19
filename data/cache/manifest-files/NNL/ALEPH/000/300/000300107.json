@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300107/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פררה, איטליה. תקס\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פררה, איטליה. תקס\"ה"
+    },
+    {
+      "label": "Contributor",
+      "value": "צמורני, יהודה אריה בן שלמה (חתן) ; פנצי, בינוינוטא בת גד (כלה) ; בסן, יוסף דוד בן יעקב חי (עד) ; למפרונטי, אבטליון בן עובדיה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פירארא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300107"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בחשון תקס\"ה (1804)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 382X300 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ferrara, Italy. 1804"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300107"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300107/sequence/IE9198026",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פררה, איטליה, תקס&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462116",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 717,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462116",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 717
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462115",
+      "@type": "sc:Range",
+      "label": "REP9462115",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462116",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300107",
+  "viewingHint": "paged"
+}

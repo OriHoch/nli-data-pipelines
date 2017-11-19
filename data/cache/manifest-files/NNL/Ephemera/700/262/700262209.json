@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262209/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; יצחקי; אסיפה; פוליטיקה; סוציאליזם",
+  "label": "שיחת חברים - להערכת המצב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיחת חברים - להערכת המצב"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ציון והחוגים המרכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; יצחקי; אסיפה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262209"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262209"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262209/sequence/IE9168820",
+      "@type": "sc:Sequence",
+      "label": "שיחת חברים - להערכת המצב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180010",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - להערכת המצב",
+          "width": 531,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180010",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180010",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180010/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיחת חברים - להערכת המצב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180010",
+                  "label": "שיחת חברים - להערכת המצב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 531
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180008",
+      "@type": "sc:Range",
+      "label": "REP9180008",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180010",
+          "@type": "sc:Canvas",
+          "label": "שיחת חברים - להערכת המצב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262209",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700261949/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "רחובות; בחירות; פוליטיקה; סוציאליזם",
+  "label": "לכל צבור הפועלים ברחובות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל צבור הפועלים ברחובות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "רחובות; בחירות; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700261949"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700261949"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700261949/sequence/IE9166176",
+      "@type": "sc:Sequence",
+      "label": "לכל צבור הפועלים ברחובות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180305",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור הפועלים ברחובות",
+          "width": 551,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180305",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180305",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180305/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל צבור הפועלים ברחובות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180305",
+                  "label": "לכל צבור הפועלים ברחובות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 551
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180304",
+      "@type": "sc:Range",
+      "label": "REP9180304",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180305",
+          "@type": "sc:Canvas",
+          "label": "לכל צבור הפועלים ברחובות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700261949",
+  "viewingHint": "paged"
+}

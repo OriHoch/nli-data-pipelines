@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002924802/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. גאורגן, רומניה. תרנ\"ו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. גאורגן, רומניה. תרנ\"ו."
+    },
+    {
+      "label": "Contributor",
+      "value": "חנוך בן שלמה (חתן) ; יענטל בת בנימין הכהן (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מיקלאש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002924802"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יז בכסלו תרנ\"ו (1895)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף : מסגרת בדפוס ; 400X246 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Gheorgheni, Romania. 1895"
+    },
+    {
+      "label": "SysNum",
+      "value": "002924802"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002924802/sequence/IE9196570",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. מיקלוש; רומניה; תרנ&quot;ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461929",
+          "@type": "sc:Canvas",
+          "label": "2924802",
+          "width": 512,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9461929",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9461929",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9461929/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2924802",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9461929",
+                  "label": "2924802",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 512
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9461928",
+      "@type": "sc:Range",
+      "label": "REP9461928",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9461929",
+          "@type": "sc:Canvas",
+          "label": "2924802"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002924802",
+  "viewingHint": "paged"
+}

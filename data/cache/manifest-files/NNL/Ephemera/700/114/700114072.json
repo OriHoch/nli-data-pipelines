@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700114072/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Newspapers -- Israel; ש. קרן, גרשון זק, יחיאל לרר, שרה אנכי, משה ברטל; עיתון שבועי",
+  "label": "בטאון פוליטי של הדור הצעיר - הופיע משמרת.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בטאון פוליטי של הדור הצעיר - הופיע משמרת."
+    },
+    {
+      "label": "Publisher",
+      "value": "משמרת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Newspapers -- Israel; ש. קרן, גרשון זק, יחיאל לרר, שרה אנכי, משה ברטל; עיתון שבועי"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700114072"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700114072"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700114072/sequence/IE5036036",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5398485",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 512,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5398485",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5398485",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5398485/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5398485",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 512
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5398484",
+      "@type": "sc:Range",
+      "label": "REP5398484",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5398485",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700114072",
+  "viewingHint": "paged"
+}

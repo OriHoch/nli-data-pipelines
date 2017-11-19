@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262165/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אברמוביץ; אסיפה; פוליטיקה; סוציאליזם",
+  "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אברמוביץ; אסיפה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262165"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262165"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262165/sequence/IE9165917",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180714",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה",
+          "width": 601,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180714",
+                  "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 601
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180713",
+      "@type": "sc:Range",
+      "label": "REP9180713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180714",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - משוט בגולה ובתנועת - הפועלים באירופה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262165",
+  "viewingHint": "paged"
+}

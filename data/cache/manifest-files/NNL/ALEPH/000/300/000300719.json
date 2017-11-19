@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300719/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אצ'אלע, תימן. תרס\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אצ'אלע, תימן. תרס\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "מהאצרי, סלימאן בן סאלם (חתן) ; אלמהאצרי, סעדה בת יחיא (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלצ'ואלע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300719"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כא באלול ב'רי\"ב לשטרות (1901)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "210X186 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Dawale, Yemen. 1901"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300719"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300719/sequence/IE10509570",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אלצ'ואלע, תימן, תרס\"א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512909",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 800,
+          "height": 703,
+          "images": [
+            {
+              "@id": "FL10512909",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512909",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512909/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512909",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 703,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512907",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 800,
+          "height": 705,
+          "images": [
+            {
+              "@id": "FL10512907",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512907",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512907/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512907",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 705,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512908",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "width": 684,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512908",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512908",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512908/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 3",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512908",
+                  "label": "Page 3",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 684
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512906",
+      "@type": "sc:Range",
+      "label": "REP10512906",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512909",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512907",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512908",
+          "@type": "sc:Canvas",
+          "label": "Page 3"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300719",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302839/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יואנינה, יוון. תרל\"ז",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יואנינה, יוון. תרל\"ז"
+    },
+    {
+      "label": "Contributor",
+      "value": "מתתיה בן מנחם אברהם, הכהן (חתן) ; אסתר בת מיכאל ברוך (כלה) ; חיים שמואל לוי (עד) ; יצחקי, יהודה חנן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "יאנינא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302839"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בתשרי תרל\"ז (1876)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 571X410 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ioannina, Greece. 1876"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302839"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302839/sequence/IE9206761",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ינינה, יוון, תרל&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470064",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 581,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470064",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470064",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470064/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470064",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 581
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470063",
+      "@type": "sc:Range",
+      "label": "REP9470063",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470064",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302839",
+  "viewingHint": "paged"
+}

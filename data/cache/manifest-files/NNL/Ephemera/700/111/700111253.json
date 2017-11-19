@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700111253/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Soccer -- Israel; Contests -- Israel; A GRAND FOOT-BALL MATCH - Seaforth Highalandersi VERSUS Maccabee A. Haifa; כדורגל; תחרות; תל-אביב",
+  "label": "התחרות מענינת ביותר בעונה הזו בכדור רגל - גדוד הסקוטים החדש א' נגד מכבי א' חיפה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "התחרות מענינת ביותר בעונה הזו בכדור רגל - גדוד הסקוטים החדש א' נגד מכבי א' חיפה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מכבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Soccer -- Israel; Contests -- Israel; A GRAND FOOT-BALL MATCH - Seaforth Highalandersi VERSUS Maccabee A. Haifa; כדורגל; תחרות; תל-אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700111253"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "700111253"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700111253/sequence/IE5028694",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5396105",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 597,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5396105",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5396105",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5396105/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5396105",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 597
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5396104",
+      "@type": "sc:Range",
+      "label": "REP5396104",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5396105",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700111253",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300515/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איספהאן, איראן. תרצ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איספהאן, איראן. תרצ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלעזר בן ניסן (חתן) ; טובה בת ראובן (כלה) ; יצחק בן דוד (עד) ; דוד בן שמואל (עד) ; יצחק בן אברהם (עד) ; שמואל בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אצפהאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300515"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בניסן תרצ\"ג (1933)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 745X690 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Isfahan, Iran. 1933"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300515"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300515/sequence/IE9212201",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איספהן, איראן, תרצ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470741",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 739,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470741",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470741",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470741/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470741",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 739
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470740",
+      "@type": "sc:Range",
+      "label": "REP9470740",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470741",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300515",
+  "viewingHint": "paged"
+}

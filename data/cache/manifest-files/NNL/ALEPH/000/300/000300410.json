@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300410/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ליילאשי, גאורגיה. תר\"ע.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ליילאשי, גאורגיה. תר\"ע."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלמה בן יצחק (חתן) ; רות בת יעקב (כלה) ; אהרן בן אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "לילאז"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300410"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב באדר א תר\"ע (1910)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 595X470 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Lailash, Georgia. 1910"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300410"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300410/sequence/IE9205756",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. לילאש, גרוזיה, תר&quot;ע].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467131",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 652,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467131",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467131",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467131/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467131",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 652
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467130",
+      "@type": "sc:Range",
+      "label": "REP9467130",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467131",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300410",
+  "viewingHint": "paged"
+}

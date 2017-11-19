@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700125960/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Children -- Israel; ELI PELI (THE MIRACLE ELI); ערב התרמה; הצגה; אולם ארמון; ילדים; Fundraiser; Show; But Palace; חיפה",
+  "label": "אלי פלאי וידידיו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אלי פלאי וידידיו."
+    },
+    {
+      "label": "Publisher",
+      "value": "קולנו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Children -- Israel; ELI PELI (THE MIRACLE ELI); ערב התרמה; הצגה; אולם ארמון; ילדים; Fundraiser; Show; But Palace; חיפה"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700125960"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל איור."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700125960"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700125960/sequence/IE10917941",
+      "@type": "sc:Sequence",
+      "label": "אלי פלאי וידידיו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992384",
+          "@type": "sc:Canvas",
+          "label": "אלי פלאי וידידיו",
+          "width": 800,
+          "height": 607,
+          "images": [
+            {
+              "@id": "FL10992384",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10992384",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10992384/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אלי פלאי וידידיו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10992384",
+                  "label": "אלי פלאי וידידיו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 607,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10992383",
+      "@type": "sc:Range",
+      "label": "REP10992383",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10992384",
+          "@type": "sc:Canvas",
+          "label": "אלי פלאי וידידיו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700125960",
+  "viewingHint": "paged"
+}

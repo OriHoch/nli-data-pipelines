@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700325092/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "איתמר בן-אבי, בן-ציון ידידיה; בני נוער; ירידים; נשף; תרבות; תוצרת הארץ",
+  "label": "נשף מוקדש לתוצרת הארץ, יריד המזרח ותפקידי הנוער",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נשף מוקדש לתוצרת הארץ, יריד המזרח ותפקידי הנוער"
+    },
+    {
+      "label": "Publisher",
+      "value": "אגודה להתעמלות ולספורט מכבי תל-אביב, ועדת התרבות של מכבי ת\"א בהשתתפות האגוד למען תוצרת הארץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "איתמר בן-אבי, בן-ציון ידידיה; בני נוער; ירידים; נשף; תרבות; תוצרת הארץ"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700325092"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700325092"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700325092/sequence/IE15620976",
+      "@type": "sc:Sequence",
+      "label": "נשף מוקדש לתוצרת הארץ  יריד המזרח ותפקידי הנוער",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15641714",
+          "@type": "sc:Canvas",
+          "label": "נשף מוקדש לתוצרת הארץ  יריד המזרח ותפקידי הנוער",
+          "width": 394,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15641714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15641714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15641714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נשף מוקדש לתוצרת הארץ  יריד המזרח ותפקידי הנוער",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15641714",
+                  "label": "נשף מוקדש לתוצרת הארץ  יריד המזרח ותפקידי הנוער",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 394
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15641713",
+      "@type": "sc:Range",
+      "label": "REP15641713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15641714",
+          "@type": "sc:Canvas",
+          "label": "נשף מוקדש לתוצרת הארץ  יריד המזרח ותפקידי הנוער"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700325092",
+  "viewingHint": "paged"
+}

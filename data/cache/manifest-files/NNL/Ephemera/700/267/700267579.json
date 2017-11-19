@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267579/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "א. קצנלסון (ד\"ר), אברהם הרצפלד; אסיפה; נאום; פוליטיקה",
+  "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת הבחירות - על תפקידי הקונגרס והסוכנות"
+    },
+    {
+      "label": "Publisher",
+      "value": "רשימת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "א. קצנלסון (ד\"ר), אברהם הרצפלד; אסיפה; נאום; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267579"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267579"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267579/sequence/IE9705334",
+      "@type": "sc:Sequence",
+      "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707455",
+          "@type": "sc:Canvas",
+          "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות",
+          "width": 535,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9707455",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9707455",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9707455/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9707455",
+                  "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 535
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9707454",
+      "@type": "sc:Range",
+      "label": "REP9707454",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707455",
+          "@type": "sc:Canvas",
+          "label": "אספת הבחירות - על תפקידי הקונגרס והסוכנות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267579",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301105/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. תרי\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. תרי\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "פונטיקורבו, שמואל חיים בן יצחק אברהם (חתן) ; פונטיקורבו, גינטילי בת ראובן (כלה) ; חזן, ישראל משה בן אליעזר, 1808-1862 (עד) ; מאלטרי, אפרים בן אהרן (עד) ; סנגויניטי, שלמה בן ונטורי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301105"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יט בסיון תרי\"ב (1852)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 660X508 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1852"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301105"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301105/sequence/IE9201601",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, תרי&quot;ב].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465331",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 644,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465331",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465331",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465331/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465331",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 644
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465330",
+      "@type": "sc:Range",
+      "label": "REP9465330",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465331",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301105",
+  "viewingHint": "paged"
+}

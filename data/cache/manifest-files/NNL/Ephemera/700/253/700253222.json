@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253222/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; חיים גרינברג; אסיפה; היסטוריה",
+  "label": "אספה פומבית - כחות עולים באומה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - כחות עולים באומה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; חיים גרינברג; אסיפה; היסטוריה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253222"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253222"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253222/sequence/IE9066195",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - כחות עולים באומה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069636",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - כחות עולים באומה",
+          "width": 601,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069636",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069636",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069636/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - כחות עולים באומה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069636",
+                  "label": "אספה פומבית - כחות עולים באומה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 601
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069635",
+      "@type": "sc:Range",
+      "label": "REP9069635",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069636",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - כחות עולים באומה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253222",
+  "viewingHint": "paged"
+}

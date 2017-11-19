@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301018/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קולומיאה, אוקראינה. תרע\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קולומיאה, אוקראינה. תרע\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "משה יהודה בן יצחק ברוך (חתן) ; שינדל בת אברהם צבי (כלה) ; זמל בן פינחס, הלוי (עד) ; מרדכי בן צבי' מקולומיאה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קאלאמעא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301018"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כז בניסן תרע\"ג (1913)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 350X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kolomyia, Ukraine. 1913"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301018"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301018/sequence/IE9197712",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קולומיאה, אוקראינה, תרע&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462861",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קולומיאה; אוקראינה; תרעג]",
+          "width": 504,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462861",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462861",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462861/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. קולומיאה; אוקראינה; תרעג]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462861",
+                  "label": "[כתובה. קולומיאה; אוקראינה; תרעג]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 504
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462860",
+      "@type": "sc:Range",
+      "label": "REP9462860",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462861",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. קולומיאה; אוקראינה; תרעג]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301018",
+  "viewingHint": "paged"
+}

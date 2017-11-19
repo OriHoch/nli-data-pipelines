@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700134327/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "חברי כפר סאלד במשמר הנגב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברי כפר סאלד במשמר הנגב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ארץ ישראל",
+        "קיבוץ משמר הנגב"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף גדעון שיפטן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700134327"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193u"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700134327"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700134327/sequence/IE6420198",
+      "@type": "sc:Sequence",
+      "label": "חברי כפר  סאלד במשמר הנגב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10405597",
+          "@type": "sc:Canvas",
+          "label": "חברי כפר  סאלד במשמר הנגב",
+          "width": 800,
+          "height": 553,
+          "images": [
+            {
+              "@id": "FL10405597",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10405597",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10405597/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברי כפר  סאלד במשמר הנגב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10405597",
+                  "label": "חברי כפר  סאלד במשמר הנגב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 553,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10405596",
+      "@type": "sc:Range",
+      "label": "REP10405596",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10405597",
+          "@type": "sc:Canvas",
+          "label": "חברי כפר  סאלד במשמר הנגב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700134327",
+  "viewingHint": "paged"
+}

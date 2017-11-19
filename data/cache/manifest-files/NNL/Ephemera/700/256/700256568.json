@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256568/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיים אורלוזורוב (נואם), ברל כצנסלון (מרצה); כנס; פוליטיקה; מועמדים ורשימות",
+  "label": "לקראת הבחירות לקונגרס הציוני - אספת עם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לקראת הבחירות לקונגרס הציוני - אספת עם"
+    },
+    {
+      "label": "Publisher",
+      "value": "רשימת מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיים אורלוזורוב (נואם), ברל כצנסלון (מרצה); כנס; פוליטיקה; מועמדים ורשימות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256568"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256568"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256568/sequence/IE9066078",
+      "@type": "sc:Sequence",
+      "label": "לקראת הבחירות לקונגרס הציוני - אספת עם",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9068994",
+          "@type": "sc:Canvas",
+          "label": "לקראת הבחירות לקונגרס הציוני - אספת עם",
+          "width": 594,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9068994",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9068994",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9068994/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לקראת הבחירות לקונגרס הציוני - אספת עם",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9068994",
+                  "label": "לקראת הבחירות לקונגרס הציוני - אספת עם",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 594
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9068993",
+      "@type": "sc:Range",
+      "label": "REP9068993",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9068994",
+          "@type": "sc:Canvas",
+          "label": "לקראת הבחירות לקונגרס הציוני - אספת עם"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256568",
+  "viewingHint": "paged"
+}

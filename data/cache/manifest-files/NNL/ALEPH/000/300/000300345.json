@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300345/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בקסראיה, איראן. תרפ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בקסראיה, איראן. תרפ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "יוחנן בן אברהם (חתן) ; כוכאב בת חאתון (כלה) ; נאוונדגאני, מישאל (עד) ; שמואל סימן טוב (עד) ; אקאי בן ציון (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "באקסראסיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300345"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בסיון תרפ\"א (1921)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 620X475 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300345"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300345/sequence/IE10229012",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בקסראיה, איראן, תרפ\"א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243900",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בקסראיה, איראן, תרפא]",
+          "width": 622,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243900",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243900",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243900/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. בקסראיה, איראן, תרפא]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243900",
+                  "label": "[כתובה. בקסראיה, איראן, תרפא]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 622
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243899",
+      "@type": "sc:Range",
+      "label": "REP10243899",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243900",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בקסראיה, איראן, תרפא]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300345",
+  "viewingHint": "paged"
+}

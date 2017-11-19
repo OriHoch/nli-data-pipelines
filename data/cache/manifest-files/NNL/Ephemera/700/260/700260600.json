@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700260600/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; יצחק נופך (השופט הראשון בתל אביב,ד\"ר); אזכרה",
+  "label": "הספד מר - אזכרה - לנשמתו של ד\"ר י נופך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הספד מר - אזכרה - לנשמתו של ד\"ר י נופך"
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל אביב,אגודת עורכי הדין העבריים,חברת המשפט העברי - סניף ת\"א"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; יצחק נופך (השופט הראשון בתל אביב,ד\"ר); אזכרה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700260600"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700260600"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700260600/sequence/IE9160612",
+      "@type": "sc:Sequence",
+      "label": "הספד מר - אזכרה - לנשמתו של ד\"ר י נופך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9178972",
+          "@type": "sc:Canvas",
+          "label": "הספד מר - אזכרה - לנשמתו של דר י נופך",
+          "width": 520,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9178972",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9178972",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9178972/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הספד מר - אזכרה - לנשמתו של דר י נופך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9178972",
+                  "label": "הספד מר - אזכרה - לנשמתו של דר י נופך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 520
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9178971",
+      "@type": "sc:Range",
+      "label": "REP9178971",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9178972",
+          "@type": "sc:Canvas",
+          "label": "הספד מר - אזכרה - לנשמתו של דר י נופך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700260600",
+  "viewingHint": "paged"
+}

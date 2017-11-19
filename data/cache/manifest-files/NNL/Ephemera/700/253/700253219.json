@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253219/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; פריץ נפתלי; הרצאה; פועלים",
+  "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה?",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה?"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; פריץ נפתלי; הרצאה; פועלים"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253219"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253219"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253219/sequence/IE9066312",
+      "@type": "sc:Sequence",
+      "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה?",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069020",
+          "@type": "sc:Canvas",
+          "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה? ",
+          "width": 600,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069020",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069020",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069020/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה? ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069020",
+                  "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה? ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 600
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069019",
+      "@type": "sc:Range",
+      "label": "REP9069019",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069020",
+          "@type": "sc:Canvas",
+          "label": "פריץ נפתלי ומ. בילינסון על הנושא: למה נכשלה תנועת הפועלים בגרמניה? "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253219",
+  "viewingHint": "paged"
+}

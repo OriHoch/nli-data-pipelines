@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700120567/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Protest movements -- Israel; Commerce -- Israel; Cities and towns -- Israel; Small business -- Israel; Strikes and lockouts -- Israel; מחאה; מסחר; עיריה - עיריות - מוניציפאלי; עסקים קטנים; שביתה; תל אביב",
+  "label": "מודעה נחוצה - שבתון ליום שלם בשביל הסוחרים, בעלי-המלאכה, בעלי התעשיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מודעה נחוצה - שבתון ליום שלם בשביל הסוחרים, בעלי-המלאכה, בעלי התעשיה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מאיר דיזנגוף ראש עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Protest movements -- Israel; Commerce -- Israel; Cities and towns -- Israel; Small business -- Israel; Strikes and lockouts -- Israel; מחאה; מסחר; עיריה - עיריות - מוניציפאלי; עסקים קטנים; שביתה; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700120567"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700120567"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700120567/sequence/IE5075345",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6243690",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 610,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6243690",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6243690",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6243690/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6243690",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 610
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6243689",
+      "@type": "sc:Range",
+      "label": "REP6243689",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6243690",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700120567",
+  "viewingHint": "paged"
+}

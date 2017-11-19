@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328057/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; בית ספר; בני נוער; חגים ומועדים; תרבות; חנוכה",
+  "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב"
+    },
+    {
+      "label": "Publisher",
+      "value": "מחלקת התרבות של עירית תל-אביב, הסתדרות המורים בא\"י/סניף תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; בית ספר; בני נוער; חגים ומועדים; תרבות; חנוכה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328057"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328057"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328057/sequence/IE15638381",
+      "@type": "sc:Sequence",
+      "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650175",
+          "@type": "sc:Canvas",
+          "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב",
+          "width": 599,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15650175",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15650175",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15650175/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15650175",
+                  "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 599
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15650174",
+      "@type": "sc:Range",
+      "label": "REP15650174",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15650175",
+          "@type": "sc:Canvas",
+          "label": "חגיגת החנכה של תלמידי בתי-הספר בתל-אביב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328057",
+  "viewingHint": "paged"
+}

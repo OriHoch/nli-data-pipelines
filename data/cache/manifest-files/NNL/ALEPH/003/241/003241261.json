@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003241261/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פיזה, איטליה. תרכ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פיזה, איטליה. תרכ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "פג'י, אברהם בן שלמה (חתן) ; Paggi, Abramo (חתן) ; אסינגר, מרים בת שלמה (כלה) ; Essinger, Marietta (כלה) ; Costa, I (עד) ; Milul, Moisè (עד) ; Ottolenghi, David (חותם)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פיסא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003241261"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג באלול תרכ\"ד (1864)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 410X320 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Pisa, Italy. 1864"
+    },
+    {
+      "label": "SysNum",
+      "value": "003241261"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003241261/sequence/IE9196774",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. פיזה; איטליה; תרכ&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463406",
+          "@type": "sc:Canvas",
+          "label": "3241261",
+          "width": 626,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463406",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463406",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463406/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3241261",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463406",
+                  "label": "3241261",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 626
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463405",
+      "@type": "sc:Range",
+      "label": "REP9463405",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463406",
+          "@type": "sc:Canvas",
+          "label": "3241261"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003241261",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262164/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; ז. ליבוביץ,אלכסנדר פן; אסיפה; פוליטיקה; סוציאליזם",
+  "label": "אספת נבחרים על המצב בארץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת נבחרים על המצב בארץ"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) והחוגים המארכסיסטיים - סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; ז. ליבוביץ,אלכסנדר פן; אסיפה; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262164"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262164"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262164/sequence/IE9165962",
+      "@type": "sc:Sequence",
+      "label": "אספת נבחרים על המצב בארץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179987",
+          "@type": "sc:Canvas",
+          "label": "אספת נבחרים על המצב בארץ",
+          "width": 800,
+          "height": 533,
+          "images": [
+            {
+              "@id": "FL9179987",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179987",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179987/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת נבחרים על המצב בארץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179987",
+                  "label": "אספת נבחרים על המצב בארץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 533,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179985",
+      "@type": "sc:Range",
+      "label": "REP9179985",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179987",
+          "@type": "sc:Canvas",
+          "label": "אספת נבחרים על המצב בארץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262164",
+  "viewingHint": "paged"
+}

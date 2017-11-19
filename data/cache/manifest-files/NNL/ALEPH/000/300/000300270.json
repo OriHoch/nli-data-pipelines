@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300270/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פשמישל, פולין. תר\"-.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פשמישל, פולין. תר\"-."
+    },
+    {
+      "label": "Publisher",
+      "value": "פשמישל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300270"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\" (1840)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 345X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Przemysl, Poland. 184-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300270"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300270/sequence/IE9198232",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פשמישל, פולין, תרע&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463760",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פשמישל; פולין; תרע-]",
+          "width": 513,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463760",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463760",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463760/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פשמישל; פולין; תרע-]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463760",
+                  "label": "[כתובה. פשמישל; פולין; תרע-]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 513
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463759",
+      "@type": "sc:Range",
+      "label": "REP9463759",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463760",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פשמישל; פולין; תרע-]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300270",
+  "viewingHint": "paged"
+}

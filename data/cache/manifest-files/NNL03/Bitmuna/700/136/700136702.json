@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136702/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "כבלי חשמל ; ייצור מקומי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כבלי חשמל ; ייצור מקומי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136702"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136702"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136702/sequence/IE6422985",
+      "@type": "sc:Sequence",
+      "label": "כבלי חשמל ; ייצור מקומי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408999",
+          "@type": "sc:Canvas",
+          "label": "כבלי חשמל ; ייצור מקומי",
+          "width": 800,
+          "height": 537,
+          "images": [
+            {
+              "@id": "FL10408999",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10408999",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10408999/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כבלי חשמל ; ייצור מקומי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10408999",
+                  "label": "כבלי חשמל ; ייצור מקומי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 537,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10408998",
+      "@type": "sc:Range",
+      "label": "REP10408998",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10408999",
+          "@type": "sc:Canvas",
+          "label": "כבלי חשמל ; ייצור מקומי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136702",
+  "viewingHint": "paged"
+}

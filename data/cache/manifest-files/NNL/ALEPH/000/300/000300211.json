@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300211/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ג'רבה, תוניסיה. תרע\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ג'רבה, תוניסיה. תרע\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "חדאד, נסים בן כמוס, 1895-1968 (חתן) ; צבאן, כ'מיסא בת יעקב (כלה) ; וזאן, כמוס (עד) ; חדאד, בנימין (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אי ג'רבא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300211"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טז בסיון תרע\"ז (1917)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 295X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Ḥawmat al-Sūq, Tunisia. 1917"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300211"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300211/sequence/IE9206108",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ג&apos;רבה, תוניסיה, תרע&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467115",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 575,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467115",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467115",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467115/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467115",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 575
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467114",
+      "@type": "sc:Range",
+      "label": "REP9467114",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467115",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300211",
+  "viewingHint": "paged"
+}

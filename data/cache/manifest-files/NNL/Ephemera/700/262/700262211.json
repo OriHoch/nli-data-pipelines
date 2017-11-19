@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262211/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; ח. יצחקי; הרצאה; פוליטיקה",
+  "label": "הרצאה - ארץ ישראל - והפדרציה הערבית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה - ארץ ישראל - והפדרציה הערבית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל פועלי ציון - סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; ח. יצחקי; הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262211"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262211"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262211/sequence/IE9168683",
+      "@type": "sc:Sequence",
+      "label": "הרצאה - ארץ ישראל - והפדרציה הערבית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179288",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - ארץ ישראל - והפדרציה הערבית",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9179288",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9179288",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9179288/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה - ארץ ישראל - והפדרציה הערבית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9179288",
+                  "label": "הרצאה - ארץ ישראל - והפדרציה הערבית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9179286",
+      "@type": "sc:Range",
+      "label": "REP9179286",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9179288",
+          "@type": "sc:Canvas",
+          "label": "הרצאה - ארץ ישראל - והפדרציה הערבית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262211",
+  "viewingHint": "paged"
+}

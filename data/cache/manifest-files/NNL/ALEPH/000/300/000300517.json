@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300517/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רבאט, מרוקו. תרס\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רבאט, מרוקו. תרס\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "בן הרוש, בנציון בן מאיר בן מכלוף (חתן) ; בן זקן, ג'ימול בת עמרם בן דוד בן מנחם (כלה) ; צבאח, דוד בן מסעוד, 1869-1956 (עד) ; מראג'י, מאיר (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ארבט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300517"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בסיון תרס\"ט (1909)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 695X500 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rabat, Morocco. 1909"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300517"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300517/sequence/IE9203053",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רבאט, מרוקו, תרס&quot;ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468520",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468520",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468520",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468520/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468520",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468519",
+      "@type": "sc:Range",
+      "label": "REP9468519",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468520",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300517",
+  "viewingHint": "paged"
+}

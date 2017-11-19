@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700328010/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל-אביב; דו\"ח; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון",
+  "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט."
+    },
+    {
+      "label": "Publisher",
+      "value": "עירית תל-אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל-אביב; דו\"ח; היסטוריה; עיריה - עיריות - מוניציפאלי; שלום ובטחון"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700328010"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700328010"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700328010/sequence/IE15635370",
+      "@type": "sc:Sequence",
+      "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15651090",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט",
+          "width": 616,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL15651090",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL15651090",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL15651090/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL15651090",
+                  "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 616
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP15651089",
+      "@type": "sc:Range",
+      "label": "REP15651089",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL15651090",
+          "@type": "sc:Canvas",
+          "label": "הודעה מספר 8 - תל-אביב: בעיר ובסביבה שקט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700328010",
+  "viewingHint": "paged"
+}

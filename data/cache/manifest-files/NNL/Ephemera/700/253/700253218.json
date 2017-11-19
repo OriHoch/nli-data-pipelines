@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253218/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; אסיפה; פוליטיקה",
+  "label": "אספה פומבית - מנצחון להגשמה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - מנצחון להגשמה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; אסיפה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253218"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253218"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253218/sequence/IE9066369",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - מנצחון להגשמה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069153",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - מנצחון להגשמה",
+          "width": 800,
+          "height": 544,
+          "images": [
+            {
+              "@id": "FL9069153",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069153",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069153/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - מנצחון להגשמה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069153",
+                  "label": "אספה פומבית - מנצחון להגשמה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 544,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069152",
+      "@type": "sc:Range",
+      "label": "REP9069152",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069153",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - מנצחון להגשמה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253218",
+  "viewingHint": "paged"
+}

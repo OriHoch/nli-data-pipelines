@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700253153/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; י. ברץ, ד. רמז, מ. שרתוק; אסיפה; נאום; פוליטיקה",
+  "label": "אספת עם נוכח המצב הפוליטי - י. ברץ, ד. רמז, מ. שרתוק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת עם נוכח המצב הפוליטי - י. ברץ, ד. רמז, מ. שרתוק"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; י. ברץ, ד. רמז, מ. שרתוק; אסיפה; נאום; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700253153"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700253153"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700253153/sequence/IE9066769",
+      "@type": "sc:Sequence",
+      "label": "אספת עם נוכח המצב הפוליטי -  י. ברץ, ד. רמז, מ. שרתוק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072396",
+          "@type": "sc:Canvas",
+          "label": "אספת עם נוכח המצב הפוליטי -  י. ברץ, ד. רמז, מ. שרתוק",
+          "width": 606,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9072396",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9072396",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9072396/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת עם נוכח המצב הפוליטי -  י. ברץ, ד. רמז, מ. שרתוק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9072396",
+                  "label": "אספת עם נוכח המצב הפוליטי -  י. ברץ, ד. רמז, מ. שרתוק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 606
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9072395",
+      "@type": "sc:Range",
+      "label": "REP9072395",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9072396",
+          "@type": "sc:Canvas",
+          "label": "אספת עם נוכח המצב הפוליטי -  י. ברץ, ד. רמז, מ. שרתוק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700253153",
+  "viewingHint": "paged"
+}

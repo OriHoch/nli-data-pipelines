@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267563/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "בחירות; מועמדים ורשימות",
+  "label": "ליום הבחירות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליום הבחירות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מזכירות מפלגת פועלי ארץ ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בחירות; מועמדים ורשימות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267563"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1941"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267563"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267563/sequence/IE9705241",
+      "@type": "sc:Sequence",
+      "label": "ליום הבחירות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706769",
+          "@type": "sc:Canvas",
+          "label": "ליום הבחירות ",
+          "width": 570,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9706769",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9706769",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9706769/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליום הבחירות ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9706769",
+                  "label": "ליום הבחירות ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 570
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9706767",
+      "@type": "sc:Range",
+      "label": "REP9706767",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9706769",
+          "@type": "sc:Canvas",
+          "label": "ליום הבחירות "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267563",
+  "viewingHint": "paged"
+}

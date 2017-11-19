@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301017/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוכרה, אוזבקיסטן. תרכ\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוכרה, אוזבקיסטן. תרכ\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "משה ברוך בן נתנאל (חתן) ; כלנתר, צפרה בת שמעיה (כלה) ; שוחט, ג'ה בן יצחק (עד) ; זורכי, יצחק בן אהרן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוכרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301017"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יב בשבט תרכ\"ט (1869)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 397X322 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bukhoro, Uzbekistan. 1869"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301017"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301017/sequence/IE9201543",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוכרה, אוזבקיסטן, תרכ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464888",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בוכרה; אוזבקיסטן; תרכט]",
+          "width": 660,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464888",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464888",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464888/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. בוכרה; אוזבקיסטן; תרכט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464888",
+                  "label": "[כתובה. בוכרה; אוזבקיסטן; תרכט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 660
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464886",
+      "@type": "sc:Range",
+      "label": "REP9464886",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464888",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בוכרה; אוזבקיסטן; תרכט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301017",
+  "viewingHint": "paged"
+}

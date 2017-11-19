@@ -1,0 +1,110 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700117242/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Identity; ויסמן, וג'ים, סגל, קופמן, אלטר, שלמה, מולא, לאוב, מוזיקנסקי, אמיל, פט קירן, אדוארד, ספרג, סנוקס, סרג'נט מנסון, לייט; THE BOXING MATCH; התאגרפות",
+  "label": "הבוקס.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הבוקס."
+    },
+    {
+      "label": "Publisher",
+      "value": "קלוב לבוקס ולהתאבקות, בני ליאונרד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Identity; ויסמן, וג'ים, סגל, קופמן, אלטר, שלמה, מולא, לאוב, מוזיקנסקי, אמיל, פט קירן, אדוארד, ספרג, סנוקס, סרג'נט מנסון, לייט; THE BOXING MATCH; התאגרפות"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700117242"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Format",
+      "value": "כולל ציור."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "700117242"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700117242/sequence/IE5068683",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5405148",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 527,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL5405148",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5405148",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5405148/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5405148",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5405147",
+      "@type": "sc:Range",
+      "label": "REP5405147",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5405148",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700117242",
+  "viewingHint": "paged"
+}

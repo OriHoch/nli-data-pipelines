@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300602/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סופיה, בולגריה. תש\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סופיה, בולגריה. תש\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם בן בכור חיים, הלוי (חתן) ; פרחי, רבקה בת שלמה (כלה) ; דמוס אברהם לוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "סופיאה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300602"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בתמוז תש\"ו (1946)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 585X325 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Sofia, Bulgaria. 1946"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300602"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300602/sequence/IE9203533",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סופיה, בולגריה, תש&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467125",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. סופיה; בולגריה; תשו]",
+          "width": 472,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467125",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467125",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467125/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. סופיה; בולגריה; תשו]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467125",
+                  "label": "[כתובה. סופיה; בולגריה; תשו]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 472
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467124",
+      "@type": "sc:Range",
+      "label": "REP9467124",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467125",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. סופיה; בולגריה; תשו]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300602",
+  "viewingHint": "paged"
+}

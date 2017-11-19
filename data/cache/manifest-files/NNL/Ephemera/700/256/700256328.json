@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700256328/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פרנץ אופנהיימר (פרופ'),; כלכלה; הרצאה; לימודי ערב",
+  "label": "קורס לכלכלה לאומית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קורס לכלכלה לאומית."
+    },
+    {
+      "label": "Publisher",
+      "value": "ההסתדרות הכללית של העובדים העברים בארץ-ישראל, מועצת פועלי יפו, סמינריון הפועלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פרנץ אופנהיימר (פרופ'),; כלכלה; הרצאה; לימודי ערב"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700256328"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700256328"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700256328/sequence/IE9067702",
+      "@type": "sc:Sequence",
+      "label": "קורס לכלכלה לאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069289",
+          "@type": "sc:Canvas",
+          "label": "קורס לכלכלה לאומית",
+          "width": 604,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9069289",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9069289",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9069289/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קורס לכלכלה לאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9069289",
+                  "label": "קורס לכלכלה לאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 604
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9069288",
+      "@type": "sc:Range",
+      "label": "REP9069288",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9069289",
+          "@type": "sc:Canvas",
+          "label": "קורס לכלכלה לאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700256328",
+  "viewingHint": "paged"
+}

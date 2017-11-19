@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301031/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בואנוס איירס, ארגנטינה. תרפ\"ח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בואנוס איירס, ארגנטינה. תרפ\"ח"
+    },
+    {
+      "label": "Contributor",
+      "value": "סרגוסטי, דוד בן הרון בן משה (חתן) ; בן ויניסטי, רחל בת סעדיה (כלה) ; עבאדי, יעקב שמואל (עד) ; קסוטו, יוסף חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בואינוס איירס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301031"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כז בתשרי תרפ\"ח (1927)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 376X275 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Buenos Aires, Argentina. 1927"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301031"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301031/sequence/IE9200241",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בואנוס איירס, ארגנטינה, תרפ&quot;ח]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462811",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בואנוס איירס; ארגנטינה; תרפח]",
+          "width": 600,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462811",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462811",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462811/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. בואנוס איירס; ארגנטינה; תרפח]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462811",
+                  "label": "[כתובה. בואנוס איירס; ארגנטינה; תרפח]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 600
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462803",
+      "@type": "sc:Range",
+      "label": "REP9462803",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462811",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. בואנוס איירס; ארגנטינה; תרפח]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301031",
+  "viewingHint": "paged"
+}

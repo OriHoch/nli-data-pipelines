@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700136233/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "נגב",
+  "label": "הנחת צינור מים לנגב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנחת צינור מים לנגב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "נגב",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700136233"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700136233"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700136233/sequence/IE6421995",
+      "@type": "sc:Sequence",
+      "label": "הנחת צינור מים לנגב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10406435",
+          "@type": "sc:Canvas",
+          "label": "הנחת צינור מים לנגב",
+          "width": 800,
+          "height": 789,
+          "images": [
+            {
+              "@id": "FL10406435",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10406435",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10406435/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הנחת צינור מים לנגב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10406435",
+                  "label": "הנחת צינור מים לנגב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 789,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10406434",
+      "@type": "sc:Range",
+      "label": "REP10406434",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10406435",
+          "@type": "sc:Canvas",
+          "label": "הנחת צינור מים לנגב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700136233",
+  "viewingHint": "paged"
+}

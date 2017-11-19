@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700257364/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "ירושלים; אליהו דובקין, יהודית גינצבורג, ראובן שרייבמן; ציונות; כנס",
+  "label": "אספה פומבית - דרכנו בציונות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספה פומבית - דרכנו בציונות"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (רשימה א), ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ירושלים; אליהו דובקין, יהודית גינצבורג, ראובן שרייבמן; ציונות; כנס"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700257364"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700257364"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700257364/sequence/IE9064410",
+      "@type": "sc:Sequence",
+      "label": "אספה פומבית - דרכנו בציונות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071690",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - דרכנו בציונות",
+          "width": 624,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9071690",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9071690",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9071690/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספה פומבית - דרכנו בציונות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9071690",
+                  "label": "אספה פומבית - דרכנו בציונות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 624
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9071687",
+      "@type": "sc:Range",
+      "label": "REP9071687",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9071690",
+          "@type": "sc:Canvas",
+          "label": "אספה פומבית - דרכנו בציונות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700257364",
+  "viewingHint": "paged"
+}

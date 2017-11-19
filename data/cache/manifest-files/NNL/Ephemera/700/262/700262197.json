@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262197/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; אלכסנדר פן (משורר),סרגי יס'נין; ספרות; שירה; סוציאליזם",
+  "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ציון והחוגים המרכסיסטיים - חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; אלכסנדר פן (משורר),סרגי יס'נין; ספרות; שירה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262197"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262197"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262197/sequence/IE9164491",
+      "@type": "sc:Sequence",
+      "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180247",
+          "@type": "sc:Canvas",
+          "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין",
+          "width": 528,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9180247",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180247",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180247/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180247",
+                  "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 528
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180246",
+      "@type": "sc:Range",
+      "label": "REP9180246",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180247",
+          "@type": "sc:Canvas",
+          "label": "המשורר אלכסנדר פן - ירצה על - סרגי יס'נין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262197",
+  "viewingHint": "paged"
+}

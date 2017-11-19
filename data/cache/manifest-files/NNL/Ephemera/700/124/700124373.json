@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700124373/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Local elections -- Israel; Political parties -- Israel; Propaganda -- Israel; Israel -- Politics and government; א. אפשטין; בחירות לרשויות מקומיות; תעמולת בחירות; תל אביב",
+  "label": "הבחירות בתל אביב - בשנת 1932 - נדחו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הבחירות בתל אביב - בשנת 1932 - נדחו"
+    },
+    {
+      "label": "Publisher",
+      "value": "ועדת הבחירות למועצה החמישית של עירית תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "Local elections -- Israel; Political parties -- Israel; Propaganda -- Israel; Israel -- Politics and government; א. אפשטין; בחירות לרשויות מקומיות; תעמולת בחירות; תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "Ephemera Collection - The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700124373"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700124373"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700124373/sequence/IE5369961",
+      "@type": "sc:Sequence",
+      "label": "אוסף הספרייה הלאומית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6260010",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית",
+          "width": 530,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL6260010",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL6260010",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL6260010/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אוסף הספרייה הלאומית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL6260010",
+                  "label": "אוסף הספרייה הלאומית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 530
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP6260009",
+      "@type": "sc:Range",
+      "label": "REP6260009",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL6260010",
+          "@type": "sc:Canvas",
+          "label": "אוסף הספרייה הלאומית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700124373",
+  "viewingHint": "paged"
+}

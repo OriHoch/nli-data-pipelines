@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301198/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בורנובה, איזמיר, טורקיה. תרע\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בורנובה, איזמיר, טורקיה. תרע\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "נסים בן ברזלי בכור, מיטרני (חתן) ; חביב, ויקטוריה בת בנציון מאיר פסחיה אבן (כלה) ; שיגורה, מרדכי (עד) ; אלגרנטי, חיים אהרן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כפר בורון אבאד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301198"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יג בסיון תרע\"ב (1912)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 707X568 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bornova, Izmir, Turkey. 1912"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301198"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301198/sequence/IE9203132",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איזמיר. כפר בורון אבאד, תורכיה, תרע&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465782",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איזמיר. כפר בורון אבאד; תורכיה; תרעב]",
+          "width": 643,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465782",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465782",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465782/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. איזמיר. כפר בורון אבאד; תורכיה; תרעב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465782",
+                  "label": "[כתובה. איזמיר. כפר בורון אבאד; תורכיה; תרעב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 643
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465781",
+      "@type": "sc:Range",
+      "label": "REP9465781",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465782",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איזמיר. כפר בורון אבאד; תורכיה; תרעב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301198",
+  "viewingHint": "paged"
+}

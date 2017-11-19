@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301164/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "חוזה נשואין מוסלמי. איראן. 1879.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חוזה נשואין מוסלמי. איראן. 1879."
+    },
+    {
+      "label": "Contributor",
+      "value": "צראף, אקא חידר עלי בן חאג'י מהדי (חתן) ; פרוך סולטאן בת אקא מחמד עלי (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "איראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301164"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1879"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 1160X650 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Muslim marriage contract. Iran. 1879"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301164"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301164/sequence/IE10229167",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איראן, תרל\"ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243954",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איראן, תרלט].",
+          "width": 459,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243954",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243954",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243954/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. איראן, תרלט].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243954",
+                  "label": "[כתובה. איראן, תרלט].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 459
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243953",
+      "@type": "sc:Range",
+      "label": "REP10243953",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243954",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. איראן, תרלט]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301164",
+  "viewingHint": "paged"
+}

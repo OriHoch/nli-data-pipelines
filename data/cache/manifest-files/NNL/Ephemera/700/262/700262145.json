@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700262145/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; אלכסנדר,פטרזייל; הרצאה; כנס; פוליטיקה; סוציאליזם",
+  "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל (פועלי ציון) - סניף תל אביב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; אלכסנדר,פטרזייל; הרצאה; כנס; פוליטיקה; סוציאליזם"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700262145"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700262145"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700262145/sequence/IE9166905",
+      "@type": "sc:Sequence",
+      "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180393",
+          "@type": "sc:Canvas",
+          "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית",
+          "width": 800,
+          "height": 597,
+          "images": [
+            {
+              "@id": "FL9180393",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9180393",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9180393/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9180393",
+                  "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 597,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9180392",
+      "@type": "sc:Range",
+      "label": "REP9180392",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9180393",
+          "@type": "sc:Canvas",
+          "label": "הרצאה קולקטיבית - סיכומי ועידת - פועלי-ציון העולמית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700262145",
+  "viewingHint": "paged"
+}

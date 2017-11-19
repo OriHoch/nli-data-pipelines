@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300737/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. לוגו, איטליה. תקע\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. לוגו, איטליה. תקע\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "חיו, יוסף יאיר בן משה שלמה יחיאל (חתן) ; דלוקיו, רחל בת יצחק חיים (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "לוגו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300737"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בחשון תקע\"ג (1812)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 860X550 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Lugo, Italy. 1812"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300737"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300737/sequence/IE9222981",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. לוגו, איטליה, תקע&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470612",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 541,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470612",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470612",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470612/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470612",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 541
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470611",
+      "@type": "sc:Range",
+      "label": "REP9470611",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470612",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300737",
+  "viewingHint": "paged"
+}

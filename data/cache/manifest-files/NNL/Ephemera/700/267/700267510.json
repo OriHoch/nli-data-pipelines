@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267510/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "חיפה; משה שפירא (מרצה); הרצאה; פוליטיקה",
+  "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י, סניף חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "חיפה; משה שפירא (מרצה); הרצאה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267510"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267510"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267510/sequence/IE9704926",
+      "@type": "sc:Sequence",
+      "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707089",
+          "@type": "sc:Canvas",
+          "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת",
+          "width": 800,
+          "height": 524,
+          "images": [
+            {
+              "@id": "FL9707089",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9707089",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9707089/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9707089",
+                  "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 524,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9707088",
+      "@type": "sc:Range",
+      "label": "REP9707088",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707089",
+          "@type": "sc:Canvas",
+          "label": "הרצאת משה שפירא - מלחמתנו בעד עבודה עברית מאורגנת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267510",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300403/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מדיירה, פורטוגל. תרכ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מדיירה, פורטוגל. תרכ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלם בן משה, הכהן (חתן) ; ממן, עוואלי בת יוסף בן מסעוד (כלה) ; חזיזה, יסאן (עד) ; אוחנה, יעיש (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מדיירא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300403"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כג בשבט תרכ\"ז (1867)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X325 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Madeira, Portugal. 1867"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300403"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300403/sequence/IE9198990",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מדיירה, פורטוגל, תרכ&quot;ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462261",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 779,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462261",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462261",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462261/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462261",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 779
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462260",
+      "@type": "sc:Range",
+      "label": "REP9462260",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462261",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300403",
+  "viewingHint": "paged"
+}

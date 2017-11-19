@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300552/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קאעביר אלעזב, צנעא, תימן. תקפ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קאעביר אלעזב, צנעא, תימן. תקפ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלד'הבאני, בדרה בת הבה (כלה) ; חבארה, סעיד בן סאלם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קאע ביר אלעזב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300552"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כד בטבת ב'קל\"ה לשטרות (1823)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 205X140 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bir al-Azab, Sana'a, Yemen. 1823"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300552"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300552/sequence/IE9206652",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. צנעא. קאעביר אלעזב, תימן, תקפ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469327",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 574,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469327",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469327",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469327/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469327",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 574
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469326",
+      "@type": "sc:Range",
+      "label": "REP9469326",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469327",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300552",
+  "viewingHint": "paged"
+}

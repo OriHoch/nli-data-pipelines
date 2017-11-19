@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301063/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. משהד, איראן. תרנ\"ד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. משהד, איראן. תרנ\"ד"
+    },
+    {
+      "label": "Contributor",
+      "value": "ראובן בן שמואל (חתן) ; אסתר בת נתנאל (כלה) ; יעקב ק\"צ (עד) ; אליהו אה (עד) ; אהרן, הכהן (עד) ; מרדכי אלד (מעתיק)"
+    },
+    {
+      "label": "Publisher",
+      "value": "משהד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301063"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בחשון תרנ\"ד (1893)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 533X304 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mashhad, Iran. 1893"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301063"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301063/sequence/IE9200540",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. משהד, איראן, תרנ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462652",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. משהד; איראן; תרנד]",
+          "width": 616,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462652",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462652",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462652/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. משהד; איראן; תרנד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462652",
+                  "label": "[כתובה. משהד; איראן; תרנד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 616
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462651",
+      "@type": "sc:Range",
+      "label": "REP9462651",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462652",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. משהד; איראן; תרנד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301063",
+  "viewingHint": "paged"
+}

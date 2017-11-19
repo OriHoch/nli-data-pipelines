@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700267516/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "תל אביב; פ. נפתלי, אל. לוסטיג, ו. פרויס, ד. טיטלבוים, י. בן אהרן; אסיפה; עלייה; פוליטיקה",
+  "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי ארץ ישראל, סניף תל אביב, חוג עולי אוסטריה, חוג עולי גרמניה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "תל אביב; פ. נפתלי, אל. לוסטיג, ו. פרויס, ד. טיטלבוים, י. בן אהרן; אסיפה; עלייה; פוליטיקה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700267516"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "700267516"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700267516/sequence/IE9704962",
+      "@type": "sc:Sequence",
+      "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707421",
+          "@type": "sc:Canvas",
+          "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה",
+          "width": 513,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9707421",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9707421",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9707421/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9707421",
+                  "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 513
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9707420",
+      "@type": "sc:Range",
+      "label": "REP9707420",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9707421",
+          "@type": "sc:Canvas",
+          "label": "אספת עולי אוסטריה וגרמניה - מלחמת הגבורה של פועלי אוסטריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700267516",
+  "viewingHint": "paged"
+}

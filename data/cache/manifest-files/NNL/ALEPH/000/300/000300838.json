@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300838/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סעואן, תימן. תקפ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סעואן, תימן. תקפ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלקרואני, יחיא בן יוסף (חתן) ; רצאבי, גזאל (כלה) ; צאלח, הרון בן אברהם (עד) ; שלמה בן משה (עד) ; גורודצקי, עזרא פ., 1928- בעלים קודמים"
+    },
+    {
+      "label": "Publisher",
+      "value": "כרבת סעואן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300838"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ו בניסן ב'קל\"ד לשטרות (1823)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 165X142 מ\"מ..; נייר.; דף קרוע ומתפורר בקצה הפנימי. בראשו חרוזים בצורת לבנה-אריח.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Seuan, Yemen. 1823"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300838"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300838/sequence/IE9195590",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. כרבת סעואן; תימן; תקפג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462938",
+          "@type": "sc:Canvas",
+          "label": "FL9462938",
+          "width": 730,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462938",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462938",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462938/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462938",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 730
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462928",
+          "@type": "sc:Canvas",
+          "label": "FL9462928",
+          "width": 697,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462928",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462928",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462928/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462928",
+                  "label": "",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 697
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462927",
+      "@type": "sc:Range",
+      "label": "REP9462927",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462938",
+          "@type": "sc:Canvas",
+          "label": ""
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462928",
+          "@type": "sc:Canvas",
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300838",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300523/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מוגדור, מרוקו. תש\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מוגדור, מרוקו. תש\"ה."
+    },
+    {
+      "label": "Contributor",
+      "value": "מלכא, אברהם בן מסעוד (חתן) ; אצרף, צול בת יצחק בן מכלוף (כלה) ; סויסיא, יעיש (עד) ; זעפרני, מרדכי בן ש' (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אצוירא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300523"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בחשון תש\"ה (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 495X440 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Essaouira, Morocco. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300523"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300523/sequence/IE9203069",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מוגדור, מרוקו, תש&quot;ה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465005",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 698,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465005",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 698
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465004",
+      "@type": "sc:Range",
+      "label": "REP9465004",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465005",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300523",
+  "viewingHint": "paged"
+}

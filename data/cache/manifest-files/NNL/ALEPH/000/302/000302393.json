@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000302393/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קאשן, איראן. תרע\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קאשן, איראן. תרע\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "יצחק בן נוריאל (חתן) ; כ'אנום בת ברוך (כלה) ; רפאל יצחק בן חכם דין (עד) ; רחמים בן דניאל (עד) ; אליאס, אהרן בן חכם (עד) ; יוסף בן מתתיה (עד) ; רבי בן יחזקאל (עד) ; אליהו בן אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "כאשאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000302393"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בתשרי תרע\"ז (1916)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 445X353 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kashan, Iran. 1916"
+    },
+    {
+      "label": "SysNum",
+      "value": "000302393"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000302393/sequence/IE9212523",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. קאשאן, איראן, תרע&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469289",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 653,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469289",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469289",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469289/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469289",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 653
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469288",
+      "@type": "sc:Range",
+      "label": "REP9469288",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469289",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000302393",
+  "viewingHint": "paged"
+}

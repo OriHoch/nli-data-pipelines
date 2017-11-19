@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301186/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אל מלחה, תימן. תרצ\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אל מלחה, תימן. תרצ\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "מנצור בן דאוד (חתן) ; סעידה בת שאול (כלה) ; חיים הרון (עד) ; חסן, סלימאן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אל-מלחה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301186"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד באדר ב'ר\"ן לשטרות (1939)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 355X237 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Al-Malha, Yemen. 1939"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301186"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301186/sequence/IE9201766",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אל מלחה, תימן, תרצ&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467171",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 537,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9467171",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9467171",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9467171/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9467171",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 537
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9467170",
+      "@type": "sc:Range",
+      "label": "REP9467170",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9467171",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301186",
+  "viewingHint": "paged"
+}

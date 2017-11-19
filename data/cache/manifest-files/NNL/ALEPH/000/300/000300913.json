@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300913/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. וינה, אוסטריה. תרצ\"ג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. וינה, אוסטריה. תרצ\"ג"
+    },
+    {
+      "label": "Contributor",
+      "value": "דב יהודה בן יעקב (חתן) ; רויזא בת צבי (כלה) ; אברהם דוד בן יהודה (עד) ; שלום בן שבח (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וינא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300913"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כא באדר תרצ\"ג (1933)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 340X210 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Vienna, Austria. 1933"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300913"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300913/sequence/IE9206350",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וינה, אוסטריה, תרצ&quot;ג]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468581",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 550,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9468581",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9468581",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9468581/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9468581",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 550
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9468580",
+      "@type": "sc:Range",
+      "label": "REP9468580",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9468581",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300913",
+  "viewingHint": "paged"
+}

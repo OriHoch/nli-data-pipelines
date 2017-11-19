@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300975/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מרכש, מרוקו. תרמ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מרכש, מרוקו. תרמ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "סויסא, אברהם בן שלום בן עיאד (חתן) ; וחיון, מזל בת משה (כלה) ; חזן, משה בן שלמה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מראכש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300975"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ח בתשרי תרמ\"ד (1883)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 300X200 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Marrakech, Morocco. 1883"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300975"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300975/sequence/IE9197705",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מראכש, מרוקו, תרמ&quot;ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462807",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מראכש; מרוקו; תרמד]",
+          "width": 550,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. מראכש; מרוקו; תרמד]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462807",
+                  "label": "[כתובה. מראכש; מרוקו; תרמד]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 550
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462805",
+      "@type": "sc:Range",
+      "label": "REP9462805",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462807",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. מראכש; מרוקו; תרמד]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300975",
+  "viewingHint": "paged"
+}

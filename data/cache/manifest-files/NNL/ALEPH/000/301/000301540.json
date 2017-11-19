@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301540/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. איראן. תרנ\"-",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. איראן. תרנ\"-"
+    },
+    {
+      "label": "Publisher",
+      "value": "איראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301540"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרנ\" (1890)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 510X340 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Iran. 189-"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301540"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301540/sequence/IE9201871",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. איראן, תרנ&quot;-]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465100",
+          "@type": "sc:Canvas",
+          "label": "Ketubba",
+          "width": 554,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465100",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465100",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465100/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465100",
+                  "label": "Ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 554
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465099",
+      "@type": "sc:Range",
+      "label": "REP9465099",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465100",
+          "@type": "sc:Canvas",
+          "label": "Ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301540",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,106 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_Ephemera700259879/manifest",
+  "@type": "sc:Manifest",
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "פתח תקוה; בחירות; מועמדים ורשימות",
+  "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה"
+    },
+    {
+      "label": "Publisher",
+      "value": "מפלגת פועלי א\"י (פועלי ציון)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "פתח תקוה; בחירות; מועמדים ורשימות"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף האפמרה - הספרייה הלאומית"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_Ephemera700259879"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1929"
+    },
+    {
+      "label": "Type",
+      "value": "sheet"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "700259879"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_Ephemera700259879/sequence/IE9168626",
+      "@type": "sc:Sequence",
+      "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182194",
+          "@type": "sc:Canvas",
+          "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה",
+          "width": 516,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9182194",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9182194",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9182194/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9182194",
+                  "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 516
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9182192",
+      "@type": "sc:Range",
+      "label": "REP9182192",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9182194",
+          "@type": "sc:Canvas",
+          "label": "לכל פועלי פתח-תקוה - הבחירות למועצת המושבה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_Ephemera700259879",
+  "viewingHint": "paged"
+}

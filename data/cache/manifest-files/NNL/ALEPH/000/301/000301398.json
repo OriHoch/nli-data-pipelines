@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301398/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. יאנגון, בורמה. תרצ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. יאנגון, בורמה. תרצ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד עזרא בן יחזקאל שלמה (חתן) ; לילוא בת ששון לוי (כלה) ; שמוש, יחזקאל חיים (עד) ; שמש, סולומון (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רנגון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301398"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד באדר תרצ\"ז (1937)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 313X232 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rangoon, Burma. 1937"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301398"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301398/sequence/IE10509289",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רנגון, מיאנמר, תרצ\"ז].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512624",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 598,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512624",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512624",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512624/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512624",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 598
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512623",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 605,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10512623",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512623",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512623/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512623",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512622",
+      "@type": "sc:Range",
+      "label": "REP10512622",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512624",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512623",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301398",
+  "viewingHint": "paged"
+}

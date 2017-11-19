@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003490316/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פריירה, ריסלרדה, קולומביה. תש\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פריירה, ריסלרדה, קולומביה. תש\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "איזנשטין, שמואל בן יצחק (חתן) ; שפירא, חנה בת שמחה בונם (כלה) ; ווינר, אהרן (עד) ; ניידוז, חיים (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פייריירא, : Star Hebrew Book Co."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003490316"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בשבט התש\"ד (1944)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 430X275 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Pereira, Colombia. 1944"
+    },
+    {
+      "label": "SysNum",
+      "value": "003490316"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003490316/sequence/IE9195167",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. פריירא; קולומביה; תש&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466920",
+          "@type": "sc:Canvas",
+          "label": "3490316",
+          "width": 526,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9466920",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9466920",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9466920/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3490316",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9466920",
+                  "label": "3490316",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 526
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9466919",
+      "@type": "sc:Range",
+      "label": "REP9466919",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9466920",
+          "@type": "sc:Canvas",
+          "label": "3490316"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003490316",
+  "viewingHint": "paged"
+}
