@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Antiquae Ierusalem vera icnographia",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Antiquae Ierusalem vera icnographia"
+    },
+    {
+      "label": "Contributor",
+      "value": "Pieter van der Heyden; Peter Laicksteen active approximately 1556-1570; Christophe Plantin approximately 1520-1589"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leyden] :Officina Plantiniana"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Arias Montano Benito, 1527-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1593"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "281x235 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367988/sequence/IE6880968",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072339",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2250,
+          "height": 2771,
+          "images": [
+            {
+              "@id": "FL7072339",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072339",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072339/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072339",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2771,
+                "width": 2250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072338",
+      "@type": "sc:Range",
+      "label": "REP7072338",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072339",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367988",
+  "viewingHint": "paged"
+}

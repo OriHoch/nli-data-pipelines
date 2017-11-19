@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368043/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sinai, Mount (Egypt) -- Maps",
+  "label": "Bergh Sinai of Sint Catryn. Les Monts Sinai et Horeb, en Arabie;&nbsp;K. Decker fe.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Bergh Sinai of Sint Catryn. Les Monts Sinai et Horeb, en Arabie;&nbsp;K. Decker fe."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Cóvens; Cornelis Mortimer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam. :Covens & Mortimer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sinai, Mount (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Decker Carl"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368043"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "275x340 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut;fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368043"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368043/sequence/IE13720599",
+      "@type": "sc:Sequence",
+      "label": "Sinai; Mount (Egypt)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736020",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10378,
+          "height": 8714,
+          "images": [
+            {
+              "@id": "FL13736020",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13736020",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13736020/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13736020",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8714,
+                "width": 10378
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13736019",
+      "@type": "sc:Range",
+      "label": "REP13736019",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736020",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368043",
+  "viewingHint": "paged"
+}

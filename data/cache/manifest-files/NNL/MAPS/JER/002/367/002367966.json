@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367966/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Prospeckt der heutigen Stadt Jerusalem;&nbsp;Fc. Kraus sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Prospeckt der heutigen Stadt Jerusalem;&nbsp;Fc. Kraus sc."
+    },
+    {
+      "label": "Contributor",
+      "value": "Electus Zwinner; F Kraus"
+    },
+    {
+      "label": "Publisher",
+      "value": "Wien,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Borowsky Georg J., publisher and engraver"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367966"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1760"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "297 x 499 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367966"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367966/sequence/IE37617762",
+      "@type": "sc:Sequence",
+      "label": "Prospeckt der heutigen Stadt Jerusalem",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37617766",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12982,
+          "height": 9154,
+          "images": [
+            {
+              "@id": "FL37617766",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37617766",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37617766/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37617766",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9154,
+                "width": 12982
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37617765",
+      "@type": "sc:Range",
+      "label": "REP37617765",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37617766",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367966",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Holy Sepulcher -- Maps",
+  "label": "Plan du Saint Sepulchre de Notre Seigr. Jesus-Christ situé en la Terre Sainte sur le Mont Calvaire dans la Cité de Jerusalem;&nbsp;Par N.de Fer",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan du Saint Sepulchre de Notre Seigr. Jesus-Christ situé en la Terre Sainte sur le Mont Calvaire dans la Cité de Jerusalem;&nbsp;Par N.de Fer"
+    },
+    {
+      "label": "Contributor",
+      "value": "Juan Bautista Villalpando"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Chez l'auteur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Holy Sepulcher -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Fer Nicolas de, 1646-1720"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368059"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1715"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "394x480 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368059/sequence/IE6881161",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072785",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2233,
+          "images": [
+            {
+              "@id": "FL7072785",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072785",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072785/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072785",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2233,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072784",
+      "@type": "sc:Range",
+      "label": "REP7072784",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072785",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368059",
+  "viewingHint": "paged"
+}

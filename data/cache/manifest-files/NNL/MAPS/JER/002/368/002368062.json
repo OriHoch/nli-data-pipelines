@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368062/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Eigentliche Vorstellung der Statt Jerusalem und derselben umliegenden Gegenden zu Salomonis auch zu und kurtz nach Christi Zeiten.;&nbsp;A.C. Fleischmann sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Eigentliche Vorstellung der Statt Jerusalem und derselben umliegenden Gegenden zu Salomonis auch zu und kurtz nach Christi Zeiten.;&nbsp;A.C. Fleischmann sc."
+    },
+    {
+      "label": "Contributor",
+      "value": "Juan Bautista Villalpando"
+    },
+    {
+      "label": "Publisher",
+      "value": "Norib [i.e. Nuernberg],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Fleischmann August Christian"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368062"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1736"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "346x420 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368062"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368062/sequence/IE6879640",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071333",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2750,
+          "height": 2235,
+          "images": [
+            {
+              "@id": "FL7071333",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071333",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071333/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071333",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2235,
+                "width": 2750
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071332",
+      "@type": "sc:Range",
+      "label": "REP7071332",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071333",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368062",
+  "viewingHint": "paged"
+}

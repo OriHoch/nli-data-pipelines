@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368109/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Descripcion de la antigua Jerusalem, y de sus immediaciones",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Descripcion de la antigua Jerusalem, y de sus immediaciones"
+    },
+    {
+      "label": "Contributor",
+      "value": "Juan Bautista Villalpando"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Madrid],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lamy Bernard, 1640-1715"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368109"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1825"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "180x213 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "spa"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368109"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368109/sequence/IE6880362",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071928",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2704,
+          "height": 2300,
+          "images": [
+            {
+              "@id": "FL7071928",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071928",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071928/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071928",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2300,
+                "width": 2704
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071927",
+      "@type": "sc:Range",
+      "label": "REP7071927",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071928",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368109",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368013/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Ierusalem;&nbsp;niewlicks uyt de Schriften Iosephus afgebeeld door I.H. Cocceius",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ierusalem;&nbsp;niewlicks uyt de Schriften Iosephus afgebeeld door I.H. Cocceius"
+    },
+    {
+      "label": "Contributor",
+      "value": "Flavius Josephus"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Coccejus Johannes Henricus, d. 1712"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368013"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1722"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "323x401 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368013"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368013/sequence/IE6881011",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072417",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2177,
+          "images": [
+            {
+              "@id": "FL7072417",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072417",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072417/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072417",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2177,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072416",
+      "@type": "sc:Range",
+      "label": "REP7072416",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072417",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368013",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367936/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Standard Oil Company; Geology -- Eretz Israel -- Maps; Geology -- Jordan -- Maps; Eretz Israel -- Maps",
+  "label": "Geological maps of Palestine + Transjordan;&nbsp;based on maps by Turkish Petroleum Co., Standard Oil Co. and Geological Adviser of Palestine govt. /;&nbsp;G.S. Blake.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Geological maps of Palestine + Transjordan;&nbsp;based on maps by Turkish Petroleum Co., Standard Oil Co. and Geological Adviser of Palestine govt. /;&nbsp;G.S. Blake."
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem :Lith. A.L. Monsohn"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Standard Oil Company; Geology -- Eretz Israel -- Maps; Geology -- Jordan -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367936"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 31 x 21.7 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367936"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367936/sequence/IE13736232",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746425",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3536,
+          "height": 5056,
+          "images": [
+            {
+              "@id": "FL13746425",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746425",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746425/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746425",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5056,
+                "width": 3536
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746424",
+      "@type": "sc:Range",
+      "label": "REP13746424",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746425",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367936",
+  "viewingHint": "paged"
+}

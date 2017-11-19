@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367467/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Maps",
+  "label": "ישראל;&nbsp;עבד ושרטט ע\"י מחלקת המדידות ישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישראל;&nbsp;עבד ושרטט ע\"י מחלקת המדידות ישראל."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367467"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "מספור כבישים ומרחקי דרך [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367467"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367467/sequence/IE36378923",
+      "@type": "sc:Sequence",
+      "label": "ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378932",
+          "@type": "sc:Canvas",
+          "label": "01 north",
+          "width": 16811,
+          "height": 23787,
+          "images": [
+            {
+              "@id": "FL36378932",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36378932",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36378932/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 north",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36378932",
+                  "label": "01 north",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23787,
+                "width": 16811
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378950",
+          "@type": "sc:Canvas",
+          "label": "02 south",
+          "width": 16659,
+          "height": 23938,
+          "images": [
+            {
+              "@id": "FL36378950",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36378950",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36378950/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 south",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36378950",
+                  "label": "02 south",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23938,
+                "width": 16659
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36378931",
+      "@type": "sc:Range",
+      "label": "REP36378931",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378932",
+          "@type": "sc:Canvas",
+          "label": "01 north"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378950",
+          "@type": "sc:Canvas",
+          "label": "02 south"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367467",
+  "viewingHint": "paged"
+}

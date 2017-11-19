@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367997/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tabor, Mount (Israel) -- Maps",
+  "label": "Afbeelding van den Berg Thabor, en de omleggende streeken",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Afbeelding van den Berg Thabor, en de omleggende streeken"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leyden],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tabor, Mount (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Calmet Augustin, 1672-1757"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367997"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1727"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "287 x 425 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367997"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367997/sequence/IE6878650",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070797",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2901,
+          "height": 2150,
+          "images": [
+            {
+              "@id": "FL7070797",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070797",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070797/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070797",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2150,
+                "width": 2901
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070796",
+      "@type": "sc:Range",
+      "label": "REP7070796",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070797",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367997",
+  "viewingHint": "paged"
+}

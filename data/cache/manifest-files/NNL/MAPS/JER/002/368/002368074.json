@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368074/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Jerusalem from the Cave of the Apostles on the Mount of Olives;&nbsp;Drawn by F.Henniker. Engraved by Geo.Hunt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jerusalem from the Cave of the Apostles on the Mount of Olives;&nbsp;Drawn by F.Henniker. Engraved by Geo.Hunt."
+    },
+    {
+      "label": "Contributor",
+      "value": "John Murray"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Murray"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Henniker Frederick, Sir, 1793-1825"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368074"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1822"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "131x523 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368074"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368074/sequence/IE6879324",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071265",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 4500,
+          "height": 1359,
+          "images": [
+            {
+              "@id": "FL7071265",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071265",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071265/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071265",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1359,
+                "width": 4500
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071264",
+      "@type": "sc:Range",
+      "label": "REP7071264",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071265",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368074",
+  "viewingHint": "paged"
+}

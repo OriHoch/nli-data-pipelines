@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368124/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Church of the Holy Sepulchre (Jerusalem, Israel) -- Maps",
+  "label": "Plan de l'Eglise du Saint Sepulchre et du Mont-Calvaire a Jerusalem moderne.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan de l'Eglise du Saint Sepulchre et du Mont-Calvaire a Jerusalem moderne."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Church of the Holy Sepulchre (Jerusalem, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mallet Alain Manesson"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368124"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1683"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "145x95 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368124"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368124/sequence/IE6878372",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070807",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2000,
+          "height": 3041,
+          "images": [
+            {
+              "@id": "FL7070807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070807",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3041,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070806",
+      "@type": "sc:Range",
+      "label": "REP7070806",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070807",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368124",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368149/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tomb of the Patriarchs (Hebron, West Bank) -- Maps; Hebron (West Bank) -- Maps",
+  "label": "Plan du Haram d'Hebron renfermant la Caverne de Macpela 1888;&nbsp;par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan du Haram d'Hebron renfermant la Caverne de Macpela 1888;&nbsp;par le Chevalier Docteur Ermete Pierotti, architecte-ingenieur..."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tomb of the Patriarchs (Hebron, West Bank) -- Maps; Hebron (West Bank) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Pierotti Ermete"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368149"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1888"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "565 x 430 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368149"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368149/sequence/IE6879979",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071695",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 5352,
+          "height": 7072,
+          "images": [
+            {
+              "@id": "FL7071695",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071695",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071695/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071695",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7072,
+                "width": 5352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071694",
+      "@type": "sc:Range",
+      "label": "REP7071694",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071695",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368149",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367744/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Maps",
+  "label": "Israel;&nbsp;compiled, drawn & printed by the Survey of Israel, January 1950; partly revised by the Survey of Israel, May 1961.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Israel;&nbsp;compiled, drawn & printed by the Survey of Israel, January 1950; partly revised by the Survey of Israel, May 1961."
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ha-Merkaz le-mippui Yisrael"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367744"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1950"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367744"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367744/sequence/IE44250463",
+      "@type": "sc:Sequence",
+      "label": "Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44250472",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9844,
+          "height": 23226,
+          "images": [
+            {
+              "@id": "FL44250472",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44250472",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44250472/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44250472",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23226,
+                "width": 9844
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44250471",
+      "@type": "sc:Range",
+      "label": "REP44250471",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44250472",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367744",
+  "viewingHint": "paged"
+}

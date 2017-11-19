@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367837/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Maps; Herzeliyya (Israel) -- Maps",
+  "label": "הרצליה והסביבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצליה והסביבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Maps; Herzeliyya (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367837"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367837"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367837/sequence/IE27928651",
+      "@type": "sc:Sequence",
+      "label": "הרצליה והסביבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27928660",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 19698,
+          "height": 26757,
+          "images": [
+            {
+              "@id": "FL27928660",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27928660",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27928660/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27928660",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 26757,
+                "width": 19698
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27928689",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 3780,
+          "height": 10984,
+          "images": [
+            {
+              "@id": "FL27928689",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27928689",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27928689/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27928689",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10984,
+                "width": 3780
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27928659",
+      "@type": "sc:Range",
+      "label": "REP27928659",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27928660",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27928689",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367837",
+  "viewingHint": "paged"
+}

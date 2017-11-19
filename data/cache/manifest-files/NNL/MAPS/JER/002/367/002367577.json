@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367577/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Geology -- Eretz Israel -- Maps",
+  "label": "Geological map of Palestine;&nbsp;Stratigraphy by G.S. Blake.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Geological map of Palestine;&nbsp;Stratigraphy by G.S. Blake."
+    },
+    {
+      "label": "Contributor",
+      "value": "G. S Blake (George Stanfield), 1876-1940"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jaffa :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Geology -- Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367577"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367577"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367577/sequence/IE35058381",
+      "@type": "sc:Sequence",
+      "label": "Geological map of Palestine",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058391",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14670,
+          "height": 21755,
+          "images": [
+            {
+              "@id": "FL35058391",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35058391",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35058391/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35058391",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 21755,
+                "width": 14670
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35058390",
+      "@type": "sc:Range",
+      "label": "REP35058390",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058391",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367577",
+  "viewingHint": "paged"
+}

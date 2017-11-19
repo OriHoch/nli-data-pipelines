@@ -1,0 +1,184 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367681/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Maps",
+  "label": "Israel",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Israel"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Tel Aviv] :Survey of Israel"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ha-Merkaz le-mippui Yisrael"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367681"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1951"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367681"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367681/sequence/IE44248438",
+      "@type": "sc:Sequence",
+      "label": "Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248461",
+          "@type": "sc:Canvas",
+          "label": "01 Sheet 1",
+          "width": 17306,
+          "height": 16579,
+          "images": [
+            {
+              "@id": "FL44248461",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44248461",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44248461/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Sheet 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44248461",
+                  "label": "01 Sheet 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16579,
+                "width": 17306
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248474",
+          "@type": "sc:Canvas",
+          "label": "02 Sheet 2",
+          "width": 17326,
+          "height": 16352,
+          "images": [
+            {
+              "@id": "FL44248474",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44248474",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44248474/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Sheet 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44248474",
+                  "label": "02 Sheet 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16352,
+                "width": 17326
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248480",
+          "@type": "sc:Canvas",
+          "label": "03 Sheet 3",
+          "width": 17447,
+          "height": 16565,
+          "images": [
+            {
+              "@id": "FL44248480",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44248480",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44248480/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "03 Sheet 3",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44248480",
+                  "label": "03 Sheet 3",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16565,
+                "width": 17447
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44248460",
+      "@type": "sc:Range",
+      "label": "REP44248460",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248461",
+          "@type": "sc:Canvas",
+          "label": "01 Sheet 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248474",
+          "@type": "sc:Canvas",
+          "label": "02 Sheet 2"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44248480",
+          "@type": "sc:Canvas",
+          "label": "03 Sheet 3"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367681",
+  "viewingHint": "paged"
+}

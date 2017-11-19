@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368077/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Temple of Jerusalem (Jerusalem, Israel) -- Maps; Jerusalem (Israel) -- Maps",
+  "label": "Templi Hierosolymitani delineatio;&nbsp;secvndum C. G. Hofmann. Richter Cond. del. M. Bernigerothi filius sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Templi Hierosolymitani delineatio;&nbsp;secvndum C. G. Hofmann. Richter Cond. del. M. Bernigerothi filius sc."
+    },
+    {
+      "label": "Contributor",
+      "value": "Hans-J Richter; Johann-Martin Beringerothi (Bernigroth)"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leipzig],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Temple of Jerusalem (Jerusalem, Israel) -- Maps; Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Hoffmann Christian Gottfried, 1692-1735"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368077"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1737?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "200x262 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368077"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368077/sequence/IE6880290",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071850",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3100,
+          "height": 2008,
+          "images": [
+            {
+              "@id": "FL7071850",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071850",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071850/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071850",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2008,
+                "width": 3100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071849",
+      "@type": "sc:Range",
+      "label": "REP7071849",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071850",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368077",
+  "viewingHint": "paged"
+}

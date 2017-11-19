@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367981/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps; Tower of David (Jerusalem, Israel)",
+  "label": "Plan of the town and environs of Jerusalem;&nbsp;From the original drawing of the survey made in the month of March 1841 /;&nbsp;By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan of the town and environs of Jerusalem;&nbsp;From the original drawing of the survey made in the month of March 1841 /;&nbsp;By Lieutts. Aldrich and Symonds... The writings added by the Revd. G. Williams... and the Revd. Robert Willis. Engraved by J.W. Lowry."
+    },
+    {
+      "label": "Contributor",
+      "value": "John Frederick Anthony Symonds fl. approximately 1840; G Williams; James Wyld 1812-1887; Joseph Wilson Lowry"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :James Wyld"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps; Tower of David (Jerusalem, Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Aldrich Edward"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367981"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1846"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "632x740 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367981"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367981/sequence/IE6881067",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072597",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2600,
+          "height": 2291,
+          "images": [
+            {
+              "@id": "FL7072597",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072597",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072597/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072597",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2291,
+                "width": 2600
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072596",
+      "@type": "sc:Range",
+      "label": "REP7072596",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072597",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367981",
+  "viewingHint": "paged"
+}

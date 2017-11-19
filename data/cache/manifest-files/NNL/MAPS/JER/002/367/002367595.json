@@ -1,0 +1,127 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367595/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps; Sinai (Egypt) -- Maps",
+  "label": "El Mayein",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "El Mayein"
+    },
+    {
+      "label": "Publisher",
+      "value": "Southampton :Ordnance Survey Office : War office"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps; Sinai (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Great Britain. Ordnance Survey"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367595"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1915"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 66 x 60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Sinai peninsula [cartographic material]",
+        "Africa. 1:125,000, sheet North H-36 ; K-IV"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002367595"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367595/sequence/IE33121419",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;El&gt;&gt; Mayein",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33121428",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15035,
+          "height": 16400,
+          "images": [
+            {
+              "@id": "FL33121428",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33121428",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33121428/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33121428",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16400,
+                "width": 15035
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33121427",
+      "@type": "sc:Range",
+      "label": "REP33121427",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33121428",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367595",
+  "viewingHint": "paged"
+}

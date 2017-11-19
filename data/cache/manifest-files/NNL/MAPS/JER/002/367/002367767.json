@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367767/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rain and rainfall -- Eretz Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Palestine - mean annual rainfall",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine - mean annual rainfall"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Jerusalem] :Anglo-American Committee of Inquiry : Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rain and rainfall -- Eretz Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Palestine. Meteorological Service. Department of Civil Aviation"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367767"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367767"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367767/sequence/IE35058414",
+      "@type": "sc:Sequence",
+      "label": "Palestine - mean annual rainfall",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058418",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11667,
+          "height": 21642,
+          "images": [
+            {
+              "@id": "FL35058418",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35058418",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35058418/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35058418",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 21642,
+                "width": 11667
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35058417",
+      "@type": "sc:Range",
+      "label": "REP35058417",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058418",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367767",
+  "viewingHint": "paged"
+}

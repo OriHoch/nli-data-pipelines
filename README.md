@@ -2,6 +2,8 @@
 
 Data Pipelines for NLI Data
 
+Data is available under [/data](/data)
+
 ## Usage
 
 Using Docker is the easiest way to run the pipelines
@@ -10,15 +12,7 @@ Just install Docker and Docker Compose and you're good to go
 
 If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 
-Once Docker is installed, you can start the pipelines server:
-
-```
-docker-compose up -d pipelines
-```
-
-You can see pipelines status at http://localhost:5000/
-
-You can also run the pipelines manually, see the list of available pipelines:
+See the list of available pipelines:
 
 ```
 docker-compose run pipelines

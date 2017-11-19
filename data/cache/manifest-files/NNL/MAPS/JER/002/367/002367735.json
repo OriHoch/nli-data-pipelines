@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367735/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Population -- Maps; Israel -- Maps",
+  "label": "ישובי ישראל;&nbsp;עובד ושורטט ע\"י מחלקת המדידות 1963, הודפס 1963.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישובי ישראל;&nbsp;עובד ושורטט ע\"י מחלקת המדידות 1963, הודפס 1963."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Population -- Maps; Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367735"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תשכ\"ד 1963"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367735"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367735/sequence/IE37251835",
+      "@type": "sc:Sequence",
+      "label": "ישובי ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37251840",
+          "@type": "sc:Canvas",
+          "label": "01 North",
+          "width": 16306,
+          "height": 22204,
+          "images": [
+            {
+              "@id": "FL37251840",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37251840",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37251840/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 North",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37251840",
+                  "label": "01 North",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 22204,
+                "width": 16306
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37251841",
+          "@type": "sc:Canvas",
+          "label": "02 South",
+          "width": 16312,
+          "height": 22179,
+          "images": [
+            {
+              "@id": "FL37251841",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37251841",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37251841/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 South",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37251841",
+                  "label": "02 South",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 22179,
+                "width": 16312
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37251839",
+      "@type": "sc:Range",
+      "label": "REP37251839",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37251840",
+          "@type": "sc:Canvas",
+          "label": "01 North"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37251841",
+          "@type": "sc:Canvas",
+          "label": "02 South"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367735",
+  "viewingHint": "paged"
+}

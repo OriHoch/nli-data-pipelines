@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367964/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "EÝgentlicher Situs undt Grundt Rissz der hochberiihmden Statt Jerusalem...;&nbsp;A. Böckler del.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "EÝgentlicher Situs undt Grundt Rissz der hochberiihmden Statt Jerusalem...;&nbsp;A. Böckler del."
+    },
+    {
+      "label": "Contributor",
+      "value": "Juan Bautista Villalpando"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Wittenberg] :B.C. Wust"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Böckler Georg Andreas"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367964"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1670"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "260 x 391 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367964"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367964/sequence/IE6879262",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071217",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3050,
+          "height": 1995,
+          "images": [
+            {
+              "@id": "FL7071217",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071217",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071217/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071217",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1995,
+                "width": 3050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071216",
+      "@type": "sc:Range",
+      "label": "REP7071216",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071217",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367964",
+  "viewingHint": "paged"
+}

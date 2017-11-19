@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368097/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps; Ramla (Israel) -- Maps; Nazareth (Israel) -- Maps",
+  "label": "Iherusalem Turcis Cusembareich. Nazareth. Ramma",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Iherusalem Turcis Cusembareich. Nazareth. Ramma"
+    },
+    {
+      "label": "Contributor",
+      "value": "Erhard Reuwich active 1483-1486; Bernhard von Breydenbach -1497"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps; Ramla (Israel) -- Maps; Nazareth (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jansson Jan, 1588-1664"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368097"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1657"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "355x477 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368097"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368097/sequence/IE37627715",
+      "@type": "sc:Sequence",
+      "label": "Iherusalem Turcis Cusembareich. Nazareth. Ramma",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37627736",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14248,
+          "height": 11854,
+          "images": [
+            {
+              "@id": "FL37627736",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37627736",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37627736/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37627736",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11854,
+                "width": 14248
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37627733",
+      "@type": "sc:Range",
+      "label": "REP37627733",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37627736",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368097",
+  "viewingHint": "paged"
+}

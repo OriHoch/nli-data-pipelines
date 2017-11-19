@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368115/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "The city of Jerusalem according to Dr. Lightfoot;&nbsp;By I.W. [i.e. John William] printed for Ric.Chiswell",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The city of Jerusalem according to Dr. Lightfoot;&nbsp;By I.W. [i.e. John William] printed for Ric.Chiswell"
+    },
+    {
+      "label": "Contributor",
+      "value": "John Williams; Richard Chiswell"
+    },
+    {
+      "label": "Publisher",
+      "value": "London,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lightfoot John, 1602-1675"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368115"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1684"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "360x515 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368115"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368115/sequence/IE6882178",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073489",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2560,
+          "height": 2436,
+          "images": [
+            {
+              "@id": "FL7073489",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073489",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073489/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073489",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2436,
+                "width": 2560
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073488",
+      "@type": "sc:Range",
+      "label": "REP7073488",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073489",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368115",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367686/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Syria -- Maps",
+  "label": "Map of the Holy Land;&nbsp;To accompany Murray's handbook. /;&nbsp;Engraved by Edwd Weller.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the Holy Land;&nbsp;To accompany Murray's handbook. /;&nbsp;Engraved by Edwd Weller."
+    },
+    {
+      "label": "Contributor",
+      "value": "Edward Weller -1884; John Murray 1808-1892"
+    },
+    {
+      "label": "Publisher",
+      "value": "London,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Syria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367686"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1892"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367686"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367686/sequence/IE6880500",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072112",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 1900,
+          "height": 3233,
+          "images": [
+            {
+              "@id": "FL7072112",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072112",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072112/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072112",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3233,
+                "width": 1900
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072111",
+      "@type": "sc:Range",
+      "label": "REP7072111",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072112",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367686",
+  "viewingHint": "paged"
+}
