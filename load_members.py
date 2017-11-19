@@ -3,8 +3,8 @@ from dotenv import load_dotenv, find_dotenv
 import requests, json, logging, os, re
 load_dotenv(find_dotenv())
 
-
-MANIFEST_URL_REGEX = re.compile('^http://iiif.nli.org.il/IIIFv21/DOCID/([A-Za-z_]+)([0-9]+)/manifest$')
+#                                 http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700134313/manifest
+MANIFEST_URL_REGEX = re.compile('^http://iiif.nli.org.il/IIIFv21/DOCID/([A-Za-z0-9_]+[A-Za-z]([0-9]+))/manifest$')
 
 
 def parse_row(row):
