@@ -2,6 +2,8 @@
 
 Data Pipelines for NLI Data
 
+**Work In Progress, not all data is ready yet / available in the repo**
+
 There are 2 ways to use this repo:
 
 1. Download and use the data directory, most of the data is available under [/data](/data)
