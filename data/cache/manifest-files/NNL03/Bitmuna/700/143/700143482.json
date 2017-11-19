@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143482/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "אלון, יגאל, 1918-1980; יהודה, בר; الون، يغئال، 1918-1980; Алон, Игаль, 1918-1980; Allon, Yigal, 1918-1980; אלון, יגאל בן ראובן; آلون، يغال، 1918-1980; Alon, Yigal, 1918-1980; Alon, I., 1918-1980",
+  "label": "יגאל אלון; בר יהודה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יגאל אלון; בר יהודה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "אלון, יגאל, 1918-1980; יהודה, בר; الون، يغئال، 1918-1980; Алон, Игаль, 1918-1980; Allon, Yigal, 1918-1980; אלון, יגאל בן ראובן; آلون، يغال، 1918-1980; Alon, Yigal, 1918-1980; Alon, I., 1918-1980",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143482"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143482"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143482/sequence/IE6383121",
+      "@type": "sc:Sequence",
+      "label": "יגאל אלון; בר יהודה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380045",
+          "@type": "sc:Canvas",
+          "label": "יגאל אלון; בר יהודה",
+          "width": 789,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10380045",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10380045",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10380045/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יגאל אלון; בר יהודה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10380045",
+                  "label": "יגאל אלון; בר יהודה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 789
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10380044",
+      "@type": "sc:Range",
+      "label": "REP10380044",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380045",
+          "@type": "sc:Canvas",
+          "label": "יגאל אלון; בר יהודה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143482",
+  "viewingHint": "paged"
+}

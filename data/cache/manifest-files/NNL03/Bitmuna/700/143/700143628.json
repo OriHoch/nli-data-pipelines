@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143628/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שיירה להר הצופים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיירה להר הצופים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143628"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143628"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143628/sequence/IE6383673",
+      "@type": "sc:Sequence",
+      "label": "שיירה להר הצופים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382278",
+          "@type": "sc:Canvas",
+          "label": "שיירה להר הצופים",
+          "width": 791,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10382278",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10382278",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10382278/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיירה להר הצופים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10382278",
+                  "label": "שיירה להר הצופים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 791
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10382277",
+      "@type": "sc:Range",
+      "label": "REP10382277",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382278",
+          "@type": "sc:Canvas",
+          "label": "שיירה להר הצופים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143628",
+  "viewingHint": "paged"
+}

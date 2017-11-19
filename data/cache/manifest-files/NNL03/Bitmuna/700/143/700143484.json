@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143484/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "בנטוב, מרדכי, 1900-1985; אלון, יגאל, 1918-1980; Bentov, Mordechai; بنطوف، مردخاى; الون، يغئال، 1918-1980; Алон, Игаль, 1918-1980; Allon, Yigal, 1918-1980; בנטוב, מרדכי בן יוסף; אלון, יגאל בן ראובן; آلون، يغال، 1918-1980; Alon, Yigal, 1918-1980; Alon, I., 1918-1980",
+  "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרדכי בנטוב; רוזנבלט; יגאל אלון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "בנטוב, מרדכי, 1900-1985; אלון, יגאל, 1918-1980; Bentov, Mordechai; بنطوف، مردخاى; الون، يغئال، 1918-1980; Алон, Игаль, 1918-1980; Allon, Yigal, 1918-1980; בנטוב, מרדכי בן יוסף; אלון, יגאל בן ראובן; آلون، يغال، 1918-1980; Alon, Yigal, 1918-1980; Alon, I., 1918-1980",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143484"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143484"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143484/sequence/IE6383265",
+      "@type": "sc:Sequence",
+      "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10381284",
+          "@type": "sc:Canvas",
+          "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון",
+          "width": 791,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10381284",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10381284",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10381284/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10381284",
+                  "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 791
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10381282",
+      "@type": "sc:Range",
+      "label": "REP10381282",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10381284",
+          "@type": "sc:Canvas",
+          "label": "מרדכי בנטוב; רוזנבלט; יגאל אלון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143484",
+  "viewingHint": "paged"
+}

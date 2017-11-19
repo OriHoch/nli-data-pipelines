@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143607/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "המרשלד, דאג; همرشولد، داغ; Hammarskjöld, Dag, 1905-1961; האמרשלד, דאג; Khammarshelʹd, Dag, 1905-1961; Hamarshūld, 1905-1961",
+  "label": "מזכ\"ל האו\"ם מגיע לישראל דרך מעבר מנדלבאום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מזכ\"ל האו\"ם מגיע לישראל דרך מעבר מנדלבאום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "המרשלד, דאג; همرشولد، داغ; Hammarskjöld, Dag, 1905-1961; האמרשלד, דאג; Khammarshelʹd, Dag, 1905-1961; Hamarshūld, 1905-1961",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143607"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143607"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143607/sequence/IE6383340",
+      "@type": "sc:Sequence",
+      "label": "מזכ\"ל האו\"ם מגיע לישראל דרך מעבר מנדלבאום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382008",
+          "@type": "sc:Canvas",
+          "label": "מזכל האום מגיע לישראל דרך מעבר מנדלבאום",
+          "width": 794,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10382008",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10382008",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10382008/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מזכל האום מגיע לישראל דרך מעבר מנדלבאום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10382008",
+                  "label": "מזכל האום מגיע לישראל דרך מעבר מנדלבאום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 794
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10382007",
+      "@type": "sc:Range",
+      "label": "REP10382007",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382008",
+          "@type": "sc:Canvas",
+          "label": "מזכל האום מגיע לישראל דרך מעבר מנדלבאום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143607",
+  "viewingHint": "paged"
+}

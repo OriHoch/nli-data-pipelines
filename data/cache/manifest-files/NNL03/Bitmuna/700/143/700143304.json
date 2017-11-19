@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143304/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חיפוש אחר ילד שאבד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חיפוש אחר ילד שאבד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143304"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143304"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143304/sequence/IE6385774",
+      "@type": "sc:Sequence",
+      "label": "חיפוש אחר ילד שאבד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382633",
+          "@type": "sc:Canvas",
+          "label": "חיפוש אחר ילד שאבד",
+          "width": 790,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10382633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10382633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10382633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חיפוש אחר ילד שאבד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10382633",
+                  "label": "חיפוש אחר ילד שאבד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 790
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10382632",
+      "@type": "sc:Range",
+      "label": "REP10382632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382633",
+          "@type": "sc:Canvas",
+          "label": "חיפוש אחר ילד שאבד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143304",
+  "viewingHint": "paged"
+}

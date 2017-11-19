@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143480/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "בנטוב, מרדכי, 1900-1985; Bentov, Mordechai; بنطوف، مردخاى; בנטוב, מרדכי בן יוסף",
+  "label": "מרדכי בנטוב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרדכי בנטוב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "בנטוב, מרדכי, 1900-1985; Bentov, Mordechai; بنطوف، مردخاى; בנטוב, מרדכי בן יוסף",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143480"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143480"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143480/sequence/IE6382998",
+      "@type": "sc:Sequence",
+      "label": "מרדכי בנטוב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10378844",
+          "@type": "sc:Canvas",
+          "label": "מרדכי בנטוב",
+          "width": 791,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10378844",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10378844",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10378844/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרדכי בנטוב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10378844",
+                  "label": "מרדכי בנטוב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 791
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10378843",
+      "@type": "sc:Range",
+      "label": "REP10378843",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10378844",
+          "@type": "sc:Canvas",
+          "label": "מרדכי בנטוב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143480",
+  "viewingHint": "paged"
+}
