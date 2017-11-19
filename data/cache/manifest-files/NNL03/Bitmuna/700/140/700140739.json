@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140739/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שתי מוזיקאיות משוויץ בטיול לאילת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שתי מוזיקאיות משוויץ בטיול לאילת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "אילת"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140739"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140739"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140739/sequence/IE6376248",
+      "@type": "sc:Sequence",
+      "label": "שתי מוזיקאיות משוויץ בטיול לאילת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374287",
+          "@type": "sc:Canvas",
+          "label": "שתי מוזיקאיות משוויץ בטיול לאילת",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10374287",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10374287",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10374287/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שתי מוזיקאיות משוויץ בטיול לאילת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10374287",
+                  "label": "שתי מוזיקאיות משוויץ בטיול לאילת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10374285",
+      "@type": "sc:Range",
+      "label": "REP10374285",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374287",
+          "@type": "sc:Canvas",
+          "label": "שתי מוזיקאיות משוויץ בטיול לאילת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140739",
+  "viewingHint": "paged"
+}

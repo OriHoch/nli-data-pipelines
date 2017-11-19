@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140236/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "דיין, משה, 1915-1981; ديان، موشه; Dayan, Moshe, 1915-1981; דין, משה, 1915-1981; دايان، موشيه; دايان، موشي; دايان، موشه; ديان، موشى; ديان، موشيه",
+  "label": "משה דיין נפגש עם גנרל ברנס באל-עריש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משה דיין נפגש עם גנרל ברנס באל-עריש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "דיין, משה, 1915-1981; ديان، موشه; Dayan, Moshe, 1915-1981; דין, משה, 1915-1981; دايان، موشيه; دايان، موشي; دايان، موشه; ديان، موشى; ديان، موشيه",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140236"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140236"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140236/sequence/IE6434598",
+      "@type": "sc:Sequence",
+      "label": "משה דיין נפגש עם גנרל ברנס באל-עריש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10418826",
+          "@type": "sc:Canvas",
+          "label": "משה דיין נפגש עם גנרל ברנס באל-עריש",
+          "width": 793,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10418826",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10418826",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10418826/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משה דיין נפגש עם גנרל ברנס באל-עריש",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10418826",
+                  "label": "משה דיין נפגש עם גנרל ברנס באל-עריש",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 793
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10418824",
+      "@type": "sc:Range",
+      "label": "REP10418824",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10418826",
+          "@type": "sc:Canvas",
+          "label": "משה דיין נפגש עם גנרל ברנס באל-עריש"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140236",
+  "viewingHint": "paged"
+}

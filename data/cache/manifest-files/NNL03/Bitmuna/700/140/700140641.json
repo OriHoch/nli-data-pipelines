@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140641/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מדבר סיני",
+  "label": "בדרך האויר להר סיני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בדרך האויר להר סיני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "מדבר סיני",
+        "מצרים",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140641"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140641"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140641/sequence/IE6377508",
+      "@type": "sc:Sequence",
+      "label": "בדרך האויר להר סיני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374923",
+          "@type": "sc:Canvas",
+          "label": "בדרך האויר להר סיני ",
+          "width": 794,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10374923",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10374923",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10374923/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בדרך האויר להר סיני ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10374923",
+                  "label": "בדרך האויר להר סיני ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 794
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10374922",
+      "@type": "sc:Range",
+      "label": "REP10374922",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374923",
+          "@type": "sc:Canvas",
+          "label": "בדרך האויר להר סיני "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140641",
+  "viewingHint": "paged"
+}

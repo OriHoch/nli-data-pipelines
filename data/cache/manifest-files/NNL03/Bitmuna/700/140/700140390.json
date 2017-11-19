@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140390/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "תמי בשעור בלט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תמי בשעור בלט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140390"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140390"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140390/sequence/IE6375860",
+      "@type": "sc:Sequence",
+      "label": "תמי בשעור בלט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10376465",
+          "@type": "sc:Canvas",
+          "label": "תמי בשעור בלט",
+          "width": 794,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10376465",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10376465",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10376465/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תמי בשעור בלט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10376465",
+                  "label": "תמי בשעור בלט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 794
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10376464",
+      "@type": "sc:Range",
+      "label": "REP10376464",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10376465",
+          "@type": "sc:Canvas",
+          "label": "תמי בשעור בלט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140390",
+  "viewingHint": "paged"
+}

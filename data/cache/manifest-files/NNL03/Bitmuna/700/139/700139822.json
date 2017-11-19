@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700139822/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "טבחה",
+  "label": "קאובוי בטבחה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קאובוי בטבחה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "טבחה",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700139822"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700139822"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700139822/sequence/IE6434807",
+      "@type": "sc:Sequence",
+      "label": "קאובוי בטבחה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10417236",
+          "@type": "sc:Canvas",
+          "label": "קאובוי בטבחה",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10417236",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10417236",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10417236/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קאובוי בטבחה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10417236",
+                  "label": "קאובוי בטבחה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10417235",
+      "@type": "sc:Range",
+      "label": "REP10417235",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10417236",
+          "@type": "sc:Canvas",
+          "label": "קאובוי בטבחה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700139822",
+  "viewingHint": "paged"
+}

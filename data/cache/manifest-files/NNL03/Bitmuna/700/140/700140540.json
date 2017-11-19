@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140540/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "יופה, אברהם; דיין, משה, 1915-1981; ديان، موشه; Dayan, Moshe, 1915-1981; דין, משה, 1915-1981; دايان، موشيه; دايان، موشي; دايان، موشه; ديان، موشى; ديان، موشيه; שארם אל שייח",
+  "label": "אברהם יופה מח\"ט 9 עם משה דיין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אברהם יופה מח\"ט 9 עם משה דיין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "יופה, אברהם; דיין, משה, 1915-1981; ديان، موشه; Dayan, Moshe, 1915-1981; דין, משה, 1915-1981; دايان، موشيه; دايان، موشي; دايان، موشه; ديان، موشى; ديان، موشيه; שארם אל שייח",
+        "מצרים",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140540"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140540"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140540/sequence/IE6377496",
+      "@type": "sc:Sequence",
+      "label": "אברהם יופה מח\"ט 9 עם משה דיין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374819",
+          "@type": "sc:Canvas",
+          "label": "אברהם יופה מחט 9 עם משה דיין ",
+          "width": 800,
+          "height": 537,
+          "images": [
+            {
+              "@id": "FL10374819",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10374819",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10374819/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אברהם יופה מחט 9 עם משה דיין ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10374819",
+                  "label": "אברהם יופה מחט 9 עם משה דיין ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 537,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10374818",
+      "@type": "sc:Range",
+      "label": "REP10374818",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374819",
+          "@type": "sc:Canvas",
+          "label": "אברהם יופה מחט 9 עם משה דיין "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140540",
+  "viewingHint": "paged"
+}

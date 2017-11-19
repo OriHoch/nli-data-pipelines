@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700140318/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "אילת, אליהו, 1903-1990; ايلات، الياهو; Elath, Eliahu, 1903-1990; אפשטין, אליהו; אילת, אליהו בן מנחם; Aylat, Ilyahu, 1903-; Ifinshtayn, Ilyahu, 1903-; Eilath, Eliyahu, 1903-; Epstein, Eliahu, 1903-",
+  "label": "בישיבת שגרירי ישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בישיבת שגרירי ישראל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "אילת, אליהו, 1903-1990; ايلات، الياهو; Elath, Eliahu, 1903-1990; אפשטין, אליהו; אילת, אליהו בן מנחם; Aylat, Ilyahu, 1903-; Ifinshtayn, Ilyahu, 1903-; Eilath, Eliyahu, 1903-; Epstein, Eliahu, 1903-",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700140318"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700140318"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700140318/sequence/IE6376887",
+      "@type": "sc:Sequence",
+      "label": "בישיבת שגרירי ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374714",
+          "@type": "sc:Canvas",
+          "label": "בישיבת שגרירי ישראל",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10374714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10374714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10374714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בישיבת שגרירי ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10374714",
+                  "label": "בישיבת שגרירי ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10374713",
+      "@type": "sc:Range",
+      "label": "REP10374713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10374714",
+          "@type": "sc:Canvas",
+          "label": "בישיבת שגרירי ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700140318",
+  "viewingHint": "paged"
+}
