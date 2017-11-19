@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700587694/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "ביקור בבית שטורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור בבית שטורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700587694"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700587694"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700587694/sequence/IE46292167",
+      "@type": "sc:Sequence",
+      "label": "ביקור בבית שטורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292186",
+          "@type": "sc:Canvas",
+          "label": "ביקור בבית שטורמן",
+          "width": 3427,
+          "height": 2187,
+          "images": [
+            {
+              "@id": "FL46292186",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46292186",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46292186/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור בבית שטורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46292186",
+                  "label": "ביקור בבית שטורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2187,
+                "width": 3427
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46292185",
+      "@type": "sc:Range",
+      "label": "REP46292185",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292186",
+          "@type": "sc:Canvas",
+          "label": "ביקור בבית שטורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700587694",
+  "viewingHint": "paged"
+}

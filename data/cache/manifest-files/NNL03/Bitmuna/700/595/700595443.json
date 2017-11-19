@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595443/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל שאטה",
+  "label": "כלא שאטה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כלא שאטה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל שאטה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595443"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595443"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595443/sequence/IE46233661",
+      "@type": "sc:Sequence",
+      "label": "כלא שאטה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46233683",
+          "@type": "sc:Canvas",
+          "label": "כלא שאטה",
+          "width": 4826,
+          "height": 3202,
+          "images": [
+            {
+              "@id": "FL46233683",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46233683",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46233683/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כלא שאטה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46233683",
+                  "label": "כלא שאטה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3202,
+                "width": 4826
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46233682",
+      "@type": "sc:Range",
+      "label": "REP46233682",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46233683",
+          "@type": "sc:Canvas",
+          "label": "כלא שאטה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595443",
+  "viewingHint": "paged"
+}

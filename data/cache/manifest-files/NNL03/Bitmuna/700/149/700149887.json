@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149887/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לא ידוע",
+  "label": "הפיכת סדום ועמורה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הפיכת סדום ועמורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לא ידוע"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149887"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149887"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149887/sequence/IE6404211",
+      "@type": "sc:Sequence",
+      "label": "הפיכת סדום ועמורה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395245",
+          "@type": "sc:Canvas",
+          "label": " הפיכת סדום ועמורה",
+          "width": 497,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10395245",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10395245",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10395245/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " הפיכת סדום ועמורה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10395245",
+                  "label": " הפיכת סדום ועמורה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 497
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10395244",
+      "@type": "sc:Range",
+      "label": "REP10395244",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395245",
+          "@type": "sc:Canvas",
+          "label": " הפיכת סדום ועמורה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149887",
+  "viewingHint": "paged"
+}

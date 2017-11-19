@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700588440/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מעין חרוד",
+  "label": "אנדרטה חללי מלחמת העצמאות, הסרת הלוט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אנדרטה חללי מלחמת העצמאות, הסרת הלוט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מעין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700588440"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700588440"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700588440/sequence/IE46272594",
+      "@type": "sc:Sequence",
+      "label": "אנדרטה חללי מלחמת העצמאות  הסרת הלוט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272621",
+          "@type": "sc:Canvas",
+          "label": "אנדרטה חללי מלחמת העצמאות  הסרת הלוט",
+          "width": 3391,
+          "height": 2280,
+          "images": [
+            {
+              "@id": "FL46272621",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46272621",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46272621/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אנדרטה חללי מלחמת העצמאות  הסרת הלוט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46272621",
+                  "label": "אנדרטה חללי מלחמת העצמאות  הסרת הלוט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2280,
+                "width": 3391
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46272619",
+      "@type": "sc:Range",
+      "label": "REP46272619",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272621",
+          "@type": "sc:Canvas",
+          "label": "אנדרטה חללי מלחמת העצמאות  הסרת הלוט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700588440",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597983/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597983"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597983"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597983/sequence/IE46309826",
+      "@type": "sc:Sequence",
+      "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309864",
+          "@type": "sc:Canvas",
+          "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני",
+          "width": 1109,
+          "height": 667,
+          "images": [
+            {
+              "@id": "FL46309864",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309864",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309864/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309864",
+                  "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 667,
+                "width": 1109
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309862",
+      "@type": "sc:Range",
+      "label": "REP46309862",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309864",
+          "@type": "sc:Canvas",
+          "label": "מצפה מעל נחל הבשור ליד קיבוץ צאלים תכנון יפתח אלוני"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597983",
+  "viewingHint": "paged"
+}

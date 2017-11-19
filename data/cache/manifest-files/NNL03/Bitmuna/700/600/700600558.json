@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600558/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל גליל מערבי",
+  "label": "קציר תבואה עם שני קומביינים נגררים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קציר תבואה עם שני קומביינים נגררים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600558"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600558"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600558/sequence/IE46298543",
+      "@type": "sc:Sequence",
+      "label": "קציר תבואה עם שני קומביינים נגררים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46298569",
+          "@type": "sc:Canvas",
+          "label": "קציר תבואה עם שני קומביינים נגררים",
+          "width": 4129,
+          "height": 4148,
+          "images": [
+            {
+              "@id": "FL46298569",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46298569",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46298569/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קציר תבואה עם שני קומביינים נגררים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46298569",
+                  "label": "קציר תבואה עם שני קומביינים נגררים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4148,
+                "width": 4129
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46298567",
+      "@type": "sc:Range",
+      "label": "REP46298567",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46298569",
+          "@type": "sc:Canvas",
+          "label": "קציר תבואה עם שני קומביינים נגררים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600558",
+  "viewingHint": "paged"
+}

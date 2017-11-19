@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600260/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל צפת",
+  "label": "קטה עם הכלב יוקטן, עם השרת הערבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קטה עם הכלב יוקטן, עם השרת הערבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל צפת"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600260"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600260"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600260/sequence/IE46308150",
+      "@type": "sc:Sequence",
+      "label": "קטה עם הכלב יוקטן  עם השרת הערבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308185",
+          "@type": "sc:Canvas",
+          "label": "קטה עם הכלב יוקטן  עם השרת הערבי",
+          "width": 2860,
+          "height": 4482,
+          "images": [
+            {
+              "@id": "FL46308185",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308185",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308185/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קטה עם הכלב יוקטן  עם השרת הערבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308185",
+                  "label": "קטה עם הכלב יוקטן  עם השרת הערבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4482,
+                "width": 2860
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308183",
+      "@type": "sc:Range",
+      "label": "REP46308183",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308185",
+          "@type": "sc:Canvas",
+          "label": "קטה עם הכלב יוקטן  עם השרת הערבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600260",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149829/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לא ידוע",
+  "label": "דעפ. י. טהון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דעפ. י. טהון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לא ידוע"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149829"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149829"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149829/sequence/IE6403866",
+      "@type": "sc:Sequence",
+      "label": "דעפ. י. טהון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392933",
+          "@type": "sc:Canvas",
+          "label": " דעפ. י. טהון",
+          "width": 541,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10392933",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10392933",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10392933/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " דעפ. י. טהון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10392933",
+                  "label": " דעפ. י. טהון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 541
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10392932",
+      "@type": "sc:Range",
+      "label": "REP10392932",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392933",
+          "@type": "sc:Canvas",
+          "label": " דעפ. י. טהון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149829",
+  "viewingHint": "paged"
+}

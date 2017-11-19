@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596593/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כפר החורש (הקבוצה הראשונה) 22-03-1937"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596593"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596593"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596593/sequence/IE46317059",
+      "@type": "sc:Sequence",
+      "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46317081",
+          "@type": "sc:Canvas",
+          "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937",
+          "width": 5505,
+          "height": 3450,
+          "images": [
+            {
+              "@id": "FL46317081",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46317081",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46317081/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46317081",
+                  "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3450,
+                "width": 5505
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46317080",
+      "@type": "sc:Range",
+      "label": "REP46317080",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46317081",
+          "@type": "sc:Canvas",
+          "label": "כפר החורש (הקבוצה הראשונה) 22-03-1937"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596593",
+  "viewingHint": "paged"
+}

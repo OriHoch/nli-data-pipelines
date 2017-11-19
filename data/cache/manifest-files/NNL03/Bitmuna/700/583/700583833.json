@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583833/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "עדר הצאן של בית אלפא",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עדר הצאן של בית אלפא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583833"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583833"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583833/sequence/IE46238681",
+      "@type": "sc:Sequence",
+      "label": "עדר הצאן של בית אלפא",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238710",
+          "@type": "sc:Canvas",
+          "label": "עדר הצאן של בית אלפא",
+          "width": 3352,
+          "height": 2211,
+          "images": [
+            {
+              "@id": "FL46238710",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46238710",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46238710/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עדר הצאן של בית אלפא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46238710",
+                  "label": "עדר הצאן של בית אלפא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2211,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46238709",
+      "@type": "sc:Range",
+      "label": "REP46238709",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238710",
+          "@type": "sc:Canvas",
+          "label": "עדר הצאן של בית אלפא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583833",
+  "viewingHint": "paged"
+}

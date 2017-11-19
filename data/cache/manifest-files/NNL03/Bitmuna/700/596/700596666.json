@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596666/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שלג ליד בת ההבראה ארזה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלג ליד בת ההבראה ארזה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596666"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596666"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596666/sequence/IE46319148",
+      "@type": "sc:Sequence",
+      "label": "שלג ליד בת ההבראה ארזה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46319169",
+          "@type": "sc:Canvas",
+          "label": "שלג ליד בת ההבראה ארזה",
+          "width": 4605,
+          "height": 3662,
+          "images": [
+            {
+              "@id": "FL46319169",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46319169",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46319169/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלג ליד בת ההבראה ארזה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46319169",
+                  "label": "שלג ליד בת ההבראה ארזה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3662,
+                "width": 4605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46319168",
+      "@type": "sc:Range",
+      "label": "REP46319168",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46319169",
+          "@type": "sc:Canvas",
+          "label": "שלג ליד בת ההבראה ארזה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596666",
+  "viewingHint": "paged"
+}

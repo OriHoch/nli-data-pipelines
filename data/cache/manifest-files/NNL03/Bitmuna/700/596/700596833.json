@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596833/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "אחות בבית חולים העמק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אחות בבית חולים העמק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596833"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596833"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596833/sequence/IE46314388",
+      "@type": "sc:Sequence",
+      "label": "אחות בבית חולים העמק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314412",
+          "@type": "sc:Canvas",
+          "label": "אחות בבית חולים העמק",
+          "width": 4027,
+          "height": 3978,
+          "images": [
+            {
+              "@id": "FL46314412",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314412",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314412/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אחות בבית חולים העמק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314412",
+                  "label": "אחות בבית חולים העמק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3978,
+                "width": 4027
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314411",
+      "@type": "sc:Range",
+      "label": "REP46314411",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314412",
+          "@type": "sc:Canvas",
+          "label": "אחות בבית חולים העמק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596833",
+  "viewingHint": "paged"
+}

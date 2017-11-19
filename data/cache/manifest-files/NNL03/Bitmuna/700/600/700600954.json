@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600954/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "סמלים שהיו על מדיו של רפי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סמלים שהיו על מדיו של רפי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600954"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600954"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600954/sequence/IE46308254",
+      "@type": "sc:Sequence",
+      "label": "סמלים שהיו על מדיו של רפי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308282",
+          "@type": "sc:Canvas",
+          "label": "סמלים שהיו על מדיו של רפי",
+          "width": 2398,
+          "height": 1039,
+          "images": [
+            {
+              "@id": "FL46308282",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308282",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308282/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סמלים שהיו על מדיו של רפי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308282",
+                  "label": "סמלים שהיו על מדיו של רפי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1039,
+                "width": 2398
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308281",
+      "@type": "sc:Range",
+      "label": "REP46308281",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308282",
+          "@type": "sc:Canvas",
+          "label": "סמלים שהיו על מדיו של רפי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600954",
+  "viewingHint": "paged"
+}

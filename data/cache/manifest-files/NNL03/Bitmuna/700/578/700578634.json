@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578634/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חפירה ארכיאולוגית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חפירה ארכיאולוגית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578634"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578634"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578634/sequence/IE46293762",
+      "@type": "sc:Sequence",
+      "label": "חפירה ארכיאולוגית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46293788",
+          "@type": "sc:Canvas",
+          "label": "חפירה ארכיאולוגית",
+          "width": 2913,
+          "height": 1833,
+          "images": [
+            {
+              "@id": "FL46293788",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46293788",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46293788/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חפירה ארכיאולוגית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46293788",
+                  "label": "חפירה ארכיאולוגית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1833,
+                "width": 2913
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46293786",
+      "@type": "sc:Range",
+      "label": "REP46293786",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46293788",
+          "@type": "sc:Canvas",
+          "label": "חפירה ארכיאולוגית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578634",
+  "viewingHint": "paged"
+}

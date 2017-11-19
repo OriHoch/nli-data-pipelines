@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599264/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "שטחים בשטיפה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שטחים בשטיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599264"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599264"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599264/sequence/IE46304394",
+      "@type": "sc:Sequence",
+      "label": "שטחים בשטיפה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304416",
+          "@type": "sc:Canvas",
+          "label": "שטחים בשטיפה",
+          "width": 4720,
+          "height": 3664,
+          "images": [
+            {
+              "@id": "FL46304416",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46304416",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46304416/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שטחים בשטיפה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46304416",
+                  "label": "שטחים בשטיפה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3664,
+                "width": 4720
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46304415",
+      "@type": "sc:Range",
+      "label": "REP46304415",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304416",
+          "@type": "sc:Canvas",
+          "label": "שטחים בשטיפה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599264",
+  "viewingHint": "paged"
+}

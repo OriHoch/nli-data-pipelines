@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584190/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תל יוסף",
+  "label": "חשמליה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חשמליה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584190"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584190"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584190/sequence/IE46224166",
+      "@type": "sc:Sequence",
+      "label": "חשמליה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224196",
+          "@type": "sc:Canvas",
+          "label": "חשמליה",
+          "width": 3288,
+          "height": 2135,
+          "images": [
+            {
+              "@id": "FL46224196",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46224196",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46224196/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חשמליה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46224196",
+                  "label": "חשמליה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2135,
+                "width": 3288
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46224195",
+      "@type": "sc:Range",
+      "label": "REP46224195",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224196",
+          "@type": "sc:Canvas",
+          "label": "חשמליה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584190",
+  "viewingHint": "paged"
+}

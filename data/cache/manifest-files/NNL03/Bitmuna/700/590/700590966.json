@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590966/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל יריחו",
+  "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל יריחו"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590966"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590966"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590966/sequence/IE46235033",
+      "@type": "sc:Sequence",
+      "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46235078",
+          "@type": "sc:Canvas",
+          "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים",
+          "width": 3255,
+          "height": 2442,
+          "images": [
+            {
+              "@id": "FL46235078",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46235078",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46235078/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46235078",
+                  "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2442,
+                "width": 3255
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46235077",
+      "@type": "sc:Range",
+      "label": "REP46235077",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46235078",
+          "@type": "sc:Canvas",
+          "label": "טיול בגדה המערבית מיד לאחר מלחמת ששת הימים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590966",
+  "viewingHint": "paged"
+}

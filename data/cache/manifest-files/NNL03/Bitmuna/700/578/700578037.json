@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578037/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מסעודה עובדת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסעודה עובדת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578037"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578037"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578037/sequence/IE46328087",
+      "@type": "sc:Sequence",
+      "label": "מסעודה עובדת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46328097",
+          "@type": "sc:Canvas",
+          "label": "מסעודה עובדת",
+          "width": 3072,
+          "height": 1840,
+          "images": [
+            {
+              "@id": "FL46328097",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46328097",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46328097/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסעודה עובדת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46328097",
+                  "label": "מסעודה עובדת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1840,
+                "width": 3072
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46328095",
+      "@type": "sc:Range",
+      "label": "REP46328095",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46328097",
+          "@type": "sc:Canvas",
+          "label": "מסעודה עובדת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578037",
+  "viewingHint": "paged"
+}

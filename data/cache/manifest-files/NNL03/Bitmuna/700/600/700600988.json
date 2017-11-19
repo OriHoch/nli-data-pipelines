@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "ספטמבר 1952, הטקס בקיבוץ מענית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ספטמבר 1952, הטקס בקיבוץ מענית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1952"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600988/sequence/IE46309321",
+      "@type": "sc:Sequence",
+      "label": "ספטמבר 1952  הטקס בקיבוץ מענית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309342",
+          "@type": "sc:Canvas",
+          "label": "ספטמבר 1952  הטקס בקיבוץ מענית",
+          "width": 3884,
+          "height": 3138,
+          "images": [
+            {
+              "@id": "FL46309342",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309342",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309342/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ספטמבר 1952  הטקס בקיבוץ מענית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309342",
+                  "label": "ספטמבר 1952  הטקס בקיבוץ מענית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3138,
+                "width": 3884
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309341",
+      "@type": "sc:Range",
+      "label": "REP46309341",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309342",
+          "@type": "sc:Canvas",
+          "label": "ספטמבר 1952  הטקס בקיבוץ מענית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600988",
+  "viewingHint": "paged"
+}

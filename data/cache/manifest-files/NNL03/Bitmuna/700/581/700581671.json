@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581671/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק חרוד",
+  "label": "המאגר המערבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המאגר המערבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581671"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581671"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581671/sequence/IE46275619",
+      "@type": "sc:Sequence",
+      "label": "המאגר המערבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46275646",
+          "@type": "sc:Canvas",
+          "label": "המאגר המערבי",
+          "width": 2974,
+          "height": 2002,
+          "images": [
+            {
+              "@id": "FL46275646",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46275646",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46275646/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "המאגר המערבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46275646",
+                  "label": "המאגר המערבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2002,
+                "width": 2974
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46275645",
+      "@type": "sc:Range",
+      "label": "REP46275645",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46275646",
+          "@type": "sc:Canvas",
+          "label": "המאגר המערבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581671",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600350/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "משה רוזנבליט האיש של אדל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משה רוזנבליט האיש של אדל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600350"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600350"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600350/sequence/IE46311381",
+      "@type": "sc:Sequence",
+      "label": "משה רוזנבליט האיש של אדל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311407",
+          "@type": "sc:Canvas",
+          "label": "משה רוזנבליט האיש של אדל",
+          "width": 2668,
+          "height": 3819,
+          "images": [
+            {
+              "@id": "FL46311407",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311407",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311407/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משה רוזנבליט האיש של אדל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311407",
+                  "label": "משה רוזנבליט האיש של אדל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3819,
+                "width": 2668
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311404",
+      "@type": "sc:Range",
+      "label": "REP46311404",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311407",
+          "@type": "sc:Canvas",
+          "label": "משה רוזנבליט האיש של אדל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600350",
+  "viewingHint": "paged"
+}

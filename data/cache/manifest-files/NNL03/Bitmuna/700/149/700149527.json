@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149527/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "הירשביין, אדי",
+  "label": "אדי עם מכונת כתיבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אדי עם מכונת כתיבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "הירשביין, אדי",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149527"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149527"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149527/sequence/IE6408069",
+      "@type": "sc:Sequence",
+      "label": "אדי עם מכונת כתיבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10396081",
+          "@type": "sc:Canvas",
+          "label": "אדי עם מכונת כתיבה",
+          "width": 800,
+          "height": 540,
+          "images": [
+            {
+              "@id": "FL10396081",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10396081",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10396081/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אדי עם מכונת כתיבה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10396081",
+                  "label": "אדי עם מכונת כתיבה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 540,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10396080",
+      "@type": "sc:Range",
+      "label": "REP10396080",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10396081",
+          "@type": "sc:Canvas",
+          "label": "אדי עם מכונת כתיבה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149527",
+  "viewingHint": "paged"
+}

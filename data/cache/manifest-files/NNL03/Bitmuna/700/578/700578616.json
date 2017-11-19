@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578616/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב אדירים",
+  "label": "מושב אדירים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מושב אדירים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב אדירים"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578616"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578616"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578616/sequence/IE46293013",
+      "@type": "sc:Sequence",
+      "label": "מושב אדירים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46293043",
+          "@type": "sc:Canvas",
+          "label": "מושב אדירים",
+          "width": 2806,
+          "height": 1793,
+          "images": [
+            {
+              "@id": "FL46293043",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46293043",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46293043/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מושב אדירים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46293043",
+                  "label": "מושב אדירים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1793,
+                "width": 2806
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46293041",
+      "@type": "sc:Range",
+      "label": "REP46293041",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46293043",
+          "@type": "sc:Canvas",
+          "label": "מושב אדירים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578616",
+  "viewingHint": "paged"
+}

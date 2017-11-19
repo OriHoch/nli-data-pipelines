@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598629/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל תבור",
+  "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל תבור"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598629"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598629"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598629/sequence/IE46311340",
+      "@type": "sc:Sequence",
+      "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311372",
+          "@type": "sc:Canvas",
+          "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור",
+          "width": 3269,
+          "height": 2434,
+          "images": [
+            {
+              "@id": "FL46311372",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311372",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311372/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311372",
+                  "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2434,
+                "width": 3269
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311364",
+      "@type": "sc:Range",
+      "label": "REP46311364",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311372",
+          "@type": "sc:Canvas",
+          "label": "טיול מחזור יג' מקוה ישראל 1933 ליד הר תבור"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598629",
+  "viewingHint": "paged"
+}

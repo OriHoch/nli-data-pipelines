@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599423/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "מיכל מימין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מיכל מימין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599423"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599423"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599423/sequence/IE46309350",
+      "@type": "sc:Sequence",
+      "label": "מיכל מימין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309368",
+          "@type": "sc:Canvas",
+          "label": "מיכל מימין",
+          "width": 5185,
+          "height": 4065,
+          "images": [
+            {
+              "@id": "FL46309368",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309368",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309368/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מיכל מימין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309368",
+                  "label": "מיכל מימין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4065,
+                "width": 5185
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309367",
+      "@type": "sc:Range",
+      "label": "REP46309367",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309368",
+          "@type": "sc:Canvas",
+          "label": "מיכל מימין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599423",
+  "viewingHint": "paged"
+}

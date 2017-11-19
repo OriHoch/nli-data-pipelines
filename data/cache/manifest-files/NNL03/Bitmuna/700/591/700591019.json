@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591019/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענך",
+  "label": "בית הכנסת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית הכנסת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591019"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591019"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591019/sequence/IE46238006",
+      "@type": "sc:Sequence",
+      "label": "בית הכנסת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238038",
+          "@type": "sc:Canvas",
+          "label": "בית הכנסת",
+          "width": 2075,
+          "height": 3131,
+          "images": [
+            {
+              "@id": "FL46238038",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46238038",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46238038/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית הכנסת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46238038",
+                  "label": "בית הכנסת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3131,
+                "width": 2075
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46238035",
+      "@type": "sc:Range",
+      "label": "REP46238035",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238038",
+          "@type": "sc:Canvas",
+          "label": "בית הכנסת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591019",
+  "viewingHint": "paged"
+}

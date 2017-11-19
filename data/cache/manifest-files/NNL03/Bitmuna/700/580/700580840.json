@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580840/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "העמסת כדי חלב מדיר עין חרוד א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "העמסת כדי חלב מדיר עין חרוד א."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580840"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580840"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580840/sequence/IE46351098",
+      "@type": "sc:Sequence",
+      "label": "העמסת כדי חלב מדיר עין חרוד א.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46351118",
+          "@type": "sc:Canvas",
+          "label": "העמסת כדי חלב מדיר עין חרוד א.",
+          "width": 2846,
+          "height": 1700,
+          "images": [
+            {
+              "@id": "FL46351118",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46351118",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46351118/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "העמסת כדי חלב מדיר עין חרוד א.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46351118",
+                  "label": "העמסת כדי חלב מדיר עין חרוד א.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1700,
+                "width": 2846
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46351116",
+      "@type": "sc:Range",
+      "label": "REP46351116",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46351118",
+          "@type": "sc:Canvas",
+          "label": "העמסת כדי חלב מדיר עין חרוד א."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580840",
+  "viewingHint": "paged"
+}

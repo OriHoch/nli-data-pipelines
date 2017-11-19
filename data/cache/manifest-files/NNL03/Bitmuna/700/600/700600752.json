@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600752/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לבנון",
+  "label": "החזרת שבויים סורים בקוניטרה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "החזרת שבויים סורים בקוניטרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לבנון"
+    },
+    {
+      "label": "Source",
+      "value": "רמ\"ט פיקוד צפון לאחר של\"ג"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600752"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1983"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600752"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600752/sequence/IE46289343",
+      "@type": "sc:Sequence",
+      "label": "החזרת שבויים סורים בקוניטרה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289369",
+          "@type": "sc:Canvas",
+          "label": "החזרת שבויים סורים בקוניטרה",
+          "width": 4160,
+          "height": 2963,
+          "images": [
+            {
+              "@id": "FL46289369",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46289369",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46289369/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "החזרת שבויים סורים בקוניטרה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46289369",
+                  "label": "החזרת שבויים סורים בקוניטרה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2963,
+                "width": 4160
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46289367",
+      "@type": "sc:Range",
+      "label": "REP46289367",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289369",
+          "@type": "sc:Canvas",
+          "label": "החזרת שבויים סורים בקוניטרה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600752",
+  "viewingHint": "paged"
+}

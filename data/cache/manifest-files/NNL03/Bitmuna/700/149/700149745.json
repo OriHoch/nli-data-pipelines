@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149745/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ארץ ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149745"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149745"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149745/sequence/IE6403767",
+      "@type": "sc:Sequence",
+      "label": "בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395116",
+          "@type": "sc:Canvas",
+          "label": " בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים",
+          "width": 800,
+          "height": 492,
+          "images": [
+            {
+              "@id": "FL10395116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10395116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10395116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10395116",
+                  "label": " בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 492,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10395115",
+      "@type": "sc:Range",
+      "label": "REP10395115",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395116",
+          "@type": "sc:Canvas",
+          "label": " בטקס הנחת אבן הפינה לאוניברסיטה העברית על הר הצופים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149745",
+  "viewingHint": "paged"
+}

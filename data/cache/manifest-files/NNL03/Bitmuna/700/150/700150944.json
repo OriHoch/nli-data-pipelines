@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700150944/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "במחנה מעבר לעולים מהמאגרב בדרום צרפת?",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "במחנה מעבר לעולים מהמאגרב בדרום צרפת?"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף יעני אבידב"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700150944"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700150944"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700150944/sequence/IE6412599",
+      "@type": "sc:Sequence",
+      "label": "במחנה מעבר לעולים מהמאגרב בדרום צרפת?",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10399399",
+          "@type": "sc:Canvas",
+          "label": " במחנה מעבר לעולים מהמאגרב בדרום צרפת?",
+          "width": 800,
+          "height": 571,
+          "images": [
+            {
+              "@id": "FL10399399",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10399399",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10399399/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " במחנה מעבר לעולים מהמאגרב בדרום צרפת?",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10399399",
+                  "label": " במחנה מעבר לעולים מהמאגרב בדרום צרפת?",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 571,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10399398",
+      "@type": "sc:Range",
+      "label": "REP10399398",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10399399",
+          "@type": "sc:Canvas",
+          "label": " במחנה מעבר לעולים מהמאגרב בדרום צרפת?"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700150944",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596566/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "ליד שער יפו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליד שער יפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596566"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596566"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596566/sequence/IE46316274",
+      "@type": "sc:Sequence",
+      "label": "ליד שער יפו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316292",
+          "@type": "sc:Canvas",
+          "label": "ליד שער יפו",
+          "width": 5075,
+          "height": 3586,
+          "images": [
+            {
+              "@id": "FL46316292",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46316292",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46316292/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליד שער יפו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46316292",
+                  "label": "ליד שער יפו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3586,
+                "width": 5075
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46316291",
+      "@type": "sc:Range",
+      "label": "REP46316291",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316292",
+          "@type": "sc:Canvas",
+          "label": "ליד שער יפו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596566",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593488/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל יעבד",
+  "label": "ילדי האשה הכדרית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ילדי האשה הכדרית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל יעבד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593488"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593488"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593488/sequence/IE46258257",
+      "@type": "sc:Sequence",
+      "label": "ילדי האשה הכדרית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258289",
+          "@type": "sc:Canvas",
+          "label": "ילדי האשה הכדרית",
+          "width": 3474,
+          "height": 2133,
+          "images": [
+            {
+              "@id": "FL46258289",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46258289",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46258289/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ילדי האשה הכדרית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46258289",
+                  "label": "ילדי האשה הכדרית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2133,
+                "width": 3474
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46258288",
+      "@type": "sc:Range",
+      "label": "REP46258288",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258289",
+          "@type": "sc:Canvas",
+          "label": "ילדי האשה הכדרית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593488",
+  "viewingHint": "paged"
+}

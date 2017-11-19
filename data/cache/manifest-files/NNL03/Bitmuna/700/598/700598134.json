@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598134/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "יצחק המדריך מבית אלפא",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יצחק המדריך מבית אלפא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598134"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598134"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598134/sequence/IE46302655",
+      "@type": "sc:Sequence",
+      "label": "יצחק המדריך מבית אלפא",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302681",
+          "@type": "sc:Canvas",
+          "label": "יצחק המדריך מבית אלפא",
+          "width": 2849,
+          "height": 4051,
+          "images": [
+            {
+              "@id": "FL46302681",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46302681",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46302681/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יצחק המדריך מבית אלפא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46302681",
+                  "label": "יצחק המדריך מבית אלפא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4051,
+                "width": 2849
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46302680",
+      "@type": "sc:Range",
+      "label": "REP46302680",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302681",
+          "@type": "sc:Canvas",
+          "label": "יצחק המדריך מבית אלפא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598134",
+  "viewingHint": "paged"
+}

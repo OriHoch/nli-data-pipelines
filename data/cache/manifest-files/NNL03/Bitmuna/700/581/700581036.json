@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581036/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "מכון האספסת באיזור המפעלים בית שאן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מכון האספסת באיזור המפעלים בית שאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581036"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581036"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581036/sequence/IE46355601",
+      "@type": "sc:Sequence",
+      "label": "מכון האספסת באיזור המפעלים בית שאן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46355612",
+          "@type": "sc:Canvas",
+          "label": "מכון האספסת באיזור המפעלים בית שאן",
+          "width": 2995,
+          "height": 1763,
+          "images": [
+            {
+              "@id": "FL46355612",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46355612",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46355612/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מכון האספסת באיזור המפעלים בית שאן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46355612",
+                  "label": "מכון האספסת באיזור המפעלים בית שאן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1763,
+                "width": 2995
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46355610",
+      "@type": "sc:Range",
+      "label": "REP46355610",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46355612",
+          "@type": "sc:Canvas",
+          "label": "מכון האספסת באיזור המפעלים בית שאן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581036",
+  "viewingHint": "paged"
+}

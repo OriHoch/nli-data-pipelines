@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700587999/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין דור",
+  "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סיור ארכיאולוגי עם הארכיאולוג אהרוני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין דור"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700587999"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700587999"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700587999/sequence/IE46255312",
+      "@type": "sc:Sequence",
+      "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255339",
+          "@type": "sc:Canvas",
+          "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני",
+          "width": 3208,
+          "height": 1992,
+          "images": [
+            {
+              "@id": "FL46255339",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46255339",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46255339/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46255339",
+                  "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1992,
+                "width": 3208
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46255338",
+      "@type": "sc:Range",
+      "label": "REP46255338",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255339",
+          "@type": "sc:Canvas",
+          "label": "סיור ארכיאולוגי עם הארכיאולוג אהרוני"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700587999",
+  "viewingHint": "paged"
+}

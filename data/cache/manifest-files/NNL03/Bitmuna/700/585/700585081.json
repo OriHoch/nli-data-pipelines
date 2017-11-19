@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585081/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "חצר קואופ' תובלה בית שאן לרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חצר קואופ' תובלה בית שאן לרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585081"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585081"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585081/sequence/IE46224745",
+      "@type": "sc:Sequence",
+      "label": "חצר קואופ' תובלה בית שאן לרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224769",
+          "@type": "sc:Canvas",
+          "label": "חצר קואופ' תובלה בית שאן לרוד",
+          "width": 3352,
+          "height": 2071,
+          "images": [
+            {
+              "@id": "FL46224769",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46224769",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46224769/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חצר קואופ' תובלה בית שאן לרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46224769",
+                  "label": "חצר קואופ' תובלה בית שאן לרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2071,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46224768",
+      "@type": "sc:Range",
+      "label": "REP46224768",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224769",
+          "@type": "sc:Canvas",
+          "label": "חצר קואופ' תובלה בית שאן לרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585081",
+  "viewingHint": "paged"
+}

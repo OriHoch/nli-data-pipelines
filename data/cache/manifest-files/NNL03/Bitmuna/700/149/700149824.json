@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149824/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "סוקולוב, נחום, 1859-1936; Sokolow, Nahum, 1859-1936; Соколов, Нахум С., 1859-1936; סוקולוב, נ; נ.ס; סוקולוב, נחום טוביה בן שמואל יוסף; סקולוב, נ; מנוח; סאקאלאוו, נחום; Soḳolov, Naḥum, 1859-1936; Sókolov, Najum, 1859-1936; Socolow, Nahum; Sokolow, N. (Nahum), 1859-1936",
+  "label": "נחום סוקולוב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נחום סוקולוב."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "סוקולוב, נחום, 1859-1936; Sokolow, Nahum, 1859-1936; Соколов, Нахум С., 1859-1936; סוקולוב, נ; נ.ס; סוקולוב, נחום טוביה בן שמואל יוסף; סקולוב, נ; מנוח; סאקאלאוו, נחום; Soḳolov, Naḥum, 1859-1936; Sókolov, Najum, 1859-1936; Socolow, Nahum; Sokolow, N. (Nahum), 1859-1936",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149824"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149824"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149824/sequence/IE6403800",
+      "@type": "sc:Sequence",
+      "label": "נחום סוקולוב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395443",
+          "@type": "sc:Canvas",
+          "label": " נחום סוקולוב",
+          "width": 508,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10395443",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10395443",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10395443/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " נחום סוקולוב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10395443",
+                  "label": " נחום סוקולוב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 508
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10395442",
+      "@type": "sc:Range",
+      "label": "REP10395442",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395443",
+          "@type": "sc:Canvas",
+          "label": " נחום סוקולוב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149824",
+  "viewingHint": "paged"
+}

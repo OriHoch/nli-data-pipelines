@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578862/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענך",
+  "label": "חג העצמאות בחבל תענך מאי ישובי יעל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חג העצמאות בחבל תענך מאי ישובי יעל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578862"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578862"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578862/sequence/IE46335479",
+      "@type": "sc:Sequence",
+      "label": "חג העצמאות בחבל תענך מאי ישובי יעל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46335489",
+          "@type": "sc:Canvas",
+          "label": "חג העצמאות בחבל תענך מאי ישובי יעל",
+          "width": 2863,
+          "height": 1791,
+          "images": [
+            {
+              "@id": "FL46335489",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46335489",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46335489/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חג העצמאות בחבל תענך מאי ישובי יעל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46335489",
+                  "label": "חג העצמאות בחבל תענך מאי ישובי יעל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1791,
+                "width": 2863
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46335488",
+      "@type": "sc:Range",
+      "label": "REP46335488",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46335489",
+          "@type": "sc:Canvas",
+          "label": "חג העצמאות בחבל תענך מאי ישובי יעל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578862",
+  "viewingHint": "paged"
+}

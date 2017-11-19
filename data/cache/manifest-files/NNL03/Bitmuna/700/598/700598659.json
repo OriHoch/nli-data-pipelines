@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598659/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "חנה ואחותה עם הוריהם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנה ואחותה עם הוריהם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598659"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598659"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598659/sequence/IE46278650",
+      "@type": "sc:Sequence",
+      "label": "חנה ואחותה עם הוריהם",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278685",
+          "@type": "sc:Canvas",
+          "label": "חנה ואחותה עם הוריהם",
+          "width": 3689,
+          "height": 2304,
+          "images": [
+            {
+              "@id": "FL46278685",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46278685",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46278685/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנה ואחותה עם הוריהם",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46278685",
+                  "label": "חנה ואחותה עם הוריהם",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2304,
+                "width": 3689
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46278684",
+      "@type": "sc:Range",
+      "label": "REP46278684",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278685",
+          "@type": "sc:Canvas",
+          "label": "חנה ואחותה עם הוריהם"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598659",
+  "viewingHint": "paged"
+}

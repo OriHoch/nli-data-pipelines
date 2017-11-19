@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589086/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא מוסד גלבוע",
+  "label": "חזרות להצגת סיום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חזרות להצגת סיום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא מוסד גלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589086"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589086"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589086/sequence/IE46248300",
+      "@type": "sc:Sequence",
+      "label": "חזרות להצגת סיום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248330",
+          "@type": "sc:Canvas",
+          "label": "חזרות להצגת סיום",
+          "width": 4458,
+          "height": 2773,
+          "images": [
+            {
+              "@id": "FL46248330",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46248330",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46248330/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חזרות להצגת סיום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46248330",
+                  "label": "חזרות להצגת סיום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2773,
+                "width": 4458
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46248329",
+      "@type": "sc:Range",
+      "label": "REP46248329",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248330",
+          "@type": "sc:Canvas",
+          "label": "חזרות להצגת סיום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589086",
+  "viewingHint": "paged"
+}

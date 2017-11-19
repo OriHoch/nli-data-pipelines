@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700141667/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "המרשלד, דאג; באנץ', ראלף; תקוע, יוסף; همرشولد، داغ; Hammarskjöld, Dag, 1905-1961; האמרשלד, דאג; Khammarshelʹd, Dag, 1905-1961; Hamarshūld, 1905-1961",
+  "label": "ביקור מזכ\"ל האו\"ם דאג המרשלד אצל ממשלת ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור מזכ\"ל האו\"ם דאג המרשלד אצל ממשלת ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "המרשלד, דאג; באנץ', ראלף; תקוע, יוסף; همرشولد، داغ; Hammarskjöld, Dag, 1905-1961; האמרשלד, דאג; Khammarshelʹd, Dag, 1905-1961; Hamarshūld, 1905-1961",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700141667"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700141667"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700141667/sequence/IE6384987",
+      "@type": "sc:Sequence",
+      "label": "ביקור מזכ\"ל האו\"ם דאג המרשלד אצל ממשלת ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380560",
+          "@type": "sc:Canvas",
+          "label": "ביקור מזכל האום דאג המרשלד אצל ממשלת ישראל",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10380560",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10380560",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10380560/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור מזכל האום דאג המרשלד אצל ממשלת ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10380560",
+                  "label": "ביקור מזכל האום דאג המרשלד אצל ממשלת ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10380559",
+      "@type": "sc:Range",
+      "label": "REP10380559",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380560",
+          "@type": "sc:Canvas",
+          "label": "ביקור מזכל האום דאג המרשלד אצל ממשלת ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700141667",
+  "viewingHint": "paged"
+}

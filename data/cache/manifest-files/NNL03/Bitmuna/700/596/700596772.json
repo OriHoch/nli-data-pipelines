@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596772/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "צוות רפואי בבי\"ח העמק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צוות רפואי בבי\"ח העמק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596772"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1951"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596772"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596772/sequence/IE46312173",
+      "@type": "sc:Sequence",
+      "label": "צוות רפואי בבי\"ח העמק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312188",
+          "@type": "sc:Canvas",
+          "label": "צוות רפואי בבי\"ח העמק",
+          "width": 3680,
+          "height": 3762,
+          "images": [
+            {
+              "@id": "FL46312188",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46312188",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46312188/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צוות רפואי בבי\"ח העמק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46312188",
+                  "label": "צוות רפואי בבי\"ח העמק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3762,
+                "width": 3680
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46312187",
+      "@type": "sc:Range",
+      "label": "REP46312187",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312188",
+          "@type": "sc:Canvas",
+          "label": "צוות רפואי בבי\"ח העמק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596772",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600363/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "תמונת פספורט של יוסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תמונת פספורט של יוסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600363"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600363"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600363/sequence/IE46311835",
+      "@type": "sc:Sequence",
+      "label": "תמונת פספורט של יוסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311855",
+          "@type": "sc:Canvas",
+          "label": "תמונת פספורט של יוסף",
+          "width": 2242,
+          "height": 3489,
+          "images": [
+            {
+              "@id": "FL46311855",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311855",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311855/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תמונת פספורט של יוסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311855",
+                  "label": "תמונת פספורט של יוסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3489,
+                "width": 2242
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311854",
+      "@type": "sc:Range",
+      "label": "REP46311854",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311855",
+          "@type": "sc:Canvas",
+          "label": "תמונת פספורט של יוסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600363",
+  "viewingHint": "paged"
+}

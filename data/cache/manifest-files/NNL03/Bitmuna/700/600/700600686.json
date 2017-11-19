@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600686/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גליל מערבי",
+  "label": "קיבוץ בגליל המערבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קיבוץ בגליל המערבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600686"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600686"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600686/sequence/IE46302946",
+      "@type": "sc:Sequence",
+      "label": "קיבוץ בגליל המערבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302962",
+          "@type": "sc:Canvas",
+          "label": "קיבוץ בגליל המערבי",
+          "width": 4105,
+          "height": 4237,
+          "images": [
+            {
+              "@id": "FL46302962",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46302962",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46302962/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קיבוץ בגליל המערבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46302962",
+                  "label": "קיבוץ בגליל המערבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4237,
+                "width": 4105
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46302961",
+      "@type": "sc:Range",
+      "label": "REP46302961",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302962",
+          "@type": "sc:Canvas",
+          "label": "קיבוץ בגליל המערבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600686",
+  "viewingHint": "paged"
+}

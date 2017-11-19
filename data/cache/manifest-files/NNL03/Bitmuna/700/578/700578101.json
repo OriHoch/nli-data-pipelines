@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578101/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "ח. בסין מנהל אגודת המים בעמק חרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ח. בסין מנהל אגודת המים בעמק חרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578101"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578101"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578101/sequence/IE46329716",
+      "@type": "sc:Sequence",
+      "label": "ח. בסין מנהל אגודת המים בעמק חרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46329735",
+          "@type": "sc:Canvas",
+          "label": "ח. בסין מנהל אגודת המים בעמק חרוד",
+          "width": 2904,
+          "height": 1729,
+          "images": [
+            {
+              "@id": "FL46329735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46329735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46329735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ח. בסין מנהל אגודת המים בעמק חרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46329735",
+                  "label": "ח. בסין מנהל אגודת המים בעמק חרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1729,
+                "width": 2904
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46329729",
+      "@type": "sc:Range",
+      "label": "REP46329729",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46329735",
+          "@type": "sc:Canvas",
+          "label": "ח. בסין מנהל אגודת המים בעמק חרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578101",
+  "viewingHint": "paged"
+}

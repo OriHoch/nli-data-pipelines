@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593550/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל שייך זייד",
+  "label": "אורו אריאב, עזריה אלון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אורו אריאב, עזריה אלון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל שייך זייד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593550"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593550"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593550/sequence/IE46261041",
+      "@type": "sc:Sequence",
+      "label": "אורו אריאב  עזריה אלון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46261068",
+          "@type": "sc:Canvas",
+          "label": "אורו אריאב  עזריה אלון",
+          "width": 3761,
+          "height": 2469,
+          "images": [
+            {
+              "@id": "FL46261068",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46261068",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46261068/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אורו אריאב  עזריה אלון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46261068",
+                  "label": "אורו אריאב  עזריה אלון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2469,
+                "width": 3761
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46261067",
+      "@type": "sc:Range",
+      "label": "REP46261067",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46261068",
+          "@type": "sc:Canvas",
+          "label": "אורו אריאב  עזריה אלון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593550",
+  "viewingHint": "paged"
+}

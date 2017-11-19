@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591358/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בכפר ג'למי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בכפר ג'למי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591358"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591358"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591358/sequence/IE46255311",
+      "@type": "sc:Sequence",
+      "label": "בכפר ג'למי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255330",
+          "@type": "sc:Canvas",
+          "label": "בכפר ג'למי",
+          "width": 2977,
+          "height": 1906,
+          "images": [
+            {
+              "@id": "FL46255330",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46255330",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46255330/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בכפר ג'למי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46255330",
+                  "label": "בכפר ג'למי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1906,
+                "width": 2977
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46255329",
+      "@type": "sc:Range",
+      "label": "REP46255329",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255330",
+          "@type": "sc:Canvas",
+          "label": "בכפר ג'למי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591358",
+  "viewingHint": "paged"
+}

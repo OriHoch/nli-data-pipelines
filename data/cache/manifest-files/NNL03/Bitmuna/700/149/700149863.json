@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149863/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לא ידוע",
+  "label": "כנסיית הקבר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנסיית הקבר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לא ידוע"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149863"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149863"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149863/sequence/IE6404346",
+      "@type": "sc:Sequence",
+      "label": "כנסיית הקבר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10396517",
+          "@type": "sc:Canvas",
+          "label": " כנסיית הקבר",
+          "width": 539,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10396517",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10396517",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10396517/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " כנסיית הקבר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10396517",
+                  "label": " כנסיית הקבר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 539
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10396516",
+      "@type": "sc:Range",
+      "label": "REP10396516",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10396517",
+          "@type": "sc:Canvas",
+          "label": " כנסיית הקבר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149863",
+  "viewingHint": "paged"
+}

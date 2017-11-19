@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584440/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "מפעל קוקור",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפעל קוקור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584440"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584440"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584440/sequence/IE46234329",
+      "@type": "sc:Sequence",
+      "label": "מפעל קוקור",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46234367",
+          "@type": "sc:Canvas",
+          "label": "מפעל קוקור",
+          "width": 3050,
+          "height": 1884,
+          "images": [
+            {
+              "@id": "FL46234367",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46234367",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46234367/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפעל קוקור",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46234367",
+                  "label": "מפעל קוקור",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1884,
+                "width": 3050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46234366",
+      "@type": "sc:Range",
+      "label": "REP46234366",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46234367",
+          "@type": "sc:Canvas",
+          "label": "מפעל קוקור"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584440",
+  "viewingHint": "paged"
+}

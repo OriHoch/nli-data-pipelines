@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580918/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל כוכב הירדן",
+  "label": "צריף מאיר הר ציון, תצפית מחוות שושנה ליד מבצר בלואר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צריף מאיר הר ציון, תצפית מחוות שושנה ליד מבצר בלואר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל כוכב הירדן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580918"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580918"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580918/sequence/IE46353033",
+      "@type": "sc:Sequence",
+      "label": "צריף מאיר הר ציון  תצפית מחוות שושנה ליד מבצר בלואר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46353047",
+          "@type": "sc:Canvas",
+          "label": "צריף מאיר הר ציון  תצפית מחוות שושנה ליד מבצר בלואר",
+          "width": 3750,
+          "height": 2310,
+          "images": [
+            {
+              "@id": "FL46353047",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46353047",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46353047/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צריף מאיר הר ציון  תצפית מחוות שושנה ליד מבצר בלואר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46353047",
+                  "label": "צריף מאיר הר ציון  תצפית מחוות שושנה ליד מבצר בלואר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2310,
+                "width": 3750
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46353044",
+      "@type": "sc:Range",
+      "label": "REP46353044",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46353047",
+          "@type": "sc:Canvas",
+          "label": "צריף מאיר הר ציון  תצפית מחוות שושנה ליד מבצר בלואר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580918",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599415/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "אהוד דרור עם הסבתא קטה - בר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אהוד דרור עם הסבתא קטה - בר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599415"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599415"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599415/sequence/IE46309097",
+      "@type": "sc:Sequence",
+      "label": "אהוד דרור עם הסבתא קטה - בר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309119",
+          "@type": "sc:Canvas",
+          "label": "אהוד דרור עם הסבתא קטה - בר",
+          "width": 3748,
+          "height": 2763,
+          "images": [
+            {
+              "@id": "FL46309119",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309119",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309119/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אהוד דרור עם הסבתא קטה - בר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309119",
+                  "label": "אהוד דרור עם הסבתא קטה - בר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2763,
+                "width": 3748
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309118",
+      "@type": "sc:Range",
+      "label": "REP46309118",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309119",
+          "@type": "sc:Canvas",
+          "label": "אהוד דרור עם הסבתא קטה - בר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599415",
+  "viewingHint": "paged"
+}

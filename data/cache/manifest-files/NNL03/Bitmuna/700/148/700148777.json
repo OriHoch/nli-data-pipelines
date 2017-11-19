@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148777/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מצדה",
+  "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "מצדה",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148777"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148777"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148777/sequence/IE6408986",
+      "@type": "sc:Sequence",
+      "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10398033",
+          "@type": "sc:Canvas",
+          "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין",
+          "width": 780,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10398033",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10398033",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10398033/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10398033",
+                  "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 780
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10398032",
+      "@type": "sc:Range",
+      "label": "REP10398032",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10398033",
+          "@type": "sc:Canvas",
+          "label": "משלחת החפירות הארכיאולוגיות על מצדה בהנהלת יגאל ידין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148777",
+  "viewingHint": "paged"
+}

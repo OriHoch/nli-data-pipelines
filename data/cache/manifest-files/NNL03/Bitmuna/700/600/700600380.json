@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600380/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "אלזה שטרנברג סיפור חיים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אלזה שטרנברג סיפור חיים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600380"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600380"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600380/sequence/IE46312433",
+      "@type": "sc:Sequence",
+      "label": "אלזה שטרנברג סיפור חיים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312451",
+          "@type": "sc:Canvas",
+          "label": "אלזה שטרנברג סיפור חיים",
+          "width": 1700,
+          "height": 2339,
+          "images": [
+            {
+              "@id": "FL46312451",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46312451",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46312451/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אלזה שטרנברג סיפור חיים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46312451",
+                  "label": "אלזה שטרנברג סיפור חיים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2339,
+                "width": 1700
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46312450",
+      "@type": "sc:Range",
+      "label": "REP46312450",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312451",
+          "@type": "sc:Canvas",
+          "label": "אלזה שטרנברג סיפור חיים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600380",
+  "viewingHint": "paged"
+}

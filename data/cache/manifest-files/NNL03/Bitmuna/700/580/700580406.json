@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580406/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל כפר רופין",
+  "label": "עדר הבקר של כפר רופין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עדר הבקר של כפר רופין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל כפר רופין"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580406"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580406"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580406/sequence/IE46362017",
+      "@type": "sc:Sequence",
+      "label": "עדר הבקר של כפר רופין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46362040",
+          "@type": "sc:Canvas",
+          "label": "עדר הבקר של כפר רופין",
+          "width": 2862,
+          "height": 1806,
+          "images": [
+            {
+              "@id": "FL46362040",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46362040",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46362040/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עדר הבקר של כפר רופין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46362040",
+                  "label": "עדר הבקר של כפר רופין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1806,
+                "width": 2862
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46362036",
+      "@type": "sc:Range",
+      "label": "REP46362036",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46362040",
+          "@type": "sc:Canvas",
+          "label": "עדר הבקר של כפר רופין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580406",
+  "viewingHint": "paged"
+}

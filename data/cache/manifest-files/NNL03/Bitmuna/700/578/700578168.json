@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578168/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "פסל ראש אסף שמחוני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פסל ראש אסף שמחוני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578168"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578168"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578168/sequence/IE46331420",
+      "@type": "sc:Sequence",
+      "label": "פסל ראש אסף שמחוני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46331444",
+          "@type": "sc:Canvas",
+          "label": "פסל ראש אסף שמחוני",
+          "width": 2220,
+          "height": 1485,
+          "images": [
+            {
+              "@id": "FL46331444",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46331444",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46331444/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פסל ראש אסף שמחוני",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46331444",
+                  "label": "פסל ראש אסף שמחוני",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1485,
+                "width": 2220
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46331442",
+      "@type": "sc:Range",
+      "label": "REP46331442",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46331444",
+          "@type": "sc:Canvas",
+          "label": "פסל ראש אסף שמחוני"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578168",
+  "viewingHint": "paged"
+}

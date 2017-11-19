@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580849/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "חישוק להעברת ארגז מכוורת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חישוק להעברת ארגז מכוורת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580849"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580849"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580849/sequence/IE46351318",
+      "@type": "sc:Sequence",
+      "label": "חישוק להעברת ארגז מכוורת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46351334",
+          "@type": "sc:Canvas",
+          "label": "חישוק להעברת ארגז מכוורת",
+          "width": 1660,
+          "height": 2820,
+          "images": [
+            {
+              "@id": "FL46351334",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46351334",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46351334/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חישוק להעברת ארגז מכוורת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46351334",
+                  "label": "חישוק להעברת ארגז מכוורת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2820,
+                "width": 1660
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46351333",
+      "@type": "sc:Range",
+      "label": "REP46351333",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46351334",
+          "@type": "sc:Canvas",
+          "label": "חישוק להעברת ארגז מכוורת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580849",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598065/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "שטפון בשילאלה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שטפון בשילאלה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598065"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598065"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598065/sequence/IE46283278",
+      "@type": "sc:Sequence",
+      "label": "שטפון בשילאלה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46283310",
+          "@type": "sc:Canvas",
+          "label": "שטפון בשילאלה",
+          "width": 2362,
+          "height": 1620,
+          "images": [
+            {
+              "@id": "FL46283310",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46283310",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46283310/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שטפון בשילאלה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46283310",
+                  "label": "שטפון בשילאלה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1620,
+                "width": 2362
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46283309",
+      "@type": "sc:Range",
+      "label": "REP46283309",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46283310",
+          "@type": "sc:Canvas",
+          "label": "שטפון בשילאלה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598065",
+  "viewingHint": "paged"
+}

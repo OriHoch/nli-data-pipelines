@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584186/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית טרומפלדור בתל יוסף",
+  "label": "כנס פלוגות הלילה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנס פלוגות הלילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית טרומפלדור בתל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584186"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584186"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584186/sequence/IE46224039",
+      "@type": "sc:Sequence",
+      "label": "כנס פלוגות הלילה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224059",
+          "@type": "sc:Canvas",
+          "label": "כנס פלוגות הלילה",
+          "width": 1713,
+          "height": 2786,
+          "images": [
+            {
+              "@id": "FL46224059",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46224059",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46224059/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנס פלוגות הלילה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46224059",
+                  "label": "כנס פלוגות הלילה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2786,
+                "width": 1713
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46224058",
+      "@type": "sc:Range",
+      "label": "REP46224058",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224059",
+          "@type": "sc:Canvas",
+          "label": "כנס פלוגות הלילה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584186",
+  "viewingHint": "paged"
+}

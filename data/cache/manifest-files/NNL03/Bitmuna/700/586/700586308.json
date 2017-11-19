@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586308/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן",
+  "label": "מעבדת הצילום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מעבדת הצילום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586308"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586308"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586308/sequence/IE46229058",
+      "@type": "sc:Sequence",
+      "label": "מעבדת הצילום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229084",
+          "@type": "sc:Canvas",
+          "label": "מעבדת הצילום",
+          "width": 3335,
+          "height": 2223,
+          "images": [
+            {
+              "@id": "FL46229084",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46229084",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46229084/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מעבדת הצילום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46229084",
+                  "label": "מעבדת הצילום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2223,
+                "width": 3335
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46229083",
+      "@type": "sc:Range",
+      "label": "REP46229083",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229084",
+          "@type": "sc:Canvas",
+          "label": "מעבדת הצילום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586308",
+  "viewingHint": "paged"
+}

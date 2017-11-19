@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583401/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ב.ש",
+  "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ב.ש"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583401"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583401"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583401/sequence/IE46224610",
+      "@type": "sc:Sequence",
+      "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224630",
+          "@type": "sc:Canvas",
+          "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא",
+          "width": 2163,
+          "height": 1458,
+          "images": [
+            {
+              "@id": "FL46224630",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46224630",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46224630/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46224630",
+                  "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1458,
+                "width": 2163
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46224629",
+      "@type": "sc:Range",
+      "label": "REP46224629",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46224630",
+          "@type": "sc:Canvas",
+          "label": "דיאגרמות גידול זרעי כרובית ע\"י חיים פלדנר מבית אלפא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583401",
+  "viewingHint": "paged"
+}

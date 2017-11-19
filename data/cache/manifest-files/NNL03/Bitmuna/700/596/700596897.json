@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חתונת מיכל נהרי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חתונת מיכל נהרי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596897"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596897/sequence/IE46316459",
+      "@type": "sc:Sequence",
+      "label": "חתונת מיכל נהרי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316492",
+          "@type": "sc:Canvas",
+          "label": "חתונת מיכל נהרי",
+          "width": 4066,
+          "height": 3188,
+          "images": [
+            {
+              "@id": "FL46316492",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46316492",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46316492/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חתונת מיכל נהרי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46316492",
+                  "label": "חתונת מיכל נהרי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3188,
+                "width": 4066
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46316489",
+      "@type": "sc:Range",
+      "label": "REP46316489",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316492",
+          "@type": "sc:Canvas",
+          "label": "חתונת מיכל נהרי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596897",
+  "viewingHint": "paged"
+}

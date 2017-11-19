@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600521/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גליל מערבי",
+  "label": "נמל חיפה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נמל חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600521"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600521"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600521/sequence/IE46297263",
+      "@type": "sc:Sequence",
+      "label": "נמל חיפה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297281",
+          "@type": "sc:Canvas",
+          "label": "נמל חיפה",
+          "width": 3934,
+          "height": 2877,
+          "images": [
+            {
+              "@id": "FL46297281",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297281",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297281/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נמל חיפה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297281",
+                  "label": "נמל חיפה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2877,
+                "width": 3934
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297278",
+      "@type": "sc:Range",
+      "label": "REP46297278",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297281",
+          "@type": "sc:Canvas",
+          "label": "נמל חיפה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600521",
+  "viewingHint": "paged"
+}

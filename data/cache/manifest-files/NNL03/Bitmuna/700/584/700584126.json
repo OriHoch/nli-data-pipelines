@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584126/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רמת כוכב",
+  "label": "עבודת הכשרת קרקע של קק\"ל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עבודת הכשרת קרקע של קק\"ל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רמת כוכב"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584126"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584126"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584126/sequence/IE46222241",
+      "@type": "sc:Sequence",
+      "label": "עבודת הכשרת קרקע של קק\"ל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222259",
+          "@type": "sc:Canvas",
+          "label": "עבודת הכשרת קרקע של קק\"ל",
+          "width": 2988,
+          "height": 1988,
+          "images": [
+            {
+              "@id": "FL46222259",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46222259",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46222259/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עבודת הכשרת קרקע של קק\"ל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46222259",
+                  "label": "עבודת הכשרת קרקע של קק\"ל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1988,
+                "width": 2988
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46222258",
+      "@type": "sc:Range",
+      "label": "REP46222258",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222259",
+          "@type": "sc:Canvas",
+          "label": "עבודת הכשרת קרקע של קק\"ל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584126",
+  "viewingHint": "paged"
+}

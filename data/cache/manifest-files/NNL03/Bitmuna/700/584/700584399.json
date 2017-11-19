@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584399/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית השיטה",
+  "label": "מפעל לשימורי זיתים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפעל לשימורי זיתים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית השיטה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584399"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584399"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584399/sequence/IE46232097",
+      "@type": "sc:Sequence",
+      "label": "מפעל לשימורי זיתים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232134",
+          "@type": "sc:Canvas",
+          "label": "מפעל לשימורי זיתים",
+          "width": 3415,
+          "height": 2304,
+          "images": [
+            {
+              "@id": "FL46232134",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46232134",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46232134/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפעל לשימורי זיתים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46232134",
+                  "label": "מפעל לשימורי זיתים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2304,
+                "width": 3415
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46232133",
+      "@type": "sc:Range",
+      "label": "REP46232133",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232134",
+          "@type": "sc:Canvas",
+          "label": "מפעל לשימורי זיתים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584399",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597933/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הצנחה ליד גבולות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הצנחה ליד גבולות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597933"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597933"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597933/sequence/IE46307673",
+      "@type": "sc:Sequence",
+      "label": "הצנחה ליד גבולות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307704",
+          "@type": "sc:Canvas",
+          "label": "הצנחה ליד גבולות",
+          "width": 4987,
+          "height": 5240,
+          "images": [
+            {
+              "@id": "FL46307704",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46307704",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46307704/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הצנחה ליד גבולות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46307704",
+                  "label": "הצנחה ליד גבולות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5240,
+                "width": 4987
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46307703",
+      "@type": "sc:Range",
+      "label": "REP46307703",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307704",
+          "@type": "sc:Canvas",
+          "label": "הצנחה ליד גבולות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597933",
+  "viewingHint": "paged"
+}

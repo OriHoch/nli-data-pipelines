@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591915/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל שכם",
+  "label": "רחוב בשכם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רחוב בשכם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל שכם"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591915"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591915"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591915/sequence/IE46230966",
+      "@type": "sc:Sequence",
+      "label": "רחוב בשכם",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231005",
+          "@type": "sc:Canvas",
+          "label": "רחוב בשכם",
+          "width": 3648,
+          "height": 2192,
+          "images": [
+            {
+              "@id": "FL46231005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46231005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46231005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רחוב בשכם",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46231005",
+                  "label": "רחוב בשכם",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2192,
+                "width": 3648
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46231004",
+      "@type": "sc:Range",
+      "label": "REP46231004",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231005",
+          "@type": "sc:Canvas",
+          "label": "רחוב בשכם"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591915",
+  "viewingHint": "paged"
+}

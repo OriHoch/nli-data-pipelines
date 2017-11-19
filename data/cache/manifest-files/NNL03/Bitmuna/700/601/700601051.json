@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601051/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "בולגריה",
+  "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בולגריה"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601051"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1947"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601051"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601051/sequence/IE46304949",
+      "@type": "sc:Sequence",
+      "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304980",
+          "@type": "sc:Canvas",
+          "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה",
+          "width": 5064,
+          "height": 3256,
+          "images": [
+            {
+              "@id": "FL46304980",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46304980",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46304980/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46304980",
+                  "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3256,
+                "width": 5064
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46304978",
+      "@type": "sc:Range",
+      "label": "REP46304978",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304980",
+          "@type": "sc:Canvas",
+          "label": "ליד משרדי הנוער הדמוקרטי בסופיה בולגריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601051",
+  "viewingHint": "paged"
+}

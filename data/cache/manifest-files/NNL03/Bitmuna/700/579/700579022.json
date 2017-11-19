@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579022/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל כוכב הירדן",
+  "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל כוכב הירדן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579022"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579022"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579022/sequence/IE46301689",
+      "@type": "sc:Sequence",
+      "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301714",
+          "@type": "sc:Canvas",
+          "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי",
+          "width": 2826,
+          "height": 1933,
+          "images": [
+            {
+              "@id": "FL46301714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46301714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46301714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46301714",
+                  "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1933,
+                "width": 2826
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46301713",
+      "@type": "sc:Range",
+      "label": "REP46301713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301714",
+          "@type": "sc:Canvas",
+          "label": "מטיילי החוג לטבע של מועצה איזרית גלבוע בהדרכת נחמיה צורי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579022",
+  "viewingHint": "paged"
+}

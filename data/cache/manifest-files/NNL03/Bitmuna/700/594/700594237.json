@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594237/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל דותן",
+  "label": "ליד אהל בדואי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליד אהל בדואי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל דותן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594237"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594237"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594237/sequence/IE46246812",
+      "@type": "sc:Sequence",
+      "label": "ליד אהל בדואי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46246845",
+          "@type": "sc:Canvas",
+          "label": "ליד אהל בדואי",
+          "width": 2613,
+          "height": 3975,
+          "images": [
+            {
+              "@id": "FL46246845",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46246845",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46246845/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליד אהל בדואי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46246845",
+                  "label": "ליד אהל בדואי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3975,
+                "width": 2613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46246844",
+      "@type": "sc:Range",
+      "label": "REP46246844",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46246845",
+          "@type": "sc:Canvas",
+          "label": "ליד אהל בדואי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594237",
+  "viewingHint": "paged"
+}

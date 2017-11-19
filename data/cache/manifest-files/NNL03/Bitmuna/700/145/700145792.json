@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700145792/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בטקס פתיחת ביתן שוויצריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בטקס פתיחת ביתן שוויצריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "רחובות"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700145792"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700145792"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700145792/sequence/IE6391956",
+      "@type": "sc:Sequence",
+      "label": "בטקס פתיחת ביתן שוויצריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10387019",
+          "@type": "sc:Canvas",
+          "label": "בטקס פתיחת ביתן שוויצריה",
+          "width": 790,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10387019",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10387019",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10387019/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בטקס פתיחת ביתן שוויצריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10387019",
+                  "label": "בטקס פתיחת ביתן שוויצריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 790
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10387018",
+      "@type": "sc:Range",
+      "label": "REP10387018",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10387019",
+          "@type": "sc:Canvas",
+          "label": "בטקס פתיחת ביתן שוויצריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700145792",
+  "viewingHint": "paged"
+}

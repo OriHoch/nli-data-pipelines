@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583633/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל הר הגלבוע",
+  "label": "בסביבות הכפר פקועה על הגלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בסביבות הכפר פקועה על הגלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל הר הגלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583633"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583633"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583633/sequence/IE46231288",
+      "@type": "sc:Sequence",
+      "label": "בסביבות הכפר פקועה על הגלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231315",
+          "@type": "sc:Canvas",
+          "label": "בסביבות הכפר פקועה על הגלבוע",
+          "width": 3092,
+          "height": 2025,
+          "images": [
+            {
+              "@id": "FL46231315",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46231315",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46231315/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בסביבות הכפר פקועה על הגלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46231315",
+                  "label": "בסביבות הכפר פקועה על הגלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2025,
+                "width": 3092
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46231313",
+      "@type": "sc:Range",
+      "label": "REP46231313",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231315",
+          "@type": "sc:Canvas",
+          "label": "בסביבות הכפר פקועה על הגלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583633",
+  "viewingHint": "paged"
+}

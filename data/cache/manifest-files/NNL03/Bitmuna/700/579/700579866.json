@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579866/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "קאופרטיב ביתשאן חרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קאופרטיב ביתשאן חרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579866"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579866"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579866/sequence/IE46346912",
+      "@type": "sc:Sequence",
+      "label": "קאופרטיב ביתשאן חרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46346929",
+          "@type": "sc:Canvas",
+          "label": "קאופרטיב ביתשאן חרוד",
+          "width": 2104,
+          "height": 3175,
+          "images": [
+            {
+              "@id": "FL46346929",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46346929",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46346929/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קאופרטיב ביתשאן חרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46346929",
+                  "label": "קאופרטיב ביתשאן חרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3175,
+                "width": 2104
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46346928",
+      "@type": "sc:Range",
+      "label": "REP46346928",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46346929",
+          "@type": "sc:Canvas",
+          "label": "קאופרטיב ביתשאן חרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579866",
+  "viewingHint": "paged"
+}

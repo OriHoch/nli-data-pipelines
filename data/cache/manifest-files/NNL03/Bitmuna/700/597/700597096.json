@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597096/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בית המכס בראש פינה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית המכס בראש פינה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597096"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597096"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597096/sequence/IE46322907",
+      "@type": "sc:Sequence",
+      "label": "בית המכס בראש פינה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46322933",
+          "@type": "sc:Canvas",
+          "label": "בית המכס בראש פינה",
+          "width": 2504,
+          "height": 2503,
+          "images": [
+            {
+              "@id": "FL46322933",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46322933",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46322933/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית המכס בראש פינה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46322933",
+                  "label": "בית המכס בראש פינה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2503,
+                "width": 2504
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46322928",
+      "@type": "sc:Range",
+      "label": "REP46322928",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46322933",
+          "@type": "sc:Canvas",
+          "label": "בית המכס בראש פינה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597096",
+  "viewingHint": "paged"
+}

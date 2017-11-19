@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580619/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "עדר הכבשים של קיבוץ יזרעאל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עדר הכבשים של קיבוץ יזרעאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580619"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580619"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580619/sequence/IE46368433",
+      "@type": "sc:Sequence",
+      "label": "עדר הכבשים של קיבוץ יזרעאל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368461",
+          "@type": "sc:Canvas",
+          "label": "עדר הכבשים של קיבוץ יזרעאל",
+          "width": 2995,
+          "height": 2008,
+          "images": [
+            {
+              "@id": "FL46368461",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46368461",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46368461/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עדר הכבשים של קיבוץ יזרעאל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46368461",
+                  "label": "עדר הכבשים של קיבוץ יזרעאל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2008,
+                "width": 2995
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46368459",
+      "@type": "sc:Range",
+      "label": "REP46368459",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368461",
+          "@type": "sc:Canvas",
+          "label": "עדר הכבשים של קיבוץ יזרעאל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580619",
+  "viewingHint": "paged"
+}

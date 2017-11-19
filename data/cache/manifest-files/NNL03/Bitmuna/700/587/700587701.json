@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700587701/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מקהלה בזמריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מקהלה בזמריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700587701"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700587701"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700587701/sequence/IE46292410",
+      "@type": "sc:Sequence",
+      "label": "מקהלה בזמריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292431",
+          "@type": "sc:Canvas",
+          "label": "מקהלה בזמריה",
+          "width": 3264,
+          "height": 2274,
+          "images": [
+            {
+              "@id": "FL46292431",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46292431",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46292431/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מקהלה בזמריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46292431",
+                  "label": "מקהלה בזמריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2274,
+                "width": 3264
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46292430",
+      "@type": "sc:Range",
+      "label": "REP46292430",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292431",
+          "@type": "sc:Canvas",
+          "label": "מקהלה בזמריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700587701",
+  "viewingHint": "paged"
+}

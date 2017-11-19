@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585412/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "כנס צעירים מהעמק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנס צעירים מהעמק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585412"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585412"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585412/sequence/IE46239765",
+      "@type": "sc:Sequence",
+      "label": "כנס צעירים מהעמק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239795",
+          "@type": "sc:Canvas",
+          "label": "כנס צעירים מהעמק",
+          "width": 3010,
+          "height": 1949,
+          "images": [
+            {
+              "@id": "FL46239795",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46239795",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46239795/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנס צעירים מהעמק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46239795",
+                  "label": "כנס צעירים מהעמק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1949,
+                "width": 3010
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46239794",
+      "@type": "sc:Range",
+      "label": "REP46239794",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239795",
+          "@type": "sc:Canvas",
+          "label": "כנס צעירים מהעמק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585412",
+  "viewingHint": "paged"
+}

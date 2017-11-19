@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586583/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עין חרוד",
+  "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור נשיא ההסתדרות הציונית חיים וייצמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586583"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586583"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586583/sequence/IE46239243",
+      "@type": "sc:Sequence",
+      "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239265",
+          "@type": "sc:Canvas",
+          "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן",
+          "width": 4197,
+          "height": 4430,
+          "images": [
+            {
+              "@id": "FL46239265",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46239265",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46239265/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46239265",
+                  "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4430,
+                "width": 4197
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46239264",
+      "@type": "sc:Range",
+      "label": "REP46239264",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239265",
+          "@type": "sc:Canvas",
+          "label": "ביקור נשיא ההסתדרות הציונית חיים וייצמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586583",
+  "viewingHint": "paged"
+}

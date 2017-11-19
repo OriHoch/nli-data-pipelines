@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600345/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600345"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600345"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600345/sequence/IE46311212",
+      "@type": "sc:Sequence",
+      "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311237",
+          "@type": "sc:Canvas",
+          "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן",
+          "width": 2323,
+          "height": 3291,
+          "images": [
+            {
+              "@id": "FL46311237",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311237",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311237/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311237",
+                  "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3291,
+                "width": 2323
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311236",
+      "@type": "sc:Range",
+      "label": "REP46311236",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311237",
+          "@type": "sc:Canvas",
+          "label": "דורותיה פולברמכר אמא של פאני רוזנבליט אמו של יוסף רונבליט אביו של דן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600345",
+  "viewingHint": "paged"
+}

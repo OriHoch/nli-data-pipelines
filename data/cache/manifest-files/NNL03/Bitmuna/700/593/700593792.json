@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593792/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ליד כפר כנא",
+  "label": "כניסה למערה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כניסה למערה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ליד כפר כנא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593792"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593792"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593792/sequence/IE46271804",
+      "@type": "sc:Sequence",
+      "label": "כניסה למערה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46271836",
+          "@type": "sc:Canvas",
+          "label": "כניסה למערה",
+          "width": 3901,
+          "height": 2342,
+          "images": [
+            {
+              "@id": "FL46271836",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46271836",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46271836/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כניסה למערה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46271836",
+                  "label": "כניסה למערה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2342,
+                "width": 3901
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46271835",
+      "@type": "sc:Range",
+      "label": "REP46271835",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46271836",
+          "@type": "sc:Canvas",
+          "label": "כניסה למערה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593792",
+  "viewingHint": "paged"
+}

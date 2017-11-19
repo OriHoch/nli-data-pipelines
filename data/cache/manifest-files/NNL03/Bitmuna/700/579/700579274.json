@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579274/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שלט ליד גבול לפניך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלט ליד גבול לפניך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579274"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579274"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579274/sequence/IE46311820",
+      "@type": "sc:Sequence",
+      "label": "שלט ליד גבול לפניך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311852",
+          "@type": "sc:Canvas",
+          "label": "שלט ליד גבול לפניך",
+          "width": 2853,
+          "height": 1839,
+          "images": [
+            {
+              "@id": "FL46311852",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311852",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311852/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלט ליד גבול לפניך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311852",
+                  "label": "שלט ליד גבול לפניך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1839,
+                "width": 2853
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311851",
+      "@type": "sc:Range",
+      "label": "REP46311851",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311852",
+          "@type": "sc:Canvas",
+          "label": "שלט ליד גבול לפניך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579274",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597296/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל פתח תקוה",
+  "label": "יוסף במשטרת פתח תקווה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יוסף במשטרת פתח תקווה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל פתח תקוה"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597296"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597296"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597296/sequence/IE46297010",
+      "@type": "sc:Sequence",
+      "label": "יוסף במשטרת פתח תקווה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297044",
+          "@type": "sc:Canvas",
+          "label": "יוסף במשטרת פתח תקווה",
+          "width": 2514,
+          "height": 3563,
+          "images": [
+            {
+              "@id": "FL46297044",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297044",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297044/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יוסף במשטרת פתח תקווה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297044",
+                  "label": "יוסף במשטרת פתח תקווה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3563,
+                "width": 2514
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297042",
+      "@type": "sc:Range",
+      "label": "REP46297042",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297044",
+          "@type": "sc:Canvas",
+          "label": "יוסף במשטרת פתח תקווה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597296",
+  "viewingHint": "paged"
+}

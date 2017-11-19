@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גדעונה",
+  "label": "כפר עבודה-אכסניה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כפר עבודה-אכסניה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גדעונה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592897"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592897/sequence/IE46230631",
+      "@type": "sc:Sequence",
+      "label": "כפר עבודה-אכסניה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46230665",
+          "@type": "sc:Canvas",
+          "label": "כפר עבודה-אכסניה",
+          "width": 2613,
+          "height": 4059,
+          "images": [
+            {
+              "@id": "FL46230665",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46230665",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46230665/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כפר עבודה-אכסניה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46230665",
+                  "label": "כפר עבודה-אכסניה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4059,
+                "width": 2613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46230664",
+      "@type": "sc:Range",
+      "label": "REP46230664",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46230665",
+          "@type": "sc:Canvas",
+          "label": "כפר עבודה-אכסניה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592897",
+  "viewingHint": "paged"
+}

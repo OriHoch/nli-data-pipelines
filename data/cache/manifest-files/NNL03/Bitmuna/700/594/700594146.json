@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594146/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נעורה",
+  "label": "שובך יונים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שובך יונים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נעורה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594146"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594146"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594146/sequence/IE46242635",
+      "@type": "sc:Sequence",
+      "label": "שובך יונים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46242657",
+          "@type": "sc:Canvas",
+          "label": "שובך יונים",
+          "width": 3683,
+          "height": 2487,
+          "images": [
+            {
+              "@id": "FL46242657",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46242657",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46242657/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שובך יונים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46242657",
+                  "label": "שובך יונים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2487,
+                "width": 3683
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46242656",
+      "@type": "sc:Range",
+      "label": "REP46242656",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46242657",
+          "@type": "sc:Canvas",
+          "label": "שובך יונים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594146",
+  "viewingHint": "paged"
+}

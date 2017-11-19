@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597509/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נגב מערבי",
+  "label": "הפלוגה מסייעת ברוחמה, ליד המקלע ברזנר (חליל)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הפלוגה מסייעת ברוחמה, ליד המקלע ברזנר (חליל)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597509"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597509"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597509/sequence/IE46318715",
+      "@type": "sc:Sequence",
+      "label": "הפלוגה מסייעת ברוחמה  ליד המקלע ברזנר (חליל)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46318735",
+          "@type": "sc:Canvas",
+          "label": "הפלוגה מסייעת ברוחמה  ליד המקלע ברזנר (חליל)",
+          "width": 3545,
+          "height": 5196,
+          "images": [
+            {
+              "@id": "FL46318735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46318735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46318735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הפלוגה מסייעת ברוחמה  ליד המקלע ברזנר (חליל)",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46318735",
+                  "label": "הפלוגה מסייעת ברוחמה  ליד המקלע ברזנר (חליל)",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5196,
+                "width": 3545
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46318734",
+      "@type": "sc:Range",
+      "label": "REP46318734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46318735",
+          "@type": "sc:Canvas",
+          "label": "הפלוגה מסייעת ברוחמה  ליד המקלע ברזנר (חליל)"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597509",
+  "viewingHint": "paged"
+}

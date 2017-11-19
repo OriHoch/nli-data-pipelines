@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584000/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן",
+  "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור אברהם הרצפלד במועצה אזורית גלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584000"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584000"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584000/sequence/IE46217883",
+      "@type": "sc:Sequence",
+      "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217906",
+          "@type": "sc:Canvas",
+          "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע",
+          "width": 2532,
+          "height": 1535,
+          "images": [
+            {
+              "@id": "FL46217906",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46217906",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46217906/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46217906",
+                  "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1535,
+                "width": 2532
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46217904",
+      "@type": "sc:Range",
+      "label": "REP46217904",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217906",
+          "@type": "sc:Canvas",
+          "label": "ביקור אברהם הרצפלד במועצה אזורית גלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584000",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592867/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל הכפר ברדלה",
+  "label": "שרידים ארכיאולוגים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שרידים ארכיאולוגים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל הכפר ברדלה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592867"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592867"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592867/sequence/IE46229161",
+      "@type": "sc:Sequence",
+      "label": "שרידים ארכיאולוגים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229199",
+          "@type": "sc:Canvas",
+          "label": "שרידים ארכיאולוגים",
+          "width": 3359,
+          "height": 2080,
+          "images": [
+            {
+              "@id": "FL46229199",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46229199",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46229199/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שרידים ארכיאולוגים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46229199",
+                  "label": "שרידים ארכיאולוגים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2080,
+                "width": 3359
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46229192",
+      "@type": "sc:Range",
+      "label": "REP46229192",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229199",
+          "@type": "sc:Canvas",
+          "label": "שרידים ארכיאולוגים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592867",
+  "viewingHint": "paged"
+}

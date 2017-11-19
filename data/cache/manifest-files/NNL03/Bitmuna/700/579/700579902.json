@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579902/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מולדת",
+  "label": "מושב מולדת ליד הצרכניה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מושב מולדת ליד הצרכניה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מולדת"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579902"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579902"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579902/sequence/IE46348036",
+      "@type": "sc:Sequence",
+      "label": "מושב מולדת ליד הצרכניה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348054",
+          "@type": "sc:Canvas",
+          "label": "מושב מולדת ליד הצרכניה",
+          "width": 3116,
+          "height": 1892,
+          "images": [
+            {
+              "@id": "FL46348054",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46348054",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46348054/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מושב מולדת ליד הצרכניה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46348054",
+                  "label": "מושב מולדת ליד הצרכניה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1892,
+                "width": 3116
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46348053",
+      "@type": "sc:Range",
+      "label": "REP46348053",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348054",
+          "@type": "sc:Canvas",
+          "label": "מושב מולדת ליד הצרכניה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579902",
+  "viewingHint": "paged"
+}

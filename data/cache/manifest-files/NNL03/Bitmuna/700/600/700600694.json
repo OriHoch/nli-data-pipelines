@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600694/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "טיול בו היו גם חברים מקיבוץ עברון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול בו היו גם חברים מקיבוץ עברון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600694"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600694"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600694/sequence/IE46303232",
+      "@type": "sc:Sequence",
+      "label": "טיול בו היו גם חברים מקיבוץ עברון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303263",
+          "@type": "sc:Canvas",
+          "label": "טיול בו היו גם חברים מקיבוץ עברון",
+          "width": 4243,
+          "height": 4126,
+          "images": [
+            {
+              "@id": "FL46303263",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46303263",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46303263/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול בו היו גם חברים מקיבוץ עברון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46303263",
+                  "label": "טיול בו היו גם חברים מקיבוץ עברון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4126,
+                "width": 4243
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46303262",
+      "@type": "sc:Range",
+      "label": "REP46303262",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303263",
+          "@type": "sc:Canvas",
+          "label": "טיול בו היו גם חברים מקיבוץ עברון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600694",
+  "viewingHint": "paged"
+}

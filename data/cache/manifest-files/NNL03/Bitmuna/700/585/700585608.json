@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585608/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענך",
+  "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585608"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585608"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585608/sequence/IE46249919",
+      "@type": "sc:Sequence",
+      "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46249945",
+          "@type": "sc:Canvas",
+          "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך",
+          "width": 2008,
+          "height": 3327,
+          "images": [
+            {
+              "@id": "FL46249945",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46249945",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46249945/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46249945",
+                  "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3327,
+                "width": 2008
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46249943",
+      "@type": "sc:Range",
+      "label": "REP46249943",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46249945",
+          "@type": "sc:Canvas",
+          "label": "משלחת ראשי ערים וכפרים מאירן בביקור בחבל תענך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585608",
+  "viewingHint": "paged"
+}

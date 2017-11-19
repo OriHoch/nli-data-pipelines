@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580284/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור הנשיא יצחק בן צבי בעיר בית שאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580284"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580284"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580284/sequence/IE46359090",
+      "@type": "sc:Sequence",
+      "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46359107",
+          "@type": "sc:Canvas",
+          "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן",
+          "width": 3058,
+          "height": 1960,
+          "images": [
+            {
+              "@id": "FL46359107",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46359107",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46359107/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46359107",
+                  "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1960,
+                "width": 3058
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46359106",
+      "@type": "sc:Range",
+      "label": "REP46359106",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46359107",
+          "@type": "sc:Canvas",
+          "label": "ביקור הנשיא יצחק בן צבי בעיר בית שאן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580284",
+  "viewingHint": "paged"
+}

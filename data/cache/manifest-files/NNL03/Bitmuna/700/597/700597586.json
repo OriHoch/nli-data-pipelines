@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597586/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עין חרוד",
+  "label": "בית הילדים עין חרוד 1934-6",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית הילדים עין חרוד 1934-6"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "לוטי באוהר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597586"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597586"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597586/sequence/IE46299866",
+      "@type": "sc:Sequence",
+      "label": "בית הילדים עין חרוד 1934-6",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46299892",
+          "@type": "sc:Canvas",
+          "label": "בית הילדים עין חרוד 1934-6",
+          "width": 4210,
+          "height": 3079,
+          "images": [
+            {
+              "@id": "FL46299892",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46299892",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46299892/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית הילדים עין חרוד 1934-6",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46299892",
+                  "label": "בית הילדים עין חרוד 1934-6",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3079,
+                "width": 4210
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46299890",
+      "@type": "sc:Range",
+      "label": "REP46299890",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46299892",
+          "@type": "sc:Canvas",
+          "label": "בית הילדים עין חרוד 1934-6"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597586",
+  "viewingHint": "paged"
+}

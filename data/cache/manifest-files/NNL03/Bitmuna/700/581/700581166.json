@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581166/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "מפעל מזון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפעל מזון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581166"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581166"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581166/sequence/IE46358480",
+      "@type": "sc:Sequence",
+      "label": "מפעל מזון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46358490",
+          "@type": "sc:Canvas",
+          "label": "מפעל מזון",
+          "width": 2724,
+          "height": 4351,
+          "images": [
+            {
+              "@id": "FL46358490",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46358490",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46358490/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפעל מזון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46358490",
+                  "label": "מפעל מזון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4351,
+                "width": 2724
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46358487",
+      "@type": "sc:Range",
+      "label": "REP46358487",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46358490",
+          "@type": "sc:Canvas",
+          "label": "מפעל מזון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581166",
+  "viewingHint": "paged"
+}

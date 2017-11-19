@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593581/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ענין",
+  "label": "מבט לעבר תענך ותל תענך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבט לעבר תענך ותל תענך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ענין"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593581"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593581"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593581/sequence/IE46262385",
+      "@type": "sc:Sequence",
+      "label": "מבט לעבר תענך ותל תענך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262421",
+          "@type": "sc:Canvas",
+          "label": "מבט לעבר תענך ותל תענך",
+          "width": 3533,
+          "height": 2116,
+          "images": [
+            {
+              "@id": "FL46262421",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46262421",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46262421/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבט לעבר תענך ותל תענך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46262421",
+                  "label": "מבט לעבר תענך ותל תענך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2116,
+                "width": 3533
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46262420",
+      "@type": "sc:Range",
+      "label": "REP46262420",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262421",
+          "@type": "sc:Canvas",
+          "label": "מבט לעבר תענך ותל תענך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593581",
+  "viewingHint": "paged"
+}

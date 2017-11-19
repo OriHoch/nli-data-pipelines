@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600274/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל הכנרת",
+  "label": "יצחק שדה, טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יצחק שדה, טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל הכנרת"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600274"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600274"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600274/sequence/IE46308652",
+      "@type": "sc:Sequence",
+      "label": "יצחק שדה  טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308679",
+          "@type": "sc:Canvas",
+          "label": "יצחק שדה  טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה",
+          "width": 2449,
+          "height": 3700,
+          "images": [
+            {
+              "@id": "FL46308679",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308679",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308679/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יצחק שדה  טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308679",
+                  "label": "יצחק שדה  טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3700,
+                "width": 2449
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308677",
+      "@type": "sc:Range",
+      "label": "REP46308677",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308679",
+          "@type": "sc:Canvas",
+          "label": "יצחק שדה  טבחה יום כיפור 1928 עם קטה יושבת על כתפיו ואשתו השנייה זהבה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600274",
+  "viewingHint": "paged"
+}

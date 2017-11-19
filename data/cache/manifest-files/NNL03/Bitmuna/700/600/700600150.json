@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600150/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "מתאספים לחנוכת מכון השאיבה השני 1947",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מתאספים לחנוכת מכון השאיבה השני 1947"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600150"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1947"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600150"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600150/sequence/IE46303840",
+      "@type": "sc:Sequence",
+      "label": "מתאספים לחנוכת מכון השאיבה השני 1947",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303859",
+          "@type": "sc:Canvas",
+          "label": "מתאספים לחנוכת מכון השאיבה השני 1947",
+          "width": 3964,
+          "height": 2624,
+          "images": [
+            {
+              "@id": "FL46303859",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46303859",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46303859/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מתאספים לחנוכת מכון השאיבה השני 1947",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46303859",
+                  "label": "מתאספים לחנוכת מכון השאיבה השני 1947",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2624,
+                "width": 3964
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46303858",
+      "@type": "sc:Range",
+      "label": "REP46303858",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303859",
+          "@type": "sc:Canvas",
+          "label": "מתאספים לחנוכת מכון השאיבה השני 1947"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600150",
+  "viewingHint": "paged"
+}

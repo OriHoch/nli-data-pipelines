@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593427/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענך",
+  "label": "מתקן הטיית הקישון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מתקן הטיית הקישון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593427"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593427"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593427/sequence/IE46255551",
+      "@type": "sc:Sequence",
+      "label": "מתקן הטיית הקישון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255584",
+          "@type": "sc:Canvas",
+          "label": "מתקן הטיית הקישון",
+          "width": 3778,
+          "height": 2461,
+          "images": [
+            {
+              "@id": "FL46255584",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46255584",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46255584/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מתקן הטיית הקישון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46255584",
+                  "label": "מתקן הטיית הקישון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2461,
+                "width": 3778
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46255583",
+      "@type": "sc:Range",
+      "label": "REP46255583",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46255584",
+          "@type": "sc:Canvas",
+          "label": "מתקן הטיית הקישון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593427",
+  "viewingHint": "paged"
+}

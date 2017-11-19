@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601129/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "רומניה",
+  "label": "גלילה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גלילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "רומניה"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601129"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601129"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601129/sequence/IE46307879",
+      "@type": "sc:Sequence",
+      "label": "גלילה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307908",
+          "@type": "sc:Canvas",
+          "label": "גלילה",
+          "width": 2544,
+          "height": 3868,
+          "images": [
+            {
+              "@id": "FL46307908",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46307908",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46307908/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גלילה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46307908",
+                  "label": "גלילה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3868,
+                "width": 2544
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46307906",
+      "@type": "sc:Range",
+      "label": "REP46307906",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307908",
+          "@type": "sc:Canvas",
+          "label": "גלילה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601129",
+  "viewingHint": "paged"
+}

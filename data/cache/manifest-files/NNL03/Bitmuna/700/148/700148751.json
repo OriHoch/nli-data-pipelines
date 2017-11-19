@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148751/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "אקצין, בנימין",
+  "label": "ישיבת הנהלת האוניברסיטה העברית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישיבת הנהלת האוניברסיטה העברית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "אקצין, בנימין",
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148751"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148751"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148751/sequence/IE6402237",
+      "@type": "sc:Sequence",
+      "label": "ישיבת הנהלת האוניברסיטה העברית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393817",
+          "@type": "sc:Canvas",
+          "label": "ישיבת הנהלת האוניברסיטה העברית",
+          "width": 778,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10393817",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10393817",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10393817/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ישיבת הנהלת האוניברסיטה העברית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10393817",
+                  "label": "ישיבת הנהלת האוניברסיטה העברית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 778
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10393816",
+      "@type": "sc:Range",
+      "label": "REP10393816",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393817",
+          "@type": "sc:Canvas",
+          "label": "ישיבת הנהלת האוניברסיטה העברית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148751",
+  "viewingHint": "paged"
+}

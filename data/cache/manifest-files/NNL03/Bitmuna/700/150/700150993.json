@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700150993/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "איראן",
+  "label": "גלויה מפרס-איראן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גלויה מפרס-איראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "איראן"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף יעני אבידב"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700150993"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700150993"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700150993/sequence/IE6409617",
+      "@type": "sc:Sequence",
+      "label": "גלויה מפרס-איראן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10398321",
+          "@type": "sc:Canvas",
+          "label": " גלויה מפרס-איראן",
+          "width": 510,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10398321",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10398321",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10398321/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " גלויה מפרס-איראן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10398321",
+                  "label": " גלויה מפרס-איראן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 510
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10398320",
+      "@type": "sc:Range",
+      "label": "REP10398320",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10398321",
+          "@type": "sc:Canvas",
+          "label": " גלויה מפרס-איראן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700150993",
+  "viewingHint": "paged"
+}

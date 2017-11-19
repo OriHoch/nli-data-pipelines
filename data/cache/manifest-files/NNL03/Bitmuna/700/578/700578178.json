@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578178/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "רישום ממצאים ארכיאולוגים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רישום ממצאים ארכיאולוגים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578178"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578178"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578178/sequence/IE46331664",
+      "@type": "sc:Sequence",
+      "label": "רישום ממצאים ארכיאולוגים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46331686",
+          "@type": "sc:Canvas",
+          "label": "רישום ממצאים ארכיאולוגים",
+          "width": 2863,
+          "height": 1812,
+          "images": [
+            {
+              "@id": "FL46331686",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46331686",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46331686/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רישום ממצאים ארכיאולוגים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46331686",
+                  "label": "רישום ממצאים ארכיאולוגים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1812,
+                "width": 2863
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46331684",
+      "@type": "sc:Range",
+      "label": "REP46331684",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46331686",
+          "@type": "sc:Canvas",
+          "label": "רישום ממצאים ארכיאולוגים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578178",
+  "viewingHint": "paged"
+}

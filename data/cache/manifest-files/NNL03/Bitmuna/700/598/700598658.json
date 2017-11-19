@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598658/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "חנה אשתו של עמרם עם הוריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנה אשתו של עמרם עם הוריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598658"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598658"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598658/sequence/IE46278607",
+      "@type": "sc:Sequence",
+      "label": "חנה אשתו של עמרם עם הוריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278644",
+          "@type": "sc:Canvas",
+          "label": "חנה אשתו של עמרם עם הוריה",
+          "width": 2248,
+          "height": 3340,
+          "images": [
+            {
+              "@id": "FL46278644",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46278644",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46278644/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנה אשתו של עמרם עם הוריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46278644",
+                  "label": "חנה אשתו של עמרם עם הוריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3340,
+                "width": 2248
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46278643",
+      "@type": "sc:Range",
+      "label": "REP46278643",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278644",
+          "@type": "sc:Canvas",
+          "label": "חנה אשתו של עמרם עם הוריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598658",
+  "viewingHint": "paged"
+}

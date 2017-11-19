@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597986/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597986"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597986"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597986/sequence/IE46309949",
+      "@type": "sc:Sequence",
+      "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309977",
+          "@type": "sc:Canvas",
+          "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני",
+          "width": 4469,
+          "height": 2784,
+          "images": [
+            {
+              "@id": "FL46309977",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309977",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309977/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309977",
+                  "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2784,
+                "width": 4469
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309974",
+      "@type": "sc:Range",
+      "label": "REP46309974",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309977",
+          "@type": "sc:Canvas",
+          "label": "קבוצת הילדים (כתה ג') שחינכה שושנה אלוני"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597986",
+  "viewingHint": "paged"
+}

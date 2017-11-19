@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593818/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "טקס זכרון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טקס זכרון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593818"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593818"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593818/sequence/IE46272962",
+      "@type": "sc:Sequence",
+      "label": "טקס זכרון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272994",
+          "@type": "sc:Canvas",
+          "label": "טקס זכרון",
+          "width": 2064,
+          "height": 3416,
+          "images": [
+            {
+              "@id": "FL46272994",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46272994",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46272994/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טקס זכרון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46272994",
+                  "label": "טקס זכרון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3416,
+                "width": 2064
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46272992",
+      "@type": "sc:Range",
+      "label": "REP46272992",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272994",
+          "@type": "sc:Canvas",
+          "label": "טקס זכרון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593818",
+  "viewingHint": "paged"
+}

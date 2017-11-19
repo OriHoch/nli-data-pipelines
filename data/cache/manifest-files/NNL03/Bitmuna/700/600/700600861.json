@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600861/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מצרים",
+  "label": "מראות מסיורים במצרים 1944",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מראות מסיורים במצרים 1944"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מצרים"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600861"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600861"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600861/sequence/IE46305479",
+      "@type": "sc:Sequence",
+      "label": "מראות מסיורים במצרים 1944",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305501",
+          "@type": "sc:Canvas",
+          "label": "מראות מסיורים במצרים 1944",
+          "width": 2969,
+          "height": 5214,
+          "images": [
+            {
+              "@id": "FL46305501",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46305501",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46305501/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מראות מסיורים במצרים 1944",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46305501",
+                  "label": "מראות מסיורים במצרים 1944",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5214,
+                "width": 2969
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46305500",
+      "@type": "sc:Range",
+      "label": "REP46305500",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305501",
+          "@type": "sc:Canvas",
+          "label": "מראות מסיורים במצרים 1944"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600861",
+  "viewingHint": "paged"
+}

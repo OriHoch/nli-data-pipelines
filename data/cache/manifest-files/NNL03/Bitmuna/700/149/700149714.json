@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149714/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "הירדן",
+  "label": "הגשר על מוצא הירדן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הגשר על מוצא הירדן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "הירדן",
+        "ארץ ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149714"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149714"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149714/sequence/IE6403323",
+      "@type": "sc:Sequence",
+      "label": "הגשר על מוצא הירדן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393516",
+          "@type": "sc:Canvas",
+          "label": " הגשר על מוצא הירדן",
+          "width": 800,
+          "height": 566,
+          "images": [
+            {
+              "@id": "FL10393516",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10393516",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10393516/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " הגשר על מוצא הירדן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10393516",
+                  "label": " הגשר על מוצא הירדן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 566,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10393514",
+      "@type": "sc:Range",
+      "label": "REP10393514",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393516",
+          "@type": "sc:Canvas",
+          "label": " הגשר על מוצא הירדן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149714",
+  "viewingHint": "paged"
+}

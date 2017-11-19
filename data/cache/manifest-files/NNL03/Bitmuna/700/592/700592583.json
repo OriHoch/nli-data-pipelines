@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592583/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בית אלפא-חפציבה מהגלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית אלפא-חפציבה מהגלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592583"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592583"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592583/sequence/IE46262017",
+      "@type": "sc:Sequence",
+      "label": "בית אלפא-חפציבה מהגלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262058",
+          "@type": "sc:Canvas",
+          "label": "בית אלפא-חפציבה מהגלבוע",
+          "width": 3985,
+          "height": 2650,
+          "images": [
+            {
+              "@id": "FL46262058",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46262058",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46262058/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית אלפא-חפציבה מהגלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46262058",
+                  "label": "בית אלפא-חפציבה מהגלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2650,
+                "width": 3985
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46262057",
+      "@type": "sc:Range",
+      "label": "REP46262057",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262058",
+          "@type": "sc:Canvas",
+          "label": "בית אלפא-חפציבה מהגלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592583",
+  "viewingHint": "paged"
+}

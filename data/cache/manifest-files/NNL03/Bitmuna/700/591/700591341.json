@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591341/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הכפר בית קד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכפר בית קד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591341"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591341"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591341/sequence/IE46254463",
+      "@type": "sc:Sequence",
+      "label": "הכפר בית קד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254490",
+          "@type": "sc:Canvas",
+          "label": "הכפר בית קד",
+          "width": 3028,
+          "height": 1840,
+          "images": [
+            {
+              "@id": "FL46254490",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254490",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254490/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכפר בית קד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254490",
+                  "label": "הכפר בית קד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1840,
+                "width": 3028
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254488",
+      "@type": "sc:Range",
+      "label": "REP46254488",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254490",
+          "@type": "sc:Canvas",
+          "label": "הכפר בית קד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591341",
+  "viewingHint": "paged"
+}

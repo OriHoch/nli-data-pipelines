@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582448/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק חרוד",
+  "label": "כנס נוטעים וגננים בבית שטורמן דצמבר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנס נוטעים וגננים בבית שטורמן דצמבר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582448"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582448"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582448/sequence/IE46334238",
+      "@type": "sc:Sequence",
+      "label": "כנס נוטעים וגננים בבית שטורמן דצמבר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46334257",
+          "@type": "sc:Canvas",
+          "label": "כנס נוטעים וגננים בבית שטורמן דצמבר",
+          "width": 3050,
+          "height": 2045,
+          "images": [
+            {
+              "@id": "FL46334257",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46334257",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46334257/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנס נוטעים וגננים בבית שטורמן דצמבר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46334257",
+                  "label": "כנס נוטעים וגננים בבית שטורמן דצמבר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2045,
+                "width": 3050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46334255",
+      "@type": "sc:Range",
+      "label": "REP46334255",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46334257",
+          "@type": "sc:Canvas",
+          "label": "כנס נוטעים וגננים בבית שטורמן דצמבר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582448",
+  "viewingHint": "paged"
+}

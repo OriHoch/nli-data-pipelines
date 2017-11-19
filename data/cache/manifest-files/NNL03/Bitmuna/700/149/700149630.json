@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149630/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "יום הולדת לתמי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יום הולדת לתמי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149630"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149630"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149630/sequence/IE6405279",
+      "@type": "sc:Sequence",
+      "label": "יום הולדת לתמי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397041",
+          "@type": "sc:Canvas",
+          "label": "יום הולדת לתמי",
+          "width": 800,
+          "height": 795,
+          "images": [
+            {
+              "@id": "FL10397041",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10397041",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10397041/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יום הולדת לתמי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10397041",
+                  "label": "יום הולדת לתמי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 795,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10397040",
+      "@type": "sc:Range",
+      "label": "REP10397040",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397041",
+          "@type": "sc:Canvas",
+          "label": "יום הולדת לתמי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149630",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597941/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מבנה באזור קיבוץ צהלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבנה באזור קיבוץ צהלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597941"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597941"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597941/sequence/IE46308048",
+      "@type": "sc:Sequence",
+      "label": "מבנה באזור קיבוץ צהלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308083",
+          "@type": "sc:Canvas",
+          "label": "מבנה באזור קיבוץ צהלים",
+          "width": 5705,
+          "height": 3439,
+          "images": [
+            {
+              "@id": "FL46308083",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308083",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308083/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבנה באזור קיבוץ צהלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308083",
+                  "label": "מבנה באזור קיבוץ צהלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3439,
+                "width": 5705
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308082",
+      "@type": "sc:Range",
+      "label": "REP46308082",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308083",
+          "@type": "sc:Canvas",
+          "label": "מבנה באזור קיבוץ צהלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597941",
+  "viewingHint": "paged"
+}

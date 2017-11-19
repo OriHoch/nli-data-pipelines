@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590081/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב רם-און, חבל תענך",
+  "label": "טרקטור מוביל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טרקטור מוביל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב רם-און, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590081"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590081"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590081/sequence/IE46258155",
+      "@type": "sc:Sequence",
+      "label": "טרקטור מוביל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258185",
+          "@type": "sc:Canvas",
+          "label": "טרקטור מוביל",
+          "width": 3966,
+          "height": 2583,
+          "images": [
+            {
+              "@id": "FL46258185",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46258185",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46258185/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טרקטור מוביל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46258185",
+                  "label": "טרקטור מוביל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2583,
+                "width": 3966
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46258184",
+      "@type": "sc:Range",
+      "label": "REP46258184",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258185",
+          "@type": "sc:Canvas",
+          "label": "טרקטור מוביל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590081",
+  "viewingHint": "paged"
+}

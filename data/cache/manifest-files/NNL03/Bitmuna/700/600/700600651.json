@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600651/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עברון",
+  "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עברון"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600651"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600651"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600651/sequence/IE46301640",
+      "@type": "sc:Sequence",
+      "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301659",
+          "@type": "sc:Canvas",
+          "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946",
+          "width": 6800,
+          "height": 3632,
+          "images": [
+            {
+              "@id": "FL46301659",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46301659",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46301659/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46301659",
+                  "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3632,
+                "width": 6800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46301658",
+      "@type": "sc:Range",
+      "label": "REP46301658",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301659",
+          "@type": "sc:Canvas",
+          "label": "הציור של יוסף ולטר שהוצג לראשונה בשנת העליה לקרקע 1946"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600651",
+  "viewingHint": "paged"
+}

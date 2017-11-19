@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596229/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "קבוצת הצופים של קורט בגרמניה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קבוצת הצופים של קורט בגרמניה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "ברכה אביגד"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596229"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596229"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596229/sequence/IE46315192",
+      "@type": "sc:Sequence",
+      "label": "קבוצת הצופים של קורט בגרמניה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315229",
+          "@type": "sc:Canvas",
+          "label": "קבוצת הצופים של קורט בגרמניה",
+          "width": 2296,
+          "height": 3363,
+          "images": [
+            {
+              "@id": "FL46315229",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315229",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315229/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קבוצת הצופים של קורט בגרמניה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315229",
+                  "label": "קבוצת הצופים של קורט בגרמניה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3363,
+                "width": 2296
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315228",
+      "@type": "sc:Range",
+      "label": "REP46315228",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315229",
+          "@type": "sc:Canvas",
+          "label": "קבוצת הצופים של קורט בגרמניה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596229",
+  "viewingHint": "paged"
+}

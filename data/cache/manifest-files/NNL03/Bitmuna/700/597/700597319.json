@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597319/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל שאטה",
+  "label": "יוסף גורי במשטרת שאטה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יוסף גורי במשטרת שאטה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל שאטה"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597319"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597319"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597319/sequence/IE46297806",
+      "@type": "sc:Sequence",
+      "label": "יוסף גורי במשטרת שאטה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297834",
+          "@type": "sc:Canvas",
+          "label": "יוסף גורי במשטרת שאטה",
+          "width": 4569,
+          "height": 3279,
+          "images": [
+            {
+              "@id": "FL46297834",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297834",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297834/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יוסף גורי במשטרת שאטה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297834",
+                  "label": "יוסף גורי במשטרת שאטה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3279,
+                "width": 4569
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297833",
+      "@type": "sc:Range",
+      "label": "REP46297833",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297834",
+          "@type": "sc:Canvas",
+          "label": "יוסף גורי במשטרת שאטה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597319",
+  "viewingHint": "paged"
+}

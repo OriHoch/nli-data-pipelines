@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593796/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רמת אביב ת\"א",
+  "label": "בתערוכת צה\"ל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בתערוכת צה\"ל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רמת אביב ת\"א"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593796"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593796"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593796/sequence/IE46271989",
+      "@type": "sc:Sequence",
+      "label": "בתערוכת צה\"ל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272015",
+          "@type": "sc:Canvas",
+          "label": "בתערוכת צה\"ל",
+          "width": 3901,
+          "height": 2408,
+          "images": [
+            {
+              "@id": "FL46272015",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46272015",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46272015/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בתערוכת צה\"ל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46272015",
+                  "label": "בתערוכת צה\"ל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2408,
+                "width": 3901
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46272014",
+      "@type": "sc:Range",
+      "label": "REP46272014",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46272015",
+          "@type": "sc:Canvas",
+          "label": "בתערוכת צה\"ל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593796",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585682/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חנוכת הפארק הלאומי במעין חרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנוכת הפארק הלאומי במעין חרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585682"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585682"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585682/sequence/IE46253466",
+      "@type": "sc:Sequence",
+      "label": "חנוכת הפארק הלאומי במעין חרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46253495",
+          "@type": "sc:Canvas",
+          "label": "חנוכת הפארק הלאומי במעין חרוד",
+          "width": 2947,
+          "height": 1770,
+          "images": [
+            {
+              "@id": "FL46253495",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46253495",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46253495/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנוכת הפארק הלאומי במעין חרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46253495",
+                  "label": "חנוכת הפארק הלאומי במעין חרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1770,
+                "width": 2947
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46253494",
+      "@type": "sc:Range",
+      "label": "REP46253494",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46253495",
+          "@type": "sc:Canvas",
+          "label": "חנוכת הפארק הלאומי במעין חרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585682",
+  "viewingHint": "paged"
+}

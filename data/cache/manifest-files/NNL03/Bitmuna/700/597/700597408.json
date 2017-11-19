@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597408/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נגב מערבי",
+  "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597408"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597408"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597408/sequence/IE46315590",
+      "@type": "sc:Sequence",
+      "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315609",
+          "@type": "sc:Canvas",
+          "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה",
+          "width": 2481,
+          "height": 4008,
+          "images": [
+            {
+              "@id": "FL46315609",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315609",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315609/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315609",
+                  "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4008,
+                "width": 2481
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315607",
+      "@type": "sc:Range",
+      "label": "REP46315607",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315609",
+          "@type": "sc:Canvas",
+          "label": "צד הצפוני של כפר דרום באופק מחנות הבריטים ברצועה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597408",
+  "viewingHint": "paged"
+}

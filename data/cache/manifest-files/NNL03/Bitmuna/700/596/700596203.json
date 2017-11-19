@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596203/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "חצר המשק במחנה עליית הנוער",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חצר המשק במחנה עליית הנוער"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ברכה אביגד"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596203"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596203"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596203/sequence/IE46314101",
+      "@type": "sc:Sequence",
+      "label": "חצר המשק במחנה עליית הנוער",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314125",
+          "@type": "sc:Canvas",
+          "label": "חצר המשק במחנה עליית הנוער",
+          "width": 3267,
+          "height": 2448,
+          "images": [
+            {
+              "@id": "FL46314125",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314125",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314125/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חצר המשק במחנה עליית הנוער",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314125",
+                  "label": "חצר המשק במחנה עליית הנוער",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2448,
+                "width": 3267
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314122",
+      "@type": "sc:Range",
+      "label": "REP46314122",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314125",
+          "@type": "sc:Canvas",
+          "label": "חצר המשק במחנה עליית הנוער"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596203",
+  "viewingHint": "paged"
+}

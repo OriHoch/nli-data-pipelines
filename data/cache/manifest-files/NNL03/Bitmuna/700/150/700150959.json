@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700150959/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "אירופה",
+  "label": "יעני ושריק אורי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יעני ושריק אורי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "אירופה"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף יעני אבידב"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700150959"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700150959"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700150959/sequence/IE6413274",
+      "@type": "sc:Sequence",
+      "label": "יעני ושריק אורי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10401759",
+          "@type": "sc:Canvas",
+          "label": "יעני ושריק אורי",
+          "width": 654,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10401759",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10401759",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10401759/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יעני ושריק אורי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10401759",
+                  "label": "יעני ושריק אורי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 654
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10401758",
+      "@type": "sc:Range",
+      "label": "REP10401758",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10401759",
+          "@type": "sc:Canvas",
+          "label": "יעני ושריק אורי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700150959",
+  "viewingHint": "paged"
+}

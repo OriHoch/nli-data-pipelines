@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600365/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "פנחס רוזנבליט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פנחס רוזנבליט"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600365"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600365"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600365/sequence/IE46311890",
+      "@type": "sc:Sequence",
+      "label": "פנחס רוזנבליט",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311916",
+          "@type": "sc:Canvas",
+          "label": "פנחס רוזנבליט",
+          "width": 3139,
+          "height": 4746,
+          "images": [
+            {
+              "@id": "FL46311916",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311916",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311916/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פנחס רוזנבליט",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311916",
+                  "label": "פנחס רוזנבליט",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4746,
+                "width": 3139
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311915",
+      "@type": "sc:Range",
+      "label": "REP46311915",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311916",
+          "@type": "sc:Canvas",
+          "label": "פנחס רוזנבליט"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600365",
+  "viewingHint": "paged"
+}

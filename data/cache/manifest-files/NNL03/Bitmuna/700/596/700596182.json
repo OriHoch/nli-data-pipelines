@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596182/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "גוסטה עם אחותה רבקה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גוסטה עם אחותה רבקה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "ברכה אביגד"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596182"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596182"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596182/sequence/IE46313208",
+      "@type": "sc:Sequence",
+      "label": "גוסטה עם אחותה רבקה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46313238",
+          "@type": "sc:Canvas",
+          "label": "גוסטה עם אחותה רבקה",
+          "width": 3377,
+          "height": 5457,
+          "images": [
+            {
+              "@id": "FL46313238",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46313238",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46313238/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גוסטה עם אחותה רבקה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46313238",
+                  "label": "גוסטה עם אחותה רבקה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5457,
+                "width": 3377
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46313237",
+      "@type": "sc:Range",
+      "label": "REP46313237",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46313238",
+          "@type": "sc:Canvas",
+          "label": "גוסטה עם אחותה רבקה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596182",
+  "viewingHint": "paged"
+}

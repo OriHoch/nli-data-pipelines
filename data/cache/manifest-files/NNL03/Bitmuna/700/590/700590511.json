@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590511/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל דבורה, חבל תענך",
+  "label": "טרקטורים של דוד יפלח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טרקטורים של דוד יפלח"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל דבורה, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590511"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590511"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590511/sequence/IE46274987",
+      "@type": "sc:Sequence",
+      "label": "טרקטורים של דוד יפלח",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46275015",
+          "@type": "sc:Canvas",
+          "label": "טרקטורים של דוד יפלח",
+          "width": 3910,
+          "height": 2398,
+          "images": [
+            {
+              "@id": "FL46275015",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46275015",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46275015/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טרקטורים של דוד יפלח",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46275015",
+                  "label": "טרקטורים של דוד יפלח",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2398,
+                "width": 3910
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46275014",
+      "@type": "sc:Range",
+      "label": "REP46275014",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46275015",
+          "@type": "sc:Canvas",
+          "label": "טרקטורים של דוד יפלח"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590511",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית יוסף",
+  "label": "בית יוסף חנוכת בית הכנסת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית יוסף חנוכת בית הכנסת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580988/sequence/IE46354637",
+      "@type": "sc:Sequence",
+      "label": "בית יוסף חנוכת בית הכנסת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46354652",
+          "@type": "sc:Canvas",
+          "label": "בית יוסף חנוכת בית הכנסת",
+          "width": 1757,
+          "height": 2940,
+          "images": [
+            {
+              "@id": "FL46354652",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46354652",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46354652/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית יוסף חנוכת בית הכנסת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46354652",
+                  "label": "בית יוסף חנוכת בית הכנסת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2940,
+                "width": 1757
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46354651",
+      "@type": "sc:Range",
+      "label": "REP46354651",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46354652",
+          "@type": "sc:Canvas",
+          "label": "בית יוסף חנוכת בית הכנסת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580988",
+  "viewingHint": "paged"
+}

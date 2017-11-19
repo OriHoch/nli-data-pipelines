@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579363/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פתיחת מגרש הכדור סל בעין חרוד מאוחד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579363"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579363"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579363/sequence/IE46315615",
+      "@type": "sc:Sequence",
+      "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315651",
+          "@type": "sc:Canvas",
+          "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד",
+          "width": 1699,
+          "height": 2906,
+          "images": [
+            {
+              "@id": "FL46315651",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315651",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315651/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315651",
+                  "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2906,
+                "width": 1699
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315646",
+      "@type": "sc:Range",
+      "label": "REP46315646",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315651",
+          "@type": "sc:Canvas",
+          "label": "פתיחת מגרש הכדור סל בעין חרוד מאוחד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579363",
+  "viewingHint": "paged"
+}

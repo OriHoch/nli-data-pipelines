@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600354/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "פאני רוזנבליט אמו של יוסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פאני רוזנבליט אמו של יוסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600354"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600354"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600354/sequence/IE46311515",
+      "@type": "sc:Sequence",
+      "label": "פאני רוזנבליט אמו של יוסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311541",
+          "@type": "sc:Canvas",
+          "label": "פאני רוזנבליט אמו של יוסף",
+          "width": 1972,
+          "height": 3121,
+          "images": [
+            {
+              "@id": "FL46311541",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311541",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311541/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פאני רוזנבליט אמו של יוסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311541",
+                  "label": "פאני רוזנבליט אמו של יוסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3121,
+                "width": 1972
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311540",
+      "@type": "sc:Range",
+      "label": "REP46311540",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311541",
+          "@type": "sc:Canvas",
+          "label": "פאני רוזנבליט אמו של יוסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600354",
+  "viewingHint": "paged"
+}

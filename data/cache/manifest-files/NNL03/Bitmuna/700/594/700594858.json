@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594858/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "חצר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חצר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594858"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594858"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594858/sequence/IE46217503",
+      "@type": "sc:Sequence",
+      "label": "חצר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217521",
+          "@type": "sc:Canvas",
+          "label": "חצר",
+          "width": 3622,
+          "height": 2236,
+          "images": [
+            {
+              "@id": "FL46217521",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46217521",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46217521/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חצר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46217521",
+                  "label": "חצר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2236,
+                "width": 3622
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46217520",
+      "@type": "sc:Range",
+      "label": "REP46217520",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217521",
+          "@type": "sc:Canvas",
+          "label": "חצר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594858",
+  "viewingHint": "paged"
+}

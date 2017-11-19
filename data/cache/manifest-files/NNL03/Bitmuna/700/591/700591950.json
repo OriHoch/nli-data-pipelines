@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591950/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "מצבת זכרון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצבת זכרון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591950"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591950"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591950/sequence/IE46232684",
+      "@type": "sc:Sequence",
+      "label": "מצבת זכרון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232702",
+          "@type": "sc:Canvas",
+          "label": "מצבת זכרון",
+          "width": 3416,
+          "height": 2303,
+          "images": [
+            {
+              "@id": "FL46232702",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46232702",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46232702/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצבת זכרון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46232702",
+                  "label": "מצבת זכרון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2303,
+                "width": 3416
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46232700",
+      "@type": "sc:Range",
+      "label": "REP46232700",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232702",
+          "@type": "sc:Canvas",
+          "label": "מצבת זכרון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591950",
+  "viewingHint": "paged"
+}

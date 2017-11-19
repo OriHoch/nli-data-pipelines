@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579749/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שלט הכניסה לבריכת הסחנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלט הכניסה לבריכת הסחנה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579749"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579749"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579749/sequence/IE46344187",
+      "@type": "sc:Sequence",
+      "label": "שלט הכניסה לבריכת הסחנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46344208",
+          "@type": "sc:Canvas",
+          "label": "שלט הכניסה לבריכת הסחנה",
+          "width": 3116,
+          "height": 2045,
+          "images": [
+            {
+              "@id": "FL46344208",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46344208",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46344208/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלט הכניסה לבריכת הסחנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46344208",
+                  "label": "שלט הכניסה לבריכת הסחנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2045,
+                "width": 3116
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46344207",
+      "@type": "sc:Range",
+      "label": "REP46344207",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46344208",
+          "@type": "sc:Canvas",
+          "label": "שלט הכניסה לבריכת הסחנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579749",
+  "viewingHint": "paged"
+}

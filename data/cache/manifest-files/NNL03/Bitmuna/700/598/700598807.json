@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598807/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598807"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598807"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598807/sequence/IE46286752",
+      "@type": "sc:Sequence",
+      "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286805",
+          "@type": "sc:Canvas",
+          "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום",
+          "width": 2778,
+          "height": 3778,
+          "images": [
+            {
+              "@id": "FL46286805",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46286805",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46286805/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46286805",
+                  "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3778,
+                "width": 2778
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46286804",
+      "@type": "sc:Range",
+      "label": "REP46286804",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286805",
+          "@type": "sc:Canvas",
+          "label": "רמי הרצברגר ורות (קסטנבאום) הרצברגר קסטנבאום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598807",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600070/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "קציר ירק לרםת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קציר ירק לרםת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600070"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600070"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600070/sequence/IE46300939",
+      "@type": "sc:Sequence",
+      "label": "קציר ירק לרםת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46300959",
+          "@type": "sc:Canvas",
+          "label": "קציר ירק לרםת",
+          "width": 5226,
+          "height": 3945,
+          "images": [
+            {
+              "@id": "FL46300959",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46300959",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46300959/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קציר ירק לרםת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46300959",
+                  "label": "קציר ירק לרםת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3945,
+                "width": 5226
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46300958",
+      "@type": "sc:Range",
+      "label": "REP46300958",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46300959",
+          "@type": "sc:Canvas",
+          "label": "קציר ירק לרםת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600070",
+  "viewingHint": "paged"
+}

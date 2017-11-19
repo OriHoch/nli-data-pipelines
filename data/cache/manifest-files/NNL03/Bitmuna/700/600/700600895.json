@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600895/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מצרים",
+  "label": "מצרים 1944, חביבה רייק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצרים 1944, חביבה רייק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מצרים"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600895"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600895"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600895/sequence/IE46306498",
+      "@type": "sc:Sequence",
+      "label": "מצרים 1944  חביבה רייק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306526",
+          "@type": "sc:Canvas",
+          "label": "מצרים 1944  חביבה רייק",
+          "width": 2294,
+          "height": 3780,
+          "images": [
+            {
+              "@id": "FL46306526",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46306526",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46306526/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצרים 1944  חביבה רייק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46306526",
+                  "label": "מצרים 1944  חביבה רייק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3780,
+                "width": 2294
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46306525",
+      "@type": "sc:Range",
+      "label": "REP46306525",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306526",
+          "@type": "sc:Canvas",
+          "label": "מצרים 1944  חביבה רייק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600895",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700141974/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מושבה הרטוב ובית החרושת למלט \"שמשון\"",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מושבה הרטוב ובית החרושת למלט \"שמשון\""
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "הרטוב"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700141974"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700141974"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700141974/sequence/IE6379350",
+      "@type": "sc:Sequence",
+      "label": "מושבה הרטוב ובית החרושת למלט \"שמשון\"",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10378234",
+          "@type": "sc:Canvas",
+          "label": "מושבה הרטוב ובית החרושת למלט שמשון",
+          "width": 785,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10378234",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10378234",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10378234/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מושבה הרטוב ובית החרושת למלט שמשון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10378234",
+                  "label": "מושבה הרטוב ובית החרושת למלט שמשון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 785
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10378233",
+      "@type": "sc:Range",
+      "label": "REP10378233",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10378234",
+          "@type": "sc:Canvas",
+          "label": "מושבה הרטוב ובית החרושת למלט שמשון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700141974",
+  "viewingHint": "paged"
+}

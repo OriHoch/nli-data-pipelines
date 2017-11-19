@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580430/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "ילדים במשמרת בטיחות בבית שאן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ילדים במשמרת בטיחות בבית שאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580430"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580430"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580430/sequence/IE46362579",
+      "@type": "sc:Sequence",
+      "label": "ילדים במשמרת בטיחות בבית שאן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46362602",
+          "@type": "sc:Canvas",
+          "label": "ילדים במשמרת בטיחות בבית שאן",
+          "width": 2920,
+          "height": 1893,
+          "images": [
+            {
+              "@id": "FL46362602",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46362602",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46362602/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ילדים במשמרת בטיחות בבית שאן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46362602",
+                  "label": "ילדים במשמרת בטיחות בבית שאן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1893,
+                "width": 2920
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46362601",
+      "@type": "sc:Range",
+      "label": "REP46362601",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46362602",
+          "@type": "sc:Canvas",
+          "label": "ילדים במשמרת בטיחות בבית שאן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580430",
+  "viewingHint": "paged"
+}

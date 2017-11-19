@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590401/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "קבלת 18 בנים לחברות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קבלת 18 בנים לחברות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590401"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590401"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590401/sequence/IE46270613",
+      "@type": "sc:Sequence",
+      "label": "קבלת 18 בנים לחברות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46270640",
+          "@type": "sc:Canvas",
+          "label": "קבלת 18 בנים לחברות",
+          "width": 3957,
+          "height": 2594,
+          "images": [
+            {
+              "@id": "FL46270640",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46270640",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46270640/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קבלת 18 בנים לחברות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46270640",
+                  "label": "קבלת 18 בנים לחברות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2594,
+                "width": 3957
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46270638",
+      "@type": "sc:Range",
+      "label": "REP46270638",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46270640",
+          "@type": "sc:Canvas",
+          "label": "קבלת 18 בנים לחברות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590401",
+  "viewingHint": "paged"
+}

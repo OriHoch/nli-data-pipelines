@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589932/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב אביטל, חבל תענך",
+  "label": "הנהלת החשבונות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנהלת החשבונות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב אביטל, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589932"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589932"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589932/sequence/IE46252350",
+      "@type": "sc:Sequence",
+      "label": "הנהלת החשבונות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252376",
+          "@type": "sc:Canvas",
+          "label": "הנהלת החשבונות",
+          "width": 3910,
+          "height": 2408,
+          "images": [
+            {
+              "@id": "FL46252376",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46252376",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46252376/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הנהלת החשבונות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46252376",
+                  "label": "הנהלת החשבונות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2408,
+                "width": 3910
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46252375",
+      "@type": "sc:Range",
+      "label": "REP46252375",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252376",
+          "@type": "sc:Canvas",
+          "label": "הנהלת החשבונות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589932",
+  "viewingHint": "paged"
+}

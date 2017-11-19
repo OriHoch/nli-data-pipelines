@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600679/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל דרום הארץ",
+  "label": "טיול. שושנה מן, אירית, דורית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול. שושנה מן, אירית, דורית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל דרום הארץ"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600679"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600679"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600679/sequence/IE46302682",
+      "@type": "sc:Sequence",
+      "label": "טיול. שושנה מן  אירית  דורית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302714",
+          "@type": "sc:Canvas",
+          "label": "טיול. שושנה מן  אירית  דורית",
+          "width": 3941,
+          "height": 4145,
+          "images": [
+            {
+              "@id": "FL46302714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46302714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46302714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול. שושנה מן  אירית  דורית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46302714",
+                  "label": "טיול. שושנה מן  אירית  דורית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4145,
+                "width": 3941
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46302713",
+      "@type": "sc:Range",
+      "label": "REP46302713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302714",
+          "@type": "sc:Canvas",
+          "label": "טיול. שושנה מן  אירית  דורית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600679",
+  "viewingHint": "paged"
+}

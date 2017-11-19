@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596092/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "תצפית מקיבוץ יזרעאל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תצפית מקיבוץ יזרעאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596092"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596092"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596092/sequence/IE46285033",
+      "@type": "sc:Sequence",
+      "label": "תצפית מקיבוץ יזרעאל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285064",
+          "@type": "sc:Canvas",
+          "label": "תצפית מקיבוץ יזרעאל",
+          "width": 4151,
+          "height": 4128,
+          "images": [
+            {
+              "@id": "FL46285064",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46285064",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46285064/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תצפית מקיבוץ יזרעאל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46285064",
+                  "label": "תצפית מקיבוץ יזרעאל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4128,
+                "width": 4151
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46285063",
+      "@type": "sc:Range",
+      "label": "REP46285063",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285064",
+          "@type": "sc:Canvas",
+          "label": "תצפית מקיבוץ יזרעאל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596092",
+  "viewingHint": "paged"
+}

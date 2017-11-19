@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597413/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נגב מערבי",
+  "label": "ימים ראשונים בכפר דרום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ימים ראשונים בכפר דרום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597413"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597413"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597413/sequence/IE46315774",
+      "@type": "sc:Sequence",
+      "label": "ימים ראשונים בכפר דרום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315792",
+          "@type": "sc:Canvas",
+          "label": "ימים ראשונים בכפר דרום",
+          "width": 4756,
+          "height": 3292,
+          "images": [
+            {
+              "@id": "FL46315792",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315792",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315792/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ימים ראשונים בכפר דרום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315792",
+                  "label": "ימים ראשונים בכפר דרום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3292,
+                "width": 4756
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315791",
+      "@type": "sc:Range",
+      "label": "REP46315791",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315792",
+          "@type": "sc:Canvas",
+          "label": "ימים ראשונים בכפר דרום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597413",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597976/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597976"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597976"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597976/sequence/IE46309548",
+      "@type": "sc:Sequence",
+      "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309574",
+          "@type": "sc:Canvas",
+          "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה",
+          "width": 1112,
+          "height": 685,
+          "images": [
+            {
+              "@id": "FL46309574",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309574",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309574/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309574",
+                  "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 685,
+                "width": 1112
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309573",
+      "@type": "sc:Range",
+      "label": "REP46309573",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309574",
+          "@type": "sc:Canvas",
+          "label": "מצפה גבולות המשוחזר. שמעון מדריך קבוצת ילדים מבקרים במצפה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597976",
+  "viewingHint": "paged"
+}

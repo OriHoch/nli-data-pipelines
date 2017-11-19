@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584791/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גדעונה",
+  "label": "מחצבת סולל בונה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מחצבת סולל בונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גדעונה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584791"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584791"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584791/sequence/IE46252787",
+      "@type": "sc:Sequence",
+      "label": "מחצבת סולל בונה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252834",
+          "@type": "sc:Canvas",
+          "label": "מחצבת סולל בונה",
+          "width": 2971,
+          "height": 3099,
+          "images": [
+            {
+              "@id": "FL46252834",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46252834",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46252834/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מחצבת סולל בונה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46252834",
+                  "label": "מחצבת סולל בונה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3099,
+                "width": 2971
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46252832",
+      "@type": "sc:Range",
+      "label": "REP46252832",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252834",
+          "@type": "sc:Canvas",
+          "label": "מחצבת סולל בונה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584791",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584545/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ליד תל יוסף",
+  "label": "מחלבת תנובה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מחלבת תנובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ליד תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584545"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584545"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584545/sequence/IE46239901",
+      "@type": "sc:Sequence",
+      "label": "מחלבת תנובה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239934",
+          "@type": "sc:Canvas",
+          "label": "מחלבת תנובה",
+          "width": 3294,
+          "height": 2244,
+          "images": [
+            {
+              "@id": "FL46239934",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46239934",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46239934/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מחלבת תנובה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46239934",
+                  "label": "מחלבת תנובה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2244,
+                "width": 3294
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46239933",
+      "@type": "sc:Range",
+      "label": "REP46239933",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46239934",
+          "@type": "sc:Canvas",
+          "label": "מחלבת תנובה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584545",
+  "viewingHint": "paged"
+}

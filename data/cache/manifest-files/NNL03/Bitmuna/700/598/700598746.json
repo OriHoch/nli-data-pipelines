@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598746/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק הירדן",
+  "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק הירדן"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598746"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598746"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598746/sequence/IE46280448",
+      "@type": "sc:Sequence",
+      "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46280476",
+          "@type": "sc:Canvas",
+          "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים",
+          "width": 3869,
+          "height": 2900,
+          "images": [
+            {
+              "@id": "FL46280476",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46280476",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46280476/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46280476",
+                  "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2900,
+                "width": 3869
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46280475",
+      "@type": "sc:Range",
+      "label": "REP46280475",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46280476",
+          "@type": "sc:Canvas",
+          "label": "הקמת כביש אשדות יעקב קיבוץ גשר שנות החמישים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598746",
+  "viewingHint": "paged"
+}

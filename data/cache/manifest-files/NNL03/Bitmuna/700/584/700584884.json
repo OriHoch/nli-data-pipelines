@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584884/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית השיטה",
+  "label": "מבט על העמק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבט על העמק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית השיטה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584884"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584884"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584884/sequence/IE46218285",
+      "@type": "sc:Sequence",
+      "label": "מבט על העמק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46218315",
+          "@type": "sc:Canvas",
+          "label": "מבט על העמק",
+          "width": 3326,
+          "height": 2241,
+          "images": [
+            {
+              "@id": "FL46218315",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46218315",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46218315/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבט על העמק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46218315",
+                  "label": "מבט על העמק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2241,
+                "width": 3326
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46218313",
+      "@type": "sc:Range",
+      "label": "REP46218313",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46218315",
+          "@type": "sc:Canvas",
+          "label": "מבט על העמק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584884",
+  "viewingHint": "paged"
+}

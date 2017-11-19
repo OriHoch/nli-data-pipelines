@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149709/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לא ידוע",
+  "label": "טיול",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לא ידוע"
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149709"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149709"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149709/sequence/IE6403257",
+      "@type": "sc:Sequence",
+      "label": "טיול",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392791",
+          "@type": "sc:Canvas",
+          "label": "טיול",
+          "width": 800,
+          "height": 584,
+          "images": [
+            {
+              "@id": "FL10392791",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10392791",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10392791/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10392791",
+                  "label": "טיול",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 584,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10392787",
+      "@type": "sc:Range",
+      "label": "REP10392787",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392791",
+          "@type": "sc:Canvas",
+          "label": "טיול"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149709",
+  "viewingHint": "paged"
+}

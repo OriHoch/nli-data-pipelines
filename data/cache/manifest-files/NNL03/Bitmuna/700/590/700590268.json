@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590268/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מרכז אומן, חבל תענך",
+  "label": "חדר האוכל בבית הספר האזורי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חדר האוכל בבית הספר האזורי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מרכז אומן, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590268"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590268"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590268/sequence/IE46265427",
+      "@type": "sc:Sequence",
+      "label": "חדר האוכל בבית הספר האזורי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46265452",
+          "@type": "sc:Canvas",
+          "label": "חדר האוכל בבית הספר האזורי",
+          "width": 3901,
+          "height": 2370,
+          "images": [
+            {
+              "@id": "FL46265452",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46265452",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46265452/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חדר האוכל בבית הספר האזורי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46265452",
+                  "label": "חדר האוכל בבית הספר האזורי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2370,
+                "width": 3901
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46265451",
+      "@type": "sc:Range",
+      "label": "REP46265451",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46265452",
+          "@type": "sc:Canvas",
+          "label": "חדר האוכל בבית הספר האזורי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590268",
+  "viewingHint": "paged"
+}

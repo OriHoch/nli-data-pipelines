@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600810/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "באונית המעפילים הילדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "באונית המעפילים הילדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600810"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600810"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600810/sequence/IE46303873",
+      "@type": "sc:Sequence",
+      "label": "באונית המעפילים הילדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303893",
+          "@type": "sc:Canvas",
+          "label": "באונית המעפילים הילדה",
+          "width": 3714,
+          "height": 2691,
+          "images": [
+            {
+              "@id": "FL46303893",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46303893",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46303893/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "באונית המעפילים הילדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46303893",
+                  "label": "באונית המעפילים הילדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2691,
+                "width": 3714
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46303892",
+      "@type": "sc:Range",
+      "label": "REP46303892",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303893",
+          "@type": "sc:Canvas",
+          "label": "באונית המעפילים הילדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600810",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593281/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל דותן",
+  "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל דותן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593281"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593281"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593281/sequence/IE46248595",
+      "@type": "sc:Sequence",
+      "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248628",
+          "@type": "sc:Canvas",
+          "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה",
+          "width": 3691,
+          "height": 2435,
+          "images": [
+            {
+              "@id": "FL46248628",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46248628",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46248628/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46248628",
+                  "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2435,
+                "width": 3691
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46248627",
+      "@type": "sc:Range",
+      "label": "REP46248627",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248628",
+          "@type": "sc:Canvas",
+          "label": "הכפר דיר אבו ר'אזאל מרחוק הכפר ערנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593281",
+  "viewingHint": "paged"
+}

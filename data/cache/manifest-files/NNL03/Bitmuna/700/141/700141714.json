@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700141714/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "וולקן",
+  "label": "ביח\"ר זכוכית פניציה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביח\"ר זכוכית פניציה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "וולקן",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700141714"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700141714"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700141714/sequence/IE6385788",
+      "@type": "sc:Sequence",
+      "label": "ביח\"ר זכוכית פניציה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382698",
+          "@type": "sc:Canvas",
+          "label": "ביחר זכוכית פניציה",
+          "width": 790,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10382698",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10382698",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10382698/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביחר זכוכית פניציה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10382698",
+                  "label": "ביחר זכוכית פניציה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 790
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10382697",
+      "@type": "sc:Range",
+      "label": "REP10382697",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10382698",
+          "@type": "sc:Canvas",
+          "label": "ביחר זכוכית פניציה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700141714",
+  "viewingHint": "paged"
+}

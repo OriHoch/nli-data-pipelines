@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592707/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מפות תוכנית מבנה המועצה החדש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפות תוכנית מבנה המועצה החדש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592707"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592707"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592707/sequence/IE46267498",
+      "@type": "sc:Sequence",
+      "label": "מפות תוכנית מבנה המועצה החדש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46267537",
+          "@type": "sc:Canvas",
+          "label": "מפות תוכנית מבנה המועצה החדש",
+          "width": 4490,
+          "height": 2762,
+          "images": [
+            {
+              "@id": "FL46267537",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46267537",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46267537/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפות תוכנית מבנה המועצה החדש",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46267537",
+                  "label": "מפות תוכנית מבנה המועצה החדש",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2762,
+                "width": 4490
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46267536",
+      "@type": "sc:Range",
+      "label": "REP46267536",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46267537",
+          "@type": "sc:Canvas",
+          "label": "מפות תוכנית מבנה המועצה החדש"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592707",
+  "viewingHint": "paged"
+}

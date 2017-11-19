@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591337/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הכפר משרועא",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכפר משרועא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591337"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591337"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591337/sequence/IE46254267",
+      "@type": "sc:Sequence",
+      "label": "הכפר משרועא",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254292",
+          "@type": "sc:Canvas",
+          "label": "הכפר משרועא",
+          "width": 3028,
+          "height": 1796,
+          "images": [
+            {
+              "@id": "FL46254292",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254292",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254292/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכפר משרועא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254292",
+                  "label": "הכפר משרועא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1796,
+                "width": 3028
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254291",
+      "@type": "sc:Range",
+      "label": "REP46254291",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254292",
+          "@type": "sc:Canvas",
+          "label": "הכפר משרועא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591337",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598693/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק יזרעאל",
+  "label": "הקמת מאגר אגם כפר ברוך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הקמת מאגר אגם כפר ברוך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598693"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598693"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598693/sequence/IE46282614",
+      "@type": "sc:Sequence",
+      "label": "הקמת מאגר אגם כפר ברוך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46282642",
+          "@type": "sc:Canvas",
+          "label": "הקמת מאגר אגם כפר ברוך",
+          "width": 5380,
+          "height": 3336,
+          "images": [
+            {
+              "@id": "FL46282642",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46282642",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46282642/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הקמת מאגר אגם כפר ברוך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46282642",
+                  "label": "הקמת מאגר אגם כפר ברוך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3336,
+                "width": 5380
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46282641",
+      "@type": "sc:Range",
+      "label": "REP46282641",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46282642",
+          "@type": "sc:Canvas",
+          "label": "הקמת מאגר אגם כפר ברוך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598693",
+  "viewingHint": "paged"
+}

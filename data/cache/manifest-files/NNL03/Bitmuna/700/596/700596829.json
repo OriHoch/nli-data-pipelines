@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596829/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "נבי דחי על גבעת המורה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נבי דחי על גבעת המורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596829"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596829"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596829/sequence/IE46314230",
+      "@type": "sc:Sequence",
+      "label": "נבי דחי על גבעת המורה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314267",
+          "@type": "sc:Canvas",
+          "label": "נבי דחי על גבעת המורה",
+          "width": 4148,
+          "height": 4097,
+          "images": [
+            {
+              "@id": "FL46314267",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314267",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314267/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נבי דחי על גבעת המורה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314267",
+                  "label": "נבי דחי על גבעת המורה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4097,
+                "width": 4148
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314253",
+      "@type": "sc:Range",
+      "label": "REP46314253",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314267",
+          "@type": "sc:Canvas",
+          "label": "נבי דחי על גבעת המורה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596829",
+  "viewingHint": "paged"
+}

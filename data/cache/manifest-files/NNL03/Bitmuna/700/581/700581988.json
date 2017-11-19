@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מוסד גלבוע שיחת חברה/בית אלפא נוב'"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581988/sequence/IE46322135",
+      "@type": "sc:Sequence",
+      "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46322163",
+          "@type": "sc:Canvas",
+          "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'",
+          "width": 2087,
+          "height": 2080,
+          "images": [
+            {
+              "@id": "FL46322163",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46322163",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46322163/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46322163",
+                  "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2080,
+                "width": 2087
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46322162",
+      "@type": "sc:Range",
+      "label": "REP46322162",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46322163",
+          "@type": "sc:Canvas",
+          "label": "מוסד גלבוע שיחת חברה/בית אלפא נוב'"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581988",
+  "viewingHint": "paged"
+}

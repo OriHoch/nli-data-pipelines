@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700144249/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "גב' אבן ארי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גב' אבן ארי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700144249"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700144249"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700144249/sequence/IE6396919",
+      "@type": "sc:Sequence",
+      "label": "גב' אבן ארי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10391433",
+          "@type": "sc:Canvas",
+          "label": "גב' אבן ארי",
+          "width": 800,
+          "height": 786,
+          "images": [
+            {
+              "@id": "FL10391433",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10391433",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10391433/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גב' אבן ארי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10391433",
+                  "label": "גב' אבן ארי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 786,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10391432",
+      "@type": "sc:Range",
+      "label": "REP10391432",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10391433",
+          "@type": "sc:Canvas",
+          "label": "גב' אבן ארי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700144249",
+  "viewingHint": "paged"
+}

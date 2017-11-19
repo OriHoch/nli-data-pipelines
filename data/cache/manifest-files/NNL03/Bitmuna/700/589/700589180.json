@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589180/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גן השלושה (סחנה)",
+  "label": "כנס בינ\"ל ערים תאומות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנס בינ\"ל ערים תאומות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גן השלושה (סחנה)"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589180"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589180"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589180/sequence/IE46251983",
+      "@type": "sc:Sequence",
+      "label": "כנס בינ\"ל ערים תאומות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252010",
+          "@type": "sc:Canvas",
+          "label": "כנס בינ\"ל ערים תאומות",
+          "width": 4415,
+          "height": 2741,
+          "images": [
+            {
+              "@id": "FL46252010",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46252010",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46252010/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנס בינ\"ל ערים תאומות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46252010",
+                  "label": "כנס בינ\"ל ערים תאומות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2741,
+                "width": 4415
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46252009",
+      "@type": "sc:Range",
+      "label": "REP46252009",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252010",
+          "@type": "sc:Canvas",
+          "label": "כנס בינ\"ל ערים תאומות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589180",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597221/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נתניה",
+  "label": "משפחתו של חיים עם לורה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משפחתו של חיים עם לורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נתניה"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597221"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597221"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597221/sequence/IE46294062",
+      "@type": "sc:Sequence",
+      "label": "משפחתו של חיים עם לורה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46294087",
+          "@type": "sc:Canvas",
+          "label": "משפחתו של חיים עם לורה",
+          "width": 2040,
+          "height": 1644,
+          "images": [
+            {
+              "@id": "FL46294087",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46294087",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46294087/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משפחתו של חיים עם לורה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46294087",
+                  "label": "משפחתו של חיים עם לורה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1644,
+                "width": 2040
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46294086",
+      "@type": "sc:Range",
+      "label": "REP46294086",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46294087",
+          "@type": "sc:Canvas",
+          "label": "משפחתו של חיים עם לורה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597221",
+  "viewingHint": "paged"
+}

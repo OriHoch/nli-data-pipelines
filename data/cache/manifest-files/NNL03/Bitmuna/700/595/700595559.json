@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595559/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "קציר ירק בשדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קציר ירק בשדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595559"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595559"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595559/sequence/IE46238091",
+      "@type": "sc:Sequence",
+      "label": "קציר ירק בשדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238114",
+          "@type": "sc:Canvas",
+          "label": "קציר ירק בשדה",
+          "width": 2409,
+          "height": 3683,
+          "images": [
+            {
+              "@id": "FL46238114",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46238114",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46238114/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קציר ירק בשדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46238114",
+                  "label": "קציר ירק בשדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3683,
+                "width": 2409
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46238113",
+      "@type": "sc:Range",
+      "label": "REP46238113",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46238114",
+          "@type": "sc:Canvas",
+          "label": "קציר ירק בשדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595559",
+  "viewingHint": "paged"
+}

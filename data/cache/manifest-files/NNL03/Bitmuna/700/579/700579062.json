@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579062/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "בניין המועצה המקומית בית שאן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בניין המועצה המקומית בית שאן."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579062"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579062"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579062/sequence/IE46303242",
+      "@type": "sc:Sequence",
+      "label": "בניין המועצה המקומית בית שאן.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303266",
+          "@type": "sc:Canvas",
+          "label": "בניין המועצה המקומית בית שאן.",
+          "width": 2862,
+          "height": 1749,
+          "images": [
+            {
+              "@id": "FL46303266",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46303266",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46303266/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בניין המועצה המקומית בית שאן.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46303266",
+                  "label": "בניין המועצה המקומית בית שאן.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1749,
+                "width": 2862
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46303264",
+      "@type": "sc:Range",
+      "label": "REP46303264",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303266",
+          "@type": "sc:Canvas",
+          "label": "בניין המועצה המקומית בית שאן."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579062",
+  "viewingHint": "paged"
+}

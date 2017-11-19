@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598102/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "שומר בגבולות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שומר בגבולות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598102"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598102"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598102/sequence/IE46301597",
+      "@type": "sc:Sequence",
+      "label": "שומר בגבולות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301623",
+          "@type": "sc:Canvas",
+          "label": "שומר בגבולות",
+          "width": 2539,
+          "height": 1725,
+          "images": [
+            {
+              "@id": "FL46301623",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46301623",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46301623/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שומר בגבולות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46301623",
+                  "label": "שומר בגבולות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1725,
+                "width": 2539
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46301622",
+      "@type": "sc:Range",
+      "label": "REP46301622",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301623",
+          "@type": "sc:Canvas",
+          "label": "שומר בגבולות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598102",
+  "viewingHint": "paged"
+}

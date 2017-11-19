@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600528/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל גליל מערבי",
+  "label": "שדרת הכניסה לבית ליברמן שנות ה-40",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שדרת הכניסה לבית ליברמן שנות ה-40"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600528"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600528"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600528/sequence/IE46297493",
+      "@type": "sc:Sequence",
+      "label": "שדרת הכניסה לבית ליברמן שנות ה-40",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297515",
+          "@type": "sc:Canvas",
+          "label": "שדרת הכניסה לבית ליברמן שנות ה-40",
+          "width": 4733,
+          "height": 4714,
+          "images": [
+            {
+              "@id": "FL46297515",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297515",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297515/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שדרת הכניסה לבית ליברמן שנות ה-40",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297515",
+                  "label": "שדרת הכניסה לבית ליברמן שנות ה-40",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4714,
+                "width": 4733
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297514",
+      "@type": "sc:Range",
+      "label": "REP46297514",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297515",
+          "@type": "sc:Canvas",
+          "label": "שדרת הכניסה לבית ליברמן שנות ה-40"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600528",
+  "viewingHint": "paged"
+}

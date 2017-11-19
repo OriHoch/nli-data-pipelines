@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600929/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600929"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600929"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600929/sequence/IE46307513",
+      "@type": "sc:Sequence",
+      "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307536",
+          "@type": "sc:Canvas",
+          "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה",
+          "width": 2988,
+          "height": 501,
+          "images": [
+            {
+              "@id": "FL46307536",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46307536",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46307536/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46307536",
+                  "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 501,
+                "width": 2988
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46307535",
+      "@type": "sc:Range",
+      "label": "REP46307535",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307536",
+          "@type": "sc:Canvas",
+          "label": "משורית שרפי מצא במכנסיים אזרחיים והוא שלח הבייתה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600929",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600351/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "האני אשת פנחס רוזן הראשונה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האני אשת פנחס רוזן הראשונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600351"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600351"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600351/sequence/IE46311413",
+      "@type": "sc:Sequence",
+      "label": "האני אשת פנחס רוזן הראשונה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311441",
+          "@type": "sc:Canvas",
+          "label": "האני אשת פנחס רוזן הראשונה",
+          "width": 2227,
+          "height": 2887,
+          "images": [
+            {
+              "@id": "FL46311441",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311441",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311441/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האני אשת פנחס רוזן הראשונה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311441",
+                  "label": "האני אשת פנחס רוזן הראשונה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2887,
+                "width": 2227
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311440",
+      "@type": "sc:Range",
+      "label": "REP46311440",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311441",
+          "@type": "sc:Canvas",
+          "label": "האני אשת פנחס רוזן הראשונה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600351",
+  "viewingHint": "paged"
+}

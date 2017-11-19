@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597160/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "תעודת רישום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תעודת רישום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597160"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597160"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597160/sequence/IE46291669",
+      "@type": "sc:Sequence",
+      "label": "תעודת רישום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46291691",
+          "@type": "sc:Canvas",
+          "label": "תעודת רישום",
+          "width": 2342,
+          "height": 1884,
+          "images": [
+            {
+              "@id": "FL46291691",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46291691",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46291691/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תעודת רישום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46291691",
+                  "label": "תעודת רישום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1884,
+                "width": 2342
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46291690",
+      "@type": "sc:Range",
+      "label": "REP46291690",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46291691",
+          "@type": "sc:Canvas",
+          "label": "תעודת רישום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597160",
+  "viewingHint": "paged"
+}

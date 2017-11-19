@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597423/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נגב מערבי",
+  "label": "מילוי מגדל המים בעזרת דליים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מילוי מגדל המים בעזרת דליים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597423"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1947"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597423"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597423/sequence/IE46316102",
+      "@type": "sc:Sequence",
+      "label": "מילוי מגדל המים בעזרת דליים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316124",
+          "@type": "sc:Canvas",
+          "label": "מילוי מגדל המים בעזרת דליים",
+          "width": 3596,
+          "height": 5099,
+          "images": [
+            {
+              "@id": "FL46316124",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46316124",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46316124/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מילוי מגדל המים בעזרת דליים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46316124",
+                  "label": "מילוי מגדל המים בעזרת דליים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5099,
+                "width": 3596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46316122",
+      "@type": "sc:Range",
+      "label": "REP46316122",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316124",
+          "@type": "sc:Canvas",
+          "label": "מילוי מגדל המים בעזרת דליים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597423",
+  "viewingHint": "paged"
+}

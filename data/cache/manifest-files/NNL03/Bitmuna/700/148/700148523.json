@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148523/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "עבדת",
+  "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "עבדת",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148523"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148523"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148523/sequence/IE6402267",
+      "@type": "sc:Sequence",
+      "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394132",
+          "@type": "sc:Canvas",
+          "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת",
+          "width": 800,
+          "height": 777,
+          "images": [
+            {
+              "@id": "FL10394132",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10394132",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10394132/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10394132",
+                  "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 777,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10394131",
+      "@type": "sc:Range",
+      "label": "REP10394131",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394132",
+          "@type": "sc:Canvas",
+          "label": "תצלום אויר מתוך סדרת תצלומים- עין עבדת; הקניון והבריכה; הדרך לעין עבדת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148523",
+  "viewingHint": "paged"
+}

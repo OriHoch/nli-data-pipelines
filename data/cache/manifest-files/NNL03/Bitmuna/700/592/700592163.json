@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592163/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל חפציבה",
+  "label": "עבודת קרמיקה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עבודת קרמיקה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל חפציבה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592163"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592163"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592163/sequence/IE46242689",
+      "@type": "sc:Sequence",
+      "label": "עבודת קרמיקה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46242727",
+          "@type": "sc:Canvas",
+          "label": "עבודת קרמיקה",
+          "width": 2071,
+          "height": 3328,
+          "images": [
+            {
+              "@id": "FL46242727",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46242727",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46242727/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עבודת קרמיקה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46242727",
+                  "label": "עבודת קרמיקה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3328,
+                "width": 2071
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46242726",
+      "@type": "sc:Range",
+      "label": "REP46242726",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46242727",
+          "@type": "sc:Canvas",
+          "label": "עבודת קרמיקה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592163",
+  "viewingHint": "paged"
+}

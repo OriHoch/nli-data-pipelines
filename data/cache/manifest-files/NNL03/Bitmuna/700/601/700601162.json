@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601162/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "חולדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חולדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601162"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601162"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601162/sequence/IE46324977",
+      "@type": "sc:Sequence",
+      "label": "חולדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324986",
+          "@type": "sc:Canvas",
+          "label": "חולדה",
+          "width": 4998,
+          "height": 3400,
+          "images": [
+            {
+              "@id": "FL46324986",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46324986",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46324986/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חולדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46324986",
+                  "label": "חולדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3400,
+                "width": 4998
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46324985",
+      "@type": "sc:Range",
+      "label": "REP46324985",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324986",
+          "@type": "sc:Canvas",
+          "label": "חולדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601162",
+  "viewingHint": "paged"
+}

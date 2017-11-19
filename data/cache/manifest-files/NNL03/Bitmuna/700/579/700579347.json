@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579347/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579347"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579347"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579347/sequence/IE46314953",
+      "@type": "sc:Sequence",
+      "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314981",
+          "@type": "sc:Canvas",
+          "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן.",
+          "width": 2893,
+          "height": 1899,
+          "images": [
+            {
+              "@id": "FL46314981",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314981",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314981/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314981",
+                  "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1899,
+                "width": 2893
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314980",
+      "@type": "sc:Range",
+      "label": "REP46314980",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314981",
+          "@type": "sc:Canvas",
+          "label": "הנחת כבל תקשורת מעל נחל חרוד ליד בית שאן."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579347",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597611/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עין חרוד",
+  "label": "מרים סלוצקין, עין חרוד 1934-6",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרים סלוצקין, עין חרוד 1934-6"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "לוטי באוהר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597611"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597611"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597611/sequence/IE46300730",
+      "@type": "sc:Sequence",
+      "label": "מרים סלוצקין  עין חרוד 1934-6",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46300755",
+          "@type": "sc:Canvas",
+          "label": "מרים סלוצקין  עין חרוד 1934-6",
+          "width": 2931,
+          "height": 4432,
+          "images": [
+            {
+              "@id": "FL46300755",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46300755",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46300755/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרים סלוצקין  עין חרוד 1934-6",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46300755",
+                  "label": "מרים סלוצקין  עין חרוד 1934-6",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4432,
+                "width": 2931
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46300754",
+      "@type": "sc:Range",
+      "label": "REP46300754",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46300755",
+          "@type": "sc:Canvas",
+          "label": "מרים סלוצקין  עין חרוד 1934-6"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597611",
+  "viewingHint": "paged"
+}

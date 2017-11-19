@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600947/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "איטליה",
+  "label": "משמאל: רפי רייס, דב הררי?",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משמאל: רפי רייס, דב הררי?"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "איטליה"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600947"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600947"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600947/sequence/IE46308043",
+      "@type": "sc:Sequence",
+      "label": "משמאל: רפי רייס  דב הררי?",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308067",
+          "@type": "sc:Canvas",
+          "label": "משמאל: רפי רייס  דב הררי?",
+          "width": 2942,
+          "height": 2193,
+          "images": [
+            {
+              "@id": "FL46308067",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308067",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308067/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משמאל: רפי רייס  דב הררי?",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308067",
+                  "label": "משמאל: רפי רייס  דב הררי?",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2193,
+                "width": 2942
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308066",
+      "@type": "sc:Range",
+      "label": "REP46308066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308067",
+          "@type": "sc:Canvas",
+          "label": "משמאל: רפי רייס  דב הררי?"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600947",
+  "viewingHint": "paged"
+}

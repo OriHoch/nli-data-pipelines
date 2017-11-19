@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597773/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בנייה בגבולות שנות השישים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בנייה בגבולות שנות השישים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597773"
+    },
+    {
+      "label": "Creation Date",
+      "value": "196?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597773"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597773/sequence/IE46301228",
+      "@type": "sc:Sequence",
+      "label": "בנייה בגבולות שנות השישים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301261",
+          "@type": "sc:Canvas",
+          "label": "בנייה בגבולות שנות השישים",
+          "width": 4597,
+          "height": 2805,
+          "images": [
+            {
+              "@id": "FL46301261",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46301261",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46301261/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בנייה בגבולות שנות השישים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46301261",
+                  "label": "בנייה בגבולות שנות השישים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2805,
+                "width": 4597
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46301260",
+      "@type": "sc:Range",
+      "label": "REP46301260",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301261",
+          "@type": "sc:Canvas",
+          "label": "בנייה בגבולות שנות השישים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597773",
+  "viewingHint": "paged"
+}

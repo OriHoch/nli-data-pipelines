@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589977/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מרכז חבר, חבל תענך",
+  "label": "המועדון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המועדון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מרכז חבר, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589977"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589977"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589977/sequence/IE46254148",
+      "@type": "sc:Sequence",
+      "label": "המועדון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254181",
+          "@type": "sc:Canvas",
+          "label": "המועדון",
+          "width": 3891,
+          "height": 2426,
+          "images": [
+            {
+              "@id": "FL46254181",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254181",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254181/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "המועדון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254181",
+                  "label": "המועדון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2426,
+                "width": 3891
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254178",
+      "@type": "sc:Range",
+      "label": "REP46254178",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254181",
+          "@type": "sc:Canvas",
+          "label": "המועדון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589977",
+  "viewingHint": "paged"
+}

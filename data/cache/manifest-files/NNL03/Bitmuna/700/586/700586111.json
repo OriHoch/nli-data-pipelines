@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586111/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מפגש ילדים במעין חרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפגש ילדים במעין חרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586111"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586111"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586111/sequence/IE46223905",
+      "@type": "sc:Sequence",
+      "label": "מפגש ילדים במעין חרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46223923",
+          "@type": "sc:Canvas",
+          "label": "מפגש ילדים במעין חרוד",
+          "width": 3320,
+          "height": 2055,
+          "images": [
+            {
+              "@id": "FL46223923",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46223923",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46223923/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפגש ילדים במעין חרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46223923",
+                  "label": "מפגש ילדים במעין חרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2055,
+                "width": 3320
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46223922",
+      "@type": "sc:Range",
+      "label": "REP46223922",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46223923",
+          "@type": "sc:Canvas",
+          "label": "מפגש ילדים במעין חרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586111",
+  "viewingHint": "paged"
+}

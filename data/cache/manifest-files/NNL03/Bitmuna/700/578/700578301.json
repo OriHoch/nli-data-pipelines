@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578301/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נורית",
+  "label": "נורית שדה טבק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נורית שדה טבק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נורית"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578301"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578301"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578301/sequence/IE46367548",
+      "@type": "sc:Sequence",
+      "label": "נורית שדה טבק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367568",
+          "@type": "sc:Canvas",
+          "label": "נורית שדה טבק",
+          "width": 1692,
+          "height": 1108,
+          "images": [
+            {
+              "@id": "FL46367568",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46367568",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46367568/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נורית שדה טבק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46367568",
+                  "label": "נורית שדה טבק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1108,
+                "width": 1692
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46367567",
+      "@type": "sc:Range",
+      "label": "REP46367567",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367568",
+          "@type": "sc:Canvas",
+          "label": "נורית שדה טבק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578301",
+  "viewingHint": "paged"
+}

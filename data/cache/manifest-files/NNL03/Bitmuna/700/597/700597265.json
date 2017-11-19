@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597265/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "מכתב משה שרתוק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מכתב משה שרתוק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597265"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597265"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597265/sequence/IE46295882",
+      "@type": "sc:Sequence",
+      "label": "מכתב משה שרתוק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295919",
+          "@type": "sc:Canvas",
+          "label": "מכתב משה שרתוק",
+          "width": 1163,
+          "height": 1484,
+          "images": [
+            {
+              "@id": "FL46295919",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46295919",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46295919/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מכתב משה שרתוק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46295919",
+                  "label": "מכתב משה שרתוק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1484,
+                "width": 1163
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46295918",
+      "@type": "sc:Range",
+      "label": "REP46295918",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295919",
+          "@type": "sc:Canvas",
+          "label": "מכתב משה שרתוק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597265",
+  "viewingHint": "paged"
+}

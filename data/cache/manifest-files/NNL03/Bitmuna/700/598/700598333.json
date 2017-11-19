@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598333/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "מקום נפילתו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מקום נפילתו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598333"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598333"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598333/sequence/IE46292793",
+      "@type": "sc:Sequence",
+      "label": "מקום נפילתו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292805",
+          "@type": "sc:Canvas",
+          "label": "מקום נפילתו",
+          "width": 3326,
+          "height": 2477,
+          "images": [
+            {
+              "@id": "FL46292805",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46292805",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46292805/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מקום נפילתו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46292805",
+                  "label": "מקום נפילתו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2477,
+                "width": 3326
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46292803",
+      "@type": "sc:Range",
+      "label": "REP46292803",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292805",
+          "@type": "sc:Canvas",
+          "label": "מקום נפילתו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598333",
+  "viewingHint": "paged"
+}

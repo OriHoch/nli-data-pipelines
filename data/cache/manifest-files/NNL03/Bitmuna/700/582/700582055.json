@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582055/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "חדר המורים במוסד גלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חדר המורים במוסד גלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582055"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582055"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582055/sequence/IE46324019",
+      "@type": "sc:Sequence",
+      "label": "חדר המורים במוסד גלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324043",
+          "@type": "sc:Canvas",
+          "label": "חדר המורים במוסד גלבוע",
+          "width": 3090,
+          "height": 2013,
+          "images": [
+            {
+              "@id": "FL46324043",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46324043",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46324043/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חדר המורים במוסד גלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46324043",
+                  "label": "חדר המורים במוסד גלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2013,
+                "width": 3090
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46324040",
+      "@type": "sc:Range",
+      "label": "REP46324040",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324043",
+          "@type": "sc:Canvas",
+          "label": "חדר המורים במוסד גלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582055",
+  "viewingHint": "paged"
+}

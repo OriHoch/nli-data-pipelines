@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593737/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב דבורה, חבל תענך",
+  "label": "חתונה במושב דבורה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חתונה במושב דבורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב דבורה, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593737"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593737"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593737/sequence/IE46269326",
+      "@type": "sc:Sequence",
+      "label": "חתונה במושב דבורה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46269361",
+          "@type": "sc:Canvas",
+          "label": "חתונה במושב דבורה",
+          "width": 3360,
+          "height": 2311,
+          "images": [
+            {
+              "@id": "FL46269361",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46269361",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46269361/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חתונה במושב דבורה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46269361",
+                  "label": "חתונה במושב דבורה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2311,
+                "width": 3360
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46269360",
+      "@type": "sc:Range",
+      "label": "REP46269360",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46269361",
+          "@type": "sc:Canvas",
+          "label": "חתונה במושב דבורה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593737",
+  "viewingHint": "paged"
+}

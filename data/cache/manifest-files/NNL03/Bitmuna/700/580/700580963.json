@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580963/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל שדה נחום",
+  "label": "בניין חדר האוכל בשדה נחום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בניין חדר האוכל בשדה נחום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל שדה נחום"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580963"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580963"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580963/sequence/IE46354130",
+      "@type": "sc:Sequence",
+      "label": "בניין חדר האוכל בשדה נחום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46354142",
+          "@type": "sc:Canvas",
+          "label": "בניין חדר האוכל בשדה נחום",
+          "width": 1994,
+          "height": 3024,
+          "images": [
+            {
+              "@id": "FL46354142",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46354142",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46354142/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בניין חדר האוכל בשדה נחום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46354142",
+                  "label": "בניין חדר האוכל בשדה נחום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3024,
+                "width": 1994
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46354140",
+      "@type": "sc:Range",
+      "label": "REP46354140",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46354142",
+          "@type": "sc:Canvas",
+          "label": "בניין חדר האוכל בשדה נחום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580963",
+  "viewingHint": "paged"
+}

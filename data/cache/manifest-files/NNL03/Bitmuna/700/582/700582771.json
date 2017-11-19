@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582771/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עמק חרוד",
+  "label": "עלמות בעין חרוד שנות העשרים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עלמות בעין חרוד שנות העשרים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582771"
+    },
+    {
+      "label": "Creation Date",
+      "value": "192?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582771"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582771/sequence/IE46341961",
+      "@type": "sc:Sequence",
+      "label": "עלמות בעין חרוד שנות העשרים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46341978",
+          "@type": "sc:Canvas",
+          "label": "עלמות בעין חרוד שנות העשרים",
+          "width": 3893,
+          "height": 2436,
+          "images": [
+            {
+              "@id": "FL46341978",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46341978",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46341978/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עלמות בעין חרוד שנות העשרים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46341978",
+                  "label": "עלמות בעין חרוד שנות העשרים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2436,
+                "width": 3893
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46341976",
+      "@type": "sc:Range",
+      "label": "REP46341976",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46341978",
+          "@type": "sc:Canvas",
+          "label": "עלמות בעין חרוד שנות העשרים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582771",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582986/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582986"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582986"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582986/sequence/IE46216149",
+      "@type": "sc:Sequence",
+      "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46216158",
+          "@type": "sc:Canvas",
+          "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'",
+          "width": 4088,
+          "height": 2604,
+          "images": [
+            {
+              "@id": "FL46216158",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46216158",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46216158/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46216158",
+                  "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2604,
+                "width": 4088
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46216157",
+      "@type": "sc:Range",
+      "label": "REP46216157",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46216158",
+          "@type": "sc:Canvas",
+          "label": "שדה כרובית בגן הירק של בית אלפא דוד ירמנוביץ פבר'"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582986",
+  "viewingHint": "paged"
+}

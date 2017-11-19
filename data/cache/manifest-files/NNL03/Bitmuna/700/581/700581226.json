@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581226/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נוה אור",
+  "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נוה אור תערוכה לרגל 5 שנים לקיבוץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נוה אור"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581226"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581226"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581226/sequence/IE46360719",
+      "@type": "sc:Sequence",
+      "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46360731",
+          "@type": "sc:Canvas",
+          "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ",
+          "width": 2981,
+          "height": 1784,
+          "images": [
+            {
+              "@id": "FL46360731",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46360731",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46360731/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46360731",
+                  "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1784,
+                "width": 2981
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46360729",
+      "@type": "sc:Range",
+      "label": "REP46360729",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46360731",
+          "@type": "sc:Canvas",
+          "label": "נוה אור תערוכה לרגל 5 שנים לקיבוץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581226",
+  "viewingHint": "paged"
+}

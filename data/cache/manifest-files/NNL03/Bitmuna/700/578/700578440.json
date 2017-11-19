@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578440/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מרפסת מוצגים ארכיאולוגים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרפסת מוצגים ארכיאולוגים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578440"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578440"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578440/sequence/IE46286203",
+      "@type": "sc:Sequence",
+      "label": "מרפסת מוצגים ארכיאולוגים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286230",
+          "@type": "sc:Canvas",
+          "label": "מרפסת מוצגים ארכיאולוגים",
+          "width": 1128,
+          "height": 1700,
+          "images": [
+            {
+              "@id": "FL46286230",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46286230",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46286230/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרפסת מוצגים ארכיאולוגים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46286230",
+                  "label": "מרפסת מוצגים ארכיאולוגים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1700,
+                "width": 1128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46286229",
+      "@type": "sc:Range",
+      "label": "REP46286229",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286230",
+          "@type": "sc:Canvas",
+          "label": "מרפסת מוצגים ארכיאולוגים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578440",
+  "viewingHint": "paged"
+}

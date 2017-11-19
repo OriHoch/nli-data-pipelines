@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594355/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ענבתה, שומרון",
+  "label": "בית מלאכה לעיבוד פרוות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית מלאכה לעיבוד פרוות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ענבתה, שומרון"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594355"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594355"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594355/sequence/IE46252404",
+      "@type": "sc:Sequence",
+      "label": "בית מלאכה לעיבוד פרוות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252440",
+          "@type": "sc:Canvas",
+          "label": "בית מלאכה לעיבוד פרוות",
+          "width": 3891,
+          "height": 2417,
+          "images": [
+            {
+              "@id": "FL46252440",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46252440",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46252440/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית מלאכה לעיבוד פרוות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46252440",
+                  "label": "בית מלאכה לעיבוד פרוות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2417,
+                "width": 3891
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46252439",
+      "@type": "sc:Range",
+      "label": "REP46252439",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46252440",
+          "@type": "sc:Canvas",
+          "label": "בית מלאכה לעיבוד פרוות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594355",
+  "viewingHint": "paged"
+}

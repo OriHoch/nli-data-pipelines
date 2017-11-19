@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600391/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מהעתונות על מלי (לבית רוזנבליט) דנציגר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600391"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600391"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600391/sequence/IE46312773",
+      "@type": "sc:Sequence",
+      "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312799",
+          "@type": "sc:Canvas",
+          "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר",
+          "width": 2538,
+          "height": 3504,
+          "images": [
+            {
+              "@id": "FL46312799",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46312799",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46312799/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46312799",
+                  "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3504,
+                "width": 2538
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46312798",
+      "@type": "sc:Range",
+      "label": "REP46312798",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312799",
+          "@type": "sc:Canvas",
+          "label": "מהעתונות על מלי (לבית רוזנבליט) דנציגר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600391",
+  "viewingHint": "paged"
+}

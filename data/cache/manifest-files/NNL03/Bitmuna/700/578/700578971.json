@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578971/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תל יוסף",
+  "label": "ביקור משלחת נוער סוציאליסטי מגאנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור משלחת נוער סוציאליסטי מגאנה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578971"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578971"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578971/sequence/IE46338337",
+      "@type": "sc:Sequence",
+      "label": "ביקור משלחת נוער סוציאליסטי מגאנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46338362",
+          "@type": "sc:Canvas",
+          "label": "ביקור משלחת נוער סוציאליסטי מגאנה",
+          "width": 2644,
+          "height": 4012,
+          "images": [
+            {
+              "@id": "FL46338362",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46338362",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46338362/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור משלחת נוער סוציאליסטי מגאנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46338362",
+                  "label": "ביקור משלחת נוער סוציאליסטי מגאנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4012,
+                "width": 2644
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46338361",
+      "@type": "sc:Range",
+      "label": "REP46338361",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46338362",
+          "@type": "sc:Canvas",
+          "label": "ביקור משלחת נוער סוציאליסטי מגאנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578971",
+  "viewingHint": "paged"
+}

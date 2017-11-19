@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601135/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "רומניה",
+  "label": "מתי מגד משמאל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מתי מגד משמאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "רומניה"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601135"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601135"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601135/sequence/IE46308110",
+      "@type": "sc:Sequence",
+      "label": "מתי מגד משמאל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308125",
+          "@type": "sc:Canvas",
+          "label": "מתי מגד משמאל",
+          "width": 3915,
+          "height": 2704,
+          "images": [
+            {
+              "@id": "FL46308125",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308125",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308125/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מתי מגד משמאל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308125",
+                  "label": "מתי מגד משמאל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2704,
+                "width": 3915
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308122",
+      "@type": "sc:Range",
+      "label": "REP46308122",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308125",
+          "@type": "sc:Canvas",
+          "label": "מתי מגד משמאל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601135",
+  "viewingHint": "paged"
+}

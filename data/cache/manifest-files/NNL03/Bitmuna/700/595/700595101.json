@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595101/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן, עין חרוד",
+  "label": "קערת נחושת מתימן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קערת נחושת מתימן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן, עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595101"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595101"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595101/sequence/IE46223489",
+      "@type": "sc:Sequence",
+      "label": "קערת נחושת מתימן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46223509",
+          "@type": "sc:Canvas",
+          "label": "קערת נחושת מתימן",
+          "width": 3415,
+          "height": 2303,
+          "images": [
+            {
+              "@id": "FL46223509",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46223509",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46223509/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קערת נחושת מתימן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46223509",
+                  "label": "קערת נחושת מתימן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2303,
+                "width": 3415
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46223508",
+      "@type": "sc:Range",
+      "label": "REP46223508",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46223509",
+          "@type": "sc:Canvas",
+          "label": "קערת נחושת מתימן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595101",
+  "viewingHint": "paged"
+}

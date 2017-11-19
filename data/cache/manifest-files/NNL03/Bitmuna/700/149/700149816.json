@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149816/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "הרצל, בנימין זאב, 1860-1904; Герцль, Теодор, 1860-1904; Herzl, Theodor, 1860-1904; هرصل، بنيامين زئيب; הערצעל, בנימין זאב, 1860-1904; הרצל, תיאודור; הרצל, מתתיהו; הרצל, תאודור; הרצל, בנימין זאב בן יעקב; הירצל, תיאודור; הערצל, תיאודור; הערצל, בנימין זאב, 1860-1904; הרצל, בנימין זאב; Херцел, Теодор, 1860-1904; Херцл, Теодор, 1860-1904; Herzl, Teodoro; Herzl, Tivadar, 1860-1904; Herzl, Benjamin Zeev; هرتسيل، بنيامين زئيب; هرصل، ثيودور; هيرتسل، ثيودور; هرتسل، ثيودور; هرتزل، ثيودور; هرتزل، بنيامين زئيب",
+  "label": "הרצל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרצל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "הרצל, בנימין זאב, 1860-1904; Герцль, Теодор, 1860-1904; Herzl, Theodor, 1860-1904; هرصل، بنيامين زئيب; הערצעל, בנימין זאב, 1860-1904; הרצל, תיאודור; הרצל, מתתיהו; הרצל, תאודור; הרצל, בנימין זאב בן יעקב; הירצל, תיאודור; הערצל, תיאודור; הערצל, בנימין זאב, 1860-1904; הרצל, בנימין זאב; Херцел, Теодор, 1860-1904; Херцл, Теодор, 1860-1904; Herzl, Teodoro; Herzl, Tivadar, 1860-1904; Herzl, Benjamin Zeev; هرتسيل، بنيامين زئيب; هرصل، ثيودور; هيرتسل، ثيودور; هرتسل، ثيودور; هرتزل، ثيودور; هرتزل، بنيامين زئيب",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149816"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149816"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149816/sequence/IE6403686",
+      "@type": "sc:Sequence",
+      "label": "הרצל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394239",
+          "@type": "sc:Canvas",
+          "label": " הרצל",
+          "width": 490,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10394239",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10394239",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10394239/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " הרצל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10394239",
+                  "label": " הרצל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 490
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10394238",
+      "@type": "sc:Range",
+      "label": "REP10394238",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394239",
+          "@type": "sc:Canvas",
+          "label": " הרצל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149816",
+  "viewingHint": "paged"
+}

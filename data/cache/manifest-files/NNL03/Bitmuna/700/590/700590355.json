@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590355/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב מלאה, חבל תענך",
+  "label": "שדה סלק סוכר של שמעון דנינו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שדה סלק סוכר של שמעון דנינו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב מלאה, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590355"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590355"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590355/sequence/IE46268774",
+      "@type": "sc:Sequence",
+      "label": "שדה סלק סוכר של שמעון דנינו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46268809",
+          "@type": "sc:Canvas",
+          "label": "שדה סלק סוכר של שמעון דנינו",
+          "width": 3891,
+          "height": 2324,
+          "images": [
+            {
+              "@id": "FL46268809",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46268809",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46268809/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שדה סלק סוכר של שמעון דנינו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46268809",
+                  "label": "שדה סלק סוכר של שמעון דנינו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2324,
+                "width": 3891
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46268808",
+      "@type": "sc:Range",
+      "label": "REP46268808",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46268809",
+          "@type": "sc:Canvas",
+          "label": "שדה סלק סוכר של שמעון דנינו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590355",
+  "viewingHint": "paged"
+}

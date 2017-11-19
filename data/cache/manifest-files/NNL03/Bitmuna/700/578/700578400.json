@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578400/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "חנוכת הספריה לילדי עולים ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנוכת הספריה לילדי עולים ב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578400"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578400"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578400/sequence/IE46277376",
+      "@type": "sc:Sequence",
+      "label": "חנוכת הספריה לילדי עולים ב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46277399",
+          "@type": "sc:Canvas",
+          "label": "חנוכת הספריה לילדי עולים ב",
+          "width": 2977,
+          "height": 1870,
+          "images": [
+            {
+              "@id": "FL46277399",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46277399",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46277399/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנוכת הספריה לילדי עולים ב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46277399",
+                  "label": "חנוכת הספריה לילדי עולים ב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1870,
+                "width": 2977
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46277398",
+      "@type": "sc:Range",
+      "label": "REP46277398",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46277399",
+          "@type": "sc:Canvas",
+          "label": "חנוכת הספריה לילדי עולים ב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578400",
+  "viewingHint": "paged"
+}

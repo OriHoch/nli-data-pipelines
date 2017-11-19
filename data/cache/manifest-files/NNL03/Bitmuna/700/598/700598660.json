@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598660/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "עין עירון עמדה 1937",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עין עירון עמדה 1937"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598660"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1937"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598660"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598660/sequence/IE46278697",
+      "@type": "sc:Sequence",
+      "label": "עין עירון עמדה 1937",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278722",
+          "@type": "sc:Canvas",
+          "label": "עין עירון עמדה 1937",
+          "width": 3656,
+          "height": 2319,
+          "images": [
+            {
+              "@id": "FL46278722",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46278722",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46278722/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עין עירון עמדה 1937",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46278722",
+                  "label": "עין עירון עמדה 1937",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2319,
+                "width": 3656
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46278721",
+      "@type": "sc:Range",
+      "label": "REP46278721",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278722",
+          "@type": "sc:Canvas",
+          "label": "עין עירון עמדה 1937"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598660",
+  "viewingHint": "paged"
+}

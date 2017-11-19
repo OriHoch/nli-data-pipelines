@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590145/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל אדירים, חבל תענך",
+  "label": "פינת שבת בגן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פינת שבת בגן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל אדירים, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590145"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590145"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590145/sequence/IE46260609",
+      "@type": "sc:Sequence",
+      "label": "פינת שבת בגן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46260633",
+          "@type": "sc:Canvas",
+          "label": "פינת שבת בגן",
+          "width": 3966,
+          "height": 2678,
+          "images": [
+            {
+              "@id": "FL46260633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46260633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46260633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פינת שבת בגן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46260633",
+                  "label": "פינת שבת בגן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2678,
+                "width": 3966
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46260632",
+      "@type": "sc:Range",
+      "label": "REP46260632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46260633",
+          "@type": "sc:Canvas",
+          "label": "פינת שבת בגן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590145",
+  "viewingHint": "paged"
+}

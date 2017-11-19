@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582843/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582843"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582843"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582843/sequence/IE46343632",
+      "@type": "sc:Sequence",
+      "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46343653",
+          "@type": "sc:Canvas",
+          "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'",
+          "width": 2911,
+          "height": 1749,
+          "images": [
+            {
+              "@id": "FL46343653",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46343653",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46343653/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46343653",
+                  "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1749,
+                "width": 2911
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46343651",
+      "@type": "sc:Range",
+      "label": "REP46343651",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46343653",
+          "@type": "sc:Canvas",
+          "label": "תערוכת ציורי ילדים ממוסד גלבוע בנושא השואה פבר'"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582843",
+  "viewingHint": "paged"
+}

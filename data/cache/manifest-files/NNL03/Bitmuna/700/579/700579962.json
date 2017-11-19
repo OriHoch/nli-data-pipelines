@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579962/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל דשן",
+  "label": "חברי גרעין יובלים עוזבים את חוות דשן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברי גרעין יובלים עוזבים את חוות דשן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל דשן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579962"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579962"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579962/sequence/IE46349668",
+      "@type": "sc:Sequence",
+      "label": "חברי גרעין יובלים עוזבים את חוות דשן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46349685",
+          "@type": "sc:Canvas",
+          "label": "חברי גרעין יובלים עוזבים את חוות דשן",
+          "width": 3189,
+          "height": 2119,
+          "images": [
+            {
+              "@id": "FL46349685",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46349685",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46349685/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברי גרעין יובלים עוזבים את חוות דשן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46349685",
+                  "label": "חברי גרעין יובלים עוזבים את חוות דשן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2119,
+                "width": 3189
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46349684",
+      "@type": "sc:Range",
+      "label": "REP46349684",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46349685",
+          "@type": "sc:Canvas",
+          "label": "חברי גרעין יובלים עוזבים את חוות דשן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579962",
+  "viewingHint": "paged"
+}

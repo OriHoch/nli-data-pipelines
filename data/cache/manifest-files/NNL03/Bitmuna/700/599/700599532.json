@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599532/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "מימין רות מאחור דליה קאופמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מימין רות מאחור דליה קאופמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599532"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599532"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599532/sequence/IE46312781",
+      "@type": "sc:Sequence",
+      "label": "מימין רות מאחור דליה קאופמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312797",
+          "@type": "sc:Canvas",
+          "label": "מימין רות מאחור דליה קאופמן",
+          "width": 3015,
+          "height": 2319,
+          "images": [
+            {
+              "@id": "FL46312797",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46312797",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46312797/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מימין רות מאחור דליה קאופמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46312797",
+                  "label": "מימין רות מאחור דליה קאופמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2319,
+                "width": 3015
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46312795",
+      "@type": "sc:Range",
+      "label": "REP46312795",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312797",
+          "@type": "sc:Canvas",
+          "label": "מימין רות מאחור דליה קאופמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599532",
+  "viewingHint": "paged"
+}

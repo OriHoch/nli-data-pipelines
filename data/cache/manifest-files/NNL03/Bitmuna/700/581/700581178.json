@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581178/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל חמדיה",
+  "label": "סוכות בחמדיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סוכות בחמדיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל חמדיה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581178"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581178"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581178/sequence/IE46359550",
+      "@type": "sc:Sequence",
+      "label": "סוכות בחמדיה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46359572",
+          "@type": "sc:Canvas",
+          "label": "סוכות בחמדיה",
+          "width": 2918,
+          "height": 2008,
+          "images": [
+            {
+              "@id": "FL46359572",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46359572",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46359572/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סוכות בחמדיה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46359572",
+                  "label": "סוכות בחמדיה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2008,
+                "width": 2918
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46359570",
+      "@type": "sc:Range",
+      "label": "REP46359570",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46359572",
+          "@type": "sc:Canvas",
+          "label": "סוכות בחמדיה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581178",
+  "viewingHint": "paged"
+}

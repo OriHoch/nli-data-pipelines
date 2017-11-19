@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597511/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נגב מערבי",
+  "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597511"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597511"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597511/sequence/IE46318773",
+      "@type": "sc:Sequence",
+      "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46318798",
+          "@type": "sc:Canvas",
+          "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב",
+          "width": 3045,
+          "height": 4870,
+          "images": [
+            {
+              "@id": "FL46318798",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46318798",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46318798/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46318798",
+                  "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4870,
+                "width": 3045
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46318797",
+      "@type": "sc:Range",
+      "label": "REP46318797",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46318798",
+          "@type": "sc:Canvas",
+          "label": "ביצורי כפר דרום תצ\"א לקראת מבצע חורב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597511",
+  "viewingHint": "paged"
+}

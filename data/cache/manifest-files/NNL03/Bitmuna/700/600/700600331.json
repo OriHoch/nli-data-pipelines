@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600331/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל תל אביב",
+  "label": "פרוספקט מלון קטה דן ת\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוספקט מלון קטה דן ת\"א"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל תל אביב"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600331"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600331"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600331/sequence/IE46310707",
+      "@type": "sc:Sequence",
+      "label": "פרוספקט מלון קטה דן ת\"א",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310729",
+          "@type": "sc:Canvas",
+          "label": "פרוספקט מלון קטה דן ת\"א",
+          "width": 3767,
+          "height": 2844,
+          "images": [
+            {
+              "@id": "FL46310729",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46310729",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46310729/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פרוספקט מלון קטה דן ת\"א",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46310729",
+                  "label": "פרוספקט מלון קטה דן ת\"א",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2844,
+                "width": 3767
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46310728",
+      "@type": "sc:Range",
+      "label": "REP46310728",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310729",
+          "@type": "sc:Canvas",
+          "label": "פרוספקט מלון קטה דן ת\"א"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600331",
+  "viewingHint": "paged"
+}

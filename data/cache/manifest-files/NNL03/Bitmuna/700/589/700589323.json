@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589323/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "מתקן סידור חבילות חציר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מתקן סידור חבילות חציר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589323"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589323"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589323/sequence/IE46257579",
+      "@type": "sc:Sequence",
+      "label": "מתקן סידור חבילות חציר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46257602",
+          "@type": "sc:Canvas",
+          "label": "מתקן סידור חבילות חציר",
+          "width": 4978,
+          "height": 3107,
+          "images": [
+            {
+              "@id": "FL46257602",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46257602",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46257602/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מתקן סידור חבילות חציר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46257602",
+                  "label": "מתקן סידור חבילות חציר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3107,
+                "width": 4978
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46257601",
+      "@type": "sc:Range",
+      "label": "REP46257601",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46257602",
+          "@type": "sc:Canvas",
+          "label": "מתקן סידור חבילות חציר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589323",
+  "viewingHint": "paged"
+}

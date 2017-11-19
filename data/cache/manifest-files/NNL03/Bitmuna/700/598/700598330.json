@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598330/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "עוזי דיין עם אמו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עוזי דיין עם אמו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598330"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598330"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598330/sequence/IE46292677",
+      "@type": "sc:Sequence",
+      "label": "עוזי דיין עם אמו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292709",
+          "@type": "sc:Canvas",
+          "label": "עוזי דיין עם אמו",
+          "width": 2460,
+          "height": 3391,
+          "images": [
+            {
+              "@id": "FL46292709",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46292709",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46292709/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עוזי דיין עם אמו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46292709",
+                  "label": "עוזי דיין עם אמו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3391,
+                "width": 2460
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46292708",
+      "@type": "sc:Range",
+      "label": "REP46292708",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46292709",
+          "@type": "sc:Canvas",
+          "label": "עוזי דיין עם אמו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598330",
+  "viewingHint": "paged"
+}

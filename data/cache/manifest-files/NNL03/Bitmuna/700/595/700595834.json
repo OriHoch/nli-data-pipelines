@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595834/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ניר יפה",
+  "label": "בביה\"ס הממלכתי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בביה\"ס הממלכתי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ניר יפה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595834"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595834"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595834/sequence/IE46248397",
+      "@type": "sc:Sequence",
+      "label": "בביה\"ס הממלכתי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248427",
+          "@type": "sc:Canvas",
+          "label": "בביה\"ס הממלכתי",
+          "width": 3780,
+          "height": 2349,
+          "images": [
+            {
+              "@id": "FL46248427",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46248427",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46248427/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בביה\"ס הממלכתי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46248427",
+                  "label": "בביה\"ס הממלכתי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2349,
+                "width": 3780
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46248424",
+      "@type": "sc:Range",
+      "label": "REP46248424",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248427",
+          "@type": "sc:Canvas",
+          "label": "בביה\"ס הממלכתי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595834",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592876/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ליד ג'נין",
+  "label": "בכפר ברדלה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בכפר ברדלה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ליד ג'נין"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592876"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592876"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592876/sequence/IE46229606",
+      "@type": "sc:Sequence",
+      "label": "בכפר ברדלה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229640",
+          "@type": "sc:Canvas",
+          "label": "בכפר ברדלה",
+          "width": 5073,
+          "height": 2959,
+          "images": [
+            {
+              "@id": "FL46229640",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46229640",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46229640/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בכפר ברדלה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46229640",
+                  "label": "בכפר ברדלה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2959,
+                "width": 5073
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46229639",
+      "@type": "sc:Range",
+      "label": "REP46229639",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229640",
+          "@type": "sc:Canvas",
+          "label": "בכפר ברדלה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592876",
+  "viewingHint": "paged"
+}

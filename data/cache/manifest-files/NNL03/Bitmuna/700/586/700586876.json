@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586876/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מחצבת השיש מעל חפציבה",
+  "label": "סיור משתתפי כנס המים האזורי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סיור משתתפי כנס המים האזורי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מחצבת השיש מעל חפציבה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586876"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586876"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586876/sequence/IE46262224",
+      "@type": "sc:Sequence",
+      "label": "סיור משתתפי כנס המים האזורי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262258",
+          "@type": "sc:Canvas",
+          "label": "סיור משתתפי כנס המים האזורי",
+          "width": 3400,
+          "height": 2200,
+          "images": [
+            {
+              "@id": "FL46262258",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46262258",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46262258/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סיור משתתפי כנס המים האזורי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46262258",
+                  "label": "סיור משתתפי כנס המים האזורי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2200,
+                "width": 3400
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46262257",
+      "@type": "sc:Range",
+      "label": "REP46262257",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262258",
+          "@type": "sc:Canvas",
+          "label": "סיור משתתפי כנס המים האזורי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586876",
+  "viewingHint": "paged"
+}

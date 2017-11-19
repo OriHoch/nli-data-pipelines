@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598384/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "יהונתן ונורית גפן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יהונתן ונורית גפן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598384"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1951"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598384"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598384/sequence/IE46294650",
+      "@type": "sc:Sequence",
+      "label": "יהונתן ונורית גפן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46294680",
+          "@type": "sc:Canvas",
+          "label": "יהונתן ונורית גפן",
+          "width": 2447,
+          "height": 3404,
+          "images": [
+            {
+              "@id": "FL46294680",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46294680",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46294680/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יהונתן ונורית גפן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46294680",
+                  "label": "יהונתן ונורית גפן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3404,
+                "width": 2447
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46294678",
+      "@type": "sc:Range",
+      "label": "REP46294678",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46294680",
+          "@type": "sc:Canvas",
+          "label": "יהונתן ונורית גפן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598384",
+  "viewingHint": "paged"
+}

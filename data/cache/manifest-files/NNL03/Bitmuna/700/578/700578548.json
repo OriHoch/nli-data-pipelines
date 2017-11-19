@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578548/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578548"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578548"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578548/sequence/IE46340279",
+      "@type": "sc:Sequence",
+      "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46340300",
+          "@type": "sc:Canvas",
+          "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן",
+          "width": 2604,
+          "height": 1709,
+          "images": [
+            {
+              "@id": "FL46340300",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46340300",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46340300/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46340300",
+                  "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1709,
+                "width": 2604
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46340297",
+      "@type": "sc:Range",
+      "label": "REP46340297",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46340300",
+          "@type": "sc:Canvas",
+          "label": "משה שרת מספר על מסעו לאסיה באולם המנפטה בבית שאן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578548",
+  "viewingHint": "paged"
+}

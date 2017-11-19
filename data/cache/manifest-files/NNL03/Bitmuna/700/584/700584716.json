@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584716/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תל יוסף",
+  "label": "תנובה תל יוסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תנובה תל יוסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584716"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584716"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584716/sequence/IE46249125",
+      "@type": "sc:Sequence",
+      "label": "תנובה תל יוסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46249148",
+          "@type": "sc:Canvas",
+          "label": "תנובה תל יוסף",
+          "width": 3007,
+          "height": 3211,
+          "images": [
+            {
+              "@id": "FL46249148",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46249148",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46249148/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תנובה תל יוסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46249148",
+                  "label": "תנובה תל יוסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3211,
+                "width": 3007
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46249147",
+      "@type": "sc:Range",
+      "label": "REP46249147",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46249148",
+          "@type": "sc:Canvas",
+          "label": "תנובה תל יוסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584716",
+  "viewingHint": "paged"
+}

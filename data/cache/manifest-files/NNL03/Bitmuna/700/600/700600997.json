@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600997/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מסע ההלוויה, ספטמבר 1952",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסע ההלוויה, ספטמבר 1952"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600997"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1952"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600997"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600997/sequence/IE46309592",
+      "@type": "sc:Sequence",
+      "label": "מסע ההלוויה  ספטמבר 1952",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309617",
+          "@type": "sc:Canvas",
+          "label": "מסע ההלוויה  ספטמבר 1952",
+          "width": 3279,
+          "height": 2687,
+          "images": [
+            {
+              "@id": "FL46309617",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309617",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309617/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסע ההלוויה  ספטמבר 1952",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309617",
+                  "label": "מסע ההלוויה  ספטמבר 1952",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2687,
+                "width": 3279
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309616",
+      "@type": "sc:Range",
+      "label": "REP46309616",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309617",
+          "@type": "sc:Canvas",
+          "label": "מסע ההלוויה  ספטמבר 1952"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600997",
+  "viewingHint": "paged"
+}

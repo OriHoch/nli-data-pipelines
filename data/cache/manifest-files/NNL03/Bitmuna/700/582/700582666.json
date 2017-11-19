@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582666/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל תל יוסף",
+  "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582666"
+    },
+    {
+      "label": "Creation Date",
+      "value": "192?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582666"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582666/sequence/IE46339516",
+      "@type": "sc:Sequence",
+      "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46339530",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף",
+          "width": 3505,
+          "height": 2345,
+          "images": [
+            {
+              "@id": "FL46339530",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46339530",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46339530/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46339530",
+                  "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2345,
+                "width": 3505
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46339529",
+      "@type": "sc:Range",
+      "label": "REP46339529",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46339530",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה מתצלומים בבית טרומפלדור תל יוסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582666",
+  "viewingHint": "paged"
+}

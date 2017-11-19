@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583703/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק חרוד",
+  "label": "מסגריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסגריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583703"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583703"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583703/sequence/IE46233838",
+      "@type": "sc:Sequence",
+      "label": "מסגריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46233863",
+          "@type": "sc:Canvas",
+          "label": "מסגריה",
+          "width": 2851,
+          "height": 1962,
+          "images": [
+            {
+              "@id": "FL46233863",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46233863",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46233863/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסגריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46233863",
+                  "label": "מסגריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1962,
+                "width": 2851
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46233862",
+      "@type": "sc:Range",
+      "label": "REP46233862",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46233863",
+          "@type": "sc:Canvas",
+          "label": "מסגריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583703",
+  "viewingHint": "paged"
+}

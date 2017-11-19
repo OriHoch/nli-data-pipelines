@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583123/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "רפרודוקציה הסחנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רפרודוקציה הסחנה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583123"
+    },
+    {
+      "label": "Creation Date",
+      "value": "192?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583123"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583123/sequence/IE46217788",
+      "@type": "sc:Sequence",
+      "label": "רפרודוקציה הסחנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217801",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה הסחנה",
+          "width": 2014,
+          "height": 3003,
+          "images": [
+            {
+              "@id": "FL46217801",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46217801",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46217801/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רפרודוקציה הסחנה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46217801",
+                  "label": "רפרודוקציה הסחנה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3003,
+                "width": 2014
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46217800",
+      "@type": "sc:Range",
+      "label": "REP46217800",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217801",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה הסחנה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583123",
+  "viewingHint": "paged"
+}

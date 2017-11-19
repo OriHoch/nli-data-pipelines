@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600495/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל גליל מערבי",
+  "label": "בתים ראשונים בעברון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בתים ראשונים בעברון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600495"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600495"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600495/sequence/IE46296331",
+      "@type": "sc:Sequence",
+      "label": "בתים ראשונים בעברון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296360",
+          "@type": "sc:Canvas",
+          "label": "בתים ראשונים בעברון",
+          "width": 3973,
+          "height": 3762,
+          "images": [
+            {
+              "@id": "FL46296360",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46296360",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46296360/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בתים ראשונים בעברון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46296360",
+                  "label": "בתים ראשונים בעברון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3762,
+                "width": 3973
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46296359",
+      "@type": "sc:Range",
+      "label": "REP46296359",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296360",
+          "@type": "sc:Canvas",
+          "label": "בתים ראשונים בעברון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600495",
+  "viewingHint": "paged"
+}

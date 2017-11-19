@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591334/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הכפר ג'ילבון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכפר ג'ילבון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591334"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591334"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591334/sequence/IE46254112",
+      "@type": "sc:Sequence",
+      "label": "הכפר ג'ילבון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254140",
+          "@type": "sc:Canvas",
+          "label": "הכפר ג'ילבון",
+          "width": 3021,
+          "height": 1796,
+          "images": [
+            {
+              "@id": "FL46254140",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254140",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254140/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הכפר ג'ילבון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254140",
+                  "label": "הכפר ג'ילבון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1796,
+                "width": 3021
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254138",
+      "@type": "sc:Range",
+      "label": "REP46254138",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254140",
+          "@type": "sc:Canvas",
+          "label": "הכפר ג'ילבון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591334",
+  "viewingHint": "paged"
+}

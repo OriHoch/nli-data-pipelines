@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594944/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "מיכלית החלב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מיכלית החלב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594944"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594944"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594944/sequence/IE46219606",
+      "@type": "sc:Sequence",
+      "label": "מיכלית החלב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46219619",
+          "@type": "sc:Canvas",
+          "label": "מיכלית החלב",
+          "width": 3415,
+          "height": 2080,
+          "images": [
+            {
+              "@id": "FL46219619",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46219619",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46219619/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מיכלית החלב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46219619",
+                  "label": "מיכלית החלב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2080,
+                "width": 3415
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46219618",
+      "@type": "sc:Range",
+      "label": "REP46219618",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46219619",
+          "@type": "sc:Canvas",
+          "label": "מיכלית החלב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594944",
+  "viewingHint": "paged"
+}

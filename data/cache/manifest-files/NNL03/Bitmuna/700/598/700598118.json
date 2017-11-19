@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598118/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "לאחר שטפון בשילאלה (הבשור)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לאחר שטפון בשילאלה (הבשור)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598118"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598118"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598118/sequence/IE46302124",
+      "@type": "sc:Sequence",
+      "label": "לאחר שטפון בשילאלה (הבשור)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302146",
+          "@type": "sc:Canvas",
+          "label": "לאחר שטפון בשילאלה (הבשור)",
+          "width": 4789,
+          "height": 4041,
+          "images": [
+            {
+              "@id": "FL46302146",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46302146",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46302146/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לאחר שטפון בשילאלה (הבשור)",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46302146",
+                  "label": "לאחר שטפון בשילאלה (הבשור)",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4041,
+                "width": 4789
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46302144",
+      "@type": "sc:Range",
+      "label": "REP46302144",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46302146",
+          "@type": "sc:Canvas",
+          "label": "לאחר שטפון בשילאלה (הבשור)"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598118",
+  "viewingHint": "paged"
+}

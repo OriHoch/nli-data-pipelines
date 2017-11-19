@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598840/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "שמואל קנופ ואשתו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שמואל קנופ ואשתו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598840"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598840"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598840/sequence/IE46288414",
+      "@type": "sc:Sequence",
+      "label": "שמואל קנופ ואשתו",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288446",
+          "@type": "sc:Canvas",
+          "label": "שמואל קנופ ואשתו",
+          "width": 2798,
+          "height": 3744,
+          "images": [
+            {
+              "@id": "FL46288446",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46288446",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46288446/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שמואל קנופ ואשתו",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46288446",
+                  "label": "שמואל קנופ ואשתו",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3744,
+                "width": 2798
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46288445",
+      "@type": "sc:Range",
+      "label": "REP46288445",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288446",
+          "@type": "sc:Canvas",
+          "label": "שמואל קנופ ואשתו"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598840",
+  "viewingHint": "paged"
+}

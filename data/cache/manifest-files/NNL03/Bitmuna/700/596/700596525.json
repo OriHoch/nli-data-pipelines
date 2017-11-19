@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596525/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "מלחה, ימת החולה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מלחה, ימת החולה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596525"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596525"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596525/sequence/IE46315145",
+      "@type": "sc:Sequence",
+      "label": "מלחה  ימת החולה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315168",
+          "@type": "sc:Canvas",
+          "label": "מלחה  ימת החולה",
+          "width": 4916,
+          "height": 3758,
+          "images": [
+            {
+              "@id": "FL46315168",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315168",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315168/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מלחה  ימת החולה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315168",
+                  "label": "מלחה  ימת החולה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3758,
+                "width": 4916
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315167",
+      "@type": "sc:Range",
+      "label": "REP46315167",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315168",
+          "@type": "sc:Canvas",
+          "label": "מלחה  ימת החולה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596525",
+  "viewingHint": "paged"
+}

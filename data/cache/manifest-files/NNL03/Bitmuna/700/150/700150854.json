@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700150854/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "תל אביב"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף יעני אבידב"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700150854"
+    },
+    {
+      "label": "Creation Date",
+      "value": "196?"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700150854"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700150854/sequence/IE6411446",
+      "@type": "sc:Sequence",
+      "label": "מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10399155",
+          "@type": "sc:Canvas",
+          "label": " מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר",
+          "width": 800,
+          "height": 527,
+          "images": [
+            {
+              "@id": "FL10399155",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10399155",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10399155/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10399155",
+                  "label": " מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 527,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10399154",
+      "@type": "sc:Range",
+      "label": "REP10399154",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10399155",
+          "@type": "sc:Canvas",
+          "label": " מפגש חברים בקפה כסית תל אביב יעני עם זלמן שזר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700150854",
+  "viewingHint": "paged"
+}

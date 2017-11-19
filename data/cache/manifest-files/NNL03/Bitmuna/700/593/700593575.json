@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593575/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ברטעה",
+  "label": "ליד הכפר ברטעה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליד הכפר ברטעה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ברטעה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593575"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593575"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593575/sequence/IE46262123",
+      "@type": "sc:Sequence",
+      "label": "ליד הכפר ברטעה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262154",
+          "@type": "sc:Canvas",
+          "label": "ליד הכפר ברטעה",
+          "width": 3541,
+          "height": 2099,
+          "images": [
+            {
+              "@id": "FL46262154",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46262154",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46262154/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליד הכפר ברטעה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46262154",
+                  "label": "ליד הכפר ברטעה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2099,
+                "width": 3541
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46262153",
+      "@type": "sc:Range",
+      "label": "REP46262153",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262154",
+          "@type": "sc:Canvas",
+          "label": "ליד הכפר ברטעה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593575",
+  "viewingHint": "paged"
+}

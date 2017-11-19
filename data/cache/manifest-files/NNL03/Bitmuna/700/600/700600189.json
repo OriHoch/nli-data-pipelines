@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600189/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "קטה עם חברה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קטה עם חברה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600189"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1918"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600189"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600189/sequence/IE46305459",
+      "@type": "sc:Sequence",
+      "label": "קטה עם חברה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305483",
+          "@type": "sc:Canvas",
+          "label": "קטה עם חברה",
+          "width": 2921,
+          "height": 2159,
+          "images": [
+            {
+              "@id": "FL46305483",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46305483",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46305483/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קטה עם חברה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46305483",
+                  "label": "קטה עם חברה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2159,
+                "width": 2921
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46305482",
+      "@type": "sc:Range",
+      "label": "REP46305482",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305483",
+          "@type": "sc:Canvas",
+          "label": "קטה עם חברה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600189",
+  "viewingHint": "paged"
+}

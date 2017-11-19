@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582755/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עמק חרוד",
+  "label": "בנייה במועצה גלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בנייה במועצה גלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582755"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582755"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582755/sequence/IE46341607",
+      "@type": "sc:Sequence",
+      "label": "בנייה במועצה גלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46341627",
+          "@type": "sc:Canvas",
+          "label": "בנייה במועצה גלבוע",
+          "width": 1840,
+          "height": 3002,
+          "images": [
+            {
+              "@id": "FL46341627",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46341627",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46341627/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בנייה במועצה גלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46341627",
+                  "label": "בנייה במועצה גלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3002,
+                "width": 1840
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46341626",
+      "@type": "sc:Range",
+      "label": "REP46341626",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46341627",
+          "@type": "sc:Canvas",
+          "label": "בנייה במועצה גלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582755",
+  "viewingHint": "paged"
+}

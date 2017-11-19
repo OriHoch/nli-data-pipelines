@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597246/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נתניה",
+  "label": "הלוויה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הלוויה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נתניה"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597246"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1940"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597246"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597246/sequence/IE46295082",
+      "@type": "sc:Sequence",
+      "label": "הלוויה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295120",
+          "@type": "sc:Canvas",
+          "label": "הלוויה",
+          "width": 4120,
+          "height": 2503,
+          "images": [
+            {
+              "@id": "FL46295120",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46295120",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46295120/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הלוויה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46295120",
+                  "label": "הלוויה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2503,
+                "width": 4120
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46295119",
+      "@type": "sc:Range",
+      "label": "REP46295119",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295120",
+          "@type": "sc:Canvas",
+          "label": "הלוויה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597246",
+  "viewingHint": "paged"
+}

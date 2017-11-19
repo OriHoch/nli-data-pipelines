@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581762/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל טמרה",
+  "label": "טמרה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טמרה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל טמרה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581762"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1960"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581762"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581762/sequence/IE46280888",
+      "@type": "sc:Sequence",
+      "label": "טמרה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46280922",
+          "@type": "sc:Canvas",
+          "label": "טמרה",
+          "width": 3407,
+          "height": 2064,
+          "images": [
+            {
+              "@id": "FL46280922",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46280922",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46280922/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טמרה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46280922",
+                  "label": "טמרה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2064,
+                "width": 3407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46280921",
+      "@type": "sc:Range",
+      "label": "REP46280921",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46280922",
+          "@type": "sc:Canvas",
+          "label": "טמרה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581762",
+  "viewingHint": "paged"
+}

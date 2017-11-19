@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149776/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "פועלים אצל עבודת האנזיל ברחובות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פועלים אצל עבודת האנזיל ברחובות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ארץ ישראל",
+        "רחובות"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149776"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149776"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149776/sequence/IE6403098",
+      "@type": "sc:Sequence",
+      "label": "פועלים אצל עבודת האנזיל ברחובות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394211",
+          "@type": "sc:Canvas",
+          "label": " פועלים אצל עבודת האנזיל ברחובות",
+          "width": 800,
+          "height": 486,
+          "images": [
+            {
+              "@id": "FL10394211",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10394211",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10394211/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " פועלים אצל עבודת האנזיל ברחובות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10394211",
+                  "label": " פועלים אצל עבודת האנזיל ברחובות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 486,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10394210",
+      "@type": "sc:Range",
+      "label": "REP10394210",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394211",
+          "@type": "sc:Canvas",
+          "label": " פועלים אצל עבודת האנזיל ברחובות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149776",
+  "viewingHint": "paged"
+}

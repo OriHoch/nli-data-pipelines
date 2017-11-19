@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600971/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "צ'כיה",
+  "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "צ'כיה"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600971"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1952"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600971"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600971/sequence/IE46308793",
+      "@type": "sc:Sequence",
+      "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308815",
+          "@type": "sc:Canvas",
+          "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה",
+          "width": 2877,
+          "height": 4189,
+          "images": [
+            {
+              "@id": "FL46308815",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308815",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308815/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308815",
+                  "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4189,
+                "width": 2877
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308814",
+      "@type": "sc:Range",
+      "label": "REP46308814",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308815",
+          "@type": "sc:Canvas",
+          "label": "משמר הכבוד בביה\"כ אלטנאי צ'כוסלובקיה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600971",
+  "viewingHint": "paged"
+}

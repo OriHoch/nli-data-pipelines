@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601147/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601147"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601147"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601147/sequence/IE46324548",
+      "@type": "sc:Sequence",
+      "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324560",
+          "@type": "sc:Canvas",
+          "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה",
+          "width": 1478,
+          "height": 934,
+          "images": [
+            {
+              "@id": "FL46324560",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46324560",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46324560/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46324560",
+                  "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 934,
+                "width": 1478
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46324558",
+      "@type": "sc:Range",
+      "label": "REP46324558",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46324560",
+          "@type": "sc:Canvas",
+          "label": "סיפור עמדת ההגנה על גג טחנת הקמח בימין משה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601147",
+  "viewingHint": "paged"
+}

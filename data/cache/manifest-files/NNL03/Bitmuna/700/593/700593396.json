@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700593396/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל הר הגלבוע",
+  "label": "נוף בית אלפא-חפציבה מהר גלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נוף בית אלפא-חפציבה מהר גלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל הר הגלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700593396"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700593396"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700593396/sequence/IE46254081",
+      "@type": "sc:Sequence",
+      "label": "נוף בית אלפא-חפציבה מהר גלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254122",
+          "@type": "sc:Canvas",
+          "label": "נוף בית אלפא-חפציבה מהר גלבוע",
+          "width": 3691,
+          "height": 2478,
+          "images": [
+            {
+              "@id": "FL46254122",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254122",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254122/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נוף בית אלפא-חפציבה מהר גלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254122",
+                  "label": "נוף בית אלפא-חפציבה מהר גלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2478,
+                "width": 3691
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254120",
+      "@type": "sc:Range",
+      "label": "REP46254120",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254122",
+          "@type": "sc:Canvas",
+          "label": "נוף בית אלפא-חפציבה מהר גלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700593396",
+  "viewingHint": "paged"
+}

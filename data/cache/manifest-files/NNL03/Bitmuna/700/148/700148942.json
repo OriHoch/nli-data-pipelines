@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148942/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "קולק, טדי, 1911-2007; Kollek, Teddy, 1911-2007; קולק, תאודור; Kollek, Theodore, 1911-2007",
+  "label": "טדי קולק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טדי קולק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "קולק, טדי, 1911-2007; Kollek, Teddy, 1911-2007; קולק, תאודור; Kollek, Theodore, 1911-2007",
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148942"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197u"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148942"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148942/sequence/IE6402216",
+      "@type": "sc:Sequence",
+      "label": "טדי קולק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393615",
+          "@type": "sc:Canvas",
+          "label": "טדי קולק",
+          "width": 800,
+          "height": 554,
+          "images": [
+            {
+              "@id": "FL10393615",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10393615",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10393615/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טדי קולק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10393615",
+                  "label": "טדי קולק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 554,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10393614",
+      "@type": "sc:Range",
+      "label": "REP10393614",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393615",
+          "@type": "sc:Canvas",
+          "label": "טדי קולק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148942",
+  "viewingHint": "paged"
+}

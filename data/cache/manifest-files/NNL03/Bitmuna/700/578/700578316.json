@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578316/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בריכת מים על הגלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בריכת מים על הגלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578316"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578316"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578316/sequence/IE46367957",
+      "@type": "sc:Sequence",
+      "label": "בריכת מים על הגלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367986",
+          "@type": "sc:Canvas",
+          "label": "בריכת מים על הגלבוע",
+          "width": 1720,
+          "height": 1128,
+          "images": [
+            {
+              "@id": "FL46367986",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46367986",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46367986/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בריכת מים על הגלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46367986",
+                  "label": "בריכת מים על הגלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1128,
+                "width": 1720
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46367984",
+      "@type": "sc:Range",
+      "label": "REP46367984",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367986",
+          "@type": "sc:Canvas",
+          "label": "בריכת מים על הגלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578316",
+  "viewingHint": "paged"
+}

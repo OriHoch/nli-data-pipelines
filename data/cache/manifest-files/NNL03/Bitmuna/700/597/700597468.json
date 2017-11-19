@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597468/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נגב מערבי",
+  "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל, פעמון חדר האוכל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל, פעמון חדר האוכל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597468"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597468"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597468/sequence/IE46317416",
+      "@type": "sc:Sequence",
+      "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל  פעמון חדר האוכל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46317435",
+          "@type": "sc:Canvas",
+          "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל  פעמון חדר האוכל",
+          "width": 3021,
+          "height": 4533,
+          "images": [
+            {
+              "@id": "FL46317435",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46317435",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46317435/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל  פעמון חדר האוכל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46317435",
+                  "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל  פעמון חדר האוכל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4533,
+                "width": 3021
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46317433",
+      "@type": "sc:Range",
+      "label": "REP46317433",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46317435",
+          "@type": "sc:Canvas",
+          "label": "אהובה שוהם ומשה לניאדו ליד שקי ביצורים סביב חדר האוכל  פעמון חדר האוכל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597468",
+  "viewingHint": "paged"
+}

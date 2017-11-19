@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580399/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ניר דוד",
+  "label": "גן השלושה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גן השלושה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ניר דוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580399"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580399"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580399/sequence/IE46361871",
+      "@type": "sc:Sequence",
+      "label": "גן השלושה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46361888",
+          "@type": "sc:Canvas",
+          "label": "גן השלושה",
+          "width": 2862,
+          "height": 1756,
+          "images": [
+            {
+              "@id": "FL46361888",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46361888",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46361888/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גן השלושה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46361888",
+                  "label": "גן השלושה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1756,
+                "width": 2862
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46361887",
+      "@type": "sc:Range",
+      "label": "REP46361887",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46361888",
+          "@type": "sc:Canvas",
+          "label": "גן השלושה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580399",
+  "viewingHint": "paged"
+}

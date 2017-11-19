@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600230/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "אמא וקטה הביקור בגרמניה, 1926",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אמא וקטה הביקור בגרמניה, 1926"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600230"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1926"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600230"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600230/sequence/IE46307020",
+      "@type": "sc:Sequence",
+      "label": "אמא וקטה הביקור בגרמניה  1926",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307045",
+          "@type": "sc:Canvas",
+          "label": "אמא וקטה הביקור בגרמניה  1926",
+          "width": 3898,
+          "height": 2914,
+          "images": [
+            {
+              "@id": "FL46307045",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46307045",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46307045/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אמא וקטה הביקור בגרמניה  1926",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46307045",
+                  "label": "אמא וקטה הביקור בגרמניה  1926",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2914,
+                "width": 3898
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46307044",
+      "@type": "sc:Range",
+      "label": "REP46307044",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307045",
+          "@type": "sc:Canvas",
+          "label": "אמא וקטה הביקור בגרמניה  1926"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600230",
+  "viewingHint": "paged"
+}

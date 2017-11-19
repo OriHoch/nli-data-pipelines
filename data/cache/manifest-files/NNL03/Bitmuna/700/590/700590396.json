@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590396/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל ניר יפה, חבל תענך",
+  "label": "בית המגורים של איווט גילש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית המגורים של איווט גילש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל ניר יפה, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590396"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590396"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590396/sequence/IE46270415",
+      "@type": "sc:Sequence",
+      "label": "בית המגורים של איווט גילש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46270441",
+          "@type": "sc:Canvas",
+          "label": "בית המגורים של איווט גילש",
+          "width": 3966,
+          "height": 2595,
+          "images": [
+            {
+              "@id": "FL46270441",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46270441",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46270441/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בית המגורים של איווט גילש",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46270441",
+                  "label": "בית המגורים של איווט גילש",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2595,
+                "width": 3966
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46270440",
+      "@type": "sc:Range",
+      "label": "REP46270440",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46270441",
+          "@type": "sc:Canvas",
+          "label": "בית המגורים של איווט גילש"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590396",
+  "viewingHint": "paged"
+}

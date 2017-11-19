@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578442/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הלקט כותנה נגוע בזיפית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הלקט כותנה נגוע בזיפית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578442"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578442"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578442/sequence/IE46286281",
+      "@type": "sc:Sequence",
+      "label": "הלקט כותנה נגוע בזיפית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286313",
+          "@type": "sc:Canvas",
+          "label": "הלקט כותנה נגוע בזיפית",
+          "width": 1667,
+          "height": 660,
+          "images": [
+            {
+              "@id": "FL46286313",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46286313",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46286313/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הלקט כותנה נגוע בזיפית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46286313",
+                  "label": "הלקט כותנה נגוע בזיפית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 660,
+                "width": 1667
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46286312",
+      "@type": "sc:Range",
+      "label": "REP46286312",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46286313",
+          "@type": "sc:Canvas",
+          "label": "הלקט כותנה נגוע בזיפית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578442",
+  "viewingHint": "paged"
+}

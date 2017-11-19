@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596788/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "ג'יפ וויליס בחצר בית החולים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ג'יפ וויליס בחצר בית החולים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596788"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1951"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596788"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596788/sequence/IE46312714",
+      "@type": "sc:Sequence",
+      "label": "ג'יפ וויליס בחצר בית החולים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312744",
+          "@type": "sc:Canvas",
+          "label": "ג'יפ וויליס בחצר בית החולים",
+          "width": 4351,
+          "height": 4401,
+          "images": [
+            {
+              "@id": "FL46312744",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46312744",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46312744/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ג'יפ וויליס בחצר בית החולים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46312744",
+                  "label": "ג'יפ וויליס בחצר בית החולים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4401,
+                "width": 4351
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46312743",
+      "@type": "sc:Range",
+      "label": "REP46312743",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46312744",
+          "@type": "sc:Canvas",
+          "label": "ג'יפ וויליס בחצר בית החולים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596788",
+  "viewingHint": "paged"
+}

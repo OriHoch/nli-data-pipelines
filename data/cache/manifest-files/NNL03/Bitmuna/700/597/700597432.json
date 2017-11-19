@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597432/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל נגב מערבי",
+  "label": "הובלת סככת השרותים ליד חדר הבטחון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הובלת סככת השרותים ליד חדר הבטחון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597432"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1946"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597432"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597432/sequence/IE46316340",
+      "@type": "sc:Sequence",
+      "label": "הובלת סככת השרותים ליד חדר הבטחון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316366",
+          "@type": "sc:Canvas",
+          "label": "הובלת סככת השרותים ליד חדר הבטחון",
+          "width": 4921,
+          "height": 3060,
+          "images": [
+            {
+              "@id": "FL46316366",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46316366",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46316366/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הובלת סככת השרותים ליד חדר הבטחון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46316366",
+                  "label": "הובלת סככת השרותים ליד חדר הבטחון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3060,
+                "width": 4921
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46316365",
+      "@type": "sc:Range",
+      "label": "REP46316365",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46316366",
+          "@type": "sc:Canvas",
+          "label": "הובלת סככת השרותים ליד חדר הבטחון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597432",
+  "viewingHint": "paged"
+}

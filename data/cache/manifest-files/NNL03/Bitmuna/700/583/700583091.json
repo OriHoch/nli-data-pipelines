@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583091/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תל יוסף",
+  "label": "האולפנה למוזיקה בתל יוסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האולפנה למוזיקה בתל יוסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583091"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583091"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583091/sequence/IE46217191",
+      "@type": "sc:Sequence",
+      "label": "האולפנה למוזיקה בתל יוסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217198",
+          "@type": "sc:Canvas",
+          "label": "האולפנה למוזיקה בתל יוסף",
+          "width": 3407,
+          "height": 2072,
+          "images": [
+            {
+              "@id": "FL46217198",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46217198",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46217198/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האולפנה למוזיקה בתל יוסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46217198",
+                  "label": "האולפנה למוזיקה בתל יוסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2072,
+                "width": 3407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46217197",
+      "@type": "sc:Range",
+      "label": "REP46217197",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217198",
+          "@type": "sc:Canvas",
+          "label": "האולפנה למוזיקה בתל יוסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583091",
+  "viewingHint": "paged"
+}

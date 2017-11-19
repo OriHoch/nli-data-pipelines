@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582883/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל עמק חרוד",
+  "label": "רפרודוקציה לתצלום משנות העשרים, עין חרוד למטה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רפרודוקציה לתצלום משנות העשרים, עין חרוד למטה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל עמק חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582883"
+    },
+    {
+      "label": "Creation Date",
+      "value": "192?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582883"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582883/sequence/IE46215142",
+      "@type": "sc:Sequence",
+      "label": "רפרודוקציה לתצלום משנות העשרים  עין חרוד למטה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46215148",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה לתצלום משנות העשרים  עין חרוד למטה",
+          "width": 2207,
+          "height": 1306,
+          "images": [
+            {
+              "@id": "FL46215148",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46215148",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46215148/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רפרודוקציה לתצלום משנות העשרים  עין חרוד למטה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46215148",
+                  "label": "רפרודוקציה לתצלום משנות העשרים  עין חרוד למטה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1306,
+                "width": 2207
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46215147",
+      "@type": "sc:Range",
+      "label": "REP46215147",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46215148",
+          "@type": "sc:Canvas",
+          "label": "רפרודוקציה לתצלום משנות העשרים  עין חרוד למטה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582883",
+  "viewingHint": "paged"
+}

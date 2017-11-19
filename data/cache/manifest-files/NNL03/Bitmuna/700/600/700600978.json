@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600978/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600978"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1952"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600978"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600978/sequence/IE46309018",
+      "@type": "sc:Sequence",
+      "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309035",
+          "@type": "sc:Canvas",
+          "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל",
+          "width": 3027,
+          "height": 2682,
+          "images": [
+            {
+              "@id": "FL46309035",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309035",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309035/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309035",
+                  "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2682,
+                "width": 3027
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309034",
+      "@type": "sc:Range",
+      "label": "REP46309034",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309035",
+          "@type": "sc:Canvas",
+          "label": "1952 הארונות של רפי רייס וחביבה רייק מורדים מהאוירון בישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600978",
+  "viewingHint": "paged"
+}

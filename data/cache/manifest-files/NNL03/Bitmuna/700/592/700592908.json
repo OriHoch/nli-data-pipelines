@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592908/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גדעונה",
+  "label": "תנור אפיה לפיתות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תנור אפיה לפיתות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גדעונה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592908"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592908"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592908/sequence/IE46231171",
+      "@type": "sc:Sequence",
+      "label": "תנור אפיה לפיתות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231208",
+          "@type": "sc:Canvas",
+          "label": "תנור אפיה לפיתות",
+          "width": 4060,
+          "height": 2504,
+          "images": [
+            {
+              "@id": "FL46231208",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46231208",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46231208/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תנור אפיה לפיתות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46231208",
+                  "label": "תנור אפיה לפיתות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2504,
+                "width": 4060
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46231194",
+      "@type": "sc:Range",
+      "label": "REP46231194",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46231208",
+          "@type": "sc:Canvas",
+          "label": "תנור אפיה לפיתות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592908",
+  "viewingHint": "paged"
+}

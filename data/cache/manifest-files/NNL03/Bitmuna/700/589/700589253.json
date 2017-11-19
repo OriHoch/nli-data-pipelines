@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589253/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "הזנה בריכת דגים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הזנה בריכת דגים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589253"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589253"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589253/sequence/IE46254904",
+      "@type": "sc:Sequence",
+      "label": "הזנה בריכת דגים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254937",
+          "@type": "sc:Canvas",
+          "label": "הזנה בריכת דגים",
+          "width": 3328,
+          "height": 2055,
+          "images": [
+            {
+              "@id": "FL46254937",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254937",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254937/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הזנה בריכת דגים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254937",
+                  "label": "הזנה בריכת דגים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2055,
+                "width": 3328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254935",
+      "@type": "sc:Range",
+      "label": "REP46254935",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254937",
+          "@type": "sc:Canvas",
+          "label": "הזנה בריכת דגים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589253",
+  "viewingHint": "paged"
+}

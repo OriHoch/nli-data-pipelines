@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596402/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "הוריו של רודי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הוריו של רודי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596402"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596402"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596402/sequence/IE46311396",
+      "@type": "sc:Sequence",
+      "label": "הוריו של רודי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311426",
+          "@type": "sc:Canvas",
+          "label": "הוריו של רודי",
+          "width": 4335,
+          "height": 3045,
+          "images": [
+            {
+              "@id": "FL46311426",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311426",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311426/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הוריו של רודי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311426",
+                  "label": "הוריו של רודי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3045,
+                "width": 4335
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311425",
+      "@type": "sc:Range",
+      "label": "REP46311425",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311426",
+          "@type": "sc:Canvas",
+          "label": "הוריו של רודי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596402",
+  "viewingHint": "paged"
+}

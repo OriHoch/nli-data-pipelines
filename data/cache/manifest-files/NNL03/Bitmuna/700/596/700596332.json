@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596332/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "דף ציור פרח",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דף ציור פרח"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ברכה אביגד"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596332"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596332"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596332/sequence/IE46283666",
+      "@type": "sc:Sequence",
+      "label": "דף ציור פרח",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46283695",
+          "@type": "sc:Canvas",
+          "label": "דף ציור פרח",
+          "width": 2317,
+          "height": 3698,
+          "images": [
+            {
+              "@id": "FL46283695",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46283695",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46283695/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דף ציור פרח",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46283695",
+                  "label": "דף ציור פרח",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3698,
+                "width": 2317
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46283694",
+      "@type": "sc:Range",
+      "label": "REP46283694",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46283695",
+          "@type": "sc:Canvas",
+          "label": "דף ציור פרח"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596332",
+  "viewingHint": "paged"
+}

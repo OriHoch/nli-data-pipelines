@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594586/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גדעונה",
+  "label": "דוד שרעבי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דוד שרעבי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גדעונה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594586"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594586"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594586/sequence/IE46262901",
+      "@type": "sc:Sequence",
+      "label": "דוד שרעבי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262924",
+          "@type": "sc:Canvas",
+          "label": "דוד שרעבי",
+          "width": 2391,
+          "height": 3744,
+          "images": [
+            {
+              "@id": "FL46262924",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46262924",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46262924/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דוד שרעבי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46262924",
+                  "label": "דוד שרעבי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3744,
+                "width": 2391
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46262923",
+      "@type": "sc:Range",
+      "label": "REP46262923",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46262924",
+          "@type": "sc:Canvas",
+          "label": "דוד שרעבי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594586",
+  "viewingHint": "paged"
+}

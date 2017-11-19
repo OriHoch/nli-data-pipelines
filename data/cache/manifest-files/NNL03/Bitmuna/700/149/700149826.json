@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149826/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "זבוטינסקי, זאב ולדימיר",
+  "label": "זאב ולדימיר זבוטינסקי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "זאב ולדימיר זבוטינסקי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "זבוטינסקי, זאב ולדימיר",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149826"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149826"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149826/sequence/IE6403828",
+      "@type": "sc:Sequence",
+      "label": "זאב ולדימיר זבוטינסקי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395727",
+          "@type": "sc:Canvas",
+          "label": " זאב ולדימיר זבוטינסקי",
+          "width": 481,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10395727",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10395727",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10395727/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " זאב ולדימיר זבוטינסקי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10395727",
+                  "label": " זאב ולדימיר זבוטינסקי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 481
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10395726",
+      "@type": "sc:Range",
+      "label": "REP10395726",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395727",
+          "@type": "sc:Canvas",
+          "label": " זאב ולדימיר זבוטינסקי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149826",
+  "viewingHint": "paged"
+}

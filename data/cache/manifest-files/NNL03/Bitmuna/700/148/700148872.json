@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148872/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "בלאושטיין, אילת",
+  "label": "רקטור האוניברסיטה העברית; מר אילת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רקטור האוניברסיטה העברית; מר אילת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "בלאושטיין, אילת",
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148872"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148872"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148872/sequence/IE6401172",
+      "@type": "sc:Sequence",
+      "label": "רקטור האוניברסיטה העברית; מר אילת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392110",
+          "@type": "sc:Canvas",
+          "label": "רקטור האוניברסיטה העברית; מר אילת ",
+          "width": 776,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10392110",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10392110",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10392110/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רקטור האוניברסיטה העברית; מר אילת ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10392110",
+                  "label": "רקטור האוניברסיטה העברית; מר אילת ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 776
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10392109",
+      "@type": "sc:Range",
+      "label": "REP10392109",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392110",
+          "@type": "sc:Canvas",
+          "label": "רקטור האוניברסיטה העברית; מר אילת "
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148872",
+  "viewingHint": "paged"
+}

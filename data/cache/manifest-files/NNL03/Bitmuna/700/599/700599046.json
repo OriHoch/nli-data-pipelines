@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599046/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "ילדה בנדנדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ילדה בנדנדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599046"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599046"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599046/sequence/IE46296867",
+      "@type": "sc:Sequence",
+      "label": "ילדה בנדנדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296903",
+          "@type": "sc:Canvas",
+          "label": "ילדה בנדנדה",
+          "width": 2828,
+          "height": 3770,
+          "images": [
+            {
+              "@id": "FL46296903",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46296903",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46296903/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ילדה בנדנדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46296903",
+                  "label": "ילדה בנדנדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3770,
+                "width": 2828
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46296902",
+      "@type": "sc:Range",
+      "label": "REP46296902",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296903",
+          "@type": "sc:Canvas",
+          "label": "ילדה בנדנדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599046",
+  "viewingHint": "paged"
+}

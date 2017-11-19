@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601014/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601014"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1940"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601014"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601014/sequence/IE46310143",
+      "@type": "sc:Sequence",
+      "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310164",
+          "@type": "sc:Canvas",
+          "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות",
+          "width": 3120,
+          "height": 1936,
+          "images": [
+            {
+              "@id": "FL46310164",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46310164",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46310164/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46310164",
+                  "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1936,
+                "width": 3120
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46310163",
+      "@type": "sc:Range",
+      "label": "REP46310163",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310164",
+          "@type": "sc:Canvas",
+          "label": "קריקטורה של רפי רייס עת עבד ברפת קיבוץ רמת דוד 1940 לפני צאתו לשליחות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601014",
+  "viewingHint": "paged"
+}

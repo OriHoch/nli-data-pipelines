@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598265/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מפגש בנהלל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפגש בנהלל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598265"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598265"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598265/sequence/IE46290428",
+      "@type": "sc:Sequence",
+      "label": "מפגש בנהלל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290445",
+          "@type": "sc:Canvas",
+          "label": "מפגש בנהלל",
+          "width": 3911,
+          "height": 2458,
+          "images": [
+            {
+              "@id": "FL46290445",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46290445",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46290445/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפגש בנהלל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46290445",
+                  "label": "מפגש בנהלל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2458,
+                "width": 3911
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46290442",
+      "@type": "sc:Range",
+      "label": "REP46290442",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290445",
+          "@type": "sc:Canvas",
+          "label": "מפגש בנהלל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598265",
+  "viewingHint": "paged"
+}

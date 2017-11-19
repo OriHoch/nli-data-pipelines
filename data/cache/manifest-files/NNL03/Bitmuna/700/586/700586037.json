@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586037/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586037"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586037"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586037/sequence/IE46222060",
+      "@type": "sc:Sequence",
+      "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222081",
+          "@type": "sc:Canvas",
+          "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן",
+          "width": 2104,
+          "height": 3312,
+          "images": [
+            {
+              "@id": "FL46222081",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46222081",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46222081/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46222081",
+                  "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3312,
+                "width": 2104
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46222080",
+      "@type": "sc:Range",
+      "label": "REP46222080",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222081",
+          "@type": "sc:Canvas",
+          "label": "שמואל הדר מבוני תערוכת התעשיה בבית שטורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586037",
+  "viewingHint": "paged"
+}

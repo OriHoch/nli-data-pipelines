@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598534/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "ראש פינה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ראש פינה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "נתן אייזינגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598534"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598534"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598534/sequence/IE46295202",
+      "@type": "sc:Sequence",
+      "label": "ראש פינה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295235",
+          "@type": "sc:Canvas",
+          "label": "ראש פינה",
+          "width": 6656,
+          "height": 4833,
+          "images": [
+            {
+              "@id": "FL46295235",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46295235",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46295235/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ראש פינה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46295235",
+                  "label": "ראש פינה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4833,
+                "width": 6656
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46295234",
+      "@type": "sc:Range",
+      "label": "REP46295234",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46295235",
+          "@type": "sc:Canvas",
+          "label": "ראש פינה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598534",
+  "viewingHint": "paged"
+}

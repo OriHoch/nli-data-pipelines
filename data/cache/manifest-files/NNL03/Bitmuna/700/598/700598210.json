@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598210/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "קנדה",
+  "label": "חברים של שמואל מקנדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברים של שמואל מקנדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "קנדה"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598210"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1930"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598210"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598210/sequence/IE46288349",
+      "@type": "sc:Sequence",
+      "label": "חברים של שמואל מקנדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288383",
+          "@type": "sc:Canvas",
+          "label": "חברים של שמואל מקנדה",
+          "width": 5687,
+          "height": 4419,
+          "images": [
+            {
+              "@id": "FL46288383",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46288383",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46288383/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברים של שמואל מקנדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46288383",
+                  "label": "חברים של שמואל מקנדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4419,
+                "width": 5687
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46288381",
+      "@type": "sc:Range",
+      "label": "REP46288381",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288383",
+          "@type": "sc:Canvas",
+          "label": "חברים של שמואל מקנדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598210",
+  "viewingHint": "paged"
+}

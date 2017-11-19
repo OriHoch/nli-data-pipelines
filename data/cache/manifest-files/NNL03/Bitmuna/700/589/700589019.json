@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589019/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית הספר המשותף עין חרוד תל יוסף",
+  "label": "עבודה חקלאית בשדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עבודה חקלאית בשדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית הספר המשותף עין חרוד תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589019"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589019"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589019/sequence/IE46245686",
+      "@type": "sc:Sequence",
+      "label": "עבודה חקלאית בשדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46245713",
+          "@type": "sc:Canvas",
+          "label": "עבודה חקלאית בשדה",
+          "width": 4156,
+          "height": 3264,
+          "images": [
+            {
+              "@id": "FL46245713",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46245713",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46245713/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עבודה חקלאית בשדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46245713",
+                  "label": "עבודה חקלאית בשדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3264,
+                "width": 4156
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46245712",
+      "@type": "sc:Range",
+      "label": "REP46245712",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46245713",
+          "@type": "sc:Canvas",
+          "label": "עבודה חקלאית בשדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589019",
+  "viewingHint": "paged"
+}

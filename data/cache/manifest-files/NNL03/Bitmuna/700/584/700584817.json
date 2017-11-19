@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584817/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד איחוד",
+  "label": "נגריית רהיטים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נגריית רהיטים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד איחוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584817"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584817"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584817/sequence/IE46254027",
+      "@type": "sc:Sequence",
+      "label": "נגריית רהיטים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254059",
+          "@type": "sc:Canvas",
+          "label": "נגריית רהיטים",
+          "width": 3266,
+          "height": 2154,
+          "images": [
+            {
+              "@id": "FL46254059",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254059",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254059/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "נגריית רהיטים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254059",
+                  "label": "נגריית רהיטים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2154,
+                "width": 3266
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254057",
+      "@type": "sc:Range",
+      "label": "REP46254057",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254059",
+          "@type": "sc:Canvas",
+          "label": "נגריית רהיטים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584817",
+  "viewingHint": "paged"
+}

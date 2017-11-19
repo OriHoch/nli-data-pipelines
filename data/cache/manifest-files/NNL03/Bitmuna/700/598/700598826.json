@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598826/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישראל אבן נור עם בתו מיכל ויעקב בן אור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598826"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598826"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598826/sequence/IE46287731",
+      "@type": "sc:Sequence",
+      "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46287768",
+          "@type": "sc:Canvas",
+          "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור",
+          "width": 3748,
+          "height": 2723,
+          "images": [
+            {
+              "@id": "FL46287768",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46287768",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46287768/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46287768",
+                  "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2723,
+                "width": 3748
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46287767",
+      "@type": "sc:Range",
+      "label": "REP46287767",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46287768",
+          "@type": "sc:Canvas",
+          "label": "ישראל אבן נור עם בתו מיכל ויעקב בן אור"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598826",
+  "viewingHint": "paged"
+}

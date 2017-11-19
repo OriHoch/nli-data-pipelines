@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598574/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל שפיה",
+  "label": "בנות שפיה 1933.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בנות שפיה 1933."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל שפיה"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598574"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598574"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598574/sequence/IE46309402",
+      "@type": "sc:Sequence",
+      "label": "בנות שפיה 1933.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309421",
+          "@type": "sc:Canvas",
+          "label": "בנות שפיה 1933.",
+          "width": 3678,
+          "height": 2606,
+          "images": [
+            {
+              "@id": "FL46309421",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309421",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309421/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בנות שפיה 1933.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309421",
+                  "label": "בנות שפיה 1933.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2606,
+                "width": 3678
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309419",
+      "@type": "sc:Range",
+      "label": "REP46309419",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309421",
+          "@type": "sc:Canvas",
+          "label": "בנות שפיה 1933."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598574",
+  "viewingHint": "paged"
+}

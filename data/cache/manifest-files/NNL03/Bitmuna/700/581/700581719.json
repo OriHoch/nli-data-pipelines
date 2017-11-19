@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581719/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581719"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1960"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581719"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581719/sequence/IE46279028",
+      "@type": "sc:Sequence",
+      "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46279056",
+          "@type": "sc:Canvas",
+          "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול",
+          "width": 3116,
+          "height": 2104,
+          "images": [
+            {
+              "@id": "FL46279056",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46279056",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46279056/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46279056",
+                  "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2104,
+                "width": 3116
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46279055",
+      "@type": "sc:Range",
+      "label": "REP46279055",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46279056",
+          "@type": "sc:Canvas",
+          "label": "ביקור יו\"ר ועדת הפנים של הכנסת קובה ריפתין בתחנת המשטרה בית שאן וסיור בגזרת הגבול"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581719",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595242/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מוקיבלה",
+  "label": "מסגד הכפר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסגד הכפר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מוקיבלה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595242"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595242"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595242/sequence/IE46227019",
+      "@type": "sc:Sequence",
+      "label": "מסגד הכפר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46227036",
+          "@type": "sc:Canvas",
+          "label": "מסגד הכפר",
+          "width": 3631,
+          "height": 2244,
+          "images": [
+            {
+              "@id": "FL46227036",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46227036",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46227036/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסגד הכפר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46227036",
+                  "label": "מסגד הכפר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2244,
+                "width": 3631
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46227035",
+      "@type": "sc:Range",
+      "label": "REP46227035",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46227036",
+          "@type": "sc:Canvas",
+          "label": "מסגד הכפר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595242",
+  "viewingHint": "paged"
+}

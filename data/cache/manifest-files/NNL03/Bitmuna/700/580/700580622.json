@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580622/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "חורבות זרעין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חורבות זרעין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580622"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580622"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580622/sequence/IE46368518",
+      "@type": "sc:Sequence",
+      "label": "חורבות זרעין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368535",
+          "@type": "sc:Canvas",
+          "label": "חורבות זרעין",
+          "width": 2918,
+          "height": 2008,
+          "images": [
+            {
+              "@id": "FL46368535",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46368535",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46368535/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חורבות זרעין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46368535",
+                  "label": "חורבות זרעין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2008,
+                "width": 2918
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46368534",
+      "@type": "sc:Range",
+      "label": "REP46368534",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368535",
+          "@type": "sc:Canvas",
+          "label": "חורבות זרעין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580622",
+  "viewingHint": "paged"
+}

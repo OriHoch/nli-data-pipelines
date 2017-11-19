@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580532/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עפולה",
+  "label": "תחנת אגד בעפולה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תחנת אגד בעפולה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עפולה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580532"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580532"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580532/sequence/IE46365252",
+      "@type": "sc:Sequence",
+      "label": "תחנת אגד בעפולה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46365269",
+          "@type": "sc:Canvas",
+          "label": "תחנת אגד בעפולה",
+          "width": 2995,
+          "height": 1771,
+          "images": [
+            {
+              "@id": "FL46365269",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46365269",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46365269/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תחנת אגד בעפולה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46365269",
+                  "label": "תחנת אגד בעפולה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1771,
+                "width": 2995
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46365268",
+      "@type": "sc:Range",
+      "label": "REP46365268",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46365269",
+          "@type": "sc:Canvas",
+          "label": "תחנת אגד בעפולה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580532",
+  "viewingHint": "paged"
+}

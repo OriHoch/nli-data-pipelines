@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600780/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לבנון",
+  "label": "בניין ביצורים, בניין ביצורים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בניין ביצורים, בניין ביצורים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לבנון"
+    },
+    {
+      "label": "Source",
+      "value": "רמ\"ט פיקוד צפון לאחר של\"ג"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600780"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1983"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600780"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600780/sequence/IE46290524",
+      "@type": "sc:Sequence",
+      "label": "בניין ביצורים  בניין ביצורים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290552",
+          "@type": "sc:Canvas",
+          "label": "בניין ביצורים  בניין ביצורים",
+          "width": 4007,
+          "height": 2728,
+          "images": [
+            {
+              "@id": "FL46290552",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46290552",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46290552/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בניין ביצורים  בניין ביצורים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46290552",
+                  "label": "בניין ביצורים  בניין ביצורים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2728,
+                "width": 4007
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46290551",
+      "@type": "sc:Range",
+      "label": "REP46290551",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290552",
+          "@type": "sc:Canvas",
+          "label": "בניין ביצורים  בניין ביצורים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600780",
+  "viewingHint": "paged"
+}

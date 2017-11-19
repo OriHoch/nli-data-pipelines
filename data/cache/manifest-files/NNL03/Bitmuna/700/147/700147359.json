@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700147359/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "בסדנא של דינה ניר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בסדנא של דינה ניר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700147359"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1960"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700147359"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700147359/sequence/IE6408186",
+      "@type": "sc:Sequence",
+      "label": "בסדנא של דינה ניר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397235",
+          "@type": "sc:Canvas",
+          "label": "בסדנא של דינה ניר",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10397235",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10397235",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10397235/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בסדנא של דינה ניר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10397235",
+                  "label": "בסדנא של דינה ניר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10397234",
+      "@type": "sc:Range",
+      "label": "REP10397234",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397235",
+          "@type": "sc:Canvas",
+          "label": "בסדנא של דינה ניר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700147359",
+  "viewingHint": "paged"
+}

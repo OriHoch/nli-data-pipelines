@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580103/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענך",
+  "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580103"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580103"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580103/sequence/IE46353273",
+      "@type": "sc:Sequence",
+      "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46353296",
+          "@type": "sc:Canvas",
+          "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה",
+          "width": 3250,
+          "height": 1893,
+          "images": [
+            {
+              "@id": "FL46353296",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46353296",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46353296/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46353296",
+                  "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1893,
+                "width": 3250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46353295",
+      "@type": "sc:Range",
+      "label": "REP46353295",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46353296",
+          "@type": "sc:Canvas",
+          "label": "חנוכת גן ילדים שאומץ ע\"י משמר הגבול מושב ניר יפה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580103",
+  "viewingHint": "paged"
+}

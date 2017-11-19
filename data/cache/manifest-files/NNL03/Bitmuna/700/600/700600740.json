@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600740/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לבנון",
+  "label": "טקס חילוף אלופי הפיקוד 10.11.83.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טקס חילוף אלופי הפיקוד 10.11.83."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לבנון"
+    },
+    {
+      "label": "Source",
+      "value": "רמ\"ט פיקוד צפון לאחר של\"ג"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600740"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1983"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600740"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600740/sequence/IE46288799",
+      "@type": "sc:Sequence",
+      "label": "טקס חילוף אלופי הפיקוד 10.11.83.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288838",
+          "@type": "sc:Canvas",
+          "label": "טקס חילוף אלופי הפיקוד 10.11.83.",
+          "width": 4062,
+          "height": 2199,
+          "images": [
+            {
+              "@id": "FL46288838",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46288838",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46288838/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טקס חילוף אלופי הפיקוד 10.11.83.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46288838",
+                  "label": "טקס חילוף אלופי הפיקוד 10.11.83.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2199,
+                "width": 4062
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46288837",
+      "@type": "sc:Range",
+      "label": "REP46288837",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46288838",
+          "@type": "sc:Canvas",
+          "label": "טקס חילוף אלופי הפיקוד 10.11.83."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600740",
+  "viewingHint": "paged"
+}

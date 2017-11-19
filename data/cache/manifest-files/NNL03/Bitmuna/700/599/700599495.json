@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599495/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "מראה בקיבוץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מראה בקיבוץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599495"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599495"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599495/sequence/IE46311662",
+      "@type": "sc:Sequence",
+      "label": "מראה בקיבוץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311684",
+          "@type": "sc:Canvas",
+          "label": "מראה בקיבוץ",
+          "width": 4975,
+          "height": 3875,
+          "images": [
+            {
+              "@id": "FL46311684",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311684",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311684/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מראה בקיבוץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311684",
+                  "label": "מראה בקיבוץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3875,
+                "width": 4975
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311683",
+      "@type": "sc:Range",
+      "label": "REP46311683",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311684",
+          "@type": "sc:Canvas",
+          "label": "מראה בקיבוץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599495",
+  "viewingHint": "paged"
+}

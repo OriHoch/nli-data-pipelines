@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149678/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "משק בבלפוריה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משק בבלפוריה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ארץ ישראל",
+        "בלפוריה"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149678"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149678"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149678/sequence/IE6402765",
+      "@type": "sc:Sequence",
+      "label": "משק בבלפוריה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393291",
+          "@type": "sc:Canvas",
+          "label": " משק בבלפוריה",
+          "width": 800,
+          "height": 340,
+          "images": [
+            {
+              "@id": "FL10393291",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10393291",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10393291/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " משק בבלפוריה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10393291",
+                  "label": " משק בבלפוריה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 340,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10393290",
+      "@type": "sc:Range",
+      "label": "REP10393290",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10393291",
+          "@type": "sc:Canvas",
+          "label": " משק בבלפוריה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149678",
+  "viewingHint": "paged"
+}

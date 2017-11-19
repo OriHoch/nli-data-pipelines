@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589299/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גליל עליון",
+  "label": "עצרת התיישבות בבירנית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עצרת התיישבות בבירנית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גליל עליון"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589299"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589299"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589299/sequence/IE46256664",
+      "@type": "sc:Sequence",
+      "label": "עצרת התיישבות בבירנית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46256687",
+          "@type": "sc:Canvas",
+          "label": "עצרת התיישבות בבירנית",
+          "width": 3897,
+          "height": 2568,
+          "images": [
+            {
+              "@id": "FL46256687",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46256687",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46256687/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עצרת התיישבות בבירנית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46256687",
+                  "label": "עצרת התיישבות בבירנית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2568,
+                "width": 3897
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46256686",
+      "@type": "sc:Range",
+      "label": "REP46256686",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46256687",
+          "@type": "sc:Canvas",
+          "label": "עצרת התיישבות בבירנית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589299",
+  "viewingHint": "paged"
+}

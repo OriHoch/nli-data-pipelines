@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600527/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל גליל מערבי",
+  "label": "זלמן בן יצחק עם בנו עופר שנות ה-60",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "זלמן בן יצחק עם בנו עופר שנות ה-60"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600527"
+    },
+    {
+      "label": "Creation Date",
+      "value": "196?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600527"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600527/sequence/IE46297470",
+      "@type": "sc:Sequence",
+      "label": "זלמן בן יצחק עם בנו עופר שנות ה-60",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297492",
+          "@type": "sc:Canvas",
+          "label": "זלמן בן יצחק עם בנו עופר שנות ה-60",
+          "width": 3957,
+          "height": 4006,
+          "images": [
+            {
+              "@id": "FL46297492",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297492",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297492/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "זלמן בן יצחק עם בנו עופר שנות ה-60",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297492",
+                  "label": "זלמן בן יצחק עם בנו עופר שנות ה-60",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4006,
+                "width": 3957
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297491",
+      "@type": "sc:Range",
+      "label": "REP46297491",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297492",
+          "@type": "sc:Canvas",
+          "label": "זלמן בן יצחק עם בנו עופר שנות ה-60"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600527",
+  "viewingHint": "paged"
+}

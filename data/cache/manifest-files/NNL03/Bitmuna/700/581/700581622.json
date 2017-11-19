@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581622/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "במפעל פלדות עין חרוד מאוחד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "במפעל פלדות עין חרוד מאוחד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581622"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581622"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581622/sequence/IE46369683",
+      "@type": "sc:Sequence",
+      "label": "במפעל פלדות עין חרוד מאוחד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46369694",
+          "@type": "sc:Canvas",
+          "label": "במפעל פלדות עין חרוד מאוחד",
+          "width": 1629,
+          "height": 2724,
+          "images": [
+            {
+              "@id": "FL46369694",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46369694",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46369694/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "במפעל פלדות עין חרוד מאוחד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46369694",
+                  "label": "במפעל פלדות עין חרוד מאוחד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2724,
+                "width": 1629
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46369692",
+      "@type": "sc:Range",
+      "label": "REP46369692",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46369694",
+          "@type": "sc:Canvas",
+          "label": "במפעל פלדות עין חרוד מאוחד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581622",
+  "viewingHint": "paged"
+}

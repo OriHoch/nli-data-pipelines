@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597886/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "יפתח אלוני עובד ברפת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יפתח אלוני עובד ברפת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "מצפה/קיבוץ גבולות"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597886"
+    },
+    {
+      "label": "Creation Date",
+      "value": "197?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597886"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597886/sequence/IE46305655",
+      "@type": "sc:Sequence",
+      "label": "יפתח אלוני עובד ברפת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305680",
+          "@type": "sc:Canvas",
+          "label": "יפתח אלוני עובד ברפת",
+          "width": 1040,
+          "height": 683,
+          "images": [
+            {
+              "@id": "FL46305680",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46305680",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46305680/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יפתח אלוני עובד ברפת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46305680",
+                  "label": "יפתח אלוני עובד ברפת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 683,
+                "width": 1040
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46305678",
+      "@type": "sc:Range",
+      "label": "REP46305678",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46305680",
+          "@type": "sc:Canvas",
+          "label": "יפתח אלוני עובד ברפת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597886",
+  "viewingHint": "paged"
+}

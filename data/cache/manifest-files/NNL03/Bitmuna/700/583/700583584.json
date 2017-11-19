@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583584/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "חנוך סלור בחדר הזכרון של בית אלפא",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנוך סלור בחדר הזכרון של בית אלפא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583584"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583584"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583584/sequence/IE46229502",
+      "@type": "sc:Sequence",
+      "label": "חנוך סלור בחדר הזכרון של בית אלפא",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229530",
+          "@type": "sc:Canvas",
+          "label": "חנוך סלור בחדר הזכרון של בית אלפא",
+          "width": 2853,
+          "height": 1962,
+          "images": [
+            {
+              "@id": "FL46229530",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46229530",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46229530/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חנוך סלור בחדר הזכרון של בית אלפא",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46229530",
+                  "label": "חנוך סלור בחדר הזכרון של בית אלפא",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1962,
+                "width": 2853
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46229528",
+      "@type": "sc:Range",
+      "label": "REP46229528",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46229530",
+          "@type": "sc:Canvas",
+          "label": "חנוך סלור בחדר הזכרון של בית אלפא"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583584",
+  "viewingHint": "paged"
+}

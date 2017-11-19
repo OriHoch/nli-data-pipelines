@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600241/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל צפת",
+  "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל צפת"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600241"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600241"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600241/sequence/IE46307427",
+      "@type": "sc:Sequence",
+      "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307458",
+          "@type": "sc:Canvas",
+          "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א",
+          "width": 3376,
+          "height": 2812,
+          "images": [
+            {
+              "@id": "FL46307458",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46307458",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46307458/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46307458",
+                  "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2812,
+                "width": 3376
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46307455",
+      "@type": "sc:Range",
+      "label": "REP46307455",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46307458",
+          "@type": "sc:Canvas",
+          "label": "לוטה כהן בצפת הארכיטקטית שבנתה את המלון בת\"א"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600241",
+  "viewingHint": "paged"
+}

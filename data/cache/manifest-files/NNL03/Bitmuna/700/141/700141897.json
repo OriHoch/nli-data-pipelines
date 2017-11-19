@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700141897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הקמת ישוב חדש בנגב - מצפה רמון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הקמת ישוב חדש בנגב - מצפה רמון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "מצפה רמון"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700141897"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700141897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700141897/sequence/IE6379819",
+      "@type": "sc:Sequence",
+      "label": "הקמת ישוב חדש בנגב - מצפה רמון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380003",
+          "@type": "sc:Canvas",
+          "label": "הקמת ישוב חדש בנגב - מצפה רמון",
+          "width": 792,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10380003",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10380003",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10380003/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הקמת ישוב חדש בנגב - מצפה רמון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10380003",
+                  "label": "הקמת ישוב חדש בנגב - מצפה רמון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10380002",
+      "@type": "sc:Range",
+      "label": "REP10380002",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10380003",
+          "@type": "sc:Canvas",
+          "label": "הקמת ישוב חדש בנגב - מצפה רמון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700141897",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600891/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מצרים",
+  "label": "מצרים 1944, שוריקה ברוורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מצרים 1944, שוריקה ברוורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "מצרים"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600891"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600891"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600891/sequence/IE46306377",
+      "@type": "sc:Sequence",
+      "label": "מצרים 1944  שוריקה ברוורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306395",
+          "@type": "sc:Canvas",
+          "label": "מצרים 1944  שוריקה ברוורמן",
+          "width": 2612,
+          "height": 3785,
+          "images": [
+            {
+              "@id": "FL46306395",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46306395",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46306395/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מצרים 1944  שוריקה ברוורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46306395",
+                  "label": "מצרים 1944  שוריקה ברוורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3785,
+                "width": 2612
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46306394",
+      "@type": "sc:Range",
+      "label": "REP46306394",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306395",
+          "@type": "sc:Canvas",
+          "label": "מצרים 1944  שוריקה ברוורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600891",
+  "viewingHint": "paged"
+}

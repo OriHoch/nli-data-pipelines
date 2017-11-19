@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578415/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "משק חי בבית הספר המשותף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משק חי בבית הספר המשותף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578415"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578415"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578415/sequence/IE46285087",
+      "@type": "sc:Sequence",
+      "label": "משק חי בבית הספר המשותף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285124",
+          "@type": "sc:Canvas",
+          "label": "משק חי בבית הספר המשותף",
+          "width": 1643,
+          "height": 1015,
+          "images": [
+            {
+              "@id": "FL46285124",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46285124",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46285124/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משק חי בבית הספר המשותף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46285124",
+                  "label": "משק חי בבית הספר המשותף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1015,
+                "width": 1643
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46285120",
+      "@type": "sc:Range",
+      "label": "REP46285120",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285124",
+          "@type": "sc:Canvas",
+          "label": "משק חי בבית הספר המשותף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578415",
+  "viewingHint": "paged"
+}

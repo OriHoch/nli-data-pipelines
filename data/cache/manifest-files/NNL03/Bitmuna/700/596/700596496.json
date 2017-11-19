@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596496/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "במסיבת סיום לימודי הרפואה, ברלין 1934. רודי משמאל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "במסיבת סיום לימודי הרפואה, ברלין 1934. רודי משמאל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596496"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596496"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596496/sequence/IE46314293",
+      "@type": "sc:Sequence",
+      "label": "במסיבת סיום לימודי הרפואה  ברלין 1934. רודי משמאל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314311",
+          "@type": "sc:Canvas",
+          "label": "במסיבת סיום לימודי הרפואה  ברלין 1934. רודי משמאל.",
+          "width": 4289,
+          "height": 3354,
+          "images": [
+            {
+              "@id": "FL46314311",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314311",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314311/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "במסיבת סיום לימודי הרפואה  ברלין 1934. רודי משמאל.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314311",
+                  "label": "במסיבת סיום לימודי הרפואה  ברלין 1934. רודי משמאל.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3354,
+                "width": 4289
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314310",
+      "@type": "sc:Range",
+      "label": "REP46314310",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314311",
+          "@type": "sc:Canvas",
+          "label": "במסיבת סיום לימודי הרפואה  ברלין 1934. רודי משמאל."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596496",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595795/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מרכז יעל, חבל תענך",
+  "label": "הזכרה למאיר לניר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הזכרה למאיר לניר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מרכז יעל, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595795"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595795"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595795/sequence/IE46246907",
+      "@type": "sc:Sequence",
+      "label": "הזכרה למאיר לניר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46246931",
+          "@type": "sc:Canvas",
+          "label": "הזכרה למאיר לניר",
+          "width": 3407,
+          "height": 2279,
+          "images": [
+            {
+              "@id": "FL46246931",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46246931",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46246931/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הזכרה למאיר לניר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46246931",
+                  "label": "הזכרה למאיר לניר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2279,
+                "width": 3407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46246929",
+      "@type": "sc:Range",
+      "label": "REP46246929",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46246931",
+          "@type": "sc:Canvas",
+          "label": "הזכרה למאיר לניר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595795",
+  "viewingHint": "paged"
+}

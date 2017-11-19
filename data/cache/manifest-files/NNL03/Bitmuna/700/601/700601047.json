@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601047/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "בולגריה",
+  "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "בולגריה"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601047"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1947"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601047"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601047/sequence/IE46304801",
+      "@type": "sc:Sequence",
+      "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304821",
+          "@type": "sc:Canvas",
+          "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה",
+          "width": 3912,
+          "height": 2537,
+          "images": [
+            {
+              "@id": "FL46304821",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46304821",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46304821/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46304821",
+                  "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2537,
+                "width": 3912
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46304820",
+      "@type": "sc:Range",
+      "label": "REP46304820",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46304821",
+          "@type": "sc:Canvas",
+          "label": "דגל בולגריה במחנה חאין בועז. על הדגל דמיטרוב מזכיר המפלגה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601047",
+  "viewingHint": "paged"
+}

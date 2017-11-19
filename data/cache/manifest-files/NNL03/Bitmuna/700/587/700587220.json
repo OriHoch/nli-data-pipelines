@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700587220/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "אסיף תפוחי אדמה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אסיף תפוחי אדמה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700587220"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700587220"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700587220/sequence/IE46276236",
+      "@type": "sc:Sequence",
+      "label": "אסיף תפוחי אדמה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46276256",
+          "@type": "sc:Canvas",
+          "label": "אסיף תפוחי אדמה",
+          "width": 3343,
+          "height": 2039,
+          "images": [
+            {
+              "@id": "FL46276256",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46276256",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46276256/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אסיף תפוחי אדמה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46276256",
+                  "label": "אסיף תפוחי אדמה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2039,
+                "width": 3343
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46276255",
+      "@type": "sc:Range",
+      "label": "REP46276255",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46276256",
+          "@type": "sc:Canvas",
+          "label": "אסיף תפוחי אדמה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700587220",
+  "viewingHint": "paged"
+}

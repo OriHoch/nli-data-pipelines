@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596238/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "גרמניה",
+  "label": "האחים קורט וזיגברד לוי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האחים קורט וזיגברד לוי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "גרמניה"
+    },
+    {
+      "label": "Source",
+      "value": "ברכה אביגד"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596238"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596238"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596238/sequence/IE46315573",
+      "@type": "sc:Sequence",
+      "label": "האחים קורט וזיגברד לוי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315614",
+          "@type": "sc:Canvas",
+          "label": "האחים קורט וזיגברד לוי",
+          "width": 2272,
+          "height": 3343,
+          "images": [
+            {
+              "@id": "FL46315614",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46315614",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46315614/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האחים קורט וזיגברד לוי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46315614",
+                  "label": "האחים קורט וזיגברד לוי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3343,
+                "width": 2272
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46315613",
+      "@type": "sc:Range",
+      "label": "REP46315613",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46315614",
+          "@type": "sc:Canvas",
+          "label": "האחים קורט וזיגברד לוי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596238",
+  "viewingHint": "paged"
+}

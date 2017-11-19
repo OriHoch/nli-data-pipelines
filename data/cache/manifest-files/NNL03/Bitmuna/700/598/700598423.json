@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598423/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "ירושלים 1934",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ירושלים 1934"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "נתן אייזינגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598423"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598423"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598423/sequence/IE46289947",
+      "@type": "sc:Sequence",
+      "label": "ירושלים 1934",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289975",
+          "@type": "sc:Canvas",
+          "label": "ירושלים 1934",
+          "width": 4569,
+          "height": 5168,
+          "images": [
+            {
+              "@id": "FL46289975",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46289975",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46289975/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ירושלים 1934",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46289975",
+                  "label": "ירושלים 1934",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5168,
+                "width": 4569
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46289974",
+      "@type": "sc:Range",
+      "label": "REP46289974",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289975",
+          "@type": "sc:Canvas",
+          "label": "ירושלים 1934"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598423",
+  "viewingHint": "paged"
+}

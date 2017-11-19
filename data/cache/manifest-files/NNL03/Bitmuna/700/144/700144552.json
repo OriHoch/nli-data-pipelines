@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700144552/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "צוות CBS מצלמים את בן גוריון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צוות CBS מצלמים את בן גוריון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700144552"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700144552"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700144552/sequence/IE6388659",
+      "@type": "sc:Sequence",
+      "label": "צוות CBS מצלמים את בן גוריון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10384238",
+          "@type": "sc:Canvas",
+          "label": "צוות CBS מצלמים את בן גוריון",
+          "width": 800,
+          "height": 794,
+          "images": [
+            {
+              "@id": "FL10384238",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10384238",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10384238/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צוות CBS מצלמים את בן גוריון",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10384238",
+                  "label": "צוות CBS מצלמים את בן גוריון",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 794,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10384237",
+      "@type": "sc:Range",
+      "label": "REP10384237",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10384238",
+          "@type": "sc:Canvas",
+          "label": "צוות CBS מצלמים את בן גוריון"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700144552",
+  "viewingHint": "paged"
+}

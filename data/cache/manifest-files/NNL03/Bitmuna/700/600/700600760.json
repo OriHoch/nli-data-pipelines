@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600760/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לבנון",
+  "label": "הרמטכ\"ל משה לוי עם יוםטוב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הרמטכ\"ל משה לוי עם יוםטוב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "לבנון"
+    },
+    {
+      "label": "Source",
+      "value": "רמ\"ט פיקוד צפון לאחר של\"ג"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600760"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1983"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600760"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600760/sequence/IE46289698",
+      "@type": "sc:Sequence",
+      "label": "הרמטכ\"ל משה לוי עם יוםטוב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289733",
+          "@type": "sc:Canvas",
+          "label": "הרמטכ\"ל משה לוי עם יוםטוב",
+          "width": 3132,
+          "height": 2952,
+          "images": [
+            {
+              "@id": "FL46289733",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46289733",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46289733/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הרמטכ\"ל משה לוי עם יוםטוב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46289733",
+                  "label": "הרמטכ\"ל משה לוי עם יוםטוב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2952,
+                "width": 3132
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46289732",
+      "@type": "sc:Range",
+      "label": "REP46289732",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289733",
+          "@type": "sc:Canvas",
+          "label": "הרמטכ\"ל משה לוי עם יוםטוב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600760",
+  "viewingHint": "paged"
+}

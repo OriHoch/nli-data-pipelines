@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579018/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל כוכב הירדן",
+  "label": "תצפית מכוכב הירדן לעבר הר תבור",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תצפית מכוכב הירדן לעבר הר תבור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל כוכב הירדן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579018"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579018"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579018/sequence/IE46301533",
+      "@type": "sc:Sequence",
+      "label": "תצפית מכוכב הירדן לעבר הר תבור",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301562",
+          "@type": "sc:Canvas",
+          "label": "תצפית מכוכב הירדן לעבר הר תבור",
+          "width": 2953,
+          "height": 2002,
+          "images": [
+            {
+              "@id": "FL46301562",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46301562",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46301562/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תצפית מכוכב הירדן לעבר הר תבור",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46301562",
+                  "label": "תצפית מכוכב הירדן לעבר הר תבור",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2002,
+                "width": 2953
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46301555",
+      "@type": "sc:Range",
+      "label": "REP46301555",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46301562",
+          "@type": "sc:Canvas",
+          "label": "תצפית מכוכב הירדן לעבר הר תבור"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579018",
+  "viewingHint": "paged"
+}

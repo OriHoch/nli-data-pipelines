@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595005/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "זבל אורגני לבריכות הדגים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "זבל אורגני לבריכות הדגים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595005"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595005"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595005/sequence/IE46221119",
+      "@type": "sc:Sequence",
+      "label": "זבל אורגני לבריכות הדגים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46221129",
+          "@type": "sc:Canvas",
+          "label": "זבל אורגני לבריכות הדגים",
+          "width": 4050,
+          "height": 2678,
+          "images": [
+            {
+              "@id": "FL46221129",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46221129",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46221129/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "זבל אורגני לבריכות הדגים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46221129",
+                  "label": "זבל אורגני לבריכות הדגים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2678,
+                "width": 4050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46221127",
+      "@type": "sc:Range",
+      "label": "REP46221127",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46221129",
+          "@type": "sc:Canvas",
+          "label": "זבל אורגני לבריכות הדגים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595005",
+  "viewingHint": "paged"
+}

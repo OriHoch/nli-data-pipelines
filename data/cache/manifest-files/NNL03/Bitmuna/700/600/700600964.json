@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600964/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "צ'כיה",
+  "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "צ'כיה"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600964"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1947"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600964"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600964/sequence/IE46308568",
+      "@type": "sc:Sequence",
+      "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308599",
+          "@type": "sc:Canvas",
+          "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין.",
+          "width": 2891,
+          "height": 3712,
+          "images": [
+            {
+              "@id": "FL46308599",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308599",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308599/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308599",
+                  "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3712,
+                "width": 2891
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308598",
+      "@type": "sc:Range",
+      "label": "REP46308598",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308599",
+          "@type": "sc:Canvas",
+          "label": "בשנת 1947 הוחלפו הצלבים במגיני דוד בבית העלמין."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600964",
+  "viewingHint": "paged"
+}

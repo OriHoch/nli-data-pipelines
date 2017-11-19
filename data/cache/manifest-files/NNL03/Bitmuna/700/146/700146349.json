@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700146349/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "לסקוב, חיים, 1919-1983; Lasḳov, Ḥayim, 1919-1982; לאסקוב, חיים בן משה; Laskov, Hayyim, 1919-1982",
+  "label": "ביקור הרמטכ\"ל חיים לסקוב בקיבוץ שמיר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור הרמטכ\"ל חיים לסקוב בקיבוץ שמיר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "לסקוב, חיים, 1919-1983; Lasḳov, Ḥayim, 1919-1982; לאסקוב, חיים בן משה; Laskov, Hayyim, 1919-1982",
+        "ישראל",
+        "קיבוץ שמיר"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700146349"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700146349"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700146349/sequence/IE6394449",
+      "@type": "sc:Sequence",
+      "label": "ביקור הרמטכ\"ל חיים לסקוב בקיבוץ שמיר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10388227",
+          "@type": "sc:Canvas",
+          "label": "ביקור הרמטכל חיים לסקוב בקיבוץ שמיר",
+          "width": 780,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10388227",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10388227",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10388227/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור הרמטכל חיים לסקוב בקיבוץ שמיר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10388227",
+                  "label": "ביקור הרמטכל חיים לסקוב בקיבוץ שמיר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 780
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10388226",
+      "@type": "sc:Range",
+      "label": "REP10388226",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10388227",
+          "@type": "sc:Canvas",
+          "label": "ביקור הרמטכל חיים לסקוב בקיבוץ שמיר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700146349",
+  "viewingHint": "paged"
+}

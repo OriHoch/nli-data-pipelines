@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581546/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רחל קורבצוב עובדת המעבדה בבית שטורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581546"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581546"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581546/sequence/IE46367991",
+      "@type": "sc:Sequence",
+      "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368006",
+          "@type": "sc:Canvas",
+          "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן",
+          "width": 4407,
+          "height": 3065,
+          "images": [
+            {
+              "@id": "FL46368006",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46368006",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46368006/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46368006",
+                  "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3065,
+                "width": 4407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46368005",
+      "@type": "sc:Range",
+      "label": "REP46368005",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46368006",
+          "@type": "sc:Canvas",
+          "label": "רחל קורבצוב עובדת המעבדה בבית שטורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581546",
+  "viewingHint": "paged"
+}

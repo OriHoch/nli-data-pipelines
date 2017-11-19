@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578194/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "גידול קנה סוכר חוות שפעה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גידול קנה סוכר חוות שפעה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578194"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578194"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578194/sequence/IE46332048",
+      "@type": "sc:Sequence",
+      "label": "גידול קנה סוכר חוות שפעה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46332068",
+          "@type": "sc:Canvas",
+          "label": "גידול קנה סוכר חוות שפעה",
+          "width": 1770,
+          "height": 2862,
+          "images": [
+            {
+              "@id": "FL46332068",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46332068",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46332068/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גידול קנה סוכר חוות שפעה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46332068",
+                  "label": "גידול קנה סוכר חוות שפעה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2862,
+                "width": 1770
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46332066",
+      "@type": "sc:Range",
+      "label": "REP46332066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46332068",
+          "@type": "sc:Canvas",
+          "label": "גידול קנה סוכר חוות שפעה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578194",
+  "viewingHint": "paged"
+}

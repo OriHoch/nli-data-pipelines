@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594253/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "בחצר מגורים של בדואי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בחצר מגורים של בדואי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594253"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594253"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594253/sequence/IE46247576",
+      "@type": "sc:Sequence",
+      "label": "בחצר מגורים של בדואי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46247608",
+          "@type": "sc:Canvas",
+          "label": "בחצר מגורים של בדואי",
+          "width": 4024,
+          "height": 2676,
+          "images": [
+            {
+              "@id": "FL46247608",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46247608",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46247608/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בחצר מגורים של בדואי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46247608",
+                  "label": "בחצר מגורים של בדואי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2676,
+                "width": 4024
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46247604",
+      "@type": "sc:Range",
+      "label": "REP46247604",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46247608",
+          "@type": "sc:Canvas",
+          "label": "בחצר מגורים של בדואי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594253",
+  "viewingHint": "paged"
+}

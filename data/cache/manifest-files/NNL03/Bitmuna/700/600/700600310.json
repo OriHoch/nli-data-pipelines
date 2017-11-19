@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600310/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "הפלגה לגרמניה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הפלגה לגרמניה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600310"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600310"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600310/sequence/IE46309908",
+      "@type": "sc:Sequence",
+      "label": "הפלגה לגרמניה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309930",
+          "@type": "sc:Canvas",
+          "label": "הפלגה לגרמניה",
+          "width": 3422,
+          "height": 2643,
+          "images": [
+            {
+              "@id": "FL46309930",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309930",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309930/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הפלגה לגרמניה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309930",
+                  "label": "הפלגה לגרמניה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2643,
+                "width": 3422
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309929",
+      "@type": "sc:Range",
+      "label": "REP46309929",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309930",
+          "@type": "sc:Canvas",
+          "label": "הפלגה לגרמניה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600310",
+  "viewingHint": "paged"
+}

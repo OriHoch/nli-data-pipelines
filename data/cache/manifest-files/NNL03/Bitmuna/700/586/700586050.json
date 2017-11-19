@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586050/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן",
+  "label": "תערוכת התעשיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תערוכת התעשיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586050"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586050"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586050/sequence/IE46222373",
+      "@type": "sc:Sequence",
+      "label": "תערוכת התעשיה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222392",
+          "@type": "sc:Canvas",
+          "label": "תערוכת התעשיה",
+          "width": 2961,
+          "height": 1939,
+          "images": [
+            {
+              "@id": "FL46222392",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46222392",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46222392/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תערוכת התעשיה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46222392",
+                  "label": "תערוכת התעשיה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1939,
+                "width": 2961
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46222391",
+      "@type": "sc:Range",
+      "label": "REP46222391",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46222392",
+          "@type": "sc:Canvas",
+          "label": "תערוכת התעשיה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586050",
+  "viewingHint": "paged"
+}

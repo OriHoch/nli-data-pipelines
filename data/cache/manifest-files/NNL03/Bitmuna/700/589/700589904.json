@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700589904/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מושב אביטל, חבל תענך",
+  "label": "ביתו של יהודה בצלאל מזכיר המושב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביתו של יהודה בצלאל מזכיר המושב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מושב אביטל, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700589904"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700589904"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700589904/sequence/IE46251221",
+      "@type": "sc:Sequence",
+      "label": "ביתו של יהודה בצלאל מזכיר המושב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46251247",
+          "@type": "sc:Canvas",
+          "label": "ביתו של יהודה בצלאל מזכיר המושב",
+          "width": 3966,
+          "height": 2650,
+          "images": [
+            {
+              "@id": "FL46251247",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46251247",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46251247/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביתו של יהודה בצלאל מזכיר המושב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46251247",
+                  "label": "ביתו של יהודה בצלאל מזכיר המושב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2650,
+                "width": 3966
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46251245",
+      "@type": "sc:Range",
+      "label": "REP46251245",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46251247",
+          "@type": "sc:Canvas",
+          "label": "ביתו של יהודה בצלאל מזכיר המושב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700589904",
+  "viewingHint": "paged"
+}

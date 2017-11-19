@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700579871/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "הופעה על במה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הופעה על במה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700579871"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700579871"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700579871/sequence/IE46347039",
+      "@type": "sc:Sequence",
+      "label": "הופעה על במה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46347068",
+          "@type": "sc:Canvas",
+          "label": "הופעה על במה",
+          "width": 3197,
+          "height": 2097,
+          "images": [
+            {
+              "@id": "FL46347068",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46347068",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46347068/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הופעה על במה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46347068",
+                  "label": "הופעה על במה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2097,
+                "width": 3197
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46347066",
+      "@type": "sc:Range",
+      "label": "REP46347066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46347068",
+          "@type": "sc:Canvas",
+          "label": "הופעה על במה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700579871",
+  "viewingHint": "paged"
+}

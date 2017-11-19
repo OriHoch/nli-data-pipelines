@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700601094/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף שלמה בן-שלום. מקור האוסף: שלמה בן-שלום, קיבוץ סער"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "רומניה",
+  "label": "דקורציה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דקורציה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "רומניה"
+    },
+    {
+      "label": "Source",
+      "value": "שלמה בן שלום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700601094"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700601094"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700601094/sequence/IE46306611",
+      "@type": "sc:Sequence",
+      "label": "דקורציה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306632",
+          "@type": "sc:Canvas",
+          "label": "דקורציה",
+          "width": 3920,
+          "height": 2568,
+          "images": [
+            {
+              "@id": "FL46306632",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46306632",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46306632/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דקורציה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46306632",
+                  "label": "דקורציה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2568,
+                "width": 3920
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46306631",
+      "@type": "sc:Range",
+      "label": "REP46306631",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46306632",
+          "@type": "sc:Canvas",
+          "label": "דקורציה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700601094",
+  "viewingHint": "paged"
+}

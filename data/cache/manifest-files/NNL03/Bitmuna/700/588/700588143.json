@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700588143/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "ביקור ד\"ר נחום גולדמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור ד\"ר נחום גולדמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700588143"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700588143"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700588143/sequence/IE46260823",
+      "@type": "sc:Sequence",
+      "label": "ביקור ד\"ר נחום גולדמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46260847",
+          "@type": "sc:Canvas",
+          "label": "ביקור ד\"ר נחום גולדמן",
+          "width": 2271,
+          "height": 3400,
+          "images": [
+            {
+              "@id": "FL46260847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46260847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46260847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ביקור ד\"ר נחום גולדמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46260847",
+                  "label": "ביקור ד\"ר נחום גולדמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3400,
+                "width": 2271
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46260846",
+      "@type": "sc:Range",
+      "label": "REP46260846",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46260847",
+          "@type": "sc:Canvas",
+          "label": "ביקור ד\"ר נחום גולדמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700588143",
+  "viewingHint": "paged"
+}

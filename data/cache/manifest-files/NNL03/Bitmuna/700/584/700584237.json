@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584237/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן",
+  "label": "מבקרים בבית שטורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבקרים בבית שטורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584237"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584237"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584237/sequence/IE46225596",
+      "@type": "sc:Sequence",
+      "label": "מבקרים בבית שטורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46225613",
+          "@type": "sc:Canvas",
+          "label": "מבקרים בבית שטורמן",
+          "width": 2806,
+          "height": 1726,
+          "images": [
+            {
+              "@id": "FL46225613",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46225613",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46225613/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבקרים בבית שטורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46225613",
+                  "label": "מבקרים בבית שטורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1726,
+                "width": 2806
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46225612",
+      "@type": "sc:Range",
+      "label": "REP46225612",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46225613",
+          "@type": "sc:Canvas",
+          "label": "מבקרים בבית שטורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584237",
+  "viewingHint": "paged"
+}

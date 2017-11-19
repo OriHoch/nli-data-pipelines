@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598586/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל מקוה ישראל",
+  "label": "צבי שולרופר, תלמיד חיפאי במקווה ישראל 1932",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צבי שולרופר, תלמיד חיפאי במקווה ישראל 1932"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל מקוה ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598586"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598586"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598586/sequence/IE46309838",
+      "@type": "sc:Sequence",
+      "label": "צבי שולרופר  תלמיד חיפאי במקווה ישראל 1932",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309867",
+          "@type": "sc:Canvas",
+          "label": "צבי שולרופר  תלמיד חיפאי במקווה ישראל 1932",
+          "width": 2612,
+          "height": 3965,
+          "images": [
+            {
+              "@id": "FL46309867",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46309867",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46309867/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צבי שולרופר  תלמיד חיפאי במקווה ישראל 1932",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46309867",
+                  "label": "צבי שולרופר  תלמיד חיפאי במקווה ישראל 1932",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3965,
+                "width": 2612
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46309866",
+      "@type": "sc:Range",
+      "label": "REP46309866",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46309867",
+          "@type": "sc:Canvas",
+          "label": "צבי שולרופר  תלמיד חיפאי במקווה ישראל 1932"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598586",
+  "viewingHint": "paged"
+}

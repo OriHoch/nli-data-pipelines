@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592850/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "שתילה בחממות",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שתילה בחממות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592850"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592850"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592850/sequence/IE46228438",
+      "@type": "sc:Sequence",
+      "label": "שתילה בחממות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46228455",
+          "@type": "sc:Canvas",
+          "label": "שתילה בחממות",
+          "width": 3352,
+          "height": 2071,
+          "images": [
+            {
+              "@id": "FL46228455",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46228455",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46228455/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שתילה בחממות",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46228455",
+                  "label": "שתילה בחממות",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2071,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46228454",
+      "@type": "sc:Range",
+      "label": "REP46228454",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46228455",
+          "@type": "sc:Canvas",
+          "label": "שתילה בחממות"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592850",
+  "viewingHint": "paged"
+}

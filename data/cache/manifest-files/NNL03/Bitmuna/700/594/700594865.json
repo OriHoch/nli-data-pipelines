@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594865/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל קיבוץ יזרעאל",
+  "label": "צריף חדר האוכל הישן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צריף חדר האוכל הישן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל קיבוץ יזרעאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594865"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594865"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594865/sequence/IE46217681",
+      "@type": "sc:Sequence",
+      "label": "צריף חדר האוכל הישן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217692",
+          "@type": "sc:Canvas",
+          "label": "צריף חדר האוכל הישן",
+          "width": 3622,
+          "height": 2184,
+          "images": [
+            {
+              "@id": "FL46217692",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46217692",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46217692/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צריף חדר האוכל הישן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46217692",
+                  "label": "צריף חדר האוכל הישן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2184,
+                "width": 3622
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46217691",
+      "@type": "sc:Range",
+      "label": "REP46217691",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46217692",
+          "@type": "sc:Canvas",
+          "label": "צריף חדר האוכל הישן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594865",
+  "viewingHint": "paged"
+}

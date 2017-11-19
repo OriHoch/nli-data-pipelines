@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700582100/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "משאית ההסעות לחניכי גלבוע, ישראל צימרמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משאית ההסעות לחניכי גלבוע, ישראל צימרמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700582100"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700582100"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700582100/sequence/IE46325295",
+      "@type": "sc:Sequence",
+      "label": "משאית ההסעות לחניכי גלבוע  ישראל צימרמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46325320",
+          "@type": "sc:Canvas",
+          "label": "משאית ההסעות לחניכי גלבוע  ישראל צימרמן",
+          "width": 3113,
+          "height": 2064,
+          "images": [
+            {
+              "@id": "FL46325320",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46325320",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46325320/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משאית ההסעות לחניכי גלבוע  ישראל צימרמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46325320",
+                  "label": "משאית ההסעות לחניכי גלבוע  ישראל צימרמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2064,
+                "width": 3113
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46325319",
+      "@type": "sc:Range",
+      "label": "REP46325319",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46325320",
+          "@type": "sc:Canvas",
+          "label": "משאית ההסעות לחניכי גלבוע  ישראל צימרמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700582100",
+  "viewingHint": "paged"
+}

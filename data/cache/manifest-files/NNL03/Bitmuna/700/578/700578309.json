@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578309/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מבט מהגלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבט מהגלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578309"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578309"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578309/sequence/IE46367766",
+      "@type": "sc:Sequence",
+      "label": "מבט מהגלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367795",
+          "@type": "sc:Canvas",
+          "label": "מבט מהגלבוע",
+          "width": 1723,
+          "height": 1115,
+          "images": [
+            {
+              "@id": "FL46367795",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46367795",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46367795/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבט מהגלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46367795",
+                  "label": "מבט מהגלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1115,
+                "width": 1723
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46367794",
+      "@type": "sc:Range",
+      "label": "REP46367794",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367795",
+          "@type": "sc:Canvas",
+          "label": "מבט מהגלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578309",
+  "viewingHint": "paged"
+}

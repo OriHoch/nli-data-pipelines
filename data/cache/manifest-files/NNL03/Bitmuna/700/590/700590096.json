@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590096/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רם-און, חבל תענך",
+  "label": "יאיר פרנקל, מרכז המשק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יאיר פרנקל, מרכז המשק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רם-און, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590096"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590096"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590096/sequence/IE46258724",
+      "@type": "sc:Sequence",
+      "label": "יאיר פרנקל  מרכז המשק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258752",
+          "@type": "sc:Canvas",
+          "label": "יאיר פרנקל  מרכז המשק",
+          "width": 3854,
+          "height": 2408,
+          "images": [
+            {
+              "@id": "FL46258752",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46258752",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46258752/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יאיר פרנקל  מרכז המשק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46258752",
+                  "label": "יאיר פרנקל  מרכז המשק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2408,
+                "width": 3854
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46258751",
+      "@type": "sc:Range",
+      "label": "REP46258751",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258752",
+          "@type": "sc:Canvas",
+          "label": "יאיר פרנקל  מרכז המשק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590096",
+  "viewingHint": "paged"
+}

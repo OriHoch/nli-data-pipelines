@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700586626/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל כפר יחזקאל",
+  "label": "צרכניה ואסם של כפ ריחזקאל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צרכניה ואסם של כפ ריחזקאל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל כפר יחזקאל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700586626"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700586626"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700586626/sequence/IE46240806",
+      "@type": "sc:Sequence",
+      "label": "צרכניה ואסם של כפ ריחזקאל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240828",
+          "@type": "sc:Canvas",
+          "label": "צרכניה ואסם של כפ ריחזקאל",
+          "width": 2220,
+          "height": 3436,
+          "images": [
+            {
+              "@id": "FL46240828",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46240828",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46240828/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צרכניה ואסם של כפ ריחזקאל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46240828",
+                  "label": "צרכניה ואסם של כפ ריחזקאל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3436,
+                "width": 2220
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46240827",
+      "@type": "sc:Range",
+      "label": "REP46240827",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240828",
+          "@type": "sc:Canvas",
+          "label": "צרכניה ואסם של כפ ריחזקאל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700586626",
+  "viewingHint": "paged"
+}

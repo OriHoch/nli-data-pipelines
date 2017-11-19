@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596842/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "אבו עגיילה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אבו עגיילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596842"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596842"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596842/sequence/IE46314714",
+      "@type": "sc:Sequence",
+      "label": "אבו עגיילה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314730",
+          "@type": "sc:Canvas",
+          "label": "אבו עגיילה",
+          "width": 4148,
+          "height": 4140,
+          "images": [
+            {
+              "@id": "FL46314730",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314730",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314730/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אבו עגיילה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314730",
+                  "label": "אבו עגיילה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4140,
+                "width": 4148
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314729",
+      "@type": "sc:Range",
+      "label": "REP46314729",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314730",
+          "@type": "sc:Canvas",
+          "label": "אבו עגיילה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596842",
+  "viewingHint": "paged"
+}

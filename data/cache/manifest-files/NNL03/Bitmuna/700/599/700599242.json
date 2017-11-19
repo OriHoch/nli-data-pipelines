@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700599242/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל בית הערבה",
+  "label": "בענף הדייג, אורי לוי דיג",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בענף הדייג, אורי לוי דיג"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל בית הערבה"
+    },
+    {
+      "label": "Source",
+      "value": "צילומי חנן הרצברגר"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700599242"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700599242"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700599242/sequence/IE46303692",
+      "@type": "sc:Sequence",
+      "label": "בענף הדייג  אורי לוי דיג",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303721",
+          "@type": "sc:Canvas",
+          "label": "בענף הדייג  אורי לוי דיג",
+          "width": 3618,
+          "height": 4937,
+          "images": [
+            {
+              "@id": "FL46303721",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46303721",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46303721/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בענף הדייג  אורי לוי דיג",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46303721",
+                  "label": "בענף הדייג  אורי לוי דיג",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4937,
+                "width": 3618
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46303719",
+      "@type": "sc:Range",
+      "label": "REP46303719",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46303721",
+          "@type": "sc:Canvas",
+          "label": "בענף הדייג  אורי לוי דיג"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700599242",
+  "viewingHint": "paged"
+}

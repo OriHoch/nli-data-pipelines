@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597290/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "יוסף עם אשתו הראשוננה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יוסף עם אשתו הראשוננה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "יוסף ולורה גורי"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597290"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597290"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597290/sequence/IE46296787",
+      "@type": "sc:Sequence",
+      "label": "יוסף עם אשתו הראשוננה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296812",
+          "@type": "sc:Canvas",
+          "label": "יוסף עם אשתו הראשוננה",
+          "width": 2647,
+          "height": 2305,
+          "images": [
+            {
+              "@id": "FL46296812",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46296812",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46296812/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יוסף עם אשתו הראשוננה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46296812",
+                  "label": "יוסף עם אשתו הראשוננה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2305,
+                "width": 2647
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46296811",
+      "@type": "sc:Range",
+      "label": "REP46296811",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46296812",
+          "@type": "sc:Canvas",
+          "label": "יוסף עם אשתו הראשוננה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597290",
+  "viewingHint": "paged"
+}

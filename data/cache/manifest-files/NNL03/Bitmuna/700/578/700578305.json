@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578305/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "צינור הספקת המים מקידוח נורית לתענך",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "צינור הספקת המים מקידוח נורית לתענך"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578305"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578305"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578305/sequence/IE46367667",
+      "@type": "sc:Sequence",
+      "label": "צינור הספקת המים מקידוח נורית לתענך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367681",
+          "@type": "sc:Canvas",
+          "label": "צינור הספקת המים מקידוח נורית לתענך",
+          "width": 1667,
+          "height": 1108,
+          "images": [
+            {
+              "@id": "FL46367681",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46367681",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46367681/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "צינור הספקת המים מקידוח נורית לתענך",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46367681",
+                  "label": "צינור הספקת המים מקידוח נורית לתענך",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1108,
+                "width": 1667
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46367680",
+      "@type": "sc:Range",
+      "label": "REP46367680",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46367681",
+          "@type": "sc:Canvas",
+          "label": "צינור הספקת המים מקידוח נורית לתענך"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578305",
+  "viewingHint": "paged"
+}

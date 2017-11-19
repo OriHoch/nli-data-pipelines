@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700590101/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רם-און, חבל תענך",
+  "label": "מבט על כפרים ירדנים מעבר לגבול",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבט על כפרים ירדנים מעבר לגבול"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רם-און, חבל תענך"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700590101"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1966"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700590101"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700590101/sequence/IE46258909",
+      "@type": "sc:Sequence",
+      "label": "מבט על כפרים ירדנים מעבר לגבול",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258937",
+          "@type": "sc:Canvas",
+          "label": "מבט על כפרים ירדנים מעבר לגבול",
+          "width": 3854,
+          "height": 2408,
+          "images": [
+            {
+              "@id": "FL46258937",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46258937",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46258937/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מבט על כפרים ירדנים מעבר לגבול",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46258937",
+                  "label": "מבט על כפרים ירדנים מעבר לגבול",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2408,
+                "width": 3854
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46258936",
+      "@type": "sc:Range",
+      "label": "REP46258936",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46258937",
+          "@type": "sc:Canvas",
+          "label": "מבט על כפרים ירדנים מעבר לגבול"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700590101",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149022/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תמי עם הילדים - טיול בעיר העתיקה ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149022"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1978"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149022"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149022/sequence/IE6403260",
+      "@type": "sc:Sequence",
+      "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392817",
+          "@type": "sc:Canvas",
+          "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים",
+          "width": 800,
+          "height": 535,
+          "images": [
+            {
+              "@id": "FL10392817",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10392817",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10392817/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10392817",
+                  "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 535,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10392816",
+      "@type": "sc:Range",
+      "label": "REP10392816",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10392817",
+          "@type": "sc:Canvas",
+          "label": "תמי עם הילדים - טיול בעיר העתיקה ירושלים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149022",
+  "viewingHint": "paged"
+}

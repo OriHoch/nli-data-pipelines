@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585812/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מעין חרוד",
+  "label": "כנס נוטרים, חלוקת אות המשמר",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כנס נוטרים, חלוקת אות המשמר"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מעין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585812"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585812"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585812/sequence/IE46259358",
+      "@type": "sc:Sequence",
+      "label": "כנס נוטרים  חלוקת אות המשמר",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46259382",
+          "@type": "sc:Canvas",
+          "label": "כנס נוטרים  חלוקת אות המשמר",
+          "width": 3319,
+          "height": 1928,
+          "images": [
+            {
+              "@id": "FL46259382",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46259382",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46259382/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כנס נוטרים  חלוקת אות המשמר",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46259382",
+                  "label": "כנס נוטרים  חלוקת אות המשמר",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1928,
+                "width": 3319
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46259381",
+      "@type": "sc:Range",
+      "label": "REP46259381",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46259382",
+          "@type": "sc:Canvas",
+          "label": "כנס נוטרים  חלוקת אות המשמר"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585812",
+  "viewingHint": "paged"
+}

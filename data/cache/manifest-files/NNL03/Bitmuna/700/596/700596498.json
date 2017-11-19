@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700596498/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט."
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "ד\"ר רודי גולדשטיין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700596498"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700596498"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700596498/sequence/IE46314349",
+      "@type": "sc:Sequence",
+      "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314375",
+          "@type": "sc:Canvas",
+          "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט.",
+          "width": 4143,
+          "height": 2975,
+          "images": [
+            {
+              "@id": "FL46314375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46314375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46314375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46314375",
+                  "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2975,
+                "width": 4143
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46314374",
+      "@type": "sc:Range",
+      "label": "REP46314374",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46314375",
+          "@type": "sc:Canvas",
+          "label": "מרץ 1934 על סיפון האוניה בדרך לארץ ישראל דרך טריאסט."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700596498",
+  "viewingHint": "paged"
+}

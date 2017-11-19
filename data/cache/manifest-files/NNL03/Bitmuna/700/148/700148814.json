@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700148814/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "מצדה",
+  "label": "חפירות ארכיאולוגיות במצדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חפירות ארכיאולוגיות במצדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "מצדה",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700148814"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700148814"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700148814/sequence/IE6409251",
+      "@type": "sc:Sequence",
+      "label": "חפירות ארכיאולוגיות במצדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397751",
+          "@type": "sc:Canvas",
+          "label": "חפירות ארכיאולוגיות במצדה",
+          "width": 706,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10397751",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10397751",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10397751/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חפירות ארכיאולוגיות במצדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10397751",
+                  "label": "חפירות ארכיאולוגיות במצדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 706
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10397750",
+      "@type": "sc:Range",
+      "label": "REP10397750",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10397751",
+          "@type": "sc:Canvas",
+          "label": "חפירות ארכיאולוגיות במצדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700148814",
+  "viewingHint": "paged"
+}

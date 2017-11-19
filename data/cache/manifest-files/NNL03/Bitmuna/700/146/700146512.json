@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700146512/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "הורביץ, דוליק",
+  "label": "נגיד בנק ישראל בפגישה עם נציגים מקמבודיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נגיד בנק ישראל בפגישה עם נציגים מקמבודיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "הורביץ, דוליק",
+        "ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700146512"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700146512"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700146512/sequence/IE6394164",
+      "@type": "sc:Sequence",
+      "label": "נגיד בנק ישראל בפגישה עם נציגים מקמבודיה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10388189",
+          "@type": "sc:Canvas",
+          "label": " נגיד בנק ישראל בפגישה עם נציגים מקמבודיה",
+          "width": 785,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10388189",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10388189",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10388189/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " נגיד בנק ישראל בפגישה עם נציגים מקמבודיה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10388189",
+                  "label": " נגיד בנק ישראל בפגישה עם נציגים מקמבודיה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 785
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10388188",
+      "@type": "sc:Range",
+      "label": "REP10388188",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10388189",
+          "@type": "sc:Canvas",
+          "label": " נגיד בנק ישראל בפגישה עם נציגים מקמבודיה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700146512",
+  "viewingHint": "paged"
+}

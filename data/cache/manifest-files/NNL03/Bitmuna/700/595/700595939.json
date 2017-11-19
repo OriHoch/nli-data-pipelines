@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595939/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "מגדל תחמיץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מגדל תחמיץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595939"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595939"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595939/sequence/IE46278372",
+      "@type": "sc:Sequence",
+      "label": "מגדל תחמיץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278413",
+          "@type": "sc:Canvas",
+          "label": "מגדל תחמיץ",
+          "width": 2538,
+          "height": 3807,
+          "images": [
+            {
+              "@id": "FL46278413",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46278413",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46278413/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מגדל תחמיץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46278413",
+                  "label": "מגדל תחמיץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3807,
+                "width": 2538
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46278412",
+      "@type": "sc:Range",
+      "label": "REP46278412",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278413",
+          "@type": "sc:Canvas",
+          "label": "מגדל תחמיץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595939",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600529/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל גליל מערבי",
+  "label": "עין שרה, בניית בור סופג ליד תאי שירותים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עין שרה, בניית בור סופג ליד תאי שירותים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600529"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600529"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600529/sequence/IE46297528",
+      "@type": "sc:Sequence",
+      "label": "עין שרה  בניית בור סופג ליד תאי שירותים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297540",
+          "@type": "sc:Canvas",
+          "label": "עין שרה  בניית בור סופג ליד תאי שירותים",
+          "width": 3915,
+          "height": 5051,
+          "images": [
+            {
+              "@id": "FL46297540",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297540",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297540/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עין שרה  בניית בור סופג ליד תאי שירותים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297540",
+                  "label": "עין שרה  בניית בור סופג ליד תאי שירותים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5051,
+                "width": 3915
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297538",
+      "@type": "sc:Range",
+      "label": "REP46297538",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297540",
+          "@type": "sc:Canvas",
+          "label": "עין שרה  בניית בור סופג ליד תאי שירותים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600529",
+  "viewingHint": "paged"
+}

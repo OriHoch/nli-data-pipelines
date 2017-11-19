@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592297/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "שטר כסף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שטר כסף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592297"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592297"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592297/sequence/IE46248905",
+      "@type": "sc:Sequence",
+      "label": "שטר כסף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248943",
+          "@type": "sc:Canvas",
+          "label": "שטר כסף",
+          "width": 3910,
+          "height": 2361,
+          "images": [
+            {
+              "@id": "FL46248943",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46248943",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46248943/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שטר כסף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46248943",
+                  "label": "שטר כסף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2361,
+                "width": 3910
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46248941",
+      "@type": "sc:Range",
+      "label": "REP46248941",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248943",
+          "@type": "sc:Canvas",
+          "label": "שטר כסף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592297",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595631/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "פירזול סוס",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פירזול סוס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595631"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595631"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595631/sequence/IE46240749",
+      "@type": "sc:Sequence",
+      "label": "פירזול סוס",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240780",
+          "@type": "sc:Canvas",
+          "label": "פירזול סוס",
+          "width": 4041,
+          "height": 2631,
+          "images": [
+            {
+              "@id": "FL46240780",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46240780",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46240780/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פירזול סוס",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46240780",
+                  "label": "פירזול סוס",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2631,
+                "width": 4041
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46240779",
+      "@type": "sc:Range",
+      "label": "REP46240779",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240780",
+          "@type": "sc:Canvas",
+          "label": "פירזול סוס"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595631",
+  "viewingHint": "paged"
+}

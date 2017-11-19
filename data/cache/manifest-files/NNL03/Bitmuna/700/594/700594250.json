@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700594250/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל סבסטיה",
+  "label": "סבסטיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סבסטיה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל סבסטיה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700594250"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700594250"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700594250/sequence/IE46247439",
+      "@type": "sc:Sequence",
+      "label": "סבסטיה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46247455",
+          "@type": "sc:Canvas",
+          "label": "סבסטיה",
+          "width": 4527,
+          "height": 2997,
+          "images": [
+            {
+              "@id": "FL46247455",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46247455",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46247455/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סבסטיה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46247455",
+                  "label": "סבסטיה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2997,
+                "width": 4527
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46247453",
+      "@type": "sc:Range",
+      "label": "REP46247453",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46247455",
+          "@type": "sc:Canvas",
+          "label": "סבסטיה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700594250",
+  "viewingHint": "paged"
+}

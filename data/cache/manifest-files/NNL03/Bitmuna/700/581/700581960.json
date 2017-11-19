@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581960/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "שלמה לוריא נהג בקואופרטיב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלמה לוריא נהג בקואופרטיב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581960"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581960"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581960/sequence/IE46321351",
+      "@type": "sc:Sequence",
+      "label": "שלמה לוריא נהג בקואופרטיב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46321372",
+          "@type": "sc:Canvas",
+          "label": "שלמה לוריא נהג בקואופרטיב",
+          "width": 3131,
+          "height": 2087,
+          "images": [
+            {
+              "@id": "FL46321372",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46321372",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46321372/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלמה לוריא נהג בקואופרטיב",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46321372",
+                  "label": "שלמה לוריא נהג בקואופרטיב",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2087,
+                "width": 3131
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46321371",
+      "@type": "sc:Range",
+      "label": "REP46321371",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46321372",
+          "@type": "sc:Canvas",
+          "label": "שלמה לוריא נהג בקואופרטיב"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581960",
+  "viewingHint": "paged"
+}

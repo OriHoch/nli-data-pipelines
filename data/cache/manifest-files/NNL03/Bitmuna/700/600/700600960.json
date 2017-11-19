@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600960/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף רפאל רייס. מקור האוסף: עדנה רייס לשם"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "מפות בד של מרכז אירופה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפות בד של מרכז אירופה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "רפאל רייס"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600960"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600960"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600960/sequence/IE46308449",
+      "@type": "sc:Sequence",
+      "label": "מפות בד של מרכז אירופה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308466",
+          "@type": "sc:Canvas",
+          "label": "מפות בד של מרכז אירופה",
+          "width": 6748,
+          "height": 4489,
+          "images": [
+            {
+              "@id": "FL46308466",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308466",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308466/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפות בד של מרכז אירופה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308466",
+                  "label": "מפות בד של מרכז אירופה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4489,
+                "width": 6748
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308464",
+      "@type": "sc:Range",
+      "label": "REP46308464",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308466",
+          "@type": "sc:Canvas",
+          "label": "מפות בד של מרכז אירופה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600960",
+  "viewingHint": "paged"
+}

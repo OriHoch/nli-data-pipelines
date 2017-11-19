@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580589/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רמת צבי",
+  "label": "רמת צבי 1959",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רמת צבי 1959"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רמת צבי"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580589"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580589"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580589/sequence/IE46366759",
+      "@type": "sc:Sequence",
+      "label": "רמת צבי 1959",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46366775",
+          "@type": "sc:Canvas",
+          "label": "רמת צבי 1959",
+          "width": 2862,
+          "height": 1750,
+          "images": [
+            {
+              "@id": "FL46366775",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46366775",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46366775/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "רמת צבי 1959",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46366775",
+                  "label": "רמת צבי 1959",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1750,
+                "width": 2862
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46366774",
+      "@type": "sc:Range",
+      "label": "REP46366774",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46366775",
+          "@type": "sc:Canvas",
+          "label": "רמת צבי 1959"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580589",
+  "viewingHint": "paged"
+}

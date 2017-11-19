@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700578244/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "שלט בכניסה לעין חרוד",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלט בכניסה לעין חרוד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700578244"
+    },
+    {
+      "label": "Creation Date",
+      "value": "195?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700578244"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700578244/sequence/IE46321923",
+      "@type": "sc:Sequence",
+      "label": "שלט בכניסה לעין חרוד",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46321945",
+          "@type": "sc:Canvas",
+          "label": "שלט בכניסה לעין חרוד",
+          "width": 1385,
+          "height": 2184,
+          "images": [
+            {
+              "@id": "FL46321945",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46321945",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46321945/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלט בכניסה לעין חרוד",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46321945",
+                  "label": "שלט בכניסה לעין חרוד",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2184,
+                "width": 1385
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46321943",
+      "@type": "sc:Range",
+      "label": "REP46321943",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46321945",
+          "@type": "sc:Canvas",
+          "label": "שלט בכניסה לעין חרוד"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700578244",
+  "viewingHint": "paged"
+}

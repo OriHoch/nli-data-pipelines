@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580913/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580913"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580913"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580913/sequence/IE46352915",
+      "@type": "sc:Sequence",
+      "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46352928",
+          "@type": "sc:Canvas",
+          "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית",
+          "width": 2939,
+          "height": 1763,
+          "images": [
+            {
+              "@id": "FL46352928",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46352928",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46352928/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46352928",
+                  "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1763,
+                "width": 2939
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46352927",
+      "@type": "sc:Range",
+      "label": "REP46352927",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46352928",
+          "@type": "sc:Canvas",
+          "label": "בעת ביקור ראש הממשלה דוד בן גוריון בבית שאן לקראת מערכת הבחירות לכנסת רביעית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580913",
+  "viewingHint": "paged"
+}

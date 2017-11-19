@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700581889/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל עין חרוד",
+  "label": "אירוע בבית שטורמן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אירוע בבית שטורמן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל עין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700581889"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1961"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700581889"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700581889/sequence/IE46318988",
+      "@type": "sc:Sequence",
+      "label": "אירוע בבית שטורמן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46319013",
+          "@type": "sc:Canvas",
+          "label": "אירוע בבית שטורמן",
+          "width": 2560,
+          "height": 1688,
+          "images": [
+            {
+              "@id": "FL46319013",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46319013",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46319013/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אירוע בבית שטורמן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46319013",
+                  "label": "אירוע בבית שטורמן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1688,
+                "width": 2560
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46319011",
+      "@type": "sc:Range",
+      "label": "REP46319011",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46319013",
+          "@type": "sc:Canvas",
+          "label": "אירוע בבית שטורמן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700581889",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580710/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל חפציבה",
+  "label": "בבית הכנסת העתיק בחפציבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בבית הכנסת העתיק בחפציבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל חפציבה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580710"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580710"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580710/sequence/IE46348066",
+      "@type": "sc:Sequence",
+      "label": "בבית הכנסת העתיק בחפציבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348073",
+          "@type": "sc:Canvas",
+          "label": "בבית הכנסת העתיק בחפציבה",
+          "width": 2862,
+          "height": 1757,
+          "images": [
+            {
+              "@id": "FL46348073",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46348073",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46348073/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בבית הכנסת העתיק בחפציבה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46348073",
+                  "label": "בבית הכנסת העתיק בחפציבה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1757,
+                "width": 2862
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46348072",
+      "@type": "sc:Range",
+      "label": "REP46348072",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348073",
+          "@type": "sc:Canvas",
+          "label": "בבית הכנסת העתיק בחפציבה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580710",
+  "viewingHint": "paged"
+}

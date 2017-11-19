@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700597547/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל נגב מערבי",
+  "label": "עבודה בקו המים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עבודה בקו המים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל נגב מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "כפר דרום"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700597547"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1948"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700597547"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700597547/sequence/IE46289630",
+      "@type": "sc:Sequence",
+      "label": "עבודה בקו המים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289676",
+          "@type": "sc:Canvas",
+          "label": "עבודה בקו המים",
+          "width": 2040,
+          "height": 2807,
+          "images": [
+            {
+              "@id": "FL46289676",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46289676",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46289676/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עבודה בקו המים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46289676",
+                  "label": "עבודה בקו המים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2807,
+                "width": 2040
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46289675",
+      "@type": "sc:Range",
+      "label": "REP46289675",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46289676",
+          "@type": "sc:Canvas",
+          "label": "עבודה בקו המים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700597547",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700588599/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תענכים",
+  "label": "משלחת של ארגון \"אייר פד\" במושב דבורה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משלחת של ארגון \"אייר פד\" במושב דבורה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תענכים"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700588599"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700588599"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700588599/sequence/IE46278751",
+      "@type": "sc:Sequence",
+      "label": "משלחת של ארגון \"אייר פד\" במושב דבורה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278784",
+          "@type": "sc:Canvas",
+          "label": "משלחת של ארגון \"אייר פד\" במושב דבורה",
+          "width": 2436,
+          "height": 3817,
+          "images": [
+            {
+              "@id": "FL46278784",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46278784",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46278784/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משלחת של ארגון \"אייר פד\" במושב דבורה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46278784",
+                  "label": "משלחת של ארגון \"אייר פד\" במושב דבורה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3817,
+                "width": 2436
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46278783",
+      "@type": "sc:Range",
+      "label": "REP46278783",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46278784",
+          "@type": "sc:Canvas",
+          "label": "משלחת של ארגון \"אייר פד\" במושב דבורה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700588599",
+  "viewingHint": "paged"
+}

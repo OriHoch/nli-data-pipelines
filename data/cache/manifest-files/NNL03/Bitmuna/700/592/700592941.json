@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700592941/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל הר הגלבוע",
+  "label": "בניית המועצה האיזורית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בניית המועצה האיזורית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל הר הגלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700592941"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1968"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700592941"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700592941/sequence/IE46232784",
+      "@type": "sc:Sequence",
+      "label": "בניית המועצה האיזורית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232820",
+          "@type": "sc:Canvas",
+          "label": "בניית המועצה האיזורית",
+          "width": 2288,
+          "height": 3416,
+          "images": [
+            {
+              "@id": "FL46232820",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46232820",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46232820/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בניית המועצה האיזורית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46232820",
+                  "label": "בניית המועצה האיזורית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3416,
+                "width": 2288
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46232819",
+      "@type": "sc:Range",
+      "label": "REP46232819",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46232820",
+          "@type": "sc:Canvas",
+          "label": "בניית המועצה האיזורית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700592941",
+  "viewingHint": "paged"
+}

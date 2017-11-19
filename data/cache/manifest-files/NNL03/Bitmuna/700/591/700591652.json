@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591652/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מעין חרוד",
+  "label": "ערב הרקדה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ערב הרקדה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מעין חרוד"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591652"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591652"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591652/sequence/IE46267690",
+      "@type": "sc:Sequence",
+      "label": "ערב הרקדה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46267719",
+          "@type": "sc:Canvas",
+          "label": "ערב הרקדה",
+          "width": 3407,
+          "height": 2336,
+          "images": [
+            {
+              "@id": "FL46267719",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46267719",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46267719/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ערב הרקדה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46267719",
+                  "label": "ערב הרקדה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2336,
+                "width": 3407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46267716",
+      "@type": "sc:Range",
+      "label": "REP46267716",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46267719",
+          "@type": "sc:Canvas",
+          "label": "ערב הרקדה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591652",
+  "viewingHint": "paged"
+}

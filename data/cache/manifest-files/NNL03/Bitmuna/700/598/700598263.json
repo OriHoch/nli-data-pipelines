@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598263/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מזכירות תנועת הפועלת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מזכירות תנועת הפועלת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל"
+    },
+    {
+      "label": "Source",
+      "value": "משפחת דיין אליהו ושמואל"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598263"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1955"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598263"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598263/sequence/IE46290349",
+      "@type": "sc:Sequence",
+      "label": "מזכירות תנועת הפועלת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290370",
+          "@type": "sc:Canvas",
+          "label": "מזכירות תנועת הפועלת",
+          "width": 5738,
+          "height": 2448,
+          "images": [
+            {
+              "@id": "FL46290370",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46290370",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46290370/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מזכירות תנועת הפועלת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46290370",
+                  "label": "מזכירות תנועת הפועלת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2448,
+                "width": 5738
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46290369",
+      "@type": "sc:Range",
+      "label": "REP46290369",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46290370",
+          "@type": "sc:Canvas",
+          "label": "מזכירות תנועת הפועלת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598263",
+  "viewingHint": "paged"
+}

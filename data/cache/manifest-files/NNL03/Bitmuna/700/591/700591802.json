@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591802/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שטורמן",
+  "label": "מטבע עתיק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מטבע עתיק"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שטורמן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591802"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591802"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591802/sequence/IE46273742",
+      "@type": "sc:Sequence",
+      "label": "מטבע עתיק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46273777",
+          "@type": "sc:Canvas",
+          "label": "מטבע עתיק",
+          "width": 3303,
+          "height": 1999,
+          "images": [
+            {
+              "@id": "FL46273777",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46273777",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46273777/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מטבע עתיק",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46273777",
+                  "label": "מטבע עתיק",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1999,
+                "width": 3303
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46273775",
+      "@type": "sc:Range",
+      "label": "REP46273775",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46273777",
+          "@type": "sc:Canvas",
+          "label": "מטבע עתיק"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591802",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584949/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית השיטה",
+  "label": "חרושת מתכת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חרושת מתכת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית השיטה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584949"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584949"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584949/sequence/IE46220716",
+      "@type": "sc:Sequence",
+      "label": "חרושת מתכת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46220735",
+          "@type": "sc:Canvas",
+          "label": "חרושת מתכת",
+          "width": 3383,
+          "height": 2200,
+          "images": [
+            {
+              "@id": "FL46220735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46220735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46220735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חרושת מתכת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46220735",
+                  "label": "חרושת מתכת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2200,
+                "width": 3383
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46220734",
+      "@type": "sc:Range",
+      "label": "REP46220734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46220735",
+          "@type": "sc:Canvas",
+          "label": "חרושת מתכת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584949",
+  "viewingHint": "paged"
+}

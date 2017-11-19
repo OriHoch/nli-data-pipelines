@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580813/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית שאן",
+  "label": "שיכוני עולים בבית שאן",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיכוני עולים בבית שאן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית שאן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580813"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580813"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580813/sequence/IE46350480",
+      "@type": "sc:Sequence",
+      "label": "שיכוני עולים בבית שאן",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46350488",
+          "@type": "sc:Canvas",
+          "label": "שיכוני עולים בבית שאן",
+          "width": 2501,
+          "height": 1704,
+          "images": [
+            {
+              "@id": "FL46350488",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46350488",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46350488/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיכוני עולים בבית שאן",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46350488",
+                  "label": "שיכוני עולים בבית שאן",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1704,
+                "width": 2501
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46350487",
+      "@type": "sc:Range",
+      "label": "REP46350487",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46350488",
+          "@type": "sc:Canvas",
+          "label": "שיכוני עולים בבית שאן"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580813",
+  "viewingHint": "paged"
+}

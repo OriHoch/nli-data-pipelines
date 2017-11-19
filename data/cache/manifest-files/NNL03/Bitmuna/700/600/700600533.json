@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600533/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל גליל מערבי",
+  "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל גליל מערבי"
+    },
+    {
+      "label": "Source",
+      "value": "קיבוץ עברון"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600533"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600533"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600533/sequence/IE46297651",
+      "@type": "sc:Sequence",
+      "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297663",
+          "@type": "sc:Canvas",
+          "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום",
+          "width": 4466,
+          "height": 3308,
+          "images": [
+            {
+              "@id": "FL46297663",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46297663",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46297663/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46297663",
+                  "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3308,
+                "width": 4466
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46297661",
+      "@type": "sc:Range",
+      "label": "REP46297661",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46297663",
+          "@type": "sc:Canvas",
+          "label": "סוסים בעברון מאחור נראה מבנה החאן שהיה במקום"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600533",
+  "viewingHint": "paged"
+}

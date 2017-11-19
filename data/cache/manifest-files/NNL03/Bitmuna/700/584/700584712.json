@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700584712/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מוע\"א גלבוע",
+  "label": "ישיבה חגיגית מוע\"א הגלבוע",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישיבה חגיגית מוע\"א הגלבוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מוע\"א גלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700584712"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700584712"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700584712/sequence/IE46248925",
+      "@type": "sc:Sequence",
+      "label": "ישיבה חגיגית מוע\"א הגלבוע",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248957",
+          "@type": "sc:Canvas",
+          "label": "ישיבה חגיגית מוע\"א הגלבוע",
+          "width": 1713,
+          "height": 2726,
+          "images": [
+            {
+              "@id": "FL46248957",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46248957",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46248957/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ישיבה חגיגית מוע\"א הגלבוע",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46248957",
+                  "label": "ישיבה חגיגית מוע\"א הגלבוע",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2726,
+                "width": 1713
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46248956",
+      "@type": "sc:Range",
+      "label": "REP46248956",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46248957",
+          "@type": "sc:Canvas",
+          "label": "ישיבה חגיגית מוע\"א הגלבוע"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700584712",
+  "viewingHint": "paged"
+}

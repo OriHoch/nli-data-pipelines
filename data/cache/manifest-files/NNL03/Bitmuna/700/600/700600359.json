@@ -1,0 +1,99 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600359/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600359"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600359"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600359/sequence/IE46311703",
+      "@type": "sc:Sequence",
+      "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311730",
+          "@type": "sc:Canvas",
+          "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה",
+          "width": 1874,
+          "height": 3151,
+          "images": [
+            {
+              "@id": "FL46311730",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311730",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311730/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311730",
+                  "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3151,
+                "width": 1874
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311729",
+      "@type": "sc:Range",
+      "label": "REP46311729",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311730",
+          "@type": "sc:Canvas",
+          "label": "ליאון רוזנבליט במדים בעת מלחמת העולם הראשונה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600359",
+  "viewingHint": "paged"
+}

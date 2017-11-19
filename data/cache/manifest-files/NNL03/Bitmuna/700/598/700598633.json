@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700598633/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל פרדס חנה",
+  "label": "מימין: עמרם גרשוני, אליוביץ",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מימין: עמרם גרשוני, אליוביץ"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל פרדס חנה"
+    },
+    {
+      "label": "Source",
+      "value": "עמרם גרשוני"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700598633"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1933"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700598633"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700598633/sequence/IE46311511",
+      "@type": "sc:Sequence",
+      "label": "מימין: עמרם גרשוני  אליוביץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311542",
+          "@type": "sc:Canvas",
+          "label": "מימין: עמרם גרשוני  אליוביץ",
+          "width": 3702,
+          "height": 2538,
+          "images": [
+            {
+              "@id": "FL46311542",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46311542",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46311542/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מימין: עמרם גרשוני  אליוביץ",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46311542",
+                  "label": "מימין: עמרם גרשוני  אליוביץ",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2538,
+                "width": 3702
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46311539",
+      "@type": "sc:Range",
+      "label": "REP46311539",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46311542",
+          "@type": "sc:Canvas",
+          "label": "מימין: עמרם גרשוני  אליוביץ"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700598633",
+  "viewingHint": "paged"
+}

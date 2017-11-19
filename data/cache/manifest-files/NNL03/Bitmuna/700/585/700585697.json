@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700585697/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מפעלים איזוריים גלבוע",
+  "label": "משחטת העופות האיזורית",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משחטת העופות האיזורית"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מפעלים איזוריים גלבוע"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700585697"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1963"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700585697"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700585697/sequence/IE46254174",
+      "@type": "sc:Sequence",
+      "label": "משחטת העופות האיזורית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254207",
+          "@type": "sc:Canvas",
+          "label": "משחטת העופות האיזורית",
+          "width": 2279,
+          "height": 3439,
+          "images": [
+            {
+              "@id": "FL46254207",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46254207",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46254207/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "משחטת העופות האיזורית",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46254207",
+                  "label": "משחטת העופות האיזורית",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3439,
+                "width": 2279
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46254206",
+      "@type": "sc:Range",
+      "label": "REP46254206",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46254207",
+          "@type": "sc:Canvas",
+          "label": "משחטת העופות האיזורית"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700585697",
+  "viewingHint": "paged"
+}

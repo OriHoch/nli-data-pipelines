@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700595250/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל מוקיבלה",
+  "label": "שער כניסה לבת מגורים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שער כניסה לבת מגורים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל מוקיבלה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700595250"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1969"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700595250"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700595250/sequence/IE46227226",
+      "@type": "sc:Sequence",
+      "label": "שער כניסה לבת מגורים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46227239",
+          "@type": "sc:Canvas",
+          "label": "שער כניסה לבת מגורים",
+          "width": 2236,
+          "height": 3622,
+          "images": [
+            {
+              "@id": "FL46227239",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46227239",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46227239/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שער כניסה לבת מגורים",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46227239",
+                  "label": "שער כניסה לבת מגורים",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3622,
+                "width": 2236
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46227238",
+      "@type": "sc:Range",
+      "label": "REP46227238",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46227239",
+          "@type": "sc:Canvas",
+          "label": "שער כניסה לבת מגורים"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700595250",
+  "viewingHint": "paged"
+}

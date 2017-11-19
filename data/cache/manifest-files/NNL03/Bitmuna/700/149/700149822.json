@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149822/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "אוסישקין, מנחם, 1863-1941; Усышкин, Аврахам Менахем Мендл, 1863-1941; Ussishkin, Abraham Menahem Mendel, 1863-1941; אוסישקין, אברהם מנחם מנדל בן משה צבי; אוסישקין, מ. מ; אוסישקין, מנחם מנדל; אוסישקין, מנחם מ; אוסישקין, מ; Усышкин, Михаил Мойсеевич, 1863-1941; Ussishkin, Menahem Mendel, 1863-1941; Ussischkin, Menahem Mendel, 1863-1941; Ussischkin, Menahem, 1863-1941",
+  "label": "מנחם אוסישקין",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מנחם אוסישקין"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "אוסישקין, מנחם, 1863-1941; Усышкин, Аврахам Менахем Мендл, 1863-1941; Ussishkin, Abraham Menahem Mendel, 1863-1941; אוסישקין, אברהם מנחם מנדל בן משה צבי; אוסישקין, מ. מ; אוסישקין, מנחם מנדל; אוסישקין, מנחם מ; אוסישקין, מ; Усышкин, Михаил Мойсеевич, 1863-1941; Ussishkin, Menahem Mendel, 1863-1941; Ussischkin, Menahem Mendel, 1863-1941; Ussischkin, Menahem, 1863-1941",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149822"
+    },
+    {
+      "label": "Type",
+      "value": "Picture"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149822"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149822/sequence/IE6403770",
+      "@type": "sc:Sequence",
+      "label": "מנחם אוסישקין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395151",
+          "@type": "sc:Canvas",
+          "label": " מנחם אוסישקין",
+          "width": 586,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10395151",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10395151",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10395151/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": " מנחם אוסישקין",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10395151",
+                  "label": " מנחם אוסישקין",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 586
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10395150",
+      "@type": "sc:Range",
+      "label": "REP10395150",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10395151",
+          "@type": "sc:Canvas",
+          "label": " מנחם אוסישקין"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149822",
+  "viewingHint": "paged"
+}

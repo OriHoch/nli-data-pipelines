@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600321/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "label": "ריכרד בחורף",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ריכרד בחורף"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600321"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193?"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600321"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600321/sequence/IE46310315",
+      "@type": "sc:Sequence",
+      "label": "ריכרד בחורף",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310346",
+          "@type": "sc:Canvas",
+          "label": "ריכרד בחורף",
+          "width": 2295,
+          "height": 1965,
+          "images": [
+            {
+              "@id": "FL46310346",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46310346",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46310346/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ריכרד בחורף",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46310346",
+                  "label": "ריכרד בחורף",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1965,
+                "width": 2295
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46310344",
+      "@type": "sc:Range",
+      "label": "REP46310344",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46310346",
+          "@type": "sc:Canvas",
+          "label": "ריכרד בחורף"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600321",
+  "viewingHint": "paged"
+}

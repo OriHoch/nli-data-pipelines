@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700149659/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "וילנאי, זאב",
+  "label": "טיול בהדרכת זאב וילנאי",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טיול בהדרכת זאב וילנאי"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "וילנאי, זאב",
+        "ארץ ישראל",
+        "לא ידוע"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף לייב קלוץ"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700149659"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1927"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700149659"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700149659/sequence/IE6405666",
+      "@type": "sc:Sequence",
+      "label": "טיול בהדרכת זאב וילנאי",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394928",
+          "@type": "sc:Canvas",
+          "label": "טיול בהדרכת זאב וילנאי",
+          "width": 800,
+          "height": 515,
+          "images": [
+            {
+              "@id": "FL10394928",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10394928",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10394928/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "טיול בהדרכת זאב וילנאי",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10394928",
+                  "label": "טיול בהדרכת זאב וילנאי",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 515,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10394927",
+      "@type": "sc:Range",
+      "label": "REP10394927",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10394928",
+          "@type": "sc:Canvas",
+          "label": "טיול בהדרכת זאב וילנאי"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700149659",
+  "viewingHint": "paged"
+}

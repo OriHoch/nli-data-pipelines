@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700600273/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ארץ ישראל הכנרת",
+  "label": "יצחק שדה, טבחה יום כיפור 1928 עם אשתו זהבה וקטה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יצחק שדה, טבחה יום כיפור 1928 עם אשתו זהבה וקטה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל הכנרת"
+    },
+    {
+      "label": "Source",
+      "value": "קטה דן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700600273"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1928"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700600273"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700600273/sequence/IE46308620",
+      "@type": "sc:Sequence",
+      "label": "יצחק שדה  טבחה יום כיפור 1928 עם אשתו זהבה וקטה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308643",
+          "@type": "sc:Canvas",
+          "label": "יצחק שדה  טבחה יום כיפור 1928 עם אשתו זהבה וקטה",
+          "width": 2433,
+          "height": 3516,
+          "images": [
+            {
+              "@id": "FL46308643",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46308643",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46308643/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "יצחק שדה  טבחה יום כיפור 1928 עם אשתו זהבה וקטה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46308643",
+                  "label": "יצחק שדה  טבחה יום כיפור 1928 עם אשתו זהבה וקטה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3516,
+                "width": 2433
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46308640",
+      "@type": "sc:Range",
+      "label": "REP46308640",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46308643",
+          "@type": "sc:Canvas",
+          "label": "יצחק שדה  טבחה יום כיפור 1928 עם אשתו זהבה וקטה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700600273",
+  "viewingHint": "paged"
+}

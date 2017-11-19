@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700591055/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל רמת הגולן",
+  "label": "ליד הבניאס",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ליד הבניאס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל רמת הגולן"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700591055"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1967"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700591055"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700591055/sequence/IE46239985",
+      "@type": "sc:Sequence",
+      "label": "ליד הבניאס",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240015",
+          "@type": "sc:Canvas",
+          "label": "ליד הבניאס",
+          "width": 3407,
+          "height": 2231,
+          "images": [
+            {
+              "@id": "FL46240015",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46240015",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46240015/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ליד הבניאס",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46240015",
+                  "label": "ליד הבניאס",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2231,
+                "width": 3407
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46240014",
+      "@type": "sc:Range",
+      "label": "REP46240014",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46240015",
+          "@type": "sc:Canvas",
+          "label": "ליד הבניאס"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700591055",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700580712/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל חפציבה",
+  "label": "שלט ליד בית הכנסת בחפציבה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלט ליד בית הכנסת בחפציבה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל חפציבה"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700580712"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700580712"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700580712/sequence/IE46348105",
+      "@type": "sc:Sequence",
+      "label": "שלט ליד בית הכנסת בחפציבה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348114",
+          "@type": "sc:Canvas",
+          "label": "שלט ליד בית הכנסת בחפציבה",
+          "width": 1757,
+          "height": 2981,
+          "images": [
+            {
+              "@id": "FL46348114",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46348114",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46348114/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שלט ליד בית הכנסת בחפציבה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46348114",
+                  "label": "שלט ליד בית הכנסת בחפציבה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2981,
+                "width": 1757
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46348113",
+      "@type": "sc:Range",
+      "label": "REP46348113",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46348114",
+          "@type": "sc:Canvas",
+          "label": "שלט ליד בית הכנסת בחפציבה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700580712",
+  "viewingHint": "paged"
+}

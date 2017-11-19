@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700583183/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל תל יוסף",
+  "label": "האלפן למוזיקה בתל יוסף התזמורת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "האלפן למוזיקה בתל יוסף התזמורת"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל תל יוסף"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700583183"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700583183"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700583183/sequence/IE46219226",
+      "@type": "sc:Sequence",
+      "label": "האלפן למוזיקה בתל יוסף התזמורת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46219244",
+          "@type": "sc:Canvas",
+          "label": "האלפן למוזיקה בתל יוסף התזמורת",
+          "width": 3196,
+          "height": 2146,
+          "images": [
+            {
+              "@id": "FL46219244",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46219244",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46219244/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "האלפן למוזיקה בתל יוסף התזמורת",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46219244",
+                  "label": "האלפן למוזיקה בתל יוסף התזמורת",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2146,
+                "width": 3196
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46219242",
+      "@type": "sc:Range",
+      "label": "REP46219242",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46219244",
+          "@type": "sc:Canvas",
+          "label": "האלפן למוזיקה בתל יוסף התזמורת"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700583183",
+  "viewingHint": "paged"
+}

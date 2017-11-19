@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700587490/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל בית אלפא",
+  "label": "בדרך לכרם",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בדרך לכרם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": "ישראל בית אלפא"
+    },
+    {
+      "label": "Source",
+      "value": "בית שטורמן"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700587490"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1964"
+    },
+    {
+      "label": "Type",
+      "value": "PHOTOGRAPH"
+    },
+    {
+      "label": "SysNum",
+      "value": "700587490"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700587490/sequence/IE46285395",
+      "@type": "sc:Sequence",
+      "label": "בדרך לכרם",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285423",
+          "@type": "sc:Canvas",
+          "label": "בדרך לכרם",
+          "width": 3344,
+          "height": 2087,
+          "images": [
+            {
+              "@id": "FL46285423",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46285423",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46285423/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בדרך לכרם",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46285423",
+                  "label": "בדרך לכרם",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2087,
+                "width": 3344
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46285422",
+      "@type": "sc:Range",
+      "label": "REP46285422",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46285423",
+          "@type": "sc:Canvas",
+          "label": "בדרך לכרם"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700587490",
+  "viewingHint": "paged"
+}
