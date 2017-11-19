@@ -11,8 +11,6 @@ sudo apt-get -y install docker-ce
 echo "Waiting for Docker daemon to start"
 sleep 2
 
-sudo systemctl status docker
-
 if ! docker ps; then
     echo "Trying to fix Docker permissions, you should log-out and back in before starting to use Docker"
     echo "To test the installation immediately, run: su - ${USER}"
