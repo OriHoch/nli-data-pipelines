@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003999003/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "The Tel Aviv Ben Yehuda Street.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Tel Aviv Ben Yehuda Street."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003999003"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003999003"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003999003/sequence/IE45791906",
+      "@type": "sc:Sequence",
+      "label": "The Tel Aviv Ben Yehuda Street.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45791922",
+          "@type": "sc:Canvas",
+          "label": "The Tel Aviv Ben Yehuda Street.",
+          "width": 3352,
+          "height": 2071,
+          "images": [
+            {
+              "@id": "FL45791922",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45791922",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45791922/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Tel Aviv Ben Yehuda Street.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45791922",
+                  "label": "The Tel Aviv Ben Yehuda Street.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2071,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45791921",
+      "@type": "sc:Range",
+      "label": "REP45791921",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45791922",
+          "@type": "sc:Canvas",
+          "label": "The Tel Aviv Ben Yehuda Street."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003999003",
+  "viewingHint": "paged"
+}

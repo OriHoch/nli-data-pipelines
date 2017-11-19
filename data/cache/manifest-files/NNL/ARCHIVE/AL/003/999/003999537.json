@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003999537/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "הסנאטור האמריקני יוג'ין מקארתי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הסנאטור האמריקני יוג'ין מקארתי."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003999537"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "US Senator Eugene McCarty."
+    },
+    {
+      "label": "SysNum",
+      "value": "003999537"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003999537/sequence/IE45778670",
+      "@type": "sc:Sequence",
+      "label": "הסנאטור האמריקני יוג'ין מקארתי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45778683",
+          "@type": "sc:Canvas",
+          "label": "הסנאטור האמריקני יוג'ין מקארתי.",
+          "width": 3287,
+          "height": 2040,
+          "images": [
+            {
+              "@id": "FL45778683",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45778683",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45778683/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הסנאטור האמריקני יוג'ין מקארתי.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45778683",
+                  "label": "הסנאטור האמריקני יוג'ין מקארתי.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2040,
+                "width": 3287
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45778681",
+      "@type": "sc:Range",
+      "label": "REP45778681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45778683",
+          "@type": "sc:Canvas",
+          "label": "הסנאטור האמריקני יוג'ין מקארתי."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003999537",
+  "viewingHint": "paged"
+}

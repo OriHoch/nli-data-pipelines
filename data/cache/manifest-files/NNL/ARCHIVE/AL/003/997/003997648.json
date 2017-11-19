@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003997648/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Bethlehem (West Bank) -- Photographs",
+  "label": "מרוץ גמלים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מרוץ גמלים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bethlehem (West Bank) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yakov Elbaz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003997648"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Camel Raicing."
+    },
+    {
+      "label": "SysNum",
+      "value": "003997648"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003997648/sequence/IE45780763",
+      "@type": "sc:Sequence",
+      "label": "מרוץ גמלים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45780818",
+          "@type": "sc:Canvas",
+          "label": "מרוץ גמלים.",
+          "width": 2445,
+          "height": 1544,
+          "images": [
+            {
+              "@id": "FL45780818",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45780818",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45780818/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מרוץ גמלים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45780818",
+                  "label": "מרוץ גמלים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1544,
+                "width": 2445
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45780817",
+      "@type": "sc:Range",
+      "label": "REP45780817",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45780818",
+          "@type": "sc:Canvas",
+          "label": "מרוץ גמלים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003997648",
+  "viewingHint": "paged"
+}

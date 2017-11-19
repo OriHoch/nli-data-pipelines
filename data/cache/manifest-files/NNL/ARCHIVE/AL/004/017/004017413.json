@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004017413/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Amdursky, Benny -- Photographs; Gurion, Israel -- Photographs",
+  "label": "The Histadrut Workers Union holding a party at basket ball.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Histadrut Workers Union holding a party at basket ball."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Amdursky, Benny -- Photographs; Gurion, Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004017413"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004017413"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004017413/sequence/IE45806554",
+      "@type": "sc:Sequence",
+      "label": "The Histadrut Workers Union holding a party at basket ball.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45806582",
+          "@type": "sc:Canvas",
+          "label": "The Histadrut Workers Union holding a party at basket ball.",
+          "width": 2896,
+          "height": 1804,
+          "images": [
+            {
+              "@id": "FL45806582",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45806582",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45806582/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Histadrut Workers Union holding a party at basket ball.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45806582",
+                  "label": "The Histadrut Workers Union holding a party at basket ball.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1804,
+                "width": 2896
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45806581",
+      "@type": "sc:Range",
+      "label": "REP45806581",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45806582",
+          "@type": "sc:Canvas",
+          "label": "The Histadrut Workers Union holding a party at basket ball."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004017413",
+  "viewingHint": "paged"
+}

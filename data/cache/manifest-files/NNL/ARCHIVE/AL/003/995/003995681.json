@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003995681/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Pardes Hanna-Karkur (Israel) -- Photographs",
+  "label": "חברת עץ לבוד - תבורי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת עץ לבוד - תבורי."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Pardes Hanna-Karkur (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Uzi Keren 1944- photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003995681"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Plywood - Tabori."
+    },
+    {
+      "label": "SysNum",
+      "value": "003995681"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003995681/sequence/IE45730972",
+      "@type": "sc:Sequence",
+      "label": "חברת עץ לבוד - תבורי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45730985",
+          "@type": "sc:Canvas",
+          "label": "חברת עץ לבוד - תבורי.",
+          "width": 2296,
+          "height": 1517,
+          "images": [
+            {
+              "@id": "FL45730985",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45730985",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45730985/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת עץ לבוד - תבורי.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45730985",
+                  "label": "חברת עץ לבוד - תבורי.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1517,
+                "width": 2296
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45730983",
+      "@type": "sc:Range",
+      "label": "REP45730983",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45730985",
+          "@type": "sc:Canvas",
+          "label": "חברת עץ לבוד - תבורי."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003995681",
+  "viewingHint": "paged"
+}

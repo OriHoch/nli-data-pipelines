@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004016681/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yosi Elmakis photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004016681"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004016681"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004016681/sequence/IE45818669",
+      "@type": "sc:Sequence",
+      "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45818688",
+          "@type": "sc:Canvas",
+          "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River.",
+          "width": 3364,
+          "height": 2173,
+          "images": [
+            {
+              "@id": "FL45818688",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45818688",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45818688/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45818688",
+                  "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2173,
+                "width": 3364
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45818687",
+      "@type": "sc:Range",
+      "label": "REP45818687",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45818688",
+          "@type": "sc:Canvas",
+          "label": "Following the heavy rains which fell this winter the Kinneret Lake was overfulled therfore the floodgate was opened permiting the water to flow to the Jordan River."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004016681",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004016059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tavori, Dov, 1928-2015 -- Photographs",
+  "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tavori, Dov, 1928-2015 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Gotfried photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004016059"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004016059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004016059/sequence/IE45758226",
+      "@type": "sc:Sequence",
+      "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45758277",
+          "@type": "sc:Canvas",
+          "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori.",
+          "width": 1961,
+          "height": 3155,
+          "images": [
+            {
+              "@id": "FL45758277",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45758277",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45758277/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45758277",
+                  "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3155,
+                "width": 1961
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45758276",
+      "@type": "sc:Range",
+      "label": "REP45758276",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45758277",
+          "@type": "sc:Canvas",
+          "label": "Meeting of the Petach Tikva Municipality with Mayor Dov Tabori."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004016059",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004001113/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "פסטיבל - מספרות בינלאומי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פסטיבל - מספרות בינלאומי."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004001113"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Festival - International Hairdressers."
+    },
+    {
+      "label": "SysNum",
+      "value": "004001113"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004001113/sequence/IE50352193",
+      "@type": "sc:Sequence",
+      "label": "פסטיבל - מספרות בינלאומי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50352197",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל - מספרות בינלאומי.",
+          "width": 1504,
+          "height": 2349,
+          "images": [
+            {
+              "@id": "FL50352197",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50352197",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50352197/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פסטיבל - מספרות בינלאומי.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50352197",
+                  "label": "פסטיבל - מספרות בינלאומי.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2349,
+                "width": 1504
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50352196",
+      "@type": "sc:Range",
+      "label": "REP50352196",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50352197",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל - מספרות בינלאומי."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004001113",
+  "viewingHint": "paged"
+}

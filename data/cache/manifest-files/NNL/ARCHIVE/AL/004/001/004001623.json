@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004001623/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Megged, Aharon, 1920-2016 -- Photographs",
+  "label": "Writer Ahron Meged.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Writer Ahron Meged."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Megged, Aharon, 1920-2016 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004001623"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004001623"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004001623/sequence/IE45734219",
+      "@type": "sc:Sequence",
+      "label": "Writer Ahron Meged.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45734241",
+          "@type": "sc:Canvas",
+          "label": "Writer Ahron Meged.",
+          "width": 2884,
+          "height": 1893,
+          "images": [
+            {
+              "@id": "FL45734241",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45734241",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45734241/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Writer Ahron Meged.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45734241",
+                  "label": "Writer Ahron Meged.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1893,
+                "width": 2884
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45734240",
+      "@type": "sc:Range",
+      "label": "REP45734240",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45734241",
+          "@type": "sc:Canvas",
+          "label": "Writer Ahron Meged."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004001623",
+  "viewingHint": "paged"
+}

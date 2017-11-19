@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003996502/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Spitz, Mark -- Photographs",
+  "label": "המכביה ה-8 - 1969.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המכביה ה-8 - 1969."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Spitz, Mark -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yakov Elbaz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003996502"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Maccabiah 08 - 1969."
+    },
+    {
+      "label": "SysNum",
+      "value": "003996502"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003996502/sequence/IE45741703",
+      "@type": "sc:Sequence",
+      "label": "המכביה ה-8 - 1969.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45741755",
+          "@type": "sc:Canvas",
+          "label": "המכביה ה-8 - 1969.",
+          "width": 3328,
+          "height": 2087,
+          "images": [
+            {
+              "@id": "FL45741755",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45741755",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45741755/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "המכביה ה-8 - 1969.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45741755",
+                  "label": "המכביה ה-8 - 1969.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2087,
+                "width": 3328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45741754",
+      "@type": "sc:Range",
+      "label": "REP45741754",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45741755",
+          "@type": "sc:Canvas",
+          "label": "המכביה ה-8 - 1969."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003996502",
+  "viewingHint": "paged"
+}

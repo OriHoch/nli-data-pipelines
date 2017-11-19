@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003995746/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Sgan Aluf Zvi Levanon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Sgan Aluf Zvi Levanon."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Uzi Keren 1944- photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003995746"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003995746"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003995746/sequence/IE45732539",
+      "@type": "sc:Sequence",
+      "label": "Sgan Aluf Zvi Levanon.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45732551",
+          "@type": "sc:Canvas",
+          "label": "Sgan Aluf Zvi Levanon.",
+          "width": 1585,
+          "height": 2198,
+          "images": [
+            {
+              "@id": "FL45732551",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45732551",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45732551/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Sgan Aluf Zvi Levanon.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45732551",
+                  "label": "Sgan Aluf Zvi Levanon.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2198,
+                "width": 1585
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45732550",
+      "@type": "sc:Range",
+      "label": "REP45732550",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45732551",
+          "@type": "sc:Canvas",
+          "label": "Sgan Aluf Zvi Levanon."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003995746",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004012843/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Hammer, Zevulun, 1936- -- Photographs",
+  "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hammer, Zevulun, 1936- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Gotfried photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004012843"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004012843"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004012843/sequence/IE45827696",
+      "@type": "sc:Sequence",
+      "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827719",
+          "@type": "sc:Canvas",
+          "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University.",
+          "width": 1030,
+          "height": 1522,
+          "images": [
+            {
+              "@id": "FL45827719",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45827719",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45827719/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45827719",
+                  "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1522,
+                "width": 1030
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45827718",
+      "@type": "sc:Range",
+      "label": "REP45827718",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827719",
+          "@type": "sc:Canvas",
+          "label": "Minisater Zevulon Hamer receiving an honorary doctorate at Bar Ilan University."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004012843",
+  "viewingHint": "paged"
+}

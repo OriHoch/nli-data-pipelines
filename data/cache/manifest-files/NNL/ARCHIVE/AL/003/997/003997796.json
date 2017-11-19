@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003997796/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rimalṭ, E. Sh. (Elimelekh Sh.) -- Photographs",
+  "label": "בחירות לכנסת ה-7.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בחירות לכנסת ה-7."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rimalṭ, E. Sh. (Elimelekh Sh.) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003997796"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "State Elections 07th."
+    },
+    {
+      "label": "SysNum",
+      "value": "003997796"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003997796/sequence/IE45790357",
+      "@type": "sc:Sequence",
+      "label": "בחירות לכנסת ה-7.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45790407",
+          "@type": "sc:Canvas",
+          "label": "בחירות לכנסת ה-7.",
+          "width": 3296,
+          "height": 2055,
+          "images": [
+            {
+              "@id": "FL45790407",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45790407",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45790407/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "בחירות לכנסת ה-7.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45790407",
+                  "label": "בחירות לכנסת ה-7.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2055,
+                "width": 3296
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45790406",
+      "@type": "sc:Range",
+      "label": "REP45790406",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45790407",
+          "@type": "sc:Canvas",
+          "label": "בחירות לכנסת ה-7."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003997796",
+  "viewingHint": "paged"
+}

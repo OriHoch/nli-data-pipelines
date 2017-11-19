@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004013802/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Mondale, Walter F., 1928- -- Photographs",
+  "label": "וולטר מונדייל - ביקור בישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "וולטר מונדייל - ביקור בישראל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mondale, Walter F., 1928- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004013802"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Walter Mondale - visit to Israel."
+    },
+    {
+      "label": "SysNum",
+      "value": "004013802"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004013802/sequence/IE46003340",
+      "@type": "sc:Sequence",
+      "label": "וולטר מונדייל - ביקור בישראל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46003344",
+          "@type": "sc:Canvas",
+          "label": "וולטר מונדייל - ביקור בישראל.",
+          "width": 3416,
+          "height": 2223,
+          "images": [
+            {
+              "@id": "FL46003344",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46003344",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46003344/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "וולטר מונדייל - ביקור בישראל.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46003344",
+                  "label": "וולטר מונדייל - ביקור בישראל.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2223,
+                "width": 3416
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46003343",
+      "@type": "sc:Range",
+      "label": "REP46003343",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46003344",
+          "@type": "sc:Canvas",
+          "label": "וולטר מונדייל - ביקור בישראל."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004013802",
+  "viewingHint": "paged"
+}

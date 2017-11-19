@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003997484/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rubinstein, Artur, 1887-1982 -- Photographs",
+  "label": "מאסטרו ארתור רובינשטיין.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מאסטרו ארתור רובינשטיין."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rubinstein, Artur, 1887-1982 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shalom Bar Tal photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003997484"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Maestro Artur Rubinstein."
+    },
+    {
+      "label": "SysNum",
+      "value": "003997484"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003997484/sequence/IE45773135",
+      "@type": "sc:Sequence",
+      "label": "מאסטרו ארתור רובינשטיין.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45773172",
+          "@type": "sc:Canvas",
+          "label": "מאסטרו ארתור רובינשטיין.",
+          "width": 3352,
+          "height": 2016,
+          "images": [
+            {
+              "@id": "FL45773172",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45773172",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45773172/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מאסטרו ארתור רובינשטיין.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45773172",
+                  "label": "מאסטרו ארתור רובינשטיין.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2016,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45773171",
+      "@type": "sc:Range",
+      "label": "REP45773171",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45773172",
+          "@type": "sc:Canvas",
+          "label": "מאסטרו ארתור רובינשטיין."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003997484",
+  "viewingHint": "paged"
+}

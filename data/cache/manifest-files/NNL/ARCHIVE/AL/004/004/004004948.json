@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004004948/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Jabel Ataka (Egypt) -- Photographs",
+  "label": "A last look over Ataka before leaving following the agreement signed at the 101km.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A last look over Ataka before leaving following the agreement signed at the 101km."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jabel Ataka (Egypt) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Eitan Haber photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004004948"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004004948"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004004948/sequence/IE45983194",
+      "@type": "sc:Sequence",
+      "label": "A last look over Ataka before leaving following the agreement signed at the 101km.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45983232",
+          "@type": "sc:Canvas",
+          "label": "A last look over Ataka before leaving following the agreement signed at the 101km.",
+          "width": 1421,
+          "height": 2140,
+          "images": [
+            {
+              "@id": "FL45983232",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45983232",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45983232/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "A last look over Ataka before leaving following the agreement signed at the 101km.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45983232",
+                  "label": "A last look over Ataka before leaving following the agreement signed at the 101km.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2140,
+                "width": 1421
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45983230",
+      "@type": "sc:Range",
+      "label": "REP45983230",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45983232",
+          "@type": "sc:Canvas",
+          "label": "A last look over Ataka before leaving following the agreement signed at the 101km."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004004948",
+  "viewingHint": "paged"
+}

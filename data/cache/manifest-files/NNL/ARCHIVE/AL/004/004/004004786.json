@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004004786/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Galilee (Israel) -- Photographs",
+  "label": "מלחמת יום הכיפורים 1973.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מלחמת יום הכיפורים 1973."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Galilee (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004004786"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "War 1973 Yom Kippur."
+    },
+    {
+      "label": "SysNum",
+      "value": "004004786"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004004786/sequence/IE45973639",
+      "@type": "sc:Sequence",
+      "label": "מלחמת יום הכיפורים 1973.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45973688",
+          "@type": "sc:Canvas",
+          "label": "מלחמת יום הכיפורים 1973.",
+          "width": 2147,
+          "height": 1417,
+          "images": [
+            {
+              "@id": "FL45973688",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45973688",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45973688/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מלחמת יום הכיפורים 1973.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45973688",
+                  "label": "מלחמת יום הכיפורים 1973.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1417,
+                "width": 2147
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45973687",
+      "@type": "sc:Range",
+      "label": "REP45973687",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45973688",
+          "@type": "sc:Canvas",
+          "label": "מלחמת יום הכיפורים 1973."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004004786",
+  "viewingHint": "paged"
+}

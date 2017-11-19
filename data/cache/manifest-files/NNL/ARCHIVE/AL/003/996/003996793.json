@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003996793/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Jerusalem (Israel : East) -- Photographs",
+  "label": "The traditional praying at the Omar Mosque in East Jerusalem.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The traditional praying at the Omar Mosque in East Jerusalem."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel : East) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yosi Rot (photographer) photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003996793"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003996793"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003996793/sequence/IE45756761",
+      "@type": "sc:Sequence",
+      "label": "The traditional praying at the Omar Mosque in East Jerusalem.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45756802",
+          "@type": "sc:Canvas",
+          "label": "The traditional praying at the Omar Mosque in East Jerusalem.",
+          "width": 2873,
+          "height": 1892,
+          "images": [
+            {
+              "@id": "FL45756802",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45756802",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45756802/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The traditional praying at the Omar Mosque in East Jerusalem.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45756802",
+                  "label": "The traditional praying at the Omar Mosque in East Jerusalem.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1892,
+                "width": 2873
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45756801",
+      "@type": "sc:Range",
+      "label": "REP45756801",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45756802",
+          "@type": "sc:Canvas",
+          "label": "The traditional praying at the Omar Mosque in East Jerusalem."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003996793",
+  "viewingHint": "paged"
+}

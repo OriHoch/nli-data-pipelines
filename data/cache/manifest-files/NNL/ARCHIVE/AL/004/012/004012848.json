@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004012848/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Namir, Ora, 1930- -- Photographs",
+  "label": "דיון על מצב הנשים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דיון על מצב הנשים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Namir, Ora, 1930- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004012848"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Women Status Debate."
+    },
+    {
+      "label": "SysNum",
+      "value": "004012848"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004012848/sequence/IE45827873",
+      "@type": "sc:Sequence",
+      "label": "דיון על מצב הנשים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827893",
+          "@type": "sc:Canvas",
+          "label": "דיון על מצב הנשים.",
+          "width": 1112,
+          "height": 1580,
+          "images": [
+            {
+              "@id": "FL45827893",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45827893",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45827893/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "דיון על מצב הנשים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45827893",
+                  "label": "דיון על מצב הנשים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1580,
+                "width": 1112
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45827889",
+      "@type": "sc:Range",
+      "label": "REP45827889",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827893",
+          "@type": "sc:Canvas",
+          "label": "דיון על מצב הנשים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004012848",
+  "viewingHint": "paged"
+}

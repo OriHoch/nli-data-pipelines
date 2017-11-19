@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004003868/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ben-Gurion, David, 1886-1973 -- Photographs; Dayan, Moshe, 1915-1981 -- Photographs; Dayan, Rachel, 1926- -- Photographs; Dayan, Yaël, 1939- -- Photographs",
+  "label": "הוצאת ספרו של בן גוריון.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הוצאת ספרו של בן גוריון."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ben-Gurion, David, 1886-1973 -- Photographs; Dayan, Moshe, 1915-1981 -- Photographs; Dayan, Rachel, 1926- -- Photographs; Dayan, Yaël, 1939- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004003868"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ben Gurion Published Book."
+    },
+    {
+      "label": "SysNum",
+      "value": "004003868"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004003868/sequence/IE45984247",
+      "@type": "sc:Sequence",
+      "label": "הוצאת ספרו של בן גוריון.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45984278",
+          "@type": "sc:Canvas",
+          "label": "הוצאת ספרו של בן גוריון.",
+          "width": 2940,
+          "height": 1940,
+          "images": [
+            {
+              "@id": "FL45984278",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45984278",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45984278/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הוצאת ספרו של בן גוריון.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45984278",
+                  "label": "הוצאת ספרו של בן גוריון.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1940,
+                "width": 2940
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45984277",
+      "@type": "sc:Range",
+      "label": "REP45984277",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45984278",
+          "@type": "sc:Canvas",
+          "label": "הוצאת ספרו של בן גוריון."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004003868",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004002233/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Zohar-Kalo, Rivka -- Photographs",
+  "label": "פסטיבל - מוזיקה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פסטיבל - מוזיקה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Zohar-Kalo, Rivka -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004002233"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Festival - Music."
+    },
+    {
+      "label": "SysNum",
+      "value": "004002233"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004002233/sequence/IE45989213",
+      "@type": "sc:Sequence",
+      "label": "פסטיבל - מוזיקה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45989244",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל - מוזיקה.",
+          "width": 2060,
+          "height": 2831,
+          "images": [
+            {
+              "@id": "FL45989244",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45989244",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45989244/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פסטיבל - מוזיקה.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45989244",
+                  "label": "פסטיבל - מוזיקה.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2831,
+                "width": 2060
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45989243",
+      "@type": "sc:Range",
+      "label": "REP45989243",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45989244",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל - מוזיקה."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004002233",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003998213/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Hillel, Shlomo, 1923- -- Photographs",
+  "label": "שר המשטרה שלמה הלל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שר המשטרה שלמה הלל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hillel, Shlomo, 1923- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003998213"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Police Minister Shlomo Hillel."
+    },
+    {
+      "label": "SysNum",
+      "value": "003998213"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003998213/sequence/IE50351678",
+      "@type": "sc:Sequence",
+      "label": "שר המשטרה שלמה הלל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50351682",
+          "@type": "sc:Canvas",
+          "label": "שר המשטרה שלמה הלל.",
+          "width": 2250,
+          "height": 1548,
+          "images": [
+            {
+              "@id": "FL50351682",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50351682",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50351682/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שר המשטרה שלמה הלל.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50351682",
+                  "label": "שר המשטרה שלמה הלל.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1548,
+                "width": 2250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50351681",
+      "@type": "sc:Range",
+      "label": "REP50351681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50351682",
+          "@type": "sc:Canvas",
+          "label": "שר המשטרה שלמה הלל."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003998213",
+  "viewingHint": "paged"
+}

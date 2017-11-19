@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004005793/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "The religious party Mafdal holding their party election.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The religious party Mafdal holding their party election."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004005793"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004005793"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004005793/sequence/IE45764944",
+      "@type": "sc:Sequence",
+      "label": "The religious party Mafdal holding their party election.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45765005",
+          "@type": "sc:Canvas",
+          "label": "The religious party Mafdal holding their party election.",
+          "width": 3280,
+          "height": 2112,
+          "images": [
+            {
+              "@id": "FL45765005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45765005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45765005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The religious party Mafdal holding their party election.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45765005",
+                  "label": "The religious party Mafdal holding their party election.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2112,
+                "width": 3280
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45765004",
+      "@type": "sc:Range",
+      "label": "REP45765004",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45765005",
+          "@type": "sc:Canvas",
+          "label": "The religious party Mafdal holding their party election."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004005793",
+  "viewingHint": "paged"
+}

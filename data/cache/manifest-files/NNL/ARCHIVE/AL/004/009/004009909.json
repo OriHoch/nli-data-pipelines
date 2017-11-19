@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004009909/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ben-Ari, Mordechai, 1920-1994 -- Photographs",
+  "label": "PM Itzhak Rabin returned from Geneve, Switzerland where he participated at the International Convention.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "PM Itzhak Rabin returned from Geneve, Switzerland where he participated at the International Convention."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ben-Ari, Mordechai, 1920-1994 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yosi Rot (photographer) photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004009909"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004009909"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004009909/sequence/IE45746050",
+      "@type": "sc:Sequence",
+      "label": "PM Itzhak Rabin returned from Geneve  Switzerland where he participated at the International Convention.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45746090",
+          "@type": "sc:Canvas",
+          "label": "PM Itzhak Rabin returned from Geneve  Switzerland where he participated at the International Convention.",
+          "width": 3327,
+          "height": 2200,
+          "images": [
+            {
+              "@id": "FL45746090",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45746090",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45746090/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "PM Itzhak Rabin returned from Geneve  Switzerland where he participated at the International Convention.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45746090",
+                  "label": "PM Itzhak Rabin returned from Geneve  Switzerland where he participated at the International Convention.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2200,
+                "width": 3327
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45746089",
+      "@type": "sc:Range",
+      "label": "REP45746089",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45746090",
+          "@type": "sc:Canvas",
+          "label": "PM Itzhak Rabin returned from Geneve  Switzerland where he participated at the International Convention."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004009909",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004012426/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Avrech, Mira -- Photographs; Vance, Cyrus R. (Cyrus Roberts), 1917-2002 -- Photographs",
+  "label": "Jounalist Mira Avrech speaking with Cyrus Vance.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jounalist Mira Avrech speaking with Cyrus Vance."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Avrech, Mira -- Photographs; Vance, Cyrus R. (Cyrus Roberts), 1917-2002 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004012426"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004012426"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004012426/sequence/IE45815036",
+      "@type": "sc:Sequence",
+      "label": "Jounalist Mira Avrech speaking with Cyrus Vance.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45815052",
+          "@type": "sc:Canvas",
+          "label": "Jounalist Mira Avrech speaking with Cyrus Vance.",
+          "width": 1792,
+          "height": 1346,
+          "images": [
+            {
+              "@id": "FL45815052",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45815052",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45815052/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Jounalist Mira Avrech speaking with Cyrus Vance.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45815052",
+                  "label": "Jounalist Mira Avrech speaking with Cyrus Vance.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1346,
+                "width": 1792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45815050",
+      "@type": "sc:Range",
+      "label": "REP45815050",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45815052",
+          "@type": "sc:Canvas",
+          "label": "Jounalist Mira Avrech speaking with Cyrus Vance."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004012426",
+  "viewingHint": "paged"
+}

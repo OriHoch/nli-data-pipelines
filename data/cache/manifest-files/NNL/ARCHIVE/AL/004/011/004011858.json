@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004011858/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "Tel Aviv tourists attractions.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tel Aviv tourists attractions."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004011858"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004011858"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004011858/sequence/IE50354233",
+      "@type": "sc:Sequence",
+      "label": "Tel Aviv tourists attractions.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50354237",
+          "@type": "sc:Canvas",
+          "label": "Tel Aviv tourists attractions.",
+          "width": 2216,
+          "height": 3344,
+          "images": [
+            {
+              "@id": "FL50354237",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50354237",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50354237/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Tel Aviv tourists attractions.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50354237",
+                  "label": "Tel Aviv tourists attractions.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3344,
+                "width": 2216
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50354236",
+      "@type": "sc:Range",
+      "label": "REP50354236",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50354237",
+          "@type": "sc:Canvas",
+          "label": "Tel Aviv tourists attractions."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004011858",
+  "viewingHint": "paged"
+}

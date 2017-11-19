@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003998564/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Barbour, Walworth, 1908-1982 -- Photographs; Shazar, Zalman, 1889-1974 -- Photographs",
+  "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Barbour, Walworth, 1908-1982 -- Photographs; Shazar, Zalman, 1889-1974 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003998564"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003998564"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003998564/sequence/IE45780380",
+      "@type": "sc:Sequence",
+      "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45780392",
+          "@type": "sc:Canvas",
+          "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon.",
+          "width": 2087,
+          "height": 3320,
+          "images": [
+            {
+              "@id": "FL45780392",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45780392",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45780392/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45780392",
+                  "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3320,
+                "width": 2087
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45780391",
+      "@type": "sc:Range",
+      "label": "REP45780391",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45780392",
+          "@type": "sc:Canvas",
+          "label": "The US Ambassador Wolwurth Barbour presented a special gift from the USA President of State - A piece of stone collected on the Moon."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003998564",
+  "viewingHint": "paged"
+}

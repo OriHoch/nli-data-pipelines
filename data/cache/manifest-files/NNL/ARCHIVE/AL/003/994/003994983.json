@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003994983/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Children of Kibbutz ??? making a bath in a hot weather.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Children of Kibbutz ??? making a bath in a hot weather."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shimon Kachia Kahaner photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003994983"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003994983"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003994983/sequence/IE45723776",
+      "@type": "sc:Sequence",
+      "label": "Children of Kibbutz ??? making a bath in a hot weather.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45723781",
+          "@type": "sc:Canvas",
+          "label": "Children of Kibbutz ??? making a bath in a hot weather.",
+          "width": 2180,
+          "height": 1395,
+          "images": [
+            {
+              "@id": "FL45723781",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45723781",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45723781/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Children of Kibbutz ??? making a bath in a hot weather.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45723781",
+                  "label": "Children of Kibbutz ??? making a bath in a hot weather.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1395,
+                "width": 2180
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45723780",
+      "@type": "sc:Range",
+      "label": "REP45723780",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45723781",
+          "@type": "sc:Canvas",
+          "label": "Children of Kibbutz ??? making a bath in a hot weather."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003994983",
+  "viewingHint": "paged"
+}

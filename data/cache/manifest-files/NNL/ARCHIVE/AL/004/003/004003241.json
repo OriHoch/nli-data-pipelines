@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004003241/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Girl soldiers after ending the training course at the Bahad 12 camp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Girl soldiers after ending the training course at the Bahad 12 camp."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004003241"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004003241"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004003241/sequence/IE50352533",
+      "@type": "sc:Sequence",
+      "label": "Girl soldiers after ending the training course at the Bahad 12 camp.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50352537",
+          "@type": "sc:Canvas",
+          "label": "Girl soldiers after ending the training course at the Bahad 12 camp.",
+          "width": 3327,
+          "height": 2136,
+          "images": [
+            {
+              "@id": "FL50352537",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50352537",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50352537/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Girl soldiers after ending the training course at the Bahad 12 camp.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50352537",
+                  "label": "Girl soldiers after ending the training course at the Bahad 12 camp.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2136,
+                "width": 3327
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50352536",
+      "@type": "sc:Range",
+      "label": "REP50352536",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50352537",
+          "@type": "sc:Canvas",
+          "label": "Girl soldiers after ending the training course at the Bahad 12 camp."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004003241",
+  "viewingHint": "paged"
+}

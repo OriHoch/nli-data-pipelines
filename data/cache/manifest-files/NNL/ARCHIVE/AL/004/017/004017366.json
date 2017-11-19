@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004017366/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Beni Porat acting in his play before children and adults.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Beni Porat acting in his play before children and adults."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Haim Pinkason photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004017366"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004017366"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004017366/sequence/IE45804087",
+      "@type": "sc:Sequence",
+      "label": "Beni Porat acting in his play before children and adults.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45804123",
+          "@type": "sc:Canvas",
+          "label": "Beni Porat acting in his play before children and adults.",
+          "width": 1893,
+          "height": 2015,
+          "images": [
+            {
+              "@id": "FL45804123",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45804123",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45804123/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Beni Porat acting in his play before children and adults.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45804123",
+                  "label": "Beni Porat acting in his play before children and adults.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2015,
+                "width": 1893
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45804122",
+      "@type": "sc:Range",
+      "label": "REP45804122",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45804123",
+          "@type": "sc:Canvas",
+          "label": "Beni Porat acting in his play before children and adults."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004017366",
+  "viewingHint": "paged"
+}

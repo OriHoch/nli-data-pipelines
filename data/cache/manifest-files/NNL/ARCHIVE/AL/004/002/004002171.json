@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004002171/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rishon Letsiyon (Israel) -- Photographs",
+  "label": "חברת יינות - כרמל מזרחי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת יינות - כרמל מזרחי."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rishon Letsiyon (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004002171"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Wine - Carmel Mizrachi."
+    },
+    {
+      "label": "SysNum",
+      "value": "004002171"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004002171/sequence/IE45987336",
+      "@type": "sc:Sequence",
+      "label": "חברת יינות - כרמל מזרחי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45987365",
+          "@type": "sc:Canvas",
+          "label": "חברת יינות - כרמל מזרחי.",
+          "width": 2252,
+          "height": 1547,
+          "images": [
+            {
+              "@id": "FL45987365",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45987365",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45987365/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת יינות - כרמל מזרחי.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45987365",
+                  "label": "חברת יינות - כרמל מזרחי.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1547,
+                "width": 2252
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45987364",
+      "@type": "sc:Range",
+      "label": "REP45987364",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45987365",
+          "@type": "sc:Canvas",
+          "label": "חברת יינות - כרמל מזרחי."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004002171",
+  "viewingHint": "paged"
+}

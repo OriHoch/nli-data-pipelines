@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003997041/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Meskin, Amnon -- Photographs",
+  "label": "מסקין - אב ובן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסקין - אב ובן."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Meskin, Amnon -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Uzi Keren 1944- photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003997041"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Meskin - Father and Son."
+    },
+    {
+      "label": "SysNum",
+      "value": "003997041"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003997041/sequence/IE45755359",
+      "@type": "sc:Sequence",
+      "label": "מסקין - אב ובן.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45755372",
+          "@type": "sc:Canvas",
+          "label": "מסקין - אב ובן.",
+          "width": 2064,
+          "height": 3312,
+          "images": [
+            {
+              "@id": "FL45755372",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45755372",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45755372/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מסקין - אב ובן.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45755372",
+                  "label": "מסקין - אב ובן.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3312,
+                "width": 2064
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45755371",
+      "@type": "sc:Range",
+      "label": "REP45755371",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45755372",
+          "@type": "sc:Canvas",
+          "label": "מסקין - אב ובן."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003997041",
+  "viewingHint": "paged"
+}

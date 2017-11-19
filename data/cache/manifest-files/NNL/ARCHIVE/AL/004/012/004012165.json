@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004012165/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "US asked to help Perisoenrs of Zion.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "US asked to help Perisoenrs of Zion."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004012165"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004012165"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004012165/sequence/IE45807878",
+      "@type": "sc:Sequence",
+      "label": "US asked to help Perisoenrs of Zion.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45807907",
+          "@type": "sc:Canvas",
+          "label": "US asked to help Perisoenrs of Zion.",
+          "width": 1644,
+          "height": 2200,
+          "images": [
+            {
+              "@id": "FL45807907",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45807907",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45807907/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "US asked to help Perisoenrs of Zion.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45807907",
+                  "label": "US asked to help Perisoenrs of Zion.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2200,
+                "width": 1644
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45807906",
+      "@type": "sc:Range",
+      "label": "REP45807906",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45807907",
+          "@type": "sc:Canvas",
+          "label": "US asked to help Perisoenrs of Zion."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004012165",
+  "viewingHint": "paged"
+}

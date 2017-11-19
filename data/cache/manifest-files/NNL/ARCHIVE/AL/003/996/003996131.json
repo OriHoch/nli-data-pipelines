@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003996131/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Azikri, Aliza -- Photographs",
+  "label": "Singer Aliza Azikri.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Singer Aliza Azikri."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Azikri, Aliza -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shalom Bar Tal photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003996131"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003996131"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003996131/sequence/IE45730727",
+      "@type": "sc:Sequence",
+      "label": "Singer Aliza Azikri.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45730744",
+          "@type": "sc:Canvas",
+          "label": "Singer Aliza Azikri.",
+          "width": 2112,
+          "height": 3319,
+          "images": [
+            {
+              "@id": "FL45730744",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45730744",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45730744/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Singer Aliza Azikri.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45730744",
+                  "label": "Singer Aliza Azikri.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3319,
+                "width": 2112
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45730742",
+      "@type": "sc:Range",
+      "label": "REP45730742",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45730744",
+          "@type": "sc:Canvas",
+          "label": "Singer Aliza Azikri."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003996131",
+  "viewingHint": "paged"
+}

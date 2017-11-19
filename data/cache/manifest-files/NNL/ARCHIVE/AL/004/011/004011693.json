@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004011693/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Shavit, Buma, 1927-2002 -- Photographs",
+  "label": "Meeting between the presiden of the Israel manufacturers asociation, Buma Shavit with Canadian Minister of Trade who is visiting Israel.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Meeting between the presiden of the Israel manufacturers asociation, Buma Shavit with Canadian Minister of Trade who is visiting Israel."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shavit, Buma, 1927-2002 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004011693"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004011693"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004011693/sequence/IE45809827",
+      "@type": "sc:Sequence",
+      "label": "Meeting between the presiden of the Israel manufacturers asociation  Buma Shavit with Canadian Minister of Trade who is visiting Israel.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45809875",
+          "@type": "sc:Canvas",
+          "label": "Meeting between the presiden of the Israel manufacturers asociation  Buma Shavit with Canadian Minister of Trade who is visiting Israel.",
+          "width": 3300,
+          "height": 2061,
+          "images": [
+            {
+              "@id": "FL45809875",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45809875",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45809875/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Meeting between the presiden of the Israel manufacturers asociation  Buma Shavit with Canadian Minister of Trade who is visiting Israel.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45809875",
+                  "label": "Meeting between the presiden of the Israel manufacturers asociation  Buma Shavit with Canadian Minister of Trade who is visiting Israel.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2061,
+                "width": 3300
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45809874",
+      "@type": "sc:Range",
+      "label": "REP45809874",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45809875",
+          "@type": "sc:Canvas",
+          "label": "Meeting between the presiden of the Israel manufacturers asociation  Buma Shavit with Canadian Minister of Trade who is visiting Israel."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004011693",
+  "viewingHint": "paged"
+}

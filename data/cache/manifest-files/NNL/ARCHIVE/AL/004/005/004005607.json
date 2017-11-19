@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004005607/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Famous sinnger Dvora Havkin with he child.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Famous sinnger Dvora Havkin with he child."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004005607"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004005607"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004005607/sequence/IE45752248",
+      "@type": "sc:Sequence",
+      "label": "Famous sinnger Dvora Havkin with he child.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45752310",
+          "@type": "sc:Canvas",
+          "label": "Famous sinnger Dvora Havkin with he child.",
+          "width": 2047,
+          "height": 3344,
+          "images": [
+            {
+              "@id": "FL45752310",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45752310",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45752310/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Famous sinnger Dvora Havkin with he child.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45752310",
+                  "label": "Famous sinnger Dvora Havkin with he child.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3344,
+                "width": 2047
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45752308",
+      "@type": "sc:Range",
+      "label": "REP45752308",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45752310",
+          "@type": "sc:Canvas",
+          "label": "Famous sinnger Dvora Havkin with he child."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004005607",
+  "viewingHint": "paged"
+}

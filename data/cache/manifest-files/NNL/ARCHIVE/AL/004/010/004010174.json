@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004010174/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Meshel, Yerucham, 1912- -- Photographs; Rabinovits, Yehoshuʻa, 1911- -- Photographs; Shavit, Buma, 1927-2002 -- Photographs",
+  "label": "Financial discussion on the future wages by the Israeli economic leaders.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Financial discussion on the future wages by the Israeli economic leaders."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Meshel, Yerucham, 1912- -- Photographs; Rabinovits, Yehoshuʻa, 1911- -- Photographs; Shavit, Buma, 1927-2002 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yosi Rot (photographer) photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004010174"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004010174"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004010174/sequence/IE45758813",
+      "@type": "sc:Sequence",
+      "label": "Financial discussion on the future wages by the Israeli economic leaders.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45758847",
+          "@type": "sc:Canvas",
+          "label": "Financial discussion on the future wages by the Israeli economic leaders.",
+          "width": 2765,
+          "height": 1735,
+          "images": [
+            {
+              "@id": "FL45758847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45758847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45758847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Financial discussion on the future wages by the Israeli economic leaders.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45758847",
+                  "label": "Financial discussion on the future wages by the Israeli economic leaders.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1735,
+                "width": 2765
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45758846",
+      "@type": "sc:Range",
+      "label": "REP45758846",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45758847",
+          "@type": "sc:Canvas",
+          "label": "Financial discussion on the future wages by the Israeli economic leaders."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004010174",
+  "viewingHint": "paged"
+}

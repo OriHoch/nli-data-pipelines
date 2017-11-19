@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003998079/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Burg, Yosef, 1899-1980 -- Photographs; Dayan, Moshe, 1915-1981 -- Photographs; Shapira, Ya'akov Shimshon, 1902-1993 -- Photographs",
+  "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ממשלה חדשה - ראש הממשלה גולדה מאיר."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Burg, Yosef, 1899-1980 -- Photographs; Dayan, Moshe, 1915-1981 -- Photographs; Shapira, Ya'akov Shimshon, 1902-1993 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003998079"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "New Government - PM Golda Meir."
+    },
+    {
+      "label": "SysNum",
+      "value": "003998079"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003998079/sequence/IE45781817",
+      "@type": "sc:Sequence",
+      "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45781826",
+          "@type": "sc:Canvas",
+          "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר.",
+          "width": 2576,
+          "height": 1684,
+          "images": [
+            {
+              "@id": "FL45781826",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45781826",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45781826/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45781826",
+                  "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1684,
+                "width": 2576
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45781825",
+      "@type": "sc:Range",
+      "label": "REP45781825",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45781826",
+          "@type": "sc:Canvas",
+          "label": "ממשלה חדשה - ראש הממשלה גולדה מאיר."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003998079",
+  "viewingHint": "paged"
+}

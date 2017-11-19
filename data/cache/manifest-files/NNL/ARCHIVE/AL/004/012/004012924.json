@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004012924/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Aforceful point is made by Dr.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Aforceful point is made by Dr."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004012924"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004012924"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004012924/sequence/IE45830411",
+      "@type": "sc:Sequence",
+      "label": "Aforceful point is made by Dr.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45830446",
+          "@type": "sc:Canvas",
+          "label": "Aforceful point is made by Dr.",
+          "width": 3423,
+          "height": 2248,
+          "images": [
+            {
+              "@id": "FL45830446",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45830446",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45830446/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Aforceful point is made by Dr.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45830446",
+                  "label": "Aforceful point is made by Dr.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2248,
+                "width": 3423
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45830445",
+      "@type": "sc:Range",
+      "label": "REP45830445",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45830446",
+          "@type": "sc:Canvas",
+          "label": "Aforceful point is made by Dr."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004012924",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004003574/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Dr Haichick, Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Dr Haichick, Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004003574"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004003574"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004003574/sequence/IE45976381",
+      "@type": "sc:Sequence",
+      "label": "Dr Haichick  Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45976406",
+          "@type": "sc:Canvas",
+          "label": "Dr Haichick  Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient.",
+          "width": 3216,
+          "height": 2096,
+          "images": [
+            {
+              "@id": "FL45976406",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45976406",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45976406/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Dr Haichick  Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45976406",
+                  "label": "Dr Haichick  Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2096,
+                "width": 3216
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45976405",
+      "@type": "sc:Range",
+      "label": "REP45976405",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45976406",
+          "@type": "sc:Canvas",
+          "label": "Dr Haichick  Oncolongist at the Tel Hashomer Hospital making a memography test to one of his patient."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004003574",
+  "viewingHint": "paged"
+}

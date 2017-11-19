@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004014893/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Kefar ha-Yarok (Israel) -- Photographs",
+  "label": "Ulpan Akiva invited som VIP's.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ulpan Akiva invited som VIP's."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Kefar ha-Yarok (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004014893"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004014893"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004014893/sequence/IE45812718",
+      "@type": "sc:Sequence",
+      "label": "Ulpan Akiva invited som VIP's.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45812760",
+          "@type": "sc:Canvas",
+          "label": "Ulpan Akiva invited som VIP's.",
+          "width": 2169,
+          "height": 3265,
+          "images": [
+            {
+              "@id": "FL45812760",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45812760",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45812760/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ulpan Akiva invited som VIP's.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45812760",
+                  "label": "Ulpan Akiva invited som VIP's.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3265,
+                "width": 2169
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45812759",
+      "@type": "sc:Range",
+      "label": "REP45812759",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45812760",
+          "@type": "sc:Canvas",
+          "label": "Ulpan Akiva invited som VIP's."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004014893",
+  "viewingHint": "paged"
+}

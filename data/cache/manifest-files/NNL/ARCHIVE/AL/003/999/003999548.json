@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003999548/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Shazar, Zalman, 1889-1974 -- Photographs",
+  "label": "President Zalman Shazar reurning from the USA was received by ministers and family.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "President Zalman Shazar reurning from the USA was received by ministers and family."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shazar, Zalman, 1889-1974 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003999548"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "003999548"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003999548/sequence/IE45778928",
+      "@type": "sc:Sequence",
+      "label": "President Zalman Shazar reurning from the USA was received by ministers and family.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45778940",
+          "@type": "sc:Canvas",
+          "label": "President Zalman Shazar reurning from the USA was received by ministers and family.",
+          "width": 1852,
+          "height": 2742,
+          "images": [
+            {
+              "@id": "FL45778940",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45778940",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45778940/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "President Zalman Shazar reurning from the USA was received by ministers and family.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45778940",
+                  "label": "President Zalman Shazar reurning from the USA was received by ministers and family.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2742,
+                "width": 1852
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45778937",
+      "@type": "sc:Range",
+      "label": "REP45778937",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45778940",
+          "@type": "sc:Canvas",
+          "label": "President Zalman Shazar reurning from the USA was received by ministers and family."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003999548",
+  "viewingHint": "paged"
+}

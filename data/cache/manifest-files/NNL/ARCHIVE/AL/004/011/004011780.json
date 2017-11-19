@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004011780/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Aloni, Shulamit, 1928- -- Photographs",
+  "label": "Leader of the Left Wing Party Ratz Shulamint Aloni.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Leader of the Left Wing Party Ratz Shulamint Aloni."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Aloni, Shulamit, 1928- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Gotfried photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004011780"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004011780"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004011780/sequence/IE45813693",
+      "@type": "sc:Sequence",
+      "label": "Leader of the Left Wing Party Ratz Shulamint Aloni.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45813728",
+          "@type": "sc:Canvas",
+          "label": "Leader of the Left Wing Party Ratz Shulamint Aloni.",
+          "width": 1371,
+          "height": 1760,
+          "images": [
+            {
+              "@id": "FL45813728",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45813728",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45813728/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leader of the Left Wing Party Ratz Shulamint Aloni.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45813728",
+                  "label": "Leader of the Left Wing Party Ratz Shulamint Aloni.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1760,
+                "width": 1371
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45813727",
+      "@type": "sc:Range",
+      "label": "REP45813727",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45813728",
+          "@type": "sc:Canvas",
+          "label": "Leader of the Left Wing Party Ratz Shulamint Aloni."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004011780",
+  "viewingHint": "paged"
+}

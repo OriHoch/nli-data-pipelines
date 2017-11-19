@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004006083/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Meir, Golda, 1898-1978 -- Photographs",
+  "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Meir, Golda, 1898-1978 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004006083"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004006083"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004006083/sequence/IE45747959",
+      "@type": "sc:Sequence",
+      "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45748007",
+          "@type": "sc:Canvas",
+          "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir.",
+          "width": 993,
+          "height": 1498,
+          "images": [
+            {
+              "@id": "FL45748007",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45748007",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45748007/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45748007",
+                  "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1498,
+                "width": 993
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45748006",
+      "@type": "sc:Range",
+      "label": "REP45748006",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45748007",
+          "@type": "sc:Canvas",
+          "label": "Members of the Labour party arriving to the meeting of the Party Cabinet members arriving Prime Minister Golda Meir."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004006083",
+  "viewingHint": "paged"
+}

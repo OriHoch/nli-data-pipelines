@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004002169/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Actor Reuven Shefer.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Actor Reuven Shefer."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004002169"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004002169"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004002169/sequence/IE45987257",
+      "@type": "sc:Sequence",
+      "label": "Actor Reuven Shefer.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45987287",
+          "@type": "sc:Canvas",
+          "label": "Actor Reuven Shefer.",
+          "width": 1485,
+          "height": 2100,
+          "images": [
+            {
+              "@id": "FL45987287",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45987287",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45987287/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Actor Reuven Shefer.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45987287",
+                  "label": "Actor Reuven Shefer.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2100,
+                "width": 1485
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45987286",
+      "@type": "sc:Range",
+      "label": "REP45987286",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45987287",
+          "@type": "sc:Canvas",
+          "label": "Actor Reuven Shefer."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004002169",
+  "viewingHint": "paged"
+}
