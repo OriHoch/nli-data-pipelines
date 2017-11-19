@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002516241/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Turkey -- Maps",
+  "label": "Estats de l'Empire du Grand Seigneur des Turcs en Europe, en Asie, et en Afrique :;&nbsp;divisé en tous ses Beglerbeglicz, ou Gouvernement ou sont aussi remarqués les Estats qui luy sont Tributaires /;&nbsp;par le Sr. Sanson",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Estats de l'Empire du Grand Seigneur des Turcs en Europe, en Asie, et en Afrique :;&nbsp;divisé en tous ses Beglerbeglicz, ou Gouvernement ou sont aussi remarqués les Estats qui luy sont Tributaires /;&nbsp;par le Sr. Sanson"
+    },
+    {
+      "label": "Contributor",
+      "value": "Alexis Hubert Jaillot 1632?-1712"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Hubert Iaillot"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Guillaume, 1633-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002516241"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1692"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 86 X 53 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002516241"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002516241/sequence/IE13729670",
+      "@type": "sc:Sequence",
+      "label": "Turkey",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737748",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16214,
+          "height": 10340,
+          "images": [
+            {
+              "@id": "FL13737748",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737748",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737748/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737748",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10340,
+                "width": 16214
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737747",
+      "@type": "sc:Range",
+      "label": "REP13737747",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737748",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002516241",
+  "viewingHint": "paged"
+}

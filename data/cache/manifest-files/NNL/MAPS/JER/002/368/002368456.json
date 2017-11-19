@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368456/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bible -- Geography -- Maps",
+  "label": "Parte I. Geografia Sacra o terre abitate da figliuli di Noe",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Parte I. Geografia Sacra o terre abitate da figliuli di Noe"
+    },
+    {
+      "label": "Contributor",
+      "value": "Giuseppe Battaggia"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Venezia] :Giuseppe Battagia"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Calmet Augustin, 1672-1757"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368456"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1822"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "208x315 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368456"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368456/sequence/IE6881506",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072723",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2913,
+          "height": 2150,
+          "images": [
+            {
+              "@id": "FL7072723",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072723",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072723/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072723",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2150,
+                "width": 2913
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072722",
+      "@type": "sc:Range",
+      "label": "REP7072722",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072723",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368456",
+  "viewingHint": "paged"
+}

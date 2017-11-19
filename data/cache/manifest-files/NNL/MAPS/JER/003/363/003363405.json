@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003363405/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Drainage -- Israel -- Hula Valley; Hula Valley (Israel) -- Maps",
+  "label": "Palestine - Huleh reclamation scheme;&nbsp;Rendel, Palmer & Tritton consulting engineers.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine - Huleh reclamation scheme;&nbsp;Rendel, Palmer & Tritton consulting engineers."
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Rendel, Palmer & Tritton"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Drainage -- Israel -- Hula Valley; Hula Valley (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Rendel, Palmer & Tritton"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003363405"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 122.4x50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Huleh basin [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003363405"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003363405/sequence/IE13730445",
+      "@type": "sc:Sequence",
+      "label": "Hula Valley (Israel)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745946",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8238,
+          "height": 19900,
+          "images": [
+            {
+              "@id": "FL13745946",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745946",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745946/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745946",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 19900,
+                "width": 8238
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745945",
+      "@type": "sc:Range",
+      "label": "REP13745945",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745946",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003363405",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003899033/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Carte de la Syrie appellée en Arabe Bar-El-Cham c'est a dire Pays de La Gauche..",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Syrie appellée en Arabe Bar-El-Cham c'est a dire Pays de La Gauche.."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003899033"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1700?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003899033"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003899033/sequence/IE37122134",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Syrie appellée en Arabe Bar-El-Cham c&apos;est a dire Pays de La Gauche..",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37122150",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2803,
+          "height": 3776,
+          "images": [
+            {
+              "@id": "FL37122150",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37122150",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37122150/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37122150",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3776,
+                "width": 2803
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37122148",
+      "@type": "sc:Range",
+      "label": "REP37122148",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37122150",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003899033",
+  "viewingHint": "paged"
+}

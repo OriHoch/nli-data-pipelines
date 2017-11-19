@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002485519/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asia partium orbis maxima",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia partium orbis maxima"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Antwerpen] :Vidua et Haeredes Gerardi de Iudaeis"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jode Gerard de, 1509-1591"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002485519"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1593"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 37 X 46 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002485519"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002485519/sequence/IE32697891",
+      "@type": "sc:Sequence",
+      "label": "Asia partium orbis maxima",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32697900",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13555,
+          "height": 9855,
+          "images": [
+            {
+              "@id": "FL32697900",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL32697900",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL32697900/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL32697900",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9855,
+                "width": 13555
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP32697899",
+      "@type": "sc:Range",
+      "label": "REP32697899",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32697900",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002485519",
+  "viewingHint": "paged"
+}

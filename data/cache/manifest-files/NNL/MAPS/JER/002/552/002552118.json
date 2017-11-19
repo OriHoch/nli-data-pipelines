@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002552118/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Budapest (Hungary) -- Maps",
+  "label": "Budapest Székesföváros Térképe",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Budapest Székesföváros Térképe"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Budapest (Hungary) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "M.kir Állami Térképészet"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002552118"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map on 2 sheets ; each sheet 74 X 51 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "hun"
+    },
+    {
+      "label": "SysNum",
+      "value": "002552118"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002552118/sequence/IE35076824",
+      "@type": "sc:Sequence",
+      "label": "Budapest Székesföváros Térképe",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076829",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 12223,
+          "height": 17783,
+          "images": [
+            {
+              "@id": "FL35076829",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076829",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076829/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076829",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17783,
+                "width": 12223
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076830",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 12184,
+          "height": 17622,
+          "images": [
+            {
+              "@id": "FL35076830",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076830",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076830/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076830",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17622,
+                "width": 12184
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076828",
+      "@type": "sc:Range",
+      "label": "REP35076828",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076829",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076830",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002552118",
+  "viewingHint": "paged"
+}

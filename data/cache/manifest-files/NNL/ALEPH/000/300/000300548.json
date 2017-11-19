@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300548/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. ת\"ק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. ת\"ק"
+    },
+    {
+      "label": "Contributor",
+      "value": "מילנו, יוסף בן משה (חתן) ; מלירושי, שמחה בת שבתי רפאל (כלה) ; קורי, משה בן ידידיה (עד) ; קסטלנובו, יצחק בן מרדכי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300548"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ג באדר ת\"ק (1740)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 595X435 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1740"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300548"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300548/sequence/IE9212233",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, ת&quot;ק]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470805",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 622,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470805",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470805",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470805/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470805",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 622
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470804",
+      "@type": "sc:Range",
+      "label": "REP9470804",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470805",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300548",
+  "viewingHint": "paged"
+}

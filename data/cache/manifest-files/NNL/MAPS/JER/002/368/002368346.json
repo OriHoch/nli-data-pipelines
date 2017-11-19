@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368346/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Charte worauf das Iuedisch Land unter der Botmaessigkeit Roemer zu den Zeiten Christi und der Apostel vorgestellet wird;&nbsp;Entworfen von W.A. Bachiene...von neuen gezeichnet von G.A. Mass, Cleve 1769. Gestochen von I.Rod. Holzhalb",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Charte worauf das Iuedisch Land unter der Botmaessigkeit Roemer zu den Zeiten Christi und der Apostel vorgestellet wird;&nbsp;Entworfen von W.A. Bachiene...von neuen gezeichnet von G.A. Mass, Cleve 1769. Gestochen von I.Rod. Holzhalb"
+    },
+    {
+      "label": "Contributor",
+      "value": "Willem Albert Bachiene 1712-1783; Johann Rudolf Holzhalb"
+    },
+    {
+      "label": "Publisher",
+      "value": "Zuerich,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Maas Gottfried A."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368346"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1774"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "272x331 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368346"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368346/sequence/IE6882228",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073623",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2700,
+          "height": 2296,
+          "images": [
+            {
+              "@id": "FL7073623",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073623",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073623/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073623",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2296,
+                "width": 2700
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073622",
+      "@type": "sc:Range",
+      "label": "REP7073622",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073623",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368346",
+  "viewingHint": "paged"
+}

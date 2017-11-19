@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369976/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Košice (Slovakia) -- Maps",
+  "label": "Cassovia;&nbsp;a la Citta B Chiesa Mag... /;&nbsp;Gierolemo Albrisi For Venet.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Cassovia;&nbsp;a la Citta B Chiesa Mag... /;&nbsp;Gierolemo Albrisi For Venet."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Košice (Slovakia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Albrizzi Girolamo"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369976"
+    },
+    {
+      "label": "Creation Date",
+      "value": "174-?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "200x350 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369976"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369976/sequence/IE39695563",
+      "@type": "sc:Sequence",
+      "label": "Cassovia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695567",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7990,
+          "height": 5640,
+          "images": [
+            {
+              "@id": "FL39695567",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695567",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695567/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695567",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5640,
+                "width": 7990
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695566",
+      "@type": "sc:Range",
+      "label": "REP39695566",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695567",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369976",
+  "viewingHint": "paged"
+}

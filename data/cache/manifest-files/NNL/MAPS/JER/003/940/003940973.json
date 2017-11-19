@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003940973/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Euphrates River -- Maps",
+  "label": "Euphrat = laender. /;&nbsp;O. Delitsch gez.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Euphrat = laender. /;&nbsp;O. Delitsch gez."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Euphrates River -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003940973"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1874"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003940973"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003940973/sequence/IE45604190",
+      "@type": "sc:Sequence",
+      "label": "Euphrat = laender. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604205",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3682,
+          "height": 2799,
+          "images": [
+            {
+              "@id": "FL45604205",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45604205",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45604205/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45604205",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2799,
+                "width": 3682
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45604204",
+      "@type": "sc:Range",
+      "label": "REP45604204",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604205",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003940973",
+  "viewingHint": "paged"
+}

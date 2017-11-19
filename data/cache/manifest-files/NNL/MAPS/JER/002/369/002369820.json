@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369820/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Syria -- Maps",
+  "label": "Karte von Syrien;&nbsp;den Manen Jacotin's und Burckhardt's gewidmet /;&nbsp;von H. Berghaus ; Gest. v. Herterich, Siebert u. Rolle.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Karte von Syrien;&nbsp;den Manen Jacotin's und Burckhardt's gewidmet /;&nbsp;von H. Berghaus ; Gest. v. Herterich, Siebert u. Rolle."
+    },
+    {
+      "label": "Publisher",
+      "value": "Gotha :Justus Perthes"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Syria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Berghaus Heinrich Karl Wilhelm, 1797-1884"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369820"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1835"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "850x599 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369820"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369820/sequence/IE6878883",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071079",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2000,
+          "height": 2833,
+          "images": [
+            {
+              "@id": "FL7071079",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071079",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071079/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071079",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2833,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071078",
+      "@type": "sc:Range",
+      "label": "REP7071078",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071079",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369820",
+  "viewingHint": "paged"
+}

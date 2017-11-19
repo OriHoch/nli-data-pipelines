@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369224/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jonah (Biblical prophet); Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "זאת לדעת לכל בר דעת דרך המסעות ארבעים שנה במדבר והרוחב והאורך של ארץ הקדושה מנהר מצרים עד עיר דמשק ומנחל ארנן עד הים הגדול ובתוכו כל שבט ושבט חלק נחלתו...;&nbsp;אברהם בר יעקב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "זאת לדעת לכל בר דעת דרך המסעות ארבעים שנה במדבר והרוחב והאורך של ארץ הקדושה מנהר מצרים עד עיר דמשק ומנחל ארנן עד הים הגדול ובתוכו כל שבט ושבט חלק נחלתו...;&nbsp;אברהם בר יעקב."
+    },
+    {
+      "label": "Contributor",
+      "value": "Christiaan van Adrichem 1533-1585; Moses Wiesel"
+    },
+    {
+      "label": "Publisher",
+      "value": "[אמסטרדם],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jonah (Biblical prophet); Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אברהם בן יעקב, הגר"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369224"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1695"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "262x480 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369224"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369224/sequence/IE35704922",
+      "@type": "sc:Sequence",
+      "label": "זאת לדעת לכל בר דעת דרך המסעות ארבעים שנה במדבר והרוחב והאורך של ארץ הקדושה מנהר מצרים עד עיר דמשק ומנחל ארנן עד הים הגדול ובתוכו כל שבט ושבט חלק נחלתו...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704928",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11829,
+          "height": 7285,
+          "images": [
+            {
+              "@id": "FL35704928",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35704928",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35704928/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35704928",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7285,
+                "width": 11829
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35704927",
+      "@type": "sc:Range",
+      "label": "REP35704927",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704928",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369224",
+  "viewingHint": "paged"
+}

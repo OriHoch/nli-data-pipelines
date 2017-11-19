@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002537730/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Hungary -- Maps; Romania -- Maps; Bulgaria -- Maps",
+  "label": "Pannonia, Moesia, Dacia, Illyricum /;&nbsp;R. W. Seale sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pannonia, Moesia, Dacia, Illyricum /;&nbsp;R. W. Seale sculp."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Publisher not identified."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hungary -- Maps; Romania -- Maps; Bulgaria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seale Richard William"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002537730"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1817?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 20 X 30 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002537730"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002537730/sequence/IE35075072",
+      "@type": "sc:Sequence",
+      "label": "Pannonia; Moesia; Dacia; Illyricum /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35075107",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8233,
+          "height": 6075,
+          "images": [
+            {
+              "@id": "FL35075107",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35075107",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35075107/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35075107",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6075,
+                "width": 8233
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35075106",
+      "@type": "sc:Range",
+      "label": "REP35075106",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35075107",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002537730",
+  "viewingHint": "paged"
+}

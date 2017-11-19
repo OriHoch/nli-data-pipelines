@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370196/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Nile River -- Maps",
+  "label": "Carte du Cours du Nil;&nbsp;Comprenant l'Egypte la Nubie, l'Abyssinie et la Mer Rouge /;&nbsp;Publiee par J. Andriveau - Goujon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du Cours du Nil;&nbsp;Comprenant l'Egypte la Nubie, l'Abyssinie et la Mer Rouge /;&nbsp;Publiee par J. Andriveau - Goujon."
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Nile River -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Andriveau-Goujon J., fl. 1805-1824"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370196"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1832"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "500x390 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370196"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370196/sequence/IE25569782",
+      "@type": "sc:Sequence",
+      "label": "Carte du Cours du Nil",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569786",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12056,
+          "height": 15099,
+          "images": [
+            {
+              "@id": "FL25569786",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25569786",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25569786/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25569786",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15099,
+                "width": 12056
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25569785",
+      "@type": "sc:Range",
+      "label": "REP25569785",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569786",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370196",
+  "viewingHint": "paged"
+}

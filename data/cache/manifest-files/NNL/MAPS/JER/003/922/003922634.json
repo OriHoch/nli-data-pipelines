@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003922634/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Arabian Peninsula -- Boundaries -- Maps",
+  "label": "Modern Palestine, part of Turkey.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Modern Palestine, part of Turkey."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Arabian Peninsula -- Boundaries -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003922634"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1897"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Part of Turkey in Asia, Arabia, Oman and Aden."
+    },
+    {
+      "label": "SysNum",
+      "value": "003922634"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003922634/sequence/IE42848158",
+      "@type": "sc:Sequence",
+      "label": "Modern Palestine; part of Turkey.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848178",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4798,
+          "height": 3317,
+          "images": [
+            {
+              "@id": "FL42848178",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL42848178",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL42848178/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL42848178",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3317,
+                "width": 4798
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP42848174",
+      "@type": "sc:Range",
+      "label": "REP42848174",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848178",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003922634",
+  "viewingHint": "paged"
+}

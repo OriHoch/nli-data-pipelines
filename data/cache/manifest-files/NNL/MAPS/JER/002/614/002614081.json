@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002614081/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tatars -- Maps; Sarmatia -- Maps",
+  "label": "[Tartaria, Sarmatia Asiatica]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Tartaria, Sarmatia Asiatica]"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Basel],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tatars -- Maps; Sarmatia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Münster Sebastian, 1489-1552"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002614081"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1550"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 24 x 16 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002614081"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002614081/sequence/IE36380551",
+      "@type": "sc:Sequence",
+      "label": "[Tartaria; Sarmatia Asiatica]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380598",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4244,
+          "height": 6458,
+          "images": [
+            {
+              "@id": "FL36380598",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36380598",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36380598/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36380598",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6458,
+                "width": 4244
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36380597",
+      "@type": "sc:Range",
+      "label": "REP36380597",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380598",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002614081",
+  "viewingHint": "paged"
+}

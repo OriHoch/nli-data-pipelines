@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467383/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Southeast Asia -- Maps; Malaysia -- Maps; Borneo -- Maps; Indonesia -- Maps",
+  "label": "Nova tabula insularum Javae, Sumatrae, Borneonis et al iarum Malaccam;&nbsp;usque delineata .. a G.M.A.L .[ = Willem Lodewijcksz.] ...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nova tabula insularum Javae, Sumatrae, Borneonis et al iarum Malaccam;&nbsp;usque delineata .. a G.M.A.L .[ = Willem Lodewijcksz.] ..."
+    },
+    {
+      "label": "Contributor",
+      "value": "Willem Lodewycksz 16th cent.; Cornelis Claesz approximately 1546-1609"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam?],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Southeast Asia -- Maps; Malaysia -- Maps; Borneo -- Maps; Indonesia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Doetichum Baptista van, -1611"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467383"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1595"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 364 X 425 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467383"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467383/sequence/IE25569906",
+      "@type": "sc:Sequence",
+      "label": "Nova tabula insularum Javae; Sumatrae; Borneonis et al iarum Malaccam",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569919",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11827,
+          "height": 10513,
+          "images": [
+            {
+              "@id": "FL25569919",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25569919",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25569919/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25569919",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10513,
+                "width": 11827
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25569917",
+      "@type": "sc:Range",
+      "label": "REP25569917",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569919",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467383",
+  "viewingHint": "paged"
+}

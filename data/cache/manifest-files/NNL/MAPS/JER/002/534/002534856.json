@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534856/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "America -- Maps; South America -- Maps",
+  "label": "A new map of the whole continent of America divided into North And South And West Indies :;&nbsp;wherein are exactly Described The United States Of North America as well as the Several European Possessions according to the Preliminaries of Peace signed at Versailles Jan. 20. 1783 ; Compiled from Mr. D'Anville's Maps of that Continent, with the addition of the Spanish Discoveries in 1775 to the North of California & Corrected in the several Parts belonging to Great Britain from the Original Materials of Governor Pownall",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new map of the whole continent of America divided into North And South And West Indies :;&nbsp;wherein are exactly Described The United States Of North America as well as the Several European Possessions according to the Preliminaries of Peace signed at Versailles Jan. 20. 1783 ; Compiled from Mr. D'Anville's Maps of that Continent, with the addition of the Spanish Discoveries in 1775 to the North of California & Corrected in the several Parts belonging to Great Britain from the Original Materials of Governor Pownall"
+    },
+    {
+      "label": "Contributor",
+      "value": "Robert Sayer 1725-1794"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Robert Sayer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "America -- Maps; South America -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Anville Jean Baptiste Bourguignon d', 1697-1782"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534856"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1786"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 54 X 122 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534856"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534856/sequence/IE13729741",
+      "@type": "sc:Sequence",
+      "label": "South America",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737780",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 19553,
+          "height": 8807,
+          "images": [
+            {
+              "@id": "FL13737780",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737780",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737780/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737780",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8807,
+                "width": 19553
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737779",
+      "@type": "sc:Range",
+      "label": "REP13737779",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737780",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534856",
+  "viewingHint": "paged"
+}

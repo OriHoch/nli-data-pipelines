@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002536019/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Netherlands -- Maps",
+  "label": "Novissima Delflandiæ, Schielandiæ et circumiacentium insularum ut Vooræe, Overflackeæ, Goereæ, Iselmondæ, aliarumque tabula /;&nbsp;Auctore Balthazaro Florentio a Berckenrode",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Novissima Delflandiæ, Schielandiæ et circumiacentium insularum ut Vooræe, Overflackeæ, Goereæ, Iselmondæ, aliarumque tabula /;&nbsp;Auctore Balthazaro Florentio a Berckenrode"
+    },
+    {
+      "label": "Contributor",
+      "value": "Hendrik Hondius 1597-1651"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Henrici Hondii"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Netherlands -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Berckenrode Balthasar Florisz. van, 1591 or 2-1645"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002536019"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1629"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 45 X 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002536019"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002536019/sequence/IE35073099",
+      "@type": "sc:Sequence",
+      "label": "Novissima Delflandiæ; Schielandiæ et circumiacentium insularum ut Vooræe; Overflackeæ; Goereæ; Iselmondæ; aliarumque tabula /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073110",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13408,
+          "height": 11521,
+          "images": [
+            {
+              "@id": "FL35073110",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35073110",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35073110/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35073110",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11521,
+                "width": 13408
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35073109",
+      "@type": "sc:Range",
+      "label": "REP35073109",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073110",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002536019",
+  "viewingHint": "paged"
+}

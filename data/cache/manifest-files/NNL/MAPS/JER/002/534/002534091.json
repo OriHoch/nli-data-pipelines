@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534091/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "La Grece ancienne et moderne divisee en ses royaumes republiques provinces et pays conus des anciens et des modernes :;&nbsp;tirée des meilleurs autheurs, corigée pour les longitudes et latitudes de ses principales villes et caps, &c. sur les observations astronomiques de Mrs. de l'Academie Royale des Sciences Ouvrage tres utile pour l'Intelligence des anciens autheurs /;&nbsp;Par Jean Batiste Nolin",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Grece ancienne et moderne divisee en ses royaumes republiques provinces et pays conus des anciens et des modernes :;&nbsp;tirée des meilleurs autheurs, corigée pour les longitudes et latitudes de ses principales villes et caps, &c. sur les observations astronomiques de Mrs. de l'Academie Royale des Sciences Ouvrage tres utile pour l'Intelligence des anciens autheurs /;&nbsp;Par Jean Batiste Nolin"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Mondhare et Jean"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Nolin Jean Baptiste, 1648-1708"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534091"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1699"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 43 X 60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534091"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534091/sequence/IE35072690",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;La&gt;&gt; Grece ancienne et moderne divisee en ses royaumes republiques provinces et pays conus des anciens et des modernes :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072706",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18288,
+          "height": 12927,
+          "images": [
+            {
+              "@id": "FL35072706",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072706",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072706/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072706",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12927,
+                "width": 18288
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072704",
+      "@type": "sc:Range",
+      "label": "REP35072704",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072706",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534091",
+  "viewingHint": "paged"
+}

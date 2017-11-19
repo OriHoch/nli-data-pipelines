@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003558256/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "תל אביב;&nbsp;תכנית כללית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תל אביב;&nbsp;תכנית כללית."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :המחלקה הטכנית של עירית תל אביב דפוס איתן-שושני"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003558256"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה : צבע ; 60x43 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Tel Aviv general plan [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003558256"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003558256/sequence/IE10527674",
+      "@type": "sc:Sequence",
+      "label": "תל אביב",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10591563",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5230,
+          "height": 7152,
+          "images": [
+            {
+              "@id": "FL10591563",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10591563",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10591563/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10591563",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7152,
+                "width": 5230
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10591562",
+      "@type": "sc:Range",
+      "label": "REP10591562",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10591563",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003558256",
+  "viewingHint": "paged"
+}

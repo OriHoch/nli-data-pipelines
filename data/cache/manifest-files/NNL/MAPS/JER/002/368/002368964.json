@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368964/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Conspectus Palaestinae uti divisa fuit a Mose et Josua;&nbsp;J.Goeree in. et fec.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Conspectus Palaestinae uti divisa fuit a Mose et Josua;&nbsp;J.Goeree in. et fec."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Goeree; Willem Broedelet"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Utrecht] :Willem Broedelet"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Reelant Adriaan, 1676-1718"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368964"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1714"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "181x133 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368964"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368964/sequence/IE6882203",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073593",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2000,
+          "height": 2640,
+          "images": [
+            {
+              "@id": "FL7073593",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073593",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073593/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073593",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2640,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073592",
+      "@type": "sc:Range",
+      "label": "REP7073592",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073593",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368964",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003897311/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Syria and Arabia Petraea /;&nbsp;J.W. Lowry.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Syria and Arabia Petraea /;&nbsp;J.W. Lowry."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003897311"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1850?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003897311"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003897311/sequence/IE37119339",
+      "@type": "sc:Sequence",
+      "label": "Syria and Arabia Petraea /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37119352",
+          "@type": "sc:Canvas",
+          "label": "01 Syria",
+          "width": 3653,
+          "height": 2811,
+          "images": [
+            {
+              "@id": "FL37119352",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37119352",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37119352/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Syria",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37119352",
+                  "label": "01 Syria",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2811,
+                "width": 3653
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37119353",
+          "@type": "sc:Canvas",
+          "label": "02 Palestine",
+          "width": 3574,
+          "height": 2769,
+          "images": [
+            {
+              "@id": "FL37119353",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37119353",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37119353/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Palestine",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37119353",
+                  "label": "02 Palestine",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2769,
+                "width": 3574
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37119351",
+      "@type": "sc:Range",
+      "label": "REP37119351",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37119352",
+          "@type": "sc:Canvas",
+          "label": "01 Syria"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37119353",
+          "@type": "sc:Canvas",
+          "label": "02 Palestine"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003897311",
+  "viewingHint": "paged"
+}

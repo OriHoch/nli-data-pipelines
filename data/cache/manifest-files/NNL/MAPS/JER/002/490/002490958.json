@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002490958/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Arabian Peninsula -- Maps",
+  "label": "Arabia",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Arabia"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Ioannes Blaeu"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arabian Peninsula -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blaeu Joan, 1596-1673"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002490958"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1660"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 41 X 52 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002490958"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002490958/sequence/IE33131167",
+      "@type": "sc:Sequence",
+      "label": "Arabia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131179",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14095,
+          "height": 11672,
+          "images": [
+            {
+              "@id": "FL33131179",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33131179",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33131179/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33131179",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11672,
+                "width": 14095
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33131178",
+      "@type": "sc:Range",
+      "label": "REP33131178",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131179",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002490958",
+  "viewingHint": "paged"
+}

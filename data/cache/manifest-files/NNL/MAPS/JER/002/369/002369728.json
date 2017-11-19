@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369728/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Plan de Iérusalem;&nbsp;D. Ermete Pierotti Architetto Ing:re rilevo è disegno; Niccola Cellai incise.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan de Iérusalem;&nbsp;D. Ermete Pierotti Architetto Ing:re rilevo è disegno; Niccola Cellai incise."
+    },
+    {
+      "label": "Contributor",
+      "value": "Nicolla Cellai"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Pierotti Ermete"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369728"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1855"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "492x692 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369728"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369728/sequence/IE6880168",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071962",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2850,
+          "height": 2161,
+          "images": [
+            {
+              "@id": "FL7071962",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071962",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071962/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071962",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2161,
+                "width": 2850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071961",
+      "@type": "sc:Range",
+      "label": "REP7071961",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071962",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369728",
+  "viewingHint": "paged"
+}

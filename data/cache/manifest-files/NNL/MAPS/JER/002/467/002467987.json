@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467987/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "China -- Maps",
+  "label": "Carte de l'empire de la Chine, de la Tartarie...;&nbsp;Par M.Bonne",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de l'empire de la Chine, de la Tartarie...;&nbsp;Par M.Bonne"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Gènève?] :J. L. Pellet?"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "China -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bonne Rigobert, 1727-1794"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467987"
+    },
+    {
+      "label": "Creation Date",
+      "value": "178-?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 315 X 208 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467987"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467987/sequence/IE46961852",
+      "@type": "sc:Sequence",
+      "label": "Carte de l&apos;empire de la Chine; de la Tartarie...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961862",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5855,
+          "height": 8297,
+          "images": [
+            {
+              "@id": "FL46961862",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46961862",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46961862/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46961862",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8297,
+                "width": 5855
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46961861",
+      "@type": "sc:Range",
+      "label": "REP46961861",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961862",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467987",
+  "viewingHint": "paged"
+}

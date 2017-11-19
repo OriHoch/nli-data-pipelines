@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003911851/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Napoléon I, Emperor of the French, 1769-1821 -- Egyptian campaign, 1798-1799; Second Coalition, War of the, 1798-1801 -- Campaigns -- Eretz Israel; Mount Tabor Region (Israel) -- Maps",
+  "label": "Battle of Mount Thabor :;&nbsp;16th April 1799.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Battle of Mount Thabor :;&nbsp;16th April 1799."
+    },
+    {
+      "label": "Contributor",
+      "value": "Archibald Alison Sir, 1792-1867; Alexander Keith Johnston 1804-1871"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Napoléon I, Emperor of the French, 1769-1821 -- Egyptian campaign, 1798-1799; Second Coalition, War of the, 1798-1801 -- Campaigns -- Eretz Israel; Mount Tabor Region (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "W. & A.K. Johnston"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003911851"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1848"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003911851"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003911851/sequence/IE37129672",
+      "@type": "sc:Sequence",
+      "label": "Battle of Mount Thabor :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37129682",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3091,
+          "height": 2362,
+          "images": [
+            {
+              "@id": "FL37129682",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37129682",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37129682/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37129682",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2362,
+                "width": 3091
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37129681",
+      "@type": "sc:Range",
+      "label": "REP37129681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37129682",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003911851",
+  "viewingHint": "paged"
+}

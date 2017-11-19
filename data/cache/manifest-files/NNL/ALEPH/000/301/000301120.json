@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301120/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. רומא, איטליה. ת\"ק",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. רומא, איטליה. ת\"ק"
+    },
+    {
+      "label": "Contributor",
+      "value": "קסטילנובו, מרדכי בן שלמה (חתן) ; מאלטרי, ריקה בת מרדכי (כלה) ; עוזיאל, גרשון בן ישראל (עד) ; מודיליני, אפרים בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "רומא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301120"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י בחשון ת\"ק (1739)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 800X540 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Rome, Italy. 1739"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301120"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301120/sequence/IE9124021",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, ת&quot;ק]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135319",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 559,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9135319",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9135319",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9135319/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9135319",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 559
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301120/sequence/IE9204467",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. רומא, איטליה, ת&quot;ק]"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9135318",
+      "@type": "sc:Range",
+      "label": "REP9135318",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9135319",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301120",
+  "viewingHint": "paged"
+}

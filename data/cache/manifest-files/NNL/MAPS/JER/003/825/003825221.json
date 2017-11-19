@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003825221/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Map of the Holy Land with topographical plans of Jerusalem, Tyre, Sidon, Akka, and Beirut :;&nbsp;Constructed for Dr. Wilson's land of the Bible /;&nbsp;By W.& A.K. Johnston.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the Holy Land with topographical plans of Jerusalem, Tyre, Sidon, Akka, and Beirut :;&nbsp;Constructed for Dr. Wilson's land of the Bible /;&nbsp;By W.& A.K. Johnston."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "W. & A.K. Johnston"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003825221"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1847"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 68 x 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003825221"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003825221/sequence/IE25571542",
+      "@type": "sc:Sequence",
+      "label": "Map of the Holy Land with topographical plans of Jerusalem; Tyre; Sidon; Akka; and Beirut :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25571546",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10642,
+          "height": 15848,
+          "images": [
+            {
+              "@id": "FL25571546",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25571546",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25571546/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25571546",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15848,
+                "width": 10642
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25571545",
+      "@type": "sc:Range",
+      "label": "REP25571545",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25571546",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003825221",
+  "viewingHint": "paged"
+}

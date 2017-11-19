@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368845/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Typus chorographicus, celebrium locorum in regno Iudae et Israhel;&nbsp;arte factus a Tilemanno Stella Sigenensi. Abraham Ortelius in hanc formam minorem redigebat Anno MDLXXXVI.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Typus chorographicus, celebrium locorum in regno Iudae et Israhel;&nbsp;arte factus a Tilemanno Stella Sigenensi. Abraham Ortelius in hanc formam minorem redigebat Anno MDLXXXVI."
+    },
+    {
+      "label": "Contributor",
+      "value": "Tilemann Stella 1525-1589"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Antwerp] :Officina Plantiniana"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ortelius Abraham, 1527-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368845"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1590"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "352x458 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368845"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368845/sequence/IE6880688",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072213",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2754,
+          "height": 2248,
+          "images": [
+            {
+              "@id": "FL7072213",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072213",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072213/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072213",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2248,
+                "width": 2754
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072212",
+      "@type": "sc:Range",
+      "label": "REP7072212",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072213",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368845",
+  "viewingHint": "paged"
+}

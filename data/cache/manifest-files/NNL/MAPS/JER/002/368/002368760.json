@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368760/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "Paradisus",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Paradisus"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Jansson of Arnheim; Jodocus Hondius 1563-1612"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Jan Jansson of Arnheim"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mercator Gerhard, 1512-1594"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368760"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1608"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "149x187 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Representation du Paradis Terrestre [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368760"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368760/sequence/IE6880494",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072106",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2735,
+          "height": 2170,
+          "images": [
+            {
+              "@id": "FL7072106",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072106",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072106/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072106",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2170,
+                "width": 2735
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072105",
+      "@type": "sc:Range",
+      "label": "REP7072105",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072106",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368760",
+  "viewingHint": "paged"
+}

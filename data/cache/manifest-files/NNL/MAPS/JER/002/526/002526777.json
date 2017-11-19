@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002526777/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Austria -- Maps; Croatia -- Maps",
+  "label": "Carinthiae Ducatus, et Goritiae Palatinatus /;&nbsp;Wolf. Lazio auctore",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carinthiae Ducatus, et Goritiae Palatinatus /;&nbsp;Wolf. Lazio auctore"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Anvers] :Imprimerie Plantinienne"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Austria -- Maps; Croatia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lazius Wolfgang, 1514-1565"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002526777"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1598"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "3 maps on 1 sheet : col. ; 33 X 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002526777"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002526777/sequence/IE37099013",
+      "@type": "sc:Sequence",
+      "label": "Carinthiae Ducatus; et Goritiae Palatinatus /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099017",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13289,
+          "height": 10419,
+          "images": [
+            {
+              "@id": "FL37099017",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099017",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099017/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099017",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10419,
+                "width": 13289
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099016",
+      "@type": "sc:Range",
+      "label": "REP37099016",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099017",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002526777",
+  "viewingHint": "paged"
+}

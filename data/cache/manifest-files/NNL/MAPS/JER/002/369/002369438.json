@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369438/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Bible -- Geography -- Maps",
+  "label": "Map of the journeyings of the Israelites from Egypt to the Land of Canaan;&nbsp;Wyld delin. Hewitt Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the journeyings of the Israelites from Egypt to the Land of Canaan;&nbsp;Wyld delin. Hewitt Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "N. R Hewitt"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Mathews & Leigh"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wyld James, 1790-1836"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369438"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1812"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369438"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369438/sequence/IE39695591",
+      "@type": "sc:Sequence",
+      "label": "Map of the journeyings of the Israelites from Egypt to the Land of Canaan",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695598",
+          "@type": "sc:Canvas",
+          "label": "01 copy1",
+          "width": 10655,
+          "height": 7680,
+          "images": [
+            {
+              "@id": "FL39695598",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695598",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695598/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 copy1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695598",
+                  "label": "01 copy1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7680,
+                "width": 10655
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695605",
+          "@type": "sc:Canvas",
+          "label": "02 copy2",
+          "width": 9793,
+          "height": 7087,
+          "images": [
+            {
+              "@id": "FL39695605",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695605",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695605/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 copy2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695605",
+                  "label": "02 copy2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7087,
+                "width": 9793
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695597",
+      "@type": "sc:Range",
+      "label": "REP39695597",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695598",
+          "@type": "sc:Canvas",
+          "label": "01 copy1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695605",
+          "@type": "sc:Canvas",
+          "label": "02 copy2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369438",
+  "viewingHint": "paged"
+}

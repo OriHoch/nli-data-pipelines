@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369955/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Corfu Island (Greece) -- Maps",
+  "label": "Corcyre Insule vulgo Corfu;&nbsp;Cristoph Weigelio editore.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Corcyre Insule vulgo Corfu;&nbsp;Cristoph Weigelio editore."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Corfu Island (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Weigel Christoph"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369955"
+    },
+    {
+      "label": "Creation Date",
+      "value": "172-?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "310x365 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "planities unacum parte Grecie [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369955"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369955/sequence/IE39695574",
+      "@type": "sc:Sequence",
+      "label": "Corcyre Insule vulgo Corfu",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695588",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11462,
+          "height": 9449,
+          "images": [
+            {
+              "@id": "FL39695588",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695588",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695588/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695588",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9449,
+                "width": 11462
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695587",
+      "@type": "sc:Range",
+      "label": "REP39695587",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695588",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369955",
+  "viewingHint": "paged"
+}

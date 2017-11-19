@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002926571/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Italy, Northern -- Maps; Valtellina (Italy) -- Maps",
+  "label": "Carte et description generale de la Valtoline",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte et description generale de la Valtoline"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Melchior Tavernier."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Italy, Northern -- Maps; Valtellina (Italy) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Tavernier Melchior, -1641"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002926571"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1625"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 52.5x35 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002926571"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002926571/sequence/IE39695830",
+      "@type": "sc:Sequence",
+      "label": "Carte et description generale de la Valtoline",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695843",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10180,
+          "height": 12721,
+          "images": [
+            {
+              "@id": "FL39695843",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695843",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695843/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695843",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12721,
+                "width": 10180
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695842",
+      "@type": "sc:Range",
+      "label": "REP39695842",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695843",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002926571",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369155/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Europe -- Maps; Bible -- Geography -- Maps",
+  "label": "Karte von den Inseln der Heyden, das ist von den Laendern, welche durch die Nachkommen des Iaphet nach und nach bevoelkert worden",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Karte von den Inseln der Heyden, das ist von den Laendern, welche durch die Nachkommen des Iaphet nach und nach bevoelkert worden"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nuernberg],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Europe -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wells Edward, 1667-1727"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369155"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1765"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "144x194 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369155"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369155/sequence/IE50290112",
+      "@type": "sc:Sequence",
+      "label": "Karte von den Inseln der Heyden; das ist von den Laendern; welche durch die Nachkommen des Iaphet nach und nach bevoelkert worden",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50290116",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5657,
+          "height": 4431,
+          "images": [
+            {
+              "@id": "FL50290116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50290116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50290116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50290116",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4431,
+                "width": 5657
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50290115",
+      "@type": "sc:Range",
+      "label": "REP50290115",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50290116",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369155",
+  "viewingHint": "paged"
+}

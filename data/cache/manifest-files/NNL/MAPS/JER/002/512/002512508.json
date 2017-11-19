@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002512508/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Nile River Delta (Egypt) -- Maps",
+  "label": "Ægyptus Atiqua /;&nbsp;Drawn and engraved by Sidney Hall",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ægyptus Atiqua /;&nbsp;Drawn and engraved by Sidney Hall"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Longman, Rees, Orme, Brown & Green"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Nile River Delta (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Hall Sidney"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002512508"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1829"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 24 X 19 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002512508"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002512508/sequence/IE25570381",
+      "@type": "sc:Sequence",
+      "label": "Ægyptus Atiqua /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570397",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5226,
+          "height": 6525,
+          "images": [
+            {
+              "@id": "FL25570397",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570397",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570397/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570397",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6525,
+                "width": 5226
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570396",
+      "@type": "sc:Range",
+      "label": "REP25570396",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570397",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002512508",
+  "viewingHint": "paged"
+}

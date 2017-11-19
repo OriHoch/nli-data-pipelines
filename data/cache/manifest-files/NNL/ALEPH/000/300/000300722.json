@@ -1,0 +1,121 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300722/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פדובה, איטליה. תמ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פדובה, איטליה. תמ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "קנטריני, גרשון בן ישראל (חתן) ; קנטריני, ריג'ינה בת עזריאל (כלה) ; באסאן, ישראל חזקיה (עד) ; קנטריני, יצחק חיים, 1644-1723 (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאדובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300722"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ט בחשון תמ\"א (1680)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 755X555 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Padua, Italy. 1680"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300722"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300722/sequence/IE9128814",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה. תמ&quot;א].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156568",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 616,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9156568",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9156568",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9156568/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9156568",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 616
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300722/sequence/IE9203041",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה. תמ&quot;א]."
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9156567",
+      "@type": "sc:Range",
+      "label": "REP9156567",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9156568",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300722",
+  "viewingHint": "paged"
+}

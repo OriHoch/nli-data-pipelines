@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002613740/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Danube River -- Maps; Europe, Central -- Maps",
+  "label": "DANUBIUS Fluminum Europaeorum PRINCEPS;&nbsp;Secundum naturalem Suum Cursum Pontes, Stationes, et Accessoria Flumina, una cum intimatione Ubi et quinam Eorum Navigabilia. Nec non Omnia Finitima Reona Principatus, Provincias, Dÿnastias, Urbes et Pagos proximos quos Alluita Fonte ad Ostia /;&nbsp;Ex Optimis tam Vetustis quam Recentioribus Geographorum Monumentis Sedulo Delineatus Per P. Willium C. Rhaetum. Johan Ulrich Kraus sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "DANUBIUS Fluminum Europaeorum PRINCEPS;&nbsp;Secundum naturalem Suum Cursum Pontes, Stationes, et Accessoria Flumina, una cum intimatione Ubi et quinam Eorum Navigabilia. Nec non Omnia Finitima Reona Principatus, Provincias, Dÿnastias, Urbes et Pagos proximos quos Alluita Fonte ad Ostia /;&nbsp;Ex Optimis tam Vetustis quam Recentioribus Geographorum Monumentis Sedulo Delineatus Per P. Willium C. Rhaetum. Johan Ulrich Kraus sc."
+    },
+    {
+      "label": "Contributor",
+      "value": "Mattias Wagner 1648-1694"
+    },
+    {
+      "label": "Publisher",
+      "value": "Ulm :Matthaeus Wagner"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Danube River -- Maps; Europe, Central -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kraus Johann Ulrich, 1655-1719"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002613740"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1686"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 x 141 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002613740"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002613740/sequence/IE33133867",
+      "@type": "sc:Sequence",
+      "label": "DANUBIUS Fluminum Europaeorum PRINCEPS",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33133877",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 35516,
+          "height": 12055,
+          "images": [
+            {
+              "@id": "FL33133877",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33133877",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33133877/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33133877",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12055,
+                "width": 35516
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33133876",
+      "@type": "sc:Range",
+      "label": "REP33133876",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33133877",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002613740",
+  "viewingHint": "paged"
+}

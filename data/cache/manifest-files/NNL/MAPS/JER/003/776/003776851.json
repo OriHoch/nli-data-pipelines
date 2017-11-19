@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003776851/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Binyamina Region (Israel) -- Maps; Caesarea Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Cæsarea;&nbsp;Survey of Palestine מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Cæsarea;&nbsp;Survey of Palestine מחלקת המדידות."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Binyamina Region (Israel) -- Maps; Caesarea Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003776851"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 74x62 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Israel. 1:20,000. 1948-1961 ; 14-21"
+    },
+    {
+      "label": "SysNum",
+      "value": "003776851"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003776851/sequence/IE25579388",
+      "@type": "sc:Sequence",
+      "label": "Cæsarea",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579397",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15180,
+          "height": 17994,
+          "images": [
+            {
+              "@id": "FL25579397",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25579397",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25579397/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25579397",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17994,
+                "width": 15180
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25579396",
+      "@type": "sc:Range",
+      "label": "REP25579396",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579397",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003776851",
+  "viewingHint": "paged"
+}

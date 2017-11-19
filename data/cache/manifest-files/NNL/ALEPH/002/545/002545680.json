@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002545680/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. צור, לבנון. ד'תשפ\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. צור, לבנון. ד'תשפ\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "נתן בן שלמה הכהן (מוזכר) ; יוסף בן יעקב, הכהן, החבר (מעתיק)"
+    },
+    {
+      "label": "Publisher",
+      "value": "צור"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002545680"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ד'תשפ\"ג (1023)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 16X19 ס\"מ..; 47 שורות קרוע מעט (חסר חלק מהתאריך והחתימות)."
+    },
+    {
+      "label": "Language",
+      "value": "heb;arc"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Tyre, Lebanon. 1023"
+    },
+    {
+      "label": "SysNum",
+      "value": "002545680"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002545680/sequence/IE9285073",
+      "@type": "sc:Sequence",
+      "label": "כתובה. צור. 1023.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695109",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 4968,
+          "height": 8576,
+          "images": [
+            {
+              "@id": "FL9695109",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695109",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695109/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695109",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8576,
+                "width": 4968
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695110",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5336,
+          "height": 8520,
+          "images": [
+            {
+              "@id": "FL9695110",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695110",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695110/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695110",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8520,
+                "width": 5336
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9695108",
+      "@type": "sc:Range",
+      "label": "REP9695108",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695109",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695110",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002545680",
+  "viewingHint": "paged"
+}

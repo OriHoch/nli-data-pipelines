@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003770706/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Be'er Toviyya Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Beer Tuvya;&nbsp;Drawn & printed by the Survey of Palestine 1930.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Beer Tuvya;&nbsp;Drawn & printed by the Survey of Palestine 1930."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Be'er Toviyya Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003770706"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 62x73 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Israel. 1:20,000. 1948-1961 ; 12-12"
+    },
+    {
+      "label": "SysNum",
+      "value": "003770706"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003770706/sequence/IE25570761",
+      "@type": "sc:Sequence",
+      "label": "Beer Tuvya",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570767",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17900,
+          "height": 15165,
+          "images": [
+            {
+              "@id": "FL25570767",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570767",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570767/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570767",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15165,
+                "width": 17900
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570766",
+      "@type": "sc:Range",
+      "label": "REP25570766",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570767",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003770706",
+  "viewingHint": "paged"
+}

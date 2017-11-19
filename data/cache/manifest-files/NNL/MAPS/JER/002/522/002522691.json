@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002522691/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Europe -- Maps",
+  "label": "Europe and the cheife cities contayned therin :;&nbsp;described with the habits of most Kingdoms now in use /;&nbsp;by Jo. Speed ; sculptum apud Abrahamum Goos",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Europe and the cheife cities contayned therin :;&nbsp;described with the habits of most Kingdoms now in use /;&nbsp;by Jo. Speed ; sculptum apud Abrahamum Goos"
+    },
+    {
+      "label": "Contributor",
+      "value": "Abraham Goos"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Roger Rea"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Europe -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Speed John, 1552?-1629"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002522691"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1626"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 41 X 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002522691"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002522691/sequence/IE22134157",
+      "@type": "sc:Sequence",
+      "label": "Europe and the cheife cities contayned therin :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL22134162",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13228,
+          "height": 10048,
+          "images": [
+            {
+              "@id": "FL22134162",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL22134162",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL22134162/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL22134162",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10048,
+                "width": 13228
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP22134161",
+      "@type": "sc:Range",
+      "label": "REP22134161",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL22134162",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002522691",
+  "viewingHint": "paged"
+}

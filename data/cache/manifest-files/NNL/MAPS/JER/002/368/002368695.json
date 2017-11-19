@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368695/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Nouvelle carte de la Terre Sainte Pour servir a l'intelligence de l'Ancien & du Nouveau Testament;&nbsp;M.Ogier fecit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nouvelle carte de la Terre Sainte Pour servir a l'intelligence de l'Ancien & du Nouveau Testament;&nbsp;M.Ogier fecit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Mathieu Ogier"
+    },
+    {
+      "label": "Publisher",
+      "value": "Lyon,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lamy Bernard, 1640-1715"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368695"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1698"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "273x362 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368695"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368695/sequence/IE37098858",
+      "@type": "sc:Sequence",
+      "label": "Nouvelle carte de la Terre Sainte Pour servir a l&apos;intelligence de l&apos;Ancien &amp; du Nouveau Testament",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098870",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5653,
+          "height": 4347,
+          "images": [
+            {
+              "@id": "FL37098870",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37098870",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37098870/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37098870",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4347,
+                "width": 5653
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37098868",
+      "@type": "sc:Range",
+      "label": "REP37098868",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098870",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368695",
+  "viewingHint": "paged"
+}

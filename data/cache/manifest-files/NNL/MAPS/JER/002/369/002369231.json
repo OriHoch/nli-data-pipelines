@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369231/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ark of the Covenant",
+  "label": "איש על דגלו באתת לבית אבותם יחנו בני ישראל. לוח ב' [ג']",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "איש על דגלו באתת לבית אבותם יחנו בני ישראל. לוח ב' [ג']"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Wien],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ark of the Covenant"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוישפיץ, יעקב"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369231"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1818"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "140x191 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369231"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369231/sequence/IE37098920",
+      "@type": "sc:Sequence",
+      "label": "איש על דגלו באתת לבית אבותם יחנו בני ישראל. לוח ב&apos; [ג&apos;]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098930",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5160,
+          "height": 4090,
+          "images": [
+            {
+              "@id": "FL37098930",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37098930",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37098930/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37098930",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4090,
+                "width": 5160
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37098929",
+      "@type": "sc:Range",
+      "label": "REP37098929",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098930",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369231",
+  "viewingHint": "paged"
+}

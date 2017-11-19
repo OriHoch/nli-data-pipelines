@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003250778/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Politics and government -- 1917-1948, British Mandate period; Eretz Israel",
+  "label": "Palestine North sheet;&nbsp;Compiled, drawn & printed by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine North sheet;&nbsp;Compiled, drawn & printed by Survey of Palestine."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Politics and government -- 1917-1948, British Mandate period; Eretz Israel"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003250778"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 89x63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003250778"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003250778/sequence/IE31740140",
+      "@type": "sc:Sequence",
+      "label": "Palestine North sheet",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL31740146",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15436,
+          "height": 21837,
+          "images": [
+            {
+              "@id": "FL31740146",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL31740146",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL31740146/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL31740146",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 21837,
+                "width": 15436
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP31740145",
+      "@type": "sc:Range",
+      "label": "REP31740145",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL31740146",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003250778",
+  "viewingHint": "paged"
+}

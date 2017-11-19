@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370174/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "מפת ארץ ישראל ומושבותיה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפת ארץ ישראל ומושבותיה"
+    },
+    {
+      "label": "Publisher",
+      "value": "[ירושלים],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370174"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1915"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "125x85 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "yid;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ארץ ישראל והארצות שסביבותיה [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370174"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370174/sequence/IE6883085",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7078835",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 4596,
+          "height": 1712,
+          "images": [
+            {
+              "@id": "FL7078835",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7078835",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7078835/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7078835",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1712,
+                "width": 4596
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7078834",
+      "@type": "sc:Range",
+      "label": "REP7078834",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7078835",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370174",
+  "viewingHint": "paged"
+}

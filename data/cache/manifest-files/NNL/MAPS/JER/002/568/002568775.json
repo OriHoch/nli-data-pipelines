@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002568775/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Prussia (Duchy) -- Maps; Germany -- Maps",
+  "label": "Regnum Borussiae;&nbsp;Gloriosis auspicÿs Serenissimi et Potentissimi Princ. Friderici III. Primi Borussiae Regis, March. Et Elect. Brand. inauguratum die 18. Ian. A. 1701 /;&nbsp;a Ioh. Baptista Homanno.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Regnum Borussiae;&nbsp;Gloriosis auspicÿs Serenissimi et Potentissimi Princ. Friderici III. Primi Borussiae Regis, March. Et Elect. Brand. inauguratum die 18. Ian. A. 1701 /;&nbsp;a Ioh. Baptista Homanno."
+    },
+    {
+      "label": "Publisher",
+      "value": "Norimbergae,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Prussia (Duchy) -- Maps; Germany -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Homann Johann Baptist, 1663-1724"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002568775"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1752"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 X 57 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002568775"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002568775/sequence/IE35076763",
+      "@type": "sc:Sequence",
+      "label": "Regnum Borussiae",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076773",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14853,
+          "height": 12933,
+          "images": [
+            {
+              "@id": "FL35076773",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076773",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076773/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076773",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12933,
+                "width": 14853
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076772",
+      "@type": "sc:Range",
+      "label": "REP35076772",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076773",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002568775",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370192/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mount of Olives (Jerusalem, Israel) -- Maps",
+  "label": "De Olyf Bergh en Dal Iosaphat",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "De Olyf Bergh en Dal Iosaphat"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jacob van Meurs"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Jacob van Meurs"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mount of Olives (Jerusalem, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dapper Olfert, 1639-1689"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370192"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1677"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "300x360 mm."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370192"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370192/sequence/IE51871489",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;De&gt;&gt; Olyf Bergh en Dal Iosaphat",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51871494",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7591,
+          "height": 6042,
+          "images": [
+            {
+              "@id": "FL51871494",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL51871494",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL51871494/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL51871494",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6042,
+                "width": 7591
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP51871493",
+      "@type": "sc:Range",
+      "label": "REP51871493",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51871494",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370192",
+  "viewingHint": "paged"
+}

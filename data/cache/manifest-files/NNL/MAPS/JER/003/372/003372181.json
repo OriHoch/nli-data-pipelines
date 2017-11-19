@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003372181/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mediterranean Sea -- Maps",
+  "label": "Carte réduite de la partie orientale de la Méditerranée;&nbsp;assujettie aux observations faites en 1817, par M. Gauttier ... secondé par M. Benoist. /;&nbsp;Gravé par C.E. Collin fils.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte réduite de la partie orientale de la Méditerranée;&nbsp;assujettie aux observations faites en 1817, par M. Gauttier ... secondé par M. Benoist. /;&nbsp;Gravé par C.E. Collin fils."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Dépôt Général de la Marine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mediterranean Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gauttier Pierre"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003372181"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1829"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 58x88.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003372181"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003372181/sequence/IE37663357",
+      "@type": "sc:Sequence",
+      "label": "Carte réduite de la partie orientale de la Méditerranée",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663375",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 23520,
+          "height": 15733,
+          "images": [
+            {
+              "@id": "FL37663375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37663375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37663375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37663375",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15733,
+                "width": 23520
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37663374",
+      "@type": "sc:Range",
+      "label": "REP37663374",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663375",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003372181",
+  "viewingHint": "paged"
+}

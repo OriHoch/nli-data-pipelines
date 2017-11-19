@@ -1,0 +1,123 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003767252/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tourism -- Greece -- Maps; Rhodes (Greece) -- Maps",
+  "label": "רודי=Rodi=Rhodes=Rhodos;&nbsp;Egon Huber; Pizi & Pizio Milano-Roma.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רודי=Rodi=Rhodes=Rhodos;&nbsp;Egon Huber; Pizi & Pizio Milano-Roma."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Italy] :אניט המחלקה לתיירות של ממשלת איטליה E.N.I.T"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tourism -- Greece -- Maps; Rhodes (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003767252"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1935"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 69x49 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "כותר מעטפת: רודוס [חומר קרטוגרפי]",
+        "Rhodes [cartographic material]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003767252"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003767252/sequence/IE35077260",
+      "@type": "sc:Sequence",
+      "label": "רודי=Rodi=Rhodes=Rhodos",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35077266",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11951,
+          "height": 16895,
+          "images": [
+            {
+              "@id": "FL35077266",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35077266",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35077266/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35077266",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16895,
+                "width": 11951
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35077265",
+      "@type": "sc:Range",
+      "label": "REP35077265",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35077266",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003767252",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003804836/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Negev (Israel) -- Maps",
+  "label": "El Imara /;&nbsp;512 Fd. Survey Coy. R.E...Reproduced and printed by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "El Imara /;&nbsp;512 Fd. Survey Coy. R.E...Reproduced and printed by Survey of Palestine."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Negev (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Great Britain. Army"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003804836"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 62 x 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Palestine 1:25,000 ; 10-8"
+    },
+    {
+      "label": "SysNum",
+      "value": "003804836"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003804836/sequence/IE28026083",
+      "@type": "sc:Sequence",
+      "label": "El Imara /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026093",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11720,
+          "height": 14633,
+          "images": [
+            {
+              "@id": "FL28026093",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28026093",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28026093/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28026093",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14633,
+                "width": 11720
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP28026091",
+      "@type": "sc:Range",
+      "label": "REP28026091",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026093",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003804836",
+  "viewingHint": "paged"
+}

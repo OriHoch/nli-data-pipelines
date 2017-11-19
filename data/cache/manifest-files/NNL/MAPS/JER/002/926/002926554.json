@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002926554/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jews -- Ukraine -- Crimea -- Maps; Crimea (Ukraine) -- Maps",
+  "label": "Jewish agricultural settlements",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jewish agricultural settlements"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Ukraine -- Crimea -- Maps; Crimea (Ukraine) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002926554"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1930"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 57x106 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002926554"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002926554/sequence/IE33135303",
+      "@type": "sc:Sequence",
+      "label": "Jewish agricultural settlements",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33135422",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 26316,
+          "height": 15458,
+          "images": [
+            {
+              "@id": "FL33135422",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33135422",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33135422/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33135422",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15458,
+                "width": 26316
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33135395",
+      "@type": "sc:Range",
+      "label": "REP33135395",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33135422",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002926554",
+  "viewingHint": "paged"
+}

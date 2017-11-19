@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003911658/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Judée divisée en ses douze Tribus sous Josué /;&nbsp;par F.x Delamarche.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Judée divisée en ses douze Tribus sous Josué /;&nbsp;par F.x Delamarche."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Delamarche Félix"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003911658"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1836"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003911658"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003911658/sequence/IE37129665",
+      "@type": "sc:Sequence",
+      "label": "Judée divisée en ses douze Tribus sous Josué /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37129678",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4867,
+          "height": 3499,
+          "images": [
+            {
+              "@id": "FL37129678",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37129678",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37129678/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37129678",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3499,
+                "width": 4867
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37129677",
+      "@type": "sc:Range",
+      "label": "REP37129677",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37129678",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003911658",
+  "viewingHint": "paged"
+}

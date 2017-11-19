@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002717016/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Carte des pays compris entre Constantinople et Téhéran pour servir a l'intelligence du Voyage de Mr. le Chevr. Jaubert en Arménie et en Perse;&nbsp;Dressée par le Chev. Lapie, Géographe, 1821. Gravée par Flahaut. Eécrit par Lallemande.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des pays compris entre Constantinople et Téhéran pour servir a l'intelligence du Voyage de Mr. le Chevr. Jaubert en Arménie et en Perse;&nbsp;Dressée par le Chev. Lapie, Géographe, 1821. Gravée par Flahaut. Eécrit par Lallemande."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Pélicier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lapie M. (Pierre), 1779-1850"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002717016"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1821"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 36.5x9 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002717016"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002717016/sequence/IE36010921",
+      "@type": "sc:Sequence",
+      "label": "Carte des pays compris entre Constantinople et Téhéran pour servir a l&apos;intelligence du Voyage de Mr. le Chevr. Jaubert en Arménie et en Perse",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010927",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 22923,
+          "height": 9464,
+          "images": [
+            {
+              "@id": "FL36010927",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010927",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010927/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010927",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9464,
+                "width": 22923
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010926",
+      "@type": "sc:Range",
+      "label": "REP36010926",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010927",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002717016",
+  "viewingHint": "paged"
+}

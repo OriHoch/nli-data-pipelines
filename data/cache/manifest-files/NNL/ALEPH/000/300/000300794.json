@@ -1,0 +1,155 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300794/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Crypto-Jews -- Iran",
+  "label": "כתובה. משהד, איראן. 1924.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. משהד, איראן. 1924."
+    },
+    {
+      "label": "Contributor",
+      "value": "כרותאני, יצחק בן סלימאן (חתן) ; בצל, זלפה בת חביבאלה (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "משהד"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Crypto-Jews -- Iran"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300794"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח רג'ב אלף שלוש מאות ארבעים ושתיים להיג'רה (1924)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "4 דפים ; 227X135 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Mashhad, Iran. 1924"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300794"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300794/sequence/IE10509164",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. משהד, איראן, תרפ\"ד]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512879",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 800,
+          "height": 646,
+          "images": [
+            {
+              "@id": "FL10512879",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512879",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512879/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512879",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 646,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512878",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 800,
+          "height": 646,
+          "images": [
+            {
+              "@id": "FL10512878",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10512878",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10512878/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10512878",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 646,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10512877",
+      "@type": "sc:Range",
+      "label": "REP10512877",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512879",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10512878",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300794",
+  "viewingHint": "paged"
+}

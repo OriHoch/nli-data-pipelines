@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368500/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "The descripcion of the londe of promes / called Palestina / Canaan / or the Holy londe",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The descripcion of the londe of promes / called Palestina / Canaan / or the Holy londe"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jacob Ziegler 1480-1549"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Coverdale Miles, 1488-1568"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368500"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1535"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "292x388 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368500"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368500/sequence/IE6881394",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072609",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2850,
+          "height": 2134,
+          "images": [
+            {
+              "@id": "FL7072609",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072609",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072609/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072609",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2134,
+                "width": 2850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072608",
+      "@type": "sc:Range",
+      "label": "REP7072608",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072609",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368500",
+  "viewingHint": "paged"
+}

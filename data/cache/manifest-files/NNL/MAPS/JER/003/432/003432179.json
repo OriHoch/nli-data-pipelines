@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003432179/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Qeren qayyemet le-Yisrael; Land settlement -- Eretz Israel -- To 1947 -- Maps; Eretz Israel -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "ההתישבות החדשה 1936-1944;&nbsp;קרן קימת לישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ההתישבות החדשה 1936-1944;&nbsp;קרן קימת לישראל."
+    },
+    {
+      "label": "Publisher",
+      "value": "New York :Jewish National Fund"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Qeren qayyemet le-Yisrael; Land settlement -- Eretz Israel -- To 1947 -- Maps; Eretz Israel -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "קרן קימת לישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003432179"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון ; 48x30.5 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "New Settlements [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003432179"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003432179/sequence/IE13733960",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745782",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4924,
+          "height": 7639,
+          "images": [
+            {
+              "@id": "FL13745782",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745782",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745782/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745782",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7639,
+                "width": 4924
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745781",
+      "@type": "sc:Range",
+      "label": "REP13745781",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745782",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003432179",
+  "viewingHint": "paged"
+}

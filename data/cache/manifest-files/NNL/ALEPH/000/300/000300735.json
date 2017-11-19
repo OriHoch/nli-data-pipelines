@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300735/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. עמראן, תימן. תכ\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. עמראן, תימן. תכ\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "תנעמי, מוסיה בן סעיד (חתן) ; כלף, נעמה בת סאלם (כלה) ; קרטה, מנחם בן יעיש (עד) ; בראדי, מחפוץ' בן סלימאן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "עמראן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300735"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה בשבט א'תתקע\"ז לשטרות (1666)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 230X192 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Amran, Yemen. 1666"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300735"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300735/sequence/IE10229056",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. עמראן, תימן, תכ\"ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243924",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. עמראן, תימן, תכו]",
+          "width": 669,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243924",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243924",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243924/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. עמראן, תימן, תכו]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243924",
+                  "label": "[כתובה. עמראן, תימן, תכו]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 669
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243923",
+      "@type": "sc:Range",
+      "label": "REP10243923",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243924",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. עמראן, תימן, תכו]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300735",
+  "viewingHint": "paged"
+}

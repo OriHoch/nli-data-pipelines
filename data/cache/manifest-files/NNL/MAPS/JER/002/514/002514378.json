@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002514378/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "Perse, Turquie Asiatique et Arabie",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Perse, Turquie Asiatique et Arabie"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Desnos"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Brion de la Tour Louis, -1823"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002514378"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1766"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 23 X 26 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002514378"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002514378/sequence/IE13728976",
+      "@type": "sc:Sequence",
+      "label": "Middle East",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739925",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6358,
+          "height": 4758,
+          "images": [
+            {
+              "@id": "FL13739925",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13739925",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13739925/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13739925",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4758,
+                "width": 6358
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13739924",
+      "@type": "sc:Range",
+      "label": "REP13739924",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739925",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002514378",
+  "viewingHint": "paged"
+}

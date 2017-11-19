@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369007/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Iudaea, sive Terra Sancta quae Israelitarum in suas duodecim Tribus destincta;&nbsp;Ex conatibus Gulielmi Sanson.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Iudaea, sive Terra Sancta quae Israelitarum in suas duodecim Tribus destincta;&nbsp;Ex conatibus Gulielmi Sanson."
+    },
+    {
+      "label": "Contributor",
+      "value": "R Ottens (Reinier), 1698-1750; J Ottens (Josua), 1704-1765; Theodore Danckerts"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :ex Officina R.&J.Ottens"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Guillaume, 1633-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369007"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725-50"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "503x574 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369007"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369007/sequence/IE6880356",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071924",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2650,
+          "height": 2323,
+          "images": [
+            {
+              "@id": "FL7071924",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071924",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071924/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071924",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2323,
+                "width": 2650
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071923",
+      "@type": "sc:Range",
+      "label": "REP7071923",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071924",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369007",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002489348/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Armenia -- Maps; Caucasus -- Maps",
+  "label": "Asiae III Tab",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asiae III Tab"
+    },
+    {
+      "label": "Contributor",
+      "value": "Ptolemy, active 2nd century"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Köln] :Godofredus Kempensis"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Armenia -- Maps; Caucasus -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kempen Gottfried von, fl. 1576-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002489348"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1584"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 34 X 45 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002489348"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002489348/sequence/IE32702680",
+      "@type": "sc:Sequence",
+      "label": "Asiae III Tab",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32702697",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12602,
+          "height": 9906,
+          "images": [
+            {
+              "@id": "FL32702697",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL32702697",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL32702697/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL32702697",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9906,
+                "width": 12602
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP32702696",
+      "@type": "sc:Range",
+      "label": "REP32702696",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32702697",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002489348",
+  "viewingHint": "paged"
+}

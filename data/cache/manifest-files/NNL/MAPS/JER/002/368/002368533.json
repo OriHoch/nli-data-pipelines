@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368533/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Eretz Israel -- Maps; Turkey -- Maps",
+  "label": "La Terre Saincte est auiourdhui entre les mains du Turc, elle a este diuersement appellee Terre Chanaan, Terre de promission, Terre des Hebreux, Terre des Israelites Iudee, et Palestine, ou se cueilloit le meilleur Baume du monde,;&nbsp;Ierusalem, Cassarie, Gaza, Naplouse dont V. considera' [Villes considerables].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Terre Saincte est auiourdhui entre les mains du Turc, elle a este diuersement appellee Terre Chanaan, Terre de promission, Terre des Hebreux, Terre des Israelites Iudee, et Palestine, ou se cueilloit le meilleur Baume du monde,;&nbsp;Ierusalem, Cassarie, Gaza, Naplouse dont V. considera' [Villes considerables]."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Eretz Israel -- Maps; Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Duval P. (Pierre), 1619-1682"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368533"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1665?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "100x122 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368533"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368533/sequence/IE6881524",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072735",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2230,
+          "height": 2779,
+          "images": [
+            {
+              "@id": "FL7072735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072735",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2779,
+                "width": 2230
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072734",
+      "@type": "sc:Range",
+      "label": "REP7072734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072735",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368533",
+  "viewingHint": "paged"
+}

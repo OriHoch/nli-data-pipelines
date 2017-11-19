@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002557082/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Ancient Asia;&nbsp;Neele sculpt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ancient Asia;&nbsp;Neele sculpt."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :J.Wilkes"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Neele Samuel John, 1758-1824"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002557082"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1798"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 23 X 18 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002557082"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002557082/sequence/IE27964767",
+      "@type": "sc:Sequence",
+      "label": "Ancient Asia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27964775",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4755,
+          "height": 6032,
+          "images": [
+            {
+              "@id": "FL27964775",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27964775",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27964775/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27964775",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6032,
+                "width": 4755
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27964774",
+      "@type": "sc:Range",
+      "label": "REP27964774",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27964775",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002557082",
+  "viewingHint": "paged"
+}

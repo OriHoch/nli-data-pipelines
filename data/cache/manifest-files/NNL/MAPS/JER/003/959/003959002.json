@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003959002/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps",
+  "label": "Darstellung der Israelitischen reise durch die Wüsten. /;&nbsp;J. P. Hipschmann Sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Darstellung der Israelitischen reise durch die Wüsten. /;&nbsp;J. P. Hipschmann Sc."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Luther Martin, 1483-1546"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003959002"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1695"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003959002"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003959002/sequence/IE45612623",
+      "@type": "sc:Sequence",
+      "label": "Darstellung der Israelitischen reise durch die Wüsten. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612630",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4158,
+          "height": 2670,
+          "images": [
+            {
+              "@id": "FL45612630",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45612630",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45612630/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45612630",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2670,
+                "width": 4158
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45612628",
+      "@type": "sc:Range",
+      "label": "REP45612628",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612630",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003959002",
+  "viewingHint": "paged"
+}

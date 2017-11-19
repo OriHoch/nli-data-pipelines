@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002526043/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bohemia (Czech Republic) -- Maps; Czech Republic -- Maps",
+  "label": "Le Royaume De Boheme, divisée en Ses Douze Cercles :;&nbsp;Carte Reduite sur celle de 25 Feuilles /;&nbsp;Par Müller ; I. Condet s.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Le Royaume De Boheme, divisée en Ses Douze Cercles :;&nbsp;Carte Reduite sur celle de 25 Feuilles /;&nbsp;Par Müller ; I. Condet s."
+    },
+    {
+      "label": "Contributor",
+      "value": "Johannes Condet 1711-1781; Jean Cóvens; Cornelis Mortier 1699-1783"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Cóvens et Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bohemia (Czech Republic) -- Maps; Czech Republic -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Müller J. C. (Johann Christoph), 1673-1721"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002526043"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1744"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 46 X 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Mappa Totius Regni Bohemiæ in duodecim circulos divisæ cum comitatu Glacensi et districtu Ergano &c. [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002526043"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002526043/sequence/IE36554778",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Le&gt;&gt; Royaume De Boheme; divisée en Ses Douze Cercles :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36554791",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13576,
+          "height": 12098,
+          "images": [
+            {
+              "@id": "FL36554791",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36554791",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36554791/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36554791",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12098,
+                "width": 13576
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36554790",
+      "@type": "sc:Range",
+      "label": "REP36554790",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36554791",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002526043",
+  "viewingHint": "paged"
+}

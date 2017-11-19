@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002631531/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Black Sea -- Maps",
+  "label": "Carte Du Canal De La Mer Noire",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte Du Canal De La Mer Noire"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Black Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bellin Jacques Nicolas, 1703-1772"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002631531"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1764"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 8.3 x 17 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002631531"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002631531/sequence/IE36554755",
+      "@type": "sc:Sequence",
+      "label": "Carte Du Canal De La Mer Noire",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36554766",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4888,
+          "height": 3213,
+          "images": [
+            {
+              "@id": "FL36554766",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36554766",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36554766/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36554766",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3213,
+                "width": 4888
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36554765",
+      "@type": "sc:Range",
+      "label": "REP36554765",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36554766",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002631531",
+  "viewingHint": "paged"
+}

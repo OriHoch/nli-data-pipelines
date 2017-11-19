@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002496827/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps",
+  "label": "L'Afrique divisée en ses principales parties ou les empires les monarchies les royames les etats... /;&nbsp;par le sieur Sanson ... Revué et changee... par le Sr. Robert",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Afrique divisée en ses principales parties ou les empires les monarchies les royames les etats... /;&nbsp;par le sieur Sanson ... Revué et changee... par le Sr. Robert"
+    },
+    {
+      "label": "Contributor",
+      "value": "Hendrik de Leth 1703-1766; Gilles Robert de Vaugondy 1688-1766"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Henry de Leth"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Guillaume, 1633-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002496827"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1730"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 50 X 59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002496827"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002496827/sequence/IE35470138",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Afrique divisée en ses principales parties ou les empires les monarchies les royames les etats... /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470147",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15177,
+          "height": 13089,
+          "images": [
+            {
+              "@id": "FL35470147",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35470147",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35470147/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35470147",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13089,
+                "width": 15177
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35470146",
+      "@type": "sc:Range",
+      "label": "REP35470146",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470147",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002496827",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002502300/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Nile River Delta (Egypt) -- Maps; Egypt -- Maps; Eretz Israel -- Maps",
+  "label": "Lower Egypt and the adjacent deserts, with part of Palestine :;&nbsp;to which has been added the Nomenclature of the Roman age /;&nbsp;by L. S. de la Rochette",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Lower Egypt and the adjacent deserts, with part of Palestine :;&nbsp;to which has been added the Nomenclature of the Roman age /;&nbsp;by L. S. de la Rochette"
+    },
+    {
+      "label": "Contributor",
+      "value": "William Faden 1750?-1836"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :William Faden"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nile River Delta (Egypt) -- Maps; Egypt -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Delarochette L. (Louis), 1731-1802"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002502300"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1802"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 54 X 74 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002502300"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002502300/sequence/IE25570224",
+      "@type": "sc:Sequence",
+      "label": "Lower Egypt and the adjacent deserts; with part of Palestine :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570232",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9293,
+          "height": 6824,
+          "images": [
+            {
+              "@id": "FL25570232",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570232",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570232/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570232",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6824,
+                "width": 9293
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570231",
+      "@type": "sc:Range",
+      "label": "REP25570231",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570232",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002502300",
+  "viewingHint": "paged"
+}

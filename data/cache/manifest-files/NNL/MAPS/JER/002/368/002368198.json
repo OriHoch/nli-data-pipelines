@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368198/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Acre (Israel) -- Maps",
+  "label": "Civitas Acon Sive ptolomayda",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Civitas Acon Sive ptolomayda"
+    },
+    {
+      "label": "Contributor",
+      "value": "Marino Sanudo approximately 1260-1343"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Hanau] :Christian Wechelius"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Acre (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vesconte Petrus"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368198"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1611"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "142x190 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368198"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368198/sequence/IE6879435",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071407",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3246,
+          "height": 1900,
+          "images": [
+            {
+              "@id": "FL7071407",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071407",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071407/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071407",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1900,
+                "width": 3246
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071406",
+      "@type": "sc:Range",
+      "label": "REP7071406",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071407",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368198",
+  "viewingHint": "paged"
+}

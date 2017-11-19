@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369147/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Syria -- Maps; Eretz Israel -- Maps",
+  "label": "Syria showing all the ancient sites hitherto identified in Palestine;&nbsp;by Edw. Weller, F.R.G.S. Drawn & Engraved by Edw.d Weller.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Syria showing all the ancient sites hitherto identified in Palestine;&nbsp;by Edw. Weller, F.R.G.S. Drawn & Engraved by Edw.d Weller."
+    },
+    {
+      "label": "Contributor",
+      "value": "Peter Cassel; Galpin Cassel"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :E.Weller Lithogr."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Syria -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Weller Edward, -1884"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369147"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1858?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "Three sheets, 302x430 mm. each.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369147"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369147/sequence/IE6878145",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070509",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 1761,
+          "height": 3543,
+          "images": [
+            {
+              "@id": "FL7070509",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070509",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070509/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070509",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3543,
+                "width": 1761
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070508",
+      "@type": "sc:Range",
+      "label": "REP7070508",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070509",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369147",
+  "viewingHint": "paged"
+}

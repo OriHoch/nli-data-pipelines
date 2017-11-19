@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003779161/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Nablus Region (West Bank) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Nablus;&nbsp;Compiled, drawn and reproduced by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nablus;&nbsp;Compiled, drawn and reproduced by Survey of Palestine."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nablus Region (West Bank) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003779161"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1949"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 50x60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ישראל. 1:100,000 1952-1958 ; 7"
+    },
+    {
+      "label": "SysNum",
+      "value": "003779161"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003779161/sequence/IE44298305",
+      "@type": "sc:Sequence",
+      "label": "Nablus",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298313",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14348,
+          "height": 12121,
+          "images": [
+            {
+              "@id": "FL44298313",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44298313",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44298313/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44298313",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12121,
+                "width": 14348
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44298312",
+      "@type": "sc:Range",
+      "label": "REP44298312",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298313",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003779161",
+  "viewingHint": "paged"
+}

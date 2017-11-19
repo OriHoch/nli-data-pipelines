@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002704477/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Suez Canal (Egypt) -- Maps",
+  "label": "Profil en long du Canal Maritime de Suez;&nbsp;Tracé approuvé en 1859 /;&nbsp;Lith. Chézaud et Fosset. ; Gravé chez Avril fres.,.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Profil en long du Canal Maritime de Suez;&nbsp;Tracé approuvé en 1859 /;&nbsp;Lith. Chézaud et Fosset. ; Gravé chez Avril fres.,."
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Suez Canal (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002704477"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1859"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 27x168 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002704477"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002704477/sequence/IE46962101",
+      "@type": "sc:Sequence",
+      "label": "Profil en long du Canal Maritime de Suez",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962117",
+          "@type": "sc:Canvas",
+          "label": "01 title",
+          "width": 5145,
+          "height": 7548,
+          "images": [
+            {
+              "@id": "FL46962117",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46962117",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46962117/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 title",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46962117",
+                  "label": "01 title",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7548,
+                "width": 5145
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962124",
+          "@type": "sc:Canvas",
+          "label": "02 map",
+          "width": 45424,
+          "height": 7954,
+          "images": [
+            {
+              "@id": "FL46962124",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46962124",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46962124/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46962124",
+                  "label": "02 map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7954,
+                "width": 45424
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46962116",
+      "@type": "sc:Range",
+      "label": "REP46962116",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962117",
+          "@type": "sc:Canvas",
+          "label": "01 title"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962124",
+          "@type": "sc:Canvas",
+          "label": "02 map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002704477",
+  "viewingHint": "paged"
+}

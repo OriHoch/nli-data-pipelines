@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002473381/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Euphrates River -- Maps; Tigris River -- Maps; Iraq -- Maps; Basrah (Iraq) -- Maps",
+  "label": "Vera delineatio civitatis Bassorae;&nbsp;Nec non Fluviorum, Insularum Oppidorum pagorum et terrarum... .",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Vera delineatio civitatis Bassorae;&nbsp;Nec non Fluviorum, Insularum Oppidorum pagorum et terrarum... ."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Jacques Langlois, Gaspard Meturas, Simon Piget"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Euphrates River -- Maps; Tigris River -- Maps; Iraq -- Maps; Basrah (Iraq) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bellin Jacques Nicolas, 1703-1772"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002473381"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1663"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 292 x 393 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;ara"
+    },
+    {
+      "label": "SysNum",
+      "value": "002473381"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002473381/sequence/IE37476697",
+      "@type": "sc:Sequence",
+      "label": "Vera delineatio civitatis Bassorae",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37476709",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10350,
+          "height": 9031,
+          "images": [
+            {
+              "@id": "FL37476709",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37476709",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37476709/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37476709",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9031,
+                "width": 10350
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37476708",
+      "@type": "sc:Range",
+      "label": "REP37476708",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37476709",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002473381",
+  "viewingHint": "paged"
+}

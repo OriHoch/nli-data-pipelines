@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369440/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Water -- Eretz Israel -- Maps",
+  "label": "Palestine - Location of wells;&nbsp;penetrating turonian & cenomanian Formations /;&nbsp;Geology according to Mr. G.S. Blake",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine - Location of wells;&nbsp;penetrating turonian & cenomanian Formations /;&nbsp;Geology according to Mr. G.S. Blake"
+    },
+    {
+      "label": "Contributor",
+      "value": "G. S Blake (George Stanfield), 1876-1940"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Water -- Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369440"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369440"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369440/sequence/IE51320836",
+      "@type": "sc:Sequence",
+      "label": "Palestine - Location of wells",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320840",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13453,
+          "height": 23412,
+          "images": [
+            {
+              "@id": "FL51320840",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL51320840",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL51320840/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL51320840",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23412,
+                "width": 13453
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP51320839",
+      "@type": "sc:Range",
+      "label": "REP51320839",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320840",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369440",
+  "viewingHint": "paged"
+}

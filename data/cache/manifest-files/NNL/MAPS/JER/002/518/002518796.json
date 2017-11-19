@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002518796/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Australia -- Maps; Polynesia -- Maps; Indonesia -- Maps",
+  "label": "Océanie /;&nbsp;gravé par Laguillermie ; illustrée par Raimond Bonheur Peintre",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Océanie /;&nbsp;gravé par Laguillermie ; illustrée par Raimond Bonheur Peintre"
+    },
+    {
+      "label": "Contributor",
+      "value": "Raymond Bonheur"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Lemercier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Australia -- Maps; Polynesia -- Maps; Indonesia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Laguillermie"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002518796"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1840"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 22 X 28 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002518796"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002518796/sequence/IE27963665",
+      "@type": "sc:Sequence",
+      "label": "Océanie /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963674",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11927,
+          "height": 8591,
+          "images": [
+            {
+              "@id": "FL27963674",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27963674",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27963674/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27963674",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8591,
+                "width": 11927
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27963673",
+      "@type": "sc:Range",
+      "label": "REP27963673",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963674",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002518796",
+  "viewingHint": "paged"
+}

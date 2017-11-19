@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368669/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Bible -- Geography -- Maps",
+  "label": "Route des Hebreux pour passer la Mer Rouge suivant le P.Sicard;&nbsp;Par le P.Joseph Romain Joly.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Route des Hebreux pour passer la Mer Rouge suivant le P.Sicard;&nbsp;Par le P.Joseph Romain Joly."
+    },
+    {
+      "label": "Contributor",
+      "value": "Alexandre Jombert; Claude Sicard 1677-1726"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Alexandre Jombert"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Joly Joseph Romain, 1715-1805"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368669"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1784"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "218x149 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Route des Israelites depuis leur depart de l'Egypte jusqu'au passage du Jourdain [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368669"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368669/sequence/IE6879561",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071558",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3250,
+          "height": 1901,
+          "images": [
+            {
+              "@id": "FL7071558",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071558",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071558/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071558",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1901,
+                "width": 3250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071557",
+      "@type": "sc:Range",
+      "label": "REP7071557",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071558",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368669",
+  "viewingHint": "paged"
+}

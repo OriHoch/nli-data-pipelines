@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368788/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; New Testament -- Geography -- Maps",
+  "label": "La Judee ou Palestine, sous le Roi Herodes surnomme le Grand ou sont la Judee, la Samarie, la Galilee, la Thraconitide ou Ituree, la Peree et l'Idumee;&nbsp;Pour le Nouveau Testament et pour les Livs. des Machabees /;&nbsp;Par le Sr Moullart-Sanson.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Judee ou Palestine, sous le Roi Herodes surnomme le Grand ou sont la Judee, la Samarie, la Galilee, la Thraconitide ou Ituree, la Peree et l'Idumee;&nbsp;Pour le Nouveau Testament et pour les Livs. des Machabees /;&nbsp;Par le Sr Moullart-Sanson."
+    },
+    {
+      "label": "Contributor",
+      "value": "Guillaume Desprez; Jean Desessartz"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Guillaume Desprez et Jean Desessartz"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; New Testament -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Moullart-Sanson Pierre"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368788"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1717"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "333x390 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368788"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368788/sequence/IE6881209",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072447",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2756,
+          "height": 2250,
+          "images": [
+            {
+              "@id": "FL7072447",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072447",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072447/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072447",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2250,
+                "width": 2756
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072446",
+      "@type": "sc:Range",
+      "label": "REP7072446",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072447",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368788",
+  "viewingHint": "paged"
+}

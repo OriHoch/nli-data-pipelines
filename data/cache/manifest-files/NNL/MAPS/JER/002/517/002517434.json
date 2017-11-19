@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002517434/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Iran -- Maps",
+  "label": "Persia cum Adiacentibus Regionibus",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Persia cum Adiacentibus Regionibus"
+    },
+    {
+      "label": "Contributor",
+      "value": "Christoph Fembo 1805-1876"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nürnberg] :Christoph Fembo"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002517434"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1825"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 15 X 19 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002517434"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002517434/sequence/IE33249875",
+      "@type": "sc:Sequence",
+      "label": "Persia cum Adiacentibus Regionibus",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33249884",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4968,
+          "height": 4207,
+          "images": [
+            {
+              "@id": "FL33249884",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33249884",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33249884/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33249884",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4207,
+                "width": 4968
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33249883",
+      "@type": "sc:Range",
+      "label": "REP33249883",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33249884",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002517434",
+  "viewingHint": "paged"
+}

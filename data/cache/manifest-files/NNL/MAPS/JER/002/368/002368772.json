@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368772/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Bible -- Geography -- Maps",
+  "label": "A map of the journeyings of the Israelites mentioned in ey Mosaick History. And of ey Land of Canaan shewing ey divisions of ey Twelve Tribes of Israel, and more remarkable places mentioned in Ioshua & Iudges",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A map of the journeyings of the Israelites mentioned in ey Mosaick History. And of ey Land of Canaan shewing ey divisions of ey Twelve Tribes of Israel, and more remarkable places mentioned in Ioshua & Iudges"
+    },
+    {
+      "label": "Contributor",
+      "value": "Thomas Bowles; John Bowles"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Thomas & John Bowles"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Moll Herman, -1732"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368772"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1755"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "225x151 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368772"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368772/sequence/IE6882108",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073371",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 1980,
+          "height": 3153,
+          "images": [
+            {
+              "@id": "FL7073371",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073371",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073371/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073371",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3153,
+                "width": 1980
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073370",
+      "@type": "sc:Range",
+      "label": "REP7073370",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073371",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368772",
+  "viewingHint": "paged"
+}

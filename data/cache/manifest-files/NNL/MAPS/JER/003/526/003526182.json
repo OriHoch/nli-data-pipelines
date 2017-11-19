@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003526182/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Herzeliyya (Israel) -- Maps; Ramat Hasharon (Israel) -- Maps; Hod Hasharon (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "אבו כשך;&nbsp;נפת יפו /;&nbsp;הוקטן, שורטט והודפס ע\"י מחלקת המדידות - ישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אבו כשך;&nbsp;נפת יפו /;&nbsp;הוקטן, שורטט והודפס ע\"י מחלקת המדידות - ישראל."
+    },
+    {
+      "label": "Publisher",
+      "value": "לא מצוין,&nbsp;מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Herzeliyya (Israel) -- Maps; Ramat Hasharon (Israel) -- Maps; Hod Hasharon (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003526182"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1949"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה ; 91x62 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "מפות כפרים."
+    },
+    {
+      "label": "SysNum",
+      "value": "003526182"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003526182/sequence/IE50811235",
+      "@type": "sc:Sequence",
+      "label": "אבו כשך",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50811242",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17303,
+          "height": 23946,
+          "images": [
+            {
+              "@id": "FL50811242",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50811242",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50811242/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50811242",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23946,
+                "width": 17303
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50811241",
+      "@type": "sc:Range",
+      "label": "REP50811241",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50811242",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003526182",
+  "viewingHint": "paged"
+}

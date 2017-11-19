@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534866/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Canada -- Maps; North America -- Maps",
+  "label": "Canada and Nova Scotia /;&nbsp;Engd. by W. Dassauville",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Canada and Nova Scotia /;&nbsp;Engd. by W. Dassauville"
+    },
+    {
+      "label": "Contributor",
+      "value": "John Thomson 1777-"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Edinburgh] :John Thomson & Co."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Canada -- Maps; North America -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dassauville William"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534866"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1817"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 X 59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534866"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534866/sequence/IE13730012",
+      "@type": "sc:Sequence",
+      "label": "North America",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745515",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11659,
+          "height": 8709,
+          "images": [
+            {
+              "@id": "FL13745515",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745515",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745515/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745515",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8709,
+                "width": 11659
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745514",
+      "@type": "sc:Range",
+      "label": "REP13745514",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745515",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534866",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003939493/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Die II.ste Charte welche das Land Canaan vorstelt wie es von den ersten Besitzern, den Nachkommen Canaans bewohnt worden ist nebst den angraenzenden Laendern der Philister, Amalekiter, Edomiter, Moabiter, Ammoniter, Midianiter, Ismaeliter u. s. w /;&nbsp;Entworfen von W. A. Bachiene. Aufs neue gezeichnet von G. A. Maas 1767.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die II.ste Charte welche das Land Canaan vorstelt wie es von den ersten Besitzern, den Nachkommen Canaans bewohnt worden ist nebst den angraenzenden Laendern der Philister, Amalekiter, Edomiter, Moabiter, Ammoniter, Midianiter, Ismaeliter u. s. w /;&nbsp;Entworfen von W. A. Bachiene. Aufs neue gezeichnet von G. A. Maas 1767."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bachiene Willem Albert, 1712-1783"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003939493"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1766-1767"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003939493"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003939493/sequence/IE45604096",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; II.ste Charte welche das Land Canaan vorstelt wie es von den ersten Besitzern; den Nachkommen Canaans bewohnt worden ist nebst den angraenzenden Laendern der Philister; Amalekiter; Edomiter; Moabiter; Ammoniter; Midianiter; Ismaeliter u. s. w /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604105",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4280,
+          "height": 3485,
+          "images": [
+            {
+              "@id": "FL45604105",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45604105",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45604105/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45604105",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3485,
+                "width": 4280
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45604104",
+      "@type": "sc:Range",
+      "label": "REP45604104",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604105",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003939493",
+  "viewingHint": "paged"
+}

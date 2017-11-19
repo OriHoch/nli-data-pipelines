@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002549035/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Switzerland -- Maps",
+  "label": "3: Partie Contient Les Duchés de Savoye, de Genevois, de Chablais, Les Comtés de Morienne, de Tarentaise et La Baronie De Faussigny, Le Balliage De Gex et La Seigneurie De Geneve",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "3: Partie Contient Les Duchés de Savoye, de Genevois, de Chablais, Les Comtés de Morienne, de Tarentaise et La Baronie De Faussigny, Le Balliage De Gex et La Seigneurie De Geneve"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Cóvens"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Jean Cóvens et Corneille Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Switzerland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mortier Cornelis, 1699-1783"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002549035"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1730"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 63 X 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002549035"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002549035/sequence/IE35076688",
+      "@type": "sc:Sequence",
+      "label": "3: Partie Contient Les Duchés de Savoye; de Genevois; de Chablais; Les Comtés de Morienne; de Tarentaise et La Baronie De Faussigny; Le Balliage De Gex et La Seigneurie De Geneve",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076692",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12540,
+          "height": 16809,
+          "images": [
+            {
+              "@id": "FL35076692",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076692",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076692/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076692",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16809,
+                "width": 12540
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076691",
+      "@type": "sc:Range",
+      "label": "REP35076691",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076692",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002549035",
+  "viewingHint": "paged"
+}

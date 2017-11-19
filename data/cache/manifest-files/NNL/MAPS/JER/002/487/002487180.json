@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002487180/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asia :;&nbsp;divisa nelle sue parti secondo Lo stato presente ; descritta, e dedicata Al P. Rmo. Tirso Gonzalez Preposito Generale della Compagnia di Giesù /;&nbsp;Dal P. M. Coronelli M. C.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia :;&nbsp;divisa nelle sue parti secondo Lo stato presente ; descritta, e dedicata Al P. Rmo. Tirso Gonzalez Preposito Generale della Compagnia di Giesù /;&nbsp;Dal P. M. Coronelli M. C."
+    },
+    {
+      "label": "Publisher",
+      "value": "Venezia :Coronelli"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Coronelli Vincenzo, 1650-1718"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002487180"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1690"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "2 sheets ; 70 X 50 cm. each.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002487180"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002487180/sequence/IE27959703",
+      "@type": "sc:Sequence",
+      "label": "Asia :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27959712",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 12112,
+          "height": 16960,
+          "images": [
+            {
+              "@id": "FL27959712",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27959712",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27959712/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27959712",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16960,
+                "width": 12112
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27959720",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 12133,
+          "height": 17020,
+          "images": [
+            {
+              "@id": "FL27959720",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27959720",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27959720/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27959720",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17020,
+                "width": 12133
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27959711",
+      "@type": "sc:Range",
+      "label": "REP27959711",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27959712",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27959720",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002487180",
+  "viewingHint": "paged"
+}

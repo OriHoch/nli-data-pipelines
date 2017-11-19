@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369065/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Sinai (Egypt) -- Maps; Jerusalem (Israel) -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Canaan",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Canaan"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Sinai (Egypt) -- Maps; Jerusalem (Israel) -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Speed John, 1552?-1629"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369065"
+    },
+    {
+      "label": "Creation Date",
+      "value": "after 1611"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "255 x 340 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369065"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369065/sequence/IE6880958",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072316",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2836,
+          "height": 2250,
+          "images": [
+            {
+              "@id": "FL7072316",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072316",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072316/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072316",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2250,
+                "width": 2836
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072315",
+      "@type": "sc:Range",
+      "label": "REP7072315",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072316",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369065",
+  "viewingHint": "paged"
+}

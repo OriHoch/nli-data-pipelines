@@ -1,0 +1,161 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003779049/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Metula Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Metulla;&nbsp;Compiled, drawn and reproduced by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Metulla;&nbsp;Compiled, drawn and reproduced by Survey of Palestine."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Metula Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003779049"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1956"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 50x69 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "כותר מעטפת: מטלה [חומר קרטוגרפי]",
+        "ישראל. 1:100,000 1952-1958 ; 1"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003779049"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003779049/sequence/IE44298261",
+      "@type": "sc:Sequence",
+      "label": "Metulla",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298280",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 16721,
+          "height": 12404,
+          "images": [
+            {
+              "@id": "FL44298280",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44298280",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44298280/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44298280",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12404,
+                "width": 16721
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298292",
+          "@type": "sc:Canvas",
+          "label": "02 Verso",
+          "width": 12243,
+          "height": 16838,
+          "images": [
+            {
+              "@id": "FL44298292",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44298292",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44298292/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44298292",
+                  "label": "02 Verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16838,
+                "width": 12243
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44298279",
+      "@type": "sc:Range",
+      "label": "REP44298279",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298280",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298292",
+          "@type": "sc:Canvas",
+          "label": "02 Verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003779049",
+  "viewingHint": "paged"
+}

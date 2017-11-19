@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002716581/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Asia Minor;&nbsp;Auctore Phi. de la Rue. I. Sommer Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia Minor;&nbsp;Auctore Phi. de la Rue. I. Sommer Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Sommer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Pari Lutetiae :Petri Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "La Rué Philippe de"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002716581"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1652"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 37x52.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002716581"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002716581/sequence/IE36010824",
+      "@type": "sc:Sequence",
+      "label": "Asia Minor",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010831",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13763,
+          "height": 10170,
+          "images": [
+            {
+              "@id": "FL36010831",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010831",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010831/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010831",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10170,
+                "width": 13763
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010830",
+      "@type": "sc:Range",
+      "label": "REP36010830",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010831",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002716581",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003364282/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Gibraltar -- Maps; Gibraltar, Bay of (Spain) -- Maps",
+  "label": "Abriss der Stadt Gibraltar : und der darinn befindlichen festen Platze, nebst dem Meerbusen von Algesiras;&nbsp;F.N.Rolfssen Sculps.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Abriss der Stadt Gibraltar : und der darinn befindlichen festen Platze, nebst dem Meerbusen von Algesiras;&nbsp;F.N.Rolfssen Sculps."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Berlin],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Gibraltar -- Maps; Gibraltar, Bay of (Spain) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Rolffsen Franz Nikolaus, 1719-1802"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003364282"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1780"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 35.5x47 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003364282"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003364282/sequence/IE13730402",
+      "@type": "sc:Sequence",
+      "label": "Gibraltar; Bay of (Spain)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745795",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8910,
+          "height": 7158,
+          "images": [
+            {
+              "@id": "FL13745795",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745795",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745795/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745795",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7158,
+                "width": 8910
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745794",
+      "@type": "sc:Range",
+      "label": "REP13745794",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745795",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003364282",
+  "viewingHint": "paged"
+}

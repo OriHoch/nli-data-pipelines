@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002471546/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Gibraltar, Bay of (Spain) -- Maps",
+  "label": "De Baay en Stadt van Gibralter;&nbsp;door I.Stevinkhof",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "De Baay en Stadt van Gibralter;&nbsp;door I.Stevinkhof"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :G. van Keulen"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Gibraltar, Bay of (Spain) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Keulen Gerard van, 1678-1726"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002471546"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1720"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 510 X 608 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002471546"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002471546/sequence/IE13722352",
+      "@type": "sc:Sequence",
+      "label": "Gibraltar; Bay of (Spain)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736804",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10693,
+          "height": 9183,
+          "images": [
+            {
+              "@id": "FL13736804",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13736804",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13736804/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13736804",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9183,
+                "width": 10693
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13736803",
+      "@type": "sc:Range",
+      "label": "REP13736803",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736804",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002471546",
+  "viewingHint": "paged"
+}

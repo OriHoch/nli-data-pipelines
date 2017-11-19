@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003901880/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Moses (Biblical leader); Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israels. Uyt Egypten door de Roode zee, ende de woestyne, tot in 't beloofde landt Canaan. /;&nbsp;door en Hendrik Keur 1748; J. v. Jagen Sculps et direx.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israels. Uyt Egypten door de Roode zee, ende de woestyne, tot in 't beloofde landt Canaan. /;&nbsp;door en Hendrik Keur 1748; J. v. Jagen Sculps et direx."
+    },
+    {
+      "label": "Contributor",
+      "value": "Hendrik Keur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Moses (Biblical leader); Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003901880"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1748"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003901880"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003901880/sequence/IE36566024",
+      "@type": "sc:Sequence",
+      "label": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israels. Uyt Egypten door de Roode zee; ende de woestyne; tot in &apos;t beloofde landt Canaan. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566036",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11074,
+          "height": 7979,
+          "images": [
+            {
+              "@id": "FL36566036",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566036",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566036/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566036",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7979,
+                "width": 11074
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566035",
+      "@type": "sc:Range",
+      "label": "REP36566035",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566036",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003901880",
+  "viewingHint": "paged"
+}

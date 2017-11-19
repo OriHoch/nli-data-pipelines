@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370154/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps",
+  "label": "L'Afrique;&nbsp;Par P. Du Val, Geographie Ordinaire du Roy.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Afrique;&nbsp;Par P. Du Val, Geographie Ordinaire du Roy."
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Duval P. (Pierre), 1619-1682"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370154"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1664"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "405x530 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370154"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370154/sequence/IE35469848",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Afrique",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35469855",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13239,
+          "height": 10239,
+          "images": [
+            {
+              "@id": "FL35469855",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35469855",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35469855/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35469855",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10239,
+                "width": 13239
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35469853",
+      "@type": "sc:Range",
+      "label": "REP35469853",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35469855",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370154",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369663/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sinai (Egypt) -- Maps",
+  "label": "Map of the Peninsula of Mount Sinai and Arabia Petraea;&nbsp;from the itineraries of E. Robinson and E. Smith /;&nbsp;constructed and drawen by H. Kiepert.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the Peninsula of Mount Sinai and Arabia Petraea;&nbsp;from the itineraries of E. Robinson and E. Smith /;&nbsp;constructed and drawen by H. Kiepert."
+    },
+    {
+      "label": "Contributor",
+      "value": "Eli Smith 1801-1857; Edward Robinson 1794-1863; Heinrich Mahlmann"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Murray, John"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sinai (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369663"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1841"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "539x420 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369663"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369663/sequence/IE17237336",
+      "@type": "sc:Sequence",
+      "label": "Map of the Peninsula of Mount Sinai and Arabia Petraea",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245210",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5206,
+          "height": 6778,
+          "images": [
+            {
+              "@id": "FL17245210",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17245210",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17245210/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17245210",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6778,
+                "width": 5206
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17245209",
+      "@type": "sc:Range",
+      "label": "REP17245209",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245210",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369663",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467525/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Southeast Asia -- Maps; Cambodia -- Maps; Malaysia -- Maps; Borneo -- Maps; Indonesia -- Maps",
+  "label": "India quae Orientalis dicitur et Insulae adjacentes",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "India quae Orientalis dicitur et Insulae adjacentes"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Jansson 1588-1664"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Southeast Asia -- Maps; Cambodia -- Maps; Malaysia -- Maps; Borneo -- Maps; Indonesia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Hondius Hendrik, 1597-1651"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467525"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 39 X 49 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467525"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467525/sequence/IE25569920",
+      "@type": "sc:Sequence",
+      "label": "India quae Orientalis dicitur et Insulae adjacentes",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569930",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12319,
+          "height": 9968,
+          "images": [
+            {
+              "@id": "FL25569930",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25569930",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25569930/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25569930",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9968,
+                "width": 12319
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25569929",
+      "@type": "sc:Range",
+      "label": "REP25569929",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569930",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467525",
+  "viewingHint": "paged"
+}

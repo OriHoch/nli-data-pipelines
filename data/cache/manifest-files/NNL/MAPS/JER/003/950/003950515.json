@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003950515/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Exodus, The -- Maps; Eretz Israel -- Maps",
+  "label": "Charte v. der Reise der Israeliten durch die wüsten, von dem ausgang Aegypti an bis an den Jordan.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Charte v. der Reise der Israeliten durch die wüsten, von dem ausgang Aegypti an bis an den Jordan."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Exodus, The -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Muller, Johann Conrad,"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003950515"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1770"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003950515"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003950515/sequence/IE48326269",
+      "@type": "sc:Sequence",
+      "label": "Charte v. der Reise der Israeliten durch die wüsten; von dem ausgang Aegypti an bis an den Jordan.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326282",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3016,
+          "height": 5292,
+          "images": [
+            {
+              "@id": "FL48326282",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48326282",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48326282/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48326282",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5292,
+                "width": 3016
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP48326280",
+      "@type": "sc:Range",
+      "label": "REP48326280",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326282",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003950515",
+  "viewingHint": "paged"
+}

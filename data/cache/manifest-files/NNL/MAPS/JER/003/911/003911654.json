@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003911654/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Carte de la Palestine pour l'intelligence de son histoire depuis les temps les plus recules jusqu au retour de la captivite de Babylone on 536 av. J.C. /;&nbsp;par Delamarche.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Palestine pour l'intelligence de son histoire depuis les temps les plus recules jusqu au retour de la captivite de Babylone on 536 av. J.C. /;&nbsp;par Delamarche."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Delamarche Félix"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003911654"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1838"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Carte de la Palestine pour l'intelligence de son histoire depuis le retour de la captivite jusquau 5eme Siecle de l'ere Vulgaire"
+    },
+    {
+      "label": "SysNum",
+      "value": "003911654"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003911654/sequence/IE36012560",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Palestine pour l&apos;intelligence de son histoire depuis les temps les plus recules jusqu au retour de la captivite de Babylone on 536 av. J.C. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012575",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11136,
+          "height": 7912,
+          "images": [
+            {
+              "@id": "FL36012575",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36012575",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36012575/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36012575",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7912,
+                "width": 11136
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36012573",
+      "@type": "sc:Range",
+      "label": "REP36012573",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012575",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003911654",
+  "viewingHint": "paged"
+}

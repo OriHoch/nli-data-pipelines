@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301072/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פדובה, איטליה. תקט\"ו",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פדובה, איטליה. תקט\"ו"
+    },
+    {
+      "label": "Contributor",
+      "value": "טריביש, שלמה בן יעקב מנחם (חתן) ; מריני, דולציטא בת יצחק (כלה) ; חזן, יעקב בן אברהם ישראל (עד) ; דינה, שלמה בן אברהם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאדובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301072"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בחשון תקט\"ו (1754)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 510X525מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Padua, Italy. 1754"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301072"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301072/sequence/IE9200775",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה, תקט&quot;ו]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464374",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 800,
+          "height": 773,
+          "images": [
+            {
+              "@id": "FL9464374",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464374",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464374/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464374",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 773,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464373",
+      "@type": "sc:Range",
+      "label": "REP9464373",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464374",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301072",
+  "viewingHint": "paged"
+}

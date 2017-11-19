@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002559378/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Aden (Yemen) -- Maps; Red Sea -- Maps; Mandab, Strait of -- Maps; Jiddah (Saudi Arabia) -- Maps; Suez (Egypt) -- Maps; Tur (Egypt) -- Maps; Jubayl (Saudi Arabia) -- Maps; Dahlak Archipelago (Eritrea) -- Maps; Red Sea Coast (Eritrea) -- Maps; Red Sea Coast (Egypt) -- Maps; Quṣayr (Egypt) -- Maps; Mukhā (Yemen) -- Maps; Yanbuʻ al-Baḥr (Saudi Arabia) -- Maps; Sawākin (Sudan) -- Maps",
+  "label": "A new chart of the Red Sea drawn from the latest astronomical observations and surveys;&nbsp;by J.W. Norie, Hydrographer.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new chart of the Red Sea drawn from the latest astronomical observations and surveys;&nbsp;by J.W. Norie, Hydrographer."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :J. W. Norie"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Aden (Yemen) -- Maps; Red Sea -- Maps; Mandab, Strait of -- Maps; Jiddah (Saudi Arabia) -- Maps; Suez (Egypt) -- Maps; Tur (Egypt) -- Maps; Jubayl (Saudi Arabia) -- Maps; Dahlak Archipelago (Eritrea) -- Maps; Red Sea Coast (Eritrea) -- Maps; Red Sea Coast (Egypt) -- Maps; Quṣayr (Egypt) -- Maps; Mukhā (Yemen) -- Maps; Yanbuʻ al-Baḥr (Saudi Arabia) -- Maps; Sawākin (Sudan) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Norie John William"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002559378"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1838"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 83 X 67 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002559378"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002559378/sequence/IE35472159",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;A&gt;&gt; new chart of the Red Sea drawn from the latest astronomical observations and surveys",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35472164",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15730,
+          "height": 19266,
+          "images": [
+            {
+              "@id": "FL35472164",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35472164",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35472164/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35472164",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 19266,
+                "width": 15730
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35472163",
+      "@type": "sc:Range",
+      "label": "REP35472163",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35472164",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002559378",
+  "viewingHint": "paged"
+}

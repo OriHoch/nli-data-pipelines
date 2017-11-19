@@ -1,0 +1,158 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002483605/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Land tenure -- Eretz Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Palaestina",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palaestina"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Land tenure -- Eretz Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Qeren ha-yesod"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002483605"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1924"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 73 x 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "SysNum",
+      "value": "002483605"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002483605/sequence/IE27958481",
+      "@type": "sc:Sequence",
+      "label": "Palaestina",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958486",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 13259,
+          "height": 17491,
+          "images": [
+            {
+              "@id": "FL27958486",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27958486",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27958486/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27958486",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17491,
+                "width": 13259
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958489",
+          "@type": "sc:Canvas",
+          "label": "02 Verso",
+          "width": 13171,
+          "height": 17561,
+          "images": [
+            {
+              "@id": "FL27958489",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27958489",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27958489/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27958489",
+                  "label": "02 Verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17561,
+                "width": 13171
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27958485",
+      "@type": "sc:Range",
+      "label": "REP27958485",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958486",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958489",
+          "@type": "sc:Canvas",
+          "label": "02 Verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002483605",
+  "viewingHint": "paged"
+}

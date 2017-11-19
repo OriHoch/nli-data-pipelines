@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003906433/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Carte du nord de la Judée ou Terre Sainte comprenant les Tribus d'Aser, de Nephtali, de Zabulon, d'Issachar et de Manassé. /;&nbsp;Gravé par Barrière frères.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du nord de la Judée ou Terre Sainte comprenant les Tribus d'Aser, de Nephtali, de Zabulon, d'Issachar et de Manassé. /;&nbsp;Gravé par Barrière frères."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Glaire J. B. (Jean Baptiste), 1798-1879"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003906433"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1836"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003906433"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003906433/sequence/IE36566956",
+      "@type": "sc:Sequence",
+      "label": "Carte du nord de la Judée ou Terre Sainte comprenant les Tribus d&apos;Aser; de Nephtali; de Zabulon; d&apos;Issachar et de Manassé. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566976",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5094,
+          "height": 3504,
+          "images": [
+            {
+              "@id": "FL36566976",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566976",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566976/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566976",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3504,
+                "width": 5094
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566973",
+      "@type": "sc:Range",
+      "label": "REP36566973",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566976",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003906433",
+  "viewingHint": "paged"
+}

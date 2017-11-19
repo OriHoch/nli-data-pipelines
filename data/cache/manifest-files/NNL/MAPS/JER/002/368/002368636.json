@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368636/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Judah (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Simeon (Tribe of Israel) -- Maps; Bible -- Geography -- Maps",
+  "label": "Tribus Simeon et pars meridionalis Tribus Dan, et orientalis Tribus Iuda",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tribus Simeon et pars meridionalis Tribus Dan, et orientalis Tribus Iuda"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Jansson 1588-1664; Christiaan van Adrichem 1533-1585"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Jan Jansson"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Judah (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Simeon (Tribe of Israel) -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Horn Georg, 1620-1670"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368636"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1662"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "420x540 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368636"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368636/sequence/IE6878689",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070845",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2718,
+          "height": 2336,
+          "images": [
+            {
+              "@id": "FL7070845",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070845",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070845/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070845",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2336,
+                "width": 2718
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070844",
+      "@type": "sc:Range",
+      "label": "REP7070844",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070845",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368636",
+  "viewingHint": "paged"
+}

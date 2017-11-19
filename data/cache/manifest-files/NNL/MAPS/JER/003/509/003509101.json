@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003509101/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russo-Japanese War, 1904-1905; Japan -- Maps; Manchuria (China) -- Maps; Korea -- Maps",
+  "label": "המפה של שדה המלחמה במזרח הרחוק;&nbsp;הוצאת מערכת הצפירה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המפה של שדה המלחמה במזרח הרחוק;&nbsp;הוצאת מערכת הצפירה."
+    },
+    {
+      "label": "Publisher",
+      "value": "[ורשה] :הצפירה Паров. Типо-литография \"Викторія\"."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russo-Japanese War, 1904-1905; Japan -- Maps; Manchuria (China) -- Maps; Korea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003509101"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרס\"ה 1905"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 76x101 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;rus;yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "003509101"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003509101/sequence/IE33135577",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;ה&gt;&gt;מפה של שדה המלחמה במזרח הרחוק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33135594",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 24035,
+          "height": 18198,
+          "images": [
+            {
+              "@id": "FL33135594",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33135594",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33135594/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33135594",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 18198,
+                "width": 24035
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33135593",
+      "@type": "sc:Range",
+      "label": "REP33135593",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33135594",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003509101",
+  "viewingHint": "paged"
+}

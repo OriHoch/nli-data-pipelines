@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002501315/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Nile River -- Maps; Red Sea -- Maps",
+  "label": "Chart of the Arabian Gulf with its Egyptian, Ethiopian and Arabian coasts. from Suez to Bab el Mandeb, A journey through Abyssinia to Gondar... /;&nbsp;by... James Bruce, J. Walker sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Chart of the Arabian Gulf with its Egyptian, Ethiopian and Arabian coasts. from Suez to Bab el Mandeb, A journey through Abyssinia to Gondar... /;&nbsp;by... James Bruce, J. Walker sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "J. Walker sculptor"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Nile River -- Maps; Red Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002501315"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1805"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 63 X 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "To the King. The map containing a Chart of the Arabian Gulf... [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002501315"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002501315/sequence/IE25570283",
+      "@type": "sc:Sequence",
+      "label": "Chart of the Arabian Gulf with its Egyptian; Ethiopian and Arabian coasts. from Suez to Bab el Mandeb; A journey through Abyssinia to Gondar... /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570289",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12915,
+          "height": 15748,
+          "images": [
+            {
+              "@id": "FL25570289",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570289",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570289/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570289",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15748,
+                "width": 12915
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570288",
+      "@type": "sc:Range",
+      "label": "REP25570288",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570289",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002501315",
+  "viewingHint": "paged"
+}

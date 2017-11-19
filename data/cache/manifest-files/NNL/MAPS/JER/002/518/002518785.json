@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002518785/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Australia -- Maps; Indonesia -- Maps",
+  "label": "Carte de L'Océanie :;&nbsp;d'aprés les dernières Découvertes",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de L'Océanie :;&nbsp;d'aprés les dernières Découvertes"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :J. Andriveau Goujon"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Australia -- Maps; Indonesia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Andriveau-Goujon J., fl. 1805-1824"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002518785"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1832"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 38 X 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002518785"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002518785/sequence/IE27963670",
+      "@type": "sc:Sequence",
+      "label": "Carte de L&apos;Océanie :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963685",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15113,
+          "height": 12097,
+          "images": [
+            {
+              "@id": "FL27963685",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27963685",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27963685/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27963685",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12097,
+                "width": 15113
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27963684",
+      "@type": "sc:Range",
+      "label": "REP27963684",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963685",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002518785",
+  "viewingHint": "paged"
+}

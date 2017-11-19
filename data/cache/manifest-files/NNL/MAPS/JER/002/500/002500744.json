@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002500744/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps",
+  "label": "Egypte, partie de l'Afrique: dressée suivant les géographes modernes",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Egypte, partie de l'Afrique: dressée suivant les géographes modernes"
+    },
+    {
+      "label": "Publisher",
+      "value": "Leide :Pierre Vander Aa"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Aa Pieter van der, 1659-1733"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002500744"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1729"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 28 X 36.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002500744"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002500744/sequence/IE25570271",
+      "@type": "sc:Sequence",
+      "label": "Egypte; partie de l&apos;Afrique: dressée suivant les géographes modernes",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570282",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11974,
+          "height": 9486,
+          "images": [
+            {
+              "@id": "FL25570282",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570282",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570282/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570282",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9486,
+                "width": 11974
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570281",
+      "@type": "sc:Range",
+      "label": "REP25570281",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570282",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002500744",
+  "viewingHint": "paged"
+}

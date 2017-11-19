@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000301001/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ורונה, איטליה. תקי\"ט",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ורונה, איטליה. תקי\"ט"
+    },
+    {
+      "label": "Contributor",
+      "value": "מינצי, דוד בן אהרן לוי (חתן) ; חמיץ, שרה בת שלמה (כלה) ; נווירה, מנחם בן יצחק (עד) ; מורטרה, שאול בן בנציון חיים לוי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "וירונה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000301001"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כח בחשון תקי\"ט (1758)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 350X240 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Verona, Italy. 1758"
+    },
+    {
+      "label": "SysNum",
+      "value": "000301001"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301001/sequence/IE9198444",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וירונה, איטליה, תקי&quot;ט]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463099",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וירונה; איטליה; תקיט]",
+          "width": 561,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463099",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463099",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463099/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. וירונה; איטליה; תקיט]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463099",
+                  "label": "[כתובה. וירונה; איטליה; תקיט]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 561
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463098",
+      "@type": "sc:Range",
+      "label": "REP9463098",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463099",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. וירונה; איטליה; תקיט]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000301001",
+  "viewingHint": "paged"
+}

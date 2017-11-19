@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002548897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Geneva, Lake (Switzerland and France) -- Maps; Switzerland -- Maps",
+  "label": "Chorographica Tabula Lacus Lemanni Locorumque Circumiacentium /;&nbsp;Autore Iac. G.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Chorographica Tabula Lacus Lemanni Locorumque Circumiacentium /;&nbsp;Autore Iac. G."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jodocus Hondius 1563-1612"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Hondius"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Geneva, Lake (Switzerland and France) -- Maps; Switzerland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Goulart Jacques, 1580-1622"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002548897"
+    },
+    {
+      "label": "Creation Date",
+      "value": "c1610?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 30 X 53 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002548897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002548897/sequence/IE35076642",
+      "@type": "sc:Sequence",
+      "label": "Chorographica Tabula Lacus Lemanni Locorumque Circumiacentium /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076651",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13038,
+          "height": 10994,
+          "images": [
+            {
+              "@id": "FL35076651",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076651",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076651/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076651",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10994,
+                "width": 13038
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076650",
+      "@type": "sc:Range",
+      "label": "REP35076650",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076651",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002548897",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368996/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Middle East -- Maps",
+  "label": "Carte des Voyages de Notre Seigneur Jesus-Christ et ceux des Apostres St. Pierre et St. Paul dans l'Asie et dans l'Europe;&nbsp;Dressee sur les couvrages des Sieurs Sanson. Par le Sr. Robert 1747.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des Voyages de Notre Seigneur Jesus-Christ et ceux des Apostres St. Pierre et St. Paul dans l'Asie et dans l'Europe;&nbsp;Dressee sur les couvrages des Sieurs Sanson. Par le Sr. Robert 1747."
+    },
+    {
+      "label": "Contributor",
+      "value": "Didier Robert de Vaugondy 1723-1786; Nicolas Sanson 1600-1667; Guillaume Sanson 1633-1703; Charles-Francois Delamarche 1740-1817"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Delamarche"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Robert de Vaugondy Gilles, 1688-1766"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368996"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1797-98"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "460x587 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368996"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368996/sequence/IE6880201",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071997",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2795,
+          "height": 2083,
+          "images": [
+            {
+              "@id": "FL7071997",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071997",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071997/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071997",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2083,
+                "width": 2795
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071996",
+      "@type": "sc:Range",
+      "label": "REP7071996",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071997",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368996",
+  "viewingHint": "paged"
+}

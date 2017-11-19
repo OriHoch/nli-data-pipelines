@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369199/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jonah (Biblical prophet); Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Mesopotamia -- Maps; Bible -- Geography -- Maps",
+  "label": "Tabula Terrae promissionis haec est, & progressionis filiorum Israel, atque Gan-eden Seu Paradisi delineatio, Secundum sacram scripturam",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula Terrae promissionis haec est, & progressionis filiorum Israel, atque Gan-eden Seu Paradisi delineatio, Secundum sacram scripturam"
+    },
+    {
+      "label": "Contributor",
+      "value": "Abraham Ortelius 1527-1598; Tilemann Stella 1525-1589"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jonah (Biblical prophet); Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Mesopotamia -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369199"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1586"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "353x476 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369199"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369199/sequence/IE35704933",
+      "@type": "sc:Sequence",
+      "label": "Tabula Terrae promissionis haec est; &amp; progressionis filiorum Israel; atque Gan-eden Seu Paradisi delineatio; Secundum sacram scripturam",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704940",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12130,
+          "height": 9171,
+          "images": [
+            {
+              "@id": "FL35704940",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35704940",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35704940/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35704940",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9171,
+                "width": 12130
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35704939",
+      "@type": "sc:Range",
+      "label": "REP35704939",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704940",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369199",
+  "viewingHint": "paged"
+}

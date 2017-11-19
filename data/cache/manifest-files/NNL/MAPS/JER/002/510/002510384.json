@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002510384/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "North America -- Maps",
+  "label": "Amérique Septentrionale /;&nbsp;Geographie et statistique de V.Levaseur. Gravé par Laguillermei ; Illustré par Raimond Bonheur Peintre",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Amérique Septentrionale /;&nbsp;Geographie et statistique de V.Levaseur. Gravé par Laguillermei ; Illustré par Raimond Bonheur Peintre"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Combette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "North America -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Levasseur V. (Victor)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002510384"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1845"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 30 X 43 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002510384"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002510384/sequence/IE13728057",
+      "@type": "sc:Sequence",
+      "label": "North America",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13738655",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8248,
+          "height": 5886,
+          "images": [
+            {
+              "@id": "FL13738655",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13738655",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13738655/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13738655",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5886,
+                "width": 8248
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13738654",
+      "@type": "sc:Range",
+      "label": "REP13738654",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13738655",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002510384",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368957/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "L.Rouwolfs Reys-Togten, door de Levant of Oosterse Landschappen der Middellandse Zee;&nbsp;Leendert Rouwolf.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L.Rouwolfs Reys-Togten, door de Levant of Oosterse Landschappen der Middellandse Zee;&nbsp;Leendert Rouwolf."
+    },
+    {
+      "label": "Contributor",
+      "value": "Pieter van der Aa 1659-1733"
+    },
+    {
+      "label": "Publisher",
+      "value": "Leyden :Pieter Vander Aa"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Rauwolf Leonhard, approximately 1540-1596"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368957"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1707"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "151x220 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368957"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368957/sequence/IE6879075",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070963",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3088,
+          "height": 2000,
+          "images": [
+            {
+              "@id": "FL7070963",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070963",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070963/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070963",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2000,
+                "width": 3088
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070962",
+      "@type": "sc:Range",
+      "label": "REP7070962",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070963",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368957",
+  "viewingHint": "paged"
+}

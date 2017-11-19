@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003956408/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps; Bible -- Geography -- Maps",
+  "label": "Schema Asphaltitis & Eremi Judae vel Idumaeae adjacentis.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Schema Asphaltitis & Eremi Judae vel Idumaeae adjacentis."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lightfoot John, 1602-1675"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003956408"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1684"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003956408"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003956408/sequence/IE48326277",
+      "@type": "sc:Sequence",
+      "label": "Schema Asphaltitis &amp; Eremi Judae vel Idumaeae adjacentis.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326299",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2432,
+          "height": 3426,
+          "images": [
+            {
+              "@id": "FL48326299",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48326299",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48326299/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48326299",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3426,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP48326297",
+      "@type": "sc:Range",
+      "label": "REP48326297",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326299",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003956408",
+  "viewingHint": "paged"
+}

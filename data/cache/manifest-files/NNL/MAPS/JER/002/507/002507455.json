@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002507455/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Turkey -- Maps",
+  "label": "[The vast Empire of the Ottomans which is in Asia, in Europe, and in Africa]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[The vast Empire of the Ottomans which is in Asia, in Europe, and in Africa]"
+    },
+    {
+      "label": "Publisher",
+      "value": "Venice :The Printing House of St. Lazar"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002507455"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1787"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 191 X 207 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "arm"
+    },
+    {
+      "label": "SysNum",
+      "value": "002507455"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002507455/sequence/IE6880839",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072395",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2668,
+          "height": 2350,
+          "images": [
+            {
+              "@id": "FL7072395",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072395",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072395/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072395",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2350,
+                "width": 2668
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072394",
+      "@type": "sc:Range",
+      "label": "REP7072394",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072395",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002507455",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467967/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "China -- Maps",
+  "label": "China veteribus sinarum regio nunc Incolis Tame dicta;&nbsp;M. Merian fecit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "China veteribus sinarum regio nunc Incolis Tame dicta;&nbsp;M. Merian fecit."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "China -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Merian Matthaeus, 1593-1650"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467967"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 265 X 340 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467967"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467967/sequence/IE46961863",
+      "@type": "sc:Sequence",
+      "label": "China veteribus sinarum regio nunc Incolis Tame dicta",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961887",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9665,
+          "height": 8593,
+          "images": [
+            {
+              "@id": "FL46961887",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46961887",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46961887/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46961887",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8593,
+                "width": 9665
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46961885",
+      "@type": "sc:Range",
+      "label": "REP46961885",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961887",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467967",
+  "viewingHint": "paged"
+}

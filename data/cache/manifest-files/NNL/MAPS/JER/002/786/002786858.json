@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002786858/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World War, 1939-1945 -- Maps; Europe, Western -- Maps",
+  "label": "The Western Front",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Western Front"
+    },
+    {
+      "label": "Publisher",
+      "value": "תל אביב :פ.ארנסברג את א.פישר, מ' לינקוב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World War, 1939-1945 -- Maps; Europe, Western -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002786858"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 27 x 19.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002786858"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002786858/sequence/IE37103087",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; Western Front",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37103104",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5674,
+          "height": 8471,
+          "images": [
+            {
+              "@id": "FL37103104",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37103104",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37103104/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37103104",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8471,
+                "width": 5674
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37103103",
+      "@type": "sc:Range",
+      "label": "REP37103103",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37103104",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002786858",
+  "viewingHint": "paged"
+}

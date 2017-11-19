@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003446028/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Horse-drawn vehicles -- Russia (Federation) -- Moscow; Transportation -- Russia (Federation) -- Moscow; Moscow (Russia) -- Maps",
+  "label": "План города Москвы 1894",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "План города Москвы 1894"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Москва],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Horse-drawn vehicles -- Russia (Federation) -- Moscow; Transportation -- Russia (Federation) -- Moscow; Moscow (Russia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003446028"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1894"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 85x65 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "rus"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Plan goroda Moskvy 1894"
+    },
+    {
+      "label": "SysNum",
+      "value": "003446028"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003446028/sequence/IE39696803",
+      "@type": "sc:Sequence",
+      "label": "План города Москвы 1894",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696810",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15786,
+          "height": 20665,
+          "images": [
+            {
+              "@id": "FL39696810",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696810",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696810/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696810",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 20665,
+                "width": 15786
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39696809",
+      "@type": "sc:Range",
+      "label": "REP39696809",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696810",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003446028",
+  "viewingHint": "paged"
+}

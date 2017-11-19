@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369255/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "[תרשים סכמטי של א\"י];&nbsp;[הועתק ע\"י יקותיאל בן שלמה מקרטונה].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[תרשים סכמטי של א\"י];&nbsp;[הועתק ע\"י יקותיאל בן שלמה מקרטונה]."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jekuthiel ben Solomon from Cortona"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "שלמה בן יצחק (רש\"י), 1040-1105"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369255"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1462"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "84 x 110 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369255"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369255/sequence/IE6881852",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072883",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2080,
+          "height": 3000,
+          "images": [
+            {
+              "@id": "FL7072883",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072883",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072883/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072883",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3000,
+                "width": 2080
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072882",
+      "@type": "sc:Range",
+      "label": "REP7072882",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072883",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369255",
+  "viewingHint": "paged"
+}

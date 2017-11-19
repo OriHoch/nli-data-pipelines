@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003807308/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps; West Bank -- Maps",
+  "label": "Ein et Turaba /;&nbsp;Reprinted by Sarafand Section 512 Fd. Survey Coy. R.E.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ein et Turaba /;&nbsp;Reprinted by Sarafand Section 512 Fd. Survey Coy. R.E."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps; West Bank -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Great Britain. Army. Royal Engineers. Field Survey Coy., 512."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003807308"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 49 x 61 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Palestine 1:25,000 ; 18-11, 19-11"
+    },
+    {
+      "label": "SysNum",
+      "value": "003807308"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003807308/sequence/IE27977840",
+      "@type": "sc:Sequence",
+      "label": "Ein et Turaba /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27977844",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14805,
+          "height": 11772,
+          "images": [
+            {
+              "@id": "FL27977844",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27977844",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27977844/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27977844",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11772,
+                "width": 14805
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27977843",
+      "@type": "sc:Range",
+      "label": "REP27977843",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27977844",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003807308",
+  "viewingHint": "paged"
+}

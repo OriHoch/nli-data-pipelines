@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369174/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Solomon, King of Israel; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "The purveyorships in the reign of Solomon;&nbsp;W.Palmer sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The purveyorships in the reign of Solomon;&nbsp;W.Palmer sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "W Palmer (William), 1739-1812"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :R. Wilkinson"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Solomon, King of Israel; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wilkinson Robert, -approximately 1825"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369174"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1798"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "280x220 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369174"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369174/sequence/IE6882525",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073595",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2200,
+          "height": 2845,
+          "images": [
+            {
+              "@id": "FL7073595",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073595",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073595/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073595",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2845,
+                "width": 2200
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073594",
+      "@type": "sc:Range",
+      "label": "REP7073594",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073595",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369174",
+  "viewingHint": "paged"
+}

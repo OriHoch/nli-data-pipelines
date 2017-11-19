@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003809824/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ashdod Region (Israel) -- Maps; Ashkelon Region (Israel) -- Maps; Gaza Strip -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "[ארץ-ישראל] :;&nbsp;[אזור אשדוד, אשקלון, עזה] /;&nbsp;[תוקן והודפס ע\"י מחלקת המדידות].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[ארץ-ישראל] :;&nbsp;[אזור אשדוד, אשקלון, עזה] /;&nbsp;[תוקן והודפס ע\"י מחלקת המדידות]."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ashdod Region (Israel) -- Maps; Ashkelon Region (Israel) -- Maps; Gaza Strip -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003809824"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1949"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון ; 91 x 65 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ארץ ישראל 1:50,000 ; 10 (מערב)"
+    },
+    {
+      "label": "SysNum",
+      "value": "003809824"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003809824/sequence/IE25571418",
+      "@type": "sc:Sequence",
+      "label": "[ארץ-ישראל] :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25571424",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16056,
+          "height": 22757,
+          "images": [
+            {
+              "@id": "FL25571424",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25571424",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25571424/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25571424",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 22757,
+                "width": 16056
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25571423",
+      "@type": "sc:Range",
+      "label": "REP25571423",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25571424",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003809824",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003770686/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Komemiyyut Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Qomemiyut;&nbsp;Drawn & printed by the Survey of Palestine 1931.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Qomemiyut;&nbsp;Drawn & printed by the Survey of Palestine 1931."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Komemiyyut Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003770686"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 62x66 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Israel. 1:20,000. 1948-1961 ; 12-11"
+    },
+    {
+      "label": "SysNum",
+      "value": "003770686"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003770686/sequence/IE25570677",
+      "@type": "sc:Sequence",
+      "label": "Qomemiyut",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570686",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16190,
+          "height": 15177,
+          "images": [
+            {
+              "@id": "FL25570686",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570686",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570686/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570686",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15177,
+                "width": 16190
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570685",
+      "@type": "sc:Range",
+      "label": "REP25570685",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570686",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003770686",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002630745/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Yavne (Israel) -- Maps",
+  "label": "Yibna - block plan index",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Yibna - block plan index"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Yavne (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002630745"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 73 x 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb;ara"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "יבנה - מפתח למפות הגושים, מחוז הדרום נפת רמלה [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002630745"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002630745/sequence/IE27964892",
+      "@type": "sc:Sequence",
+      "label": "Yibna - block plan index",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27964901",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13236,
+          "height": 17662,
+          "images": [
+            {
+              "@id": "FL27964901",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27964901",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27964901/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27964901",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17662,
+                "width": 13236
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27964900",
+      "@type": "sc:Range",
+      "label": "REP27964900",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27964901",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002630745",
+  "viewingHint": "paged"
+}

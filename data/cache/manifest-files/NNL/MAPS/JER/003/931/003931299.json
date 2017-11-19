@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003931299/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Regni Israelitici prout olim sub Davide & Dalomone regibus ab Aegypto & Mari Rubro ad Hemath & Euphratem usq' sese extenderit, nec non Arabiae Petrae Ae ac Desertae accuratissima Delineatio.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Regni Israelitici prout olim sub Davide & Dalomone regibus ab Aegypto & Mari Rubro ad Hemath & Euphratem usq' sese extenderit, nec non Arabiae Petrae Ae ac Desertae accuratissima Delineatio."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schmidt Johann Jacob, 1690-1757"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003931299"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1740"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003931299"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003931299/sequence/IE45593371",
+      "@type": "sc:Sequence",
+      "label": "Regni Israelitici prout olim sub Davide &amp; Dalomone regibus ab Aegypto &amp; Mari Rubro ad Hemath &amp; Euphratem usq&apos; sese extenderit; nec non Arabiae Petrae Ae ac Desertae accuratissima Delineatio.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45593380",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2919,
+          "height": 2258,
+          "images": [
+            {
+              "@id": "FL45593380",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45593380",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45593380/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45593380",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2258,
+                "width": 2919
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45593379",
+      "@type": "sc:Range",
+      "label": "REP45593379",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45593380",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003931299",
+  "viewingHint": "paged"
+}

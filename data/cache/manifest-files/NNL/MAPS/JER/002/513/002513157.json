@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002513157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "North America -- Maps; United States -- Maps",
+  "label": "Die Vereinigten Staaten von Nordamerika /;&nbsp;von D. F. Sotzmann, nach Ebelings Beschreibung, Arrowsmith's und Lewis Karten entworfen",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die Vereinigten Staaten von Nordamerika /;&nbsp;von D. F. Sotzmann, nach Ebelings Beschreibung, Arrowsmith's und Lewis Karten entworfen"
+    },
+    {
+      "label": "Contributor",
+      "value": "Aaron Arrowsmith 1750-1823; Christoph Daniel Ebeling 1741-1817; Samuel Lewis 1753 or 4-1822"
+    },
+    {
+      "label": "Publisher",
+      "value": "Nürenberg :Schneider- und Weigelsche K. K. privilegirte Kunsthandlung"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "North America -- Maps; United States -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sotzmann Daniel Friedrich, 1754-1840"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002513157"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1804"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 54 X 68 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002513157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002513157/sequence/IE13728592",
+      "@type": "sc:Sequence",
+      "label": "United States",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739810",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11850,
+          "height": 9228,
+          "images": [
+            {
+              "@id": "FL13739810",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13739810",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13739810/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13739810",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9228,
+                "width": 11850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13739809",
+      "@type": "sc:Range",
+      "label": "REP13739809",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739810",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002513157",
+  "viewingHint": "paged"
+}

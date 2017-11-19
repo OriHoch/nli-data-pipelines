@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003928949/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem Region (Israel) -- Maps",
+  "label": "Jérusalem. /;&nbsp;D'apres Guerin C. Perron.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jérusalem. /;&nbsp;D'apres Guerin C. Perron."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem Region (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Reclus Elisée, 1830-1905"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003928949"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1884"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003928949"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003928949/sequence/IE45585370",
+      "@type": "sc:Sequence",
+      "label": "Jérusalem. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585379",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 1953,
+          "height": 3178,
+          "images": [
+            {
+              "@id": "FL45585379",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45585379",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45585379/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45585379",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3178,
+                "width": 1953
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45585378",
+      "@type": "sc:Range",
+      "label": "REP45585378",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585379",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003928949",
+  "viewingHint": "paged"
+}

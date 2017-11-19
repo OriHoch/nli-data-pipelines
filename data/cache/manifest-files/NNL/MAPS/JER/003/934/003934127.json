@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003934127/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jaffa (Tel Aviv-Yafo, Israel) -- Maps",
+  "label": "Environs of Yâfa /;&nbsp;From an original survey by Th. Sandel. Drawn, engraved and printed by Wagner & Debes.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Environs of Yâfa /;&nbsp;From an original survey by Th. Sandel. Drawn, engraved and printed by Wagner & Debes."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jaffa (Tel Aviv-Yafo, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sandel Theodor, 1845-1902"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003934127"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1876"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003934127"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003934127/sequence/IE45601915",
+      "@type": "sc:Sequence",
+      "label": "Environs of Yâfa /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45601922",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2679,
+          "height": 1831,
+          "images": [
+            {
+              "@id": "FL45601922",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45601922",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45601922/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45601922",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1831,
+                "width": 2679
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45601921",
+      "@type": "sc:Range",
+      "label": "REP45601921",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45601922",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003934127",
+  "viewingHint": "paged"
+}

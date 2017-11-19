@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369629/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Roads -- Israel -- Maps; Israel -- Maps; Eretz Israel -- Maps; Topographic maps",
+  "label": "Palestine;&nbsp;Published with permission of the Director of Surveys",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine;&nbsp;Published with permission of the Director of Surveys"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem :Steimatzky"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Roads -- Israel -- Maps; Israel -- Maps; Eretz Israel -- Maps; Topographic maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369629"
+    },
+    {
+      "label": "Creation Date",
+      "value": "194-?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369629"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369629/sequence/IE35058357",
+      "@type": "sc:Sequence",
+      "label": "Palestine",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058375",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9114,
+          "height": 12968,
+          "images": [
+            {
+              "@id": "FL35058375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35058375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35058375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35058375",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12968,
+                "width": 9114
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35058372",
+      "@type": "sc:Range",
+      "label": "REP35058372",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058375",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369629",
+  "viewingHint": "paged"
+}

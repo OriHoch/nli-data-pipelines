@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002626888/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Istanbul (Turkey) -- Maps; Bosporus (Turkey) -- Maps",
+  "label": "Plan de Constantinople de son port, canal et environs=Grundriss von Constantinopel mit jhrem See Haven Canal u. angränzenden Gegenden;&nbsp;Ioh. Iac. Andelfinger ad vivum delineavit. Ios. Frid. Leopold fecit et excudit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan de Constantinople de son port, canal et environs=Grundriss von Constantinopel mit jhrem See Haven Canal u. angränzenden Gegenden;&nbsp;Ioh. Iac. Andelfinger ad vivum delineavit. Ios. Frid. Leopold fecit et excudit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Joseph Friderich Leopold 1668-1726"
+    },
+    {
+      "label": "Publisher",
+      "value": "Aug. Vindel.,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Istanbul (Turkey) -- Maps; Bosporus (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Andelfinger Johann"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002626888"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 52 x 58 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre;ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002626888"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002626888/sequence/IE35866777",
+      "@type": "sc:Sequence",
+      "label": "Plan de Constantinople de son port; canal et environs=Grundriss von Constantinopel mit jhrem See Haven Canal u. angränzenden Gegenden",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866783",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13880,
+          "height": 12352,
+          "images": [
+            {
+              "@id": "FL35866783",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35866783",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35866783/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35866783",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12352,
+                "width": 13880
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35866782",
+      "@type": "sc:Range",
+      "label": "REP35866782",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866783",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002626888",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369045/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Herod I, King of Judea, 73-4 B.C; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Palaestinae accurata descriptio geographica, ita adornata ut diversarum aetatum regna conditio et fata, in sacris oraculis indicata intelligi possint;&nbsp;a M. Seuttero...Tob. Conr. Lotter sculps.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palaestinae accurata descriptio geographica, ita adornata ut diversarum aetatum regna conditio et fata, in sacris oraculis indicata intelligi possint;&nbsp;a M. Seuttero...Tob. Conr. Lotter sculps."
+    },
+    {
+      "label": "Contributor",
+      "value": "Johann Baptist Homann 1663-1724; Guillaume Sanson 1633-1703; Tobias Conrad Lotter 1717-1777; Gottfried Eichler 1715-1770"
+    },
+    {
+      "label": "Publisher",
+      "value": "Aug. Vind.,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Herod I, King of Judea, 73-4 B.C; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seutter Matthaeus, 1678-1756"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369045"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1741?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "497x578 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369045"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369045/sequence/IE6881410",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072636",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2700,
+          "height": 2386,
+          "images": [
+            {
+              "@id": "FL7072636",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072636",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072636/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072636",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2386,
+                "width": 2700
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072635",
+      "@type": "sc:Range",
+      "label": "REP7072635",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072636",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369045",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002533506/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Crete (Greece) -- Maps",
+  "label": "Insula Creta hodie Candia :;&nbsp;in sua IV. Territoria divisa cum adiacentibus Aegei Maris Insulis ac praesertim nuperrime ex abysso pelagi emergente Nova Santorini Insula /;&nbsp;Ioh. Bapt. Homannus",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Insula Creta hodie Candia :;&nbsp;in sua IV. Territoria divisa cum adiacentibus Aegei Maris Insulis ac praesertim nuperrime ex abysso pelagi emergente Nova Santorini Insula /;&nbsp;Ioh. Bapt. Homannus"
+    },
+    {
+      "label": "Publisher",
+      "value": "Norimbergae,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Crete (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Homann Johann Baptist, 1663-1724"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002533506"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1715"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 X 56 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002533506"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002533506/sequence/IE35072638",
+      "@type": "sc:Sequence",
+      "label": "Insula Creta hodie Candia :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072651",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14778,
+          "height": 12942,
+          "images": [
+            {
+              "@id": "FL35072651",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072651",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072651/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072651",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12942,
+                "width": 14778
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072649",
+      "@type": "sc:Range",
+      "label": "REP35072649",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072651",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002533506",
+  "viewingHint": "paged"
+}

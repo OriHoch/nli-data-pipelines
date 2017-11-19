@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369096/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Kaart van het Heilige Land;&nbsp;door C.W.M. Van de Velde. Uitgave van W. H.Kirberger",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Kaart van het Heilige Land;&nbsp;door C.W.M. Van de Velde. Uitgave van W. H.Kirberger"
+    },
+    {
+      "label": "Contributor",
+      "value": "W.H Kirberger; J.& CE Smulders"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Gedruckt by J.Smulders & Ce, Lith. des Konings"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Velde Charles William Meredith van de, 1818-1898"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369096"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1866"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1300x834 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369096"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369096/sequence/IE6879696",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071401",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2050,
+          "height": 3059,
+          "images": [
+            {
+              "@id": "FL7071401",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071401",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071401/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071401",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3059,
+                "width": 2050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071400",
+      "@type": "sc:Range",
+      "label": "REP7071400",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071401",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369096",
+  "viewingHint": "paged"
+}

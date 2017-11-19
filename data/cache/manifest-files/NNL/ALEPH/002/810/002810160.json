@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002810160/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ליידן, הולנד. תקי\"ג.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ליידן, הולנד. תקי\"ג."
+    },
+    {
+      "label": "Contributor",
+      "value": "דוד בן מיכאל (חתן) ; ברינא בת אליעזר (כלה)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ליידן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002810160"
+    },
+    {
+      "label": "Creation Date",
+      "value": "טו בכסלו תקי\"ג (1752)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 178X162 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Leiden, Netherlands. 1752"
+    },
+    {
+      "label": "SysNum",
+      "value": "002810160"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002810160/sequence/IE9197665",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. לידן; הולנד; תקי&quot;ג].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462463",
+          "@type": "sc:Canvas",
+          "label": "2810160",
+          "width": 721,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462463",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462463",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462463/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2810160",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462463",
+                  "label": "2810160",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 721
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462462",
+      "@type": "sc:Range",
+      "label": "REP9462462",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462463",
+          "@type": "sc:Canvas",
+          "label": "2810160"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002810160",
+  "viewingHint": "paged"
+}

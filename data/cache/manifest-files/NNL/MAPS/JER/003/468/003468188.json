@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003468188/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps",
+  "label": "Sketch map of the Dead Sea;&nbsp;from the observations of the U.S. expedition under the command of Lt. F.Lynch U.S.N. 1848.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Sketch map of the Dead Sea;&nbsp;from the observations of the U.S. expedition under the command of Lt. F.Lynch U.S.N. 1848."
+    },
+    {
+      "label": "Publisher",
+      "value": "Philadelphia :Lea and Blanchard"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lynch William Francis, 1801-1865"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003468188"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1849"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 63x34.7 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003468188"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003468188/sequence/IE25570573",
+      "@type": "sc:Sequence",
+      "label": "Sketch map of the Dead Sea",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570577",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5688,
+          "height": 10096,
+          "images": [
+            {
+              "@id": "FL25570577",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570577",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570577/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570577",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10096,
+                "width": 5688
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570576",
+      "@type": "sc:Range",
+      "label": "REP25570576",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570577",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003468188",
+  "viewingHint": "paged"
+}

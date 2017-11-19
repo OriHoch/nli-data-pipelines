@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003902597/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Adam (Biblical figure); Eve (Biblical figure); Paradise -- Maps; Babel, Tower of, in art; Middle East -- Maps",
+  "label": "De gelegentheyt van 'T Paradys ende 'T Landt Canaan, Mitsgaders de eerst bewoonde landen der patriarchen /;&nbsp;Broeck sculpsit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "De gelegentheyt van 'T Paradys ende 'T Landt Canaan, Mitsgaders de eerst bewoonde landen der patriarchen /;&nbsp;Broeck sculpsit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Abraham van den Broeck"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Adam (Biblical figure); Eve (Biblical figure); Paradise -- Maps; Babel, Tower of, in art; Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003902597"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1831"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003902597"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003902597/sequence/IE36566130",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;De&gt;&gt; gelegentheyt van &apos;T Paradys ende &apos;T Landt Canaan; Mitsgaders de eerst bewoonde landen der patriarchen /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566143",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13282,
+          "height": 9887,
+          "images": [
+            {
+              "@id": "FL36566143",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566143",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566143/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566143",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9887,
+                "width": 13282
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566142",
+      "@type": "sc:Range",
+      "label": "REP36566142",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566143",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003902597",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300635/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ונציה, איטליה. תקכ\"ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ונציה, איטליה. תקכ\"ט."
+    },
+    {
+      "label": "Contributor",
+      "value": "לוצטו, ברוך טוב חיים בן דוד, מטריאסט (חתן) ; חנה בת יהודה חי, מביאנקי (כלה) ; פציפיקו, אברהם בן יצחק (עד) ; צרפתי, יוסף (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ויניציאה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300635"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בחשון תקכ\"ט (1768)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 635X430 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Venice, Italy. 1768"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300635"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300635/sequence/IE9198969",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. וצניה, איטליה, תקכ&quot;ט].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462105",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 557,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462105",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462105",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462105/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462105",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 557
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462104",
+      "@type": "sc:Range",
+      "label": "REP9462104",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462105",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300635",
+  "viewingHint": "paged"
+}

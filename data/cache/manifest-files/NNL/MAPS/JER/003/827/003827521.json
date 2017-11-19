@@ -1,0 +1,119 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003827521/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- History -- Partition, 1936 -- Maps; Eretz Israel -- History -- Proposed partition, 1937",
+  "label": "Palestine :;&nbsp;הגבולות החדשים לפי הצעת הועדה המלכותית = The new partition, suggested by the Royal Commission = Die von der Royal Commission vorgeschlagene Teilung.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine :;&nbsp;הגבולות החדשים לפי הצעת הועדה המלכותית = The new partition, suggested by the Royal Commission = Die von der Royal Commission vorgeschlagene Teilung."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- History -- Partition, 1936 -- Maps; Eretz Israel -- History -- Proposed partition, 1937"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003827521"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : color ; 34.5 x 24 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "פלשתינה (א\"י)",
+        "Palästina - Die von der Royal Commission vorgeschlagene Teilung"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003827521"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003827521/sequence/IE27982487",
+      "@type": "sc:Sequence",
+      "label": "Palestine :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27982500",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6027,
+          "height": 8351,
+          "images": [
+            {
+              "@id": "FL27982500",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27982500",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27982500/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27982500",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8351,
+                "width": 6027
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27982499",
+      "@type": "sc:Range",
+      "label": "REP27982499",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27982500",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003827521",
+  "viewingHint": "paged"
+}

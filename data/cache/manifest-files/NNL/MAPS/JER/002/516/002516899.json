@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002516899/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Iran -- Maps",
+  "label": "Description de L'Empire du Sophi des Perses :;&nbsp;tirée en partie de l'Arabe de Nubie, et en partie de plusieurs et diverses relations /;&nbsp;I. Somer sculp ; par Sr. Sanson d'Abbeville",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Description de L'Empire du Sophi des Perses :;&nbsp;tirée en partie de l'Arabe de Nubie, et en partie de plusieurs et diverses relations /;&nbsp;I. Somer sculp ; par Sr. Sanson d'Abbeville"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Somer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Pierre Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002516899"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1658"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 38 X 51.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002516899"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002516899/sequence/IE35061676",
+      "@type": "sc:Sequence",
+      "label": "Description de L&apos;Empire du Sophi des Perses :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061682",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13013,
+          "height": 10083,
+          "images": [
+            {
+              "@id": "FL35061682",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35061682",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35061682/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35061682",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10083,
+                "width": 13013
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35061681",
+      "@type": "sc:Range",
+      "label": "REP35061681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061682",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002516899",
+  "viewingHint": "paged"
+}

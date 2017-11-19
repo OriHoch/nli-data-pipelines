@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002716994/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Turkey in Asia;&nbsp;By J. Arrowsmith.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Turkey in Asia;&nbsp;By J. Arrowsmith."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :J. Arrowsmith"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Arrowsmith John, 1790-1873"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002716994"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1832"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48x60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002716994"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002716994/sequence/IE36010882",
+      "@type": "sc:Sequence",
+      "label": "Turkey in Asia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010891",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15769,
+          "height": 12638,
+          "images": [
+            {
+              "@id": "FL36010891",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010891",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010891/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010891",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12638,
+                "width": 15769
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010890",
+      "@type": "sc:Range",
+      "label": "REP36010890",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010891",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002716994",
+  "viewingHint": "paged"
+}

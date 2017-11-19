@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003808141/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jordan -- Maps",
+  "label": "Obeide /;&nbsp;Surveyed and drawn by 36th. N.Z. Survey Battery N.Z.A.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Obeide /;&nbsp;Surveyed and drawn by 36th. N.Z. Survey Battery N.Z.A."
+    },
+    {
+      "label": "Contributor",
+      "value": "Great Britain. Army. Royal Engineers. Field Survey Coy., 517."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jordan -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "New Zealand. Army. Survey Battery, 36th"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003808141"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1942"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 61 x 49 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Palestine 1:25,000 ; 20-17"
+    },
+    {
+      "label": "SysNum",
+      "value": "003808141"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003808141/sequence/IE27981246",
+      "@type": "sc:Sequence",
+      "label": "Obeide /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27981258",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11620,
+          "height": 14778,
+          "images": [
+            {
+              "@id": "FL27981258",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27981258",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27981258/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27981258",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14778,
+                "width": 11620
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27981257",
+      "@type": "sc:Range",
+      "label": "REP27981257",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27981258",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003808141",
+  "viewingHint": "paged"
+}

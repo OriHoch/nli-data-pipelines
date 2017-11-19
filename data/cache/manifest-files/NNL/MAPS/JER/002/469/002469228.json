@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002469228/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Japan -- Maps",
+  "label": "Carte des isles du Iapon;&nbsp;esquelles est remarque la route tant par mer que par terre que tiennent les Hollandois pour se transporter de la ville de Nagasaqui a Iedo...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des isles du Iapon;&nbsp;esquelles est remarque la route tant par mer que par terre que tiennent les Hollandois pour se transporter de la ville de Nagasaqui a Iedo..."
+    },
+    {
+      "label": "Contributor",
+      "value": "J Durant"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Japan -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Tavernier Jean-Baptiste, 1605-1689"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002469228"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1679"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 51 X 76 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002469228"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002469228/sequence/IE37099041",
+      "@type": "sc:Sequence",
+      "label": "Carte des isles du Iapon",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099049",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18890,
+          "height": 13639,
+          "images": [
+            {
+              "@id": "FL37099049",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099049",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099049/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099049",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13639,
+                "width": 18890
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099048",
+      "@type": "sc:Range",
+      "label": "REP37099048",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099049",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002469228",
+  "viewingHint": "paged"
+}

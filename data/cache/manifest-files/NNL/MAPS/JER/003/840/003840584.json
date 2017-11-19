@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003840584/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Perat River Region (West Bank) ; מפות ; Maps and cartographic materials",
+  "label": "ודי אל-קלט /;&nbsp;עובד ושורטט ע\"י מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ודי אל-קלט /;&nbsp;עובד ושורטט ע\"י מחלקת המדידות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Perat River Region (West Bank) ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003840584"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 62 x 73 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ישראל 1:20,000, 1955-1961 ; 18-13"
+    },
+    {
+      "label": "SysNum",
+      "value": "003840584"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003840584/sequence/IE25573692",
+      "@type": "sc:Sequence",
+      "label": "ודי אל-קלט /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25573696",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18218,
+          "height": 15309,
+          "images": [
+            {
+              "@id": "FL25573696",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25573696",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25573696/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25573696",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15309,
+                "width": 18218
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25573695",
+      "@type": "sc:Range",
+      "label": "REP25573695",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25573696",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003840584",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003888727/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Description geographique de la Terre Promise, Terre des Hebreux, et des Israelites partagee selon l'Ordre de Dieu Aux Douze Tribus, Descendantes de Douze fils de Jacob... pour le Livre de Josue.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Description geographique de la Terre Promise, Terre des Hebreux, et des Israelites partagee selon l'Ordre de Dieu Aux Douze Tribus, Descendantes de Douze fils de Jacob... pour le Livre de Josue."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Moullart-Sanson Pierre"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003888727"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1710?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003888727"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003888727/sequence/IE35080856",
+      "@type": "sc:Sequence",
+      "label": "Description geographique de la Terre Promise; Terre des Hebreux; et des Israelites partagee selon l&apos;Ordre de Dieu Aux Douze Tribus; Descendantes de Douze fils de Jacob... pour le Livre de Josue.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35080863",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9810,
+          "height": 9738,
+          "images": [
+            {
+              "@id": "FL35080863",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35080863",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35080863/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35080863",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9738,
+                "width": 9810
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35080860",
+      "@type": "sc:Range",
+      "label": "REP35080860",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35080863",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003888727",
+  "viewingHint": "paged"
+}

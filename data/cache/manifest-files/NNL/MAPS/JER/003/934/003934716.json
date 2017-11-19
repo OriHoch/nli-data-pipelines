@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003934716/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "A map of ye Holy Land or the Land of Promise distinguishd according to ye division thereof among the twelve tribes containing the most remarkable places with scripture references &c. /;&nbsp;Hewitt Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A map of ye Holy Land or the Land of Promise distinguishd according to ye division thereof among the twelve tribes containing the most remarkable places with scripture references &c. /;&nbsp;Hewitt Sculp."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Marchant John"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003934716"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1745"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003934716"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003934716/sequence/IE46962577",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;A&gt;&gt; map of ye Holy Land or the Land of Promise distinguishd according to ye division thereof among the twelve tribes containing the most remarkable places with scripture references &amp;c. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962583",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5651,
+          "height": 2947,
+          "images": [
+            {
+              "@id": "FL46962583",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46962583",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46962583/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46962583",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2947,
+                "width": 5651
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46962582",
+      "@type": "sc:Range",
+      "label": "REP46962582",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46962583",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003934716",
+  "viewingHint": "paged"
+}

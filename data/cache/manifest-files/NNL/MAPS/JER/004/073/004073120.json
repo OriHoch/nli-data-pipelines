@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER004073120/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "ADPC"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Administrative and political divisions; Eretz Israel -- Maps; Syria -- Maps",
+  "label": "Karte von Syrien. /;&nbsp;Lith. u. gedr. im geogr. lith. Institut v. Albr. Platt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Karte von Syrien. /;&nbsp;Lith. u. gedr. im geogr. lith. Institut v. Albr. Platt."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Administrative and political divisions; Eretz Israel -- Maps; Syria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Platt Albrecht"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER004073120"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1845"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "004073120"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER004073120/sequence/IE49973378",
+      "@type": "sc:Sequence",
+      "label": "Karte von Syrien.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973385",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10562,
+          "height": 13277,
+          "images": [
+            {
+              "@id": "FL49973385",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973385",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973385/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973385",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13277,
+                "width": 10562
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP49973384",
+      "@type": "sc:Range",
+      "label": "REP49973384",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973385",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER004073120",
+  "viewingHint": "paged"
+}

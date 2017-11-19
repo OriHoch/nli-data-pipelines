@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368602/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "A map of the Holy Land or Land of Promise;&nbsp;Distinquished according to the division thereof among ye Twelve Tribes containg. the most remarkable places with Scripture References & c. /;&nbsp;I.Harris Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A map of the Holy Land or Land of Promise;&nbsp;Distinquished according to the division thereof among ye Twelve Tribes containg. the most remarkable places with Scripture References & c. /;&nbsp;I.Harris Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Christiaan van Adrichem 1533-1585"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Harris John"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368602"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1703?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "277 x 550 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368602"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368602/sequence/IE6879825",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071633",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3060,
+          "height": 2000,
+          "images": [
+            {
+              "@id": "FL7071633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071633",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2000,
+                "width": 3060
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071632",
+      "@type": "sc:Range",
+      "label": "REP7071632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071633",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368602",
+  "viewingHint": "paged"
+}

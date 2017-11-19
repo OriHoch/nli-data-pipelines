@@ -1,0 +1,158 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002709241/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Land tenure -- Eretz Israel -- Maps; Herzeliyya (Israel) -- Maps; Eretz Israel -- Maps",
+  "label": "אדמת ג'ליל;&nbsp;חברת הכשרת הישוב בא\"י.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אדמת ג'ליל;&nbsp;חברת הכשרת הישוב בא\"י."
+    },
+    {
+      "label": "Contributor",
+      "value": "Hevrat hakhsharat ha-yishshuv (Palestine)"
+    },
+    {
+      "label": "Publisher",
+      "value": "[ירושלים] :חברת הכשרת הישוב בא\"י"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Land tenure -- Eretz Israel -- Maps; Herzeliyya (Israel) -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002709241"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1923?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה : צבע ; 26x20.1 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Land of Jelil [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002709241"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002709241/sequence/IE4541991",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089260",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 3737,
+          "height": 4525,
+          "images": [
+            {
+              "@id": "FL5089260",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5089260",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5089260/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5089260",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4525,
+                "width": 3737
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089261",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 3721,
+          "height": 4560,
+          "images": [
+            {
+              "@id": "FL5089261",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5089261",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5089261/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5089261",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4560,
+                "width": 3721
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5089259",
+      "@type": "sc:Range",
+      "label": "REP5089259",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089260",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089261",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002709241",
+  "viewingHint": "paged"
+}

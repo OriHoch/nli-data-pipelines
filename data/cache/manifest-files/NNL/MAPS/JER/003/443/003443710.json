@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003443710/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Friendship -- Philosophy",
+  "label": "Die Land-Charte darinen die wahre Freundschaft emblematisch vorgestellt;&nbsp;Gottlieb Grän Sculps. et exc. A.V.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die Land-Charte darinen die wahre Freundschaft emblematisch vorgestellt;&nbsp;Gottlieb Grän Sculps. et exc. A.V."
+    },
+    {
+      "label": "Publisher",
+      "value": "A.V.,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Friendship -- Philosophy"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Grän Gottlieb"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003443710"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 47x61 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003443710"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003443710/sequence/IE17237430",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; Land-Charte darinen die wahre Freundschaft emblematisch vorgestellt",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245845",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15000,
+          "height": 11550,
+          "images": [
+            {
+              "@id": "FL17245845",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17245845",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17245845/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17245845",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11550,
+                "width": 15000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17245844",
+      "@type": "sc:Range",
+      "label": "REP17245844",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245845",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003443710",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003923224/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003923224"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1883"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003923224"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003923224/sequence/IE42848026",
+      "@type": "sc:Sequence",
+      "label": "Palestine.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848044",
+          "@type": "sc:Canvas",
+          "label": "01 North",
+          "width": 9071,
+          "height": 6616,
+          "images": [
+            {
+              "@id": "FL42848044",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL42848044",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL42848044/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 North",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL42848044",
+                  "label": "01 North",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6616,
+                "width": 9071
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP42848042",
+      "@type": "sc:Range",
+      "label": "REP42848042",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848044",
+          "@type": "sc:Canvas",
+          "label": "01 North"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003923224",
+  "viewingHint": "paged"
+}

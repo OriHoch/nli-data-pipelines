@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003786339/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "The celebrated city of Jerusalem (now called by the Turks Cudsembaric);&nbsp;including it's several famous buildings now in decay /;&nbsp;Lodge sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The celebrated city of Jerusalem (now called by the Turks Cudsembaric);&nbsp;including it's several famous buildings now in decay /;&nbsp;Lodge sculp."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Alexander Hogg"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lodge John"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003786339"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1784"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 28.7 x 20.4 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003786339"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003786339/sequence/IE28955907",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; celebrated city of Jerusalem (now called by the Turks Cudsembaric)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28955920",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8277,
+          "height": 5398,
+          "images": [
+            {
+              "@id": "FL28955920",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28955920",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28955920/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28955920",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5398,
+                "width": 8277
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP28955918",
+      "@type": "sc:Range",
+      "label": "REP28955918",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28955920",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003786339",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002605370/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russia -- Maps; Sarmatia -- Maps",
+  "label": "Sarmatia Utraque Europaea et Asiatica;&nbsp;Autore N.Sanson.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Sarmatia Utraque Europaea et Asiatica;&nbsp;Autore N.Sanson."
+    },
+    {
+      "label": "Contributor",
+      "value": "Pierre Mortier 1661-1711"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :P.Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russia -- Maps; Sarmatia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002605370"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1705"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 40 x 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002605370"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002605370/sequence/IE36378868",
+      "@type": "sc:Sequence",
+      "label": "Sarmatia Utraque Europaea et Asiatica",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378874",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14860,
+          "height": 11848,
+          "images": [
+            {
+              "@id": "FL36378874",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36378874",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36378874/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36378874",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11848,
+                "width": 14860
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36378873",
+      "@type": "sc:Range",
+      "label": "REP36378873",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378874",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002605370",
+  "viewingHint": "paged"
+}

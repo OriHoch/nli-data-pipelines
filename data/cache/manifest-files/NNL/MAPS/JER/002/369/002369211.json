@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369211/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Eretz Israel -- Maps; Christianity -- Middle East -- Maps; Eretz Israel -- Maps",
+  "label": "Land-Charte ueber die Reysen der H.Apostel sonderlich des H.Pauli",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Land-Charte ueber die Reysen der H.Apostel sonderlich des H.Pauli"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Tuebingen],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Eretz Israel -- Maps; Christianity -- Middle East -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369211"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1729"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "310x440 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369211"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369211/sequence/IE6882638",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073830",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3050,
+          "height": 2055,
+          "images": [
+            {
+              "@id": "FL7073830",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073830",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073830/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073830",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2055,
+                "width": 3050
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073829",
+      "@type": "sc:Range",
+      "label": "REP7073829",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073830",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369211",
+  "viewingHint": "paged"
+}

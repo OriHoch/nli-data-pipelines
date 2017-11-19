@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Temple of Jerusalem (Jerusalem, Israel) -- Maps",
+  "label": "Plan du Temple de Ierusalem, avec la description des parties dont il etoit compose;&nbsp;Dressee par Mr. Prideaux, Doyen de Norwich, sur les Memoires que fournissent l'Ecriture s.te, Iosephe et le Talmud.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan du Temple de Ierusalem, avec la description des parties dont il etoit compose;&nbsp;Dressee par Mr. Prideaux, Doyen de Norwich, sur les Memoires que fournissent l'Ecriture s.te, Iosephe et le Talmud."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Temple of Jerusalem (Jerusalem, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Prideaux Humphrey, 1648-1724"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368157"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1728"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "305x285 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368157/sequence/IE51320589",
+      "@type": "sc:Sequence",
+      "label": "Plan du Temple de Ierusalem; avec la description des parties dont il etoit compose",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320598",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10042,
+          "height": 8109,
+          "images": [
+            {
+              "@id": "FL51320598",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL51320598",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL51320598/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL51320598",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8109,
+                "width": 10042
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP51320596",
+      "@type": "sc:Range",
+      "label": "REP51320596",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320598",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368157",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003256102/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. קורפו, יוון. תל\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. קורפו, יוון. תל\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "נסים יהושע בן יהושע נסים (חתן) ; בוללי, לונא בת דוד (כלה) ; מצא, אליה בן שמואל (עד) ; כץ, חיים בן ברוך (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "קורפו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003256102"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כט בכסלו תל\"ד (1673)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Kerkyra, Greece. 1673"
+    },
+    {
+      "label": "SysNum",
+      "value": "003256102"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003256102/sequence/IE9196382",
+      "@type": "sc:Sequence",
+      "label": "גרסא אלקטרונית - [כתובה. קורפו; יוון; תל&quot;ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464926",
+          "@type": "sc:Canvas",
+          "label": "3256102",
+          "width": 508,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464926",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464926",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464926/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3256102",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464926",
+                  "label": "3256102",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 508
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464923",
+      "@type": "sc:Range",
+      "label": "REP9464923",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464926",
+          "@type": "sc:Canvas",
+          "label": "3256102"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003256102",
+  "viewingHint": "paged"
+}

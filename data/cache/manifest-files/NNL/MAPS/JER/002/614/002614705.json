@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002614705/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tatars -- Maps",
+  "label": "Description de la Tartarie;&nbsp;tirée en partie de plusieur Cartes qui en ont estè faictes en partie de diverses Relations et de divers Autheurs Arabes qui ont esté au jour iusques a present /;&nbsp;Par le S. Sanson d'Abbeville. Somer Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Description de la Tartarie;&nbsp;tirée en partie de plusieur Cartes qui en ont estè faictes en partie de diverses Relations et de divers Autheurs Arabes qui ont esté au jour iusques a present /;&nbsp;Par le S. Sanson d'Abbeville. Somer Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Somer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Pierre Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tatars -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002614705"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1654"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 357 x 530 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002614705"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002614705/sequence/IE36380654",
+      "@type": "sc:Sequence",
+      "label": "Description de la Tartarie",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380662",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14166,
+          "height": 10308,
+          "images": [
+            {
+              "@id": "FL36380662",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36380662",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36380662/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36380662",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10308,
+                "width": 14166
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36380661",
+      "@type": "sc:Range",
+      "label": "REP36380661",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380662",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002614705",
+  "viewingHint": "paged"
+}

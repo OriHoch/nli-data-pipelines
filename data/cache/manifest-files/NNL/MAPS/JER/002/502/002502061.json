@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002502061/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Egypt -- Maps; Sinai (Egypt) -- Maps; Nile River Delta (Egypt) -- Maps; Israel, South -- Maps; Bible -- Geography -- Maps",
+  "label": "[Part of the Mediterranean sea with the bounds of the Holy Land and plan of the mud walled villages on the Nile] /;&nbsp;Abr. Elton del",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Part of the Mediterranean sea with the bounds of the Holy Land and plan of the mud walled villages on the Nile] /;&nbsp;Abr. Elton del"
+    },
+    {
+      "label": "Contributor",
+      "value": "Abr Elton"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Egypt -- Maps; Sinai (Egypt) -- Maps; Nile River Delta (Egypt) -- Maps; Israel, South -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shaw Thomas, 1694-1751"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002502061"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1757"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 32 X 44 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Exodus] [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002502061"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002502061/sequence/IE25570221",
+      "@type": "sc:Sequence",
+      "label": "[Part of the Mediterranean sea with the bounds of the Holy Land and plan of the mud walled villages on the Nile] /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570228",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11310,
+          "height": 8674,
+          "images": [
+            {
+              "@id": "FL25570228",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570228",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570228/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570228",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8674,
+                "width": 11310
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570227",
+      "@type": "sc:Range",
+      "label": "REP25570227",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570228",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002502061",
+  "viewingHint": "paged"
+}

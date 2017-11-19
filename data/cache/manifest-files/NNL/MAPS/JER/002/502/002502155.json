@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002502155/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Nile River -- Maps",
+  "label": "Land zwischen den kleinen und großen Kataracten des Nil : Mit Grundrissen der Monumente /;&nbsp;Lith: D. J. Wöber",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Land zwischen den kleinen und großen Kataracten des Nil : Mit Grundrissen der Monumente /;&nbsp;Lith: D. J. Wöber"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :A. v. Prokesch"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nile River -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Prokesch von Osten Anton, Graf, 1795-1876"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002502155"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1827"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 94 X 65 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002502155"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002502155/sequence/IE25570513",
+      "@type": "sc:Sequence",
+      "label": "Land zwischen den kleinen und großen Kataracten des Nil : Mit Grundrissen der Monumente /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570519",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17352,
+          "height": 23999,
+          "images": [
+            {
+              "@id": "FL25570519",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570519",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570519/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570519",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23999,
+                "width": 17352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570518",
+      "@type": "sc:Range",
+      "label": "REP25570518",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570519",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002502155",
+  "viewingHint": "paged"
+}

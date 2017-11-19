@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003886550/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Acre (Israel) -- History -- Siege, 1189-1191 -- Maps",
+  "label": "Batailles du Moyen age 7e Feuille = Schlachten des Mittelalters 7tes Blatt:.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Batailles du Moyen age 7e Feuille = Schlachten des Mittelalters 7tes Blatt:."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Acre (Israel) -- History -- Siege, 1189-1191 -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003886550"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1831"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Belagerung von Nicaea, vom 5ten Mai 20ten Juni 1097 = Siege de Nicaea, du 5 Mai au 20 Juin 1097",
+        "Belagerung von Damiette, im jahr 1218 – 1219 = Siege de Damiette, en 1218 1219.",
+        "Schlacht bei Ptolemais, den 4ten Octob: 1189 =Bataille de Ptolemais, le 4 October, 1189"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003886550"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003886550/sequence/IE37105188",
+      "@type": "sc:Sequence",
+      "label": "Batailles du Moyen age 7e Feuille = Schlachten des Mittelalters 7tes Blatt:.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37105245",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14604,
+          "height": 12236,
+          "images": [
+            {
+              "@id": "FL37105245",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37105245",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37105245/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37105245",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12236,
+                "width": 14604
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37105242",
+      "@type": "sc:Range",
+      "label": "REP37105242",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37105245",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003886550",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002401015/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Velha Goa (India) -- Maps",
+  "label": "A Ilha e cidade de Goa metropolitana da India e partes orientais;&nbsp;que esta en 15 graos da banda do norte /;&nbsp;Ioannes Hugonius A. linschoten ...Baptista à Doetechum sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A Ilha e cidade de Goa metropolitana da India e partes orientais;&nbsp;que esta en 15 graos da banda do norte /;&nbsp;Ioannes Hugonius A. linschoten ...Baptista à Doetechum sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Baptista van Doetichum -1611"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam?] :C. Claesz?"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Velha Goa (India) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Linschoten Jan Huygen van, approximately 1563-1611"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002401015"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1595"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 56x79 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Goae Indiae orientalis metropolis et Emporij... exacta descriptio"
+    },
+    {
+      "label": "SysNum",
+      "value": "002401015"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002401015/sequence/IE13721133",
+      "@type": "sc:Sequence",
+      "label": "Velha Goa (India)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736695",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12985,
+          "height": 9143,
+          "images": [
+            {
+              "@id": "FL13736695",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13736695",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13736695/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13736695",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9143,
+                "width": 12985
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13736694",
+      "@type": "sc:Range",
+      "label": "REP13736694",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736695",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002401015",
+  "viewingHint": "paged"
+}

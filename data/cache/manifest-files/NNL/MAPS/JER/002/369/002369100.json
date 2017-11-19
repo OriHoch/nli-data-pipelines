@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369100/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Perigrinatie ofte Veertich-iarige Reyse der Kinderen Israels uyt Egypten, door de Roode-zee; mitsgaders de Woestyne tot int beloofde Landt Canaa...ende int licht gegeven;&nbsp;door Claes Ianss Visscher int Iaer 1649. Fr.Brun fe.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Perigrinatie ofte Veertich-iarige Reyse der Kinderen Israels uyt Egypten, door de Roode-zee; mitsgaders de Woestyne tot int beloofde Landt Canaa...ende int licht gegeven;&nbsp;door Claes Ianss Visscher int Iaer 1649. Fr.Brun fe."
+    },
+    {
+      "label": "Contributor",
+      "value": "Claes Janssen Visscher; Fr Brun"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Den Haag],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369100"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1649"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "168x210 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369100"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369100/sequence/IE6881267",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072486",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2748,
+          "height": 2199,
+          "images": [
+            {
+              "@id": "FL7072486",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072486",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072486/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072486",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2199,
+                "width": 2748
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072485",
+      "@type": "sc:Range",
+      "label": "REP7072485",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072486",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369100",
+  "viewingHint": "paged"
+}

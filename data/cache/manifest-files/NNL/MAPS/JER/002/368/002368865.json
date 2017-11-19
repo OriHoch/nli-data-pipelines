@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368865/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "Palestine & C.;&nbsp;Engraved for Prof. Paxton's Illustrations of Scriptures /;&nbsp;W.H.Lizars Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine & C.;&nbsp;Engraved for Prof. Paxton's Illustrations of Scriptures /;&nbsp;W.H.Lizars Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "William Home Lizars"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Edinburgh] :Striling & Kenney"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Paxton George"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368865"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1825"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "209x297 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368865"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368865/sequence/IE6881383",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072595",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2850,
+          "height": 2162,
+          "images": [
+            {
+              "@id": "FL7072595",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072595",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072595/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072595",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2162,
+                "width": 2850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072594",
+      "@type": "sc:Range",
+      "label": "REP7072594",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072595",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368865",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003365578/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mediterranean Sea -- Maps",
+  "label": "Pascaarte van't westlyckste deel van de Middelandtsche Zee",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pascaarte van't westlyckste deel van de Middelandtsche Zee"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Apud Ioan. Ianssonium"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mediterranean Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jansson Jan, 1588-1664"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003365578"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 41.8x53.2 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003365578"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003365578/sequence/IE13730458",
+      "@type": "sc:Sequence",
+      "label": "Mediterranean Sea",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746019",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9643,
+          "height": 8193,
+          "images": [
+            {
+              "@id": "FL13746019",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746019",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746019/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746019",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8193,
+                "width": 9643
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746018",
+      "@type": "sc:Range",
+      "label": "REP13746018",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746019",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003365578",
+  "viewingHint": "paged"
+}

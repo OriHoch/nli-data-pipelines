@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER004073143/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "ADPC"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Die heilige statt Jerusalem contrafehtet nach form und gestalt wie sie ietz erbauwen.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die heilige statt Jerusalem contrafehtet nach form und gestalt wie sie ietz erbauwen."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Münster Sebastian, 1489-1552"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER004073143"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1550."
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "004073143"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER004073143/sequence/IE49973476",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; heilige statt Jerusalem contrafehtet nach form und gestalt wie sie ietz erbauwen.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973481",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 9756,
+          "height": 8048,
+          "images": [
+            {
+              "@id": "FL49973481",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973481",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973481/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973481",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8048,
+                "width": 9756
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973487",
+          "@type": "sc:Canvas",
+          "label": "02 Verso",
+          "width": 9715,
+          "height": 8047,
+          "images": [
+            {
+              "@id": "FL49973487",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973487",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973487/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973487",
+                  "label": "02 Verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8047,
+                "width": 9715
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP49973480",
+      "@type": "sc:Range",
+      "label": "REP49973480",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973481",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973487",
+          "@type": "sc:Canvas",
+          "label": "02 Verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER004073143",
+  "viewingHint": "paged"
+}

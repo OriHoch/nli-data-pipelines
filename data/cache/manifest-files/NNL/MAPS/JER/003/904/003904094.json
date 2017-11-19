@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003904094/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps",
+  "label": "Map of Canaan. Part of Egypt and the route of the Israelites through the wilderness B. C. 1652 - 1612 /;&nbsp;by I. S. Clare.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of Canaan. Part of Egypt and the route of the Israelites through the wilderness B. C. 1652 - 1612 /;&nbsp;by I. S. Clare."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Cram, George Franklin, 1842-1928"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003904094"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1899"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003904094"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003904094/sequence/IE37128260",
+      "@type": "sc:Sequence",
+      "label": "Map of Canaan. Part of Egypt and the route of the Israelites through the wilderness B. C. 1652 - 1612 /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37128266",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3157,
+          "height": 4316,
+          "images": [
+            {
+              "@id": "FL37128266",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37128266",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37128266/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37128266",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4316,
+                "width": 3157
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37128265",
+      "@type": "sc:Range",
+      "label": "REP37128265",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37128266",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003904094",
+  "viewingHint": "paged"
+}

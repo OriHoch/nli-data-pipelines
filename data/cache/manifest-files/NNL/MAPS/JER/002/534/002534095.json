@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534095/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "La Grecia /;&nbsp;descritta dal P. M. Coronelli",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Grecia /;&nbsp;descritta dal P. M. Coronelli"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Baptiste Nolin 1648-1708"
+    },
+    {
+      "label": "Publisher",
+      "value": "Venezia Parigi :Gio. Batta Nolin"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Coronelli Vincenzo, 1650-1718"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534095"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1696"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 45 X 60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534095"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534095/sequence/IE35072697",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;La&gt;&gt; Grecia /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072714",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17125,
+          "height": 12218,
+          "images": [
+            {
+              "@id": "FL35072714",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072714",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072714/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072714",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12218,
+                "width": 17125
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072713",
+      "@type": "sc:Range",
+      "label": "REP35072713",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072714",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534095",
+  "viewingHint": "paged"
+}

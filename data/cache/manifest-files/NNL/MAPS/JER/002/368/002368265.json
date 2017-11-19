@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368265/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sinai (Egypt) -- Maps",
+  "label": "Pharan desertum, et confinia eius cum parte Aegypti;&nbsp;ea videlicet terrae regio, in qua filii Israel post exitum de Aegypto, triginta octo annis vagati sunt antequam terram promissam ingrederentur",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pharan desertum, et confinia eius cum parte Aegypti;&nbsp;ea videlicet terrae regio, in qua filii Israel post exitum de Aegypto, triginta octo annis vagati sunt antequam terram promissam ingrederentur"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jodocus Henricus Kramer"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Koeln] :Jodocus Henricus Kramer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sinai (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Adrichem Christiaan van, 1533-1585"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368265"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1682"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "345x490 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368265"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368265/sequence/IE6878578",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070708",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2850,
+          "height": 2142,
+          "images": [
+            {
+              "@id": "FL7070708",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070708",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070708/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070708",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2142,
+                "width": 2850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070707",
+      "@type": "sc:Range",
+      "label": "REP7070707",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070708",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368265",
+  "viewingHint": "paged"
+}

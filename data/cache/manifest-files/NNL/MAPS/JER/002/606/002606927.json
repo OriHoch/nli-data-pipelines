@@ -1,0 +1,127 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002606927/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Estonia -- Maps; Poland -- Maps",
+  "label": "Pomeraniae, Wandalicae Regionis, Typ[us]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pomeraniae, Wandalicae Regionis, Typ[us]"
+    },
+    {
+      "label": "Publisher",
+      "value": "Anvers,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Estonia -- Maps; Poland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Portant Jan"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002606927"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1598"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 43.2 x 54.2 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Livoniae Nova Descriptio / Joanne Portantio auctore [cartographic material]",
+        "Ducatus Oswieczensis, Et Zatoriensis, Descriptio [cartographic material]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002606927"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002606927/sequence/IE35475264",
+      "@type": "sc:Sequence",
+      "label": "Pomeraniae; Wandalicae Regionis; Typ[us]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475268",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12992,
+          "height": 10217,
+          "images": [
+            {
+              "@id": "FL35475268",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35475268",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35475268/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35475268",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10217,
+                "width": 12992
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35475267",
+      "@type": "sc:Range",
+      "label": "REP35475267",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475268",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002606927",
+  "viewingHint": "paged"
+}

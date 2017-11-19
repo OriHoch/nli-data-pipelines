@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002484654/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asia antiqua cum finitimis Africæ et Europæ regionibus /;&nbsp;Nicolaus Blancardus Belga, Leidensis, ad lucem ævi veteris delineabat",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia antiqua cum finitimis Africæ et Europæ regionibus /;&nbsp;Nicolaus Blancardus Belga, Leidensis, ad lucem ævi veteris delineabat"
+    },
+    {
+      "label": "Publisher",
+      "value": "Leyden,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blankaart Nikolaas, 1624-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002484654"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1664"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 46 X 55 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002484654"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002484654/sequence/IE27958410",
+      "@type": "sc:Sequence",
+      "label": "Asia antiqua cum finitimis Africæ et Europæ regionibus /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958414",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14400,
+          "height": 11923,
+          "images": [
+            {
+              "@id": "FL27958414",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27958414",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27958414/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27958414",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11923,
+                "width": 14400
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27958413",
+      "@type": "sc:Range",
+      "label": "REP27958413",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958414",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002484654",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002496786/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps",
+  "label": "L'Afrique :;&nbsp;divisée suivant l'estendue de ses Principales Parties, ou sont distingués les uns des autres les empires, monarchies, royaumes, estats, et peuples, qui partagent aujourd' huy L' Afrique /;&nbsp;Par le Sr. Sanson. L. Cordier sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Afrique :;&nbsp;divisée suivant l'estendue de ses Principales Parties, ou sont distingués les uns des autres les empires, monarchies, royaumes, estats, et peuples, qui partagent aujourd' huy L' Afrique /;&nbsp;Par le Sr. Sanson. L. Cordier sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Louis Cordier -1711; Alexis Hubert Jaillot 1632?-1712"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :H. Iaillot"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Guillaume, 1633-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002496786"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1719"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 45 X 63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002496786"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002496786/sequence/IE35470200",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Afrique :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470209",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18095,
+          "height": 12982,
+          "images": [
+            {
+              "@id": "FL35470209",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35470209",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35470209/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35470209",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12982,
+                "width": 18095
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35470208",
+      "@type": "sc:Range",
+      "label": "REP35470208",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470209",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002496786",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002471695/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Valletta (Malta) -- Maps",
+  "label": "Veu del porto dell entrata e della citta di Malta;&nbsp;Peint per Goupy ; Suntach a dirige",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Veu del porto dell entrata e della citta di Malta;&nbsp;Peint per Goupy ; Suntach a dirige"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Valletta (Malta) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Goupy Joseph"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002471695"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1740"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 208 X 250 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita;fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Vue du Port de l'entrée et de la ville de Malte"
+    },
+    {
+      "label": "SysNum",
+      "value": "002471695"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002471695/sequence/IE13722358",
+      "@type": "sc:Sequence",
+      "label": "Valletta (Malta)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736913",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4058,
+          "height": 3398,
+          "images": [
+            {
+              "@id": "FL13736913",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13736913",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13736913/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13736913",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3398,
+                "width": 4058
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13736912",
+      "@type": "sc:Range",
+      "label": "REP13736912",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736913",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002471695",
+  "viewingHint": "paged"
+}

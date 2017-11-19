@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002480923/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Asia Minor;&nbsp;W.H.Toms sculpt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia Minor;&nbsp;W.H.Toms sculpt."
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Toms W. H. (William Henry), fl.1723-1758"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002480923"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1817?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 205 x 305 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002480923"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002480923/sequence/IE27957622",
+      "@type": "sc:Sequence",
+      "label": "Asia Minor",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957631",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8973,
+          "height": 5914,
+          "images": [
+            {
+              "@id": "FL27957631",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27957631",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27957631/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27957631",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5914,
+                "width": 8973
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27957630",
+      "@type": "sc:Range",
+      "label": "REP27957630",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957631",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002480923",
+  "viewingHint": "paged"
+}

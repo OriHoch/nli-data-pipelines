@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003958927/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Great Britain. Army. Egyptian Expeditionary Force; World War, 1914-1918 -- Regimental histories -- Great Britain; Eretz Israel -- Maps",
+  "label": "Advance through Philistia Situation at 6 p.m. On 1-11-17 as known at G.H.Q.E.E.F. :;&nbsp;Situation at 6 p.m. On 1-11-17 as known at G.H.Q.E.E.F.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Advance through Philistia Situation at 6 p.m. On 1-11-17 as known at G.H.Q.E.E.F. :;&nbsp;Situation at 6 p.m. On 1-11-17 as known at G.H.Q.E.E.F."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Great Britain. Army. Egyptian Expeditionary Force; World War, 1914-1918 -- Regimental histories -- Great Britain; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003958927"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1919"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003958927"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003958927/sequence/IE45612605",
+      "@type": "sc:Sequence",
+      "label": "Advance through Philistia Situation at 6 p.m. On 1-11-17 as known at G.H.Q.E.E.F. :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612617",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2568,
+          "height": 3245,
+          "images": [
+            {
+              "@id": "FL45612617",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45612617",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45612617/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45612617",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3245,
+                "width": 2568
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45612616",
+      "@type": "sc:Range",
+      "label": "REP45612616",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612617",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003958927",
+  "viewingHint": "paged"
+}

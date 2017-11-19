@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003886491/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps",
+  "label": "Die Reise der Kinder Israel aus Egypten durchs Rothe Meer ihr um Schweitt durch die Wüsten /;&nbsp;J. Sandrart sculpsit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die Reise der Kinder Israel aus Egypten durchs Rothe Meer ihr um Schweitt durch die Wüsten /;&nbsp;J. Sandrart sculpsit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jacob von Sandrart 1630-1708"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003886491"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1692?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003886491"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003886491/sequence/IE37105172",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; Reise der Kinder Israel aus Egypten durchs Rothe Meer ihr um Schweitt durch die Wüsten /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37105243",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13033,
+          "height": 10034,
+          "images": [
+            {
+              "@id": "FL37105243",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37105243",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37105243/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37105243",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10034,
+                "width": 13033
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37105240",
+      "@type": "sc:Range",
+      "label": "REP37105240",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37105243",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003886491",
+  "viewingHint": "paged"
+}

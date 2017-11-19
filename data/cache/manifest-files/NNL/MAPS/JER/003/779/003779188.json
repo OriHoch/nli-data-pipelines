@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003779188/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Yavne Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Yibna;&nbsp;Compiled, drawn and reproduced by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Yibna;&nbsp;Compiled, drawn and reproduced by Survey of Palestine."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Yavne Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003779188"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1953"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 49x69 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ישראל. 1:100,000 1952-1958 ; 8"
+    },
+    {
+      "label": "SysNum",
+      "value": "003779188"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003779188/sequence/IE44298396",
+      "@type": "sc:Sequence",
+      "label": "Yibna",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298410",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16595,
+          "height": 11814,
+          "images": [
+            {
+              "@id": "FL44298410",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44298410",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44298410/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44298410",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11814,
+                "width": 16595
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44298409",
+      "@type": "sc:Range",
+      "label": "REP44298409",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44298410",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003779188",
+  "viewingHint": "paged"
+}

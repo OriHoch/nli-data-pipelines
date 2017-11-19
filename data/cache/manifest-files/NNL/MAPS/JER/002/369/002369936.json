@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369936/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Istanbul (Turkey) -- Maps",
+  "label": "Constantinopolis;&nbsp;amplisima, potentisima, et magnificentisima Urbs et fedes Imperatoris Turcici... /;&nbsp;verlegt von M. Seutter.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Constantinopolis;&nbsp;amplisima, potentisima, et magnificentisima Urbs et fedes Imperatoris Turcici... /;&nbsp;verlegt von M. Seutter."
+    },
+    {
+      "label": "Publisher",
+      "value": "Augspurg,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Istanbul (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seutter Matthaeus, 1678-1756"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369936"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1740?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "348x571 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Constantinopel, die groesest, maechtigst... [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369936"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369936/sequence/IE33122145",
+      "@type": "sc:Sequence",
+      "label": "Constantinopolis",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33122149",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14061,
+          "height": 8678,
+          "images": [
+            {
+              "@id": "FL33122149",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33122149",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33122149/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33122149",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8678,
+                "width": 14061
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33122148",
+      "@type": "sc:Range",
+      "label": "REP33122148",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33122149",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369936",
+  "viewingHint": "paged"
+}

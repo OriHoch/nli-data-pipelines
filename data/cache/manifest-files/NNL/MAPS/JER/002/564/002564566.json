@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002564566/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Malta -- Maps; Valletta (Malta) -- Maps",
+  "label": "Insula Malta accuratißime Delineata Urbibus et Fortalitiis expressa;&nbsp;a Frederico de Wit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Insula Malta accuratißime Delineata Urbibus et Fortalitiis expressa;&nbsp;a Frederico de Wit."
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelaedami,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Malta -- Maps; Valletta (Malta) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wit Frederik de, approximately 1629-1706"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002564566"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1680"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 54 X 63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002564566"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002564566/sequence/IE13730015",
+      "@type": "sc:Sequence",
+      "label": "Valletta (Malta)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745544",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10171,
+          "height": 8713,
+          "images": [
+            {
+              "@id": "FL13745544",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745544",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745544/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745544",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8713,
+                "width": 10171
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745543",
+      "@type": "sc:Range",
+      "label": "REP13745543",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745544",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002564566",
+  "viewingHint": "paged"
+}

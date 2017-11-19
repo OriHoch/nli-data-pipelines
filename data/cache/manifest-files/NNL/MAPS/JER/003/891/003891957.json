@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003891957/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "Canaan with Mesopotamia and the adjacent countries in the Patriarchal ages /;&nbsp;Drawn & engd by J. Somerville.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Canaan with Mesopotamia and the adjacent countries in the Patriarchal ages /;&nbsp;Drawn & engd by J. Somerville."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003891957"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1860?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003891957"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003891957/sequence/IE35090220",
+      "@type": "sc:Sequence",
+      "label": "Canaan with Mesopotamia and the adjacent countries in the Patriarchal ages /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35090230",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7412,
+          "height": 5957,
+          "images": [
+            {
+              "@id": "FL35090230",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35090230",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35090230/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35090230",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5957,
+                "width": 7412
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35090227",
+      "@type": "sc:Range",
+      "label": "REP35090227",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35090230",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003891957",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002531613/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps; Peloponnesus (Greece : Peninsula) -- Maps",
+  "label": "Græcia Extra Peloponnesum /;&nbsp;Drawn and engraved by Sidy. Hall",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Græcia Extra Peloponnesum /;&nbsp;Drawn and engraved by Sidy. Hall"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Longman, Rees. Orme, Brown & Green"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps; Peloponnesus (Greece : Peninsula) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Hall Sidney"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002531613"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1829"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 19 X 24 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002531613"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002531613/sequence/IE35071861",
+      "@type": "sc:Sequence",
+      "label": "Græcia Extra Peloponnesum /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071877",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6388,
+          "height": 5043,
+          "images": [
+            {
+              "@id": "FL35071877",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35071877",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35071877/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35071877",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5043,
+                "width": 6388
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35071876",
+      "@type": "sc:Range",
+      "label": "REP35071876",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071877",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002531613",
+  "viewingHint": "paged"
+}

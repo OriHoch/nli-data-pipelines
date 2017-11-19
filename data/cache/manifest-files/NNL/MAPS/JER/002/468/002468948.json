@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002468948/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Cheb (Czech Republic) -- Maps; Prague (Czech Republic) -- Maps",
+  "label": "Kriegs-Expeditions-Carte von Bohmen.;&nbsp;II. Blat,;&nbsp;In welcher die Kriegs-Operationen von Prag und Eger /;&nbsp;von Homaenn Erben = Carte des Expeditions de la guerre en Boheme. II. feuille ... / dressée sur les derniers plans des ingenieurs François à Norimberg ...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Kriegs-Expeditions-Carte von Bohmen.;&nbsp;II. Blat,;&nbsp;In welcher die Kriegs-Operationen von Prag und Eger /;&nbsp;von Homaenn Erben = Carte des Expeditions de la guerre en Boheme. II. feuille ... / dressée sur les derniers plans des ingenieurs François à Norimberg ..."
+    },
+    {
+      "label": "Publisher",
+      "value": "NÜrnberg,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Cheb (Czech Republic) -- Maps; Prague (Czech Republic) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Homann Erben (Firm)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002468948"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1743"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 54 X 63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger;fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Carte des Expeditions de la guerre en Boheme. II. feuille. Representant les operations de la guerre devant d'Egra et de Prague"
+    },
+    {
+      "label": "SysNum",
+      "value": "002468948"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002468948/sequence/IE39695675",
+      "@type": "sc:Sequence",
+      "label": "Kriegs-Expeditions-Carte von Bohmen.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695681",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15483,
+          "height": 13313,
+          "images": [
+            {
+              "@id": "FL39695681",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695681",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695681/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695681",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13313,
+                "width": 15483
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695680",
+      "@type": "sc:Range",
+      "label": "REP39695680",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695681",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002468948",
+  "viewingHint": "paged"
+}

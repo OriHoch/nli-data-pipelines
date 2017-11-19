@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368400/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Geology -- Middle East -- Maps; Mines and mineral resources -- Middle East -- Maps; Mines and mineral resources -- Syria -- Maps; Mines and mineral resources -- Egypt -- Maps; Mines and mineral resources -- Eretz Israel -- Maps; Egypt -- Maps",
+  "label": "Carte mineralogique sur la nature du terrein d'une partie de l'Orient et particulierement de l'Egypte, de la Palestine et de la Syrie;&nbsp;Dressée en 1751 par Philippe Buache... sur les recherches et pour un mémoire de Mr. Guettard.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte mineralogique sur la nature du terrein d'une partie de l'Orient et particulierement de l'Egypte, de la Palestine et de la Syrie;&nbsp;Dressée en 1751 par Philippe Buache... sur les recherches et pour un mémoire de Mr. Guettard."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Etienne Guettard"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Geology -- Middle East -- Maps; Mines and mineral resources -- Middle East -- Maps; Mines and mineral resources -- Syria -- Maps; Mines and mineral resources -- Egypt -- Maps; Mines and mineral resources -- Eretz Israel -- Maps; Egypt -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Buache Philippe, 1700-1773"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368400"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1751"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "264x363 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368400"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368400/sequence/IE6879608",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071291",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2751,
+          "height": 2071,
+          "images": [
+            {
+              "@id": "FL7071291",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071291",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071291/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071291",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2071,
+                "width": 2751
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071290",
+      "@type": "sc:Range",
+      "label": "REP7071290",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071291",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368400",
+  "viewingHint": "paged"
+}

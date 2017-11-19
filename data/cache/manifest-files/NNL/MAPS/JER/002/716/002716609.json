@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002716609/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Natolia detta anticamente Asia Minore;&nbsp;Descritta da Guglielmo Sansone.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Natolia detta anticamente Asia Minore;&nbsp;Descritta da Guglielmo Sansone."
+    },
+    {
+      "label": "Publisher",
+      "value": "Napoli :Paolo Petrini"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Guillaume, 1633-1703"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002716609"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1717"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 41x55 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002716609"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002716609/sequence/IE36010839",
+      "@type": "sc:Sequence",
+      "label": "Natolia detta anticamente Asia Minore",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010847",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14980,
+          "height": 12179,
+          "images": [
+            {
+              "@id": "FL36010847",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010847",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010847/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010847",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12179,
+                "width": 14980
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010846",
+      "@type": "sc:Range",
+      "label": "REP36010846",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010847",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002716609",
+  "viewingHint": "paged"
+}

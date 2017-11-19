@@ -1,0 +1,125 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003911459/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Atlit Region (Israel) -- Maps; Yavne Yam (Israel) -- Maps; Caesarea (Israel) -- Maps; Jaffa (Tel Aviv-Yafo, Israel) -- Maps",
+  "label": "Jaffa autrefois Joppé ou Japho /;&nbsp;Grave par J. Geisendorfer.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jaffa autrefois Joppé ou Japho /;&nbsp;Grave par J. Geisendorfer."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Atlit Region (Israel) -- Maps; Yavne Yam (Israel) -- Maps; Caesarea (Israel) -- Maps; Jaffa (Tel Aviv-Yafo, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "France. Armée. Dépot des Cartes et Plans de la Marine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003911459"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1865"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Côte de Syrie",
+        "Position probable du port d'Yebnah",
+        "Césarée (Kaisaryei)",
+        "Athlit autrefois Catellum Peregrinorum"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003911459"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003911459/sequence/IE36012326",
+      "@type": "sc:Sequence",
+      "label": "Jaffa autrefois Joppé ou Japho /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012338",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11568,
+          "height": 16230,
+          "images": [
+            {
+              "@id": "FL36012338",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36012338",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36012338/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36012338",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16230,
+                "width": 11568
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36012337",
+      "@type": "sc:Range",
+      "label": "REP36012337",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012338",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003911459",
+  "viewingHint": "paged"
+}

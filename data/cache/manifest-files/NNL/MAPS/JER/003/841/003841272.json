@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003841272/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "West Bank -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "ח'רבת א-סמרא /;&nbsp;עובד ושורטט ע\"י מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ח'רבת א-סמרא /;&nbsp;עובד ושורטט ע\"י מחלקת המדידות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "West Bank -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003841272"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1959"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 64 x 73 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ישראל 1:20,000, 1955-1961 ; 19-18"
+    },
+    {
+      "label": "SysNum",
+      "value": "003841272"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003841272/sequence/IE25573697",
+      "@type": "sc:Sequence",
+      "label": "ח&apos;רבת א-סמרא /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25573706",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18070,
+          "height": 15250,
+          "images": [
+            {
+              "@id": "FL25573706",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25573706",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25573706/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25573706",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15250,
+                "width": 18070
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25573705",
+      "@type": "sc:Range",
+      "label": "REP25573705",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25573706",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003841272",
+  "viewingHint": "paged"
+}

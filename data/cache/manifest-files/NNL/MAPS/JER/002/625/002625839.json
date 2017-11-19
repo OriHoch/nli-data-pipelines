@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002625839/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "The Turkish empire;&nbsp;Newly Augmented by Iohn Speed.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Turkish empire;&nbsp;Newly Augmented by Iohn Speed."
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :are to be sold by Roger Rea the elder and younger, at the Golden Cross in Cornhill"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Speed John, 1552?-1629"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002625839"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1626"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 42.5 x 51 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002625839"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002625839/sequence/IE35866209",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; Turkish empire",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866228",
+          "@type": "sc:Canvas",
+          "label": "01 copy 1",
+          "width": 12682,
+          "height": 10031,
+          "images": [
+            {
+              "@id": "FL35866228",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35866228",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35866228/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 copy 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35866228",
+                  "label": "01 copy 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10031,
+                "width": 12682
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866229",
+          "@type": "sc:Canvas",
+          "label": "02 copy 2",
+          "width": 13276,
+          "height": 10519,
+          "images": [
+            {
+              "@id": "FL35866229",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35866229",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35866229/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 copy 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35866229",
+                  "label": "02 copy 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10519,
+                "width": 13276
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35866227",
+      "@type": "sc:Range",
+      "label": "REP35866227",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866228",
+          "@type": "sc:Canvas",
+          "label": "01 copy 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866229",
+          "@type": "sc:Canvas",
+          "label": "02 copy 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002625839",
+  "viewingHint": "paged"
+}

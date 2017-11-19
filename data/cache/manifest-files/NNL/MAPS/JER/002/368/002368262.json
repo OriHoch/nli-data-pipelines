@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368262/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Naphtali (Tribe of Israel) -- Maps; Bible -- Geography -- Maps",
+  "label": "Tribus Neptalim videlicet;&nbsp;ea Terrae Sanctae pars, quam in diuisione regionis tribus Neptalim accepit",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tribus Neptalim videlicet;&nbsp;ea Terrae Sanctae pars, quam in diuisione regionis tribus Neptalim accepit"
+    },
+    {
+      "label": "Contributor",
+      "value": "Gerhardus Brunus approximately 1560-approximately 1630"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Koeln] :Officina Birckmannica"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Naphtali (Tribe of Israel) -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Adrichem Christiaan van, 1533-1585"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368262"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1590"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "210x367 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368262"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368262/sequence/IE6879117",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071019",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2782,
+          "height": 1823,
+          "images": [
+            {
+              "@id": "FL7071019",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071019",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071019/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071019",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1823,
+                "width": 2782
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071018",
+      "@type": "sc:Range",
+      "label": "REP7071018",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071019",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368262",
+  "viewingHint": "paged"
+}

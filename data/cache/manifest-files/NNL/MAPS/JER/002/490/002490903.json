@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002490903/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Arabian Peninsula -- Maps; Iran -- Maps",
+  "label": "Nieuwe en naukeurige kaart van Arabien Asiatisch Turkyen enz /;&nbsp;door Eman.Bowen verbeterd door W.A.Bachiene ; J.van Jagen sculps.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nieuwe en naukeurige kaart van Arabien Asiatisch Turkyen enz /;&nbsp;door Eman.Bowen verbeterd door W.A.Bachiene ; J.van Jagen sculps."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan van Jagen; Willem Albert Bachiene 1712-1783"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arabian Peninsula -- Maps; Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bowen Emanuel, -1767"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002490903"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1769"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 34 X 41 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002490903"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002490903/sequence/IE33131148",
+      "@type": "sc:Sequence",
+      "label": "Nieuwe en naukeurige kaart van Arabien Asiatisch Turkyen enz /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131152",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13716,
+          "height": 10992,
+          "images": [
+            {
+              "@id": "FL33131152",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33131152",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33131152/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33131152",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10992,
+                "width": 13716
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33131151",
+      "@type": "sc:Range",
+      "label": "REP33131151",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131152",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002490903",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002535200/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Hungary -- Maps; Romania -- Maps",
+  "label": "L'Ungheria e parte della Vallachia e della Moldavia :;&nbsp;I. Fogli della Carta generale dell'Ungeria e della Turchia Europea /;&nbsp;Gio. Ma. Cassini ; Som. co. inc",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Ungheria e parte della Vallachia e della Moldavia :;&nbsp;I. Fogli della Carta generale dell'Ungeria e della Turchia Europea /;&nbsp;Gio. Ma. Cassini ; Som. co. inc"
+    },
+    {
+      "label": "Publisher",
+      "value": "Rome :Presso la Calcografia Cam. le"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hungary -- Maps; Romania -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Cassini Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002535200"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1788"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 32 X 45 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002535200"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002535200/sequence/IE35073058",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Ungheria e parte della Vallachia e della Moldavia :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073072",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14619,
+          "height": 10712,
+          "images": [
+            {
+              "@id": "FL35073072",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35073072",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35073072/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35073072",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10712,
+                "width": 14619
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35073071",
+      "@type": "sc:Range",
+      "label": "REP35073071",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073072",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002535200",
+  "viewingHint": "paged"
+}

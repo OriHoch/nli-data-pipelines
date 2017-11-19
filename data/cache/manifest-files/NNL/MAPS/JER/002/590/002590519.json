@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002590519/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sicily (Italy) -- Guidebooks; Syracuse (Italy) -- Maps; Sicily (Italy) -- Maps; Qarṭājannah (Tunisia) -- Maps",
+  "label": "[Sicily]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Sicily]"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sicily (Italy) -- Guidebooks; Syracuse (Italy) -- Maps; Sicily (Italy) -- Maps; Qarṭājannah (Tunisia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002590519"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1677"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 30 X 39 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002590519"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002590519/sequence/IE37479397",
+      "@type": "sc:Sequence",
+      "label": "[Sicily]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37479407",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13305,
+          "height": 8553,
+          "images": [
+            {
+              "@id": "FL37479407",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37479407",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37479407/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37479407",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8553,
+                "width": 13305
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37479406",
+      "@type": "sc:Range",
+      "label": "REP37479406",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37479407",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002590519",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002614786/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tatars -- Maps",
+  "label": "Carte de Tartarie;&nbsp;Dressée sur les Relations de plusieurs Voyageurs de differentes Nations et sur quelques Observations qui ont été faites dans ce paıs la /;&nbsp;Par Guillaume Del'Isle.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de Tartarie;&nbsp;Dressée sur les Relations de plusieurs Voyageurs de differentes Nations et sur quelques Observations qui ont été faites dans ce paıs la /;&nbsp;Par Guillaume Del'Isle."
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :I. Cóvens et C. Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tatars -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "L'Isle Guillaume de, 1675-1726"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002614786"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1730"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 47 x 61 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Tartaria, sive magni chami Imperium [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002614786"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002614786/sequence/IE36380620",
+      "@type": "sc:Sequence",
+      "label": "Carte de Tartarie",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380627",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15062,
+          "height": 12113,
+          "images": [
+            {
+              "@id": "FL36380627",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36380627",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36380627/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36380627",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12113,
+                "width": 15062
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36380626",
+      "@type": "sc:Range",
+      "label": "REP36380626",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380627",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002614786",
+  "viewingHint": "paged"
+}

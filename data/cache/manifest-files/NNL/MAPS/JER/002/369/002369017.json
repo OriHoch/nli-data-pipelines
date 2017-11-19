@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369017/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Iudaea seu Terra Sancta quae Hebraeorum sive Israelitarum in suas duodecim Tribus divisa secretis ab invicem Regnis Iuda et Israel... Vel Geographiae Sacrae ex V. et N. Testamento desumtae Tabula,;&nbsp;in qua Terra Promissa in suas Tribus Partesque distincta. /;&nbsp;Autore N.Sanson.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Iudaea seu Terra Sancta quae Hebraeorum sive Israelitarum in suas duodecim Tribus divisa secretis ab invicem Regnis Iuda et Israel... Vel Geographiae Sacrae ex V. et N. Testamento desumtae Tabula,;&nbsp;in qua Terra Promissa in suas Tribus Partesque distincta. /;&nbsp;Autore N.Sanson."
+    },
+    {
+      "label": "Contributor",
+      "value": "Pierre Mortier 1661-1711; Guillaume Sanson 1633-1703"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Petrum Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369017"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1705"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 460x613 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Iudaea sive Terra Sancta [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369017"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369017/sequence/IE6882314",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073699",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2237,
+          "images": [
+            {
+              "@id": "FL7073699",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073699",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073699/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073699",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2237,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073698",
+      "@type": "sc:Range",
+      "label": "REP7073698",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073699",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369017",
+  "viewingHint": "paged"
+}

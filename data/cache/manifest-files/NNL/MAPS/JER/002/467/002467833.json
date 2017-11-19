@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467833/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Southeast Asia -- Maps; Philippines -- Maps; Malaysia -- Maps; Indonesia -- Maps; China -- Maps; Japan -- Maps; Borneo -- Maps",
+  "label": "Carte des Indes, de la Chine & des iles de Sumatra, Java...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des Indes, de la Chine & des iles de Sumatra, Java..."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Zacharie Châtelain"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Southeast Asia -- Maps; Philippines -- Maps; Malaysia -- Maps; Indonesia -- Maps; China -- Maps; Japan -- Maps; Borneo -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Chatelain Henri Abraham, 1684-1743"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467833"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1732"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 53 X 54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467833"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467833/sequence/IE27936068",
+      "@type": "sc:Sequence",
+      "label": "Carte des Indes; de la Chine &amp; des iles de Sumatra; Java...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27936075",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13448,
+          "height": 12957,
+          "images": [
+            {
+              "@id": "FL27936075",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27936075",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27936075/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27936075",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12957,
+                "width": 13448
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27936074",
+      "@type": "sc:Range",
+      "label": "REP27936074",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27936075",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467833",
+  "viewingHint": "paged"
+}

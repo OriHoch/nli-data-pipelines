@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003940421/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps",
+  "label": "Conspectus Moabitidis ad Intelligentiam Capp XV & XVI Jesaiae.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Conspectus Moabitidis ad Intelligentiam Capp XV & XVI Jesaiae."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vitringa Campegius, 1659-1722"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003940421"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1732"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat;heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003940421"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003940421/sequence/IE48326207",
+      "@type": "sc:Sequence",
+      "label": "Conspectus Moabitidis ad Intelligentiam Capp XV &amp; XVI Jesaiae.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326217",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5462,
+          "height": 2884,
+          "images": [
+            {
+              "@id": "FL48326217",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48326217",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48326217/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48326217",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2884,
+                "width": 5462
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP48326216",
+      "@type": "sc:Range",
+      "label": "REP48326216",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48326217",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003940421",
+  "viewingHint": "paged"
+}

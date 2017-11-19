@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002467642/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Southeast Asia -- Maps; Borneo -- Maps; Indonesia -- Maps; Cambodia -- Maps; Philippines -- Maps; Malaysia -- Maps",
+  "label": "Isole dell India;&nbsp;cioe le Molucche le Filippine e della Sonda... /;&nbsp;Giacomo Cantelli da Vignola",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Isole dell India;&nbsp;cioe le Molucche le Filippine e della Sonda... /;&nbsp;Giacomo Cantelli da Vignola"
+    },
+    {
+      "label": "Contributor",
+      "value": "Giovanni Giacomo de Rossi 1627-1691"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Rome] :Gio. Giacomo de Rossi"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Southeast Asia -- Maps; Borneo -- Maps; Indonesia -- Maps; Cambodia -- Maps; Philippines -- Maps; Malaysia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Cantelli Giacomo, 1643-1695"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002467642"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1683"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 447 X 576 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002467642"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002467642/sequence/IE25569950",
+      "@type": "sc:Sequence",
+      "label": "Isole dell India",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569965",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15342,
+          "height": 11735,
+          "images": [
+            {
+              "@id": "FL25569965",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25569965",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25569965/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25569965",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11735,
+                "width": 15342
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25569963",
+      "@type": "sc:Range",
+      "label": "REP25569963",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569965",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002467642",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370193/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Ethiopia -- Maps",
+  "label": "Aegyptus cum Traglodytice Marmarica et Aethiopia",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Aegyptus cum Traglodytice Marmarica et Aethiopia"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nürnberg] :Christoph Fembo"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Ethiopia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Fembo Christoph, 1805-1876"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370193"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1805"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 19 X 15 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370193"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370193/sequence/IE25569743",
+      "@type": "sc:Sequence",
+      "label": "Aegyptus cum Traglodytice Marmarica et Aethiopia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569749",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4362,
+          "height": 5098,
+          "images": [
+            {
+              "@id": "FL25569749",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25569749",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25569749/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25569749",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5098,
+                "width": 4362
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25569748",
+      "@type": "sc:Range",
+      "label": "REP25569748",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25569749",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370193",
+  "viewingHint": "paged"
+}

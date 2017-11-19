@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300927/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פדובה, איטליה. שכ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פדובה, איטליה. שכ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "יקותיאל ויץ בר אשר (חתן) ; אידלן בת אברהם יוסף, הכהן (כלה) ; שמואל בן יצחק, ש\"ץ מק\"ק פדובה (עד) ; פדובה, יוסף בן יעקב, אשכנזי (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פדואה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300927"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז בחשון שכ\"ב (1561)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 371X312 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Padua, Italy. 1561"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300927"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300927/sequence/IE9215433",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה, שכ&quot;ב].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470356",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 681,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9470356",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9470356",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9470356/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9470356",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 681
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9470354",
+      "@type": "sc:Range",
+      "label": "REP9470354",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9470356",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300927",
+  "viewingHint": "paged"
+}

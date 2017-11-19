@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003908268/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Eretz Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Christian missions /;&nbsp;John Bartholomew & Co. ; The Edinburgh Geographical institute.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Christian missions /;&nbsp;John Bartholomew & Co. ; The Edinburgh Geographical institute."
+    },
+    {
+      "label": "Contributor",
+      "value": "George Adam Smith Sir, 1856-1942; Edinburgh Geographical Institute"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Eretz Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "John Bartholomew & Co."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003908268"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1915"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003908268"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003908268/sequence/IE36567273",
+      "@type": "sc:Sequence",
+      "label": "Christian missions /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36567290",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2605,
+          "height": 4123,
+          "images": [
+            {
+              "@id": "FL36567290",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36567290",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36567290/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36567290",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4123,
+                "width": 2605
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36567289",
+      "@type": "sc:Range",
+      "label": "REP36567289",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36567290",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003908268",
+  "viewingHint": "paged"
+}

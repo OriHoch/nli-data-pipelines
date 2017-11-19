@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002778782/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Rafah-Beersheba;&nbsp;Prepared by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Rafah-Beersheba;&nbsp;Prepared by Survey of Palestine."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002778782"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1940"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "2 sheets : col. ;.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002778782"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002778782/sequence/IE13730398",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745790",
+          "@type": "sc:Canvas",
+          "label": "01 B1",
+          "width": 10932,
+          "height": 9566,
+          "images": [
+            {
+              "@id": "FL13745790",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745790",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745790/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 B1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745790",
+                  "label": "01 B1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9566,
+                "width": 10932
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745791",
+          "@type": "sc:Canvas",
+          "label": "2 B2",
+          "width": 9670,
+          "height": 9920,
+          "images": [
+            {
+              "@id": "FL13745791",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745791",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745791/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "2 B2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745791",
+                  "label": "2 B2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9920,
+                "width": 9670
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745789",
+      "@type": "sc:Range",
+      "label": "REP13745789",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745790",
+          "@type": "sc:Canvas",
+          "label": "01 B1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745791",
+          "@type": "sc:Canvas",
+          "label": "2 B2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002778782",
+  "viewingHint": "paged"
+}

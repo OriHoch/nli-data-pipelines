@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002569366/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Germany -- Maps",
+  "label": "A new map of the German empire and the neighbouring states;&nbsp;with their principal post roads. Originally published by the Royal Academy of Berlin /;&nbsp;Engraved... by William Faden.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new map of the German empire and the neighbouring states;&nbsp;with their principal post roads. Originally published by the Royal Academy of Berlin /;&nbsp;Engraved... by William Faden."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :William Faden"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Germany -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Faden William, 1750?-1836"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002569366"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1788"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 63 X 75 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002569366"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002569366/sequence/IE35076998",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;A&gt;&gt; new map of the German empire and the neighbouring states",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35077002",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 19850,
+          "height": 15928,
+          "images": [
+            {
+              "@id": "FL35077002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35077002",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35077002/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35077002",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15928,
+                "width": 19850
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35077001",
+      "@type": "sc:Range",
+      "label": "REP35077001",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35077002",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002569366",
+  "viewingHint": "paged"
+}

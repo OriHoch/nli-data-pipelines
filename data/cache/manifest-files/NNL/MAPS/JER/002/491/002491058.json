@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002491058/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Arabian Peninsula -- Maps",
+  "label": "Carte de l'Arabie :;&nbsp;qui se divise de Arabie Pétrée, Deserte et Heureuse /;&nbsp;par M. Bonne. Arrivet inv. & Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de l'Arabie :;&nbsp;qui se divise de Arabie Pétrée, Deserte et Heureuse /;&nbsp;par M. Bonne. Arrivet inv. & Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "J Arrivet"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Lattré"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arabian Peninsula -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bonne Rigobert, 1727-1794"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002491058"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1785"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 30 X 45 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002491058"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002491058/sequence/IE33131205",
+      "@type": "sc:Sequence",
+      "label": "Carte de l&apos;Arabie :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131220",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11967,
+          "height": 8938,
+          "images": [
+            {
+              "@id": "FL33131220",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33131220",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33131220/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33131220",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8938,
+                "width": 11967
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33131219",
+      "@type": "sc:Range",
+      "label": "REP33131219",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131220",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002491058",
+  "viewingHint": "paged"
+}

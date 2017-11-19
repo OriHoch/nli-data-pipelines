@@ -1,0 +1,127 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002639056/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem Region (Israel) -- Maps; Ramat Rahel Region (Israel) -- Maps; Bait Sahur Region (West Bank) -- Maps",
+  "label": "תלפיות;&nbsp;עובד ושורטט ע\"י מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תלפיות;&nbsp;עובד ושורטט ע\"י מחלקת המדידות."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem Region (Israel) -- Maps; Ramat Rahel Region (Israel) -- Maps; Bait Sahur Region (West Bank) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002639056"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1965"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 62x74 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "ישראל. 1:20,000 ; גליון 17-12",
+        "ישראל 1:20,000, 1955-1961 ; 17-12"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002639056"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002639056/sequence/IE27965246",
+      "@type": "sc:Sequence",
+      "label": "תלפיות",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27965255",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17920,
+          "height": 15084,
+          "images": [
+            {
+              "@id": "FL27965255",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27965255",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27965255/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27965255",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15084,
+                "width": 17920
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27965254",
+      "@type": "sc:Range",
+      "label": "REP27965254",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27965255",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002639056",
+  "viewingHint": "paged"
+}

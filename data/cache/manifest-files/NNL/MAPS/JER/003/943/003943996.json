@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003943996/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Galilee (Israel) -- Maps",
+  "label": "רושם של גליל התחתון וגבוליו: הגליל העליון מצפון וארץ יהודה(רצועה של כותים) מנגב. /;&nbsp;המצייר: אברהם גאנון.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "רושם של גליל התחתון וגבוליו: הגליל העליון מצפון וארץ יהודה(רצועה של כותים) מנגב. /;&nbsp;המצייר: אברהם גאנון."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Galilee (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "גולדהר, יצחק בן אליהו פסח 1847-1925"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003943996"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1913"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003943996"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003943996/sequence/IE45607586",
+      "@type": "sc:Sequence",
+      "label": "רושם של גליל התחתון וגבוליו: הגליל העליון מצפון וארץ יהודה(רצועה של כותים) מנגב. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45607596",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3320,
+          "height": 2667,
+          "images": [
+            {
+              "@id": "FL45607596",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45607596",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45607596/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45607596",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2667,
+                "width": 3320
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45607594",
+      "@type": "sc:Range",
+      "label": "REP45607594",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45607596",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003943996",
+  "viewingHint": "paged"
+}

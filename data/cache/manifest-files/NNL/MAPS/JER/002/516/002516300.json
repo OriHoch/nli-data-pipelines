@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002516300/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Iran -- Maps",
+  "label": "Carte de la Perse, du Caboul, du Béloutchistan, et du Turkestan /;&nbsp;dresée par P. Bineteau, Gravé par Schreiber",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Perse, du Caboul, du Béloutchistan, et du Turkestan /;&nbsp;dresée par P. Bineteau, Gravé par Schreiber"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :L. Hachette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bineteau P."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002516300"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1838"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 28 X 21 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002516300"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002516300/sequence/IE35061556",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Perse; du Caboul; du Béloutchistan; et du Turkestan /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061571",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6186,
+          "height": 7734,
+          "images": [
+            {
+              "@id": "FL35061571",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35061571",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35061571/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35061571",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7734,
+                "width": 6186
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35061570",
+      "@type": "sc:Range",
+      "label": "REP35061570",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061571",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002516300",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003893979/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Maps; Mediterranean Region -- Maps",
+  "label": "Iesu Christi Salvatoris Nostri et Apostolorum Petri, et Pauli Mansiones, Itinera, Peregrinationes & c. per Galilaeam, Samariam Iudaeam...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Iesu Christi Salvatoris Nostri et Apostolorum Petri, et Pauli Mansiones, Itinera, Peregrinationes & c. per Galilaeam, Samariam Iudaeam..."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Maps; Mediterranean Region -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003893979"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1708"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003893979"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003893979/sequence/IE37116749",
+      "@type": "sc:Sequence",
+      "label": "Iesu Christi Salvatoris Nostri et Apostolorum Petri; et Pauli Mansiones; Itinera; Peregrinationes &amp; c. per Galilaeam; Samariam Iudaeam...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37116765",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15024,
+          "height": 12714,
+          "images": [
+            {
+              "@id": "FL37116765",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37116765",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37116765/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37116765",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12714,
+                "width": 15024
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37116764",
+      "@type": "sc:Range",
+      "label": "REP37116764",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37116765",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003893979",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003882636/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Neue handkarte von Palaestina. /;&nbsp;bearbeitet von H. Kiepert Schriftstich von Bischoff, Terrainstich von Sulzer ; Berichtigt von Richard Kiepert.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Neue handkarte von Palaestina. /;&nbsp;bearbeitet von H. Kiepert Schriftstich von Bischoff, Terrainstich von Sulzer ; Berichtigt von Richard Kiepert."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003882636"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1891"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003882636"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003882636/sequence/IE33144816",
+      "@type": "sc:Sequence",
+      "label": "Neue handkarte von Palaestina. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33144833",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7025,
+          "height": 10198,
+          "images": [
+            {
+              "@id": "FL33144833",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33144833",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33144833/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33144833",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10198,
+                "width": 7025
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33144832",
+      "@type": "sc:Range",
+      "label": "REP33144832",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33144833",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003882636",
+  "viewingHint": "paged"
+}

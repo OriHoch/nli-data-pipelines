@@ -1,0 +1,161 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002573301/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Scandinavia -- Maps",
+  "label": "Carte Genealogique pour conduire a l'histoire des rois du nord, la carte de leurs armes et des remarques pour conduire a l'intelligence de l'histoire du nord",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte Genealogique pour conduire a l'histoire des rois du nord, la carte de leurs armes et des remarques pour conduire a l'intelligence de l'histoire du nord"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :L'Honoré & Châtelain"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Scandinavia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Chatelain Henri Abraham, 1684-1743"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002573301"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1718"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 45 X 100 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Nouvelle carte du royaume de Suede [cartographic material]",
+        "Carte du royaume de Gothie [cartographic material]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002573301"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002573301/sequence/IE37789059",
+      "@type": "sc:Sequence",
+      "label": "Carte Genealogique pour conduire a l&apos;histoire des rois du nord; la carte de leurs armes et des remarques pour conduire a l&apos;intelligence de l&apos;histoire du nord",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789067",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 16449,
+          "height": 12562,
+          "images": [
+            {
+              "@id": "FL37789067",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37789067",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37789067/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37789067",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12562,
+                "width": 16449
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789094",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 16474,
+          "height": 12433,
+          "images": [
+            {
+              "@id": "FL37789094",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37789094",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37789094/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37789094",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12433,
+                "width": 16474
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37789066",
+      "@type": "sc:Range",
+      "label": "REP37789066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789067",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789094",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002573301",
+  "viewingHint": "paged"
+}

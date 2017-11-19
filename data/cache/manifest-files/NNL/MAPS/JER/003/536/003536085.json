@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003536085/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Arabian Peninsula -- Maps; Asia -- Maps",
+  "label": "Il disegno della seconda parte dell' Asia quale principia da levante al fiume indu gia detto et alla provintia de Malabar, e da Ponente il fiume Nilo;&nbsp;Giacomo di Castaldi ... Fabio Licinio f.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Il disegno della seconda parte dell' Asia quale principia da levante al fiume indu gia detto et alla provintia de Malabar, e da Ponente il fiume Nilo;&nbsp;Giacomo di Castaldi ... Fabio Licinio f."
+    },
+    {
+      "label": "Contributor",
+      "value": "Fabius Licinius 1521-1565"
+    },
+    {
+      "label": "Publisher",
+      "value": "Venice,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Arabian Peninsula -- Maps; Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gastaldi Giacomo, approximately 1500-approximately 1565"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003536085"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1561"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 54x77 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "003536085"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003536085/sequence/IE4542320",
+      "@type": "sc:Sequence",
+      "label": "Asia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089372",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12360,
+          "height": 8624,
+          "images": [
+            {
+              "@id": "FL5089372",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5089372",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5089372/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5089372",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8624,
+                "width": 12360
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5089371",
+      "@type": "sc:Range",
+      "label": "REP5089371",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5089372",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003536085",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368773/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "A map of the travels and voyages of St. Paul, and of the other places that are mentio'd in the books of the New Testament that follow ey Gospels;&nbsp;Together with such places that ly remote from ey Holy Land as are mentioned in the New Testament.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A map of the travels and voyages of St. Paul, and of the other places that are mentio'd in the books of the New Testament that follow ey Gospels;&nbsp;Together with such places that ly remote from ey Holy Land as are mentioned in the New Testament."
+    },
+    {
+      "label": "Contributor",
+      "value": "Thomas Bowles; John Bowles"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Thomas & John Bowles"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Moll Herman, -1732"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368773"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1755"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "154x225 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368773"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368773/sequence/IE6880724",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072252",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2996,
+          "height": 2100,
+          "images": [
+            {
+              "@id": "FL7072252",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072252",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072252/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072252",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2100,
+                "width": 2996
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072251",
+      "@type": "sc:Range",
+      "label": "REP7072251",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072252",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368773",
+  "viewingHint": "paged"
+}

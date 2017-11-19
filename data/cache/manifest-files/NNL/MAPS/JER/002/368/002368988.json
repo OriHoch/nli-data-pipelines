@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Galilee (Israel) -- Maps; Bible -- Geography -- Maps",
+  "label": "La Monarchie des Hebreux sous Salomon ou le Royaume d'Israel distingue en douze Gouvernemens.;&nbsp;Par le Sr.Robert...Guill Delahaye",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Monarchie des Hebreux sous Salomon ou le Royaume d'Israel distingue en douze Gouvernemens.;&nbsp;Par le Sr.Robert...Guill Delahaye"
+    },
+    {
+      "label": "Contributor",
+      "value": "G. de la Haye"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Galilee (Israel) -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Robert de Vaugondy Gilles, 1688-1766"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1748"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "231x400 mm."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368988/sequence/IE6879295",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071263",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 1713,
+          "images": [
+            {
+              "@id": "FL7071263",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071263",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071263/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071263",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1713,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071262",
+      "@type": "sc:Range",
+      "label": "REP7071262",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071263",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368988",
+  "viewingHint": "paged"
+}

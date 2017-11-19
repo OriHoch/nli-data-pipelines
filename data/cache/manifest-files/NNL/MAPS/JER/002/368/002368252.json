@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368252/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ephraim (Tribe of Israel) -- Maps; Benjamin (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Bible -- Geography -- Maps",
+  "label": "Tribus Ephraim, Beniamin, et Dan;&nbsp;iste videlicet Terrae Sanctae tractus, qui in regionis partitione istis tribus tribubus datus est",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tribus Ephraim, Beniamin, et Dan;&nbsp;iste videlicet Terrae Sanctae tractus, qui in regionis partitione istis tribus tribubus datus est"
+    },
+    {
+      "label": "Contributor",
+      "value": "Gerhardus Brunus approximately 1560-approximately 1630"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Koeln] :Officina Birckmannica"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ephraim (Tribe of Israel) -- Maps; Benjamin (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Adrichem Christiaan van, 1533-1585"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368252"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1590"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "382x452 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368252"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368252/sequence/IE6881231",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072461",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2650,
+          "height": 2313,
+          "images": [
+            {
+              "@id": "FL7072461",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072461",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072461/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072461",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2313,
+                "width": 2650
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072460",
+      "@type": "sc:Range",
+      "label": "REP7072460",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072461",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368252",
+  "viewingHint": "paged"
+}

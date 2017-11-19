@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003532285/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Antioch (Turkey)",
+  "label": "Regno di Gerusalemme;&nbsp;in tempo delle Guerre Sagre /;&nbsp;delineato e descritto da Sebastiano Paoli ; Giovanni Petroschi incise.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Regno di Gerusalemme;&nbsp;in tempo delle Guerre Sagre /;&nbsp;delineato e descritto da Sebastiano Paoli ; Giovanni Petroschi incise."
+    },
+    {
+      "label": "Contributor",
+      "value": "Giovanni Petroschi 1715-1766"
+    },
+    {
+      "label": "Publisher",
+      "value": "Roma,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Antioch (Turkey)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Paoli Sebastiano, 1684-1751"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003532285"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1733"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 47.5x48.3 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "003532285"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003532285/sequence/IE13733993",
+      "@type": "sc:Sequence",
+      "label": "Antioch (Turkey)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745948",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9193,
+          "height": 8137,
+          "images": [
+            {
+              "@id": "FL13745948",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745948",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745948/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745948",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8137,
+                "width": 9193
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745947",
+      "@type": "sc:Range",
+      "label": "REP13745947",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745948",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003532285",
+  "viewingHint": "paged"
+}

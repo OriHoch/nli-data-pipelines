@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002626889/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Carte de la Turquie de l'Arabie et de la Perse;&nbsp;Dressée sur les Mémoires les plus récens, rectifiés par les Observations de Mrs. de l'Académie Rle. des Sciences Par G. De L'Isle. Augmentée par Ph. Buache en 1776.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Turquie de l'Arabie et de la Perse;&nbsp;Dressée sur les Mémoires les plus récens, rectifiés par les Observations de Mrs. de l'Académie Rle. des Sciences Par G. De L'Isle. Augmentée par Ph. Buache en 1776."
+    },
+    {
+      "label": "Contributor",
+      "value": "Philippe Buache 1700-1773"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Dezauche"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "L'Isle Guillaume de, 1675-1726"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002626889"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1780"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 47 x 63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002626889"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002626889/sequence/IE35866796",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Turquie de l&apos;Arabie et de la Perse",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866807",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18128,
+          "height": 13071,
+          "images": [
+            {
+              "@id": "FL35866807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35866807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35866807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35866807",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13071,
+                "width": 18128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35866806",
+      "@type": "sc:Range",
+      "label": "REP35866806",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35866807",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002626889",
+  "viewingHint": "paged"
+}

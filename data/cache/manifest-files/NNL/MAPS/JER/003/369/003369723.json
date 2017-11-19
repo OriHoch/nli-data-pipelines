@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003369723/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Aegean Sea -- Maps; Cyclades (Greece) -- Maps",
+  "label": "Carte Des Côtes De La Grece depuis Navarin en Morée, jusqu'au Cap Doro au S.E. de Negrepont;&nbsp;Avec la Partie de L'Archipel qui comprend Les Îles Cyclades.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte Des Côtes De La Grece depuis Navarin en Morée, jusqu'au Cap Doro au S.E. de Negrepont;&nbsp;Avec la Partie de L'Archipel qui comprend Les Îles Cyclades."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Dépôt Général de la Marine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Aegean Sea -- Maps; Cyclades (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "France. Armée. Dépot des Cartes et Plans de la Marine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003369723"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1797/98"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 67x100 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003369723"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003369723/sequence/IE13730718",
+      "@type": "sc:Sequence",
+      "label": "Cyclades (Greece)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746811",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15976,
+          "height": 11088,
+          "images": [
+            {
+              "@id": "FL13746811",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746811",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746811/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746811",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11088,
+                "width": 15976
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746810",
+      "@type": "sc:Range",
+      "label": "REP13746810",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746811",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003369723",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003371095/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dardanelles Strait (Turkey) -- Maps",
+  "label": "Asia Minor. Entrance of the Dardanelles, with the Plain of Troy and Tenedos;&nbsp;By Thomas Graves And T. A. B. Spratt 1840. J. & C. Walker Sculpt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia Minor. Entrance of the Dardanelles, with the Plain of Troy and Tenedos;&nbsp;By Thomas Graves And T. A. B. Spratt 1840. J. & C. Walker Sculpt."
+    },
+    {
+      "label": "Contributor",
+      "value": "Thomas A Spratt; T Graves (Thomas), -1856"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Hydrographic Office of the Admiralty"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dardanelles Strait (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "J. & C. Walker (Firm)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003371095"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1844"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 63x47 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003371095"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003371095/sequence/IE37663353",
+      "@type": "sc:Sequence",
+      "label": "Asia Minor. Entrance of the Dardanelles; with the Plain of Troy and Tenedos",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663367",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12287,
+          "height": 16348,
+          "images": [
+            {
+              "@id": "FL37663367",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37663367",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37663367/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37663367",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16348,
+                "width": 12287
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37663366",
+      "@type": "sc:Range",
+      "label": "REP37663366",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663367",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003371095",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002718577/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Alexander, the Great, 356 B.C.-323 B.C; Asia -- Maps; Greece -- History -- Macedonian Expansion, 359-323 B.C. -- Maps",
+  "label": "Alexandri magni macedonis expeditio;&nbsp;Ex conatibus geographicis Ab. Ortelii.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Alexandri magni macedonis expeditio;&nbsp;Ex conatibus geographicis Ab. Ortelii."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Alexander, the Great, 356 B.C.-323 B.C; Asia -- Maps; Greece -- History -- Macedonian Expansion, 359-323 B.C. -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ortelius Abraham, 1527-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002718577"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1595"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 36x46 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002718577"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002718577/sequence/IE27969747",
+      "@type": "sc:Sequence",
+      "label": "Alexandri magni macedonis expeditio",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27969754",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12730,
+          "height": 10854,
+          "images": [
+            {
+              "@id": "FL27969754",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27969754",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27969754/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27969754",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10854,
+                "width": 12730
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27969753",
+      "@type": "sc:Range",
+      "label": "REP27969753",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27969754",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002718577",
+  "viewingHint": "paged"
+}

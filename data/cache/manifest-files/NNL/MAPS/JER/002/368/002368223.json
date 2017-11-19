@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368223/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Plan von Jerusalem mit Darstellung aller Wege, welche unser Herr Jesus Christus waehrend Seiner Leidenstage zurueckgelet...;&nbsp;Basirt auf den Plan von den englischen Marine Lieutenants Aldrich u. Seymonds, den Geschichtsschreiber Flav.Josephus u.A.C. Emmerich. /;&nbsp;Berichtigt an Ort und Stelle u. herausgegeben von Chas. F. Zimpel... 1853.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan von Jerusalem mit Darstellung aller Wege, welche unser Herr Jesus Christus waehrend Seiner Leidenstage zurueckgelet...;&nbsp;Basirt auf den Plan von den englischen Marine Lieutenants Aldrich u. Seymonds, den Geschichtsschreiber Flav.Josephus u.A.C. Emmerich. /;&nbsp;Berichtigt an Ort und Stelle u. herausgegeben von Chas. F. Zimpel... 1853."
+    },
+    {
+      "label": "Contributor",
+      "value": "Edward Aldrich; John Frederick Anthony Symonds fl. approximately 1840; Flavius Josephus; Anna Katharina Emmerich 1774-1824; Heinrich Bach; Franz Malté; F Bohnert"
+    },
+    {
+      "label": "Publisher",
+      "value": "Stuttgart,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Zimpel Charles Franz"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368223"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1853"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "600x497 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368223"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368223/sequence/IE6880955",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072314",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2250,
+          "height": 2733,
+          "images": [
+            {
+              "@id": "FL7072314",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072314",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072314/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072314",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2733,
+                "width": 2250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072313",
+      "@type": "sc:Range",
+      "label": "REP7072313",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072314",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368223",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368820/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "La Terre Sainte divisee en ses douze Tribus et ses deux Royaumes de Juda et d'Israel;&nbsp;dressee sur les dernieres Observations /;&nbsp;Par J.B. Nolin.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Terre Sainte divisee en ses douze Tribus et ses deux Royaumes de Juda et d'Israel;&nbsp;dressee sur les dernieres Observations /;&nbsp;Par J.B. Nolin."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean-Francois Daumont"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Daumont"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Nolin Jean Baptiste, 1648-1708"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368820"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1756"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "460x657 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368820"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368820/sequence/IE6881328",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072541",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2950,
+          "height": 2120,
+          "images": [
+            {
+              "@id": "FL7072541",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072541",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072541/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072541",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2120,
+                "width": 2950
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072540",
+      "@type": "sc:Range",
+      "label": "REP7072540",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072541",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368820",
+  "viewingHint": "paged"
+}

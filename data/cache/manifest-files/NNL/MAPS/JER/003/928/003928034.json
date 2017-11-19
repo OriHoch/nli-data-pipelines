@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003928034/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Temple of Jerusalem (Jerusalem, Israel) -- In art; Eretz Israel -- Maps",
+  "label": "Palestine... 1826. /;&nbsp;Dessine par Pierre Tardieu.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine... 1826. /;&nbsp;Dessine par Pierre Tardieu."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Temple of Jerusalem (Jerusalem, Israel) -- In art; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ségur comte de"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003928034"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1827"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003928034"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003928034/sequence/IE45585317",
+      "@type": "sc:Sequence",
+      "label": "Palestine... 1826. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585326",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2932,
+          "height": 2383,
+          "images": [
+            {
+              "@id": "FL45585326",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45585326",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45585326/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45585326",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2383,
+                "width": 2932
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45585325",
+      "@type": "sc:Range",
+      "label": "REP45585325",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585326",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003928034",
+  "viewingHint": "paged"
+}

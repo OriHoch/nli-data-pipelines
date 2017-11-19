@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002526594/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Germany -- Maps; Austria -- Maps",
+  "label": "Vindeliciæ et Norici, Conterminarumque terrarum antiqua descriptio /;&nbsp;Auctore Phil. Cluverio",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Vindeliciæ et Norici, Conterminarumque terrarum antiqua descriptio /;&nbsp;Auctore Phil. Cluverio"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Germany -- Maps; Austria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Clüver Philipp, 1580-1622"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002526594"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1660"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 20 X 24 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002526594"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002526594/sequence/IE37098978",
+      "@type": "sc:Sequence",
+      "label": "Vindeliciæ et Norici; Conterminarumque terrarum antiqua descriptio /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098996",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7148,
+          "height": 5465,
+          "images": [
+            {
+              "@id": "FL37098996",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37098996",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37098996/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37098996",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5465,
+                "width": 7148
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37098995",
+      "@type": "sc:Range",
+      "label": "REP37098995",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37098996",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002526594",
+  "viewingHint": "paged"
+}

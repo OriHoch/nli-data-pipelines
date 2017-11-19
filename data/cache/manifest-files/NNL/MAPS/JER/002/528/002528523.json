@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002528523/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "Macedonia Epirus et Achaia /;&nbsp;G. Blaeu exc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Macedonia Epirus et Achaia /;&nbsp;G. Blaeu exc."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Iean & Corneille Blaeu"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blaeu Willem Janszoon, 1571-1638"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002528523"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1640"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 40 X 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002528523"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002528523/sequence/IE35069454",
+      "@type": "sc:Sequence",
+      "label": "Macedonia Epirus et Achaia /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069458",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14991,
+          "height": 12112,
+          "images": [
+            {
+              "@id": "FL35069458",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35069458",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35069458/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35069458",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12112,
+                "width": 14991
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35069457",
+      "@type": "sc:Range",
+      "label": "REP35069457",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069458",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002528523",
+  "viewingHint": "paged"
+}

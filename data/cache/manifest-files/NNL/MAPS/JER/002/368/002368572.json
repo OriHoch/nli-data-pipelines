@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368572/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Syria -- Maps; Cyprus -- Maps",
+  "label": "La nvova et esatta descrittione della Soria, e della Terra Santa;&nbsp;Da Paulo Furlani Veronese con dilienza intagliata \"Apresso Donato Bertelly\"",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La nvova et esatta descrittione della Soria, e della Terra Santa;&nbsp;Da Paulo Furlani Veronese con dilienza intagliata \"Apresso Donato Bertelly\""
+    },
+    {
+      "label": "Contributor",
+      "value": "Donato Bertelli fl. 1558-1584"
+    },
+    {
+      "label": "Publisher",
+      "value": "In Venetia,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Syria -- Maps; Cyprus -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Forlani Paolo"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368572"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1589"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "262x343 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368572"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368572/sequence/IE6881243",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072469",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2218,
+          "images": [
+            {
+              "@id": "FL7072469",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072469",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072469/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072469",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2218,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072468",
+      "@type": "sc:Range",
+      "label": "REP7072468",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072469",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368572",
+  "viewingHint": "paged"
+}

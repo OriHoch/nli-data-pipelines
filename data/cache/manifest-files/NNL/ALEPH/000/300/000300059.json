@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ציטדלה, איטליה. תמ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ציטדלה, איטליה. תמ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "ריאיטי, חזקיה בן יוסף (חתן) ; גרונדי, ריזינא בת בנציון (כלה) ; פנו, אבטליון בן משה (עד) ; פנו, אליעזר בן ישראל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ציטאדילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300059"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ב בחשון תמ\"א (1680)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 535X445 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Cittadella, Italy. 1680"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300059/sequence/IE9198372",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ציטדלה, איטליה, תמ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462398",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 665,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462398",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462398",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462398/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462398",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 665
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462396",
+      "@type": "sc:Range",
+      "label": "REP9462396",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462398",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300059",
+  "viewingHint": "paged"
+}

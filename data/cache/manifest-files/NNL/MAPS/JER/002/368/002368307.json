@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368307/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Dominions of David & Solomon, with places remote;&nbsp;Drawn under the direction of Mr. Arrowsmith ; engraved by Sidy Hall.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Dominions of David & Solomon, with places remote;&nbsp;Drawn under the direction of Mr. Arrowsmith ; engraved by Sidy Hall."
+    },
+    {
+      "label": "Contributor",
+      "value": "Sidney Hall"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :published for the Society for promoting Christian Knowledge by Messrs. Rivingtons"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Arrowsmith Aaron, 1750-1823"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368307"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1817"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "200x249 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368307"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368307/sequence/IE6879180",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071105",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2750,
+          "height": 2281,
+          "images": [
+            {
+              "@id": "FL7071105",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071105",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071105/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071105",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2281,
+                "width": 2750
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071104",
+      "@type": "sc:Range",
+      "label": "REP7071104",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071105",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368307",
+  "viewingHint": "paged"
+}

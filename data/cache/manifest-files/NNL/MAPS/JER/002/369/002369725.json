@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369725/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "De Stadt Jerusalem;&nbsp;P. Mortier edit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "De Stadt Jerusalem;&nbsp;P. Mortier edit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Juan Bautista Villalpando"
+    },
+    {
+      "label": "Publisher",
+      "value": "[t'Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mortier Pierre, 1661-1711"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369725"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "146x214 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre;dut"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "La Ville de Jérusalem [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369725"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369725/sequence/IE6879171",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071093",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2000,
+          "height": 3103,
+          "images": [
+            {
+              "@id": "FL7071093",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071093",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071093/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071093",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3103,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071092",
+      "@type": "sc:Range",
+      "label": "REP7071092",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071093",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369725",
+  "viewingHint": "paged"
+}

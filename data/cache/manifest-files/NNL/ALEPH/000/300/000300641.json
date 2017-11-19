@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300641/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. מודנה, איטליה. תקל\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. מודנה, איטליה. תקל\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "סנגויניטי, משה אהרן ברכיה בן שלמה חיים (חתן) ; אלקוסטנטיני, רגינה ספירא בת אברהם שבתי (כלה) ; דוד בן אברהם יצחק הכהן, ממודנה (עד) ; גליקו, יוסף בן חננאל (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "מודונא"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300641"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז בחשון תקל\"א (1770)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 660X540 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Modena, Italy. 1770"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300641"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300641/sequence/IE9201598",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. מודנה, איטליה, תקל&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465311",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 677,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9465311",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9465311",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9465311/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9465311",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 677
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9465310",
+      "@type": "sc:Range",
+      "label": "REP9465310",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9465311",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300641",
+  "viewingHint": "paged"
+}

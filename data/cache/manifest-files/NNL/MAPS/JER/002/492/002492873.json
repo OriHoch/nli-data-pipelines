@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002492873/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Arabian Peninsula -- Maps",
+  "label": "Arabia and the valley of the Nile. :;&nbsp;Including Egypt, Nubia and the Eastern Sudan /;&nbsp;Gorge Philip & Son",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Arabia and the valley of the Nile. :;&nbsp;Including Egypt, Nubia and the Eastern Sudan /;&nbsp;Gorge Philip & Son"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :George Philip & Son"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arabian Peninsula -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002492873"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1939"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 50 X 60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002492873"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002492873/sequence/IE35469906",
+      "@type": "sc:Sequence",
+      "label": "Arabia and the valley of the Nile. :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35469910",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18893,
+          "height": 13288,
+          "images": [
+            {
+              "@id": "FL35469910",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35469910",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35469910/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35469910",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13288,
+                "width": 18893
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35469909",
+      "@type": "sc:Range",
+      "label": "REP35469909",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35469910",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002492873",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003370988/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Aegean Islands (Greece and Turkey) -- Maps",
+  "label": "The Archipelago;&nbsp;Lemnos, Samothraki, Mityleni &c. With The Coasts Of Turkey And Asia-Minor, The Dardanelles And Gulf Of Adramyti /;&nbsp;Surveyed by... R.Copeland and T.Graves 1833-1844 ; J.&C.Walker Sculpt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Archipelago;&nbsp;Lemnos, Samothraki, Mityleni &c. With The Coasts Of Turkey And Asia-Minor, The Dardanelles And Gulf Of Adramyti /;&nbsp;Surveyed by... R.Copeland and T.Graves 1833-1844 ; J.&C.Walker Sculpt."
+    },
+    {
+      "label": "Contributor",
+      "value": "Richard Copeland; T Graves (Thomas), -1856"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Hydrographic Office of the Admiralty"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Aegean Islands (Greece and Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "J. & C. Walker (Firm)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003370988"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1849"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 60.2x45.2 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003370988"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003370988/sequence/IE37663318",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; Archipelago",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663372",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12425,
+          "height": 16384,
+          "images": [
+            {
+              "@id": "FL37663372",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37663372",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37663372/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37663372",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16384,
+                "width": 12425
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37663369",
+      "@type": "sc:Range",
+      "label": "REP37663369",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663372",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003370988",
+  "viewingHint": "paged"
+}

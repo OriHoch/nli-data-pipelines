@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369214/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "A Map of the Divisions & Situations of the Tribes of Canaanites, Moabites, Ammonites, Midianites, Edomites, Amalekites & C.;&nbsp;before & at the time of the Exodus of the Children of Israel according to this History /;&nbsp;S.W. Sculpt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A Map of the Divisions & Situations of the Tribes of Canaanites, Moabites, Ammonites, Midianites, Edomites, Amalekites & C.;&nbsp;before & at the time of the Exodus of the Children of Israel according to this History /;&nbsp;S.W. Sculpt."
+    },
+    {
+      "label": "Contributor",
+      "value": "S. W."
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369214"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1740?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "292x271 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369214"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369214/sequence/IE6880397",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071953",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2450,
+          "height": 2515,
+          "images": [
+            {
+              "@id": "FL7071953",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071953",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071953/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071953",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2515,
+                "width": 2450
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071952",
+      "@type": "sc:Range",
+      "label": "REP7071952",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071953",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369214",
+  "viewingHint": "paged"
+}

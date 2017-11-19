@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002716993/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Carte de la Turquie d'Europe et d'Asie;&nbsp;Dressée d'apres les cartes les plus récentes /;&nbsp;Gravée par L. Berthe.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Turquie d'Europe et d'Asie;&nbsp;Dressée d'apres les cartes les plus récentes /;&nbsp;Gravée par L. Berthe."
+    },
+    {
+      "label": "Contributor",
+      "value": "Armand-Charles Guilleminot 1774-1840"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Principaux librairies"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Berthe L."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002716993"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1828"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 53.5x76 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002716993"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002716993/sequence/IE36010879",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Turquie d&apos;Europe et d&apos;Asie",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010886",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 20211,
+          "height": 13732,
+          "images": [
+            {
+              "@id": "FL36010886",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010886",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010886/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010886",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13732,
+                "width": 20211
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010885",
+      "@type": "sc:Range",
+      "label": "REP36010885",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010886",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002716993",
+  "viewingHint": "paged"
+}

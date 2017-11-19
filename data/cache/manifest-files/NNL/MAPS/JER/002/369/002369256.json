@@ -1,0 +1,127 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369256/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ark of the Covenant; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Palestine or the Holy Land from biblical times to the present day",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine or the Holy Land from biblical times to the present day"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ark of the Covenant; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Goldzweig Jacob, 1843-"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369256"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1893"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "517x430 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "A new and original Biblical map of the Holy Land. [cartographic material]",
+        "ארץ ישראל והמדינות אשר סביבה כמו שהיה בעת משה רבינו ע\"ה ויהושע ושלמה עד החרבן לכעת: 5663 [חומר קרטוגרפי]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002369256"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369256/sequence/IE6878569",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070690",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2150,
+          "height": 2844,
+          "images": [
+            {
+              "@id": "FL7070690",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070690",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070690/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070690",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2844,
+                "width": 2150
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070689",
+      "@type": "sc:Range",
+      "label": "REP7070689",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070690",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369256",
+  "viewingHint": "paged"
+}

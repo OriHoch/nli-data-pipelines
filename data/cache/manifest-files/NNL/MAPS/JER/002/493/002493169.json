@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002493169/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps; Nubia -- Maps; Ethiopia -- Maps",
+  "label": "A new and accurate map of Nubia & Abissinia :;&nbsp;together with all the Kingdoms Tributary Thereto, and bordering upon them /;&nbsp;Laid down from the latest & best Authorities and regulated by Astronl. Observations By Emanl. Bowen",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new and accurate map of Nubia & Abissinia :;&nbsp;together with all the Kingdoms Tributary Thereto, and bordering upon them /;&nbsp;Laid down from the latest & best Authorities and regulated by Astronl. Observations By Emanl. Bowen"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps; Nubia -- Maps; Ethiopia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bowen Emanuel, -1767"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002493169"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1750"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 35 X 42.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002493169"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002493169/sequence/IE13723583",
+      "@type": "sc:Sequence",
+      "label": "Ethiopia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737169",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7512,
+          "height": 6391,
+          "images": [
+            {
+              "@id": "FL13737169",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737169",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737169/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737169",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6391,
+                "width": 7512
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737168",
+      "@type": "sc:Range",
+      "label": "REP13737168",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737169",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002493169",
+  "viewingHint": "paged"
+}

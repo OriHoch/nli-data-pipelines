@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002499155/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps",
+  "label": "Afrique /;&nbsp;par N. Sanson d'Abbeville ; A. Peyrounin sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Afrique /;&nbsp;par N. Sanson d'Abbeville ; A. Peyrounin sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "A Peyrounin"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Aueur : Pierre Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002499155"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 39 X 55 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002499155"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002499155/sequence/IE35470289",
+      "@type": "sc:Sequence",
+      "label": "Afrique /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470300",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13986,
+          "height": 10475,
+          "images": [
+            {
+              "@id": "FL35470300",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35470300",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35470300/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35470300",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10475,
+                "width": 13986
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35470299",
+      "@type": "sc:Range",
+      "label": "REP35470299",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35470300",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002499155",
+  "viewingHint": "paged"
+}

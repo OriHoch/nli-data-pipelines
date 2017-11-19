@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368784/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Carte Pour l'Intelligence des Voiages d'Abraham, Faits par l'ordre de Dieu, en Asie et en Egypte;&nbsp;Par le Sieur Moullart-Sanson.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte Pour l'Intelligence des Voiages d'Abraham, Faits par l'ordre de Dieu, en Asie et en Egypte;&nbsp;Par le Sieur Moullart-Sanson."
+    },
+    {
+      "label": "Contributor",
+      "value": "Guillaume Desprez; Jean Desessartz"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Guillaume Desprez et Jean Desessartz"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Moullart-Sanson Pierre"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368784"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1717"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "355x397 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368784"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368784/sequence/IE6880792",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072349",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2713,
+          "height": 2250,
+          "images": [
+            {
+              "@id": "FL7072349",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072349",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072349/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072349",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2250,
+                "width": 2713
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072348",
+      "@type": "sc:Range",
+      "label": "REP7072348",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072349",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368784",
+  "viewingHint": "paged"
+}

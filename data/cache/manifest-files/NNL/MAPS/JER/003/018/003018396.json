@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003018396/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Caspian Sea -- Maps",
+  "label": "Essai d'une nouvelle carte de la Mer Caspienne;&nbsp;Par le Sr. d'Anville; Guill. De-la-Haye.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Essai d'une nouvelle carte de la Mer Caspienne;&nbsp;Par le Sr. d'Anville; Guill. De-la-Haye."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Baptiste Bourguignon d' Anville 1697-1782"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Caspian Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Haye G. de la"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003018396"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1754"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 52x26 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003018396"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003018396/sequence/IE37807955",
+      "@type": "sc:Sequence",
+      "label": "Essai d&apos;une nouvelle carte de la Mer Caspienne",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807968",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7783,
+          "height": 13650,
+          "images": [
+            {
+              "@id": "FL37807968",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37807968",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37807968/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37807968",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13650,
+                "width": 7783
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37807967",
+      "@type": "sc:Range",
+      "label": "REP37807967",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807968",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003018396",
+  "viewingHint": "paged"
+}

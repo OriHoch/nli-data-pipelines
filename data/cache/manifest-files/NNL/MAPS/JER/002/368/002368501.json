@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368501/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "[Palestine]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Palestine]"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Liesvelt"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Wittenberg],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Cranach Lucas, 1472-1553"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368501"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1508 or 1515"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "540 X 608 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368501"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368501/sequence/IE32698062",
+      "@type": "sc:Sequence",
+      "label": "[Palestine]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32698078",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 20211,
+          "height": 14622,
+          "images": [
+            {
+              "@id": "FL32698078",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL32698078",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL32698078/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL32698078",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14622,
+                "width": 20211
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP32698077",
+      "@type": "sc:Range",
+      "label": "REP32698077",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL32698078",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368501",
+  "viewingHint": "paged"
+}

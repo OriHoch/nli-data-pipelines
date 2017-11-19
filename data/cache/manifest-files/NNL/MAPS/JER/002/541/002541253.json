@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002541253/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Belgrade (Serbia) -- Maps; Serbia -- Maps",
+  "label": "Plan de la Glorieuse Bataille Donnée Le 16e. Aout, 1717, Proche De Belgrade :;&nbsp;entre une partie de l'Armée Imperiale compossée de 50. Bataïllons 51. Compagnies de Grenadiers, et 24. Regimens de Cavalerie sous le Comandemt. de S. A. S. Monseigneur Le Prince Eugene De Savoye, et l'Armée Ottomane forte de 200 000. Hommes",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan de la Glorieuse Bataille Donnée Le 16e. Aout, 1717, Proche De Belgrade :;&nbsp;entre une partie de l'Armée Imperiale compossée de 50. Bataïllons 51. Compagnies de Grenadiers, et 24. Regimens de Cavalerie sous le Comandemt. de S. A. S. Monseigneur Le Prince Eugene De Savoye, et l'Armée Ottomane forte de 200 000. Hommes"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Belgrade (Serbia) -- Maps; Serbia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002541253"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1717"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 46 X 55 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Plan Der Roemrugtige Veldslag Voorgevallen Den 16. Augustus 1717, Digt By Belgrade [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002541253"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002541253/sequence/IE35076618",
+      "@type": "sc:Sequence",
+      "label": "Plan de la Glorieuse Bataille Donnée Le 16e. Aout; 1717; Proche De Belgrade :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076626",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14645,
+          "height": 11473,
+          "images": [
+            {
+              "@id": "FL35076626",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076626",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076626/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076626",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11473,
+                "width": 14645
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076625",
+      "@type": "sc:Range",
+      "label": "REP35076625",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076626",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002541253",
+  "viewingHint": "paged"
+}

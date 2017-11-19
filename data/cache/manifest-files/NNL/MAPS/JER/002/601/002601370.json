@@ -1,0 +1,158 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002601370/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "מפת דרכים בפלשתינה (א\"י) לנסיעות באוטומוביל;&nbsp;נערכה, שורטטה ונדפסה בהנהלת מנהל מחלקת המדידות בפלשתינה (א\"י).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפת דרכים בפלשתינה (א\"י) לנסיעות באוטומוביל;&nbsp;נערכה, שורטטה ונדפסה בהנהלת מנהל מחלקת המדידות בפלשתינה (א\"י)."
+    },
+    {
+      "label": "Publisher",
+      "value": "לא מצוין,&nbsp;Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002601370"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1934"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 57X36 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "כותר מעטפת: מפת דרכים פלשתינה (א\"י) לנסיעות באוטומוביל [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002601370"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002601370/sequence/IE7331062",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7345261",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 5760,
+          "height": 9208,
+          "images": [
+            {
+              "@id": "FL7345261",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7345261",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7345261/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7345261",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9208,
+                "width": 5760
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7345270",
+          "@type": "sc:Canvas",
+          "label": "02 Cover",
+          "width": 5857,
+          "height": 9152,
+          "images": [
+            {
+              "@id": "FL7345270",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7345270",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7345270/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Cover",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7345270",
+                  "label": "02 Cover",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9152,
+                "width": 5857
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7345260",
+      "@type": "sc:Range",
+      "label": "REP7345260",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7345261",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7345270",
+          "@type": "sc:Canvas",
+          "label": "02 Cover"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002601370",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370179/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps",
+  "label": "Agyptus Antiqva;&nbsp;Divisa in Nomos /;&nbsp;Auth. P. duVal.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Agyptus Antiqva;&nbsp;Divisa in Nomos /;&nbsp;Auth. P. duVal."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Ioannes Ianssonius"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Duval P. (Pierre), 1619-1682"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370179"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1641"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 160x207 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370179"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370179/sequence/IE13720989",
+      "@type": "sc:Sequence",
+      "label": "Egypt",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736672",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3704,
+          "height": 2817,
+          "images": [
+            {
+              "@id": "FL13736672",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13736672",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13736672/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13736672",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2817,
+                "width": 3704
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13736671",
+      "@type": "sc:Range",
+      "label": "REP13736671",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13736672",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370179",
+  "viewingHint": "paged"
+}

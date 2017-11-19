@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368858/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Map of Palestine and the districts adjacent to accompany \"Palestine Past and Present\" Constructed and drawn by Rev. Henry S.Osborn;&nbsp;From the authorities of Dr. E.Robinson...Together with corrections and additions of the Author from personal observations and surveys by Himself & Dr. Barclay of Jerusalem ; Engraved & Printed by Th. Leonhardt & J.H.Camp ... Entered according to Act of Congress in the year 1858 by James Challen & Son...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of Palestine and the districts adjacent to accompany \"Palestine Past and Present\" Constructed and drawn by Rev. Henry S.Osborn;&nbsp;From the authorities of Dr. E.Robinson...Together with corrections and additions of the Author from personal observations and surveys by Himself & Dr. Barclay of Jerusalem ; Engraved & Printed by Th. Leonhardt & J.H.Camp ... Entered according to Act of Congress in the year 1858 by James Challen & Son..."
+    },
+    {
+      "label": "Contributor",
+      "value": "Edward Robinson 1794-1863; Th Leonhardt"
+    },
+    {
+      "label": "Publisher",
+      "value": "Philadelphia :James Challen & Son"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Osborn H. S. (Henry Stafford), 1823-1894"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368858"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1859"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "625 x 665 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368858"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368858/sequence/IE6879934",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071643",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2549,
+          "height": 2400,
+          "images": [
+            {
+              "@id": "FL7071643",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071643",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071643/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071643",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2400,
+                "width": 2549
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071642",
+      "@type": "sc:Range",
+      "label": "REP7071642",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071643",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368858",
+  "viewingHint": "paged"
+}

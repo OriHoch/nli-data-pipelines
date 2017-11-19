@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002400704/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mombasa (Kenya) -- Maps; Red Sea -- Maps",
+  "label": "Carte particuliere de la Mer Rouge;&nbsp;leveé par ordre expres... /;&nbsp;Chez Pierre Mortier.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte particuliere de la Mer Rouge;&nbsp;leveé par ordre expres... /;&nbsp;Chez Pierre Mortier."
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Chez Pierre Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mombasa (Kenya) -- Maps; Red Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mortier Pierre, 1661-1711"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002400704"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1700?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "col. ; 52 x 75 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002400704"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002400704/sequence/IE33131117",
+      "@type": "sc:Sequence",
+      "label": "Carte particuliere de la Mer Rouge",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131133",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 21069,
+          "height": 15310,
+          "images": [
+            {
+              "@id": "FL33131133",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33131133",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33131133/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33131133",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15310,
+                "width": 21069
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33131132",
+      "@type": "sc:Range",
+      "label": "REP33131132",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131133",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002400704",
+  "viewingHint": "paged"
+}

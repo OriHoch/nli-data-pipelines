@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300644/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ציטדלה, איטליה. תצ\"ד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ציטדלה, איטליה. תצ\"ד."
+    },
+    {
+      "label": "Contributor",
+      "value": "רוקקה, יצחק שבתי רפאל בן יהודה (חתן) ; גרונדי, רחל בת בנציון (כלה) ; לוצאטו, משה חיים, 1707-1747 (עד) ; טריביש, מצליח מנחם בן יצחק (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ציטאדילה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300644"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ה באלול תצ\"ד (1734)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 735X510 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Cittadella, Italy. 1734"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300644"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300644/sequence/IE10229047",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ציטדלה, איטליה, תצ\"ד].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243918",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ציטדלה, איטליה, תצד].",
+          "width": 589,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10243918",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10243918",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10243918/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. ציטדלה, איטליה, תצד].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10243918",
+                  "label": "[כתובה. ציטדלה, איטליה, תצד].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 589
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10243917",
+      "@type": "sc:Range",
+      "label": "REP10243917",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10243918",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. ציטדלה, איטליה, תצד]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300644",
+  "viewingHint": "paged"
+}

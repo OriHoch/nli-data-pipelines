@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368713/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Assyria -- Maps",
+  "label": "Assyria Vetus;&nbsp;Auctore Phil. de la Rue",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Assyria Vetus;&nbsp;Auctore Phil. de la Rue"
+    },
+    {
+      "label": "Contributor",
+      "value": "Pierre Mortier 1661-1711"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Apud Pet. Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Assyria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "La Rué Philippe de"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368713"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1705"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "382x522 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368713"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368713/sequence/IE6878957",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071193",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2767,
+          "height": 2325,
+          "images": [
+            {
+              "@id": "FL7071193",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071193",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071193/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071193",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2325,
+                "width": 2767
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071192",
+      "@type": "sc:Range",
+      "label": "REP7071192",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071193",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368713",
+  "viewingHint": "paged"
+}

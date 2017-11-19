@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300128/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פדובה, איטליה. תע\"ב",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פדובה, איטליה. תע\"ב"
+    },
+    {
+      "label": "Contributor",
+      "value": "מרדכי בן יצחק, הלוי, אבד\"ק טיקטין (חתן) ; מושקטו, ברוניטה בת משה אהרן (כלה) ; מריני, שבתי חיים בן יצחק, נפטר 1748 (עד) ; ירק, ישראל מאיר בן משה מנחם (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פאדובה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300128"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בשבט תע\"ב (1712)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 335X375 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Padua, Italy. 1712"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300128"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300128/sequence/IE9200217",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פדובה, איטליה, תע&quot;ב]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462595",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פדובה; איטליה; תעב]",
+          "width": 800,
+          "height": 737,
+          "images": [
+            {
+              "@id": "FL9462595",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462595",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462595/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פדובה; איטליה; תעב]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462595",
+                  "label": "[כתובה. פדובה; איטליה; תעב]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 737,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462593",
+      "@type": "sc:Range",
+      "label": "REP9462593",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462595",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פדובה; איטליה; תעב]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300128",
+  "viewingHint": "paged"
+}

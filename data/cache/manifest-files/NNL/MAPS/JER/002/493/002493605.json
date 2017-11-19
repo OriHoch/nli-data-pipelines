@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002493605/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Senegal -- Maps; Madagascar -- Maps",
+  "label": "Colonies Françaises (en Afrique) /;&nbsp;géographie et statistique par V. Levasseur ; gravé par Laguillermie ; illustré par Raimond Bonheur",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Colonies Françaises (en Afrique) /;&nbsp;géographie et statistique par V. Levasseur ; gravé par Laguillermie ; illustré par Raimond Bonheur"
+    },
+    {
+      "label": "Contributor",
+      "value": "Raymond Bonheur; V Levasseur (Victor)"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Senegal -- Maps; Madagascar -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Laguillermie"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002493605"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1845"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 29 X 42 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002493605"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002493605/sequence/IE6882869",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073773",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 6816,
+          "height": 4656,
+          "images": [
+            {
+              "@id": "FL7073773",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073773",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073773/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073773",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4656,
+                "width": 6816
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073772",
+      "@type": "sc:Range",
+      "label": "REP7073772",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073773",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002493605",
+  "viewingHint": "paged"
+}

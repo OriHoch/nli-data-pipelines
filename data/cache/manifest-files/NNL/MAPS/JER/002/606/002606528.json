@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002606528/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russia -- Maps",
+  "label": "Generalis Totius Imperii Russorum Novissima Tabula;&nbsp;Magnam Orbis terrarum partem â Polo Arctico usque ad mare Iaponicum et Chinae Septentrionalis confinia exhibens cum Via Czaricae nuper Legationis ex urbe Moscua per universum Tattariam ad magnum Chinae Imperatorem ; Cum Privilegio Sac. Caesariae Maiestatis /;&nbsp;ex conatibus Iohannis Baptistae Homanni.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Generalis Totius Imperii Russorum Novissima Tabula;&nbsp;Magnam Orbis terrarum partem â Polo Arctico usque ad mare Iaponicum et Chinae Septentrionalis confinia exhibens cum Via Czaricae nuper Legationis ex urbe Moscua per universum Tattariam ad magnum Chinae Imperatorem ; Cum Privilegio Sac. Caesariae Maiestatis /;&nbsp;ex conatibus Iohannis Baptistae Homanni."
+    },
+    {
+      "label": "Publisher",
+      "value": "Norimbergae,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Homann Johann Baptist, 1663-1724"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002606528"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1715"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48.5 x 56.8 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002606528"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002606528/sequence/IE36379282",
+      "@type": "sc:Sequence",
+      "label": "Generalis Totius Imperii Russorum Novissima Tabula",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379303",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 14514,
+          "height": 12472,
+          "images": [
+            {
+              "@id": "FL36379303",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36379303",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36379303/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36379303",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12472,
+                "width": 14514
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379350",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 14451,
+          "height": 12229,
+          "images": [
+            {
+              "@id": "FL36379350",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36379350",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36379350/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36379350",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12229,
+                "width": 14451
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36379302",
+      "@type": "sc:Range",
+      "label": "REP36379302",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379303",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379350",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002606528",
+  "viewingHint": "paged"
+}

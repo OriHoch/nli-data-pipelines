@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368418/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Eretz Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Taffel des Heiligen Landes zu dem Newen Testament dienlich",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Taffel des Heiligen Landes zu dem Newen Testament dienlich"
+    },
+    {
+      "label": "Contributor",
+      "value": "Andreas Duncker"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Magdeburg] :Andreas Duncker"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Eretz Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bünting Heinrich, 1545-1606"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368418"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1600"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "267x194 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368418"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368418/sequence/IE6881936",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072996",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2060,
+          "height": 3040,
+          "images": [
+            {
+              "@id": "FL7072996",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072996",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072996/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072996",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3040,
+                "width": 2060
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072995",
+      "@type": "sc:Range",
+      "label": "REP7072995",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072996",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368418",
+  "viewingHint": "paged"
+}

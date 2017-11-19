@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003607384/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Shavuot; Jerusalem (Israel) -- Maps",
+  "label": "Ofrandes des Prémices Portées au Temple de Jérusalem.;&nbsp;I.B. Martin In.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ofrandes des Prémices Portées au Temple de Jérusalem.;&nbsp;I.B. Martin In."
+    },
+    {
+      "label": "Contributor",
+      "value": "J. B Martin"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shavuot; Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Calmet Augustin, 1672-1757"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003607384"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1730"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 39x51 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003607384"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003607384/sequence/IE13735722",
+      "@type": "sc:Sequence",
+      "label": "Jerusalem (Israel)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746167",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8388,
+          "height": 6343,
+          "images": [
+            {
+              "@id": "FL13746167",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746167",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746167/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746167",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6343,
+                "width": 8388
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746166",
+      "@type": "sc:Range",
+      "label": "REP13746166",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746167",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003607384",
+  "viewingHint": "paged"
+}

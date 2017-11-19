@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002715309/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Map of the Ottoman Dominions in Asia;&nbsp;With the adjacent frontiers of the Russian and Persian empires. /;&nbsp;Published by J. Wyld.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the Ottoman Dominions in Asia;&nbsp;With the adjacent frontiers of the Russian and Persian empires. /;&nbsp;Published by J. Wyld."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Jas. Wyld"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wyld James, 1812-1887"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002715309"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1843"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 69x51 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002715309"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002715309/sequence/IE36010563",
+      "@type": "sc:Sequence",
+      "label": "Map of the Ottoman Dominions in Asia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010570",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18780,
+          "height": 14200,
+          "images": [
+            {
+              "@id": "FL36010570",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010570",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010570/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010570",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14200,
+                "width": 18780
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010569",
+      "@type": "sc:Range",
+      "label": "REP36010569",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010570",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002715309",
+  "viewingHint": "paged"
+}

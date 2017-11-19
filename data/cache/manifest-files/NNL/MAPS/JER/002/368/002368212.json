@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368212/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Jerusalem and the adjacent country;&nbsp;Taken from the heights of Bethlehem 1839 /;&nbsp;by the Librarian of the Armenian Convent... Drawn from the original by N. Whittock. Chabot's Zinc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Jerusalem and the adjacent country;&nbsp;Taken from the heights of Bethlehem 1839 /;&nbsp;by the Librarian of the Armenian Convent... Drawn from the original by N. Whittock. Chabot's Zinc."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Tilt & Bogue"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Whittock N. (Nathaniel), 1791-1860"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368212"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1842"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "270x240 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368212"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368212/sequence/IE6881433",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072648",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2120,
+          "height": 2886,
+          "images": [
+            {
+              "@id": "FL7072648",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072648",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072648/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072648",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2886,
+                "width": 2120
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072647",
+      "@type": "sc:Range",
+      "label": "REP7072647",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072648",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368212",
+  "viewingHint": "paged"
+}

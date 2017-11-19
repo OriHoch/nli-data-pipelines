@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002493598/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ghana -- Maps; Gold Coast -- Maps",
+  "label": "Pas-caert vande Goud cust in Guinea :;&nbsp;Van C. tres Puntas tot Acara, daer mede in verthoont word... /;&nbsp;Joannes van Keulen",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pas-caert vande Goud cust in Guinea :;&nbsp;Van C. tres Puntas tot Acara, daer mede in verthoont word... /;&nbsp;Joannes van Keulen"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Joannes van Keulen"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ghana -- Maps; Gold Coast -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Keulen Johannes van, 1704-1755"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002493598"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1750?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 51 X 58 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002493598"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002493598/sequence/IE13723830",
+      "@type": "sc:Sequence",
+      "label": "Gold Coast",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737183",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9725,
+          "height": 8506,
+          "images": [
+            {
+              "@id": "FL13737183",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737183",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737183/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737183",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8506,
+                "width": 9725
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737182",
+      "@type": "sc:Range",
+      "label": "REP13737182",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737183",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002493598",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300717/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. פזרו, איטליה. תק\"י.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. פזרו, איטליה. תק\"י."
+    },
+    {
+      "label": "Contributor",
+      "value": "קרקשון, ישראל בן משה (חתן) ; רובינו, שמחה בת מהללאל (כלה) ; רומנין, ישעיה בן יוסף, 1660?-1765 (עד) ; דלוקיו, שלמה בן שמשון (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "פיסארו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300717"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י באדר ב תק\"י (1750)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 222X315 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Pesaro, Italy. 1750"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300717"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300717/sequence/IE9200175",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. פיסארו, איטליה, תק&quot;י].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462185",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פיסארו; איטליה; תקי].",
+          "width": 800,
+          "height": 582,
+          "images": [
+            {
+              "@id": "FL9462185",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462185",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462185/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. פיסארו; איטליה; תקי].",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462185",
+                  "label": "[כתובה. פיסארו; איטליה; תקי].",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 582,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462184",
+      "@type": "sc:Range",
+      "label": "REP9462184",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462185",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. פיסארו; איטליה; תקי]."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300717",
+  "viewingHint": "paged"
+}

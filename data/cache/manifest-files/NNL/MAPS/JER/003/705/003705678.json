@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003705678/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bratislava (Slovakia) -- Maps; Bratislava Region (Slovakia) -- Maps",
+  "label": "Magyar Ország' távcső földképe. Pozsony környeke;&nbsp;A természet szerint felvette, leirta és a'maga költségein kiadta Pernold Ádolf Emánuel, Bécsben; Collár Vitéz Ferencz rajz. ; Neumayer Lörincz metsz.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Magyar Ország' távcső földképe. Pozsony környeke;&nbsp;A természet szerint felvette, leirta és a'maga költségein kiadta Pernold Ádolf Emánuel, Bécsben; Collár Vitéz Ferencz rajz. ; Neumayer Lörincz metsz."
+    },
+    {
+      "label": "Contributor",
+      "value": "Vitéz Ferencz Collár; Lorenz Neumayer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Bécsben :Feyertag János, nyomt."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bratislava (Slovakia) -- Maps; Bratislava Region (Slovakia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Pernold Ádolf Emánuel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003705678"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1820"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 40x57.6 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "hun"
+    },
+    {
+      "label": "SysNum",
+      "value": "003705678"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003705678/sequence/IE39696850",
+      "@type": "sc:Sequence",
+      "label": "Magyar Ország&apos; távcső földképe. Pozsony környeke",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696854",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14109,
+          "height": 9950,
+          "images": [
+            {
+              "@id": "FL39696854",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696854",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696854/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696854",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9950,
+                "width": 14109
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39696853",
+      "@type": "sc:Range",
+      "label": "REP39696853",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696854",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003705678",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER004073130/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "ADPC"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Moses (Biblical leader); Exodus, The -- Maps; Eretz Israel -- Maps",
+  "label": "Perigrinatie ofte veertich-jarige reyse der Kinderen Israels door de Roode Zee.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Perigrinatie ofte veertich-jarige reyse der Kinderen Israels door de Roode Zee."
+    },
+    {
+      "label": "Contributor",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Moses (Biblical leader); Exodus, The -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Aveele Johannes van den, -1727"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER004073130"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1687"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "004073130"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER004073130/sequence/IE49973461",
+      "@type": "sc:Sequence",
+      "label": "Perigrinatie ofte veertich-jarige reyse der Kinderen Israels door de Roode Zee.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973475",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 11848,
+          "height": 10428,
+          "images": [
+            {
+              "@id": "FL49973475",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973475",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973475/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973475",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10428,
+                "width": 11848
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973498",
+          "@type": "sc:Canvas",
+          "label": "02 Verso",
+          "width": 11835,
+          "height": 10350,
+          "images": [
+            {
+              "@id": "FL49973498",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973498",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973498/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973498",
+                  "label": "02 Verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10350,
+                "width": 11835
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP49973474",
+      "@type": "sc:Range",
+      "label": "REP49973474",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973475",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973498",
+          "@type": "sc:Canvas",
+          "label": "02 Verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER004073130",
+  "viewingHint": "paged"
+}

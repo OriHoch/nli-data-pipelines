@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002481746/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asia Partium Orbis Maxima MDXCVIII;&nbsp;Q. ; Ioan bussemacher imprimit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia Partium Orbis Maxima MDXCVIII;&nbsp;Q. ; Ioan bussemacher imprimit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Johann Bussemacher fl. 1580-1613"
+    },
+    {
+      "label": "Publisher",
+      "value": "Colonae :Ioan Bussemacher"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Quad Matthias, 1557-1613"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002481746"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1600"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 20 x 27 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002481746"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002481746/sequence/IE27957644",
+      "@type": "sc:Sequence",
+      "label": "Asia Partium Orbis Maxima MDXCVIII",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957652",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7999,
+          "height": 5817,
+          "images": [
+            {
+              "@id": "FL27957652",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27957652",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27957652/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27957652",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5817,
+                "width": 7999
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27957651",
+      "@type": "sc:Range",
+      "label": "REP27957651",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957652",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002481746",
+  "viewingHint": "paged"
+}

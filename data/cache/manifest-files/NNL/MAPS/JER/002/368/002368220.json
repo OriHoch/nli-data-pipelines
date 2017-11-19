@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368220/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sinai, Mount (Egypt) -- Maps",
+  "label": "Sanctus Mons Synai;&nbsp;Claudio Cornelio Frangipani... D. Io.Baptista fontana incidebat. Bolognius Zalterius...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Sanctus Mons Synai;&nbsp;Claudio Cornelio Frangipani... D. Io.Baptista fontana incidebat. Bolognius Zalterius..."
+    },
+    {
+      "label": "Contributor",
+      "value": "Giovanni Battista Fontana"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Venezia],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sinai, Mount (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Zaltieri Bolognino"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368220"
+    },
+    {
+      "label": "Creation Date",
+      "value": "Anno MDLXIX"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "350x515 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368220"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368220/sequence/IE6882688",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073988",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 8388,
+          "height": 6483,
+          "images": [
+            {
+              "@id": "FL7073988",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073988",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073988/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073988",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6483,
+                "width": 8388
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073987",
+      "@type": "sc:Range",
+      "label": "REP7073987",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073988",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368220",
+  "viewingHint": "paged"
+}

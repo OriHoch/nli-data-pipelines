@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002588585/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Valencia (Spain) -- Maps; Spain -- Maps",
+  "label": "Valentia Regnum;&nbsp;Contestani, Ptol. ; Edentani, Plin.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Valentia Regnum;&nbsp;Contestani, Ptol. ; Edentani, Plin."
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdami :Guiljelmus Blaeuw"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Valencia (Spain) -- Maps; Spain -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blaeu Willem Janszoon, 1571-1638"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002588585"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1662"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 38 X 49 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002588585"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002588585/sequence/IE37099270",
+      "@type": "sc:Sequence",
+      "label": "Valentia Regnum",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099278",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13864,
+          "height": 11485,
+          "images": [
+            {
+              "@id": "FL37099278",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099278",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099278/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099278",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11485,
+                "width": 13864
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099277",
+      "@type": "sc:Range",
+      "label": "REP37099277",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099278",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002588585",
+  "viewingHint": "paged"
+}

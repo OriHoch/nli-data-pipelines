@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368879/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Maps; Mediterranean Region -- Maps",
+  "label": "Tabula geographica, in qua omnes regiones, urbes, oppida, et loca describuntur, quorum mentio fit in Actis et Epistolis Apostolorum, et Apocalypsi;&nbsp;auct. Pet. Planc. Gedruckt tAmstelredam by Jan Evertss Cloppenborch...Baptista Doetechmius sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula geographica, in qua omnes regiones, urbes, oppida, et loca describuntur, quorum mentio fit in Actis et Epistolis Apostolorum, et Apocalypsi;&nbsp;auct. Pet. Planc. Gedruckt tAmstelredam by Jan Evertss Cloppenborch...Baptista Doetechmius sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Baptista van Doetecom; Jan Evertss Cloppenburgh; Jan Paedts; Jan Bouwertss; Laurens Jacobszon"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leyden] :Jan Paedts and Jan Bouwertss"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Maps; Mediterranean Region -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Plancius Petrus, 1552-1622"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368879"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1609"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "290x492 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368879"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368879/sequence/IE6879739",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071461",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2760,
+          "height": 1755,
+          "images": [
+            {
+              "@id": "FL7071461",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071461",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071461/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071461",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1755,
+                "width": 2760
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071460",
+      "@type": "sc:Range",
+      "label": "REP7071460",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071461",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368879",
+  "viewingHint": "paged"
+}

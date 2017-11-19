@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368733/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Peregrinatio Israelitarum per desertum in Terram Promissam",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Peregrinatio Israelitarum per desertum in Terram Promissam"
+    },
+    {
+      "label": "Contributor",
+      "value": "Abraham Ortelius 1527-1598; Tilemann Stella 1525-1589"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lochom Michael van"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368733"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1641?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "296x441 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368733"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368733/sequence/IE47890629",
+      "@type": "sc:Sequence",
+      "label": "Peregrinatio Israelitarum per desertum in Terram Promissam",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47890639",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 19014,
+          "height": 12738,
+          "images": [
+            {
+              "@id": "FL47890639",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47890639",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47890639/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47890639",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12738,
+                "width": 19014
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP47890638",
+      "@type": "sc:Range",
+      "label": "REP47890638",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47890639",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368733",
+  "viewingHint": "paged"
+}

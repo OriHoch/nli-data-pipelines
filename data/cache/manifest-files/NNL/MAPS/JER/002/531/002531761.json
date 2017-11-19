@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002531761/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "Grecian Archipelago :;&nbsp;(Ancient) /;&nbsp;by William Smith ; Engraved by J. & C. Walker",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Grecian Archipelago :;&nbsp;(Ancient) /;&nbsp;by William Smith ; Engraved by J. & C. Walker"
+    },
+    {
+      "label": "Contributor",
+      "value": "J. & C. Walker (Firm)"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Society for the Diffusion of Useful Knowledge ; Cha. Knight"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Smith William"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002531761"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1845"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 39 X 31 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002531761"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002531761/sequence/IE35071871",
+      "@type": "sc:Sequence",
+      "label": "Grecian Archipelago :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071885",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8156,
+          "height": 10056,
+          "images": [
+            {
+              "@id": "FL35071885",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35071885",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35071885/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35071885",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10056,
+                "width": 8156
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35071884",
+      "@type": "sc:Range",
+      "label": "REP35071884",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071885",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002531761",
+  "viewingHint": "paged"
+}

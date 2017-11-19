@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002493177/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa, Southern -- Maps; Madagascar -- Maps",
+  "label": "Carte du Royaume de Congo, du Monomotapa et de la Cafrerie :;&nbsp;Dressée sur le memoires les plus exacts & les les observations les plus nouvelles.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du Royaume de Congo, du Monomotapa et de la Cafrerie :;&nbsp;Dressée sur le memoires les plus exacts & les les observations les plus nouvelles."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa, Southern -- Maps; Madagascar -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Chatelain Henri Abraham, 1684-1743"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002493177"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1732"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 38 X 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002493177"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002493177/sequence/IE13723586",
+      "@type": "sc:Sequence",
+      "label": "Madagascar",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737173",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8937,
+          "height": 7128,
+          "images": [
+            {
+              "@id": "FL13737173",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737173",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737173/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737173",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7128,
+                "width": 8937
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737172",
+      "@type": "sc:Range",
+      "label": "REP13737172",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737173",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002493177",
+  "viewingHint": "paged"
+}

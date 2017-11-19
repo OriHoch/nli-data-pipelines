@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER004073157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "ADPC"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Adam (Biblical figure); Noah's ark in art; Babel, Tower of, in art; Middle East -- Maps",
+  "label": "De gelegentheyt van't Paradys en't Landt Canaan, mitsgaders d'eerst Bewoonde Landen der Patriarchen...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "De gelegentheyt van't Paradys en't Landt Canaan, mitsgaders d'eerst Bewoonde Landen der Patriarchen..."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Adam (Biblical figure); Noah's ark in art; Babel, Tower of, in art; Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER004073157"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1702"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "004073157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER004073157/sequence/IE49973595",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;De&gt;&gt; gelegentheyt van&apos;t Paradys en&apos;t Landt Canaan; mitsgaders d&apos;eerst Bewoonde Landen der Patriarchen...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973620",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 11408,
+          "height": 7861,
+          "images": [
+            {
+              "@id": "FL49973620",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973620",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973620/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973620",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7861,
+                "width": 11408
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973629",
+          "@type": "sc:Canvas",
+          "label": "02 Verso",
+          "width": 11471,
+          "height": 7913,
+          "images": [
+            {
+              "@id": "FL49973629",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL49973629",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL49973629/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL49973629",
+                  "label": "02 Verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7913,
+                "width": 11471
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP49973619",
+      "@type": "sc:Range",
+      "label": "REP49973619",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973620",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL49973629",
+          "@type": "sc:Canvas",
+          "label": "02 Verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER004073157",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368531/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "A compleat map of the Holy Land; adapted to the Old and New Testament;&nbsp;by Samuel Dunn, Mathematician.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A compleat map of the Holy Land; adapted to the Old and New Testament;&nbsp;by Samuel Dunn, Mathematician."
+    },
+    {
+      "label": "Contributor",
+      "value": "Robert Sayer 1725-1794"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Printed for Robt. Sayer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dunn Samuel, -1794"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368531"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1774"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "Two sheets. Together 700x475 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368531"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368531/sequence/IE6879390",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071357",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2148,
+          "height": 2905,
+          "images": [
+            {
+              "@id": "FL7071357",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071357",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071357/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071357",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2905,
+                "width": 2148
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071356",
+      "@type": "sc:Range",
+      "label": "REP7071356",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071357",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368531",
+  "viewingHint": "paged"
+}

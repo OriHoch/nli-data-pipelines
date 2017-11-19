@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300736/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. הזם, תימן. ת\"ל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. הזם, תימן. ת\"ל."
+    },
+    {
+      "label": "Contributor",
+      "value": "קרואני, סאלם בן יחיא (חתן) ; אלנהרי, הוידה בת שמעון (כלה) ; אלמסורי, חיים בן דאוד (עד) ; זידי, יהודה בן גיאת (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "הזם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300736"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ז בתשרי א'תתקפ\"א לשטרות (1669)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 242X190 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Hizam, Yemen. 1669"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300736"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300736/sequence/IE9207842",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. הזם, תימן, ת&quot;ל]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469065",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 653,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469065",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469065",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469065/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469065",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 653
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469064",
+      "@type": "sc:Range",
+      "label": "REP9469064",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469065",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300736",
+  "viewingHint": "paged"
+}

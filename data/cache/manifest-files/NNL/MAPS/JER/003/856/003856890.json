@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003856890/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tsemah Region (Israel) -- Maps; Sha'ar Hagolan Region (Israel) -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול",
+  "label": "Samakh east /;&nbsp;Reproduced and printed by Survey of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Samakh east /;&nbsp;Reproduced and printed by Survey of Palestine."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tsemah Region (Israel) -- Maps; Sha'ar Hagolan Region (Israel) -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003856890"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1941"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 61 x 45 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Palestine 1:25,000 ; 20-23, 21-21"
+    },
+    {
+      "label": "SysNum",
+      "value": "003856890"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003856890/sequence/IE28955966",
+      "@type": "sc:Sequence",
+      "label": "Samakh east /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28956007",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10913,
+          "height": 14539,
+          "images": [
+            {
+              "@id": "FL28956007",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28956007",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28956007/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28956007",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14539,
+                "width": 10913
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP28956006",
+      "@type": "sc:Range",
+      "label": "REP28956006",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28956007",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003856890",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002541062/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Serbia -- Maps; Sremski Karlovci (Serbia) -- Maps; Petrovaradin Region (Serbia) -- Maps; Petrovaradin (Serbia) -- Maps",
+  "label": "Plan de la bataille donnée entre l'armée de la Maj. Imp. et Cath. sous le Serenissime Prince Eugene de Savoye general lieutenant de la Maj. Imp. et Cath. et l'Armée Turque entre Petervaradin et Carlowitz :;&nbsp;le 5 Aout 1716, ou le Turcs ont été mis en fuite avec perte de leur Camp, Artillerie, et Munitions",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan de la bataille donnée entre l'armée de la Maj. Imp. et Cath. sous le Serenissime Prince Eugene de Savoye general lieutenant de la Maj. Imp. et Cath. et l'Armée Turque entre Petervaradin et Carlowitz :;&nbsp;le 5 Aout 1716, ou le Turcs ont été mis en fuite avec perte de leur Camp, Artillerie, et Munitions"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Publisher not identified."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Serbia -- Maps; Sremski Karlovci (Serbia) -- Maps; Petrovaradin Region (Serbia) -- Maps; Petrovaradin (Serbia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002541062"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1760?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 44 X 56 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002541062"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002541062/sequence/IE35076613",
+      "@type": "sc:Sequence",
+      "label": "Plan de la bataille donnée entre l&apos;armée de la Maj. Imp. et Cath. sous le Serenissime Prince Eugene de Savoye general lieutenant de la Maj. Imp. et Cath. et l&apos;Armée Turque entre Petervaradin et Carlowitz :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076622",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14760,
+          "height": 12592,
+          "images": [
+            {
+              "@id": "FL35076622",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076622",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076622/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076622",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12592,
+                "width": 14760
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076621",
+      "@type": "sc:Range",
+      "label": "REP35076621",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076622",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002541062",
+  "viewingHint": "paged"
+}

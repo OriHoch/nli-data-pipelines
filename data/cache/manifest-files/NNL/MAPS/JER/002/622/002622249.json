@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002622249/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tatars -- Maps",
+  "label": "La Tartaria Cinese;&nbsp;delinieata sulleultime osservazioni /;&nbsp;Gio.Ma.Cassini som inc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Tartaria Cinese;&nbsp;delinieata sulleultime osservazioni /;&nbsp;Gio.Ma.Cassini som inc."
+    },
+    {
+      "label": "Publisher",
+      "value": "Roma :Presso la Calcografia Camerale"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tatars -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Cassini Gio. Ma. (Giovanni Maria), 1745-approximately 1824"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002622249"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1798"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 44 x 59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "002622249"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002622249/sequence/IE36380667",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;La&gt;&gt; Tartaria Cinese",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380683",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14024,
+          "height": 10374,
+          "images": [
+            {
+              "@id": "FL36380683",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36380683",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36380683/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36380683",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10374,
+                "width": 14024
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36380681",
+      "@type": "sc:Range",
+      "label": "REP36380681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36380683",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002622249",
+  "viewingHint": "paged"
+}

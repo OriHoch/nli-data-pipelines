@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370000/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Saint Petersburg (Russia) -- Maps; Finland, Gulf of -- Maps",
+  "label": "Finskii Zaliv ot Kronshtadta do Sanktpeterburga s lezashimi po beregam zabavnimi domami;&nbsp;Mattaeus Seutter Sac. Caes. Maj. Georg.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Finskii Zaliv ot Kronshtadta do Sanktpeterburga s lezashimi po beregam zabavnimi domami;&nbsp;Mattaeus Seutter Sac. Caes. Maj. Georg."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Saint Petersburg (Russia) -- Maps; Finland, Gulf of -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seutter Matthaeus, 1678-1756"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370000"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "495x565 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger;lat;rus"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370000"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370000/sequence/IE33122203",
+      "@type": "sc:Sequence",
+      "label": "Finskii Zaliv ot Kronshtadta do Sanktpeterburga s lezashimi po beregam zabavnimi domami",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33122210",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15414,
+          "height": 12795,
+          "images": [
+            {
+              "@id": "FL33122210",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33122210",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33122210/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33122210",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12795,
+                "width": 15414
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33122209",
+      "@type": "sc:Range",
+      "label": "REP33122209",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33122210",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370000",
+  "viewingHint": "paged"
+}

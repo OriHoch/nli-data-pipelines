@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003471385/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "גבולי ארץ ישראל על פי המובן לנו במשנתנו זאת",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גבולי ארץ ישראל על פי המובן לנו במשנתנו זאת"
+    },
+    {
+      "label": "Publisher",
+      "value": "אלטונא :מוציא לאור לא ידוע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אמדן, יעקב בן צבי 1697-1776"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003471385"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תקכ\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה ; 11x11.3 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003471385"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003471385/sequence/IE17237413",
+      "@type": "sc:Sequence",
+      "label": "גבולי ארץ ישראל על פי המובן לנו במשנתנו זאת",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245754",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4965,
+          "height": 7948,
+          "images": [
+            {
+              "@id": "FL17245754",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17245754",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17245754/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17245754",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7948,
+                "width": 4965
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17245753",
+      "@type": "sc:Range",
+      "label": "REP17245753",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245754",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003471385",
+  "viewingHint": "paged"
+}

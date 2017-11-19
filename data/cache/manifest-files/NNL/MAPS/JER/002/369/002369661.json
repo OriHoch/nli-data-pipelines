@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369661/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Plan of Jerusalem;&nbsp;sketched from Sieber and Catherwood, corrected by the measurements of Robinson and Smith /;&nbsp;drawn by H. Kiepert",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan of Jerusalem;&nbsp;sketched from Sieber and Catherwood, corrected by the measurements of Robinson and Smith /;&nbsp;drawn by H. Kiepert"
+    },
+    {
+      "label": "Contributor",
+      "value": "Frederick Catherwood; F. W Sieber; Eli Smith 1801-1857; Edward Robinson 1794-1863; Heinrich Mahlmann"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Murray, John"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369661"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1841"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "311 X 259 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369661"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369661/sequence/IE6879054",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070935",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2310,
+          "height": 2665,
+          "images": [
+            {
+              "@id": "FL7070935",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070935",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070935/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070935",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2665,
+                "width": 2310
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070934",
+      "@type": "sc:Range",
+      "label": "REP7070934",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070935",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369661",
+  "viewingHint": "paged"
+}

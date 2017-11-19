@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002488679/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Southeast Asia -- Maps; Malaysia -- Maps",
+  "label": "Carte de la Malaisie :;&nbsp;ou grand archipel d'Asiae /;&nbsp;Gravé par Thierry",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Malaisie :;&nbsp;ou grand archipel d'Asiae /;&nbsp;Gravé par Thierry"
+    },
+    {
+      "label": "Contributor",
+      "value": "Thierry"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Southeast Asia -- Maps; Malaysia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Malte-Brun Conrad, 1775-1826"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002488679"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1835"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 21 X 29 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002488679"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002488679/sequence/IE27963629",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Malaisie :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963633",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10189,
+          "height": 6515,
+          "images": [
+            {
+              "@id": "FL27963633",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27963633",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27963633/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27963633",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6515,
+                "width": 10189
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27963632",
+      "@type": "sc:Range",
+      "label": "REP27963632",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27963633",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002488679",
+  "viewingHint": "paged"
+}

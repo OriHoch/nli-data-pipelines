@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003902568/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Moses (Biblical leader); Aaron (Biblical priest); Temple of Jerusalem (Jerusalem, Israel) -- In art; Tabernacle; Twelve tribes of Israel -- Maps; Exodus, The -- Maps; Eretz Israel -- Maps",
+  "label": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israëls, Uyt Egypten door de Roode zee /;&nbsp;A van den Broeck fecit C. J. Visscher excud.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israëls, Uyt Egypten door de Roode zee /;&nbsp;A van den Broeck fecit C. J. Visscher excud."
+    },
+    {
+      "label": "Contributor",
+      "value": "Abraham van den Broeck"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Moses (Biblical leader); Aaron (Biblical priest); Temple of Jerusalem (Jerusalem, Israel) -- In art; Tabernacle; Twelve tribes of Israel -- Maps; Exodus, The -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003902568"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1677"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003902568"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003902568/sequence/IE36566069",
+      "@type": "sc:Sequence",
+      "label": "Perigrinatie ofte veertich-Iarige reyse der kinderen Israëls; Uyt Egypten door de Roode zee /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566085",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12141,
+          "height": 8886,
+          "images": [
+            {
+              "@id": "FL36566085",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566085",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566085/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566085",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8886,
+                "width": 12141
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566084",
+      "@type": "sc:Range",
+      "label": "REP36566084",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566085",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003902568",
+  "viewingHint": "paged"
+}

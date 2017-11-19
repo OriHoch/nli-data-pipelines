@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002760683/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- History -- Proposed partition, 1937; Eretz Israel -- Maps",
+  "label": "The A plan of partition",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The A plan of partition"
+    },
+    {
+      "label": "Contributor",
+      "value": "Great Britain. Palestine Partition Commission"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jaffa :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- History -- Proposed partition, 1937; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Great Britain. Ordnance Survey"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002760683"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 35x25 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002760683"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002760683/sequence/IE17237370",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; A plan of partition",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245383",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3377,
+          "height": 5102,
+          "images": [
+            {
+              "@id": "FL17245383",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17245383",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17245383/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17245383",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5102,
+                "width": 3377
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17245382",
+      "@type": "sc:Range",
+      "label": "REP17245382",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17245383",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002760683",
+  "viewingHint": "paged"
+}

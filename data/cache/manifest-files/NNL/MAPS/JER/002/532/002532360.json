@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002532360/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "Eur X Tab.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Eur X Tab."
+    },
+    {
+      "label": "Contributor",
+      "value": "Ptolemy, active 2nd century"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Köln] :Gerardus Mercator"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mercator Gerhard, 1512-1594"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002532360"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1584"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 33 X 44 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002532360"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002532360/sequence/IE35071919",
+      "@type": "sc:Sequence",
+      "label": "Eur X Tab.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071929",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11495,
+          "height": 8820,
+          "images": [
+            {
+              "@id": "FL35071929",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35071929",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35071929/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35071929",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8820,
+                "width": 11495
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35071928",
+      "@type": "sc:Range",
+      "label": "REP35071928",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071929",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002532360",
+  "viewingHint": "paged"
+}

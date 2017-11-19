@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002481750/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asia;&nbsp;G.Alexander fe.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asia;&nbsp;G.Alexander fe."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Printed for Samuel Bagster"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Alexander G."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002481750"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1809"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 194 x 231 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002481750"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002481750/sequence/IE27957641",
+      "@type": "sc:Sequence",
+      "label": "Asia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957650",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7485,
+          "height": 6489,
+          "images": [
+            {
+              "@id": "FL27957650",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27957650",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27957650/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27957650",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6489,
+                "width": 7485
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27957649",
+      "@type": "sc:Range",
+      "label": "REP27957649",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27957650",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002481750",
+  "viewingHint": "paged"
+}

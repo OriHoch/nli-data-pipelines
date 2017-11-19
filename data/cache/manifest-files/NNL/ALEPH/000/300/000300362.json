@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300362/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. האג, הולנד. תע\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. האג, הולנד. תע\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "שניאור-טישירה, בנימן בן יצחק חיים (חתן) ; שניאור-טישירה, רבקה בת שמואל (כלה) ; ויגה, יוסף דה (עד) ; פינטו, אברהם דה (עד) ; Abohav da Fonseca, Yizhaq, 1605-1693 (Mentioned)"
+    },
+    {
+      "label": "Publisher",
+      "value": "האגה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300362"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ט בטבת תע\"א (1710)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 415X370 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Hague, Netherlands. 1710"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300362"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300362/sequence/IE9207618",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. האג, הולנד, תע&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469987",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 698,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9469987",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9469987",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9469987/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9469987",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 698
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9469986",
+      "@type": "sc:Range",
+      "label": "REP9469986",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9469987",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300362",
+  "viewingHint": "paged"
+}

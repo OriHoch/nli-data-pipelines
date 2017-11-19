@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002814080/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World War, 1914-1918 -- Maps; Poland -- Maps; Slovakia -- Maps; Hungary -- Maps; Russia -- Maps; Ukraine -- Maps",
+  "label": "Übersichtskarte des russischen Kriegsschauplatzes",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Übersichtskarte des russischen Kriegsschauplatzes"
+    },
+    {
+      "label": "Publisher",
+      "value": "Wien :Kartographisches, früher Militärgeographisches Institut"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World War, 1914-1918 -- Maps; Poland -- Maps; Slovakia -- Maps; Hungary -- Maps; Russia -- Maps; Ukraine -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002814080"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1917?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 85x113 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002814080"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002814080/sequence/IE35476950",
+      "@type": "sc:Sequence",
+      "label": "Übersichtskarte des russischen Kriegsschauplatzes",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35476956",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 27603,
+          "height": 20700,
+          "images": [
+            {
+              "@id": "FL35476956",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35476956",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35476956/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35476956",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 20700,
+                "width": 27603
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35476955",
+      "@type": "sc:Range",
+      "label": "REP35476955",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35476956",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002814080",
+  "viewingHint": "paged"
+}

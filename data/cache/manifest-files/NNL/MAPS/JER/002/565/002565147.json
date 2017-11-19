@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002565147/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Cyprus -- Maps",
+  "label": "Cyprus Insula;&nbsp;in pamphylio mari inter Siriam et Ciliciam... /;&nbsp;N. Bonifacio S[ibenicensis] f.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Cyprus Insula;&nbsp;in pamphylio mari inter Siriam et Ciliciam... /;&nbsp;N. Bonifacio S[ibenicensis] f."
+    },
+    {
+      "label": "Publisher",
+      "value": "Venetiis,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Cyprus -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bonifacio Natale, 1538-1592"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002565147"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1570"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 27 X 41 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002565147"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002565147/sequence/IE35076779",
+      "@type": "sc:Sequence",
+      "label": "Cyprus Insula",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076787",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13436,
+          "height": 10691,
+          "images": [
+            {
+              "@id": "FL35076787",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076787",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076787/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076787",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10691,
+                "width": 13436
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076786",
+      "@type": "sc:Range",
+      "label": "REP35076786",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076787",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002565147",
+  "viewingHint": "paged"
+}

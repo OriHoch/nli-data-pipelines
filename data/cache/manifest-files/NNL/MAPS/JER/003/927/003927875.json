@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003927875/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem Region (Israel) -- Maps",
+  "label": "Weitere umgebung von Jerusalem bis Hebron, Jericho u zum Todtem Meer /;&nbsp;Gez. v. H. Kiepert.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Weitere umgebung von Jerusalem bis Hebron, Jericho u zum Todtem Meer /;&nbsp;Gez. v. H. Kiepert."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem Region (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003927875"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1880"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003927875"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003927875/sequence/IE45585255",
+      "@type": "sc:Sequence",
+      "label": "Weitere umgebung von Jerusalem bis Hebron; Jericho u zum Todtem Meer /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585265",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2430,
+          "height": 1992,
+          "images": [
+            {
+              "@id": "FL45585265",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45585265",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45585265/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45585265",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1992,
+                "width": 2430
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45585264",
+      "@type": "sc:Range",
+      "label": "REP45585264",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45585265",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003927875",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369046/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jonah (Biblical prophet); Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Palaestina seu Terra a Mose et Iosua occupata et inter Iudaeos distributa per XII Tribus vulgo Sancta adpellata;&nbsp;a Ioanne Christophoro Hernberg... sculpsit Matth. Seutter.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palaestina seu Terra a Mose et Iosua occupata et inter Iudaeos distributa per XII Tribus vulgo Sancta adpellata;&nbsp;a Ioanne Christophoro Hernberg... sculpsit Matth. Seutter."
+    },
+    {
+      "label": "Contributor",
+      "value": "Johann Christoph Harenberg 1696-1774; Johann Baptist Homann 1663-1724"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Augsburg],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jonah (Biblical prophet); Twelve tribes of Israel -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seutter Matthaeus, 1678-1756"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369046"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1745?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "493x570 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369046"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369046/sequence/IE6880844",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072397",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2700,
+          "height": 2319,
+          "images": [
+            {
+              "@id": "FL7072397",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072397",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072397/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072397",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2319,
+                "width": 2700
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072396",
+      "@type": "sc:Range",
+      "label": "REP7072396",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072397",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369046",
+  "viewingHint": "paged"
+}

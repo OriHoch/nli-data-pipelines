@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003881620/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Palæstina a temporibus Maccabæorum :;&nbsp;usque ad eversionem Hierosolymæ /;&nbsp;W. Behrens. sc.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palæstina a temporibus Maccabæorum :;&nbsp;usque ad eversionem Hierosolymæ /;&nbsp;W. Behrens. sc."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Behrens Wilhelm H., -1871"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003881620"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1855"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Syria Phoenice, Syria Palaestina provinciae"
+    },
+    {
+      "label": "SysNum",
+      "value": "003881620"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003881620/sequence/IE33144821",
+      "@type": "sc:Sequence",
+      "label": "Palæstina a temporibus Maccabæorum :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33144839",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10730,
+          "height": 8655,
+          "images": [
+            {
+              "@id": "FL33144839",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33144839",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33144839/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33144839",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8655,
+                "width": 10730
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33144838",
+      "@type": "sc:Range",
+      "label": "REP33144838",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33144839",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003881620",
+  "viewingHint": "paged"
+}

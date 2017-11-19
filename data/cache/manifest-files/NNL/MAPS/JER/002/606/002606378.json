@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002606378/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russia -- Maps",
+  "label": "Nouvelle carte de Moscovie où sont representés les diferents etats de sa maiesté Czarienne en Europe et en Asie Et Le Chemin D'Un De Ses Ambassadeurs A Peking Ville Capitale De L'Empereur De La Chine Et Son Sejour Ordinaire",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nouvelle carte de Moscovie où sont representés les diferents etats de sa maiesté Czarienne en Europe et en Asie Et Le Chemin D'Un De Ses Ambassadeurs A Peking Ville Capitale De L'Empereur De La Chine Et Son Sejour Ordinaire"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Chatelain Henri Abraham, 1684-1743"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002606378"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1718"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 54 x 63 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002606378"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002606378/sequence/IE36379212",
+      "@type": "sc:Sequence",
+      "label": "Nouvelle carte de Moscovie où sont representés les diferents etats de sa maiesté Czarienne en Europe et en Asie Et Le Chemin D&apos;Un De Ses Ambassadeurs A Peking Ville Capitale De L&apos;Empereur De La Chine Et Son Sejour Ordinaire",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379250",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15226,
+          "height": 12846,
+          "images": [
+            {
+              "@id": "FL36379250",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36379250",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36379250/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36379250",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12846,
+                "width": 15226
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36379249",
+      "@type": "sc:Range",
+      "label": "REP36379249",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36379250",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002606378",
+  "viewingHint": "paged"
+}

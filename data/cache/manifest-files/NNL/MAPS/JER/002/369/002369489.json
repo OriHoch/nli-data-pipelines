@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369489/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Politics and government -- 1917-1948, British Mandate period; Eretz Israel -- Maps",
+  "label": "Palestine",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jaffa :Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Politics and government -- 1917-1948, British Mandate period; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ha-Merkaz le-mippui Yisrael"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369489"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1932"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369489"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369489/sequence/IE27932955",
+      "@type": "sc:Sequence",
+      "label": "Palestine",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27932960",
+          "@type": "sc:Canvas",
+          "label": "01 North",
+          "width": 14302,
+          "height": 18209,
+          "images": [
+            {
+              "@id": "FL27932960",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27932960",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27932960/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 North",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27932960",
+                  "label": "01 North",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 18209,
+                "width": 14302
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27932961",
+          "@type": "sc:Canvas",
+          "label": "02 South",
+          "width": 14029,
+          "height": 18111,
+          "images": [
+            {
+              "@id": "FL27932961",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27932961",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27932961/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 South",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27932961",
+                  "label": "02 South",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 18111,
+                "width": 14029
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27932959",
+      "@type": "sc:Range",
+      "label": "REP27932959",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27932960",
+          "@type": "sc:Canvas",
+          "label": "01 North"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27932961",
+          "@type": "sc:Canvas",
+          "label": "02 South"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369489",
+  "viewingHint": "paged"
+}

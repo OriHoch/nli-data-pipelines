@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368351/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Israel, South -- Maps; Bible -- Geography -- Maps",
+  "label": "Carte du voiage des Israelites dans le desert depuis leur sortie de l'Egypte jusqu'au passage du Jourdain;&nbsp;Pour le II. Volume de l'Histoire du Peuple de Dieu /;&nbsp;I.F. Benard del. et sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du voiage des Israelites dans le desert depuis leur sortie de l'Egypte jusqu'au passage du Jourdain;&nbsp;Pour le II. Volume de l'Histoire du Peuple de Dieu /;&nbsp;I.F. Benard del. et sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Isaac-Joseph Berruyer 1681-1758"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Israel, South -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bénard J. F. (Jacques François)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368351"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1728"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "210x318 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368351"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368351/sequence/IE6881805",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072825",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2980,
+          "height": 2045,
+          "images": [
+            {
+              "@id": "FL7072825",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072825",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072825/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072825",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2045,
+                "width": 2980
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072824",
+      "@type": "sc:Range",
+      "label": "REP7072824",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072825",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368351",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002514224/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sri Lanka -- Maps",
+  "label": "Tabula Asiae XII = TAVOLA DUODECIMA DELL'ASIA",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula Asiae XII = TAVOLA DUODECIMA DELL'ASIA"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Venedig] :Giovanni B. u. Georgio Galignani"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sri Lanka -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002514224"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1598"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map in text page : col. ; 11 x 12 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002514224"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002514224/sequence/IE35472007",
+      "@type": "sc:Sequence",
+      "label": "Tabula Asiae XII = TAVOLA DUODECIMA DELL&apos;ASIA",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35472015",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5231,
+          "height": 7249,
+          "images": [
+            {
+              "@id": "FL35472015",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35472015",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35472015/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35472015",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7249,
+                "width": 5231
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35472014",
+      "@type": "sc:Range",
+      "label": "REP35472014",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35472015",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002514224",
+  "viewingHint": "paged"
+}

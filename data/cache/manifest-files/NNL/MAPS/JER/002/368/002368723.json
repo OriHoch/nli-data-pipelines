@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368723/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; New Testament -- Geography -- Maps",
+  "label": "Eorum quae in Sacris Evangelistu scriptis reperivntur geographica descriptio;&nbsp;h. Le Roy fe.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Eorum quae in Sacris Evangelistu scriptis reperivntur geographica descriptio;&nbsp;h. Le Roy fe."
+    },
+    {
+      "label": "Contributor",
+      "value": "Henri Le Roy"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; New Testament -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Le Jay Guy Michel, 1588-1674"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368723"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1629-45"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "293x240 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368723"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368723/sequence/IE6881219",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072453",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2104,
+          "height": 2908,
+          "images": [
+            {
+              "@id": "FL7072453",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072453",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072453/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072453",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2908,
+                "width": 2104
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072452",
+      "@type": "sc:Range",
+      "label": "REP7072452",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072453",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368723",
+  "viewingHint": "paged"
+}

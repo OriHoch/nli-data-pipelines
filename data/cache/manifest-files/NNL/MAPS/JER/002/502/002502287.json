@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002502287/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Nile River Delta (Egypt) -- Maps",
+  "label": "[Nile Delta] /;&nbsp;drawn by P. Kauffer",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Nile Delta] /;&nbsp;drawn by P. Kauffer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Constantinople :P. Kauffer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nile River Delta (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kauffer Franz"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002502287"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1798"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 ms. map : col. ; 53 X 74 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002502287"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002502287/sequence/IE6881778",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073499",
+          "@type": "sc:Canvas",
+          "label": "גרסא אלקטרונית - [Nile Delta] /",
+          "width": 9158,
+          "height": 6371,
+          "images": [
+            {
+              "@id": "FL7073499",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073499",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073499/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "גרסא אלקטרונית - [Nile Delta] /",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073499",
+                  "label": "גרסא אלקטרונית - [Nile Delta] /",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6371,
+                "width": 9158
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073498",
+      "@type": "sc:Range",
+      "label": "REP7073498",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073499",
+          "@type": "sc:Canvas",
+          "label": "גרסא אלקטרונית - [Nile Delta] /"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002502287",
+  "viewingHint": "paged"
+}

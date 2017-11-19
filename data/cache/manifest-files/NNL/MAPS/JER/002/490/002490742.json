@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002490742/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Arabian Peninsula -- Maps",
+  "label": "Carte De L'Arabie :;&nbsp;D'Après Les Differents Morceaux Ou'a Donnés M. Niebuh De Cette Partie De L'Asie, Et D'Après M. Danville Pour L'Intérieur Des Terres. /;&nbsp;P.F.Tardieu sculp. Dubuisson scr.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte De L'Arabie :;&nbsp;D'Après Les Differents Morceaux Ou'a Donnés M. Niebuh De Cette Partie De L'Asie, Et D'Après M. Danville Pour L'Intérieur Des Terres. /;&nbsp;P.F.Tardieu sculp. Dubuisson scr."
+    },
+    {
+      "label": "Contributor",
+      "value": "Pierre François Tardieu 1717-1771 Dubuisson engraver; Carsten Niebuhr 1733-1815"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arabian Peninsula -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Anville Jean Baptiste Bourguignon d', 1697-1782"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002490742"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1798"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 31 X 42 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002490742"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002490742/sequence/IE33131120",
+      "@type": "sc:Sequence",
+      "label": "Carte De L&apos;Arabie :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131129",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13508,
+          "height": 10504,
+          "images": [
+            {
+              "@id": "FL33131129",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33131129",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33131129/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33131129",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10504,
+                "width": 13508
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33131128",
+      "@type": "sc:Range",
+      "label": "REP33131128",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33131129",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002490742",
+  "viewingHint": "paged"
+}

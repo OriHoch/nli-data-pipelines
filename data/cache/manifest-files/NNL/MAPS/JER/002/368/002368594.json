@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368594/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Descriptio Paradisi et Terrae Canaan;&nbsp;Regionumque a Patriarchis primum habitatarum.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Descriptio Paradisi et Terrae Canaan;&nbsp;Regionumque a Patriarchis primum habitatarum."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leeuwarden] :Franciscus Halma"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Halma François, 1653-1722"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368594"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1717"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "208x330 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368594"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368594/sequence/IE6881650",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072893",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3100,
+          "height": 2005,
+          "images": [
+            {
+              "@id": "FL7072893",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072893",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072893/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072893",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2005,
+                "width": 3100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072892",
+      "@type": "sc:Range",
+      "label": "REP7072892",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072893",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368594",
+  "viewingHint": "paged"
+}

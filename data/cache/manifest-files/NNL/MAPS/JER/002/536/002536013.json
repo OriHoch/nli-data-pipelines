@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002536013/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Netherlands -- Maps",
+  "label": "Tabula Frisiæ, Groningæ et Territorii Emdensis nec non circumiacentium Regionum, puta Transisalaniae, Benthemiae, Westphaliae et Oldenburgi /;&nbsp;N. Vißcher",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula Frisiæ, Groningæ et Territorii Emdensis nec non circumiacentium Regionum, puta Transisalaniae, Benthemiae, Westphaliae et Oldenburgi /;&nbsp;N. Vißcher"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :N. Vißcher"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Netherlands -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher Nicolaes, 1618-1679"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002536013"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 43 X 45 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002536013"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002536013/sequence/IE35073082",
+      "@type": "sc:Sequence",
+      "label": "Tabula Frisiæ; Groningæ et Territorii Emdensis nec non circumiacentium Regionum; puta Transisalaniae; Benthemiae; Westphaliae et Oldenburgi /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073098",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14052,
+          "height": 11673,
+          "images": [
+            {
+              "@id": "FL35073098",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35073098",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35073098/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35073098",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11673,
+                "width": 14052
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35073097",
+      "@type": "sc:Range",
+      "label": "REP35073097",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073098",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002536013",
+  "viewingHint": "paged"
+}

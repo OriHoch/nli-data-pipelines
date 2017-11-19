@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003370937/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mediterranean Sea -- Maps",
+  "label": "Basin of the Mediterranean;&nbsp;By Keith Johnston ; W& A.K. Johnston,.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Basin of the Mediterranean;&nbsp;By Keith Johnston ; W& A.K. Johnston,."
+    },
+    {
+      "label": "Publisher",
+      "value": "Edinburgh & London :William Blackwood & Sons"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mediterranean Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Johnston Alexander Keith, 1804-1871"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003370937"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1873"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003370937"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003370937/sequence/IE37663315",
+      "@type": "sc:Sequence",
+      "label": "Basin of the Mediterranean",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663325",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15260,
+          "height": 12277,
+          "images": [
+            {
+              "@id": "FL37663325",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37663325",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37663325/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37663325",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12277,
+                "width": 15260
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37663321",
+      "@type": "sc:Range",
+      "label": "REP37663321",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37663325",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003370937",
+  "viewingHint": "paged"
+}

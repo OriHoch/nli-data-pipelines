@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369176/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Middle East -- Maps",
+  "label": "Patriarchati Orientales;&nbsp;E.Bourne Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Patriarchati Orientales;&nbsp;E.Bourne Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Ebenezer Bourne"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :R. Wilkinson"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wilkinson Robert, -approximately 1825"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369176"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1800"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "220x280 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369176"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369176/sequence/IE6881560",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072773",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2820,
+          "height": 2211,
+          "images": [
+            {
+              "@id": "FL7072773",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072773",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072773/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072773",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2211,
+                "width": 2820
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072772",
+      "@type": "sc:Range",
+      "label": "REP7072772",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072773",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369176",
+  "viewingHint": "paged"
+}

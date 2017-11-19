@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002494654/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa, North -- Maps",
+  "label": "Les costes des Royaumes de Fez, Alger, Tunis, et Tripoli en Barbarie :;&nbsp;suivant les routiers et portolans de divers pilotes /;&nbsp;Par P.DuVal F.deLapointe fecit",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Les costes des Royaumes de Fez, Alger, Tunis, et Tripoli en Barbarie :;&nbsp;suivant les routiers et portolans de divers pilotes /;&nbsp;Par P.DuVal F.deLapointe fecit"
+    },
+    {
+      "label": "Contributor",
+      "value": "François de Lapointe"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :chez l'auteur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa, North -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Duval P. (Pierre), 1619-1682"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002494654"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1664"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "2 maps on 1 sheet ; 21 X 37.5 cm each. 59 X 44 the sheet.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002494654"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002494654/sequence/IE13725192",
+      "@type": "sc:Sequence",
+      "label": "Africa; North",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737209",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7227,
+          "height": 9437,
+          "images": [
+            {
+              "@id": "FL13737209",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737209",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737209/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737209",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9437,
+                "width": 7227
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737208",
+      "@type": "sc:Range",
+      "label": "REP13737208",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737209",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002494654",
+  "viewingHint": "paged"
+}

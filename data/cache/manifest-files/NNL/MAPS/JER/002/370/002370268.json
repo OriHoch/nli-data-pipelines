@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370268/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Jerusalem (Israel) -- Maps",
+  "label": "A new map of Palestine including also Phoenicia and Coelesyria;&nbsp;Constructed principally from unpublished materials furnished by Revd. Ed. Robinson and Revd. Eli Smith and other American traverllers by Henry Kiepert; Engraved by W & AK Johnston, Edinburgh.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new map of Palestine including also Phoenicia and Coelesyria;&nbsp;Constructed principally from unpublished materials furnished by Revd. Ed. Robinson and Revd. Eli Smith and other American traverllers by Henry Kiepert; Engraved by W & AK Johnston, Edinburgh."
+    },
+    {
+      "label": "Contributor",
+      "value": "Eli Smith 1801-1857; Edward Robinson 1794-1863"
+    },
+    {
+      "label": "Publisher",
+      "value": "London :John Murray"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370268"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1856"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "North sheet 354x385, south sheet 359x385 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "To accompany Prof. E. Robinson's later Bibl. researches [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370268"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370268/sequence/IE6882151",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073466",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 1820,
+          "height": 3354,
+          "images": [
+            {
+              "@id": "FL7073466",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073466",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073466/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073466",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3354,
+                "width": 1820
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073465",
+      "@type": "sc:Range",
+      "label": "REP7073465",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073466",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370268",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369071/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Judea or the Holy Land;&nbsp;Engrav'd by S.J. Neele",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Judea or the Holy Land;&nbsp;Engrav'd by S.J. Neele"
+    },
+    {
+      "label": "Contributor",
+      "value": "Samuel John Neele 1758-1824"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :T. Stackhouse"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Stackhouse Thomas, approximately 1680-1752"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369071"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1782"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "366x361 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369071"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369071/sequence/IE6881118",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072709",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2250,
+          "height": 2717,
+          "images": [
+            {
+              "@id": "FL7072709",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072709",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072709/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072709",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2717,
+                "width": 2250
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072708",
+      "@type": "sc:Range",
+      "label": "REP7072708",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072709",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369071",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002719770/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "History, Ancient -- Maps; Noah's ark",
+  "label": "Universaltafel des situs Asiæ, Africæ und Europæ;&nbsp;sant der gelegenhait des lands Eden wie auch eine delineatio der arch Noe baides im grund und aufrisz.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Universaltafel des situs Asiæ, Africæ und Europæ;&nbsp;sant der gelegenhait des lands Eden wie auch eine delineatio der arch Noe baides im grund und aufrisz."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "History, Ancient -- Maps; Noah's ark"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002719770"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1624"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 23.5 x 31.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002719770"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002719770/sequence/IE13730368",
+      "@type": "sc:Sequence",
+      "label": "Image",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745713",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5228,
+          "height": 3891,
+          "images": [
+            {
+              "@id": "FL13745713",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745713",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745713/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745713",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3891,
+                "width": 5228
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745712",
+      "@type": "sc:Range",
+      "label": "REP13745712",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745713",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002719770",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003940480/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Christianity -- Maps; Jerusalem (Israel) -- Maps",
+  "label": "Voie de la captivite et chemin de la croix.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Voie de la captivite et chemin de la croix."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Christianity -- Maps; Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Saint-Aignan Laurent de, 1825-1893"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003940480"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1864"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003940480"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003940480/sequence/IE45604187",
+      "@type": "sc:Sequence",
+      "label": "Voie de la captivite et chemin de la croix.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604196",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 1942,
+          "height": 2422,
+          "images": [
+            {
+              "@id": "FL45604196",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45604196",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45604196/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45604196",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2422,
+                "width": 1942
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45604195",
+      "@type": "sc:Range",
+      "label": "REP45604195",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604196",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003940480",
+  "viewingHint": "paged"
+}

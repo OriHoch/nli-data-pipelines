@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002633902/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps",
+  "label": "Carte du cours inférieur du Jourdain de la Mer Morte;&nbsp;et des régions qui l'a voisinent /;&nbsp;dressée par Mr. Vignes... assisté de Mr. Combe pendant leur voyage aver Mr. Le Duc de Luynes en 1864 ; Gravé par Erhard.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du cours inférieur du Jourdain de la Mer Morte;&nbsp;et des régions qui l'a voisinent /;&nbsp;dressée par Mr. Vignes... assisté de Mr. Combe pendant leur voyage aver Mr. Le Duc de Luynes en 1864 ; Gravé par Erhard."
+    },
+    {
+      "label": "Contributor",
+      "value": "Georges Erhard Schièble 1821-1880"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Impr. Lemercier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vignes Lois, b. 1831"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002633902"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1865"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 70 x 57.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002633902"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002633902/sequence/IE6882823",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7075870",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 7718,
+          "height": 10477,
+          "images": [
+            {
+              "@id": "FL7075870",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7075870",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7075870/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7075870",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10477,
+                "width": 7718
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7075869",
+      "@type": "sc:Range",
+      "label": "REP7075869",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7075870",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002633902",
+  "viewingHint": "paged"
+}

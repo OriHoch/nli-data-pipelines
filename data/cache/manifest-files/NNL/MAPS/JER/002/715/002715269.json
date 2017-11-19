@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002715269/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Das Osmanische Asien;&nbsp;entworfen von C. F. Weiland.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Das Osmanische Asien;&nbsp;entworfen von C. F. Weiland."
+    },
+    {
+      "label": "Publisher",
+      "value": "Weimar, :Verlag des Geograph. Instituts"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Weiland C. F. (Carl Ferdinand), 1782 -1847"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002715269"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1826"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 44x60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002715269"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002715269/sequence/IE36009899",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Das&gt;&gt; Osmanische Asien",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36009903",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15222,
+          "height": 12311,
+          "images": [
+            {
+              "@id": "FL36009903",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36009903",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36009903/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36009903",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12311,
+                "width": 15222
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36009902",
+      "@type": "sc:Range",
+      "label": "REP36009902",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36009903",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002715269",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002500736/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Libya -- Maps",
+  "label": "Royme, et desert de Barca et L'Egypte diviseé en ses douze Cassifs, ou Gouvernemens /;&nbsp;par le Sr. Sanson d'Abbeville I. S. P sculp",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Royme, et desert de Barca et L'Egypte diviseé en ses douze Cassifs, ou Gouvernemens /;&nbsp;par le Sr. Sanson d'Abbeville I. S. P sculp"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Somer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Chez P. Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Libya -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002500736"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1655"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 34 X 52 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002500736"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002500736/sequence/IE25570152",
+      "@type": "sc:Sequence",
+      "label": "Royme; et desert de Barca et L&apos;Egypte diviseé en ses douze Cassifs; ou Gouvernemens /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570158",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13962,
+          "height": 10458,
+          "images": [
+            {
+              "@id": "FL25570158",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25570158",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25570158/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25570158",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10458,
+                "width": 13962
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25570157",
+      "@type": "sc:Range",
+      "label": "REP25570157",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25570158",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002500736",
+  "viewingHint": "paged"
+}

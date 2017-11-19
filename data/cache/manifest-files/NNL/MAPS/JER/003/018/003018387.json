@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003018387/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Baltic Sea -- Maps",
+  "label": "Pascaart vande Oost-zee;&nbsp;Beschreven door Willem Ianß Blauw.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Pascaart vande Oost-zee;&nbsp;Beschreven door Willem Ianß Blauw."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Baltic Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blaeu Willem Janszoon, 1571-1638"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003018387"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1622"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 25.5x35.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003018387"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003018387/sequence/IE37807985",
+      "@type": "sc:Sequence",
+      "label": "Pascaart vande Oost-zee",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807999",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12290,
+          "height": 7960,
+          "images": [
+            {
+              "@id": "FL37807999",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37807999",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37807999/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37807999",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7960,
+                "width": 12290
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37807998",
+      "@type": "sc:Range",
+      "label": "REP37807998",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807999",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003018387",
+  "viewingHint": "paged"
+}

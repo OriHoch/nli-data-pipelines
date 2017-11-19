@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003933640/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Land tenure -- Eretz Israel -- Maps; Eretz Israel -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול",
+  "label": "ארץ ישראל אדמה עברית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ארץ ישראל אדמה עברית."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Land tenure -- Eretz Israel -- Maps; Eretz Israel -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "קרן קימת לישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003933640"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1924?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 66 x 42 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003933640"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003933640/sequence/IE42848663",
+      "@type": "sc:Sequence",
+      "label": "ארץ ישראל אדמה עברית.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848678",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10319,
+          "height": 16087,
+          "images": [
+            {
+              "@id": "FL42848678",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL42848678",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL42848678/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL42848678",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16087,
+                "width": 10319
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP42848674",
+      "@type": "sc:Range",
+      "label": "REP42848674",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL42848678",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003933640",
+  "viewingHint": "paged"
+}

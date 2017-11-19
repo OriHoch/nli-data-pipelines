@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369984/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Voyage des Enfans d'Israel dans le désert depuis leur sortie d'Egypt par la Mer Rouge jusques au Pays de Canaan;&nbsp;Nombres XXXIII. Veertig jaarige Reys togt der Kinderen Israels uyt Aegypten.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Voyage des Enfans d'Israel dans le désert depuis leur sortie d'Egypt par la Mer Rouge jusques au Pays de Canaan;&nbsp;Nombres XXXIII. Veertig jaarige Reys togt der Kinderen Israels uyt Aegypten."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Cóvens; Cornelis Mortier 1699-1783"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :I.Covens & C.Mortier Excudit"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mortier Pierre, 1661-1711"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369984"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "400x470 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369984"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369984/sequence/IE6878562",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070682",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2750,
+          "height": 2281,
+          "images": [
+            {
+              "@id": "FL7070682",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070682",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070682/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070682",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2281,
+                "width": 2750
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070681",
+      "@type": "sc:Range",
+      "label": "REP7070681",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070682",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369984",
+  "viewingHint": "paged"
+}

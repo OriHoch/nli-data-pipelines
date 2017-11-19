@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002535989/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Leiden (Netherlands) -- Maps",
+  "label": "Afbeelding der Grondtvesten van het Huis te Britten: Nevens d'omleggende Landtstreeken en Dorpen, ook de Stadt Leiden, en den Loop van den Rhijn bij Katwijk in zee :;&nbsp;Naar eene oude Schilderije thans in't Huis van den Hoog-Ed. Heere van Katwijk ; Hier worden bij vertoont d'aaloude Roomsche Gedenkstukken, van tijdt tot tijdt uit den grondt en de puinhoopen opgedolven /;&nbsp;F. Bleiswyk del. et fecit",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Afbeelding der Grondtvesten van het Huis te Britten: Nevens d'omleggende Landtstreeken en Dorpen, ook de Stadt Leiden, en den Loop van den Rhijn bij Katwijk in zee :;&nbsp;Naar eene oude Schilderije thans in't Huis van den Hoog-Ed. Heere van Katwijk ; Hier worden bij vertoont d'aaloude Roomsche Gedenkstukken, van tijdt tot tijdt uit den grondt en de puinhoopen opgedolven /;&nbsp;F. Bleiswyk del. et fecit"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leeuwarden] :Hendrik Halma"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Leiden (Netherlands) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bleyswyck Francois van"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002535989"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 32 X 41 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "002535989"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002535989/sequence/IE35073047",
+      "@type": "sc:Sequence",
+      "label": "Afbeelding der Grondtvesten van het Huis te Britten: Nevens d&apos;omleggende Landtstreeken en Dorpen; ook de Stadt Leiden; en den Loop van den Rhijn bij Katwijk in zee :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073088",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11205,
+          "height": 9243,
+          "images": [
+            {
+              "@id": "FL35073088",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35073088",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35073088/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35073088",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9243,
+                "width": 11205
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35073087",
+      "@type": "sc:Range",
+      "label": "REP35073087",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073088",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002535989",
+  "viewingHint": "paged"
+}

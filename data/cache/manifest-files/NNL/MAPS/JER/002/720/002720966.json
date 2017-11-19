@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002720966/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World maps; Zodiac",
+  "label": "[World];&nbsp;Johannes Degler delineavit ; Iosef à Montalegre Sculpsit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[World];&nbsp;Johannes Degler delineavit ; Iosef à Montalegre Sculpsit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Heinrich Scherer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Norimbergæ,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World maps; Zodiac"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Degler Johann"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002720966"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1703"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 27.5 x 42 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002720966"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002720966/sequence/IE27971635",
+      "@type": "sc:Sequence",
+      "label": "[World]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27971645",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 10101,
+          "height": 6565,
+          "images": [
+            {
+              "@id": "FL27971645",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27971645",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27971645/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27971645",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6565,
+                "width": 10101
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27971644",
+      "@type": "sc:Range",
+      "label": "REP27971644",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27971645",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002720966",
+  "viewingHint": "paged"
+}

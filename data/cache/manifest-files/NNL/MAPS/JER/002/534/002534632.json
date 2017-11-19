@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534632/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "הא לך גבולי א\"י בקיצור כמבואר בפ' משפטים מים סוף עד ים פלישתים...",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הא לך גבולי א\"י בקיצור כמבואר בפ' משפטים מים סוף עד ים פלישתים..."
+    },
+    {
+      "label": "Publisher",
+      "value": "[קניגסברג],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ברמן, יצחק בן פינחס"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534632"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תרי\"א"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה ; 205X180 מ\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534632"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534632/sequence/IE6880482",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072100",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2192,
+          "height": 2870,
+          "images": [
+            {
+              "@id": "FL7072100",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072100",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072100/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072100",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2870,
+                "width": 2192
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072099",
+      "@type": "sc:Range",
+      "label": "REP7072099",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072100",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534632",
+  "viewingHint": "paged"
+}

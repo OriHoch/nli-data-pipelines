@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002569363/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Germany -- Maps",
+  "label": "L'Allemagne divisée en ses cercles;&nbsp;avec les routes exactes des postes de cet empire /;&nbsp;Par N. de Fer ; H.van Loon sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Allemagne divisée en ses cercles;&nbsp;avec les routes exactes des postes de cet empire /;&nbsp;Par N. de Fer ; H.van Loon sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "H. v Loon (Herman van)"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Chez l'autheur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Germany -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Fer Nicolas de, 1646-1720"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002569363"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1703"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 46 X 59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002569363"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002569363/sequence/IE35076889",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Allemagne divisée en ses cercles",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076913",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14749,
+          "height": 11933,
+          "images": [
+            {
+              "@id": "FL35076913",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076913",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076913/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076913",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11933,
+                "width": 14749
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076911",
+      "@type": "sc:Range",
+      "label": "REP35076911",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076913",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002569363",
+  "viewingHint": "paged"
+}

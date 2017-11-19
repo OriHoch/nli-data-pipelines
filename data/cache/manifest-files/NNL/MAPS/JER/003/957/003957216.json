@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003957216/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps; Europe -- Maps; Bible -- Geography -- Maps",
+  "label": "Carte des premier etablissemens de Iaphet et de ses Sept Fils soit dans l'Asie Mineure soit dans le Pais qui setendent du Pont = Euxin jusqu'à la Mer Caspienne avec les Colonies qui en sortirent dans la suite. /;&nbsp;Mallet Sculps.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des premier etablissemens de Iaphet et de ses Sept Fils soit dans l'Asie Mineure soit dans le Pais qui setendent du Pont = Euxin jusqu'à la Mer Caspienne avec les Colonies qui en sortirent dans la suite. /;&nbsp;Mallet Sculps."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps; Europe -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Chais, Dominee Charles"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003957216"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1743"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003957216"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003957216/sequence/IE45612079",
+      "@type": "sc:Sequence",
+      "label": "Carte des premier etablissemens de Iaphet et de ses Sept Fils soit dans l&apos;Asie Mineure soit dans le Pais qui setendent du Pont = Euxin jusqu&apos;à la Mer Caspienne avec les Colonies qui en sortirent dans la suite. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612092",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3498,
+          "height": 2940,
+          "images": [
+            {
+              "@id": "FL45612092",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45612092",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45612092/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45612092",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2940,
+                "width": 3498
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45612091",
+      "@type": "sc:Range",
+      "label": "REP45612091",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45612092",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003957216",
+  "viewingHint": "paged"
+}

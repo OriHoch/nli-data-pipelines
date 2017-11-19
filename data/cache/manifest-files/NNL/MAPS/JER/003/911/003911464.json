@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003911464/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa Bay (Israel) -- Maps",
+  "label": "Baie de Saint Jean d'Acre /;&nbsp;Dépôt des Cartes et Plans de la Marine 1866.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Baie de Saint Jean d'Acre /;&nbsp;Dépôt des Cartes et Plans de la Marine 1866."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa Bay (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "France. Armée. Dépot des Cartes et Plans de la Marine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003911464"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1880"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Côte de Syrie"
+    },
+    {
+      "label": "SysNum",
+      "value": "003911464"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003911464/sequence/IE36012363",
+      "@type": "sc:Sequence",
+      "label": "Baie de Saint Jean d&apos;Acre /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012375",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11708,
+          "height": 16450,
+          "images": [
+            {
+              "@id": "FL36012375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36012375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36012375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36012375",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16450,
+                "width": 11708
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36012374",
+      "@type": "sc:Range",
+      "label": "REP36012374",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36012375",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003911464",
+  "viewingHint": "paged"
+}

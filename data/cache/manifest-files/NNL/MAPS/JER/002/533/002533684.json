@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002533684/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "Turkey in Europe :;&nbsp;Corrected from the new and most exact observations /;&nbsp;by Eman. Bowen",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Turkey in Europe :;&nbsp;Corrected from the new and most exact observations /;&nbsp;by Eman. Bowen"
+    },
+    {
+      "label": "Contributor",
+      "value": "H Terasson"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Made and sold by G. Willdey"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bowen Emanuel, -1767"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002533684"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1715"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 93 X 62 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002533684"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002533684/sequence/IE35072768",
+      "@type": "sc:Sequence",
+      "label": "Turkey in Europe :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072774",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16312,
+          "height": 23140,
+          "images": [
+            {
+              "@id": "FL35072774",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072774",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072774/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072774",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23140,
+                "width": 16312
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072773",
+      "@type": "sc:Range",
+      "label": "REP35072773",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072774",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002533684",
+  "viewingHint": "paged"
+}

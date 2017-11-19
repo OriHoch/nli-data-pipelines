@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002527498/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "Regni Hungariae, Graeciae Moreae, Totius Danubii, Adiacentiumque Regnorum, Nec Non Totius Graeciae et Archipelagi Delineatio nova /;&nbsp;expressa a Petro Schenk",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Regni Hungariae, Graeciae Moreae, Totius Danubii, Adiacentiumque Regnorum, Nec Non Totius Graeciae et Archipelagi Delineatio nova /;&nbsp;expressa a Petro Schenk"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schenk Pieter, approximately 1698-1775"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002527498"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1690"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 47 X 59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002527498"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002527498/sequence/IE35069321",
+      "@type": "sc:Sequence",
+      "label": "Regni Hungariae; Graeciae Moreae; Totius Danubii; Adiacentiumque Regnorum; Nec Non Totius Graeciae et Archipelagi Delineatio nova /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069336",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14815,
+          "height": 12125,
+          "images": [
+            {
+              "@id": "FL35069336",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35069336",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35069336/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35069336",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12125,
+                "width": 14815
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35069335",
+      "@type": "sc:Range",
+      "label": "REP35069335",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069336",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002527498",
+  "viewingHint": "paged"
+}

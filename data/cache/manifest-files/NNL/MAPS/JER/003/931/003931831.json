@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003931831/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול",
+  "label": "מזרח :;&nbsp;Map of Palestine.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מזרח :;&nbsp;Map of Palestine."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps ; מדריכי פנאי, מדריכי טיולים, ספרי בישול"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003931831"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1927. שנת תרפ\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 גליון : צבע ; 56 x 43 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng;yid"
+    },
+    {
+      "label": "SysNum",
+      "value": "003931831"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003931831/sequence/IE44340757",
+      "@type": "sc:Sequence",
+      "label": "מזרח :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44340773",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11027,
+          "height": 14094,
+          "images": [
+            {
+              "@id": "FL44340773",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44340773",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44340773/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44340773",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14094,
+                "width": 11027
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44340772",
+      "@type": "sc:Range",
+      "label": "REP44340772",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44340773",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003931831",
+  "viewingHint": "paged"
+}

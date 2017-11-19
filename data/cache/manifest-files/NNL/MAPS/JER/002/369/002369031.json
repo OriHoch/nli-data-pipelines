@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369031/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Eretz Israel -- History -- 324-638, Byzantine period -- Maps; Islamic Empire -- Maps",
+  "label": "Patriarchatus Ierosolymitanus comprehendebat tres provincias I. Palestinam triplicem. II. Iudaeam. III. et Arabiam Petraeam. Patriarchatus Antiochenus continebat provincias V. I. Syriam quadruplice..;&nbsp;II. Ciliciam duplicem. III. Insul. Cyprum. IV. Mesopotamiam. V. Phoeniciam duplicem.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Patriarchatus Ierosolymitanus comprehendebat tres provincias I. Palestinam triplicem. II. Iudaeam. III. et Arabiam Petraeam. Patriarchatus Antiochenus continebat provincias V. I. Syriam quadruplice..;&nbsp;II. Ciliciam duplicem. III. Insul. Cyprum. IV. Mesopotamiam. V. Phoeniciam duplicem."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Muenchen],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Eretz Israel -- History -- 324-638, Byzantine period -- Maps; Islamic Empire -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Scherer Heinrich"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369031"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1702"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "228x354 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369031"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369031/sequence/IE6880372",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071934",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 1862,
+          "images": [
+            {
+              "@id": "FL7071934",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071934",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071934/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071934",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1862,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071933",
+      "@type": "sc:Range",
+      "label": "REP7071933",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071934",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369031",
+  "viewingHint": "paged"
+}

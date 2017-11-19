@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368599/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Middle East -- Maps; Eretz Israel -- Maps",
+  "label": "Lumen Historiarum Per Orientem illustrandis Biblijs Sacris, Martijrologio & alijs multis;&nbsp;a Fran. Hareio concinnatum. Petrus Kaerius Caelavit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Lumen Historiarum Per Orientem illustrandis Biblijs Sacris, Martijrologio & alijs multis;&nbsp;a Fran. Hareio concinnatum. Petrus Kaerius Caelavit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Johannes Janssonius van Waesberge fl. 1642-1681; Pieter van den Keere approximately 1571-approximately 1624; Abraham Ortelius 1527-1598"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Joannes Janssonius van Waesbergen"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Middle East -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Haraeus Franciscus"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368599"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1677"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "379x471 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368599"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368599/sequence/IE6881554",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072767",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2696,
+          "height": 2290,
+          "images": [
+            {
+              "@id": "FL7072767",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072767",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072767/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072767",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2290,
+                "width": 2696
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072766",
+      "@type": "sc:Range",
+      "label": "REP7072766",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072767",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368599",
+  "viewingHint": "paged"
+}

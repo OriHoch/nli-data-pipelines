@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002563886/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russia -- Maps",
+  "label": "מפת רוסיא האיירופית;&nbsp;... על ידי שלמה מאנדעלקערן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מפת רוסיא האיירופית;&nbsp;... על ידי שלמה מאנדעלקערן."
+    },
+    {
+      "label": "Publisher",
+      "value": "פעטרבורג.,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "מנדלקרן, שלמה 1846-1902"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002563886"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תר\"ל"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה : צבע ; 51X41 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "מפת רוסיה האירופית [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002563886"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002563886/sequence/IE35705058",
+      "@type": "sc:Sequence",
+      "label": "מפת רוסיא האיירופית",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35705068",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5696,
+          "height": 7376,
+          "images": [
+            {
+              "@id": "FL35705068",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35705068",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35705068/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35705068",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7376,
+                "width": 5696
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35705066",
+      "@type": "sc:Range",
+      "label": "REP35705066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35705068",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002563886",
+  "viewingHint": "paged"
+}

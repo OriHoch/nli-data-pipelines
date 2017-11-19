@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368177/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Maps",
+  "label": "Destruccio Iherosolime",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Destruccio Iherosolime"
+    },
+    {
+      "label": "Contributor",
+      "value": "Michael Wolgemut 1434-1519; Anton Koberger approximately 1440-1513"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nuernberg] :Anton Koberger"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schedel Hartmann, 1440-1514"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368177"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1493"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "260 x 535 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368177"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368177/sequence/IE54265987",
+      "@type": "sc:Sequence",
+      "label": "Destruccio Iherosolime",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL54265995",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5727,
+          "height": 3002,
+          "images": [
+            {
+              "@id": "FL54265995",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL54265995",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL54265995/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL54265995",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3002,
+                "width": 5727
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP54265994",
+      "@type": "sc:Range",
+      "label": "REP54265994",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL54265995",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368177",
+  "viewingHint": "paged"
+}

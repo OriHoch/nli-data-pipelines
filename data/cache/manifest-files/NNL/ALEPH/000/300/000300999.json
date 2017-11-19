@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300999/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. אמסטרדם, הולנד. תקנ\"ב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. אמסטרדם, הולנד. תקנ\"ב."
+    },
+    {
+      "label": "Contributor",
+      "value": "עקיבא בן קלונימוס (חתן) ; מערלה בת אברהם, הלוי (כלה) ; נתנאל בן אברהם (עד) ; אברהם בן זלמן (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "אמשטרדם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300999"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יח באייר תקנ\"ב (1792)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 286X181 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Amsterdam, Netherlands. 1792"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300999"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300999/sequence/IE9197898",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. אמסטרדם, הולנד, תקנ&quot;ב].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464054",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 576,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464054",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464054",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464054/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464054",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 576
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464052",
+      "@type": "sc:Range",
+      "label": "REP9464052",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464054",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300999",
+  "viewingHint": "paged"
+}

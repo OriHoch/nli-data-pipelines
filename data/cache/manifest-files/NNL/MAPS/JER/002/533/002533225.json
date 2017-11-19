@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002533225/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps; Samos (Greece) -- Maps",
+  "label": "Insula Samos Polycratis Reg. et Pythagorae Phil. patria :;&nbsp;ferax gregum terraeq. fictilis, prout hodié sub Turcarum dominio incolitur /;&nbsp;Fec. et Exc. Petr. Schenk",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Insula Samos Polycratis Reg. et Pythagorae Phil. patria :;&nbsp;ferax gregum terraeq. fictilis, prout hodié sub Turcarum dominio incolitur /;&nbsp;Fec. et Exc. Petr. Schenk"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam :Petr. Schenk"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps; Samos (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schenk Peter, 1660-1718 or 1719"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002533225"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1680"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 45 X 55 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002533225"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002533225/sequence/IE35072645",
+      "@type": "sc:Sequence",
+      "label": "Insula Samos Polycratis Reg. et Pythagorae Phil. patria :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072654",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14844,
+          "height": 12618,
+          "images": [
+            {
+              "@id": "FL35072654",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072654",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072654/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072654",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12618,
+                "width": 14844
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072653",
+      "@type": "sc:Range",
+      "label": "REP35072653",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072654",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002533225",
+  "viewingHint": "paged"
+}

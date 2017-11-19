@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002572420/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Poland -- Maps; Russia, Western -- Maps",
+  "label": "West-Russland;&nbsp;Angrenzende Teile des Deutschen Reiches und Österreich-Ungarns.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "West-Russland;&nbsp;Angrenzende Teile des Deutschen Reiches und Österreich-Ungarns."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Verlag von V.Neubert Smichow"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Poland -- Maps; Russia, Western -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002572420"
+    },
+    {
+      "label": "Creation Date",
+      "value": "193-?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 86 X 71 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002572420"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002572420/sequence/IE35475008",
+      "@type": "sc:Sequence",
+      "label": "West-Russland",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475019",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17301,
+          "height": 21148,
+          "images": [
+            {
+              "@id": "FL35475019",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35475019",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35475019/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35475019",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 21148,
+                "width": 17301
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35475018",
+      "@type": "sc:Range",
+      "label": "REP35475018",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475019",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002572420",
+  "viewingHint": "paged"
+}

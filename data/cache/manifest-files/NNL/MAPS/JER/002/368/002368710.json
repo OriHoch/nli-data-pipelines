@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368710/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Abraham (Biblical patriarch); Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Terra Chanaan ad Abrahami Tempora;&nbsp;Autore Phi. de la Rue.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Terra Chanaan ad Abrahami Tempora;&nbsp;Autore Phi. de la Rue."
+    },
+    {
+      "label": "Contributor",
+      "value": "Cornelis Mortier 1699-1783; Jean Cóvens"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Apud I.Covens & C. Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Abraham (Biblical patriarch); Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "La Rué Philippe de"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368710"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1725"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "407x534 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368710"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368710/sequence/IE6880761",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072294",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2226,
+          "images": [
+            {
+              "@id": "FL7072294",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072294",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072294/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072294",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2226,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072293",
+      "@type": "sc:Range",
+      "label": "REP7072293",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072294",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368710",
+  "viewingHint": "paged"
+}

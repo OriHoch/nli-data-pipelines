@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002714137/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Nablus (West Bank) -- Maps",
+  "label": "Nablus;&nbsp;Compiled and reproduced by 512 Fd. Survey Coy., R.E.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nablus;&nbsp;Compiled and reproduced by 512 Fd. Survey Coy., R.E."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :512 Field Survey Coy., R.E."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Nablus (West Bank) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Great Britain. Army. Royal Engineers. Field Survey Coy., 512."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002714137"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 63.5x56 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Pelestine. Mosaic 1:10,000 ; Nablus"
+    },
+    {
+      "label": "SysNum",
+      "value": "002714137"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002714137/sequence/IE10521043",
+      "@type": "sc:Sequence",
+      "label": "Nablus",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10590074",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6800,
+          "height": 7646,
+          "images": [
+            {
+              "@id": "FL10590074",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10590074",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10590074/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10590074",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7646,
+                "width": 6800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10590073",
+      "@type": "sc:Range",
+      "label": "REP10590073",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10590074",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002714137",
+  "viewingHint": "paged"
+}

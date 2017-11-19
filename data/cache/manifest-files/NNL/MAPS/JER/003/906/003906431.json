@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003906431/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Carte du midi de la Judée ou Terre - Sainte comprenant les Tribus d'Ephraïm, de Gad, de Dan, de Ruben, de Siméon, de Benjamin et de Juda. Ces deux dernières forment le Royaume de Juda /;&nbsp;Gravé par Barrière frères.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du midi de la Judée ou Terre - Sainte comprenant les Tribus d'Ephraïm, de Gad, de Dan, de Ruben, de Siméon, de Benjamin et de Juda. Ces deux dernières forment le Royaume de Juda /;&nbsp;Gravé par Barrière frères."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Glaire J. B. (Jean Baptiste), 1798-1879"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003906431"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1836"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003906431"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003906431/sequence/IE36566960",
+      "@type": "sc:Sequence",
+      "label": "Carte du midi de la Judée ou Terre - Sainte comprenant les Tribus d&apos;Ephraïm; de Gad; de Dan; de Ruben; de Siméon; de Benjamin et de Juda. Ces deux dernières forment le Royaume de Juda /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566970",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4875,
+          "height": 3255,
+          "images": [
+            {
+              "@id": "FL36566970",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566970",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566970/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566970",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3255,
+                "width": 4875
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566969",
+      "@type": "sc:Range",
+      "label": "REP36566969",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566970",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003906431",
+  "viewingHint": "paged"
+}

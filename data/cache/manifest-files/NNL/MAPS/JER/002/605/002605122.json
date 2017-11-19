@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002605122/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ukraine -- Maps; Podillia (Ukraine) -- Maps",
+  "label": "La Russie noire or Polonoise;&nbsp;qui comprend les provinces de la Russie noire de Volhynie et de Podolie divisees en leurs Palatinats Vulgairement Connüues sous le Nom D'Ukraine ou Pays des Cosaques /;&nbsp;Par les Sr. Sansons.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "La Russie noire or Polonoise;&nbsp;qui comprend les provinces de la Russie noire de Volhynie et de Podolie divisees en leurs Palatinats Vulgairement Connüues sous le Nom D'Ukraine ou Pays des Cosaques /;&nbsp;Par les Sr. Sansons."
+    },
+    {
+      "label": "Contributor",
+      "value": "Guillaume Sanson 1633-1703"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Auteur ; P. Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ukraine -- Maps; Podillia (Ukraine) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Sanson Nicolas, 1600-1667"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002605122"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1674"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 43 x 56 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002605122"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002605122/sequence/IE36378833",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;La&gt;&gt; Russie noire or Polonoise",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378864",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14288,
+          "height": 10696,
+          "images": [
+            {
+              "@id": "FL36378864",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36378864",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36378864/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36378864",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10696,
+                "width": 14288
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36378862",
+      "@type": "sc:Range",
+      "label": "REP36378862",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378864",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002605122",
+  "viewingHint": "paged"
+}

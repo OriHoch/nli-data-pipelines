@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369470/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Galilee (Israel) -- Maps",
+  "label": "Haiffa;&nbsp;Reproduction par le Service Géographique de l'Armee, de la carte de reconnaissance de l'E.M. Ottoman.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Haiffa;&nbsp;Reproduction par le Service Géographique de l'Armee, de la carte de reconnaissance de l'E.M. Ottoman."
+    },
+    {
+      "label": "Contributor",
+      "value": "Turkey. Ordu. Etat majeur; Turkey. Ordu"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Service géographique de l'Armee"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Galilee (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "France. Armée. Service géographique"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369470"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1920"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 51x54 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369470"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369470/sequence/IE25567990",
+      "@type": "sc:Sequence",
+      "label": "Haiffa",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25567998",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13338,
+          "height": 12521,
+          "images": [
+            {
+              "@id": "FL25567998",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25567998",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25567998/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25567998",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12521,
+                "width": 13338
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25567997",
+      "@type": "sc:Range",
+      "label": "REP25567997",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25567998",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369470",
+  "viewingHint": "paged"
+}

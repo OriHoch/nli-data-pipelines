@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368736/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Terra Sancta sive Palaestina;&nbsp;opera et studio Tobiae Conradi Lotter. Matth. Albrecht Lotter sculps. Aug.V.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Terra Sancta sive Palaestina;&nbsp;opera et studio Tobiae Conradi Lotter. Matth. Albrecht Lotter sculps. Aug.V."
+    },
+    {
+      "label": "Contributor",
+      "value": "Albrecht Matthaeus; Matthaeus Seutter 1678-1756"
+    },
+    {
+      "label": "Publisher",
+      "value": "Aug. Vindel,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lotter Tobias Conrad, 1717-1777"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368736"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1759"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "480x575 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368736"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368736/sequence/IE6880897",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072236",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2800,
+          "height": 2358,
+          "images": [
+            {
+              "@id": "FL7072236",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072236",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072236/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072236",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2358,
+                "width": 2800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072235",
+      "@type": "sc:Range",
+      "label": "REP7072235",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072236",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368736",
+  "viewingHint": "paged"
+}

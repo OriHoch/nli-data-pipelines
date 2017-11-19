@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002605067/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Russia -- Maps",
+  "label": "Carte du nouvel archipel du nord;&nbsp;decouvert par les Russes dans la mer de Kamtschatka et d'Anadir /;&nbsp;Ionath. Lenz Stuttgard delineav. ad Exemp. Petropol. G. C. Kilian direxit A. V.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte du nouvel archipel du nord;&nbsp;decouvert par les Russes dans la mer de Kamtschatka et d'Anadir /;&nbsp;Ionath. Lenz Stuttgard delineav. ad Exemp. Petropol. G. C. Kilian direxit A. V."
+    },
+    {
+      "label": "Contributor",
+      "value": "Ionath Lenz"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Russia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kilian Georg Christoph, 1709-1781"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002605067"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1774"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 20 x 27 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002605067"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002605067/sequence/IE36378791",
+      "@type": "sc:Sequence",
+      "label": "Carte du nouvel archipel du nord",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378800",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7092,
+          "height": 5808,
+          "images": [
+            {
+              "@id": "FL36378800",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36378800",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36378800/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36378800",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5808,
+                "width": 7092
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36378799",
+      "@type": "sc:Range",
+      "label": "REP36378799",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36378800",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002605067",
+  "viewingHint": "paged"
+}

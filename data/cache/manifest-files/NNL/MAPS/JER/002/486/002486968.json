@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002486968/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Asiae Recentissima Delineatio :;&nbsp;Qua Status Et Imperia Totius Orientis unacum Orientalibus Indiis exhibentur /;&nbsp;Authore Io. Bapt. Homanno",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Asiae Recentissima Delineatio :;&nbsp;Qua Status Et Imperia Totius Orientis unacum Orientalibus Indiis exhibentur /;&nbsp;Authore Io. Bapt. Homanno"
+    },
+    {
+      "label": "Publisher",
+      "value": "Norimbergae,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Homann Johann Baptist, 1663-1724"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002486968"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1716"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 X 57 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002486968"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002486968/sequence/IE27958458",
+      "@type": "sc:Sequence",
+      "label": "Asiae Recentissima Delineatio :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958464",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14148,
+          "height": 12079,
+          "images": [
+            {
+              "@id": "FL27958464",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27958464",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27958464/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27958464",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12079,
+                "width": 14148
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27958463",
+      "@type": "sc:Range",
+      "label": "REP27958463",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958464",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002486968",
+  "viewingHint": "paged"
+}

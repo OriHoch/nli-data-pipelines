@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003426908/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dead Sea (Israel and Jordan) -- Maps; Israel -- Maps; Jordan Valley (Israel) -- Maps",
+  "label": "Map of the River Jordan & Dead Sea;&nbsp;and the route of the party under the command of Lieut. W.F. Lynch U.S.N. /;&nbsp;constructed under his superintendence by Passd. Midn. R.Aulick U.S.N. from the joint labours of Lieut. Dale & himself ; Drawn by G. Strickland ; Lith. by E.Weber & Co.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the River Jordan & Dead Sea;&nbsp;and the route of the party under the command of Lieut. W.F. Lynch U.S.N. /;&nbsp;constructed under his superintendence by Passd. Midn. R.Aulick U.S.N. from the joint labours of Lieut. Dale & himself ; Drawn by G. Strickland ; Lith. by E.Weber & Co."
+    },
+    {
+      "label": "Contributor",
+      "value": "United States. Navy Department"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Washington],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dead Sea (Israel and Jordan) -- Maps; Israel -- Maps; Jordan Valley (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lynch William Francis, 1801-1865"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003426908"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1849"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 115x62.3 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003426908"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003426908/sequence/IE6881001",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072403",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 8080,
+          "height": 14254,
+          "images": [
+            {
+              "@id": "FL7072403",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072403",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072403/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072403",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14254,
+                "width": 8080
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072402",
+      "@type": "sc:Range",
+      "label": "REP7072402",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072403",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003426908",
+  "viewingHint": "paged"
+}

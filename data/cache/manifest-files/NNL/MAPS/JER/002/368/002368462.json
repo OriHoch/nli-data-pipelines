@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368462/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Suez, Gulf of -- Maps; Bible -- Geography -- Maps",
+  "label": "Map of the country from Sues to Mount Sinai",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Map of the country from Sues to Mount Sinai"
+    },
+    {
+      "label": "Contributor",
+      "value": "C Taylor (Charles), 1756-1823"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Holdsworth and Ball"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Suez, Gulf of -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368462"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1830"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "190x282 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368462"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368462/sequence/IE50795191",
+      "@type": "sc:Sequence",
+      "label": "Map of the country from Sues to Mount Sinai",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50795198",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9154,
+          "height": 5587,
+          "images": [
+            {
+              "@id": "FL50795198",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50795198",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50795198/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50795198",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5587,
+                "width": 9154
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50795197",
+      "@type": "sc:Range",
+      "label": "REP50795197",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50795198",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368462",
+  "viewingHint": "paged"
+}

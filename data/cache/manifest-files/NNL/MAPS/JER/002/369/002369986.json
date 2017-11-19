@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369986/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rīga (Latvia) -- Maps",
+  "label": "Delineatio Rigae Urbis Riga et Obsi",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Delineatio Rigae Urbis Riga et Obsi"
+    },
+    {
+      "label": "Publisher",
+      "value": "Nürnberg :Christoph Riegel"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rīga (Latvia) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Pérelle Adam, 1638-1695"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369986"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1697"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "291x545 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369986"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369986/sequence/IE39695602",
+      "@type": "sc:Sequence",
+      "label": "Delineatio Rigae Urbis Riga et Obsi",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695611",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14208,
+          "height": 8876,
+          "images": [
+            {
+              "@id": "FL39695611",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695611",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695611/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695611",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8876,
+                "width": 14208
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695610",
+      "@type": "sc:Range",
+      "label": "REP39695610",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695611",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369986",
+  "viewingHint": "paged"
+}

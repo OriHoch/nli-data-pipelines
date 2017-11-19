@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002511074/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Africa -- Maps",
+  "label": "Africæ Descriptio Nova /;&nbsp;Impensis Henrici Seile. Will. Trevethen sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Africæ Descriptio Nova /;&nbsp;Impensis Henrici Seile. Will. Trevethen sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "William Trevethen"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Africa -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seile Henry, -approximately 1661"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002511074"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1652"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 34 X 43 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002511074"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002511074/sequence/IE13728523",
+      "@type": "sc:Sequence",
+      "label": "Africa",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739137",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7048,
+          "height": 5536,
+          "images": [
+            {
+              "@id": "FL13739137",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13739137",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13739137/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13739137",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5536,
+                "width": 7048
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13739136",
+      "@type": "sc:Range",
+      "label": "REP13739136",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13739137",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002511074",
+  "viewingHint": "paged"
+}

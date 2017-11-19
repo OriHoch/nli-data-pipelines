@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368325/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World maps",
+  "label": "שלשה אלה בני נח ומאלה נפצה כל הארץ;&nbsp;לוח א'.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שלשה אלה בני נח ומאלה נפצה כל הארץ;&nbsp;לוח א'."
+    },
+    {
+      "label": "Publisher",
+      "value": "[אופן],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוישפיץ, יעקב"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368325"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תקע\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "138x158 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "These are the three sons of Noah and of them was the whole earth oversprad. Genesis, 9.19 [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368325"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368325/sequence/IE51320573",
+      "@type": "sc:Sequence",
+      "label": "שלשה אלה בני נח ומאלה נפצה כל הארץ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320579",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6158,
+          "height": 5218,
+          "images": [
+            {
+              "@id": "FL51320579",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL51320579",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL51320579/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL51320579",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5218,
+                "width": 6158
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP51320578",
+      "@type": "sc:Range",
+      "label": "REP51320578",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51320579",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368325",
+  "viewingHint": "paged"
+}

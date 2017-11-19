@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368890/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "[Exodus]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Exodus]"
+    },
+    {
+      "label": "Contributor",
+      "value": "Richard Harrison"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Richard Harrison"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Postel Guillaume, 1510-1581"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368890"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1562"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "154x210 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368890"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368890/sequence/IE35704912",
+      "@type": "sc:Sequence",
+      "label": "[Exodus]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704919",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5497,
+          "height": 4722,
+          "images": [
+            {
+              "@id": "FL35704919",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35704919",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35704919/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35704919",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4722,
+                "width": 5497
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35704918",
+      "@type": "sc:Range",
+      "label": "REP35704918",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35704919",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368890",
+  "viewingHint": "paged"
+}

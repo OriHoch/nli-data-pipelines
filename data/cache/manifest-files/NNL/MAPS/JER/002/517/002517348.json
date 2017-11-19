@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002517348/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Iran -- Maps",
+  "label": "Imperii Percici Delineatio :;&nbsp;Ex Scriptis Potissimum Geographicis Arabum Et Persarum /;&nbsp;Tentata Ab Petrum Schenk. Ex Formis [Pe]tri Schenk",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Imperii Percici Delineatio :;&nbsp;Ex Scriptis Potissimum Geographicis Arabum Et Persarum /;&nbsp;Tentata Ab Petrum Schenk. Ex Formis [Pe]tri Schenk"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amsterdam,"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schenk Pieter, approximately 1698-1775"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002517348"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1722"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 48 X 57 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002517348"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002517348/sequence/IE33249911",
+      "@type": "sc:Sequence",
+      "label": "Imperii Percici Delineatio :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33249920",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14286,
+          "height": 11812,
+          "images": [
+            {
+              "@id": "FL33249920",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33249920",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33249920/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33249920",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11812,
+                "width": 14286
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33249919",
+      "@type": "sc:Range",
+      "label": "REP33249919",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33249920",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002517348",
+  "viewingHint": "paged"
+}

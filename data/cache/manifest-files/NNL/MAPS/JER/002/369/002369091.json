@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369091/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Routes in the Holy Land;&nbsp;by the Revd. H.B. Tristram. Stanford's Geog. Estab.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Routes in the Holy Land;&nbsp;by the Revd. H.B. Tristram. Stanford's Geog. Estab."
+    },
+    {
+      "label": "Contributor",
+      "value": "Society for Promoting Christian Knowledge (Great Britain); Edward Stanford Ltd."
+    },
+    {
+      "label": "Publisher",
+      "value": "London :Published by the Society for Promoting Christian Knowledge"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Tristram H. B. (Henry Baker), 1822-1906"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369091"
+    },
+    {
+      "label": "Creation Date",
+      "value": "after 1872"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "470x170 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369091"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369091/sequence/IE6879128",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071035",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 1580,
+          "height": 3986,
+          "images": [
+            {
+              "@id": "FL7071035",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071035",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071035/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071035",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3986,
+                "width": 1580
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071034",
+      "@type": "sc:Range",
+      "label": "REP7071034",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071035",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369091",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002538396/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Maps",
+  "label": "[מפרץ חיפה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[מפרץ חיפה]"
+    },
+    {
+      "label": "Contributor",
+      "value": "Haifa Bay Development Company Ltd."
+    },
+    {
+      "label": "Publisher",
+      "value": "הכשרת מפרץ חיפה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "הכשרת מפרץ חיפה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002538396"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1927?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה ; 31X20 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Haifa Bay] [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002538396"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002538396/sequence/IE10423489",
+      "@type": "sc:Sequence",
+      "label": "[מפרץ חיפה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10449477",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3420,
+          "height": 5340,
+          "images": [
+            {
+              "@id": "FL10449477",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10449477",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10449477/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10449477",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5340,
+                "width": 3420
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10449476",
+      "@type": "sc:Range",
+      "label": "REP10449476",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10449477",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002538396",
+  "viewingHint": "paged"
+}

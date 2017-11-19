@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002548870/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Switzerland -- Maps",
+  "label": "General-Charte der Schweiz :;&nbsp;in XIX Cantone abgetheilt /;&nbsp;Gez. u. gest. v. J. Scheurman",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "General-Charte der Schweiz :;&nbsp;in XIX Cantone abgetheilt /;&nbsp;Gez. u. gest. v. J. Scheurman"
+    },
+    {
+      "label": "Publisher",
+      "value": "Zürich :Orell Füssli"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Switzerland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Scheuermann Samuel-Johann-Jakob, 1770 or 1771-1844"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002548870"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1809"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 21 X 29 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002548870"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002548870/sequence/IE35076544",
+      "@type": "sc:Sequence",
+      "label": "General-Charte der Schweiz :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076553",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8603,
+          "height": 6702,
+          "images": [
+            {
+              "@id": "FL35076553",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35076553",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35076553/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35076553",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6702,
+                "width": 8603
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35076552",
+      "@type": "sc:Range",
+      "label": "REP35076552",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35076553",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002548870",
+  "viewingHint": "paged"
+}

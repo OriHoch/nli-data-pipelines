@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002528415/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps; Corfu Island (Greece) -- Maps",
+  "label": "Corcyra, ante Scheria dicta, insula est in mari Ionioi ad Hadriatici maris ostium",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Corcyra, ante Scheria dicta, insula est in mari Ionioi ad Hadriatici maris ostium"
+    },
+    {
+      "label": "Publisher",
+      "value": "Venetis // Venice :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps; Corfu Island (Greece) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002528415"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1575"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 27 X 20 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002528415"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002528415/sequence/IE35069373",
+      "@type": "sc:Sequence",
+      "label": "Corcyra; ante Scheria dicta; insula est in mari Ionioi ad Hadriatici maris ostium",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069391",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8124,
+          "height": 11342,
+          "images": [
+            {
+              "@id": "FL35069391",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35069391",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35069391/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35069391",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11342,
+                "width": 8124
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35069390",
+      "@type": "sc:Range",
+      "label": "REP35069390",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35069391",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002528415",
+  "viewingHint": "paged"
+}

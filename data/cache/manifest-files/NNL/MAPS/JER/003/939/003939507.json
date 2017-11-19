@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003939507/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Die III.te Charte worauf das Land Canaan und Gilead nach den XII Stämmen Israels vorgestellet wird /;&nbsp;Von W. A. Bachiene. Aufs neue gezeichnet von G. A. M. 1767.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die III.te Charte worauf das Land Canaan und Gilead nach den XII Stämmen Israels vorgestellet wird /;&nbsp;Von W. A. Bachiene. Aufs neue gezeichnet von G. A. M. 1767."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bachiene Willem Albert, 1712-1783"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003939507"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1766-1767"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003939507"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003939507/sequence/IE45604093",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; III.te Charte worauf das Land Canaan und Gilead nach den XII Stämmen Israels vorgestellet wird /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604100",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4316,
+          "height": 3485,
+          "images": [
+            {
+              "@id": "FL45604100",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45604100",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45604100/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45604100",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3485,
+                "width": 4316
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45604099",
+      "@type": "sc:Range",
+      "label": "REP45604099",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45604100",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003939507",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003941438/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Dresden (Germany) -- Maps; Leipzig (Germany) -- Maps",
+  "label": "Dresden.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Dresden."
+    },
+    {
+      "label": "Contributor",
+      "value": "Georg Braun 1540 or 1-1622"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Dresden (Germany) -- Maps; Leipzig (Germany) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Hogenburg Frans (Franciscus), approximately 1538-1590"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003941438"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1574"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Leibzigk"
+    },
+    {
+      "label": "SysNum",
+      "value": "003941438"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003941438/sequence/IE43890299",
+      "@type": "sc:Sequence",
+      "label": "Dresden.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL43890315",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13283,
+          "height": 9912,
+          "images": [
+            {
+              "@id": "FL43890315",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL43890315",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL43890315/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL43890315",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9912,
+                "width": 13283
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP43890313",
+      "@type": "sc:Range",
+      "label": "REP43890313",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL43890315",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003941438",
+  "viewingHint": "paged"
+}

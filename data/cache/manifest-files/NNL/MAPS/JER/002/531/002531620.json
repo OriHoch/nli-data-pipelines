@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002531620/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps",
+  "label": "I. Ejalet Rumili Und Zwar Die Sandschak's, 10. Salonik, 11. Tirhala, 12. Jania, 13. Delonia, 14. Avlona. III. Ejalet Morah Und Die Abgesonderten Gerichtsbarkeiten, 1a. Des Sandschak's Galiboli /;&nbsp;O. Hermann lith.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "I. Ejalet Rumili Und Zwar Die Sandschak's, 10. Salonik, 11. Tirhala, 12. Jania, 13. Delonia, 14. Avlona. III. Ejalet Morah Und Die Abgesonderten Gerichtsbarkeiten, 1a. Des Sandschak's Galiboli /;&nbsp;O. Hermann lith."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Leipzig] :Schlieben"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002531620"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1825"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 26 X 19 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Tuerkei"
+    },
+    {
+      "label": "SysNum",
+      "value": "002531620"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002531620/sequence/IE35071858",
+      "@type": "sc:Sequence",
+      "label": "I. Ejalet Rumili Und Zwar Die Sandschak&apos;s; 10. Salonik; 11. Tirhala; 12. Jania; 13. Delonia; 14. Avlona. III. Ejalet Morah Und Die Abgesonderten Gerichtsbarkeiten; 1a. Des Sandschak&apos;s Galiboli /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071867",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6007,
+          "height": 8017,
+          "images": [
+            {
+              "@id": "FL35071867",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35071867",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35071867/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35071867",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8017,
+                "width": 6007
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35071866",
+      "@type": "sc:Range",
+      "label": "REP35071866",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35071867",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002531620",
+  "viewingHint": "paged"
+}

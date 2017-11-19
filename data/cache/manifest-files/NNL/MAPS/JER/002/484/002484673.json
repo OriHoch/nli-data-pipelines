@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002484673/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "Carte de l'Asie /;&nbsp;Corrigee, et augmentee dessus toutes les aultres cy devant faictes par P. Bertius ; Cornelis Danckertz Sculpsit",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de l'Asie /;&nbsp;Corrigee, et augmentee dessus toutes les aultres cy devant faictes par P. Bertius ; Cornelis Danckertz Sculpsit"
+    },
+    {
+      "label": "Contributor",
+      "value": "Cornelis Danckerts approximately 1603-1656"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bertius Petrus, 1565-1629"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002484673"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1640"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 38 X 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002484673"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002484673/sequence/IE27958418",
+      "@type": "sc:Sequence",
+      "label": "Carte de l&apos;Asie /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958430",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13348,
+          "height": 11584,
+          "images": [
+            {
+              "@id": "FL27958430",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27958430",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27958430/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27958430",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11584,
+                "width": 13348
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27958429",
+      "@type": "sc:Range",
+      "label": "REP27958429",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27958430",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002484673",
+  "viewingHint": "paged"
+}

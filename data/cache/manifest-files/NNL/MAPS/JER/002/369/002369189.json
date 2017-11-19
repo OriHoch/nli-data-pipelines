@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369189/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Tercia tabula continet Samariam, Tribus autem Isaschar rursus explicatam.;&nbsp;Mediam reliquam Menassen, Ephraim, Biniamin Idumeae partem. Trans Iordanem autem, Ghad tribum a Iabboc fluvio ad Haroherurbem, Tribus Ruben.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tercia tabula continet Samariam, Tribus autem Isaschar rursus explicatam.;&nbsp;Mediam reliquam Menassen, Ephraim, Biniamin Idumeae partem. Trans Iordanem autem, Ghad tribum a Iabboc fluvio ad Haroherurbem, Tribus Ruben."
+    },
+    {
+      "label": "Contributor",
+      "value": "Petrus Opilius"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Strassburg] :Petrus Opilius"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ziegler Jacob, 1480-1549"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369189"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1532"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "230x355 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369189"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369189/sequence/IE6878997",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071231",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3018,
+          "height": 2080,
+          "images": [
+            {
+              "@id": "FL7071231",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071231",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071231/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071231",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2080,
+                "width": 3018
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071230",
+      "@type": "sc:Range",
+      "label": "REP7071230",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071231",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369189",
+  "viewingHint": "paged"
+}

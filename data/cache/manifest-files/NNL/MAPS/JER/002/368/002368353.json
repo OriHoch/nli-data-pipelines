@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368353/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "Carta de la Terre Promise;&nbsp;Pour le III. volume de l'Histoire du Peuple de Dieu /;&nbsp;I.F. Benard del. et sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carta de la Terre Promise;&nbsp;Pour le III. volume de l'Histoire du Peuple de Dieu /;&nbsp;I.F. Benard del. et sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Isaac-Joseph Berruyer 1681-1758"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bénard J. F. (Jacques François)"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368353"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1728"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "212x420 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368353"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368353/sequence/IE6881840",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072867",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 3280,
+          "height": 1906,
+          "images": [
+            {
+              "@id": "FL7072867",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072867",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072867/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072867",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1906,
+                "width": 3280
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072866",
+      "@type": "sc:Range",
+      "label": "REP7072866",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072867",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368353",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002572412/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Poland -- Maps",
+  "label": "Tilsit, Szawle, Königsberg, Kowno, tomza, Grodno;&nbsp;Bearbeitet in der Kartogr.Abteilung des Stellvertretenden Generalstabes der Armee.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tilsit, Szawle, Königsberg, Kowno, tomza, Grodno;&nbsp;Bearbeitet in der Kartogr.Abteilung des Stellvertretenden Generalstabes der Armee."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Poland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Germany. Heer. Generalstab. Kartogr.Abteilung"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002572412"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1915"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 117 X 94 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002572412"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002572412/sequence/IE35475026",
+      "@type": "sc:Sequence",
+      "label": "Tilsit; Szawle; Königsberg; Kowno; tomza; Grodno",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475035",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 23385,
+          "height": 28970,
+          "images": [
+            {
+              "@id": "FL35475035",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35475035",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35475035/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35475035",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 28970,
+                "width": 23385
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35475034",
+      "@type": "sc:Range",
+      "label": "REP35475034",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475035",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002572412",
+  "viewingHint": "paged"
+}

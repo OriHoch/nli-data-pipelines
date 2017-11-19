@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002540278/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Hungary -- Maps; Europe, Eastern -- Maps; Croatia -- Maps; Romania -- Maps; Bulgaria -- Maps",
+  "label": "Hungaria Generalis :;&nbsp;divisa in proprie dictam Hungariam, Principatum Transylvaniam, Regiones Dalmatiae, Sclavoniae, Moldaviae, Valachiae, Bulgariae, Croatiae, Bosniae, Serviae, Romaniae et Bessarabiae /;&nbsp;Venundantur â Gerardo et Leonardo Valk",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Hungaria Generalis :;&nbsp;divisa in proprie dictam Hungariam, Principatum Transylvaniam, Regiones Dalmatiae, Sclavoniae, Moldaviae, Valachiae, Bulgariae, Croatiae, Bosniae, Serviae, Romaniae et Bessarabiae /;&nbsp;Venundantur â Gerardo et Leonardo Valk"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hungary -- Maps; Europe, Eastern -- Maps; Croatia -- Maps; Romania -- Maps; Bulgaria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Valck G. (Gerard), 1651 or 2-1726"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002540278"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 50 X 58 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002540278"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002540278/sequence/IE35075087",
+      "@type": "sc:Sequence",
+      "label": "Hungaria Generalis :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35075097",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14853,
+          "height": 12791,
+          "images": [
+            {
+              "@id": "FL35075097",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35075097",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35075097/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35075097",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12791,
+                "width": 14853
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35075096",
+      "@type": "sc:Range",
+      "label": "REP35075096",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35075097",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002540278",
+  "viewingHint": "paged"
+}

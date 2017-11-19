@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368833/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Palestinae sive totius terrae promissionis nova descriptio;&nbsp;auctore tilemano Stella sigenens.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestinae sive totius terrae promissionis nova descriptio;&nbsp;auctore tilemano Stella sigenens."
+    },
+    {
+      "label": "Contributor",
+      "value": "Tilemann Stella 1525-1589; Philippe Galle 1537-1612; Christophe Plantin approximately 1520-1589"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Antwerp] :Christopher Plantin"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ortelius Abraham, 1527-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368833"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1585"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "78x107 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368833"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368833/sequence/IE6878732",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070883",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2128,
+          "height": 2499,
+          "images": [
+            {
+              "@id": "FL7070883",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7070883",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7070883/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7070883",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2499,
+                "width": 2128
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7070882",
+      "@type": "sc:Range",
+      "label": "REP7070882",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7070883",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368833",
+  "viewingHint": "paged"
+}

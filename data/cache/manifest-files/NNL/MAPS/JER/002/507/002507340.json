@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002507340/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Imperium Romanum /;&nbsp;Auth. Phil. Briet e societ Iesu",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Imperium Romanum /;&nbsp;Auth. Phil. Briet e societ Iesu"
+    },
+    {
+      "label": "Contributor",
+      "value": "Johannes Janssonius van Waesberge fl. 1642-1681"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Joannes Janssonius van Waesbergen"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Briet Philip, 1601-1668"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002507340"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1677"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 380 X 510 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002507340"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002507340/sequence/IE6881880",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072929",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2723,
+          "height": 2299,
+          "images": [
+            {
+              "@id": "FL7072929",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072929",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072929/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072929",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2299,
+                "width": 2723
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072928",
+      "@type": "sc:Range",
+      "label": "REP7072928",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072929",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002507340",
+  "viewingHint": "paged"
+}

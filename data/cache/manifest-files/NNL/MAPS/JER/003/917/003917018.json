@@ -1,0 +1,123 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003917018/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "Empire of Amraphel or Hammurabi Period of about 1930 B.C. /;&nbsp;Rand McNally & Co. Engr's, Chicago.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Empire of Amraphel or Hammurabi Period of about 1930 B.C. /;&nbsp;Rand McNally & Co. Engr's, Chicago."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Rand McNally and Company"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003917018"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1938"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "The kingdom of Egypt at its greatest extent Period of about 1350 B.C.",
+        "Palestine possesset by the Israelites Period of about 1700 to 1270 B.C."
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003917018"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003917018/sequence/IE36587225",
+      "@type": "sc:Sequence",
+      "label": "Empire of Amraphel or Hammurabi Period of about 1930 B.C. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36587244",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2696,
+          "height": 3400,
+          "images": [
+            {
+              "@id": "FL36587244",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36587244",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36587244/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36587244",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3400,
+                "width": 2696
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36587243",
+      "@type": "sc:Range",
+      "label": "REP36587243",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36587244",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003917018",
+  "viewingHint": "paged"
+}

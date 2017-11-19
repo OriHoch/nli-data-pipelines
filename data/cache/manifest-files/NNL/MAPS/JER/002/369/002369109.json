@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369109/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Twelve tribes of Israel -- Maps; Tabernacle; Eretz Israel -- Maps",
+  "label": "Terra Sancta, sive Promissionis, olim Palestina;&nbsp;recens delineata, et in lucem edita per Nicolaum Visscher. J.C. Visscher Excudit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Terra Sancta, sive Promissionis, olim Palestina;&nbsp;recens delineata, et in lucem edita per Nicolaum Visscher. J.C. Visscher Excudit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Claes Janssen Visscher; Nicolaes Visscher 1618-1679"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Twelve tribes of Israel -- Maps; Tabernacle; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher family"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369109"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1659"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "463x563 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369109"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369109/sequence/IE6880539",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072021",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2700,
+          "height": 2304,
+          "images": [
+            {
+              "@id": "FL7072021",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072021",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072021/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072021",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2304,
+                "width": 2700
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072020",
+      "@type": "sc:Range",
+      "label": "REP7072020",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072021",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369109",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368895/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps",
+  "label": "This Mappe declareth the way, which the Israelites went for the space of fortie yeeres from Egypt through the Wildernesse of Arabia Vntill they...;&nbsp;It containeth also the 42 places where they pitched their tents, which are nemed, Numb. 33\".",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "This Mappe declareth the way, which the Israelites went for the space of fortie yeeres from Egypt through the Wildernesse of Arabia Vntill they...;&nbsp;It containeth also the 42 places where they pitched their tents, which are nemed, Numb. 33\"."
+    },
+    {
+      "label": "Contributor",
+      "value": "Christopher Barker fl. 1581"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Christopher Barker"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Exodus, The -- Maps; Eretz Israel -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Postel Guillaume, 1510-1581"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368895"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1595"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "104x123 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368895"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368895/sequence/IE6882120",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073430",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2000,
+          "height": 3062,
+          "images": [
+            {
+              "@id": "FL7073430",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073430",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073430/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073430",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3062,
+                "width": 2000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073429",
+      "@type": "sc:Range",
+      "label": "REP7073429",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073430",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368895",
+  "viewingHint": "paged"
+}

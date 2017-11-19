@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300532/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. סטניסלב, אוקראינה. תרצ\"ז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. סטניסלב, אוקראינה. תרצ\"ז."
+    },
+    {
+      "label": "Contributor",
+      "value": "אליסף, מיכאל בן דוד, 1911-2002 (חתן) ; רגנבוגן, פנינה בת אהרן אברהם, 1911-1995 (כלה) ; לופטשר, שלמה אריה בן יעקב (עד) ; זידנורג, יעקב בן צבי אריה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "סטאניסלאב"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300532"
+    },
+    {
+      "label": "Creation Date",
+      "value": "כה בטבת תרצ\"ז (1937)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 290X202 מ\"מ..; נייר."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Stanislav, Ukraine. 1937"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300532"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300532/sequence/IE9197424",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. סטניסלאב, אוקראינה, תרצ&quot;ז]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463926",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. סטניסלאב; אוקראינה; תרצז]",
+          "width": 595,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9463926",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9463926",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9463926/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "[כתובה. סטניסלאב; אוקראינה; תרצז]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9463926",
+                  "label": "[כתובה. סטניסלאב; אוקראינה; תרצז]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 595
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9463925",
+      "@type": "sc:Range",
+      "label": "REP9463925",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9463926",
+          "@type": "sc:Canvas",
+          "label": "[כתובה. סטניסלאב; אוקראינה; תרצז]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300532",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300619/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. ליוורנו, איטליה. תע\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. ליוורנו, איטליה. תע\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "מועטי, יהודה חיים בן ראובן אברהם (חתן) ; נוניס-פרנקו, דינה רחל בת יצחק (כלה) ; מאנוירשה, יצחק לידידי (עד) ; צלאח, דוד (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "ליוורנו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300619"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יד בניסן תע\"א (1711)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 760X565 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Livorno, Italy. 1711"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300619"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300619/sequence/IE9200574",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. ליוורנו, איטליה, תע&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462896",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 635,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9462896",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9462896",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9462896/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9462896",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 635
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9462894",
+      "@type": "sc:Range",
+      "label": "REP9462894",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9462896",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300619",
+  "viewingHint": "paged"
+}

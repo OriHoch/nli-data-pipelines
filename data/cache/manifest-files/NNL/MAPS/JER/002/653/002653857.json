@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002653857/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Maps; Jaffa (Tel Aviv-Yafo, Israel) -- Maps",
+  "label": "Plan of Jaffa;&nbsp;Reproduced by the Survey of Egypt.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan of Jaffa;&nbsp;Reproduced by the Survey of Egypt."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified] :Survey of Egypt"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Maps; Jaffa (Tel Aviv-Yafo, Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002653857"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1918"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 54 x 51.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002653857"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002653857/sequence/IE6880974",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072357",
+          "@type": "sc:Canvas",
+          "label": "מפה דיגיטלית - E-Map",
+          "width": 7296,
+          "height": 7728,
+          "images": [
+            {
+              "@id": "FL7072357",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072357",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072357/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מפה דיגיטלית - E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072357",
+                  "label": "מפה דיגיטלית - E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7728,
+                "width": 7296
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072356",
+      "@type": "sc:Range",
+      "label": "REP7072356",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072357",
+          "@type": "sc:Canvas",
+          "label": "מפה דיגיטלית - E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002653857",
+  "viewingHint": "paged"
+}

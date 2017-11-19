@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002718552/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World maps",
+  "label": "Planisphere ou carte generale du monde;&nbsp;Par P. Du Val. Lud. Cordier sculp..",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Planisphere ou carte generale du monde;&nbsp;Par P. Du Val. Lud. Cordier sculp.."
+    },
+    {
+      "label": "Contributor",
+      "value": "Robert Cordier"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Chez l'auteur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Duval P. (Pierre), 1619-1682"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002718552"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1668"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 33x59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002718552"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002718552/sequence/IE13730374",
+      "@type": "sc:Sequence",
+      "label": "Image",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745719",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9800,
+          "height": 7156,
+          "images": [
+            {
+              "@id": "FL13745719",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13745719",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13745719/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13745719",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7156,
+                "width": 9800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13745718",
+      "@type": "sc:Range",
+      "label": "REP13745718",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13745719",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002718552",
+  "viewingHint": "paged"
+}

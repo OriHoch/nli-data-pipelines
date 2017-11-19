@@ -1,0 +1,161 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003779280/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Beersheba Region (Israel) -- Maps ; מפות ; Maps and cartographic materials",
+  "label": "Beersheba;&nbsp;Compiled, drawn and reproduced by Survey of Palestine. מחלקת המדידות, ישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Beersheba;&nbsp;Compiled, drawn and reproduced by Survey of Palestine. מחלקת המדידות, ישראל."
+    },
+    {
+      "label": "Publisher",
+      "value": "[תל אביב] :מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Beersheba Region (Israel) -- Maps ; מפות ; Maps and cartographic materials"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003779280"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1958"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 48x60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "כותר מעטפת: באר שבע [חומר קרטוגרפי]",
+        "ישראל. 1:100,000 1952-1958 ; 15"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003779280"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003779280/sequence/IE44306320",
+      "@type": "sc:Sequence",
+      "label": "Beersheba",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44306334",
+          "@type": "sc:Canvas",
+          "label": "01 map",
+          "width": 14558,
+          "height": 11645,
+          "images": [
+            {
+              "@id": "FL44306334",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44306334",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44306334/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44306334",
+                  "label": "01 map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11645,
+                "width": 14558
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44306343",
+          "@type": "sc:Canvas",
+          "label": "02 verso",
+          "width": 11697,
+          "height": 4639,
+          "images": [
+            {
+              "@id": "FL44306343",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL44306343",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL44306343/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL44306343",
+                  "label": "02 verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4639,
+                "width": 11697
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP44306333",
+      "@type": "sc:Range",
+      "label": "REP44306333",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44306334",
+          "@type": "sc:Canvas",
+          "label": "01 map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL44306343",
+          "@type": "sc:Canvas",
+          "label": "02 verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003779280",
+  "viewingHint": "paged"
+}

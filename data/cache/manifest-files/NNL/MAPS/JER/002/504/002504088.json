@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002504088/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Nile River -- Maps",
+  "label": "Aegyptus Antiqua : /;&nbsp;ex conatibus geographicus Ab. Ortelii.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Aegyptus Antiqua : /;&nbsp;ex conatibus geographicus Ab. Ortelii."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Antwerpen] :Publisher not identified"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Nile River -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ortelius Abraham, 1527-1598"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002504088"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1584"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map on 2 sheets : col. ; 44 X 57 cm. each sheet.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002504088"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002504088/sequence/IE25579425",
+      "@type": "sc:Sequence",
+      "label": "Aegyptus Antiqua : /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579432",
+          "@type": "sc:Canvas",
+          "label": "01 North",
+          "width": 13964,
+          "height": 10896,
+          "images": [
+            {
+              "@id": "FL25579432",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25579432",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25579432/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 North",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25579432",
+                  "label": "01 North",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10896,
+                "width": 13964
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579433",
+          "@type": "sc:Canvas",
+          "label": "02 South",
+          "width": 13996,
+          "height": 11024,
+          "images": [
+            {
+              "@id": "FL25579433",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25579433",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25579433/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 South",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25579433",
+                  "label": "02 South",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11024,
+                "width": 13996
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25579431",
+      "@type": "sc:Range",
+      "label": "REP25579431",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579432",
+          "@type": "sc:Canvas",
+          "label": "01 North"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25579433",
+          "@type": "sc:Canvas",
+          "label": "02 South"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002504088",
+  "viewingHint": "paged"
+}

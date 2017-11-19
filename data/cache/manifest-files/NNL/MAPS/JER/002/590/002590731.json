@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002590731/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Italy -- Maps",
+  "label": "Regiones Italiae ex Augusti Caesaris divisione;&nbsp;R.W.Seale sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Regiones Italiae ex Augusti Caesaris divisione;&nbsp;R.W.Seale sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Christoph Cellarius 1638-1707"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Italy -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seale Richard William"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002590731"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1760"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 20 X 31 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002590731"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002590731/sequence/IE37788985",
+      "@type": "sc:Sequence",
+      "label": "Regiones Italiae ex Augusti Caesaris divisione",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789002",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9265,
+          "height": 6200,
+          "images": [
+            {
+              "@id": "FL37789002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37789002",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37789002/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37789002",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6200,
+                "width": 9265
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37789001",
+      "@type": "sc:Range",
+      "label": "REP37789001",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37789002",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002590731",
+  "viewingHint": "paged"
+}

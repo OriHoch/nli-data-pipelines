@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002582151/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Great Britain -- Maps",
+  "label": "Les Isles Britanniques;&nbsp;Suivant les Nouvelles Observations de Messrs. de l'Academie Royale des Sciences, etc. /;&nbsp;Augmentées de Nouveau.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Les Isles Britanniques;&nbsp;Suivant les Nouvelles Observations de Messrs. de l'Academie Royale des Sciences, etc. /;&nbsp;Augmentées de Nouveau."
+    },
+    {
+      "label": "Publisher",
+      "value": "Leide :Pierre Vander Aa"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Great Britain -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Aa Pieter van der, 1659-1733"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002582151"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1729"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 22 X 29 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002582151"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002582151/sequence/IE35475092",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Les&gt;&gt; Isles Britanniques",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475152",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9933,
+          "height": 8437,
+          "images": [
+            {
+              "@id": "FL35475152",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35475152",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35475152/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35475152",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8437,
+                "width": 9933
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35475151",
+      "@type": "sc:Range",
+      "label": "REP35475151",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475152",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002582151",
+  "viewingHint": "paged"
+}

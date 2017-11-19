@@ -1,0 +1,162 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003431402/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Qeren ha-yesod; Land tenure; Eretz Israel -- Maps",
+  "label": "Bird's eye view of Palestine;&nbsp;(exclusive of the Southern district) /;&nbsp;prepared under the direction of Hugo Herrmann; Art. Institut Orell Füssli.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Bird's eye view of Palestine;&nbsp;(exclusive of the Southern district) /;&nbsp;prepared under the direction of Hugo Herrmann; Art. Institut Orell Füssli."
+    },
+    {
+      "label": "Contributor",
+      "value": "Artistisches Institut Orell Füssli"
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem :Head Office of the Keren Hayesod"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Qeren ha-yesod; Land tenure; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Herrmann Hugo, 1887-1940"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003431402"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1931"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 39.49.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ארץ ישראל [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003431402"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003431402/sequence/IE33253928",
+      "@type": "sc:Sequence",
+      "label": "Bird&apos;s eye view of Palestine",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33253933",
+          "@type": "sc:Canvas",
+          "label": "01 Map",
+          "width": 11869,
+          "height": 9354,
+          "images": [
+            {
+              "@id": "FL33253933",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33253933",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33253933/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33253933",
+                  "label": "01 Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9354,
+                "width": 11869
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33253934",
+          "@type": "sc:Canvas",
+          "label": "02 Verso text",
+          "width": 11808,
+          "height": 9226,
+          "images": [
+            {
+              "@id": "FL33253934",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33253934",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33253934/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Verso text",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33253934",
+                  "label": "02 Verso text",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9226,
+                "width": 11808
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33253932",
+      "@type": "sc:Range",
+      "label": "REP33253932",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33253933",
+          "@type": "sc:Canvas",
+          "label": "01 Map"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33253934",
+          "@type": "sc:Canvas",
+          "label": "02 Verso text"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003431402",
+  "viewingHint": "paged"
+}

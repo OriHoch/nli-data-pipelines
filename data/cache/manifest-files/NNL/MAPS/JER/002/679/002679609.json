@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002679609/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Istanbul (Turkey) -- Maps",
+  "label": "Byzantium Nunc Constantinopolis",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Byzantium Nunc Constantinopolis"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Ioannes Ianssonius"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Istanbul (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jansson Jan, 1588-1664"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002679609"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1660"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 32.3 x 47.3 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002679609"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002679609/sequence/IE13736258",
+      "@type": "sc:Sequence",
+      "label": "Istanbul (Turkey)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746701",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9755,
+          "height": 7896,
+          "images": [
+            {
+              "@id": "FL13746701",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746701",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746701/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746701",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7896,
+                "width": 9755
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746700",
+      "@type": "sc:Range",
+      "label": "REP13746700",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746701",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002679609",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002715867/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Troas (Turkey) -- Maps",
+  "label": "Carte generale de la Troade: comprenant le pays qui s' etend depuis le cap Sigeum jusq' au mont Gargaron levee sur les lieux et assujettie aux observations astronomiques;&nbsp;J.D. Barbie du Bocage emendavit et auxit ; Beaublé script. Bouclet Sculpsit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte generale de la Troade: comprenant le pays qui s' etend depuis le cap Sigeum jusq' au mont Gargaron levee sur les lieux et assujettie aux observations astronomiques;&nbsp;J.D. Barbie du Bocage emendavit et auxit ; Beaublé script. Bouclet Sculpsit."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Troas (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Barbié du Bocage Jean Denis, 1760-1825"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002715867"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1819"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 44.5 x 60.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002715867"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002715867/sequence/IE36010538",
+      "@type": "sc:Sequence",
+      "label": "Carte generale de la Troade: comprenant le pays qui s&apos; etend depuis le cap Sigeum jusq&apos; au mont Gargaron levee sur les lieux et assujettie aux observations astronomiques",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010545",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 15831,
+          "height": 12217,
+          "images": [
+            {
+              "@id": "FL36010545",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36010545",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36010545/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36010545",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12217,
+                "width": 15831
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36010544",
+      "@type": "sc:Range",
+      "label": "REP36010544",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36010545",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002715867",
+  "viewingHint": "paged"
+}

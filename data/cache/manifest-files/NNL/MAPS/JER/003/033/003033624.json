@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003033624/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Acapulco Bay (Mexico) -- Maps",
+  "label": "The form of cruising off Acapulca on the coast of Mexico in the South Seas, in the year 1742 by His Majesty's ships, Centurion, Gloucester, Tryall Prize, Carmila Prize, Carmin Prize",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The form of cruising off Acapulca on the coast of Mexico in the South Seas, in the year 1742 by His Majesty's ships, Centurion, Gloucester, Tryall Prize, Carmila Prize, Carmin Prize"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Acapulco Bay (Mexico) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Anson George Anson, Baron, 1697-1762"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003033624"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1745?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 24x43.3 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003033624"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003033624/sequence/IE37808027",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;The&gt;&gt; form of cruising off Acapulca on the coast of Mexico in the South Seas; in the year 1742 by His Majesty&apos;s ships; Centurion; Gloucester; Tryall Prize; Carmila Prize; Carmin Prize",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37808043",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12099,
+          "height": 7671,
+          "images": [
+            {
+              "@id": "FL37808043",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37808043",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37808043/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37808043",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7671,
+                "width": 12099
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37808040",
+      "@type": "sc:Range",
+      "label": "REP37808040",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37808043",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003033624",
+  "viewingHint": "paged"
+}

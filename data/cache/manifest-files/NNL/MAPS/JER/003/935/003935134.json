@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003935134/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "World maps -- Charts, diagrams, etc; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps",
+  "label": "A view of the division of the land of Canaan among the twelve tribes of Israel the situation of the city and sanctuary &c as described by Josephus antiquities. /;&nbsp;J. Purves.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A view of the division of the land of Canaan among the twelve tribes of Israel the situation of the city and sanctuary &c as described by Josephus antiquities. /;&nbsp;J. Purves."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "World maps -- Charts, diagrams, etc; Twelve tribes of Israel -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Canne John, -1667?"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003935134"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1860?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003935134"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003935134/sequence/IE45602023",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;A&gt;&gt; view of the division of the land of Canaan among the twelve tribes of Israel the situation of the city and sanctuary &amp;c as described by Josephus antiquities. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45602034",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 3228,
+          "height": 2486,
+          "images": [
+            {
+              "@id": "FL45602034",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45602034",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45602034/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45602034",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2486,
+                "width": 3228
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45602033",
+      "@type": "sc:Range",
+      "label": "REP45602033",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45602034",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003935134",
+  "viewingHint": "paged"
+}

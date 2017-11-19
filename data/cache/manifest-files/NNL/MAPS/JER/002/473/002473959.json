@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002473959/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Chin-men hsien (Taiwan) -- Maps; Xiamen (Xiamen Shi, China) -- Maps",
+  "label": "[Amoy and Quemoy];&nbsp;On these islands which are now becom a kingdome used the famous pyrates Yquon et Kocksinga to resort",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Amoy and Quemoy];&nbsp;On these islands which are now becom a kingdome used the famous pyrates Yquon et Kocksinga to resort"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Chin-men hsien (Taiwan) -- Maps; Xiamen (Xiamen Shi, China) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Meurs Jacob van"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002473959"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1672?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 290 X 352 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002473959"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002473959/sequence/IE46961855",
+      "@type": "sc:Sequence",
+      "label": "[Amoy and Quemoy]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961873",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8811,
+          "height": 7232,
+          "images": [
+            {
+              "@id": "FL46961873",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL46961873",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL46961873/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL46961873",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7232,
+                "width": 8811
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP46961871",
+      "@type": "sc:Range",
+      "label": "REP46961871",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL46961873",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002473959",
+  "viewingHint": "paged"
+}

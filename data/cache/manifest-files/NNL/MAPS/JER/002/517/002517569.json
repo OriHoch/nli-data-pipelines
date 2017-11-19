@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002517569/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Iran -- Maps",
+  "label": "Carte de l'Empire de Perse /;&nbsp;par M. Bonne ; Arrivet inv. & Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de l'Empire de Perse /;&nbsp;par M. Bonne ; Arrivet inv. & Sculp."
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Lattré"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Iran -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bonne Rigobert, 1727-1794"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002517569"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1787"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 32 X 43 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002517569"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002517569/sequence/IE33132563",
+      "@type": "sc:Sequence",
+      "label": "Carte de l&apos;Empire de Perse /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33132569",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12368,
+          "height": 8996,
+          "images": [
+            {
+              "@id": "FL33132569",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33132569",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33132569/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33132569",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8996,
+                "width": 12368
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33132568",
+      "@type": "sc:Range",
+      "label": "REP33132568",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33132569",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002517569",
+  "viewingHint": "paged"
+}

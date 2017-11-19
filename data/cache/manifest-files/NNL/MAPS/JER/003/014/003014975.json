@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003014975/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Elbe River (Czech Republic and Germany) -- Maps",
+  "label": "EIGENTLICHE VORSTELLUNG DESS GROSSEN ELB-STROMS IN DEUTSCHLAND, VOM URSPRUNG BISS ZU SEINEN AUSFLUSS, MIT SEINEN BEYDERSEITS EINFLIESSENDEN WASSERN UND FLÜSSEN",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "EIGENTLICHE VORSTELLUNG DESS GROSSEN ELB-STROMS IN DEUTSCHLAND, VOM URSPRUNG BISS ZU SEINEN AUSFLUSS, MIT SEINEN BEYDERSEITS EINFLIESSENDEN WASSERN UND FLÜSSEN"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Place of publication not identified],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Elbe River (Czech Republic and Germany) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003014975"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map in 2 sections : col. ; sheet 50x60 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "003014975"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003014975/sequence/IE39695852",
+      "@type": "sc:Sequence",
+      "label": "EIGENTLICHE VORSTELLUNG DESS GROSSEN ELB-STROMS IN DEUTSCHLAND; VOM URSPRUNG BISS ZU SEINEN AUSFLUSS; MIT SEINEN BEYDERSEITS EINFLIESSENDEN WASSERN UND FLÜSSEN",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695863",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14550,
+          "height": 12341,
+          "images": [
+            {
+              "@id": "FL39695863",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695863",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695863/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695863",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12341,
+                "width": 14550
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695862",
+      "@type": "sc:Range",
+      "label": "REP39695862",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695863",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003014975",
+  "viewingHint": "paged"
+}

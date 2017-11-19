@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002582601/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Great Britain -- Maps",
+  "label": "England and Wales;&nbsp;Drawn from the most accurate Surveys Containing all the Cities Boroughs Market Towns & Villages, In which are included all the Improvements and Observations both Astronomical and Topographical, which have been made by Members of the Royal Society, & others Down to the present Year /;&nbsp;The whole correted & improv'd By JOHN ROCQUE.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "England and Wales;&nbsp;Drawn from the most accurate Surveys Containing all the Cities Boroughs Market Towns & Villages, In which are included all the Improvements and Observations both Astronomical and Topographical, which have been made by Members of the Royal Society, & others Down to the present Year /;&nbsp;The whole correted & improv'd By JOHN ROCQUE."
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :Robt. Sayer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Great Britain -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Rocque John, -1762"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002582601"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1750"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "2 sheets ; 63 X 100 cm. each.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002582601"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002582601/sequence/IE37661094",
+      "@type": "sc:Sequence",
+      "label": "England and Wales",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37661106",
+          "@type": "sc:Canvas",
+          "label": "01 sheet 1",
+          "width": 24873,
+          "height": 15486,
+          "images": [
+            {
+              "@id": "FL37661106",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37661106",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37661106/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 sheet 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37661106",
+                  "label": "01 sheet 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15486,
+                "width": 24873
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37661115",
+          "@type": "sc:Canvas",
+          "label": "02 sheet 2",
+          "width": 24588,
+          "height": 15353,
+          "images": [
+            {
+              "@id": "FL37661115",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37661115",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37661115/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 sheet 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37661115",
+                  "label": "02 sheet 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15353,
+                "width": 24588
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37661105",
+      "@type": "sc:Range",
+      "label": "REP37661105",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37661106",
+          "@type": "sc:Canvas",
+          "label": "01 sheet 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37661115",
+          "@type": "sc:Canvas",
+          "label": "02 sheet 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002582601",
+  "viewingHint": "paged"
+}

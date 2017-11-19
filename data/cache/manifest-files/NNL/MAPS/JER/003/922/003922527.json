@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003922527/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Bible -- Geography -- Maps",
+  "label": "Carte des voyages d'Abraham et des Patriarch.ES.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte des voyages d'Abraham et des Patriarch.ES."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Joly Joseph Romain, 1715-1805"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003922527"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1772"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003922527"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003922527/sequence/IE45582554",
+      "@type": "sc:Sequence",
+      "label": "Carte des voyages d&apos;Abraham et des Patriarch.ES.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45582575",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 4613,
+          "height": 3128,
+          "images": [
+            {
+              "@id": "FL45582575",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45582575",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45582575/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45582575",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3128,
+                "width": 4613
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45582574",
+      "@type": "sc:Range",
+      "label": "REP45582574",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45582575",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003922527",
+  "viewingHint": "paged"
+}

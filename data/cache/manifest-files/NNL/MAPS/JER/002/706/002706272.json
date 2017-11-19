@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002706272/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Voyage des Eenfans d'Israel dans le desert depuis leur sortie d'Egypte;&nbsp;par la Mer Rouge jusquau Pays de Canaan. Nombre, Ch. XXXIII.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Voyage des Eenfans d'Israel dans le desert depuis leur sortie d'Egypte;&nbsp;par la Mer Rouge jusquau Pays de Canaan. Nombre, Ch. XXXIII."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Chez Desray"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002706272"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1809"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 39.5 x 46.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002706272"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002706272/sequence/IE6882028",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073109",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 6488,
+          "height": 5282,
+          "images": [
+            {
+              "@id": "FL7073109",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7073109",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7073109/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7073109",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5282,
+                "width": 6488
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7073108",
+      "@type": "sc:Range",
+      "label": "REP7073108",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7073109",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002706272",
+  "viewingHint": "paged"
+}

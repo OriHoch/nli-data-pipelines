@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003950739/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Judah (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Benjamin (Tribe of Israel) -- Maps; Simeon (Tribe of Israel) -- Maps",
+  "label": "Tabula geographica Tribus Iuda, Beniamin, Dan, et Simeon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula geographica Tribus Iuda, Beniamin, Dan, et Simeon."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Judah (Tribe of Israel) -- Maps; Dan (Tribe of Israel) -- Maps; Benjamin (Tribe of Israel) -- Maps; Simeon (Tribe of Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schwarz Ignaz"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003950739"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1729"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003950739"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003950739/sequence/IE45611869",
+      "@type": "sc:Sequence",
+      "label": "Tabula geographica Tribus Iuda; Beniamin; Dan; et Simeon.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45611885",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2107,
+          "height": 1977,
+          "images": [
+            {
+              "@id": "FL45611885",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45611885",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45611885/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45611885",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1977,
+                "width": 2107
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45611884",
+      "@type": "sc:Range",
+      "label": "REP45611884",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45611885",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003950739",
+  "viewingHint": "paged"
+}

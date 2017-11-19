@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002586452/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Portugal -- Maps",
+  "label": "Portugallia et Algarbia quae olim Lusitania;&nbsp;Auctore Vernando Alvero Secco.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Portugallia et Algarbia quae olim Lusitania;&nbsp;Auctore Vernando Alvero Secco."
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami :Johannem Janssonium"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Portugal -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Seco Fernando Alvares"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002586452"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1647"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col ; 38 X 49 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002586452"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002586452/sequence/IE37099224",
+      "@type": "sc:Sequence",
+      "label": "Portugallia et Algarbia quae olim Lusitania",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099233",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12384,
+          "height": 9543,
+          "images": [
+            {
+              "@id": "FL37099233",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099233",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099233/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099233",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9543,
+                "width": 12384
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099232",
+      "@type": "sc:Range",
+      "label": "REP37099232",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099233",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002586452",
+  "viewingHint": "paged"
+}

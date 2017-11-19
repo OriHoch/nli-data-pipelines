@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003368745/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mediterranean Sea -- Maps; Mishor ha-Hof (Israel) -- Maps; Mediterranean Coast (Israel)",
+  "label": "[Eastern Mediterranean]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[Eastern Mediterranean]"
+    },
+    {
+      "label": "Publisher",
+      "value": "Marseille :Chez Joseph Roux"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mediterranean Sea -- Maps; Mishor ha-Hof (Israel) -- Maps; Mediterranean Coast (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Roux Joseph"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003368745"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1764"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 82x57 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003368745"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003368745/sequence/IE13730705",
+      "@type": "sc:Sequence",
+      "label": "Mishor ha-Hof (Israel)",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746516",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9547,
+          "height": 13405,
+          "images": [
+            {
+              "@id": "FL13746516",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13746516",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13746516/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13746516",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 13405,
+                "width": 9547
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13746515",
+      "@type": "sc:Range",
+      "label": "REP13746515",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13746516",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003368745",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002715075/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Turkey -- Maps",
+  "label": "Nouvelle carte générale des provinces Asiatiques de l'Empire Ottoman;&nbsp;(sans l'Arabie) /;&nbsp;dressée par Henri Kiepert, Berlin, 1883...1884.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nouvelle carte générale des provinces Asiatiques de l'Empire Ottoman;&nbsp;(sans l'Arabie) /;&nbsp;dressée par Henri Kiepert, Berlin, 1883...1884."
+    },
+    {
+      "label": "Publisher",
+      "value": "Berlin :Dietrich Reimer"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Turkey -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Kiepert Heinrich, 1818-1899"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002715075"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1899"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 95x158 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002715075"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002715075/sequence/IE36381768",
+      "@type": "sc:Sequence",
+      "label": "Nouvelle carte générale des provinces Asiatiques de l&apos;Empire Ottoman",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36381772",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 39290,
+          "height": 24469,
+          "images": [
+            {
+              "@id": "FL36381772",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36381772",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36381772/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36381772",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 24469,
+                "width": 39290
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36381771",
+      "@type": "sc:Range",
+      "label": "REP36381771",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36381772",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002715075",
+  "viewingHint": "paged"
+}

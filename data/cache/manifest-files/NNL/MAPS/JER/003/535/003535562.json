@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003535562/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Asia -- Maps",
+  "label": "L'Asie ou tous les points principaux sont placez sur les...;&nbsp;Par N. de Fer ; Guerard invenit. et fecit.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "L'Asie ou tous les points principaux sont placez sur les...;&nbsp;Par N. de Fer ; Guerard invenit. et fecit."
+    },
+    {
+      "label": "Contributor",
+      "value": "Nicolas Guérard approximately 1648-1719"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :chez l'auteur"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Asia -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Fer Nicolas de, 1646-1720"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003535562"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1696"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 92 x 120 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003535562"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003535562/sequence/IE33250787",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;L&apos;&gt;&gt;Asie ou tous les points principaux sont placez sur les...",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33250797",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 29308,
+          "height": 22801,
+          "images": [
+            {
+              "@id": "FL33250797",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33250797",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33250797/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33250797",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 22801,
+                "width": 29308
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33250796",
+      "@type": "sc:Range",
+      "label": "REP33250796",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33250797",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003535562",
+  "viewingHint": "paged"
+}

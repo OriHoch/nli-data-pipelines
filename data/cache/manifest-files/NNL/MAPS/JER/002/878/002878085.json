@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002878085/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bosporus (Turkey) -- Maps; Black Sea -- Maps",
+  "label": "Nouvelle carte de la Mer Noire et du Canal de Constantinople;&nbsp;tres exacte mise au Jour par N. Visscher.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nouvelle carte de la Mer Noire et du Canal de Constantinople;&nbsp;tres exacte mise au Jour par N. Visscher."
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam], :Henry de Leth"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bosporus (Turkey) -- Maps; Black Sea -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Visscher Nicolaes, 1649-1702"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002878085"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca.1710"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet : col. ; 50x59 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre;lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002878085"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002878085/sequence/IE36011249",
+      "@type": "sc:Sequence",
+      "label": "Nouvelle carte de la Mer Noire et du Canal de Constantinople",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36011255",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14271,
+          "height": 11956,
+          "images": [
+            {
+              "@id": "FL36011255",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36011255",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36011255/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36011255",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11956,
+                "width": 14271
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36011254",
+      "@type": "sc:Range",
+      "label": "REP36011254",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36011255",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002878085",
+  "viewingHint": "paged"
+}

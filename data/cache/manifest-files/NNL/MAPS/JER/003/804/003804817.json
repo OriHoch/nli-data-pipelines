@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003804817/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rafaḥ Region (Gaza Strip) -- Maps",
+  "label": "Kh. El. Adas /;&nbsp;Drawn & printed at the Survey Office... Reproduced by 17 Map Reproduction Section R.E.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Kh. El. Adas /;&nbsp;Drawn & printed at the Survey Office... Reproduced by 17 Map Reproduction Section R.E."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rafaḥ Region (Gaza Strip) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003804817"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 sheet ; 61 x 53 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Palestine 1:25,000 ; 8-7"
+    },
+    {
+      "label": "SysNum",
+      "value": "003804817"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003804817/sequence/IE28026048",
+      "@type": "sc:Sequence",
+      "label": "Kh. El. Adas /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026074",
+          "@type": "sc:Canvas",
+          "label": "00 Index",
+          "width": 8950,
+          "height": 12388,
+          "images": [
+            {
+              "@id": "FL28026074",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28026074",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28026074/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "00 Index",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28026074",
+                  "label": "00 Index",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12388,
+                "width": 8950
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026077",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 12383,
+          "height": 14254,
+          "images": [
+            {
+              "@id": "FL28026077",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28026077",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28026077/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28026077",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14254,
+                "width": 12383
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP28026073",
+      "@type": "sc:Range",
+      "label": "REP28026073",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026074",
+          "@type": "sc:Canvas",
+          "label": "00 Index"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28026077",
+          "@type": "sc:Canvas",
+          "label": "01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003804817",
+  "viewingHint": "paged"
+}

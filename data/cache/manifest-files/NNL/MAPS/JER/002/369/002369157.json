@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002369157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Africa, North -- Maps; Bible -- Geography -- Maps",
+  "label": "Karte von den ersten Wohnungen der Soehne des Ham und von den Gegenden welche ihre Colonien bevoelkert haben",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Karte von den ersten Wohnungen der Soehne des Ham und von den Gegenden welche ihre Colonien bevoelkert haben"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nuernberg],"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Africa, North -- Maps; Bible -- Geography -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wells Edward, 1667-1727"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002369157"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1765"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "145x186 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002369157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002369157/sequence/IE50290136",
+      "@type": "sc:Sequence",
+      "label": "Karte von den ersten Wohnungen der Soehne des Ham und von den Gegenden welche ihre Colonien bevoelkert haben",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50290140",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 5672,
+          "height": 4469,
+          "images": [
+            {
+              "@id": "FL50290140",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50290140",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50290140/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50290140",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4469,
+                "width": 5672
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50290139",
+      "@type": "sc:Range",
+      "label": "REP50290139",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50290140",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002369157",
+  "viewingHint": "paged"
+}

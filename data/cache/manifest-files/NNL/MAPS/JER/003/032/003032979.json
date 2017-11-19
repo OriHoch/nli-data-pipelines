@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003032979/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Patagonia (Argentina and Chile) -- Maps",
+  "label": "Plan of St. Julian's harbour on the coast of Patagonia;&nbsp;Laying in the Latd. of 49:30 So. & Wt. Longd. from London 70:44. 174 0/1. /;&nbsp;R.W.Seale Sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Plan of St. Julian's harbour on the coast of Patagonia;&nbsp;Laying in the Latd. of 49:30 So. & Wt. Longd. from London 70:44. 174 0/1. /;&nbsp;R.W.Seale Sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Richard William Seale"
+    },
+    {
+      "label": "Publisher",
+      "value": "[London] :John and Paul Knapton"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Patagonia (Argentina and Chile) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Anson George Anson, Baron, 1697-1762"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003032979"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1745"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 Map ; 22x19 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003032979"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003032979/sequence/IE37807950",
+      "@type": "sc:Sequence",
+      "label": "Plan of St. Julian&apos;s harbour on the coast of Patagonia",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807966",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6372,
+          "height": 7647,
+          "images": [
+            {
+              "@id": "FL37807966",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37807966",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37807966/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37807966",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7647,
+                "width": 6372
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37807965",
+      "@type": "sc:Range",
+      "label": "REP37807965",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37807966",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003032979",
+  "viewingHint": "paged"
+}

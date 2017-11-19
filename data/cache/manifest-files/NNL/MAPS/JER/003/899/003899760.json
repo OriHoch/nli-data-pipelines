@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003899760/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Nieuwe kaart van Canaan en de omeleggende landen, ten tyde der Aardsvaders Abraham, Isaak en Jacob. /;&nbsp;J. van Jagen Sculp. ; Getekent door A. L. en uitgegeven by Isaak Trion en Jacobus Loveringh.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Nieuwe kaart van Canaan en de omeleggende landen, ten tyde der Aardsvaders Abraham, Isaak en Jacob. /;&nbsp;J. van Jagen Sculp. ; Getekent door A. L. en uitgegeven by Isaak Trion en Jacobus Loveringh."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan van Jagen; Jacobus Lovering"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Tirion Isaak"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003899760"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1739"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "dut"
+    },
+    {
+      "label": "SysNum",
+      "value": "003899760"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003899760/sequence/IE36555996",
+      "@type": "sc:Sequence",
+      "label": "Nieuwe kaart van Canaan en de omeleggende landen; ten tyde der Aardsvaders Abraham; Isaak en Jacob. /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36556006",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11223,
+          "height": 9404,
+          "images": [
+            {
+              "@id": "FL36556006",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36556006",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36556006/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36556006",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9404,
+                "width": 11223
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36556005",
+      "@type": "sc:Range",
+      "label": "REP36556005",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36556006",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003899760",
+  "viewingHint": "paged"
+}

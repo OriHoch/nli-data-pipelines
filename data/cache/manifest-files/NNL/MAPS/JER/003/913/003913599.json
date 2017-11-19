@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003913599/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Questa Tauola, E l'Antica Siria ch'ora destinta in dodici Tribu hora si chiama la Soria et terra Santa poseduta dal Turco.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Questa Tauola, E l'Antica Siria ch'ora destinta in dodici Tribu hora si chiama la Soria et terra Santa poseduta dal Turco."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Savonarola Raffaele"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003913599"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1713"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "ita"
+    },
+    {
+      "label": "SysNum",
+      "value": "003913599"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003913599/sequence/IE36566239",
+      "@type": "sc:Sequence",
+      "label": "Questa Tauola; E l&apos;Antica Siria ch&apos;ora destinta in dodici Tribu hora si chiama la Soria et terra Santa poseduta dal Turco.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566243",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 5363,
+          "height": 8194,
+          "images": [
+            {
+              "@id": "FL36566243",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36566243",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36566243/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36566243",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8194,
+                "width": 5363
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36566242",
+      "@type": "sc:Range",
+      "label": "REP36566242",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36566243",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003913599",
+  "viewingHint": "paged"
+}

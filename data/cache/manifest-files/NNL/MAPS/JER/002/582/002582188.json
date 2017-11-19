@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002582188/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Scotland -- Maps",
+  "label": "Scotia Regnum",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Scotia Regnum"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Apud Iohannem Blaeu"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Scotland -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Blaeu Joan, 1596-1673"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002582188"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1648?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 37 X 48 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002582188"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002582188/sequence/IE35475211",
+      "@type": "sc:Sequence",
+      "label": "Scotia Regnum",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475222",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 14888,
+          "height": 12133,
+          "images": [
+            {
+              "@id": "FL35475222",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35475222",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35475222/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35475222",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12133,
+                "width": 14888
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35475221",
+      "@type": "sc:Range",
+      "label": "REP35475221",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35475222",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002582188",
+  "viewingHint": "paged"
+}

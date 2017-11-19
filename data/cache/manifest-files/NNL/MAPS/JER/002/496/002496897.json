@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002496897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Morocco -- Maps",
+  "label": "Karte von Fes und Marócos :;&nbsp;nach Tofiño, Hoest und Lempriere, so wie einigen anderen Hülfsmitteln /;&nbsp;von Fridrich Gottlieb Canzler",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Karte von Fes und Marócos :;&nbsp;nach Tofiño, Hoest und Lempriere, so wie einigen anderen Hülfsmitteln /;&nbsp;von Fridrich Gottlieb Canzler"
+    },
+    {
+      "label": "Contributor",
+      "value": "Georg Hjersing Høst 1734-1794; Vincente Torfino de San Miguel approximately 1732-1795; D. P Bruns"
+    },
+    {
+      "label": "Publisher",
+      "value": "Nürenberg :Weigel- und Schneidersche Handlung"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Morocco -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Canzler Friedrich Gottlieb, 1764-1811"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002496897"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1797"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 32 X 34.5 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Nord Africa. Oder die Barbarischen Staaten. nach den Neuesten Hilfsmitteln und nach D. Paul Iak. Bruns Beschreibung von Africa entworfen / [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002496897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002496897/sequence/IE13727048",
+      "@type": "sc:Sequence",
+      "label": "Morocco",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737736",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6051,
+          "height": 6536,
+          "images": [
+            {
+              "@id": "FL13737736",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737736",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737736/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737736",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6536,
+                "width": 6051
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737735",
+      "@type": "sc:Range",
+      "label": "REP13737735",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737736",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002496897",
+  "viewingHint": "paged"
+}

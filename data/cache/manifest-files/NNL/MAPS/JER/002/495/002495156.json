@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002495156/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps; Africa, North -- Maps",
+  "label": "Patriarchatus Alexandrini :;&nbsp;Geografica descriptio",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Patriarchatus Alexandrini :;&nbsp;Geografica descriptio"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :M. Tavernier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps; Africa, North -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Tavernier Melchior, -1641"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002495156"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1640"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 36 X 50 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002495156"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002495156/sequence/IE13726054",
+      "@type": "sc:Sequence",
+      "label": "Africa; North",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737219",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 9421,
+          "height": 7159,
+          "images": [
+            {
+              "@id": "FL13737219",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737219",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737219/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737219",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7159,
+                "width": 9421
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737218",
+      "@type": "sc:Range",
+      "label": "REP13737218",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737219",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002495156",
+  "viewingHint": "paged"
+}

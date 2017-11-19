@@ -1,0 +1,120 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002588139/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Spain -- Maps",
+  "label": "Hispaniae Veteris et Novae Descriptio",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Hispaniae Veteris et Novae Descriptio"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Petrus De Coup"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Spain -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Coup Pierre de"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002588139"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1729"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 27 X 32 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002588139"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002588139/sequence/IE37099204",
+      "@type": "sc:Sequence",
+      "label": "Hispaniae Veteris et Novae Descriptio",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099219",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7830,
+          "height": 6729,
+          "images": [
+            {
+              "@id": "FL37099219",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099219",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099219/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099219",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6729,
+                "width": 7830
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099218",
+      "@type": "sc:Range",
+      "label": "REP37099218",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099219",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002588139",
+  "viewingHint": "paged"
+}

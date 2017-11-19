@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002536425/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bergen op Zoom (Netherlands) -- Maps; Steenderen (Netherlands) -- Maps",
+  "label": "Tabula Bergarum ad Zomam Stenbergae et novorum ibi operum /;&nbsp;Ad amußim fecit Franciscus van Schoten",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tabula Bergarum ad Zomam Stenbergae et novorum ibi operum /;&nbsp;Ad amußim fecit Franciscus van Schoten"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jan Jansson 1588-1664"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Joannem Janssonium"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bergen op Zoom (Netherlands) -- Maps; Steenderen (Netherlands) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Schooten Frans van, 1615-1660"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002536425"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1644"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 23 X 52 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002536425"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002536425/sequence/IE35073102",
+      "@type": "sc:Sequence",
+      "label": "Tabula Bergarum ad Zomam Stenbergae et novorum ibi operum /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073112",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13292,
+          "height": 11084,
+          "images": [
+            {
+              "@id": "FL35073112",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35073112",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35073112/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35073112",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11084,
+                "width": 13292
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35073111",
+      "@type": "sc:Range",
+      "label": "REP35073111",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35073112",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002536425",
+  "viewingHint": "paged"
+}

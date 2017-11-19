@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002514737/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps; Eretz Israel -- Maps",
+  "label": "Primæ Partis Asiæ :;&nbsp;acurata delineatio habens nomina antiqua et recentia continens Turcici Imperij magnam partem ac Sophorum seu Persarum Regnum observatis ubique cum longitudinis tum latitudinis gratibusque /;&nbsp;Autore Iacobo Castaldo ; Gerhardus de Iode excudebat ; Ioannes a Deutecum Lucas a deutecum fece.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Primæ Partis Asiæ :;&nbsp;acurata delineatio habens nomina antiqua et recentia continens Turcici Imperij magnam partem ac Sophorum seu Persarum Regnum observatis ubique cum longitudinis tum latitudinis gratibusque /;&nbsp;Autore Iacobo Castaldo ; Gerhardus de Iode excudebat ; Ioannes a Deutecum Lucas a deutecum fece."
+    },
+    {
+      "label": "Contributor",
+      "value": "Giacomo Gastaldi approximately 1500-approximately 1565; Johan van Doetichum the elder, -1600; Lucas van Doetichum fl.1558-1579"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Antwerpen] :Gerhardus de Iode"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps; Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jode Gerard de, 1509-1591"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002514737"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1593"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 30 X 51 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002514737"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002514737/sequence/IE13728997",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13740252",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 8739,
+          "height": 6605,
+          "images": [
+            {
+              "@id": "FL13740252",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13740252",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13740252/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13740252",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6605,
+                "width": 8739
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13740251",
+      "@type": "sc:Range",
+      "label": "REP13740251",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13740252",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002514737",
+  "viewingHint": "paged"
+}

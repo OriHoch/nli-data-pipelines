@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002655629/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Voyage des Enfans d'Israel dans le désert depuis leur sortie d'Egypt par la Mer Rouge jusques au Pays de Canaan;&nbsp;Nombres XXXIII. Veertig jaarige Reys togt der Kinderen Israels uyt Aegypten.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Voyage des Enfans d'Israel dans le désert depuis leur sortie d'Egypt par la Mer Rouge jusques au Pays de Canaan;&nbsp;Nombres XXXIII. Veertig jaarige Reys togt der Kinderen Israels uyt Aegypten."
+    },
+    {
+      "label": "Contributor",
+      "value": "David Martin 1639-1721"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Amsterdam] :Chez Pierre Mortier"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Mortier Pierre, 1661-1711"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002655629"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1700"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "400x470 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002655629"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002655629/sequence/IE51415318",
+      "@type": "sc:Sequence",
+      "label": "Voyage des Enfans d&apos;Israel dans le désert depuis leur sortie d&apos;Egypt par la Mer Rouge jusques au Pays de Canaan",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51415322",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 11565,
+          "height": 10113,
+          "images": [
+            {
+              "@id": "FL51415322",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL51415322",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL51415322/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL51415322",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10113,
+                "width": 11565
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP51415321",
+      "@type": "sc:Range",
+      "label": "REP51415321",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL51415322",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002655629",
+  "viewingHint": "paged"
+}

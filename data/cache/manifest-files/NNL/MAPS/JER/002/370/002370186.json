@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002370186/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Germany -- Maps",
+  "label": "Post-Charte vom Preussischen Staate : in XXV Blättern ; [gewidmet:] von Nagler;&nbsp;Unter Autorisation des Königl. Preuss. General-Post-Amts entworfen, bearbeitet ... von Heinrich Berghaus.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Post-Charte vom Preussischen Staate : in XXV Blättern ; [gewidmet:] von Nagler;&nbsp;Unter Autorisation des Königl. Preuss. General-Post-Amts entworfen, bearbeitet ... von Heinrich Berghaus."
+    },
+    {
+      "label": "Contributor",
+      "value": "Preußisches General-Postamt"
+    },
+    {
+      "label": "Publisher",
+      "value": "Berlin :Verlag des Magazins für Kunst, Geographie und Musik"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Germany -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Berghaus Heinrich Karl Wilhelm, 1797-1884"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002370186"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1824"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "900 X 1250 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002370186"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002370186/sequence/IE35061666",
+      "@type": "sc:Sequence",
+      "label": "Post-Charte vom Preussischen Staate : in XXV Blättern ; [gewidmet:] von Nagler",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061672",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 31701,
+          "height": 23400,
+          "images": [
+            {
+              "@id": "FL35061672",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35061672",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35061672/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35061672",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 23400,
+                "width": 31701
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35061671",
+      "@type": "sc:Range",
+      "label": "REP35061671",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35061672",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002370186",
+  "viewingHint": "paged"
+}

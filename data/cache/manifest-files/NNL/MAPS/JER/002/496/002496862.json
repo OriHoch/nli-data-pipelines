@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002496862/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Egypt -- Maps",
+  "label": "Carte de L'Egypte moderne, avec la partie orientale des etats de Tripoli /;&nbsp;par M.Bonne. Perrier sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de L'Egypte moderne, avec la partie orientale des etats de Tripoli /;&nbsp;par M.Bonne. Perrier sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Perrier, fl.1760-1824"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Paris] :Jean"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Egypt -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Bonne Rigobert, 1727-1794"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002496862"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1781"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 21.5 X 32 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002496862"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002496862/sequence/IE13727036",
+      "@type": "sc:Sequence",
+      "label": "Egypt",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737716",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 6408,
+          "height": 4446,
+          "images": [
+            {
+              "@id": "FL13737716",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737716",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737716/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737716",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4446,
+                "width": 6408
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737715",
+      "@type": "sc:Range",
+      "label": "REP13737715",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737716",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002496862",
+  "viewingHint": "paged"
+}

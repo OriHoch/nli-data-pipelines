@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002525860/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps; Balkan Peninsula -- Maps; Romania -- Maps; Serbia -- Maps; Montenegro -- Maps; Bulgaria -- Maps",
+  "label": "Die Balkan Halbinsel in 4 Blättern :;&nbsp;Türkei, Romänien, Griechenland, Serbien, Montenegro, Bulgarien /;&nbsp;Dr. C. Vogel ; bearbeitet von B. Domann ; Gestochen von E. Kühn u. Weiler",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Die Balkan Halbinsel in 4 Blättern :;&nbsp;Türkei, Romänien, Griechenland, Serbien, Montenegro, Bulgarien /;&nbsp;Dr. C. Vogel ; bearbeitet von B. Domann ; Gestochen von E. Kühn u. Weiler"
+    },
+    {
+      "label": "Contributor",
+      "value": "Justus Perthes (Firm)"
+    },
+    {
+      "label": "Publisher",
+      "value": "Gotha :Justus Perthes"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps; Balkan Peninsula -- Maps; Romania -- Maps; Serbia -- Maps; Montenegro -- Maps; Bulgaria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vogel C. (Carl), 1828-1897"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002525860"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1913"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 83 X 67 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002525860"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002525860/sequence/IE37099055",
+      "@type": "sc:Sequence",
+      "label": "&lt;&lt;Die&gt;&gt; Balkan Halbinsel in 4 Blättern :",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099060",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17297,
+          "height": 21208,
+          "images": [
+            {
+              "@id": "FL37099060",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099060",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099060/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099060",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 21208,
+                "width": 17297
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099059",
+      "@type": "sc:Range",
+      "label": "REP37099059",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099060",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002525860",
+  "viewingHint": "paged"
+}

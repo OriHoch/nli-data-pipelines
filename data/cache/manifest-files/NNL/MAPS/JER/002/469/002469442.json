@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002469442/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Japan -- Maps",
+  "label": "Royaume du Iaponn;&nbsp;Dèsignè par le Père Ph. Briet ; Somer sculp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Royaume du Iaponn;&nbsp;Dèsignè par le Père Ph. Briet ; Somer sculp."
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Somer"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :P. Mariette"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Japan -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Briet Philip, 1601-1668"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002469442"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1650"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 365 X 518 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002469442"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002469442/sequence/IE37098985",
+      "@type": "sc:Sequence",
+      "label": "Royaume du Iaponn",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099006",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13676,
+          "height": 10106,
+          "images": [
+            {
+              "@id": "FL37099006",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099006",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099006/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099006",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 10106,
+                "width": 13676
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099003",
+      "@type": "sc:Range",
+      "label": "REP37099003",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099006",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002469442",
+  "viewingHint": "paged"
+}

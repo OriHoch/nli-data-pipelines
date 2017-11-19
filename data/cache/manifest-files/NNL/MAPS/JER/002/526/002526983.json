@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002526983/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Austria -- Maps",
+  "label": "Austria Archiducatus /;&nbsp;Auctore Wolfgango Lazio ; Guiljelmus Blaeuw excudit",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Austria Archiducatus /;&nbsp;Auctore Wolfgango Lazio ; Guiljelmus Blaeuw excudit"
+    },
+    {
+      "label": "Contributor",
+      "value": "Willem Janszoon Blaeu 1571-1638"
+    },
+    {
+      "label": "Publisher",
+      "value": "Amstelodami / Amsterdam :Guiljelmus Blaeuw"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Austria -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lazius Wolfgang, 1514-1565"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002526983"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1631"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map : col. ; 36 X 53 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002526983"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002526983/sequence/IE37099036",
+      "@type": "sc:Sequence",
+      "label": "Austria Archiducatus /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099040",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 13691,
+          "height": 11838,
+          "images": [
+            {
+              "@id": "FL37099040",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37099040",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37099040/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37099040",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11838,
+                "width": 13691
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37099039",
+      "@type": "sc:Range",
+      "label": "REP37099039",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37099040",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002526983",
+  "viewingHint": "paged"
+}

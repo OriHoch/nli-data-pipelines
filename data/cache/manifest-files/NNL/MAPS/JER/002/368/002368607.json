@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002368607/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Galilee (Israel) -- Maps",
+  "label": "Galilaeae Conterminarumq Regionum Delineatio.;&nbsp;C. Buno f.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Galilaeae Conterminarumq Regionum Delineatio.;&nbsp;C. Buno f."
+    },
+    {
+      "label": "Contributor",
+      "value": "Conrad Buno"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Wolfenbuettel] :Conrad Buno"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Galilee (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Heidmann Christoffer, -1627"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002368607"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1655"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "270x331 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "002368607"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002368607/sequence/IE6879419",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071389",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2650,
+          "height": 2346,
+          "images": [
+            {
+              "@id": "FL7071389",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7071389",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7071389/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7071389",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2346,
+                "width": 2650
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7071388",
+      "@type": "sc:Range",
+      "label": "REP7071388",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7071389",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002368607",
+  "viewingHint": "paged"
+}

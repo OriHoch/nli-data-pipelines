@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000300086/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובה. בוצולו, איטליה. תצ\"א",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובה. בוצולו, איטליה. תצ\"א"
+    },
+    {
+      "label": "Contributor",
+      "value": "יהודה חיים בן דוד חי (חתן) ; נורצי, לאה בת שמואל חיים (כלה) ; קנטון, מרדכי בן מנחם (עד) ; סגרי, יצחק בן משה (עד)"
+    },
+    {
+      "label": "Publisher",
+      "value": "בוצולו"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000300086"
+    },
+    {
+      "label": "Creation Date",
+      "value": "יא בסיון תצ\"א (1731)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 400X292 מ\"מ..; קלף."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ketubbah. Bozzolo, Italy. 1731"
+    },
+    {
+      "label": "SysNum",
+      "value": "000300086"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300086/sequence/IE9201166",
+      "@type": "sc:Sequence",
+      "label": "[כתובה. בוצולו, איטליה, תצ&quot;א]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464587",
+          "@type": "sc:Canvas",
+          "label": "ketubba",
+          "width": 589,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL9464587",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9464587",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9464587/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ketubba",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9464587",
+                  "label": "ketubba",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 589
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9464586",
+      "@type": "sc:Range",
+      "label": "REP9464586",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9464587",
+          "@type": "sc:Canvas",
+          "label": "ketubba"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000300086",
+  "viewingHint": "paged"
+}

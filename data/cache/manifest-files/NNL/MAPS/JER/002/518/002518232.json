@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002518232/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Middle East -- Maps",
+  "label": "Wege Skizze zu J.J.Benjamin's Reise in Asien u Afrika 1846-1855 /;&nbsp;Entwurfn Angb v.J.J.Benjamin.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Wege Skizze zu J.J.Benjamin's Reise in Asien u Afrika 1846-1855 /;&nbsp;Entwurfn Angb v.J.J.Benjamin."
+    },
+    {
+      "label": "Publisher",
+      "value": "ליק :צבי הירש פעטצאלל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Middle East -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "בנימין, ישראל יוסף 1818-1864"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002518232"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1859"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 מפה ; 22X 37 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "ויכתב ישראל את מוצאיו למסעיו, ואלה לוח מסעיו למוצאיו [חומר קרטוגרפי]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002518232"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002518232/sequence/IE13729672",
+      "@type": "sc:Sequence",
+      "label": "Middle East",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737768",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 7193,
+          "height": 4837,
+          "images": [
+            {
+              "@id": "FL13737768",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13737768",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13737768/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13737768",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4837,
+                "width": 7193
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13737767",
+      "@type": "sc:Range",
+      "label": "REP13737767",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13737768",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002518232",
+  "viewingHint": "paged"
+}

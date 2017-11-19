@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003899268/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Palestine /;&nbsp;Édité par le Chocolat Pupier.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine /;&nbsp;Édité par le Chocolat Pupier."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003899268"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1936"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "003899268"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003899268/sequence/IE36555035",
+      "@type": "sc:Sequence",
+      "label": "Palestine /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36555062",
+          "@type": "sc:Canvas",
+          "label": "01 MAP",
+          "width": 1191,
+          "height": 1648,
+          "images": [
+            {
+              "@id": "FL36555062",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36555062",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36555062/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01 MAP",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36555062",
+                  "label": "01 MAP",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1648,
+                "width": 1191
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36555066",
+          "@type": "sc:Canvas",
+          "label": "02 VERSO",
+          "width": 1211,
+          "height": 1645,
+          "images": [
+            {
+              "@id": "FL36555066",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36555066",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36555066/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 VERSO",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36555066",
+                  "label": "02 VERSO",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1645,
+                "width": 1211
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36555061",
+      "@type": "sc:Range",
+      "label": "REP36555061",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36555062",
+          "@type": "sc:Canvas",
+          "label": "01 MAP"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36555066",
+          "@type": "sc:Canvas",
+          "label": "02 VERSO"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003899268",
+  "viewingHint": "paged"
+}

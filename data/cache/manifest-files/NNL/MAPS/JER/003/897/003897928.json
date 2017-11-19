@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER003897928/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "יוצר: [יש לציין את שם היוצר]. מאוסף המפות של אמיר כהנוביץ. הספרייה הלאומית."
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps; Sinai (Egypt) -- Maps; Egypt -- Maps",
+  "label": "Panorama of Lower Egypt, Arabia Petra, Eden & Palestine, Shewing the head of the Red sea. The Isthmus of Sinai /;&nbsp;Drawn & engraving by W. Warwick.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Panorama of Lower Egypt, Arabia Petra, Eden & Palestine, Shewing the head of the Red sea. The Isthmus of Sinai /;&nbsp;Drawn & engraving by W. Warwick."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps; Sinai (Egypt) -- Maps; Egypt -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Warwick W."
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER003897928"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1861?"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 online resource (1 map).."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003897928"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER003897928/sequence/IE48134335",
+      "@type": "sc:Sequence",
+      "label": "Panorama of Lower Egypt; Arabia Petra; Eden &amp; Palestine; Shewing the head of the Red sea. The Isthmus of Sinai /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48134339",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 2429,
+          "height": 3869,
+          "images": [
+            {
+              "@id": "FL48134339",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48134339",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48134339/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48134339",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3869,
+                "width": 2429
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP48134338",
+      "@type": "sc:Range",
+      "label": "REP48134338",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48134339",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER003897928",
+  "viewingHint": "paged"
+}

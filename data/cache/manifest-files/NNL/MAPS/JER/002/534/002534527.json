@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002534527/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Greece -- Maps; Balkan Peninsula -- Maps; Thrace, Eastern (Turkey) -- Maps",
+  "label": "Carte de la Grece /;&nbsp;Dressée Sur un grand nombre de memoires anciens et nouveaux, Sur ceux de Mrs. Wheler et Tournefort, sur les observations astronomiques de Mr. Vernon du P. Feuillée Minime &c. Par G. De L'Isle... 1707",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Carte de la Grece /;&nbsp;Dressée Sur un grand nombre de memoires anciens et nouveaux, Sur ceux de Mrs. Wheler et Tournefort, sur les observations astronomiques de Mr. Vernon du P. Feuillée Minime &c. Par G. De L'Isle... 1707"
+    },
+    {
+      "label": "Contributor",
+      "value": "Joseph Pitton de Tournefort 1656-1708; Philippe Buache 1700-1773; Guillaume de L'Isle 1675-1726"
+    },
+    {
+      "label": "Publisher",
+      "value": "Paris :Ph. Buache"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Greece -- Maps; Balkan Peninsula -- Maps; Thrace, Eastern (Turkey) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Wheeler George"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002534527"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1745"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "1 map ; 45 X 64 cm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "SysNum",
+      "value": "002534527"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002534527/sequence/IE35072729",
+      "@type": "sc:Sequence",
+      "label": "Carte de la Grece /",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072735",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 17736,
+          "height": 12705,
+          "images": [
+            {
+              "@id": "FL35072735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35072735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35072735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35072735",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12705,
+                "width": 17736
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35072734",
+      "@type": "sc:Range",
+      "label": "REP35072734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35072735",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002534527",
+  "viewingHint": "paged"
+}
