@@ -1,0 +1,128 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002366847/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Ramla (Israel) -- Maps",
+  "label": "Ramma",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ramma"
+    },
+    {
+      "label": "Contributor",
+      "value": "Jean Zuallart 1541-1634"
+    },
+    {
+      "label": "Publisher",
+      "value": "[Nancy] :Iacob Garnich"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ramla (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Beauvau Henri, baron de, fl. 1600"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002366847"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1615"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Format",
+      "value": "100 x 155 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "fre"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Ramleh [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002366847"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002366847/sequence/IE6881654",
+      "@type": "sc:Sequence",
+      "label": "מפה דיגיטלית - E-Map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072897",
+          "@type": "sc:Canvas",
+          "label": "E-Map",
+          "width": 2300,
+          "height": 2742,
+          "images": [
+            {
+              "@id": "FL7072897",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7072897",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7072897/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "E-Map",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7072897",
+                  "label": "E-Map",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2742,
+                "width": 2300
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7072896",
+      "@type": "sc:Range",
+      "label": "REP7072896",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7072897",
+          "@type": "sc:Canvas",
+          "label": "E-Map"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002366847",
+  "viewingHint": "paged"
+}

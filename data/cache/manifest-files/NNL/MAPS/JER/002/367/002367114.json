@@ -1,0 +1,116 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367114/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Sinai (Egypt) -- Maps",
+  "label": "Spezialkarte der Kloster-und Stadt-Ruinen von Faran im Palmengrunde am Fuss des Serbael;&nbsp;Zur Erlaeuterung der wahren Lage des Sinai und Horeb.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Spezialkarte der Kloster-und Stadt-Ruinen von Faran im Palmengrunde am Fuss des Serbael;&nbsp;Zur Erlaeuterung der wahren Lage des Sinai und Horeb."
+    },
+    {
+      "label": "Publisher",
+      "value": "Berlin :Rob. Hueser"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sinai (Egypt) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Lepsius Richard, 1810-1884"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367114"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1845"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367114"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367114/sequence/IE35468050",
+      "@type": "sc:Sequence",
+      "label": "Spezialkarte der Kloster-und Stadt-Ruinen von Faran im Palmengrunde am Fuss des Serbael",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35468059",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12214,
+          "height": 9033,
+          "images": [
+            {
+              "@id": "FL35468059",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35468059",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35468059/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35468059",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 9033,
+                "width": 12214
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35468058",
+      "@type": "sc:Range",
+      "label": "REP35468058",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35468059",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367114",
+  "viewingHint": "paged"
+}

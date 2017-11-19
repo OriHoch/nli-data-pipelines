@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367022/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Steimatzky (Firm); Eretz Israel -- Maps",
+  "label": "Palestine;&nbsp;Drawn by I.L.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Palestine;&nbsp;Drawn by I.L."
+    },
+    {
+      "label": "Publisher",
+      "value": "Jerusalem :Steimatzky"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Steimatzky (Firm); Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367022"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1941"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367022"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367022/sequence/IE35058301",
+      "@type": "sc:Sequence",
+      "label": "Palestine",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058308",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 8820,
+          "height": 12732,
+          "images": [
+            {
+              "@id": "FL35058308",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35058308",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35058308/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35058308",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12732,
+                "width": 8820
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058309",
+          "@type": "sc:Canvas",
+          "label": "02 Steimatzky",
+          "width": 9092,
+          "height": 12940,
+          "images": [
+            {
+              "@id": "FL35058309",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL35058309",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL35058309/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02 Steimatzky",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL35058309",
+                  "label": "02 Steimatzky",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 12940,
+                "width": 9092
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP35058307",
+      "@type": "sc:Range",
+      "label": "REP35058307",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058308",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL35058309",
+          "@type": "sc:Canvas",
+          "label": "02 Steimatzky"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367022",
+  "viewingHint": "paged"
+}

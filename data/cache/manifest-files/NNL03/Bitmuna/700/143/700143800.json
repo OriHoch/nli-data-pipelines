@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700143800/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית. יוצר/ים: [יש לציין את שם היוצר/ים]. אוספי ביתמונה. מאוסף הגמנסיה העברית הרצליה. מקור האוסף: הגמנסיה העברית הרצליה"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-research-teaching.aspx"
+  ],
+  "description": "ישראל",
+  "label": "מראות לאחר הטלת הרימון בכנסת ישראל",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מראות לאחר הטלת הרימון בכנסת ישראל"
+    },
+    {
+      "label": "Base",
+      "value": "NNL03"
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "ישראל",
+        "ירושלים"
+      ]
+    },
+    {
+      "label": "Source",
+      "value": "אוסף אדי הירשביין"
+    },
+    {
+      "label": "The Creator",
+      "value": "אוספי ביתמונה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL03_Bitmuna700143800"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1957"
+    },
+    {
+      "label": "Type",
+      "value": "Photograph"
+    },
+    {
+      "label": "SysNum",
+      "value": "700143800"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL03_Bitmuna700143800/sequence/IE6384768",
+      "@type": "sc:Sequence",
+      "label": "מראות לאחר הטלת הרימון בכנסת ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10381413",
+          "@type": "sc:Canvas",
+          "label": "מראות לאחר הטלת הרימון בכנסת ישראל",
+          "width": 791,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL10381413",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL10381413",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL10381413/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מראות לאחר הטלת הרימון בכנסת ישראל",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL10381413",
+                  "label": "מראות לאחר הטלת הרימון בכנסת ישראל",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 791
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP10381405",
+      "@type": "sc:Range",
+      "label": "REP10381405",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL10381413",
+          "@type": "sc:Canvas",
+          "label": "מראות לאחר הטלת הרימון בכנסת ישראל"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL03_Bitmuna700143800",
+  "viewingHint": "paged"
+}

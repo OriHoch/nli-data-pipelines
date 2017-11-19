@@ -1,0 +1,153 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367429/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Nir Yits'hak Region (Israel) -- Maps",
+  "label": "ניר יצחק;&nbsp;עובד ושורטט ע\"י מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ניר יצחק;&nbsp;עובד ושורטט ע\"י מחלקת המדידות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nir Yits'hak Region (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367429"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1962"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "ישראל. 1:20,000 ; גליון 08-07",
+        "ישראל 1:20,000, 1955-1961 ; 08-07"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002367429"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367429/sequence/IE25562391",
+      "@type": "sc:Sequence",
+      "label": "ניר יצחק",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25562408",
+          "@type": "sc:Canvas",
+          "label": "00 Index",
+          "width": 6559,
+          "height": 11494,
+          "images": [
+            {
+              "@id": "FL25562408",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25562408",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25562408/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "00 Index",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25562408",
+                  "label": "00 Index",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 11494,
+                "width": 6559
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25562409",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 18267,
+          "height": 15364,
+          "images": [
+            {
+              "@id": "FL25562409",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25562409",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25562409/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25562409",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15364,
+                "width": 18267
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25562407",
+      "@type": "sc:Range",
+      "label": "REP25562407",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25562408",
+          "@type": "sc:Canvas",
+          "label": "00 Index"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25562409",
+          "@type": "sc:Canvas",
+          "label": "01"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367429",
+  "viewingHint": "paged"
+}

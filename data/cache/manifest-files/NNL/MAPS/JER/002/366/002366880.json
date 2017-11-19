@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002366880/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Maps",
+  "label": "Eretz Israel;&nbsp;Map of Jewish settlements; Keren Hayesod Agricultural work, 1921 - 1946 /;&nbsp;Supplement to \"Foundations\", a Survey twenty-five years' activity of the Palestine Foundation Fund \"Keren Hayesod\" (1921 - 1945) by A. Ulitzur.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Eretz Israel;&nbsp;Map of Jewish settlements; Keren Hayesod Agricultural work, 1921 - 1946 /;&nbsp;Supplement to \"Foundations\", a Survey twenty-five years' activity of the Palestine Foundation Fund \"Keren Hayesod\" (1921 - 1945) by A. Ulitzur."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Jewish Agency for Israel. Agricultural Settlement Department. Irrigation Office"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002366880"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1944"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002366880"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002366880/sequence/IE24942409",
+      "@type": "sc:Sequence",
+      "label": "Eretz Israel",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL24942413",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 12703,
+          "height": 20554,
+          "images": [
+            {
+              "@id": "FL24942413",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL24942413",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL24942413/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL24942413",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 20554,
+                "width": 12703
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP24942412",
+      "@type": "sc:Range",
+      "label": "REP24942412",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL24942413",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002366880",
+  "viewingHint": "paged"
+}

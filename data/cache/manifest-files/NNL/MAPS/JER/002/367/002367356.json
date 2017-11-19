@@ -1,0 +1,123 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367356/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Kefar Rupin Region (Israel) -- Maps",
+  "label": "כפר רופין;&nbsp;מחלקת המדידות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כפר רופין;&nbsp;מחלקת המדידות."
+    },
+    {
+      "label": "Publisher",
+      "value": "מחלקת המדידות"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Kefar Rupin Region (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "המרכז למיפוי ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367356"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1949"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "ישראל. 1:20,000 ; גליון 20-20",
+        "ישראל 1:20,000, 1955-1961 ; 20-20"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002367356"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367356/sequence/IE25553531",
+      "@type": "sc:Sequence",
+      "label": "כפר רופין",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25553538",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 16321,
+          "height": 14269,
+          "images": [
+            {
+              "@id": "FL25553538",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25553538",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25553538/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25553538",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 14269,
+                "width": 16321
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25553537",
+      "@type": "sc:Range",
+      "label": "REP25553537",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25553538",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367356",
+  "viewingHint": "paged"
+}

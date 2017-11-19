@@ -1,0 +1,124 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002367009/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jaffa (Tel Aviv-Yafo, Israel) -- Maps; Tel Aviv-Yafo (Israel) -- Maps",
+  "label": "Tel-Aviv;&nbsp;Compiled, drawn and printed by the Survey of Israel.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tel-Aviv;&nbsp;Compiled, drawn and printed by the Survey of Israel."
+    },
+    {
+      "label": "Contributor",
+      "value": "Israel. Misrad ha-saad"
+    },
+    {
+      "label": "Publisher",
+      "value": "Tel-Aviv, :Survey of Israel"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jaffa (Tel Aviv-Yafo, Israel) -- Maps; Tel Aviv-Yafo (Israel) -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ha-Merkaz le-mippui Yisrael"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002367009"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1950"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Cover title: Map of Tel-Aviv [cartographic material]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002367009"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002367009/sequence/IE25553463",
+      "@type": "sc:Sequence",
+      "label": "Tel-Aviv",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25553472",
+          "@type": "sc:Canvas",
+          "label": "Image",
+          "width": 18776,
+          "height": 20508,
+          "images": [
+            {
+              "@id": "FL25553472",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL25553472",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL25553472/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Image",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL25553472",
+                  "label": "Image",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 20508,
+                "width": 18776
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP25553470",
+      "@type": "sc:Range",
+      "label": "REP25553470",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL25553472",
+          "@type": "sc:Canvas",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002367009",
+  "viewingHint": "paged"
+}

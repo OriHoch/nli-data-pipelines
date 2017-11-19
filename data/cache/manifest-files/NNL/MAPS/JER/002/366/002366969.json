@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_MAPS_JER002366969/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, אוסף המפות ע\"ש ערן לאור"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jordan -- Maps",
+  "label": "Trans-Jordan track map;&nbsp;Compiled and drawn by Department of Lands & Surveys, Trans - Jordan",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Trans-Jordan track map;&nbsp;Compiled and drawn by Department of Lands & Surveys, Trans - Jordan"
+    },
+    {
+      "label": "Publisher",
+      "value": "Survey of Palestine"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jordan -- Maps"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Transjordan. Dairat al-Aradi wa-al-Masahah"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_MAPS_JER002366969"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1945-1946"
+    },
+    {
+      "label": "Type",
+      "value": "map"
+    },
+    {
+      "label": "Language",
+      "value": "ara;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002366969"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_MAPS_JER002366969/sequence/IE27925361",
+      "@type": "sc:Sequence",
+      "label": "Trans-Jordan track map",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27925377",
+          "@type": "sc:Canvas",
+          "label": "01",
+          "width": 19082,
+          "height": 16769,
+          "images": [
+            {
+              "@id": "FL27925377",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27925377",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27925377/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "01",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27925377",
+                  "label": "01",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 16769,
+                "width": 19082
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27925385",
+          "@type": "sc:Canvas",
+          "label": "02",
+          "width": 18697,
+          "height": 15625,
+          "images": [
+            {
+              "@id": "FL27925385",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL27925385",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL27925385/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "02",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL27925385",
+                  "label": "02",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 15625,
+                "width": 18697
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP27925376",
+      "@type": "sc:Range",
+      "label": "REP27925376",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27925377",
+          "@type": "sc:Canvas",
+          "label": "01"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL27925385",
+          "@type": "sc:Canvas",
+          "label": "02"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_MAPS_JER002366969",
+  "viewingHint": "paged"
+}
