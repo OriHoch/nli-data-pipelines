@@ -50,4 +50,21 @@ cd nli-data-pipelines
 pipenv install
 ```
 
-You can now run pipenv commands locally
+Show the list of available pipelines
+
+```
+pipenv run dpp
+```
+
+Run a pipelines
+
+```
+pipenv run dpp run ./collections-root
+```
+
+You can also switch into a pipevn shell (AKA activate the virtualenv) and then you can run commands directly
+
+```
+pipenv shell
+dpp run ./collections-root
+```
