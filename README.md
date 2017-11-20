@@ -17,13 +17,21 @@ Just install Docker and Docker Compose and you're good to go
 
 If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 
-Start the Pipelines server -
+Start the Pipelines server
 
 ```
 docker-compose up pipelines
 ```
 
-You can see the pipelines status at http://localhost:5000/
+**on first run it will take some time** - to build the images and download the initial data, please be patient
+
+Once done, you should be able to see the pipelines dashboard at http://localhost:5000/
+
+The data files will be created under data/ directory, you might need to set their permissions:
+
+```
+sudo chown -r $USER data/
+```
 
 You can also use the pipelines manually, stop the server (Ctrl+C)
 
