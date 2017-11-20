@@ -17,15 +17,27 @@ Just install Docker and Docker Compose and you're good to go
 
 If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 
+First, you need to download the data package:
+
+```
+curl -L https://github.com/OriHoch/nli-data-pipelines/archive/data.zip > nli-data-pipelines-data.zip
+```
+
+It should be available at `nli-data-pipelines/nli-data-pipelines-data.zip`
+
 Start the Pipelines server
 
 ```
 docker-compose up --build -d pipelines
 ```
 
-**on first run it will take some time** you can follow the progress using `docker-compose logs`
+**on first run it will take some time** you can follow the logs using `docker-compose logs -f`
 
 Once done, you should be able to see the pipelines dashboard at http://localhost:5000/
+
+## Common Tasks
+
+### Accessing the data files directly
 
 The data files will be created under data/ directory, you might need to set their permissions:
 
@@ -43,6 +55,17 @@ docker volume inspect nlidatapipelines_data-cache
 
 the MountPoint attribute contains the absolute path to the manifest cache
 
+### Stopping the environment and releasing resources
+
+```
+docker-compose rm -f
+docker-compose down -v --remove-orphans
+docker container prune
+docker volume prune
+```
+
+### Running pipelines manually
+
 Get the list of available pipelines:
 
 ```
@@ -55,7 +78,7 @@ Run a pipeline
 docker-compose exec pipelines dpp run ./collections-root
 ```
 
-## Local Installation
+### Local Installation
 
 If you want to run the pipelines locally (not inside docker) you will need to install some dependencies
 
