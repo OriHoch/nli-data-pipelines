@@ -96,37 +96,38 @@ cd nli-data-pipelines
 pipenv install
 ```
 
+If you used docker before you should set permissions - `sudo chown -R $USER .`
+
+We keep the data/cache files in a different directory then the project directory because it contains too many files for IDEs to manage
+
+You should create this directory and point to it using the PIPELINES_HOST_DATA_CACHE_PATH variable
+
+This snippet does it all, assuming you have the nli-data-pipelines-data.zip file in project directory (from previous steps):
+
+```
+TEMPDIR=`mktemp -d`
+cp nli-data-pipelines-data.zip $TEMPDIR
+pushd $TEMPDIR; unzip -q nli-data-pipelines-data.zip; popd
+echo "PIPELINES_HOST_DATA_CACHE_PATH=${TEMPDIR}/nli-data-pipelines-data/data/cache" >> .env
+```
+
 Show the list of available pipelines
 
 ```
 pipenv run dpp
 ```
 
-Run a pipelines
+Run the pipelines
 
 ```
-pipenv run dpp run ./collections-root
+pipenv run dpp run ./collections-root && pipenv run dpp run ./collections && pipenv run dpp run ./members
 ```
 
-You can also switch into a pipevn shell (AKA activate the virtualenv) and then you can run commands directly
+You can also switch into a pipenv shell (AKA activate the virtualenv) and then you can run commands directly
 
 ```
 pipenv shell
 dpp run ./collections-root
-```
-
-to access the manifest cache locally you need to get the mountpath (see above)
-
-if it's not `/var/lib/docker/volumes/nlidatapipelines_data-cache/_data`, set it in the .env file
-
-```
-echo "PIPELINES_HOST_DATA_CACHE_PATH=/path/to/the/data/cache/directory" >> .env
-```
-
-Set permissions on it
-
-```
-sudo chown -R $USER /path/to/the/data/cache/directory
 ```
 
 ### Kubernetes
@@ -134,3 +135,25 @@ sudo chown -R $USER /path/to/the/data/cache/directory
 You can use Kubernetes on Google Cloud to quickly setup cloud machines to run the pipelines on or to start Databases or other services
 
 see [k8s/README.md](k8s/README.md)
+
+### Publishing data files to GitHub
+
+Prerequisites:
+* you followed the local run method above and set the PIPELINES_HOST_DATA_CACHE_PATH
+* this path and your data path contains all the data (if data is missing it might be deleted)
+
+```
+TEMPDIR=`mktemp -d`
+git clone -b data . $TEMPDIR
+cp -r ./data $TEMPDIR/
+eval `dotenv -f ".env" list`
+cp -r "${PIPELINES_HOST_DATA_CACHE_PATH}" $TEMPDIR/data/
+pushd $TEMPDIR
+git remote set-url origin git@github.com:OriHoch/nli-data-pipelines.git
+git pull origin data
+git add data/
+git commit -m "data dump"
+git push origin data
+popd
+rm -rf $TEMPDIR
+```

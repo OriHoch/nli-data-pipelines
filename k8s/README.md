@@ -106,3 +106,20 @@ echo "NGINX_EXTERNAL_IP=1.2.3.4" >> k8s/.env
 
 * Pipelines dashboard is available at http://1.2.3.4/pipelines/
 * Data files are available at http://1.2.3.4/data/
+
+### Removing the cluster
+
+The cluster will cost ~1-2$ per hour - so remember to delete it when done (it only takes a few minutes to start a new one)
+
+```
+k8s/remove_cluster.sh
+```
+
+Check that there aren't any dangling load balancers
+
+```
+gcloud compute forwarding-rules list
+```
+
+Delete using `gcloud compute forwarding-rules delete NAME`
+

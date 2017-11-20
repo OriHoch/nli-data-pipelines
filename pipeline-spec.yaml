@@ -34,3 +34,33 @@ members:
   - run: dump.to_path
     parameters:
       out-path: data/members
+
+manifests:
+  dependencies:
+  - pipeline: ./members
+  pipeline:
+  - run: load_resource
+    parameters:
+      url: data/members/datapackage.json
+      resource: .*
+  - run: stream_remote_resources
+  - run: parse_manifests
+  - run: dump.to_path
+    parameters:
+      out-path: data/manifests
+
+sequences:
+  dependencies:
+  - pipeline: ./members
+  pipeline:
+  - run: load_resource
+    parameters:
+      url: data/members/datapackage.json
+      resource: .*
+  - run: stream_remote_resources
+  - run: parse_manifests
+    parameters:
+      parse-sequences: true
+  - run: dump.to_path
+    parameters:
+      out-path: data/sequences

@@ -6,7 +6,6 @@ load_dotenv(find_dotenv())
 #                                 http://iiif.nli.org.il/IIIFv21/DOCID/NNL03_Bitmuna700134313/manifest
 MANIFEST_URL_REGEX = re.compile('^http://iiif.nli.org.il/IIIFv21/DOCID/([A-Za-z0-9_]+[A-Za-z]([0-9]+))/manifest$')
 
-
 def parse_row(row):
     manifest_url = row["manifest"]
     res = MANIFEST_URL_REGEX.findall(manifest_url)
@@ -20,7 +19,12 @@ def parse_row(row):
         path_parts.append(system_number[:3])
         path_parts.append(system_number[3:6])
         path_parts.append(system_number)
-        manifest_file = os.path.join("data", "cache", "manifest-files", *path_parts)+".json"
+        cache_path = os.path.join("manifest-files", *path_parts) + ".json"
+        if os.environ.get("PIPELINES_HOST_DATA_CACHE_PATH"):
+            manifest_file = os.path.join(os.environ["PIPELINES_HOST_DATA_CACHE_PATH"], cache_path)
+            cache_path = os.path.join("data", "cache", cache_path)
+        else:
+            cache_path = manifest_file = os.path.join("data", "cache", cache_path)
         if not os.path.exists(manifest_file) or os.path.getsize(manifest_file) < 5:
             logging.info("Downloading manifest file {} -> {}".format(row["manifest"], manifest_file))
             if os.path.exists(manifest_file):
@@ -29,12 +33,12 @@ def parse_row(row):
                 os.makedirs(os.path.dirname(manifest_file), exist_ok=True)
             with open(manifest_file, "w") as f:
                 json.dump(json.loads(requests.get(row["manifest"]).content.decode("utf-8")), f, indent=2, ensure_ascii=False)
-        else:
-            logging.info("Skipping download of existing manifest file {}".format(manifest_file))
+        # else:
+        #     logging.info("Skipping download of existing manifest file {}".format(manifest_file))
         return {"manifest_url": manifest_url,
                 "doc_id": doc_id,
                 "system_number": system_number,
-                "manifest_file": manifest_file}
+                "manifest_file": cache_path}
 
 
 def main():
