@@ -6,7 +6,7 @@ Data Pipelines for NLI Data, using [datapackage-pipelines framework](https://git
 
 There are 2 ways to use this repo:
 
-1. Download and use the data directory, most of the data is available under [/data](/data)
+1. Download and use the data directly, you can download all the data as a [single zip file ~150MB](https://github.com/OriHoch/nli-data-pipelines/archive/data.zip) or [browse the data and download specific files](https://github.com/OriHoch/nli-data-pipelines/tree/data/data)
 2. Extend the pipelines to compute aggregations / process / export the data in different ways
 
 ## Running the pipelines
