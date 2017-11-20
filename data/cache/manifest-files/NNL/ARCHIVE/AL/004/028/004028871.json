@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028871/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Negev (Israel) -- Photographs",
+  "label": "חברת מקורות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת מקורות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Negev (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Simionski photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028871"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Water - Mekorot."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028871"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028871/sequence/IE45886867",
+      "@type": "sc:Sequence",
+      "label": "חברת מקורות.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45886898",
+          "@type": "sc:Canvas",
+          "label": "חברת מקורות.",
+          "width": 2113,
+          "height": 1439,
+          "images": [
+            {
+              "@id": "FL45886898",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45886898",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45886898/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת מקורות.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45886898",
+                  "label": "חברת מקורות.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1439,
+                "width": 2113
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45886897",
+      "@type": "sc:Range",
+      "label": "REP45886897",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45886898",
+          "@type": "sc:Canvas",
+          "label": "חברת מקורות."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028871",
+  "viewingHint": "paged"
+}

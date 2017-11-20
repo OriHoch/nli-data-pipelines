@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004018872/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ḥolon (Israel) -- Photographs",
+  "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ḥolon (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004018872"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004018872"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004018872/sequence/IE45846486",
+      "@type": "sc:Sequence",
+      "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45846496",
+          "@type": "sc:Canvas",
+          "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate.",
+          "width": 2232,
+          "height": 1556,
+          "images": [
+            {
+              "@id": "FL45846496",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45846496",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45846496/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45846496",
+                  "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1556,
+                "width": 2232
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45846495",
+      "@type": "sc:Range",
+      "label": "REP45846495",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45846496",
+          "@type": "sc:Canvas",
+          "label": "The Kugel School at Holon open special courses for retired citizen anable them to reach the matriculation certificate."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004018872",
+  "viewingHint": "paged"
+}

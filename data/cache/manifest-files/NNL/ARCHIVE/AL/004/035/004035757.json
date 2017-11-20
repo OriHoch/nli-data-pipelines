@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004035757/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rabin, Yitzhak, 1922-1995 -- Photographs; Shultz, George Pratt, 1920- -- Photographs",
+  "label": "ג'ורג' שולץ בישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ג'ורג' שולץ בישראל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rabin, Yitzhak, 1922-1995 -- Photographs; Shultz, George Pratt, 1920- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004035757"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "George Shultz in Israel."
+    },
+    {
+      "label": "SysNum",
+      "value": "004035757"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004035757/sequence/IE45912952",
+      "@type": "sc:Sequence",
+      "label": "ג'ורג' שולץ בישראל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45912974",
+          "@type": "sc:Canvas",
+          "label": "ג'ורג' שולץ בישראל.",
+          "width": 2065,
+          "height": 1427,
+          "images": [
+            {
+              "@id": "FL45912974",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45912974",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45912974/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ג'ורג' שולץ בישראל.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45912974",
+                  "label": "ג'ורג' שולץ בישראל.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1427,
+                "width": 2065
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45912970",
+      "@type": "sc:Range",
+      "label": "REP45912970",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45912974",
+          "@type": "sc:Canvas",
+          "label": "ג'ורג' שולץ בישראל."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004035757",
+  "viewingHint": "paged"
+}

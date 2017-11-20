@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004025043/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Sculpturer Dan Zaritzki sitting next to his work.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Sculpturer Dan Zaritzki sitting next to his work."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004025043"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004025043"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004025043/sequence/IE45827731",
+      "@type": "sc:Sequence",
+      "label": "Sculpturer Dan Zaritzki sitting next to his work.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827764",
+          "@type": "sc:Canvas",
+          "label": "Sculpturer Dan Zaritzki sitting next to his work.",
+          "width": 1943,
+          "height": 1297,
+          "images": [
+            {
+              "@id": "FL45827764",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45827764",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45827764/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Sculpturer Dan Zaritzki sitting next to his work.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45827764",
+                  "label": "Sculpturer Dan Zaritzki sitting next to his work.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1297,
+                "width": 1943
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45827763",
+      "@type": "sc:Range",
+      "label": "REP45827763",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45827764",
+          "@type": "sc:Canvas",
+          "label": "Sculpturer Dan Zaritzki sitting next to his work."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004025043",
+  "viewingHint": "paged"
+}

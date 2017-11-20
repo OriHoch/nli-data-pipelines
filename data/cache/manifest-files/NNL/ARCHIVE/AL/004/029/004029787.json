@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029787/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Olmert, Ehud, 1945- -- Photographs",
+  "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Olmert, Ehud, 1945- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shaul Rachamim photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029787"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029787"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029787/sequence/IE45881790",
+      "@type": "sc:Sequence",
+      "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45881830",
+          "@type": "sc:Canvas",
+          "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama.",
+          "width": 2445,
+          "height": 1716,
+          "images": [
+            {
+              "@id": "FL45881830",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45881830",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45881830/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45881830",
+                  "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1716,
+                "width": 2445
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45881829",
+      "@type": "sc:Range",
+      "label": "REP45881829",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45881830",
+          "@type": "sc:Canvas",
+          "label": "The Likud Party presenting the new Government PM Itzhak Shamir display at the Tel Aviv Cinerama."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029787",
+  "viewingHint": "paged"
+}

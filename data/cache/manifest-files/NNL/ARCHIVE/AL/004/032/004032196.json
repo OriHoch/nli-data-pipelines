@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004032196/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Jerusalem (Israel : East) -- Photographs",
+  "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The view of Jeusalem with the Holy Mount and the Mosque of Omar."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel : East) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yolene Haik photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004032196"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004032196"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004032196/sequence/IE45897249",
+      "@type": "sc:Sequence",
+      "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45897272",
+          "@type": "sc:Canvas",
+          "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar.",
+          "width": 3279,
+          "height": 2133,
+          "images": [
+            {
+              "@id": "FL45897272",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45897272",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45897272/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45897272",
+                  "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2133,
+                "width": 3279
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45897271",
+      "@type": "sc:Range",
+      "label": "REP45897271",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45897272",
+          "@type": "sc:Canvas",
+          "label": "The view of Jeusalem with the Holy Mount and the Mosque of Omar."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004032196",
+  "viewingHint": "paged"
+}

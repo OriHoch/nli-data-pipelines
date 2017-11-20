@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004032465/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "GEORGIA AT THE DIASPORA MUSEUM.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "GEORGIA AT THE DIASPORA MUSEUM."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004032465"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004032465"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004032465/sequence/IE45909585",
+      "@type": "sc:Sequence",
+      "label": "GEORGIA AT THE DIASPORA MUSEUM.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45909615",
+          "@type": "sc:Canvas",
+          "label": "GEORGIA AT THE DIASPORA MUSEUM.",
+          "width": 2207,
+          "height": 3168,
+          "images": [
+            {
+              "@id": "FL45909615",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45909615",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45909615/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "GEORGIA AT THE DIASPORA MUSEUM.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45909615",
+                  "label": "GEORGIA AT THE DIASPORA MUSEUM.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3168,
+                "width": 2207
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45909614",
+      "@type": "sc:Range",
+      "label": "REP45909614",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45909615",
+          "@type": "sc:Canvas",
+          "label": "GEORGIA AT THE DIASPORA MUSEUM."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004032465",
+  "viewingHint": "paged"
+}

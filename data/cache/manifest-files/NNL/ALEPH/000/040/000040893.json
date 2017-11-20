@@ -1,0 +1,181 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000040893/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Bible. Genesis IX, 11-24 -- Commentaries",
+  "label": "שכל טוב (בראשית ט:יא-ט:כה ).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שכל טוב (בראשית ט:יא-ט:כה )."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible. Genesis IX, 11-24 -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "מנחם בן שלמה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000040893"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה יג-יד"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 30 ס\"מ רוחב..; דף קלף ששימש לכריכה. נחתך לארכו לשני קטעים. רוחב השטח הכתוב 21.5 ס\"מ, רוחב טור 10.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000040893"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000040893/sequence/IE21527984",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1398=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21527992",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 9100,
+          "height": 6973,
+          "images": [
+            {
+              "@id": "FL21527992",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL21527992",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL21527992/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL21527992",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6973,
+                "width": 9100
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21527998",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 9100,
+          "height": 6973,
+          "images": [
+            {
+              "@id": "FL21527998",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL21527998",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL21527998/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL21527998",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6973,
+                "width": 9100
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21528004",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "width": 9100,
+          "height": 6973,
+          "images": [
+            {
+              "@id": "FL21528004",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL21528004",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL21528004/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 3",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL21528004",
+                  "label": "Page 3",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6973,
+                "width": 9100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP21527991",
+      "@type": "sc:Range",
+      "label": "REP21527991",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21527992",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21527998",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL21528004",
+          "@type": "sc:Canvas",
+          "label": "Page 3"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000040893",
+  "viewingHint": "paged"
+}

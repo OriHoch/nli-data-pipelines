@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004040507/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Hadera (Israel) -- Photographs",
+  "label": "The coal supply system started working for the Hadera Electricity Plant.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The coal supply system started working for the Hadera Electricity Plant."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hadera (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Efi Sharir photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004040507"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004040507"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004040507/sequence/IE45934655",
+      "@type": "sc:Sequence",
+      "label": "The coal supply system started working for the Hadera Electricity Plant.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45934685",
+          "@type": "sc:Canvas",
+          "label": "The coal supply system started working for the Hadera Electricity Plant.",
+          "width": 2926,
+          "height": 1912,
+          "images": [
+            {
+              "@id": "FL45934685",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45934685",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45934685/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The coal supply system started working for the Hadera Electricity Plant.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45934685",
+                  "label": "The coal supply system started working for the Hadera Electricity Plant.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1912,
+                "width": 2926
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45934682",
+      "@type": "sc:Range",
+      "label": "REP45934682",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45934685",
+          "@type": "sc:Canvas",
+          "label": "The coal supply system started working for the Hadera Electricity Plant."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004040507",
+  "viewingHint": "paged"
+}

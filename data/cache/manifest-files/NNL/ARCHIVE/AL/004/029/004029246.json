@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029246/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Bareket (Israel) -- Photographs",
+  "label": "פסטיבל פורים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פסטיבל פורים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bareket (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Simionski photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029246"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Purim Festival."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029246"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029246/sequence/IE45866128",
+      "@type": "sc:Sequence",
+      "label": "פסטיבל פורים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866148",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל פורים.",
+          "width": 2480,
+          "height": 1692,
+          "images": [
+            {
+              "@id": "FL45866148",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45866148",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45866148/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פסטיבל פורים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45866148",
+                  "label": "פסטיבל פורים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1692,
+                "width": 2480
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45866147",
+      "@type": "sc:Range",
+      "label": "REP45866147",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866148",
+          "@type": "sc:Canvas",
+          "label": "פסטיבל פורים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029246",
+  "viewingHint": "paged"
+}

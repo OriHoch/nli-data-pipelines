@@ -1,0 +1,157 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000043284/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Bible. Exodus XXII-XXIII -- Commentaries",
+  "label": "פרוש התורה לרש\"י (קטע) : קטע מפירושו לס' שמות כב, ל - כג, כז.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש התורה לרש\"י (קטע) : קטע מפירושו לס' שמות כב, ל - כג, כז."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible. Exodus XXII-XXIII -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "שלמה בן יצחק (רש\"י), 1040-1105"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000043284"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ג"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 16.5X23.5 ס\"מ..; קלף.; הדף קטום בפאתו העליונה והתחתונה. כתוב בשני טורים, בשרטוט. רוחב הטקסט בטור: 7.5 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000043284"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000043284/sequence/IE13499690",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 5946=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13587733",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3728,
+          "height": 2840,
+          "images": [
+            {
+              "@id": "FL13587733",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13587733",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13587733/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13587733",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2840,
+                "width": 3728
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13587732",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3728,
+          "height": 2840,
+          "images": [
+            {
+              "@id": "FL13587732",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL13587732",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL13587732/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL13587732",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2840,
+                "width": 3728
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000043284/sequence/IE9284164",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 5946=8"
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000043284/sequence/IE15011511",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 5946=8"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP13587731",
+      "@type": "sc:Range",
+      "label": "REP13587731",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13587733",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL13587732",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000043284",
+  "viewingHint": "paged"
+}

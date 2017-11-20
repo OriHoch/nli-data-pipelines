@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004035521/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Moda'i, Yitzhak -- Photographs",
+  "label": "שיתוף פעולה ישראל-הונגריה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שיתוף פעולה ישראל-הונגריה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Moda'i, Yitzhak -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004035521"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Israel - Hungary Cooperation."
+    },
+    {
+      "label": "SysNum",
+      "value": "004035521"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004035521/sequence/IE45925489",
+      "@type": "sc:Sequence",
+      "label": "שיתוף פעולה ישראל-הונגריה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45925509",
+          "@type": "sc:Canvas",
+          "label": "שיתוף פעולה ישראל-הונגריה.",
+          "width": 3546,
+          "height": 2361,
+          "images": [
+            {
+              "@id": "FL45925509",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45925509",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45925509/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "שיתוף פעולה ישראל-הונגריה.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45925509",
+                  "label": "שיתוף פעולה ישראל-הונגריה.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2361,
+                "width": 3546
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45925507",
+      "@type": "sc:Range",
+      "label": "REP45925507",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45925509",
+          "@type": "sc:Canvas",
+          "label": "שיתוף פעולה ישראל-הונגריה."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004035521",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004022799/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Peretz, Amir, 1952- -- Photographs",
+  "label": "A passenger car went on fire.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A passenger car went on fire."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Peretz, Amir, 1952- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004022799"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004022799"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004022799/sequence/IE45851369",
+      "@type": "sc:Sequence",
+      "label": "A passenger car went on fire.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45851402",
+          "@type": "sc:Canvas",
+          "label": "A passenger car went on fire.",
+          "width": 3328,
+          "height": 1983,
+          "images": [
+            {
+              "@id": "FL45851402",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45851402",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45851402/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "A passenger car went on fire.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45851402",
+                  "label": "A passenger car went on fire.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1983,
+                "width": 3328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45851400",
+      "@type": "sc:Range",
+      "label": "REP45851400",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45851402",
+          "@type": "sc:Canvas",
+          "label": "A passenger car went on fire."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004022799",
+  "viewingHint": "paged"
+}

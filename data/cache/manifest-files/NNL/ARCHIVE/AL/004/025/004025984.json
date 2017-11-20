@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004025984/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Banai, Meʼir -- Photographs",
+  "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Banai, Meʼir -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yossi Aloni photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004025984"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004025984"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004025984/sequence/IE45853876",
+      "@type": "sc:Sequence",
+      "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45853911",
+          "@type": "sc:Canvas",
+          "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio.",
+          "width": 1328,
+          "height": 1971,
+          "images": [
+            {
+              "@id": "FL45853911",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45853911",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45853911/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45853911",
+                  "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1971,
+                "width": 1328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45853909",
+      "@type": "sc:Range",
+      "label": "REP45853909",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45853911",
+          "@type": "sc:Canvas",
+          "label": "An entertainment TV show prepared for the local Television station with the prominate artist at the herzlia TV studio."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004025984",
+  "viewingHint": "paged"
+}

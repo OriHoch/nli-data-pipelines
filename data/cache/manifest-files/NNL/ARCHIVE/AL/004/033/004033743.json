@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004033743/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rabin, Yitzhak, 1922-1995 -- Photographs",
+  "label": "PM Rabin returned home from the US after successful talks with President Bush.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "PM Rabin returned home from the US after successful talks with President Bush."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rabin, Yitzhak, 1922-1995 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Oleg Gaspar photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004033743"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004033743"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004033743/sequence/IE45913110",
+      "@type": "sc:Sequence",
+      "label": "PM Rabin returned home from the US after successful talks with President Bush.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45913142",
+          "@type": "sc:Canvas",
+          "label": "PM Rabin returned home from the US after successful talks with President Bush.",
+          "width": 3642,
+          "height": 2400,
+          "images": [
+            {
+              "@id": "FL45913142",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45913142",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45913142/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "PM Rabin returned home from the US after successful talks with President Bush.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45913142",
+                  "label": "PM Rabin returned home from the US after successful talks with President Bush.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2400,
+                "width": 3642
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45913141",
+      "@type": "sc:Range",
+      "label": "REP45913141",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45913142",
+          "@type": "sc:Canvas",
+          "label": "PM Rabin returned home from the US after successful talks with President Bush."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004033743",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004038336/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yosi Zeliger photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004038336"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004038336"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004038336/sequence/IE45905647",
+      "@type": "sc:Sequence",
+      "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45905674",
+          "@type": "sc:Canvas",
+          "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter.",
+          "width": 1868,
+          "height": 1221,
+          "images": [
+            {
+              "@id": "FL45905674",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45905674",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45905674/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45905674",
+                  "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1221,
+                "width": 1868
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45905673",
+      "@type": "sc:Range",
+      "label": "REP45905673",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45905674",
+          "@type": "sc:Canvas",
+          "label": "Gabi Lest Chief Commander of Tel Aviv Police Headquarter."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004038336",
+  "viewingHint": "paged"
+}

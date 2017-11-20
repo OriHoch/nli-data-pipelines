@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004039117/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Labour Party KM, Avi Yehezkel was cought by our camera man in a strange pose.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Labour Party KM, Avi Yehezkel was cought by our camera man in a strange pose."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Beni Birk photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004039117"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004039117"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004039117/sequence/IE45753646",
+      "@type": "sc:Sequence",
+      "label": "Labour Party KM  Avi Yehezkel was cought by our camera man in a strange pose.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45753666",
+          "@type": "sc:Canvas",
+          "label": "Labour Party KM  Avi Yehezkel was cought by our camera man in a strange pose.",
+          "width": 1212,
+          "height": 1686,
+          "images": [
+            {
+              "@id": "FL45753666",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45753666",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45753666/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Labour Party KM  Avi Yehezkel was cought by our camera man in a strange pose.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45753666",
+                  "label": "Labour Party KM  Avi Yehezkel was cought by our camera man in a strange pose.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1686,
+                "width": 1212
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45753664",
+      "@type": "sc:Range",
+      "label": "REP45753664",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45753666",
+          "@type": "sc:Canvas",
+          "label": "Labour Party KM  Avi Yehezkel was cought by our camera man in a strange pose."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004039117",
+  "viewingHint": "paged"
+}

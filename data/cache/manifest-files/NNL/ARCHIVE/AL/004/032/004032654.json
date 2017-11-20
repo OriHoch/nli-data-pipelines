@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004032654/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Begin, Menachem, 1913-1992 -- Photographs",
+  "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Begin, Menachem, 1913-1992 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Piko photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004032654"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004032654"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004032654/sequence/IE45881284",
+      "@type": "sc:Sequence",
+      "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45881323",
+          "@type": "sc:Canvas",
+          "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried.",
+          "width": 2046,
+          "height": 1383,
+          "images": [
+            {
+              "@id": "FL45881323",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45881323",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45881323/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45881323",
+                  "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1383,
+                "width": 2046
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45881322",
+      "@type": "sc:Range",
+      "label": "REP45881322",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45881323",
+          "@type": "sc:Canvas",
+          "label": "People from all of the country arrive to the grave of the former Prime Minister Menahem Begin even days after he was buried."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004032654",
+  "viewingHint": "paged"
+}

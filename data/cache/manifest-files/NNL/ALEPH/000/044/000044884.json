@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000044884/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Medicine -- Early works to 1800",
+  "label": "אפוריסמי (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אפוריסמי (קטע)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Medicine -- Early works to 1800"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "היפוקרטס"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000044884"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף. ; 23.7X17.4 ס\"מ..; דף נייר שלם, 31 שורות לעמוד, מידות השטח הכתוב 18X12 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000044884"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000044884/sequence/IE39908295",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°1426.1",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908307",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 4815,
+          "height": 7052,
+          "images": [
+            {
+              "@id": "FL39908307",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908307",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908307/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908307",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7052,
+                "width": 4815
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908309",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 4815,
+          "height": 7052,
+          "images": [
+            {
+              "@id": "FL39908309",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908309",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908309/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908309",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7052,
+                "width": 4815
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39908306",
+      "@type": "sc:Range",
+      "label": "REP39908306",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908307",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908309",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000044884",
+  "viewingHint": "paged"
+}

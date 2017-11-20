@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028681/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Barenboim, Daniel, 1942- -- Photographs",
+  "label": "התזמורת הפילהרמונית של ברלין בישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "התזמורת הפילהרמונית של ברלין בישראל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Barenboim, Daniel, 1942- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Lev photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028681"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Berlin Philharmonic Orchestra in Israel."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028681"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028681/sequence/IE45876519",
+      "@type": "sc:Sequence",
+      "label": "התזמורת הפילהרמונית של ברלין בישראל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45876563",
+          "@type": "sc:Canvas",
+          "label": "התזמורת הפילהרמונית של ברלין בישראל.",
+          "width": 2106,
+          "height": 1444,
+          "images": [
+            {
+              "@id": "FL45876563",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45876563",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45876563/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "התזמורת הפילהרמונית של ברלין בישראל.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45876563",
+                  "label": "התזמורת הפילהרמונית של ברלין בישראל.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1444,
+                "width": 2106
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45876562",
+      "@type": "sc:Range",
+      "label": "REP45876562",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45876563",
+          "@type": "sc:Canvas",
+          "label": "התזמורת הפילהרמונית של ברלין בישראל."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028681",
+  "viewingHint": "paged"
+}

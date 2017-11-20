@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004024412/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ben Haim, Efraim, 1895-1981 -- Photographs",
+  "label": "מועמד להסתדרות - אפרים בן-חיים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מועמד להסתדרות - אפרים בן-חיים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ben Haim, Efraim, 1895-1981 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004024412"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Candidate For Histadrut - Efraim Ben Haim."
+    },
+    {
+      "label": "SysNum",
+      "value": "004024412"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004024412/sequence/IE45837016",
+      "@type": "sc:Sequence",
+      "label": "מועמד להסתדרות - אפרים בן-חיים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45837055",
+          "@type": "sc:Canvas",
+          "label": "מועמד להסתדרות - אפרים בן-חיים.",
+          "width": 2071,
+          "height": 3272,
+          "images": [
+            {
+              "@id": "FL45837055",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45837055",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45837055/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "מועמד להסתדרות - אפרים בן-חיים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45837055",
+                  "label": "מועמד להסתדרות - אפרים בן-חיים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3272,
+                "width": 2071
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45837054",
+      "@type": "sc:Range",
+      "label": "REP45837054",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45837055",
+          "@type": "sc:Canvas",
+          "label": "מועמד להסתדרות - אפרים בן-חיים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004024412",
+  "viewingHint": "paged"
+}

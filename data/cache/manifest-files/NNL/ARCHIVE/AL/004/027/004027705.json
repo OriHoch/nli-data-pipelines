@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004027705/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Arafat, Yasir, 1929-2004 -- Photographs; Reagan, Ronald -- Photographs; Shamir, Itzhak, 1915-2012 -- Photographs",
+  "label": "IPPA initiative, a photomontage of the three leaders making the Peace agreement a fact.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "IPPA initiative, a photomontage of the three leaders making the Peace agreement a fact."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arafat, Yasir, 1929-2004 -- Photographs; Reagan, Ronald -- Photographs; Shamir, Itzhak, 1915-2012 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004027705"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004027705"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004027705/sequence/IE45736847",
+      "@type": "sc:Sequence",
+      "label": "IPPA initiative  a photomontage of the three leaders making the Peace agreement a fact.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45736856",
+          "@type": "sc:Canvas",
+          "label": "IPPA initiative  a photomontage of the three leaders making the Peace agreement a fact.",
+          "width": 2131,
+          "height": 1427,
+          "images": [
+            {
+              "@id": "FL45736856",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45736856",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45736856/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "IPPA initiative  a photomontage of the three leaders making the Peace agreement a fact.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45736856",
+                  "label": "IPPA initiative  a photomontage of the three leaders making the Peace agreement a fact.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1427,
+                "width": 2131
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45736855",
+      "@type": "sc:Range",
+      "label": "REP45736855",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45736856",
+          "@type": "sc:Canvas",
+          "label": "IPPA initiative  a photomontage of the three leaders making the Peace agreement a fact."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004027705",
+  "viewingHint": "paged"
+}

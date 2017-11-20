@@ -1,0 +1,176 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000044741/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תורה (ויקרא טו:י-יח:כב).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תורה (ויקרא טו:י-יח:כב)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000044741"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 49.5X36 ס\"מ..; בצורת מגילה.; שני הדפים הינם גליון מתוך תורה שהשתמשו בו כעטיפה לאטלס משנת 1513.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "000044741"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000044741/sequence/IE28435801",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1157=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435820",
+          "@type": "sc:Canvas",
+          "label": "Colum. 1-4",
+          "width": 7913,
+          "height": 5862,
+          "images": [
+            {
+              "@id": "FL28435820",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28435820",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28435820/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Colum. 1-4",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28435820",
+                  "label": "Colum. 1-4",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5862,
+                "width": 7913
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435828",
+          "@type": "sc:Canvas",
+          "label": "Cover",
+          "width": 7913,
+          "height": 5862,
+          "images": [
+            {
+              "@id": "FL28435828",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28435828",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28435828/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Cover",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28435828",
+                  "label": "Cover",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5862,
+                "width": 7913
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435834",
+          "@type": "sc:Canvas",
+          "label": "Color",
+          "width": 7913,
+          "height": 5862,
+          "images": [
+            {
+              "@id": "FL28435834",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL28435834",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL28435834/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL28435834",
+                  "label": "Color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5862,
+                "width": 7913
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP28435819",
+      "@type": "sc:Range",
+      "label": "REP28435819",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435820",
+          "@type": "sc:Canvas",
+          "label": "Colum. 1-4"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435828",
+          "@type": "sc:Canvas",
+          "label": "Cover"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL28435834",
+          "@type": "sc:Canvas",
+          "label": "Color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000044741",
+  "viewingHint": "paged"
+}

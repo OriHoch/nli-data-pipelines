@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028231/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Laszlo, Hana, 1953- -- Photographs",
+  "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park, Tel Aviv.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park, Tel Aviv."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Laszlo, Hana, 1953- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Lev photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028231"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028231"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028231/sequence/IE45882587",
+      "@type": "sc:Sequence",
+      "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park  Tel Aviv.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45882605",
+          "@type": "sc:Canvas",
+          "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park  Tel Aviv.",
+          "width": 1391,
+          "height": 2186,
+          "images": [
+            {
+              "@id": "FL45882605",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45882605",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45882605/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park  Tel Aviv.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45882605",
+                  "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park  Tel Aviv.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2186,
+                "width": 1391
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45882602",
+      "@type": "sc:Range",
+      "label": "REP45882602",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45882605",
+          "@type": "sc:Canvas",
+          "label": "Hana Laslo performing at the IDF exhibition which taks place on the Exhibition Park  Tel Aviv."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028231",
+  "viewingHint": "paged"
+}

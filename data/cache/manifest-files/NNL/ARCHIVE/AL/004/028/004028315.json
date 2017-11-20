@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028315/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "חברת סי אנד סאן.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת סי אנד סאן."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shaul Rachamim photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028315"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Sea and Sun."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028315"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028315/sequence/IE45885181",
+      "@type": "sc:Sequence",
+      "label": "חברת סי אנד סאן.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45885197",
+          "@type": "sc:Canvas",
+          "label": "חברת סי אנד סאן.",
+          "width": 1431,
+          "height": 2124,
+          "images": [
+            {
+              "@id": "FL45885197",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45885197",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45885197/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת סי אנד סאן.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45885197",
+                  "label": "חברת סי אנד סאן.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2124,
+                "width": 1431
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45885196",
+      "@type": "sc:Range",
+      "label": "REP45885196",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45885197",
+          "@type": "sc:Canvas",
+          "label": "חברת סי אנד סאן."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028315",
+  "viewingHint": "paged"
+}

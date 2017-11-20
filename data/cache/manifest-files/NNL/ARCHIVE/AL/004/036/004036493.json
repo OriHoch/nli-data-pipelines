@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004036493/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Shoval, Zalman, 1930- -- Photographs",
+  "label": "כינוס מרכז הליכוד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כינוס מרכז הליכוד."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shoval, Zalman, 1930- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gideon Markowiz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004036493"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Likud Party Central Meeting."
+    },
+    {
+      "label": "SysNum",
+      "value": "004036493"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004036493/sequence/IE45888786",
+      "@type": "sc:Sequence",
+      "label": "כינוס מרכז הליכוד.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45888816",
+          "@type": "sc:Canvas",
+          "label": "כינוס מרכז הליכוד.",
+          "width": 1225,
+          "height": 1794,
+          "images": [
+            {
+              "@id": "FL45888816",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45888816",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45888816/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "כינוס מרכז הליכוד.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45888816",
+                  "label": "כינוס מרכז הליכוד.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1794,
+                "width": 1225
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45888814",
+      "@type": "sc:Range",
+      "label": "REP45888814",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45888816",
+          "@type": "sc:Canvas",
+          "label": "כינוס מרכז הליכוד."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004036493",
+  "viewingHint": "paged"
+}

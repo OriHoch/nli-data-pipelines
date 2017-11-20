@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029251/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "אליפות העולם באגרוף.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אליפות העולם באגרוף."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Simionski photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029251"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Boxing World Title."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029251"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029251/sequence/IE45866266",
+      "@type": "sc:Sequence",
+      "label": "אליפות העולם באגרוף.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866279",
+          "@type": "sc:Canvas",
+          "label": "אליפות העולם באגרוף.",
+          "width": 1963,
+          "height": 1413,
+          "images": [
+            {
+              "@id": "FL45866279",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45866279",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45866279/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "אליפות העולם באגרוף.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45866279",
+                  "label": "אליפות העולם באגרוף.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1413,
+                "width": 1963
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45866278",
+      "@type": "sc:Range",
+      "label": "REP45866278",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866279",
+          "@type": "sc:Canvas",
+          "label": "אליפות העולם באגרוף."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029251",
+  "viewingHint": "paged"
+}

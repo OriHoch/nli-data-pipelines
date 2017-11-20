@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004026001/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "ספארי בקניה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ספארי בקניה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004026001"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Safari Kenya."
+    },
+    {
+      "label": "SysNum",
+      "value": "004026001"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004026001/sequence/IE45854458",
+      "@type": "sc:Sequence",
+      "label": "ספארי בקניה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45854487",
+          "@type": "sc:Canvas",
+          "label": "ספארי בקניה.",
+          "width": 1961,
+          "height": 1337,
+          "images": [
+            {
+              "@id": "FL45854487",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45854487",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45854487/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ספארי בקניה.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45854487",
+                  "label": "ספארי בקניה.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1337,
+                "width": 1961
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45854484",
+      "@type": "sc:Range",
+      "label": "REP45854484",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45854487",
+          "@type": "sc:Canvas",
+          "label": "ספארי בקניה."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004026001",
+  "viewingHint": "paged"
+}

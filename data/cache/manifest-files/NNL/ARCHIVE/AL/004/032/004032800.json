@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004032800/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Jerusalem (Israel : East) -- Photographs",
+  "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel : East) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yolene Haik photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004032800"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004032800"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004032800/sequence/IE45888889",
+      "@type": "sc:Sequence",
+      "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45888924",
+          "@type": "sc:Canvas",
+          "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services.",
+          "width": 2169,
+          "height": 3224,
+          "images": [
+            {
+              "@id": "FL45888924",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45888924",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45888924/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45888924",
+                  "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3224,
+                "width": 2169
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45888923",
+      "@type": "sc:Range",
+      "label": "REP45888923",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45888924",
+          "@type": "sc:Canvas",
+          "label": "Tens of thousands of Christian pilgrims have been making their way to the Old City of Jerusalem to participate in Easter services."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004032800",
+  "viewingHint": "paged"
+}

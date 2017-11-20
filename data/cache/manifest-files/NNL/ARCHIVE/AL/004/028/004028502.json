@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028502/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "The Naamat Women Movement of the Histadrut, choose the best posters from a selection prepared by artists.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Naamat Women Movement of the Histadrut, choose the best posters from a selection prepared by artists."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028502"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028502"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028502/sequence/IE45866737",
+      "@type": "sc:Sequence",
+      "label": "The Naamat Women Movement of the Histadrut  choose the best posters from a selection prepared by artists.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866784",
+          "@type": "sc:Canvas",
+          "label": "The Naamat Women Movement of the Histadrut  choose the best posters from a selection prepared by artists.",
+          "width": 2060,
+          "height": 1458,
+          "images": [
+            {
+              "@id": "FL45866784",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45866784",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45866784/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Naamat Women Movement of the Histadrut  choose the best posters from a selection prepared by artists.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45866784",
+                  "label": "The Naamat Women Movement of the Histadrut  choose the best posters from a selection prepared by artists.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1458,
+                "width": 2060
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45866783",
+      "@type": "sc:Range",
+      "label": "REP45866783",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45866784",
+          "@type": "sc:Canvas",
+          "label": "The Naamat Women Movement of the Histadrut  choose the best posters from a selection prepared by artists."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028502",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004035541/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Beni Birk photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004035541"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004035541"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004035541/sequence/IE45926119",
+      "@type": "sc:Sequence",
+      "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45926127",
+          "@type": "sc:Canvas",
+          "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust.",
+          "width": 2384,
+          "height": 3513,
+          "images": [
+            {
+              "@id": "FL45926127",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45926127",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45926127/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45926127",
+                  "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3513,
+                "width": 2384
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45926125",
+      "@type": "sc:Range",
+      "label": "REP45926125",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45926127",
+          "@type": "sc:Canvas",
+          "label": "Judge Beiski was one of the few who decided to nominate the new People of the World for their activity in saving Jews during the Holocaust."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004035541",
+  "viewingHint": "paged"
+}

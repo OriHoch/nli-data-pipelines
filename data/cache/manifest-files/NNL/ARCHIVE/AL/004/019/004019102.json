@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004019102/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "ועידת מבקרי הפנים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ועידת מבקרי הפנים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004019102"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Internal Controllers Convention."
+    },
+    {
+      "label": "SysNum",
+      "value": "004019102"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004019102/sequence/IE45844932",
+      "@type": "sc:Sequence",
+      "label": "ועידת מבקרי הפנים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45844945",
+          "@type": "sc:Canvas",
+          "label": "ועידת מבקרי הפנים.",
+          "width": 3256,
+          "height": 1983,
+          "images": [
+            {
+              "@id": "FL45844945",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45844945",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45844945/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "ועידת מבקרי הפנים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45844945",
+                  "label": "ועידת מבקרי הפנים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1983,
+                "width": 3256
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45844944",
+      "@type": "sc:Range",
+      "label": "REP45844944",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45844945",
+          "@type": "sc:Canvas",
+          "label": "ועידת מבקרי הפנים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004019102",
+  "viewingHint": "paged"
+}

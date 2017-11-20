@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004019630/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004019630"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004019630"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004019630/sequence/IE45852812",
+      "@type": "sc:Sequence",
+      "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45852841",
+          "@type": "sc:Canvas",
+          "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students.",
+          "width": 1884,
+          "height": 2724,
+          "images": [
+            {
+              "@id": "FL45852841",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45852841",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45852841/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45852841",
+                  "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2724,
+                "width": 1884
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45852840",
+      "@type": "sc:Range",
+      "label": "REP45852840",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45852841",
+          "@type": "sc:Canvas",
+          "label": "The Israel-USA Cultural Fund invited famous violinist Yehudi Menuhin to give his knowledge to young israeli students."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004019630",
+  "viewingHint": "paged"
+}

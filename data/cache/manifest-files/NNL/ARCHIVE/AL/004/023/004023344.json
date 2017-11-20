@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004023344/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Moda'i, Yitzhak -- Photographs",
+  "label": "The Manufacturers Association held its yearly meeting.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Manufacturers Association held its yearly meeting."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Moda'i, Yitzhak -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004023344"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004023344"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004023344/sequence/IE45825371",
+      "@type": "sc:Sequence",
+      "label": "The Manufacturers Association held its yearly meeting.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45825396",
+          "@type": "sc:Canvas",
+          "label": "The Manufacturers Association held its yearly meeting.",
+          "width": 2031,
+          "height": 3359,
+          "images": [
+            {
+              "@id": "FL45825396",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45825396",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45825396/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Manufacturers Association held its yearly meeting.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45825396",
+                  "label": "The Manufacturers Association held its yearly meeting.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3359,
+                "width": 2031
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45825395",
+      "@type": "sc:Range",
+      "label": "REP45825395",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45825396",
+          "@type": "sc:Canvas",
+          "label": "The Manufacturers Association held its yearly meeting."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004023344",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004028547/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Kefar Shalem (Israel) -- Photographs",
+  "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Kefar Shalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Rachamim photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004028547"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004028547"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004028547/sequence/IE45869309",
+      "@type": "sc:Sequence",
+      "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45869348",
+          "@type": "sc:Canvas",
+          "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts.",
+          "width": 3240,
+          "height": 2185,
+          "images": [
+            {
+              "@id": "FL45869348",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45869348",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45869348/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45869348",
+                  "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2185,
+                "width": 3240
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45869347",
+      "@type": "sc:Range",
+      "label": "REP45869347",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45869348",
+          "@type": "sc:Canvas",
+          "label": "A new BMW private car was stolen and finaly found in Kfar Shalem where it was dismantled and was to be sold as car parts."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004028547",
+  "viewingHint": "paged"
+}

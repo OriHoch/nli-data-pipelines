@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029466/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "A NEW GUINESS RECORD.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A NEW GUINESS RECORD."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Lev photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029466"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029466"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029466/sequence/IE45864550",
+      "@type": "sc:Sequence",
+      "label": "A NEW GUINESS RECORD.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45864587",
+          "@type": "sc:Canvas",
+          "label": "A NEW GUINESS RECORD.",
+          "width": 1683,
+          "height": 2492,
+          "images": [
+            {
+              "@id": "FL45864587",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45864587",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45864587/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "A NEW GUINESS RECORD.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45864587",
+                  "label": "A NEW GUINESS RECORD.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2492,
+                "width": 1683
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45864586",
+      "@type": "sc:Range",
+      "label": "REP45864586",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45864587",
+          "@type": "sc:Canvas",
+          "label": "A NEW GUINESS RECORD."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029466",
+  "viewingHint": "paged"
+}

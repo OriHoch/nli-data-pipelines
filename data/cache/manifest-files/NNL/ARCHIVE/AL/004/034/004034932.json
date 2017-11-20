@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004034932/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Graham, Martha -- Photographs",
+  "label": "REMEMBERING MARTHA GRHAM.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "REMEMBERING MARTHA GRHAM."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Graham, Martha -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Ofer Amram photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004034932"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004034932"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004034932/sequence/IE45920156",
+      "@type": "sc:Sequence",
+      "label": "REMEMBERING MARTHA GRHAM.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45920192",
+          "@type": "sc:Canvas",
+          "label": "REMEMBERING MARTHA GRHAM.",
+          "width": 3466,
+          "height": 2416,
+          "images": [
+            {
+              "@id": "FL45920192",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45920192",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45920192/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "REMEMBERING MARTHA GRHAM.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45920192",
+                  "label": "REMEMBERING MARTHA GRHAM.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2416,
+                "width": 3466
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45920191",
+      "@type": "sc:Range",
+      "label": "REP45920191",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45920192",
+          "@type": "sc:Canvas",
+          "label": "REMEMBERING MARTHA GRHAM."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004034932",
+  "viewingHint": "paged"
+}

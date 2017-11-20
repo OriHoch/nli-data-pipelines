@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004038592/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ramat Aviv (Tel Aviv-Yafo, Israel) -- Photographs",
+  "label": "עצרת תמיכה בתהליך אוסלו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עצרת תמיכה בתהליך אוסלו."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ramat Aviv (Tel Aviv-Yafo, Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gideon Markowiz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004038592"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Demonstration Supporting Oslo."
+    },
+    {
+      "label": "SysNum",
+      "value": "004038592"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004038592/sequence/IE45916748",
+      "@type": "sc:Sequence",
+      "label": "עצרת תמיכה בתהליך אוסלו.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45916782",
+          "@type": "sc:Canvas",
+          "label": "עצרת תמיכה בתהליך אוסלו.",
+          "width": 1742,
+          "height": 1157,
+          "images": [
+            {
+              "@id": "FL45916782",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45916782",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45916782/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "עצרת תמיכה בתהליך אוסלו.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45916782",
+                  "label": "עצרת תמיכה בתהליך אוסלו.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1157,
+                "width": 1742
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45916781",
+      "@type": "sc:Range",
+      "label": "REP45916781",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45916782",
+          "@type": "sc:Canvas",
+          "label": "עצרת תמיכה בתהליך אוסלו."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004038592",
+  "viewingHint": "paged"
+}

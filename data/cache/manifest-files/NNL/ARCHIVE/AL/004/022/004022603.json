@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004022603/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "פרס התעשייה לשנת 1984.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרס התעשייה לשנת 1984."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Press & Photo Agency photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004022603"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Industry Prize for 1984."
+    },
+    {
+      "label": "SysNum",
+      "value": "004022603"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004022603/sequence/IE45874636",
+      "@type": "sc:Sequence",
+      "label": "פרס התעשייה לשנת 1984.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45874681",
+          "@type": "sc:Canvas",
+          "label": "פרס התעשייה לשנת 1984.",
+          "width": 3328,
+          "height": 2040,
+          "images": [
+            {
+              "@id": "FL45874681",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45874681",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45874681/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פרס התעשייה לשנת 1984.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45874681",
+                  "label": "פרס התעשייה לשנת 1984.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2040,
+                "width": 3328
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45874680",
+      "@type": "sc:Range",
+      "label": "REP45874680",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45874681",
+          "@type": "sc:Canvas",
+          "label": "פרס התעשייה לשנת 1984."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004022603",
+  "viewingHint": "paged"
+}

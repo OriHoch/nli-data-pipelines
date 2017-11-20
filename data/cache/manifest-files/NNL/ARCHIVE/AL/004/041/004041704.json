@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004041704/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Beirut (Lebanon) -- Photographs",
+  "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Beirut (Lebanon) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004041704"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004041704"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004041704/sequence/IE45955179",
+      "@type": "sc:Sequence",
+      "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45955203",
+          "@type": "sc:Canvas",
+          "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave.",
+          "width": 2304,
+          "height": 1518,
+          "images": [
+            {
+              "@id": "FL45955203",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45955203",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45955203/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45955203",
+                  "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1518,
+                "width": 2304
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45955202",
+      "@type": "sc:Range",
+      "label": "REP45955202",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45955203",
+          "@type": "sc:Canvas",
+          "label": "IDF soldiers take a flight from the Beirut airport to Israel after receiving a few days leave."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004041704",
+  "viewingHint": "paged"
+}

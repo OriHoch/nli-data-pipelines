@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004024628/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ben Aharon, Yitzhak, 1906-2006 -- Photographs",
+  "label": "הועידה ה-1 של התנועה הקיבוצית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הועידה ה-1 של התנועה הקיבוצית."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ben Aharon, Yitzhak, 1906-2006 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yossi Aloni photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004024628"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Kibbutzim Movement 1st Convention."
+    },
+    {
+      "label": "SysNum",
+      "value": "004024628"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004024628/sequence/IE45846940",
+      "@type": "sc:Sequence",
+      "label": "הועידה ה-1 של התנועה הקיבוצית.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45846970",
+          "@type": "sc:Canvas",
+          "label": "הועידה ה-1 של התנועה הקיבוצית.",
+          "width": 3344,
+          "height": 2056,
+          "images": [
+            {
+              "@id": "FL45846970",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45846970",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45846970/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "הועידה ה-1 של התנועה הקיבוצית.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45846970",
+                  "label": "הועידה ה-1 של התנועה הקיבוצית.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2056,
+                "width": 3344
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45846969",
+      "@type": "sc:Range",
+      "label": "REP45846969",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45846970",
+          "@type": "sc:Canvas",
+          "label": "הועידה ה-1 של התנועה הקיבוצית."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004024628",
+  "viewingHint": "paged"
+}

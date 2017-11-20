@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004026088/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yossi Aloni photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004026088"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004026088"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004026088/sequence/IE45858432",
+      "@type": "sc:Sequence",
+      "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45858473",
+          "@type": "sc:Canvas",
+          "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards.",
+          "width": 1920,
+          "height": 1303,
+          "images": [
+            {
+              "@id": "FL45858473",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45858473",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45858473/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45858473",
+                  "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1303,
+                "width": 1920
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45858472",
+      "@type": "sc:Range",
+      "label": "REP45858472",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45858473",
+          "@type": "sc:Canvas",
+          "label": "University Students organized a hudge demonstartion in protest of the rising of the University study rewards."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004026088",
+  "viewingHint": "paged"
+}

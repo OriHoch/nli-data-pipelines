@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004024961/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Moti Ronen member of the manufacturers Ass.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Moti Ronen member of the manufacturers Ass."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004024961"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004024961"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004024961/sequence/IE45823813",
+      "@type": "sc:Sequence",
+      "label": "Moti Ronen member of the manufacturers Ass.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45823837",
+          "@type": "sc:Canvas",
+          "label": "Moti Ronen member of the manufacturers Ass.",
+          "width": 1541,
+          "height": 2300,
+          "images": [
+            {
+              "@id": "FL45823837",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45823837",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45823837/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Moti Ronen member of the manufacturers Ass.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45823837",
+                  "label": "Moti Ronen member of the manufacturers Ass.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2300,
+                "width": 1541
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45823836",
+      "@type": "sc:Range",
+      "label": "REP45823836",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45823837",
+          "@type": "sc:Canvas",
+          "label": "Moti Ronen member of the manufacturers Ass."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004024961",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004038700/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "The Cumran Caves where the Scrolls were found.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Cumran Caves where the Scrolls were found."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004038700"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004038700"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004038700/sequence/IE45741152",
+      "@type": "sc:Sequence",
+      "label": "The Cumran Caves where the Scrolls were found.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45741169",
+          "@type": "sc:Canvas",
+          "label": "The Cumran Caves where the Scrolls were found.",
+          "width": 1965,
+          "height": 1333,
+          "images": [
+            {
+              "@id": "FL45741169",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45741169",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45741169/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Cumran Caves where the Scrolls were found.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45741169",
+                  "label": "The Cumran Caves where the Scrolls were found.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1333,
+                "width": 1965
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45741167",
+      "@type": "sc:Range",
+      "label": "REP45741167",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45741169",
+          "@type": "sc:Canvas",
+          "label": "The Cumran Caves where the Scrolls were found."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004038700",
+  "viewingHint": "paged"
+}

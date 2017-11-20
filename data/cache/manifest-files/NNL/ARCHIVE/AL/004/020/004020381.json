@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004020381/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Arens, Moshe -- Photographs",
+  "label": "The Knesset holding a debate.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Knesset holding a debate."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Arens, Moshe -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004020381"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004020381"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004020381/sequence/IE45865168",
+      "@type": "sc:Sequence",
+      "label": "The Knesset holding a debate.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45865206",
+          "@type": "sc:Canvas",
+          "label": "The Knesset holding a debate.",
+          "width": 2728,
+          "height": 1740,
+          "images": [
+            {
+              "@id": "FL45865206",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45865206",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45865206/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Knesset holding a debate.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45865206",
+                  "label": "The Knesset holding a debate.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1740,
+                "width": 2728
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45865205",
+      "@type": "sc:Range",
+      "label": "REP45865205",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45865206",
+          "@type": "sc:Canvas",
+          "label": "The Knesset holding a debate."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004020381",
+  "viewingHint": "paged"
+}

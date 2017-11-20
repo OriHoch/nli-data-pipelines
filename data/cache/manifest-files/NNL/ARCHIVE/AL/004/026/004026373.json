@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004026373/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "חברת הסתדרות העובדים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת הסתדרות העובדים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Meir Kfir photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004026373"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Histadrut - Ovdim."
+    },
+    {
+      "label": "SysNum",
+      "value": "004026373"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004026373/sequence/IE45872830",
+      "@type": "sc:Sequence",
+      "label": "חברת הסתדרות העובדים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45872863",
+          "@type": "sc:Canvas",
+          "label": "חברת הסתדרות העובדים.",
+          "width": 1447,
+          "height": 2156,
+          "images": [
+            {
+              "@id": "FL45872863",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45872863",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45872863/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת הסתדרות העובדים.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45872863",
+                  "label": "חברת הסתדרות העובדים.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2156,
+                "width": 1447
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45872861",
+      "@type": "sc:Range",
+      "label": "REP45872861",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45872863",
+          "@type": "sc:Canvas",
+          "label": "חברת הסתדרות העובדים."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004026373",
+  "viewingHint": "paged"
+}

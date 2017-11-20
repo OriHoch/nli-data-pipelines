@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004038145/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Rabin, Yitzhak, 1922-1995 -- Photographs; Rabin, Lea -- Photographs",
+  "label": "פטרה - מקדש האוצר.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פטרה - מקדש האוצר."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rabin, Yitzhak, 1922-1995 -- Photographs; Rabin, Lea -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gideon Markowiz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004038145"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Petra the Magnificent Temple."
+    },
+    {
+      "label": "SysNum",
+      "value": "004038145"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004038145/sequence/IE45906672",
+      "@type": "sc:Sequence",
+      "label": "פטרה - מקדש האוצר.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45906694",
+          "@type": "sc:Canvas",
+          "label": "פטרה - מקדש האוצר.",
+          "width": 1140,
+          "height": 1690,
+          "images": [
+            {
+              "@id": "FL45906694",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45906694",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45906694/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "פטרה - מקדש האוצר.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45906694",
+                  "label": "פטרה - מקדש האוצר.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1690,
+                "width": 1140
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45906693",
+      "@type": "sc:Range",
+      "label": "REP45906693",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45906694",
+          "@type": "sc:Canvas",
+          "label": "פטרה - מקדש האוצר."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004038145",
+  "viewingHint": "paged"
+}

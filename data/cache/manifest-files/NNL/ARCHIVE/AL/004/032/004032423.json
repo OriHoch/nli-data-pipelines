@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004032423/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Shamir, Itzhak, 1915-2012 -- Photographs",
+  "label": "Foreign Minister of Finland is visiting Israel.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Foreign Minister of Finland is visiting Israel."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shamir, Itzhak, 1915-2012 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Yolene Haik photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004032423"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004032423"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004032423/sequence/IE45907557",
+      "@type": "sc:Sequence",
+      "label": "Foreign Minister of Finland is visiting Israel.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45907590",
+          "@type": "sc:Canvas",
+          "label": "Foreign Minister of Finland is visiting Israel.",
+          "width": 3237,
+          "height": 2160,
+          "images": [
+            {
+              "@id": "FL45907590",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45907590",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45907590/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Foreign Minister of Finland is visiting Israel.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45907590",
+                  "label": "Foreign Minister of Finland is visiting Israel.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2160,
+                "width": 3237
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45907589",
+      "@type": "sc:Range",
+      "label": "REP45907589",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45907590",
+          "@type": "sc:Canvas",
+          "label": "Foreign Minister of Finland is visiting Israel."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004032423",
+  "viewingHint": "paged"
+}

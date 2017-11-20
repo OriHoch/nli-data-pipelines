@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004020532/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Sidon (Lebanon) -- Photographs",
+  "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sidon (Lebanon) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004020532"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004020532"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004020532/sequence/IE45873065",
+      "@type": "sc:Sequence",
+      "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45873116",
+          "@type": "sc:Canvas",
+          "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon.",
+          "width": 2040,
+          "height": 3343,
+          "images": [
+            {
+              "@id": "FL45873116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45873116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45873116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45873116",
+                  "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3343,
+                "width": 2040
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45873115",
+      "@type": "sc:Range",
+      "label": "REP45873115",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45873116",
+          "@type": "sc:Canvas",
+          "label": "Ghaddar Hassan a Lebanese merchant and leader of the Shiya religious Moslem sect in Lebanon."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004020532",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004023791/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Cohen,Izhar, 1951- -- Photographs",
+  "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Cohen,Izhar, 1951- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Efi Sharir photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004023791"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004023791"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004023791/sequence/IE45839573",
+      "@type": "sc:Sequence",
+      "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45839618",
+          "@type": "sc:Canvas",
+          "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani.",
+          "width": 3352,
+          "height": 2087,
+          "images": [
+            {
+              "@id": "FL45839618",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45839618",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45839618/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45839618",
+                  "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2087,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45839612",
+      "@type": "sc:Range",
+      "label": "REP45839612",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45839618",
+          "@type": "sc:Canvas",
+          "label": "The Bat Dor ballet group hosted the Italian Ambassador to Israel HE Corado Taliani."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004023791",
+  "viewingHint": "paged"
+}

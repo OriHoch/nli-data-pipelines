@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000042476/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Medicine -- Early works to 1800",
+  "label": "קאנון : בתרגום לעברית של יוסף בן יהושע הלורקי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קאנון : בתרגום לעברית של יוסף בן יהושע הלורקי."
+    },
+    {
+      "label": "Contributor",
+      "value": "לורקי, יוסף בן יהושע"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Medicine -- Early works to 1800"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אבן סינא, אלחסין בן עבדאללה, 980-1037"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000042476"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 15X20 ס\"מ..; זוג דפי קלף פגומים וקטועים. 28 שורות לעמוד. בגליון הפנמי שירבוטים, נסיונות קולמוס חשבונות וחתימה אומנותית."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000042476"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000042476/sequence/IE39908322",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°1243.4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908332",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 6590,
+          "height": 6090,
+          "images": [
+            {
+              "@id": "FL39908332",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908332",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908332/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908332",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6090,
+                "width": 6590
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908337",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 6590,
+          "height": 6090,
+          "images": [
+            {
+              "@id": "FL39908337",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908337",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908337/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908337",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6090,
+                "width": 6590
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39908331",
+      "@type": "sc:Range",
+      "label": "REP39908331",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908332",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908337",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000042476",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Leṿi, Daṿid, 1937- -- Photographs; Shamir, Itzhak, 1915-2012 -- Photographs; Shilansḳi, Dov, 1924- -- Photographs",
+  "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Leṿi, Daṿid, 1937- -- Photographs; Shamir, Itzhak, 1915-2012 -- Photographs; Shilansḳi, Dov, 1924- -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Eli Harati photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029157"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029157/sequence/IE45863802",
+      "@type": "sc:Sequence",
+      "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45863821",
+          "@type": "sc:Canvas",
+          "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization.",
+          "width": 2534,
+          "height": 1656,
+          "images": [
+            {
+              "@id": "FL45863821",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45863821",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45863821/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45863821",
+                  "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1656,
+                "width": 2534
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45863820",
+      "@type": "sc:Range",
+      "label": "REP45863820",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45863821",
+          "@type": "sc:Canvas",
+          "label": "The Knesset Members planted trees in the Knesset forest outside Jerusalem within the Keren Kayemet Organization."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029157",
+  "viewingHint": "paged"
+}

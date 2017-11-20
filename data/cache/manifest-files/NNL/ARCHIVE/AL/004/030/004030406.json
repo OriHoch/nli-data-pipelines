@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004030406/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Journalists of Davar Daily, Ezra Chen.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Journalists of Davar Daily, Ezra Chen."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Shaul Rachamim photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004030406"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004030406"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004030406/sequence/IE45884442",
+      "@type": "sc:Sequence",
+      "label": "Journalists of Davar Daily  Ezra Chen.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45884471",
+          "@type": "sc:Canvas",
+          "label": "Journalists of Davar Daily  Ezra Chen.",
+          "width": 1430,
+          "height": 2128,
+          "images": [
+            {
+              "@id": "FL45884471",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45884471",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45884471/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Journalists of Davar Daily  Ezra Chen.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45884471",
+                  "label": "Journalists of Davar Daily  Ezra Chen.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2128,
+                "width": 1430
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45884470",
+      "@type": "sc:Range",
+      "label": "REP45884470",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45884471",
+          "@type": "sc:Canvas",
+          "label": "Journalists of Davar Daily  Ezra Chen."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004030406",
+  "viewingHint": "paged"
+}

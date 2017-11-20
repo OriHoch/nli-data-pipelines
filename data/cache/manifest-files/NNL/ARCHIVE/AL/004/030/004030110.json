@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004030110/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Shamir, Moshe, 1921-2004 -- Photographs",
+  "label": "Mrs. Yona Ushpiz, manager of the Electric Engines Comp.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Mrs. Yona Ushpiz, manager of the Electric Engines Comp."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Shamir, Moshe, 1921-2004 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004030110"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004030110"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004030110/sequence/IE45875489",
+      "@type": "sc:Sequence",
+      "label": "Mrs. Yona Ushpiz  manager of the Electric Engines Comp.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45875499",
+          "@type": "sc:Canvas",
+          "label": "Mrs. Yona Ushpiz  manager of the Electric Engines Comp.",
+          "width": 1853,
+          "height": 2265,
+          "images": [
+            {
+              "@id": "FL45875499",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45875499",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45875499/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Mrs. Yona Ushpiz  manager of the Electric Engines Comp.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45875499",
+                  "label": "Mrs. Yona Ushpiz  manager of the Electric Engines Comp.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2265,
+                "width": 1853
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45875497",
+      "@type": "sc:Range",
+      "label": "REP45875497",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45875499",
+          "@type": "sc:Canvas",
+          "label": "Mrs. Yona Ushpiz  manager of the Electric Engines Comp."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004030110",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004020247/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Porush, Menaḥem, 1916-2010 -- Photographs; Shapira, Avraham Yosef, 1921-2000 -- Photographs",
+  "label": "תקציב המפלגות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תקציב המפלגות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Porush, Menaḥem, 1916-2010 -- Photographs; Shapira, Avraham Yosef, 1921-2000 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dalia Bar-Ner photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004020247"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Political Parties Budget."
+    },
+    {
+      "label": "SysNum",
+      "value": "004020247"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004020247/sequence/IE45857822",
+      "@type": "sc:Sequence",
+      "label": "תקציב המפלגות.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45857877",
+          "@type": "sc:Canvas",
+          "label": "תקציב המפלגות.",
+          "width": 2737,
+          "height": 1632,
+          "images": [
+            {
+              "@id": "FL45857877",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45857877",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45857877/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תקציב המפלגות.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45857877",
+                  "label": "תקציב המפלגות.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1632,
+                "width": 2737
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45857876",
+      "@type": "sc:Range",
+      "label": "REP45857876",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45857877",
+          "@type": "sc:Canvas",
+          "label": "תקציב המפלגות."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004020247",
+  "viewingHint": "paged"
+}

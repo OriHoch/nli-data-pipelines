@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004039095/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Yoram Turbowicz, is likely to manage the Bezek telephone company.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Yoram Turbowicz, is likely to manage the Bezek telephone company."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Beni Birk photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004039095"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004039095"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004039095/sequence/IE45753123",
+      "@type": "sc:Sequence",
+      "label": "Yoram Turbowicz  is likely to manage the Bezek telephone company.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45753136",
+          "@type": "sc:Canvas",
+          "label": "Yoram Turbowicz  is likely to manage the Bezek telephone company.",
+          "width": 822,
+          "height": 1299,
+          "images": [
+            {
+              "@id": "FL45753136",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45753136",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45753136/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Yoram Turbowicz  is likely to manage the Bezek telephone company.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45753136",
+                  "label": "Yoram Turbowicz  is likely to manage the Bezek telephone company.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1299,
+                "width": 822
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45753134",
+      "@type": "sc:Range",
+      "label": "REP45753134",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45753136",
+          "@type": "sc:Canvas",
+          "label": "Yoram Turbowicz  is likely to manage the Bezek telephone company."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004039095",
+  "viewingHint": "paged"
+}

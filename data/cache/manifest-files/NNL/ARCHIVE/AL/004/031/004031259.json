@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004031259/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Barak, Ehud, 1942- -- Photographs; Basyuni, Mahmud -- Photographs",
+  "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Barak, Ehud, 1942- -- Photographs; Basyuni, Mahmud -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Danny Lev photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004031259"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004031259"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004031259/sequence/IE45903089",
+      "@type": "sc:Sequence",
+      "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45903119",
+          "@type": "sc:Canvas",
+          "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel.",
+          "width": 3293,
+          "height": 2124,
+          "images": [
+            {
+              "@id": "FL45903119",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45903119",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45903119/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45903119",
+                  "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2124,
+                "width": 3293
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45903118",
+      "@type": "sc:Range",
+      "label": "REP45903118",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45903119",
+          "@type": "sc:Canvas",
+          "label": "Defence Minister gave a party celebrating the 43rd Anniverssary of the Independence of Israel."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004031259",
+  "viewingHint": "paged"
+}

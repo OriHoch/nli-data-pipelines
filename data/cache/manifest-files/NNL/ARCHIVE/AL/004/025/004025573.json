@@ -1,0 +1,103 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004025573/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "Ambassador of Philipines, Ettha Ci.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Ambassador of Philipines, Ettha Ci."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Meir Kfir photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004025573"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004025573"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004025573/sequence/IE45829588",
+      "@type": "sc:Sequence",
+      "label": "Ambassador of Philipines  Ettha Ci.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45829624",
+          "@type": "sc:Canvas",
+          "label": "Ambassador of Philipines  Ettha Ci.",
+          "width": 1304,
+          "height": 1972,
+          "images": [
+            {
+              "@id": "FL45829624",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45829624",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45829624/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Ambassador of Philipines  Ettha Ci.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45829624",
+                  "label": "Ambassador of Philipines  Ettha Ci.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1972,
+                "width": 1304
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45829623",
+      "@type": "sc:Range",
+      "label": "REP45829623",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45829624",
+          "@type": "sc:Canvas",
+          "label": "Ambassador of Philipines  Ettha Ci."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004025573",
+  "viewingHint": "paged"
+}

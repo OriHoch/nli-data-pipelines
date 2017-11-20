@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029653/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Ben-Porat, Miriam -- Photographs",
+  "label": "STATE COMTROLLER ISUES REPORT.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "STATE COMTROLLER ISUES REPORT."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Ben-Porat, Miriam -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Eli Harati photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029653"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029653"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029653/sequence/IE45874909",
+      "@type": "sc:Sequence",
+      "label": "STATE COMTROLLER ISUES REPORT.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45874945",
+          "@type": "sc:Canvas",
+          "label": "STATE COMTROLLER ISUES REPORT.",
+          "width": 1456,
+          "height": 2088,
+          "images": [
+            {
+              "@id": "FL45874945",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45874945",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45874945/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "STATE COMTROLLER ISUES REPORT.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45874945",
+                  "label": "STATE COMTROLLER ISUES REPORT.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2088,
+                "width": 1456
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45874944",
+      "@type": "sc:Range",
+      "label": "REP45874944",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45874945",
+          "@type": "sc:Canvas",
+          "label": "STATE COMTROLLER ISUES REPORT."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029653",
+  "viewingHint": "paged"
+}

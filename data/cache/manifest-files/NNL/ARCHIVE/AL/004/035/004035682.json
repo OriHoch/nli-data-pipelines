@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004035682/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "להקת שייקספיר המצומצם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "להקת שייקספיר המצומצם."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Zeev Ackerman photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004035682"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Shakespeare Reduced."
+    },
+    {
+      "label": "SysNum",
+      "value": "004035682"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004035682/sequence/IE45909847",
+      "@type": "sc:Sequence",
+      "label": "להקת שייקספיר המצומצם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45909874",
+          "@type": "sc:Canvas",
+          "label": "להקת שייקספיר המצומצם.",
+          "width": 1902,
+          "height": 1331,
+          "images": [
+            {
+              "@id": "FL45909874",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45909874",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45909874/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "להקת שייקספיר המצומצם.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45909874",
+                  "label": "להקת שייקספיר המצומצם.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1331,
+                "width": 1902
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45909873",
+      "@type": "sc:Range",
+      "label": "REP45909873",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45909874",
+          "@type": "sc:Canvas",
+          "label": "להקת שייקספיר המצומצם."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004035682",
+  "viewingHint": "paged"
+}

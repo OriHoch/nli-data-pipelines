@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004034397/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Kaul, Itzhak -- Photographs",
+  "label": "חברת בזק.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת בזק."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Kaul, Itzhak -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Vered Peer photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004034397"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Bezek."
+    },
+    {
+      "label": "SysNum",
+      "value": "004034397"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004034397/sequence/IE45911220",
+      "@type": "sc:Sequence",
+      "label": "חברת בזק.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45911252",
+          "@type": "sc:Canvas",
+          "label": "חברת בזק.",
+          "width": 3441,
+          "height": 2433,
+          "images": [
+            {
+              "@id": "FL45911252",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45911252",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45911252/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת בזק.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45911252",
+                  "label": "חברת בזק.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2433,
+                "width": 3441
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45911250",
+      "@type": "sc:Range",
+      "label": "REP45911250",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45911252",
+          "@type": "sc:Canvas",
+          "label": "חברת בזק."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004034397",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004038866/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Nathan, Abie, 1927-2008 -- Photographs",
+  "label": "Abe Nathan, preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Abe Nathan, preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Nathan, Abie, 1927-2008 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Gideon Markowiz photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004038866"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004038866"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004038866/sequence/IE45746478",
+      "@type": "sc:Sequence",
+      "label": "Abe Nathan  preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45746497",
+          "@type": "sc:Canvas",
+          "label": "Abe Nathan  preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant.",
+          "width": 1775,
+          "height": 1272,
+          "images": [
+            {
+              "@id": "FL45746497",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45746497",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45746497/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Abe Nathan  preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45746497",
+                  "label": "Abe Nathan  preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1272,
+                "width": 1775
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45746496",
+      "@type": "sc:Range",
+      "label": "REP45746496",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45746497",
+          "@type": "sc:Canvas",
+          "label": "Abe Nathan  preparing an India meal with the support of Rina Pushkarna owner of a chain India restaurant."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004038866",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004019288/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Sidon (Lebanon) -- Photographs",
+  "label": "A street in Sidon.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "A street in Sidon."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Sidon (Lebanon) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Emanuel Dudai photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004019288"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004019288"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004019288/sequence/IE45851851",
+      "@type": "sc:Sequence",
+      "label": "A street in Sidon.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45851885",
+          "@type": "sc:Canvas",
+          "label": "A street in Sidon.",
+          "width": 3367,
+          "height": 1983,
+          "images": [
+            {
+              "@id": "FL45851885",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45851885",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45851885/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "A street in Sidon.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45851885",
+                  "label": "A street in Sidon.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1983,
+                "width": 3367
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45851882",
+      "@type": "sc:Range",
+      "label": "REP45851882",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45851885",
+          "@type": "sc:Canvas",
+          "label": "A street in Sidon."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004019288",
+  "viewingHint": "paged"
+}

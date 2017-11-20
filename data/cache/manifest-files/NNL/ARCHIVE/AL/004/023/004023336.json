@@ -1,0 +1,107 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004023336/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "label": "חברת אסם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חברת אסם."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Dan Hadani photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004023336"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b/w ; 35 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Comp Osem."
+    },
+    {
+      "label": "SysNum",
+      "value": "004023336"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004023336/sequence/IE50348793",
+      "@type": "sc:Sequence",
+      "label": "חברת אסם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50348797",
+          "@type": "sc:Canvas",
+          "label": "חברת אסם.",
+          "width": 3352,
+          "height": 2112,
+          "images": [
+            {
+              "@id": "FL50348797",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL50348797",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL50348797/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "חברת אסם.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL50348797",
+                  "label": "חברת אסם.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2112,
+                "width": 3352
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP50348796",
+      "@type": "sc:Range",
+      "label": "REP50348796",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL50348797",
+          "@type": "sc:Canvas",
+          "label": "חברת אסם."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004023336",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL004029417/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "הספרייה הלאומית, מארכיון דן הדני. יוצר/ים: [יש לציין את שם היוצר/ים]. אם שם היוצר/ים אינו ידוע יש לציין: יוצר/ים: צוות יפפא The National Library of Israel, from Dan Hadani's Archive. Photographer: [Photographer's Name] If the photographer's name is not known please indicate IPPA Staff as the Photographer"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-fair-use.aspx"
+  ],
+  "description": "Lavie, Arik, 1927-2004 -- Photographs",
+  "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Lavie, Arik, 1927-2004 -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Israel Simionski photographer"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL004029417"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : color ; 35 mm.."
+    },
+    {
+      "label": "SysNum",
+      "value": "004029417"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL004029417/sequence/IE45861477",
+      "@type": "sc:Sequence",
+      "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45861529",
+          "@type": "sc:Canvas",
+          "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv.",
+          "width": 1443,
+          "height": 2107,
+          "images": [
+            {
+              "@id": "FL45861529",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45861529",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45861529/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv.",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45861529",
+                  "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv.",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2107,
+                "width": 1443
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45861526",
+      "@type": "sc:Range",
+      "label": "REP45861526",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45861529",
+          "@type": "sc:Canvas",
+          "label": "Arik Lavie performing with his wife Shosh Shani at Tzavta in Tel Aviv."
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL004029417",
+  "viewingHint": "paged"
+}
