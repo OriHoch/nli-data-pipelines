@@ -1,0 +1,139 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924789/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "اقرارنامه (قطعه)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "اقرارنامه (قطعه)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924789"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Acknowledgement deed (fragment)."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924789"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924789/sequence/IE40238244",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 8333.70=4 ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238323",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r",
+          "width": 3817,
+          "height": 5170,
+          "images": [
+            {
+              "@id": "FL40238323",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40238323",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40238323/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40238323",
+                  "label": "Frag. [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5170,
+                "width": 3817
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238334",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v",
+          "width": 3719,
+          "height": 5117,
+          "images": [
+            {
+              "@id": "FL40238334",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40238334",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40238334/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40238334",
+                  "label": "Frag. [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5117,
+                "width": 3719
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924789/sequence/IE45508210",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.70=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP40238320",
+      "@type": "sc:Range",
+      "label": "REP40238320",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238323",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238334",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924789",
+  "viewingHint": "paged"
+}

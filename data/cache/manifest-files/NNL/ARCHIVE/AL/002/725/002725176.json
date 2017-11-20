@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002725176/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "בית מדרש לרבנים ירושלים תובב\"א שנת אעת\"ר. -תלמידים ומורים בבית המדרש לרבנים של חברת העזרה בירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בית מדרש לרבנים ירושלים תובב\"א שנת אעת\"ר. -תלמידים ומורים בבית המדרש לרבנים של חברת העזרה בירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002725176"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 225 X 285 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "תלמידים ומורים בבית המדרש לרבנים של חברת העזרה בירושלים",
+        "Students and Teachers of \"Ezra\" Rabbinical Institute in Jerusalem."
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002725176"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002725176/sequence/IE19145864",
+      "@type": "sc:Sequence",
+      "label": "בית מדרש לרבנים ירושלים תובב\"א שנת אעת\"ר.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169019",
+          "@type": "sc:Canvas",
+          "label": "002725176-R",
+          "width": 800,
+          "height": 640,
+          "images": [
+            {
+              "@id": "FL19169019",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169019",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169019/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725176-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169019",
+                  "label": "002725176-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 640,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169012",
+          "@type": "sc:Canvas",
+          "label": "002725176-V",
+          "width": 800,
+          "height": 636,
+          "images": [
+            {
+              "@id": "FL19169012",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169012",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169012/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725176-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169012",
+                  "label": "002725176-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 636,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169011",
+      "@type": "sc:Range",
+      "label": "REP19169011",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169019",
+          "@type": "sc:Canvas",
+          "label": "002725176-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169012",
+          "@type": "sc:Canvas",
+          "label": "002725176-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002725176",
+  "viewingHint": "paged"
+}

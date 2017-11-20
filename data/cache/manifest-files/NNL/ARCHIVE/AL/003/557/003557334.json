@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003557334/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Migdal (Israel) -- Photographs",
+  "label": "תלמידי בית הספר במושבה מגדל ממתינים לקבל את פניו של לורד מלצ'ט.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תלמידי בית הספר במושבה מגדל ממתינים לקבל את פניו של לורד מלצ'ט."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Migdal (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003557334"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 88X136 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Teachers and pupils of the Migdal elementary school waiting to welcome Sir Alfred Mond on his visit to the Colony]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003557334"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003557334/sequence/IE19144638",
+      "@type": "sc:Sequence",
+      "label": "תלמידי בית הספר במושבה מגדל ממתינים לקבל את פניו של לורד מלצ'ט.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166189",
+          "@type": "sc:Canvas",
+          "label": "003557334-R",
+          "width": 800,
+          "height": 527,
+          "images": [
+            {
+              "@id": "FL19166189",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166189",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166189/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003557334-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166189",
+                  "label": "003557334-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 527,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166188",
+          "@type": "sc:Canvas",
+          "label": "003557334-V",
+          "width": 800,
+          "height": 521,
+          "images": [
+            {
+              "@id": "FL19166188",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166188",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166188/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003557334-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166188",
+                  "label": "003557334-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 521,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166187",
+      "@type": "sc:Range",
+      "label": "REP19166187",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166189",
+          "@type": "sc:Canvas",
+          "label": "003557334-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166188",
+          "@type": "sc:Canvas",
+          "label": "003557334-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003557334",
+  "viewingHint": "paged"
+}

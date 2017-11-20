@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573984/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Photographs",
+  "label": "אמת המים הרומית בצד כביש עכו - נהריה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אמת המים הרומית בצד כביש עכו - נהריה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573984"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 124 X 160 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Roman aqueduct on the road Naharia-Acre, 1944]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573984"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573984/sequence/IE19144437",
+      "@type": "sc:Sequence",
+      "label": "אמת המים הרומית בצד כביש עכו - נהריה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169175",
+          "@type": "sc:Canvas",
+          "label": "003573984-R",
+          "width": 625,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169175",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169175",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169175/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573984-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169175",
+                  "label": "003573984-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 625
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169178",
+          "@type": "sc:Canvas",
+          "label": "003573984-V",
+          "width": 617,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169178",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169178",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169178/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573984-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169178",
+                  "label": "003573984-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 617
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169174",
+      "@type": "sc:Range",
+      "label": "REP19169174",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169175",
+          "@type": "sc:Canvas",
+          "label": "003573984-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169178",
+          "@type": "sc:Canvas",
+          "label": "003573984-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573984",
+  "viewingHint": "paged"
+}

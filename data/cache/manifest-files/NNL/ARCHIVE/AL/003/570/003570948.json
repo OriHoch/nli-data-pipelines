@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003570948/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "חיים ויצמן ודניאל אוסטר. -[Chaim Weizmann and Daniel Oster] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חיים ויצמן ודניאל אוסטר. -[Chaim Weizmann and Daniel Oster] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אורון, צבי, 1888-1980 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003570948"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 118 X 145 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Chaim Weizmann and Daniel Oster]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003570948"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003570948/sequence/IE19373064",
+      "@type": "sc:Sequence",
+      "label": "חיים ויצמן ודניאל אוסטר.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377702",
+          "@type": "sc:Canvas",
+          "label": "003570948-1",
+          "width": 648,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19377702",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377702",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377702/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570948-1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377702",
+                  "label": "003570948-1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 648
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377703",
+          "@type": "sc:Canvas",
+          "label": "003570948-2",
+          "width": 643,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19377703",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377703",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377703/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570948-2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377703",
+                  "label": "003570948-2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 643
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19377701",
+      "@type": "sc:Range",
+      "label": "REP19377701",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377702",
+          "@type": "sc:Canvas",
+          "label": "003570948-1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377703",
+          "@type": "sc:Canvas",
+          "label": "003570948-2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003570948",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003791233/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Philosophy -- Early works to 1800; Bible. Daniel",
+  "label": "Draft section of the Chronology of Ancient Kingdoms Amended and of a treatise on Daniel.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Draft section of the Chronology of Ancient Kingdoms Amended and of a treatise on Daniel."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Philosophy -- Early works to 1800; Bible. Daniel"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Isaac Newton Sir, 1642-1727"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003791233"
+    },
+    {
+      "label": "Creation Date",
+      "value": "171-"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 f.."
+    },
+    {
+      "label": "Language",
+      "value": "lat;eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "003791233"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003791233/sequence/IE8577031",
+      "@type": "sc:Sequence",
+      "label": "Newton Papers 25.1a X",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8771090",
+          "@type": "sc:Canvas",
+          "label": "001r",
+          "width": 2466,
+          "height": 3740,
+          "images": [
+            {
+              "@id": "FL8771090",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8771090",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8771090/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8771090",
+                  "label": "001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3740,
+                "width": 2466
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8771089",
+          "@type": "sc:Canvas",
+          "label": "001v",
+          "width": 2466,
+          "height": 3740,
+          "images": [
+            {
+              "@id": "FL8771089",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8771089",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8771089/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8771089",
+                  "label": "001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3740,
+                "width": 2466
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP8771088",
+      "@type": "sc:Range",
+      "label": "REP8771088",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8771090",
+          "@type": "sc:Canvas",
+          "label": "001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8771089",
+          "@type": "sc:Canvas",
+          "label": "001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003791233",
+  "viewingHint": "paged"
+}

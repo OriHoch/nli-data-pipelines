@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003488672/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "בנייני האוניברסיטה העברית על הר הצופים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בנייני האוניברסיטה העברית על הר הצופים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003488672"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 99 X 159 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[North-western corner of the Hebrew University campus on Mount Scopus, Jerusalem.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003488672"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003488672/sequence/IE19145390",
+      "@type": "sc:Sequence",
+      "label": "בנייני האוניברסיטה העברית על הר הצופים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166364",
+          "@type": "sc:Canvas",
+          "label": "003488672-R",
+          "width": 800,
+          "height": 499,
+          "images": [
+            {
+              "@id": "FL19166364",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166364",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166364/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003488672-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166364",
+                  "label": "003488672-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 499,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166371",
+          "@type": "sc:Canvas",
+          "label": "003488672-V",
+          "width": 800,
+          "height": 499,
+          "images": [
+            {
+              "@id": "FL19166371",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166371",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166371/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003488672-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166371",
+                  "label": "003488672-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 499,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166362",
+      "@type": "sc:Range",
+      "label": "REP19166362",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166364",
+          "@type": "sc:Canvas",
+          "label": "003488672-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166371",
+          "@type": "sc:Canvas",
+          "label": "003488672-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003488672",
+  "viewingHint": "paged"
+}

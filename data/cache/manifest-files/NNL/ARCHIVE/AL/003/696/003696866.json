@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003696866/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "חברת \"לבנון\" ווארשא; Haifa (Israel)",
+  "label": "הנחת אבן הפנה של הטיכניקום בחיפה, אביב תרע\"ב. -Die Grundsteinlegung [des Technion] in Caife im Frühjahr 1912. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנחת אבן הפנה של הטיכניקום בחיפה, אביב תרע\"ב. -Die Grundsteinlegung [des Technion] in Caife im Frühjahr 1912. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "חברת \"לבנון\" ווארשא; Haifa (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003696866"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w, sepia ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Die Grundsteinlegung [des Technion] in Caife im Frühjahr 1912."
+    },
+    {
+      "label": "SysNum",
+      "value": "003696866"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003696866/sequence/IE16615186",
+      "@type": "sc:Sequence",
+      "label": "הנחת אבן הפנה של הטיכניקום בחיפה  אביב תרע\"ב.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33391476",
+          "@type": "sc:Canvas",
+          "label": "3696866-10_R",
+          "width": 800,
+          "height": 514,
+          "images": [
+            {
+              "@id": "FL33391476",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33391476",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33391476/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3696866-10_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33391476",
+                  "label": "3696866-10_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 514,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33391475",
+          "@type": "sc:Canvas",
+          "label": "3696866-10_V",
+          "width": 800,
+          "height": 514,
+          "images": [
+            {
+              "@id": "FL33391475",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL33391475",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL33391475/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3696866-10_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL33391475",
+                  "label": "3696866-10_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 514,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP33391474",
+      "@type": "sc:Range",
+      "label": "REP33391474",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33391476",
+          "@type": "sc:Canvas",
+          "label": "3696866-10_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL33391475",
+          "@type": "sc:Canvas",
+          "label": "3696866-10_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003696866",
+  "viewingHint": "paged"
+}

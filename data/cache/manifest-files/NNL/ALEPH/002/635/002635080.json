@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002635080/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "נביאים (יחזקאל כג:י - כג:מט).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נביאים (יחזקאל כג:י - כג:מט)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002635080"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ד-ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 33.6X21.8 ס\"מ..; דף קלף שלם, 3 טורים לעמוד,29 שורות לטור. מידות השטח הכתוב 22X16.2 ס\"מ. עבר שימוש משני כחומר כריכה.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002635080"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002635080/sequence/IE39696113",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 7903=24",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696131",
+          "@type": "sc:Canvas",
+          "label": "Columns. [001-003]",
+          "width": 4395,
+          "height": 7718,
+          "images": [
+            {
+              "@id": "FL39696131",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696131",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696131/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Columns. [001-003]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696131",
+                  "label": "Columns. [001-003]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7718,
+                "width": 4395
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696133",
+          "@type": "sc:Canvas",
+          "label": "Columns. [004-006]",
+          "width": 4395,
+          "height": 7718,
+          "images": [
+            {
+              "@id": "FL39696133",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696133",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696133/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Columns. [004-006]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696133",
+                  "label": "Columns. [004-006]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7718,
+                "width": 4395
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39696130",
+      "@type": "sc:Range",
+      "label": "REP39696130",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696131",
+          "@type": "sc:Canvas",
+          "label": "Columns. [001-003]"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696133",
+          "@type": "sc:Canvas",
+          "label": "Columns. [004-006]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002635080",
+  "viewingHint": "paged"
+}

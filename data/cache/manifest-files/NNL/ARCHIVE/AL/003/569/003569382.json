@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003569382/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "תבליט המנורה שהעתקתי מהאבן השקועה בעמוד בבית הכנסת בפקיעין.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תבליט המנורה שהעתקתי מהאבן השקועה בעמוד בבית הכנסת בפקיעין."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003569382"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Relief of the Menorah found by Itzhak Ben Zvi at the ancient synagogue of Peqiin]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003569382"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003569382/sequence/IE19144178",
+      "@type": "sc:Sequence",
+      "label": "תבליט המנורה שהעתקתי מהאבן השקועה בעמוד בבית הכנסת בפקיעין.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166774",
+          "@type": "sc:Canvas",
+          "label": "003569382-R",
+          "width": 507,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166774",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166774",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166774/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569382-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166774",
+                  "label": "003569382-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 507
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166775",
+          "@type": "sc:Canvas",
+          "label": "003569382-V",
+          "width": 800,
+          "height": 518,
+          "images": [
+            {
+              "@id": "FL19166775",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166775",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166775/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569382-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166775",
+                  "label": "003569382-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 518,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166773",
+      "@type": "sc:Range",
+      "label": "REP19166773",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166774",
+          "@type": "sc:Canvas",
+          "label": "003569382-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166775",
+          "@type": "sc:Canvas",
+          "label": "003569382-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003569382",
+  "viewingHint": "paged"
+}

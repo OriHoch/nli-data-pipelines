@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924822/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "برات (صفحۀ ا)؛ سند رسمی (فرمان؟؛ صفحۀ ب)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "برات (صفحۀ ا)؛ سند رسمی (فرمان؟؛ صفحۀ ب)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924822"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 leaf ; 98X100 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Receipt (side a); Official document (decree?; side b)."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924822"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924822/sequence/IE40238914",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 8333.86=4 ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238983",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r",
+          "width": 3719,
+          "height": 2982,
+          "images": [
+            {
+              "@id": "FL40238983",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40238983",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40238983/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40238983",
+                  "label": "Frag. [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2982,
+                "width": 3719
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40239005",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v",
+          "width": 3719,
+          "height": 2982,
+          "images": [
+            {
+              "@id": "FL40239005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40239005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40239005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40239005",
+                  "label": "Frag. [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2982,
+                "width": 3719
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP40238981",
+      "@type": "sc:Range",
+      "label": "REP40238981",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238983",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40239005",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924822",
+  "viewingHint": "paged"
+}

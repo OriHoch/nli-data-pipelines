@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003704929/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tomb of David (Jerusalem, Israel) -- Pictorial works; Zion, Mount (Jerusalem, Israel) -- Pictorial works",
+  "label": "הר ציון - ירושלים: קבר דוד המלך.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הר ציון - ירושלים: קבר דוד המלך."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tomb of David (Jerusalem, Israel) -- Pictorial works; Zion, Mount (Jerusalem, Israel) -- Pictorial works"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003704929"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "2 postcards : b&w ; 100 X 146 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Mt. Zion - Jerusalem: Tomb of King David."
+    },
+    {
+      "label": "SysNum",
+      "value": "003704929"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003704929/sequence/IE16095456",
+      "@type": "sc:Sequence",
+      "label": "הר ציון - ירושלים: קבר דוד המלך.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156404",
+          "@type": "sc:Canvas",
+          "label": "3704929-10_r",
+          "width": 800,
+          "height": 555,
+          "images": [
+            {
+              "@id": "FL16156404",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156404",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156404/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3704929-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156404",
+                  "label": "3704929-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 555,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156405",
+          "@type": "sc:Canvas",
+          "label": "3704929-10_v",
+          "width": 800,
+          "height": 556,
+          "images": [
+            {
+              "@id": "FL16156405",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156405",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156405/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3704929-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156405",
+                  "label": "3704929-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 556,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156403",
+      "@type": "sc:Range",
+      "label": "REP16156403",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156404",
+          "@type": "sc:Canvas",
+          "label": "3704929-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156405",
+          "@type": "sc:Canvas",
+          "label": "3704929-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003704929",
+  "viewingHint": "paged"
+}

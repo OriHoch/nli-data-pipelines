@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002725675/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rehovot (Israel) -- Photographs",
+  "label": "Rechoboth, 1902: Schule. -המורים והתלמידים בבית הספר העממי במושבה רחובות [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Rechoboth, 1902: Schule. -המורים והתלמידים בבית הספר העממי במושבה רחובות [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rehovot (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002725675"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 20 X 25 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "המורים והתלמידים בבית הספר העממי במושבה רחובות",
+        "The Teachers and Pupils of the Elementary School in Rehovot"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002725675"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002725675/sequence/IE19145876",
+      "@type": "sc:Sequence",
+      "label": "Rechoboth  1902: Schule.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165834",
+          "@type": "sc:Canvas",
+          "label": "002725675-R",
+          "width": 800,
+          "height": 647,
+          "images": [
+            {
+              "@id": "FL19165834",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165834",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165834/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725675-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165834",
+                  "label": "002725675-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 647,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165840",
+          "@type": "sc:Canvas",
+          "label": "002725675-V",
+          "width": 800,
+          "height": 641,
+          "images": [
+            {
+              "@id": "FL19165840",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165840",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165840/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725675-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165840",
+                  "label": "002725675-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 641,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165833",
+      "@type": "sc:Range",
+      "label": "REP19165833",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165834",
+          "@type": "sc:Canvas",
+          "label": "002725675-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165840",
+          "@type": "sc:Canvas",
+          "label": "002725675-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002725675",
+  "viewingHint": "paged"
+}

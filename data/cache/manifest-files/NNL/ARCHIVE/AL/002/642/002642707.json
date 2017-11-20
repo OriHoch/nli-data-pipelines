@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002642707/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rishon Letsiyon (Israel) -- Photographs",
+  "label": "ועד בית העם והספריה בראשון לציון",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ועד בית העם והספריה בראשון לציון"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rishon Letsiyon (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002642707"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 12.5 X 12 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[The library and culture house committee in Rishon le Zion]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002642707"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002642707/sequence/IE19143864",
+      "@type": "sc:Sequence",
+      "label": "ועד בית העם והספריה בראשון לציון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168400",
+          "@type": "sc:Canvas",
+          "label": "002642707-R",
+          "width": 800,
+          "height": 744,
+          "images": [
+            {
+              "@id": "FL19168400",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168400",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168400/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002642707-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168400",
+                  "label": "002642707-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 744,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168395",
+          "@type": "sc:Canvas",
+          "label": "002642707-V",
+          "width": 800,
+          "height": 746,
+          "images": [
+            {
+              "@id": "FL19168395",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168395",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168395/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002642707-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168395",
+                  "label": "002642707-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 746,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168394",
+      "@type": "sc:Range",
+      "label": "REP19168394",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168400",
+          "@type": "sc:Canvas",
+          "label": "002642707-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168395",
+          "@type": "sc:Canvas",
+          "label": "002642707-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002642707",
+  "viewingHint": "paged"
+}

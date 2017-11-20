@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003674277/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "שוטר פלשתינאי ברחוב יפו, ירושלים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שוטר פלשתינאי ברחוב יפו, ירושלים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003674277"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 82 X 107 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Palestinian Policeman in Jaffa Street, Jerusalem]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003674277"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003674277/sequence/IE19145150",
+      "@type": "sc:Sequence",
+      "label": "שוטר פלשתינאי ברחוב יפו  ירושלים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167223",
+          "@type": "sc:Canvas",
+          "label": "003674277-R",
+          "width": 800,
+          "height": 624,
+          "images": [
+            {
+              "@id": "FL19167223",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167223",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167223/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003674277-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167223",
+                  "label": "003674277-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 624,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167225",
+          "@type": "sc:Canvas",
+          "label": "003674277-V",
+          "width": 800,
+          "height": 621,
+          "images": [
+            {
+              "@id": "FL19167225",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167225",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167225/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003674277-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167225",
+                  "label": "003674277-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 621,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167222",
+      "@type": "sc:Range",
+      "label": "REP19167222",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167223",
+          "@type": "sc:Canvas",
+          "label": "003674277-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167225",
+          "@type": "sc:Canvas",
+          "label": "003674277-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003674277",
+  "viewingHint": "paged"
+}

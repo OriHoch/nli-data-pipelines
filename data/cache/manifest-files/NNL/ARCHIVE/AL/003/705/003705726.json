@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003705726/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Herzl, Mount (Jerusalem, Israel) -- Photographs",
+  "label": "ירושלים: הכניסה להר הרצל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ירושלים: הכניסה להר הרצל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Herzl, Mount (Jerusalem, Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003705726"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 100 X 146 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Jerusalem: Entrance to Mt. Herzl."
+    },
+    {
+      "label": "SysNum",
+      "value": "003705726"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003705726/sequence/IE16095831",
+      "@type": "sc:Sequence",
+      "label": "ירושלים: הכניסה להר הרצל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157043",
+          "@type": "sc:Canvas",
+          "label": "3705726-10_r",
+          "width": 800,
+          "height": 537,
+          "images": [
+            {
+              "@id": "FL16157043",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157043",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157043/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3705726-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157043",
+                  "label": "3705726-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 537,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157044",
+          "@type": "sc:Canvas",
+          "label": "3705726-10_v",
+          "width": 800,
+          "height": 549,
+          "images": [
+            {
+              "@id": "FL16157044",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157044",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157044/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3705726-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157044",
+                  "label": "3705726-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 549,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157042",
+      "@type": "sc:Range",
+      "label": "REP16157042",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157043",
+          "@type": "sc:Canvas",
+          "label": "3705726-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157044",
+          "@type": "sc:Canvas",
+          "label": "3705726-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003705726",
+  "viewingHint": "paged"
+}

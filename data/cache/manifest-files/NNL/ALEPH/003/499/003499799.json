@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003499799/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "אגרת מסחרית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אגרת מסחרית."
+    },
+    {
+      "label": "Contributor",
+      "value": "סתדום, משה (מוזכר) ; אבו אלעבס (מוזכר)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003499799"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י'-י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 330X270 מ\"מ..; דף נייר קרוע בצידו. מקופל לרחבו פעמים רבות.."
+    },
+    {
+      "label": "Language",
+      "value": "jpr;ara"
+    },
+    {
+      "label": "SysNum",
+      "value": "003499799"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003499799/sequence/IE9282724",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8333.5=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9693412",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 4895,
+          "height": 3995,
+          "images": [
+            {
+              "@id": "FL9693412",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9693412",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9693412/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9693412",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3995,
+                "width": 4895
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9693411",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 4891,
+          "height": 3892,
+          "images": [
+            {
+              "@id": "FL9693411",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9693411",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9693411/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9693411",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3892,
+                "width": 4891
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9693410",
+      "@type": "sc:Range",
+      "label": "REP9693410",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9693412",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9693411",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003499799",
+  "viewingHint": "paged"
+}

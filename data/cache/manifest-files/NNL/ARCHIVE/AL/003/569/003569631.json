@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003569631/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "Yishuv celebrates Jewish State Decision.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Yishuv celebrates Jewish State Decision."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "יונס, רודולף, 1898-1972 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003569631"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 88 X 91 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[חגיגות כ\"ט בנובמבר בחצר בנייני המוסדות הלאומיים]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003569631"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003569631/sequence/IE19145414",
+      "@type": "sc:Sequence",
+      "label": "Yishuv celebrates Jewish State Decision.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166530",
+          "@type": "sc:Canvas",
+          "label": "003569631-R",
+          "width": 729,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166530",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166530",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166530/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569631-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166530",
+                  "label": "003569631-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 729
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166527",
+          "@type": "sc:Canvas",
+          "label": "003569631-V",
+          "width": 727,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166527",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166527",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166527/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569631-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166527",
+                  "label": "003569631-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 727
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166526",
+      "@type": "sc:Range",
+      "label": "REP19166526",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166530",
+          "@type": "sc:Canvas",
+          "label": "003569631-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166527",
+          "@type": "sc:Canvas",
+          "label": "003569631-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003569631",
+  "viewingHint": "paged"
+}

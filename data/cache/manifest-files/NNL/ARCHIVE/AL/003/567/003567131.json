@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003567131/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jaffa (Tel Aviv-Yafo, Israel) -- Photographs",
+  "label": "שמריה לוין, אהרן אהרנסון ויוסף לוריה לפני מלון הרדג, יפו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שמריה לוין, אהרן אהרנסון ויוסף לוריה לפני מלון הרדג, יפו."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jaffa (Tel Aviv-Yafo, Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003567131"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 95 X 135 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Shmaria Levin, Aaron Aaronsohn and Joseph Luria in front of Hardegg Hotel in Jaffa]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003567131"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003567131/sequence/IE19144060",
+      "@type": "sc:Sequence",
+      "label": "שמריה לוין  אהרן אהרנסון ויוסף לוריה לפני מלון הרדג  יפו.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166545",
+          "@type": "sc:Canvas",
+          "label": "003567131-R",
+          "width": 800,
+          "height": 562,
+          "images": [
+            {
+              "@id": "FL19166545",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166545",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166545/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567131-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166545",
+                  "label": "003567131-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 562,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166544",
+          "@type": "sc:Canvas",
+          "label": "003567131-V",
+          "width": 800,
+          "height": 555,
+          "images": [
+            {
+              "@id": "FL19166544",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166544",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166544/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567131-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166544",
+                  "label": "003567131-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 555,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166543",
+      "@type": "sc:Range",
+      "label": "REP19166543",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166545",
+          "@type": "sc:Canvas",
+          "label": "003567131-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166544",
+          "@type": "sc:Canvas",
+          "label": "003567131-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003567131",
+  "viewingHint": "paged"
+}

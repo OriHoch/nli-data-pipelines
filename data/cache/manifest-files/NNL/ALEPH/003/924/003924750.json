@@ -1,0 +1,176 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924750/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "סליחה (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סליחה (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "אברהם בן דניאל (בעלים)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924750"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1. ; 160X190 מ\"נמ..; דף מרובע פגום בפינה עליונה חיצונית. 7 שורות לעמוד. נקודות מעל פראזות מקראיות. מסמן הפסקה בעיגול ובתוכו נקודה. לפחות טור אחד הושלם בגליון בראש צד א'. מידות השטח הכתוב 112X150 מ\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003924750"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924750/sequence/IE45507991",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.221=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508001",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto",
+          "width": 4767,
+          "height": 3972,
+          "images": [
+            {
+              "@id": "FL45508001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508001",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508001/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508001",
+                  "label": "Fragment recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3972,
+                "width": 4767
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508002",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso",
+          "width": 4767,
+          "height": 3928,
+          "images": [
+            {
+              "@id": "FL45508002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508002",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508002/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508002",
+                  "label": "Fragment verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3928,
+                "width": 4767
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508004",
+          "@type": "sc:Canvas",
+          "label": "color",
+          "width": 4965,
+          "height": 5517,
+          "images": [
+            {
+              "@id": "FL45508004",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508004",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508004/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508004",
+                  "label": "color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5517,
+                "width": 4965
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45507999",
+      "@type": "sc:Range",
+      "label": "REP45507999",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508001",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508002",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508004",
+          "@type": "sc:Canvas",
+          "label": "color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924750",
+  "viewingHint": "paged"
+}

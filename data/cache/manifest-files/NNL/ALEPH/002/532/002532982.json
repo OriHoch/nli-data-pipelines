@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002532982/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "מעשה בית דין. דמיאט. 1130.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מעשה בית דין. דמיאט. 1130."
+    },
+    {
+      "label": "Contributor",
+      "value": "סעדיה בן חלפון הלוי (מוזכר) ; הלל בן יחזקאל (מוזכר) ; חלפון בן מנשה, הלוי (מעתיק) ; אלעזר בן יוסף המלמד (מוזכר) ; מצליח בן שלמה הכהן, גאון (מוזכר)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002532982"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1130"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 12X16 ס\"מ..; דף נייר פגום מעט בקצוות, חסר מלמטה ועל קו הקיפול שבאמצע. כתוב כולו ללא שוליים, 26 שורות. צד ב' כתיבה אחרת, שנכתב לרוחב, לאחר קיפול הדף וחצייתו לשני דפים, יוצר.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;ara"
+    },
+    {
+      "label": "SysNum",
+      "value": "002532982"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002532982/sequence/IE19213897",
+      "@type": "sc:Sequence",
+      "label": "מעשה בית דין. דמיאט. 1130.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19217002",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL19217002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19217002",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19217002/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19217002",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19217003",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL19217003",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19217003",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19217003/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19217003",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19217001",
+      "@type": "sc:Range",
+      "label": "REP19217001",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19217002",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19217003",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002532982",
+  "viewingHint": "paged"
+}

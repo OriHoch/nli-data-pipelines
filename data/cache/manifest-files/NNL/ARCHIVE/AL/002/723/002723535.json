@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002723535/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "[גלאב פשה, עבדאללה מלך ירדן וגנרל ברקר בירושלים, 1947]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[גלאב פשה, עבדאללה מלך ירדן וגנרל ברקר בירושלים, 1947]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אורון, צבי, 1888-1980 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002723535"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 12 X 17 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Glubb Pasha, King Abdullah of Jordan and General Barker in Jerusalem, 1947]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002723535"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002723535/sequence/IE19145816",
+      "@type": "sc:Sequence",
+      "label": "[גלאב פשה  עבדאללה מלך ירדן וגנרל ברקר בירושלים  1947]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165737",
+          "@type": "sc:Canvas",
+          "label": "002723535-R",
+          "width": 568,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19165737",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165737",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165737/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723535-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165737",
+                  "label": "002723535-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 568
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165735",
+          "@type": "sc:Canvas",
+          "label": "002723535-V",
+          "width": 800,
+          "height": 575,
+          "images": [
+            {
+              "@id": "FL19165735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723535-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165735",
+                  "label": "002723535-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 575,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165734",
+      "@type": "sc:Range",
+      "label": "REP19165734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165737",
+          "@type": "sc:Canvas",
+          "label": "002723535-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165735",
+          "@type": "sc:Canvas",
+          "label": "002723535-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002723535",
+  "viewingHint": "paged"
+}

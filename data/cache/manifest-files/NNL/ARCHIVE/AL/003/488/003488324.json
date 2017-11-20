@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003488324/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "ביקור הרב קוק בקבוצת \"עבודת ישראל\" על הר הכרמל, תרפ\"ה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור הרב קוק בקבוצת \"עבודת ישראל\" על הר הכרמל, תרפ\"ה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "פייגין, צבי, 1884-1962 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003488324"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 124 X 173 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Rabbi Kook visiting \"Avodath Israel\" Hassidic Farmrers Group on Mount Carmel, 1925]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003488324"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003488324/sequence/IE19145159",
+      "@type": "sc:Sequence",
+      "label": "ביקור הרב קוק בקבוצת \"עבודת ישראל\" על הר הכרמל  תרפ\"ה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169327",
+          "@type": "sc:Canvas",
+          "label": "003488324-R",
+          "width": 800,
+          "height": 643,
+          "images": [
+            {
+              "@id": "FL19169327",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169327",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169327/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003488324-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169327",
+                  "label": "003488324-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 643,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169330",
+          "@type": "sc:Canvas",
+          "label": "003488324-V",
+          "width": 800,
+          "height": 638,
+          "images": [
+            {
+              "@id": "FL19169330",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169330",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169330/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003488324-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169330",
+                  "label": "003488324-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 638,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169326",
+      "@type": "sc:Range",
+      "label": "REP19169326",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169327",
+          "@type": "sc:Canvas",
+          "label": "003488324-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169330",
+          "@type": "sc:Canvas",
+          "label": "003488324-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003488324",
+  "viewingHint": "paged"
+}

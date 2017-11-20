@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003526095/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "זרחיה בן יצחק, הלוי, 1125?-1186. בדק הבית; Jewish law",
+  "label": "משמרת הבית (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משמרת הבית (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלוני, נחמיה, 1906-1983 בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "זרחיה בן יצחק, הלוי, 1125?-1186. בדק הבית; Jewish law"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אדרת, שלמה בן אברהם אבן (רשב\"א), 1235-1310"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003526095"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ד-ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע ; 21 ס\"מ רוחב..; החצי התחתון של דף נייר. שרדו 14 שורות לעמוד. רוחב שורה 13.5 ס\"מ. שומר סרגל שמאל בעזרת השאלת 1- 2 אותיות מהשורה הבאה. אפשר שעבר שימוש משני כחומר כריכה.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003526095"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003526095/sequence/IE2642889",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8385.23=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298741",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5112,
+          "height": 4416,
+          "images": [
+            {
+              "@id": "FL5298741",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5298741",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5298741/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5298741",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4416,
+                "width": 5112
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298756",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5112,
+          "height": 4416,
+          "images": [
+            {
+              "@id": "FL5298756",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5298756",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5298756/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5298756",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4416,
+                "width": 5112
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5298740",
+      "@type": "sc:Range",
+      "label": "REP5298740",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298741",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298756",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003526095",
+  "viewingHint": "paged"
+}

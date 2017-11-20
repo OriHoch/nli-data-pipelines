@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003570799/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jewish law",
+  "label": "משנה תורה (ספר נשים, הלכות יבום וחליצה ד:לג-ה:א).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משנה תורה (ספר נשים, הלכות יבום וחליצה ד:לג-ה:א)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jewish law"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "משה בן מימון, 1138-1204"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003570799"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ז-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1;..; דף מתופורר בקצוות, עבר שימוש משני כחומר כריכה יחד עם Heb. 8°1800.127-131, ממנו נדבק שאריות של דבק ונותר קשה לקריאה ברובו. חסר מלמעלה, שרדו 14 שורות לעמוד.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003570799"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003570799/sequence/IE39695904",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.617=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695918",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 4946,
+          "height": 5744,
+          "images": [
+            {
+              "@id": "FL39695918",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695918",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695918/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695918",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5744,
+                "width": 4946
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695935",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 4946,
+          "height": 5744,
+          "images": [
+            {
+              "@id": "FL39695935",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695935",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695935/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695935",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5744,
+                "width": 4946
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695917",
+      "@type": "sc:Range",
+      "label": "REP39695917",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695918",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695935",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003570799",
+  "viewingHint": "paged"
+}

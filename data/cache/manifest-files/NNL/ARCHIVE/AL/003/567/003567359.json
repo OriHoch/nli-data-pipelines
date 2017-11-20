@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003567359/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "לזכר העברת עצמות מנהיגנו הגדול ד\"ר מכס נורדוי ז\"ל לתל אביב. -[מסע הלויה של מקס נורדאו ברחובות תל אביב, תרפ\"ו] [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לזכר העברת עצמות מנהיגנו הגדול ד\"ר מכס נורדוי ז\"ל לתל אביב. -[מסע הלויה של מקס נורדאו ברחובות תל אביב, תרפ\"ו] [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003567359"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 84 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "[Max Nordau's Funeral in Tel Aviv, 1926]",
+        "[מסע הלויה של מקס נורדאו ברחובות תל אביב, תרפ\"ו]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003567359"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003567359/sequence/IE19144084",
+      "@type": "sc:Sequence",
+      "label": "לזכר העברת עצמות מנהיגנו הגדול ד\"ר מכס נורדוי ז\"ל לתל אביב.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166392",
+          "@type": "sc:Canvas",
+          "label": "003567359-R",
+          "width": 800,
+          "height": 499,
+          "images": [
+            {
+              "@id": "FL19166392",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166392",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166392/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567359-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166392",
+                  "label": "003567359-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 499,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166391",
+          "@type": "sc:Canvas",
+          "label": "003567359-V",
+          "width": 800,
+          "height": 494,
+          "images": [
+            {
+              "@id": "FL19166391",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166391",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166391/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567359-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166391",
+                  "label": "003567359-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 494,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166390",
+      "@type": "sc:Range",
+      "label": "REP19166390",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166392",
+          "@type": "sc:Canvas",
+          "label": "003567359-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166391",
+          "@type": "sc:Canvas",
+          "label": "003567359-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003567359",
+  "viewingHint": "paged"
+}

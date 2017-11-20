@@ -1,0 +1,112 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003522846/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "לקוטים ממשלי עם תרגום לאדינו.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לקוטים ממשלי עם תרגום לאדינו."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלוני, נחמיה, 1906-1983 בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003522846"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ז-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 18X10 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;lad"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "003522846"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003522846/sequence/IE2642286",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8385.1=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5593381",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 2576,
+          "height": 5616,
+          "images": [
+            {
+              "@id": "FL5593381",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5593381",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5593381/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5593381",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5616,
+                "width": 2576
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5593380",
+      "@type": "sc:Range",
+      "label": "REP5593380",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5593381",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003522846",
+  "viewingHint": "paged"
+}

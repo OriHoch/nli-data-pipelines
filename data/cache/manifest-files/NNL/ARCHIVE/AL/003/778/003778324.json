@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003778324/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "מן הפוגרום הירושלמי, פסח תר\"פ.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מן הפוגרום הירושלמי, פסח תר\"פ."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003778324"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 118 X 170 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Jewish Victims of the 1920 Riots in Jerusalem]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003778324"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003778324/sequence/IE38045796",
+      "@type": "sc:Sequence",
+      "label": "מן הפוגרום הירושלמי  פסח תר\"פ.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048338",
+          "@type": "sc:Canvas",
+          "label": "3778324-10_0001_R",
+          "width": 4022,
+          "height": 2842,
+          "images": [
+            {
+              "@id": "FL38048338",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048338",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048338/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3778324-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048338",
+                  "label": "3778324-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2842,
+                "width": 4022
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048339",
+          "@type": "sc:Canvas",
+          "label": "3778324-10_0001_V",
+          "width": 2855,
+          "height": 4061,
+          "images": [
+            {
+              "@id": "FL38048339",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048339",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048339/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3778324-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048339",
+                  "label": "3778324-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4061,
+                "width": 2855
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048337",
+      "@type": "sc:Range",
+      "label": "REP38048337",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048338",
+          "@type": "sc:Canvas",
+          "label": "3778324-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048339",
+          "@type": "sc:Canvas",
+          "label": "3778324-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003778324",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003695254/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "חברת \"לבנון\" ווארשא; Jerusalem (Israel)",
+  "label": "אורות שלמה. -Salomon's Ställe. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אורות שלמה. -Salomon's Ställe. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "חברת \"לבנון\" ווארשא; Jerusalem (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003695254"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : sepia ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Salomon's Ställe."
+    },
+    {
+      "label": "SysNum",
+      "value": "003695254"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003695254/sequence/IE16093384",
+      "@type": "sc:Sequence",
+      "label": "אורות שלמה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157699",
+          "@type": "sc:Canvas",
+          "label": "3695254-10_r",
+          "width": 800,
+          "height": 511,
+          "images": [
+            {
+              "@id": "FL16157699",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157699",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157699/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3695254-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157699",
+                  "label": "3695254-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 511,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157696",
+          "@type": "sc:Canvas",
+          "label": "3695254-10_v",
+          "width": 800,
+          "height": 509,
+          "images": [
+            {
+              "@id": "FL16157696",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157696",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157696/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3695254-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157696",
+                  "label": "3695254-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 509,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157695",
+      "@type": "sc:Range",
+      "label": "REP16157695",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157699",
+          "@type": "sc:Canvas",
+          "label": "3695254-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157696",
+          "@type": "sc:Canvas",
+          "label": "3695254-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003695254",
+  "viewingHint": "paged"
+}

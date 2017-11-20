@@ -1,0 +1,141 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003484808/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "[פרדס אבו רחמה, נס ציונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[פרדס אבו רחמה, נס ציונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "כץ, לאון צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003484808"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 100 X 154 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Abu Rachma Orange Grove, Nes Ziona]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003484808"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003484808/sequence/IE19145672",
+      "@type": "sc:Sequence",
+      "label": "[פרדס אבו רחמה  נס ציונה]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167718",
+          "@type": "sc:Canvas",
+          "label": "003484808-R",
+          "width": 800,
+          "height": 520,
+          "images": [
+            {
+              "@id": "FL19167718",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167718",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167718/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003484808-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167718",
+                  "label": "003484808-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 520,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167716",
+          "@type": "sc:Canvas",
+          "label": "003484808-V",
+          "width": 518,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167716",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167716",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167716/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003484808-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167716",
+                  "label": "003484808-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 518
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167715",
+      "@type": "sc:Range",
+      "label": "REP19167715",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167718",
+          "@type": "sc:Canvas",
+          "label": "003484808-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167716",
+          "@type": "sc:Canvas",
+          "label": "003484808-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003484808",
+  "viewingHint": "paged"
+}

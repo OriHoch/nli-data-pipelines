@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003569467/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Photographs",
+  "label": "בניית צריפי פח במושב עגור, פרוזדור ירושלים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בניית צריפי פח במושב עגור, פרוזדור ירושלים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003569467"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 84 X 119 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Building tin huts before winter comes in Agur, transition village in the Kerusalem Corridor.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003569467"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003569467/sequence/IE19144335",
+      "@type": "sc:Sequence",
+      "label": "בניית צריפי פח במושב עגור  פרוזדור ירושלים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166969",
+          "@type": "sc:Canvas",
+          "label": "003569467-R",
+          "width": 569,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166969",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166969",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166969/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569467-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166969",
+                  "label": "003569467-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 569
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166968",
+          "@type": "sc:Canvas",
+          "label": "003569467-V",
+          "width": 577,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166968",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166968",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166968/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003569467-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166968",
+                  "label": "003569467-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 577
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166967",
+      "@type": "sc:Range",
+      "label": "REP19166967",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166969",
+          "@type": "sc:Canvas",
+          "label": "003569467-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166968",
+          "@type": "sc:Canvas",
+          "label": "003569467-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003569467",
+  "viewingHint": "paged"
+}

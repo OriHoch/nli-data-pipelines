@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003487797/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Photographs",
+  "label": "[סטודנטים מן האוניברסיטה העברית בירושלים אורזים תפוזים בפרדס]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[סטודנטים מן האוניברסיטה העברית בירושלים אורזים תפוזים בפרדס]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "קלוגר, זולטן, 1896-1977 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003487797"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 16 X 22.5 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Students from the Hebrew University in Jerusalem working in an orange grove.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003487797"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003487797/sequence/IE19144799",
+      "@type": "sc:Sequence",
+      "label": "[סטודנטים מן האוניברסיטה העברית בירושלים אורזים תפוזים בפרדס]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168996",
+          "@type": "sc:Canvas",
+          "label": "003487797-R",
+          "width": 800,
+          "height": 567,
+          "images": [
+            {
+              "@id": "FL19168996",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168996",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168996/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487797-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168996",
+                  "label": "003487797-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 567,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168995",
+          "@type": "sc:Canvas",
+          "label": "003487797-V",
+          "width": 800,
+          "height": 573,
+          "images": [
+            {
+              "@id": "FL19168995",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168995",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168995/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487797-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168995",
+                  "label": "003487797-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 573,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168994",
+      "@type": "sc:Range",
+      "label": "REP19168994",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168996",
+          "@type": "sc:Canvas",
+          "label": "003487797-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168995",
+          "@type": "sc:Canvas",
+          "label": "003487797-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003487797",
+  "viewingHint": "paged"
+}

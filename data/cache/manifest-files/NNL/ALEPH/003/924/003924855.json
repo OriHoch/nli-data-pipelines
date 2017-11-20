@@ -1,0 +1,168 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924855/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "سیاهه‌ها (صفحۀ ا)؛ اختربینی (صفحۀ ب)",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "سیاهه‌ها (صفحۀ ا)؛ اختربینی (صفحۀ ب)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924855"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Lists (side a); Astrology (side b)."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924855"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924855/sequence/IE45508425",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.113=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508433",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto",
+          "width": 3888,
+          "height": 3582,
+          "images": [
+            {
+              "@id": "FL45508433",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508433",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508433/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508433",
+                  "label": "Fragment recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3582,
+                "width": 3888
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508435",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso",
+          "width": 4003,
+          "height": 3582,
+          "images": [
+            {
+              "@id": "FL45508435",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508435",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508435/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508435",
+                  "label": "Fragment verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3582,
+                "width": 4003
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508437",
+          "@type": "sc:Canvas",
+          "label": "color",
+          "width": 4888,
+          "height": 5100,
+          "images": [
+            {
+              "@id": "FL45508437",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL45508437",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL45508437/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL45508437",
+                  "label": "color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5100,
+                "width": 4888
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP45508432",
+      "@type": "sc:Range",
+      "label": "REP45508432",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508433",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508435",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL45508437",
+          "@type": "sc:Canvas",
+          "label": "color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924855",
+  "viewingHint": "paged"
+}

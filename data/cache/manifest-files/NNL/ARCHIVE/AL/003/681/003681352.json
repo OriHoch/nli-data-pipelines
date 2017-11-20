@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003681352/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Steimatzky (Firm); Jerusalem (Israel) -- Photographs",
+  "label": "ירושלים. הכותל המערבי. -Jerusalem. The wailing wall. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ירושלים. הכותל המערבי. -Jerusalem. The wailing wall. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Steimatzky (Firm); Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "שויג, שמואל יוסף, 1902-1984 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003681352"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 90 X 140 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Jerusalem. The wailing wall."
+    },
+    {
+      "label": "SysNum",
+      "value": "003681352"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003681352/sequence/IE16091228",
+      "@type": "sc:Sequence",
+      "label": "ירושלים. הכותל המערבי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156115",
+          "@type": "sc:Canvas",
+          "label": "3681352-10_r",
+          "width": 518,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL16156115",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156115",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156115/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3681352-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156115",
+                  "label": "3681352-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 518
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156114",
+          "@type": "sc:Canvas",
+          "label": "3681352-10_v",
+          "width": 800,
+          "height": 517,
+          "images": [
+            {
+              "@id": "FL16156114",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156114",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156114/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3681352-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156114",
+                  "label": "3681352-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 517,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156113",
+      "@type": "sc:Range",
+      "label": "REP16156113",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156115",
+          "@type": "sc:Canvas",
+          "label": "3681352-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156114",
+          "@type": "sc:Canvas",
+          "label": "3681352-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003681352",
+  "viewingHint": "paged"
+}

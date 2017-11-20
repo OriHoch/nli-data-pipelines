@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003571295/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "הנשיא בן צבי מברך את הארכיבישוף חכים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנשיא בן צבי מברך את הארכיבישוף חכים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003571295"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 133 X 180 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[President Ben Zvi greets Archibisop Hakim]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003571295"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003571295/sequence/IE19144979",
+      "@type": "sc:Sequence",
+      "label": "הנשיא בן צבי מברך את הארכיבישוף חכים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167382",
+          "@type": "sc:Canvas",
+          "label": "003571295-R",
+          "width": 612,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167382",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167382",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167382/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571295-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167382",
+                  "label": "003571295-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 612
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167381",
+          "@type": "sc:Canvas",
+          "label": "003571295-V",
+          "width": 615,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167381",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167381",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167381/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571295-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167381",
+                  "label": "003571295-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 615
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167380",
+      "@type": "sc:Range",
+      "label": "REP19167380",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167382",
+          "@type": "sc:Canvas",
+          "label": "003571295-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167381",
+          "@type": "sc:Canvas",
+          "label": "003571295-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003571295",
+  "viewingHint": "paged"
+}

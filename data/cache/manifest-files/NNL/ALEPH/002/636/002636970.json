@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002636970/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Bible. Deuteronomy XII-XIII -- Commentaries",
+  "label": "פרוש תורה (דברים יב-יג).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש תורה (דברים יב-יג)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible. Deuteronomy XII-XIII -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002636970"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ז-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע..; קטע נייר המכיל רוב רוחב השורה. מראש הדף. עבר שימוש משני כחומר כריכה.."
+    },
+    {
+      "label": "Language",
+      "value": "jrb;heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002636970"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002636970/sequence/IE4475673",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.39=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449801",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 6128,
+          "height": 2584,
+          "images": [
+            {
+              "@id": "FL8449801",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449801",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449801/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449801",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2584,
+                "width": 6128
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449802",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5984,
+          "height": 2720,
+          "images": [
+            {
+              "@id": "FL8449802",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449802",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449802/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449802",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2720,
+                "width": 5984
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP8449800",
+      "@type": "sc:Range",
+      "label": "REP8449800",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449801",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449802",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002636970",
+  "viewingHint": "paged"
+}

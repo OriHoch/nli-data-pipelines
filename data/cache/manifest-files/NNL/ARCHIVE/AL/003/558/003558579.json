@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003558579/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "The Supreme Court at its opening session in Jerusalem, September 1948. -[ישיבת הפתיחה של בית המשפט העליון בירושלים, אלול תש\"ח]. [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "The Supreme Court at its opening session in Jerusalem, September 1948. -[ישיבת הפתיחה של בית המשפט העליון בירושלים, אלול תש\"ח]. [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003558579"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 90 X 122 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[ישיבת הפתיחה של בית המשפט העליון בירושלים, אלול תש\"ח]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003558579"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558579/sequence/IE38045837",
+      "@type": "sc:Sequence",
+      "label": "The Supreme Court at its opening session in Jerusalem  September 1948.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048362",
+          "@type": "sc:Canvas",
+          "label": "3558579-10_0001_R",
+          "width": 2903,
+          "height": 2210,
+          "images": [
+            {
+              "@id": "FL38048362",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048362",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048362/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3558579-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048362",
+                  "label": "3558579-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2210,
+                "width": 2903
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048363",
+          "@type": "sc:Canvas",
+          "label": "3558579-10_0001_V",
+          "width": 2884,
+          "height": 2196,
+          "images": [
+            {
+              "@id": "FL38048363",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048363",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048363/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3558579-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048363",
+                  "label": "3558579-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2196,
+                "width": 2884
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048361",
+      "@type": "sc:Range",
+      "label": "REP38048361",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048362",
+          "@type": "sc:Canvas",
+          "label": "3558579-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048363",
+          "@type": "sc:Canvas",
+          "label": "3558579-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003558579",
+  "viewingHint": "paged"
+}

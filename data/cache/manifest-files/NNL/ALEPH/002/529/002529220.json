@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002529220/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובים (תהלים נט:ב-נט:יא; סד:ז-סה:ה).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובים (תהלים נט:ב-נט:יא; סד:ז-סה:ה)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002529220"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 12X16.5 ס\"מ..; זוג דפי נייר, חסר ביניהם. מחוררים ומקופלים. 8 שורות לעמוד. הכתב דהוי יותר מהניקוד. השטח הכתוב 8X11 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;ara"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002529220"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002529220/sequence/IE39831386",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.6.6=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39831408",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL39831408",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39831408",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39831408/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39831408",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39831416",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL39831416",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39831416",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39831416/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39831416",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002529220/sequence/IE50204802",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 577.6.6=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39831406",
+      "@type": "sc:Range",
+      "label": "REP39831406",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39831408",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39831416",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002529220",
+  "viewingHint": "paged"
+}

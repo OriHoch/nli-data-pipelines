@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003571237/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "איטה ודוד ילין עם אחד מנכדיהם. -[Itta and David Yellin with one of their grandchildren]. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "איטה ודוד ילין עם אחד מנכדיהם. -[Itta and David Yellin with one of their grandchildren]. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003571237"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 85 X 105 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Itta and David Yellin with one of their grandchildren]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003571237"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003571237/sequence/IE19144947",
+      "@type": "sc:Sequence",
+      "label": "איטה ודוד ילין עם אחד מנכדיהם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167522",
+          "@type": "sc:Canvas",
+          "label": "003571237-R",
+          "width": 800,
+          "height": 638,
+          "images": [
+            {
+              "@id": "FL19167522",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167522",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167522/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571237-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167522",
+                  "label": "003571237-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 638,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167521",
+          "@type": "sc:Canvas",
+          "label": "003571237-V",
+          "width": 800,
+          "height": 636,
+          "images": [
+            {
+              "@id": "FL19167521",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167521",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167521/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571237-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167521",
+                  "label": "003571237-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 636,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167520",
+      "@type": "sc:Range",
+      "label": "REP19167520",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167522",
+          "@type": "sc:Canvas",
+          "label": "003571237-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167521",
+          "@type": "sc:Canvas",
+          "label": "003571237-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003571237",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003558050/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "אנית המעפילים \"יציאת אירופה תש\"ז\" בהגיעה לחופי ארץ ישראל -[Haganah Ship \"Exodus 1947\" on its arrival to Palestine] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אנית המעפילים \"יציאת אירופה תש\"ז\" בהגיעה לחופי ארץ ישראל -[Haganah Ship \"Exodus 1947\" on its arrival to Palestine] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003558050"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 83 X 110 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Haganah Ship \"Exodus 1947\" on its arrival to Palestine]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003558050"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558050/sequence/IE19145126",
+      "@type": "sc:Sequence",
+      "label": "אנית המעפילים \"יציאת אירופה תש\"ז\" בהגיעה לחופי ארץ ישראל",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165704",
+          "@type": "sc:Canvas",
+          "label": "003558050-R",
+          "width": 800,
+          "height": 624,
+          "images": [
+            {
+              "@id": "FL19165704",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165704",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165704/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558050-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165704",
+                  "label": "003558050-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 624,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165705",
+          "@type": "sc:Canvas",
+          "label": "003558050-V",
+          "width": 800,
+          "height": 628,
+          "images": [
+            {
+              "@id": "FL19165705",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165705",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165705/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558050-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165705",
+                  "label": "003558050-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 628,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165703",
+      "@type": "sc:Range",
+      "label": "REP19165703",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165704",
+          "@type": "sc:Canvas",
+          "label": "003558050-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165705",
+          "@type": "sc:Canvas",
+          "label": "003558050-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003558050",
+  "viewingHint": "paged"
+}

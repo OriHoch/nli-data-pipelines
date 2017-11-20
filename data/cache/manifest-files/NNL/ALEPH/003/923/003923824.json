@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003923824/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Judaism -- Liturgy -- Texts; Judaism -- Eastern rite",
+  "label": "סדור תפילות שבת (קטעים).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סדור תפילות שבת (קטעים)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Judaism -- Liturgy -- Texts; Judaism -- Eastern rite"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003923824"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב."
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 180X111 מ\"מ..; זוג דפים רצופים, הראשון כמעט שלם, השני קרוע בפינה התחתונה החיצונית. 15 שורות לעמוד. מידות השטח הכתוב 153X82 מ\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Sabbath prayerbook"
+    },
+    {
+      "label": "SysNum",
+      "value": "003923824"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923824/sequence/IE36901755",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°8333.33",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901778",
+          "@type": "sc:Canvas",
+          "label": "Leaf recto",
+          "width": 5267,
+          "height": 5856,
+          "images": [
+            {
+              "@id": "FL36901778",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901778",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901778/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901778",
+                  "label": "Leaf recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5856,
+                "width": 5267
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901787",
+          "@type": "sc:Canvas",
+          "label": "Leaf recto",
+          "width": 5267,
+          "height": 5856,
+          "images": [
+            {
+              "@id": "FL36901787",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901787",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901787/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901787",
+                  "label": "Leaf recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5856,
+                "width": 5267
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923824/sequence/IE45507913",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.33=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36901777",
+      "@type": "sc:Range",
+      "label": "REP36901777",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901778",
+          "@type": "sc:Canvas",
+          "label": "Leaf recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901787",
+          "@type": "sc:Canvas",
+          "label": "Leaf recto"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003923824",
+  "viewingHint": "paged"
+}

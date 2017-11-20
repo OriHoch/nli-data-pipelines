@@ -1,0 +1,141 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003536157/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "הכנוס השלישי של קציני ברית טרומפלדור, תל אביב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הכנוס השלישי של קציני ברית טרומפלדור, תל אביב."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "סוסקין, אברהם, 1881-1963 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003536157"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 170 X 230 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Third Betar Officers Convention in Tel Aviv, November 1928]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003536157"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003536157/sequence/IE19145547",
+      "@type": "sc:Sequence",
+      "label": "הכנוס השלישי של קציני ברית טרומפלדור  תל אביב.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168235",
+          "@type": "sc:Canvas",
+          "label": "003536157-R",
+          "width": 800,
+          "height": 587,
+          "images": [
+            {
+              "@id": "FL19168235",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168235",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168235/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003536157-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168235",
+                  "label": "003536157-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 587,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168236",
+          "@type": "sc:Canvas",
+          "label": "003536157-V",
+          "width": 800,
+          "height": 582,
+          "images": [
+            {
+              "@id": "FL19168236",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168236",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168236/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003536157-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168236",
+                  "label": "003536157-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 582,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168234",
+      "@type": "sc:Range",
+      "label": "REP19168234",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168235",
+          "@type": "sc:Canvas",
+          "label": "003536157-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168236",
+          "@type": "sc:Canvas",
+          "label": "003536157-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003536157",
+  "viewingHint": "paged"
+}

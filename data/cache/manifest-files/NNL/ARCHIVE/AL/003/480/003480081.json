@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003480081/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "בלפור, ארתור ג'מס, 1848-1930; Scopus, Mount (Jerusalem, Israel) -- Photographs",
+  "label": "לורד בלפור נואם בטקס פתיחת האוניברסיטה העברית, הר הצופים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לורד בלפור נואם בטקס פתיחת האוניברסיטה העברית, הר הצופים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "בלפור, ארתור ג'מס, 1848-1930; Scopus, Mount (Jerusalem, Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003480081"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 298 X 396 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Lord Balfour Speaking at the Opening Ceremony of the Hebrew University of Jerusalem on Mt. Scopus.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003480081"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003480081/sequence/IE19145504",
+      "@type": "sc:Sequence",
+      "label": "לורד בלפור נואם בטקס פתיחת האוניברסיטה העברית  הר הצופים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167693",
+          "@type": "sc:Canvas",
+          "label": "003480081-R",
+          "width": 800,
+          "height": 607,
+          "images": [
+            {
+              "@id": "FL19167693",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167693",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167693/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003480081-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167693",
+                  "label": "003480081-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 607,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167695",
+          "@type": "sc:Canvas",
+          "label": "003480081-V",
+          "width": 800,
+          "height": 606,
+          "images": [
+            {
+              "@id": "FL19167695",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167695",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167695/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003480081-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167695",
+                  "label": "003480081-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 606,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167692",
+      "@type": "sc:Range",
+      "label": "REP19167692",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167693",
+          "@type": "sc:Canvas",
+          "label": "003480081-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167695",
+          "@type": "sc:Canvas",
+          "label": "003480081-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003480081",
+  "viewingHint": "paged"
+}

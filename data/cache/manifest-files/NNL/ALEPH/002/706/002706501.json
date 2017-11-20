@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002706501/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Bible. Numbers VIII, 2-8 -- Commentaries; Bible. Numbers X, 35-XI, 12 -- Commentaries",
+  "label": "פרוש התורה לרש\"י (במדבר ח; י-יא).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש התורה לרש\"י (במדבר ח; י-יא)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible. Numbers VIII, 2-8 -- Commentaries; Bible. Numbers X, 35-XI, 12 -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "שלמה בן יצחק (רש\"י), 1040-1105"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002706501"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-יח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים..; שני דפים כמעט שלמים, חסר ביניהם. נדבקו יחד כחומר כריכה לעותק של אבודרהם דפוס ויניציאה שכ\"ו. 28 שורות לעמוד. כשנפרדו חלקים מדף 2 נדבקו לדף 1. מידות השטח הכתוב 15X9.5 ס\"מ. מתחת לדף שני נדבק קטע מדף נוסף.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002706501"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002706501/sequence/IE39696020",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.243=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696067",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001]r",
+          "width": 4946,
+          "height": 6562,
+          "images": [
+            {
+              "@id": "FL39696067",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696067",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696067/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696067",
+                  "label": "Fol. [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6562,
+                "width": 4946
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696079",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001]v",
+          "width": 4946,
+          "height": 6562,
+          "images": [
+            {
+              "@id": "FL39696079",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696079",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696079/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696079",
+                  "label": "Fol. [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6562,
+                "width": 4946
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39696066",
+      "@type": "sc:Range",
+      "label": "REP39696066",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696067",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696079",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002706501",
+  "viewingHint": "paged"
+}

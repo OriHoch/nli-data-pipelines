@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003629073/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "מסע הלויה של חיים ארלוזורוב ברחובות תל אביב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מסע הלויה של חיים ארלוזורוב ברחובות תל אביב."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003629073"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 60 X 85 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Dr. Chaim Arlosoroff's Funeral in Tel Aviv]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003629073"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003629073/sequence/IE19144915",
+      "@type": "sc:Sequence",
+      "label": "מסע הלויה של חיים ארלוזורוב ברחובות תל אביב.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169596",
+          "@type": "sc:Canvas",
+          "label": "003629073-R",
+          "width": 533,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169596",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169596",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169596/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003629073-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169596",
+                  "label": "003629073-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 533
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169591",
+          "@type": "sc:Canvas",
+          "label": "003629073-V",
+          "width": 543,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169591",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169591",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169591/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003629073-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169591",
+                  "label": "003629073-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 543
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169590",
+      "@type": "sc:Range",
+      "label": "REP19169590",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169596",
+          "@type": "sc:Canvas",
+          "label": "003629073-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169591",
+          "@type": "sc:Canvas",
+          "label": "003629073-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003629073",
+  "viewingHint": "paged"
+}

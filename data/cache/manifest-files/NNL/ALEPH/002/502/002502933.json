@@ -1,0 +1,159 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002502933/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Mishnah. Avot 2, mishnah 9 -- Commentaries; Mishnah. Avot 3, mishnah 3-6 -- Commentaries",
+  "label": "פרוש המשנה לרמב\"ם בערבית (אבות ב:ט; ג:ג-ג:ו).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש המשנה לרמב\"ם בערבית (אבות ב:ט; ג:ג-ג:ו)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mishnah. Avot 2, mishnah 9 -- Commentaries; Mishnah. Avot 3, mishnah 3-6 -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "משה בן מימון, 1138-1204"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002502933"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1300"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 15X10.5 ס\"מ..; זוג דפים שלמים, חסר ביניהם. מידות השטח הכתוב 12X8 ס\"מ. 15-16 שורות לעמוד. מסמן סוף משנה בנקודה או שתיים ורווחים, סוף מאמר פרשנות במשולשי נקודות הפוכות.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "אבות ב,י.",
+        "אבות ג,ד-ו."
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002502933"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002502933/sequence/IE37457516",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.5.22=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457537",
+          "@type": "sc:Canvas",
+          "label": "Leaf 001",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL37457537",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37457537",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37457537/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf 001",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37457537",
+                  "label": "Leaf 001",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457544",
+          "@type": "sc:Canvas",
+          "label": "Leaf 002",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL37457544",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37457544",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37457544/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf 002",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37457544",
+                  "label": "Leaf 002",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002502933/sequence/IE9284536",
+      "@type": "sc:Sequence",
+      "label": "פרוש המשנה לרמב\"ם בערבית (אבות ב:ט; ג:ג-ג:ו)."
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37457536",
+      "@type": "sc:Range",
+      "label": "REP37457536",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457537",
+          "@type": "sc:Canvas",
+          "label": "Leaf 001"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457544",
+          "@type": "sc:Canvas",
+          "label": "Leaf 002"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002502933",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924190/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "سند رسمی (فرمان؟).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "سند رسمی (فرمان؟)."
+    },
+    {
+      "label": "Publisher",
+      "value": "Early 7th AH /13th cent."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924190"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 leaf.."
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Official document (decree?)."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924190"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924190/sequence/IE36930235",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°8333.44",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36930248",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto",
+          "width": 4916,
+          "height": 4818,
+          "images": [
+            {
+              "@id": "FL36930248",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36930248",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36930248/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36930248",
+                  "label": "Fragment recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4818,
+                "width": 4916
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36930249",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso",
+          "width": 4916,
+          "height": 4818,
+          "images": [
+            {
+              "@id": "FL36930249",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36930249",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36930249/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36930249",
+                  "label": "Fragment verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4818,
+                "width": 4916
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924190/sequence/IE45507974",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.44=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36930247",
+      "@type": "sc:Range",
+      "label": "REP36930247",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36930248",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36930249",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924190",
+  "viewingHint": "paged"
+}

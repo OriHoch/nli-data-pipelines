@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003474117/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תיקון ליל שבועות.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תיקון ליל שבועות."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003474117"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ט-כ'"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף. ; 21X17 ס\"מ..; נמצא יחד עם כתב יד ירושלים - הספרייה הלאומית 4°1844 Ms. Heb., מאמרים לר' משה ארונשטין.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "בקשות."
+    },
+    {
+      "label": "SysNum",
+      "value": "003474117"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003474117/sequence/IE39695920",
+      "@type": "sc:Sequence",
+      "label": " JER NLI 1426.9=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695951",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 4576,
+          "height": 6183,
+          "images": [
+            {
+              "@id": "FL39695951",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695951",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695951/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695951",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6183,
+                "width": 4576
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695960",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 4576,
+          "height": 6183,
+          "images": [
+            {
+              "@id": "FL39695960",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39695960",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39695960/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39695960",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6183,
+                "width": 4576
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39695950",
+      "@type": "sc:Range",
+      "label": "REP39695950",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695951",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39695960",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003474117",
+  "viewingHint": "paged"
+}

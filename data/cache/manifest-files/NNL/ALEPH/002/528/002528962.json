@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002528962/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "גט. פסטאט. 1213.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "גט. פסטאט. 1213."
+    },
+    {
+      "label": "Contributor",
+      "value": "משה בן שארית הכהן (חותם) ; ישועה בן דניאל (חותם) ; שלה בן שלום (מוזכר) ; שלום בן נתנאל הזקן (מוזכר) ; סת אלנסב בת אלעזר (מוזכר)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002528962"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1213"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 16X19 ס\"מ..; 12 שורות תוכן הממלאות עד קצה השמאלי של הדף. חתימות.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;arc"
+    },
+    {
+      "label": "SysNum",
+      "value": "002528962"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002528962/sequence/IE9285077",
+      "@type": "sc:Sequence",
+      "label": "גט. פסטאט. 1213.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695113",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695113",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695113",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695113/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695113",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695112",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695112",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695112",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695112/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695112",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9695111",
+      "@type": "sc:Range",
+      "label": "REP9695111",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695113",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695112",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002528962",
+  "viewingHint": "paged"
+}

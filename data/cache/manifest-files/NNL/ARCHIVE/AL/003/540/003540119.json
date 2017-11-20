@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003540119/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Mikve Yisra'el (Israel) -- Photographs",
+  "label": "אחוזת הקבר של קרל נטר, מקוה ישראל.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אחוזת הקבר של קרל נטר, מקוה ישראל."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mikve Yisra'el (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003540119"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 175 X 235 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Charles Netter Tombstone in Mikve Israel]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003540119"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003540119/sequence/IE19145764",
+      "@type": "sc:Sequence",
+      "label": "אחוזת הקבר של קרל נטר  מקוה ישראל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168005",
+          "@type": "sc:Canvas",
+          "label": "003540119-R",
+          "width": 800,
+          "height": 660,
+          "images": [
+            {
+              "@id": "FL19168005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003540119-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168005",
+                  "label": "003540119-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 660,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168007",
+          "@type": "sc:Canvas",
+          "label": "003540119-V",
+          "width": 800,
+          "height": 659,
+          "images": [
+            {
+              "@id": "FL19168007",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168007",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168007/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003540119-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168007",
+                  "label": "003540119-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 659,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168004",
+      "@type": "sc:Range",
+      "label": "REP19168004",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168005",
+          "@type": "sc:Canvas",
+          "label": "003540119-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168007",
+          "@type": "sc:Canvas",
+          "label": "003540119-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003540119",
+  "viewingHint": "paged"
+}

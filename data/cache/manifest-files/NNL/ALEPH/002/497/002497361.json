@@ -1,0 +1,113 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002497361/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Egypt -- Cairo -- History -- Sources",
+  "label": "שטר עדות בערבית (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שטר עדות בערבית (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "ישועה בן חייא, הכהן (מוזכר) ; עלי בן מנגא הזקן (מוזכר) ; נתן בן שלמה הכהן (חותם) ; מצליח בן שלמה הכהן, גאון (מוזכר) ; חלפון בן מנשה, הלוי (חותם)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Egypt -- Cairo -- History -- Sources"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002497361"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1133"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 52X21 ס\"מ.; דף נייר ארוך, החלק העליון קרוע בפינות. וקרוע מעט גם בקצה השמאלי. קוי קיפול לרוחב כל 3 ס\"מ. תחתית הדף נתלש על קו קיפול. צד ב' חלק. 44 שורות של תוכן התעודה ושורת החותמים. ה\"חתימות\" הן מידי הסופר, שהוא עצמו החותם השני (השמאלי). מידות השטח הכתוב 42X19.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002497361"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002497361/sequence/IE2494909",
+      "@type": "sc:Sequence",
+      "label": "שטר עדות בערבית (קטע).",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328657",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 2005,
+          "height": 4219,
+          "images": [
+            {
+              "@id": "FL5328657",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5328657",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5328657/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5328657",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4219,
+                "width": 2005
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5328655",
+      "@type": "sc:Range",
+      "label": "REP5328655",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328657",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002497361",
+  "viewingHint": "paged"
+}

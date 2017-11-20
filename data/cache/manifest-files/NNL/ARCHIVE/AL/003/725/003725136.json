@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003725136/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "נחלת יעקב.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נחלת יעקב."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003725136"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 113 X 163 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Nachlat Ya'acov: The Bakery]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003725136"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003725136/sequence/IE38045706",
+      "@type": "sc:Sequence",
+      "label": "נחלת יעקב.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048298",
+          "@type": "sc:Canvas",
+          "label": "3725136-10_0001_R",
+          "width": 3908,
+          "height": 2778,
+          "images": [
+            {
+              "@id": "FL38048298",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048298",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048298/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3725136-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048298",
+                  "label": "3725136-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2778,
+                "width": 3908
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048297",
+          "@type": "sc:Canvas",
+          "label": "3725136-10_0001_V",
+          "width": 3888,
+          "height": 2767,
+          "images": [
+            {
+              "@id": "FL38048297",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048297",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048297/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3725136-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048297",
+                  "label": "3725136-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2767,
+                "width": 3888
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048296",
+      "@type": "sc:Range",
+      "label": "REP38048296",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048298",
+          "@type": "sc:Canvas",
+          "label": "3725136-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048297",
+          "@type": "sc:Canvas",
+          "label": "3725136-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003725136",
+  "viewingHint": "paged"
+}

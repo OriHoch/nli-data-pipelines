@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003578339/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "אנית המעפילים \"יציאת אירופה תש\"ז\" -[Haganah Ship \"Exodus 1947\"] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אנית המעפילים \"יציאת אירופה תש\"ז\" -[Haganah Ship \"Exodus 1947\"] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003578339"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 124 X 177 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Haganah Ship \"Exodus 1947\"]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003578339"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003578339/sequence/IE38046174",
+      "@type": "sc:Sequence",
+      "label": "אנית המעפילים \"יציאת אירופה תש\"ז\"",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048498",
+          "@type": "sc:Canvas",
+          "label": "3578339-10_0001_R",
+          "width": 6349,
+          "height": 4817,
+          "images": [
+            {
+              "@id": "FL38048498",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048498",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048498/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3578339-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048498",
+                  "label": "3578339-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4817,
+                "width": 6349
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048499",
+          "@type": "sc:Canvas",
+          "label": "3578339-10_0001_V",
+          "width": 6342,
+          "height": 4823,
+          "images": [
+            {
+              "@id": "FL38048499",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048499",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048499/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3578339-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048499",
+                  "label": "3578339-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4823,
+                "width": 6342
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048497",
+      "@type": "sc:Range",
+      "label": "REP38048497",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048498",
+          "@type": "sc:Canvas",
+          "label": "3578339-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048499",
+          "@type": "sc:Canvas",
+          "label": "3578339-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003578339",
+  "viewingHint": "paged"
+}

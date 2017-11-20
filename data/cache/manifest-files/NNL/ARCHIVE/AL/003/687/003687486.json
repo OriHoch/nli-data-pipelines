@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003687486/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "הוצאת י.ש. גפנר, מאה שערים, ירושלם; En-Zetim (Israel)",
+  "label": "ציון רבי יהודה בר אילעאי ור' יוסי בנו, עין זיתון. -[Tombstone of Rabbi Yehuda Bar Ilai and his son, Rabbi Yossi in Ein Zeitim] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ציון רבי יהודה בר אילעאי ור' יוסי בנו, עין זיתון. -[Tombstone of Rabbi Yehuda Bar Ilai and his son, Rabbi Yossi in Ein Zeitim] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "הוצאת י.ש. גפנר, מאה שערים, ירושלם; En-Zetim (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003687486"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 100 X 140 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Tombstone of Rabbi Yehuda Bar Ilai and his son, Rabbi Yossi in Ein Zeitim]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003687486"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003687486/sequence/IE16092160",
+      "@type": "sc:Sequence",
+      "label": "ציון רבי יהודה בר אילעאי ור' יוסי בנו  עין זיתון.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157568",
+          "@type": "sc:Canvas",
+          "label": "3687486-10_r",
+          "width": 800,
+          "height": 576,
+          "images": [
+            {
+              "@id": "FL16157568",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157568",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157568/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3687486-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157568",
+                  "label": "3687486-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 576,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157569",
+          "@type": "sc:Canvas",
+          "label": "3687486-10_v",
+          "width": 800,
+          "height": 576,
+          "images": [
+            {
+              "@id": "FL16157569",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157569",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157569/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3687486-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157569",
+                  "label": "3687486-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 576,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157567",
+      "@type": "sc:Range",
+      "label": "REP16157567",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157568",
+          "@type": "sc:Canvas",
+          "label": "3687486-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157569",
+          "@type": "sc:Canvas",
+          "label": "3687486-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003687486",
+  "viewingHint": "paged"
+}

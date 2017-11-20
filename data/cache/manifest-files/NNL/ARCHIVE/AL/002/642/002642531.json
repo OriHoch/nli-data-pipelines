@@ -1,0 +1,113 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002642531/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel)",
+  "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ\"ה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ\"ה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002642531"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 85 X 135 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[The Hurva Synagogue in Jerusalem, its presidents and officials]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002642531"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002642531/sequence/IE12540245",
+      "@type": "sc:Sequence",
+      "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ''ה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12570643",
+          "@type": "sc:Canvas",
+          "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ''ה",
+          "width": 588,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL12570643",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL12570643",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL12570643/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ''ה",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL12570643",
+                  "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ''ה",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 588
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002642531/sequence/IE19143836",
+      "@type": "sc:Sequence",
+      "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה  ירושלים תרפ\"ה"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP12570642",
+      "@type": "sc:Range",
+      "label": "REP12570642",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL12570643",
+          "@type": "sc:Canvas",
+          "label": "תמונת בית הכנסת הגדול בית יעקב נשיאיה ופקידיה, ירושלים תרפ''ה"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002642531",
+  "viewingHint": "paged"
+}

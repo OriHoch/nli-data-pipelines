@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003525979/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "משה בן מימון, 1138-1204. משנה תורה, קדושה, הלכות שחיטה; Jewish law",
+  "label": "פרוש משנה תורה (ספר קדושה, הלכות שחיטה יב-יג).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש משנה תורה (ספר קדושה, הלכות שחיטה יב-יג)."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלוני, נחמיה, 1906-1983 בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "משה בן מימון, 1138-1204. משנה תורה, קדושה, הלכות שחיטה; Jewish law"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003525979"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ז-י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 15.5X10 ס\"מ..; דף נייר שלם. 22- 23 שטורות לעמוד. שומר דף. מדות השטח הכתוב 12X7 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003525979"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003525979/sequence/IE2642855",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8385.19=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298473",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 2660,
+          "height": 4756,
+          "images": [
+            {
+              "@id": "FL5298473",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5298473",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5298473/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5298473",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4756,
+                "width": 2660
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298458",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 2660,
+          "height": 4756,
+          "images": [
+            {
+              "@id": "FL5298458",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5298458",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5298458/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5298458",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4756,
+                "width": 2660
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5298457",
+      "@type": "sc:Range",
+      "label": "REP5298457",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298473",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5298458",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003525979",
+  "viewingHint": "paged"
+}

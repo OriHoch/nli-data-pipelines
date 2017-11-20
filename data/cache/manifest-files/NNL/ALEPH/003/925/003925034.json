@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003925034/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Miscellaneous prayers (Jewish liturgy); Jews -- History -- Chronology",
+  "label": "בקשה בפרסית יהודית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בקשה בפרסית יהודית."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Miscellaneous prayers (Jewish liturgy); Jews -- History -- Chronology"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003925034"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים. ; 00X180 מ\"מ..; זוג דפים שלמים, כנראה רצופים. 17 שורות לעמוד. מידות השטח הכתוב 154X179 מ\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jpr"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "בקשות."
+    },
+    {
+      "label": "SysNum",
+      "value": "003925034"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003925034/sequence/IE47663603",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8333.201=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47663612",
+          "@type": "sc:Canvas",
+          "label": "Leaf [001]",
+          "width": 7282,
+          "height": 5447,
+          "images": [
+            {
+              "@id": "FL47663612",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47663612",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47663612/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf [001]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47663612",
+                  "label": "Leaf [001]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5447,
+                "width": 7282
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47663613",
+          "@type": "sc:Canvas",
+          "label": "Leaf [002]",
+          "width": 7282,
+          "height": 5447,
+          "images": [
+            {
+              "@id": "FL47663613",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL47663613",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL47663613/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf [002]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL47663613",
+                  "label": "Leaf [002]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5447,
+                "width": 7282
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP47663611",
+      "@type": "sc:Range",
+      "label": "REP47663611",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47663612",
+          "@type": "sc:Canvas",
+          "label": "Leaf [001]"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL47663613",
+          "@type": "sc:Canvas",
+          "label": "Leaf [002]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003925034",
+  "viewingHint": "paged"
+}

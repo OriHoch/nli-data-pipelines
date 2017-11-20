@@ -1,0 +1,154 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL01_TMA003579158/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "ארץ ישראל",
+  "label": "Prag [Album of photographs].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Prag [Album of photographs]."
+    },
+    {
+      "label": "Publisher",
+      "value": "ca. 1910-1925"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "ארץ ישראל"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL01_TMA003579158"
+    },
+    {
+      "label": "Creation Date",
+      "value": "ca. 1910-1925"
+    },
+    {
+      "label": "Type",
+      "value": "ARCHIVE"
+    },
+    {
+      "label": "Format",
+      "value": "6 Photographs : b&w ; 87 X 135 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "ger"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Prague [Album of photographs].",
+        "פרג [אלבום תצלומים].",
+        "פראג [אלבום תצלומים]."
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003579158"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL01_TMA003579158/sequence/IE23602773",
+      "@type": "sc:Sequence",
+      "label": "Prag [Album of photographs].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL23747001",
+          "@type": "sc:Canvas",
+          "label": "003579158-1",
+          "width": 800,
+          "height": 515,
+          "images": [
+            {
+              "@id": "FL23747001",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL23747001",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL23747001/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003579158-1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL23747001",
+                  "label": "003579158-1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 515,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL23747000",
+          "@type": "sc:Canvas",
+          "label": "003579158-2",
+          "width": 800,
+          "height": 518,
+          "images": [
+            {
+              "@id": "FL23747000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL23747000",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL23747000/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003579158-2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL23747000",
+                  "label": "003579158-2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 518,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP23746999",
+      "@type": "sc:Range",
+      "label": "REP23746999",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL23747001",
+          "@type": "sc:Canvas",
+          "label": "003579158-1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL23747000",
+          "@type": "sc:Canvas",
+          "label": "003579158-2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL01_TMA003579158",
+  "viewingHint": "paged"
+}

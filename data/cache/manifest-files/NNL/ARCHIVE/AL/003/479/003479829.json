@@ -1,0 +1,153 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003479829/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Eretz Israel -- Photographs",
+  "label": "הירדן בגליל על יד אום דז'וני. -[שפך הירדן על יד דגניה]. [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הירדן בגליל על יד אום דז'וני. -[שפך הירדן על יד דגניה]. [תמונה]"
+    },
+    {
+      "label": "Contributor",
+      "value": "י. בן-דוב, בצלאל ירושלם"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Eretz Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "בן דב, יעקב, 1882-1968 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003479829"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 141 X 237 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "[שפך הירדן על יד דגניה].",
+        "[The Mouth of the Jordan River next to Degania]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003479829"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003479829/sequence/IE19145443",
+      "@type": "sc:Sequence",
+      "label": "הירדן בגליל על יד אום דז'וני.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167449",
+          "@type": "sc:Canvas",
+          "label": "003479829-R",
+          "width": 800,
+          "height": 599,
+          "images": [
+            {
+              "@id": "FL19167449",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167449",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167449/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003479829-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167449",
+                  "label": "003479829-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 599,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167451",
+          "@type": "sc:Canvas",
+          "label": "003479829-V",
+          "width": 800,
+          "height": 601,
+          "images": [
+            {
+              "@id": "FL19167451",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167451",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167451/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003479829-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167451",
+                  "label": "003479829-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 601,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167447",
+      "@type": "sc:Range",
+      "label": "REP19167447",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167449",
+          "@type": "sc:Canvas",
+          "label": "003479829-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167451",
+          "@type": "sc:Canvas",
+          "label": "003479829-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003479829",
+  "viewingHint": "paged"
+}

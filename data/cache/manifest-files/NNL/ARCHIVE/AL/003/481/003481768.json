@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003481768/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "פקידי עירית תל אביב מברכים את ראש העיר מאיר דיזנגוף למלאת לו שבעים שנה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פקידי עירית תל אביב מברכים את ראש העיר מאיר דיזנגוף למלאת לו שבעים שנה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003481768"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 211 X 292 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Clerks of the Tel Aviv Municipality Congratulate the Mayor of the City, Meir Dizengoff, On His 70th Birthday.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003481768"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003481768/sequence/IE19145536",
+      "@type": "sc:Sequence",
+      "label": "פקידי עירית תל אביב מברכים את ראש העיר מאיר דיזנגוף למלאת לו שבעים שנה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167889",
+          "@type": "sc:Canvas",
+          "label": "003481768-R",
+          "width": 800,
+          "height": 643,
+          "images": [
+            {
+              "@id": "FL19167889",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167889",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167889/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003481768-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167889",
+                  "label": "003481768-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 643,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167891",
+          "@type": "sc:Canvas",
+          "label": "003481768-V",
+          "width": 800,
+          "height": 640,
+          "images": [
+            {
+              "@id": "FL19167891",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167891",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167891/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003481768-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167891",
+                  "label": "003481768-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 640,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167888",
+      "@type": "sc:Range",
+      "label": "REP19167888",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167889",
+          "@type": "sc:Canvas",
+          "label": "003481768-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167891",
+          "@type": "sc:Canvas",
+          "label": "003481768-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003481768",
+  "viewingHint": "paged"
+}

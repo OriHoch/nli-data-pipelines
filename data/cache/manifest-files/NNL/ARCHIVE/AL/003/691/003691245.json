@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003691245/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "האחים אליהו (הוצאה) (תל אביב); Hadera (Israel)",
+  "label": "חדרה: ביער האוקליפטוס. -Hadera: Eucalyptus forest. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חדרה: ביער האוקליפטוס. -Hadera: Eucalyptus forest. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "האחים אליהו (הוצאה) (תל אביב); Hadera (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003691245"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w sepia ; 90 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Hadera: Eucalyptus forest."
+    },
+    {
+      "label": "SysNum",
+      "value": "003691245"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003691245/sequence/IE16092675",
+      "@type": "sc:Sequence",
+      "label": "חדרה: ביער האוקליפטוס.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156436",
+          "@type": "sc:Canvas",
+          "label": "3691245-10_r",
+          "width": 800,
+          "height": 516,
+          "images": [
+            {
+              "@id": "FL16156436",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156436",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156436/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3691245-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156436",
+                  "label": "3691245-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 516,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156435",
+          "@type": "sc:Canvas",
+          "label": "3691245-10_v",
+          "width": 800,
+          "height": 518,
+          "images": [
+            {
+              "@id": "FL16156435",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156435",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156435/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3691245-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156435",
+                  "label": "3691245-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 518,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156434",
+      "@type": "sc:Range",
+      "label": "REP16156434",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156436",
+          "@type": "sc:Canvas",
+          "label": "3691245-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156435",
+          "@type": "sc:Canvas",
+          "label": "3691245-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003691245",
+  "viewingHint": "paged"
+}

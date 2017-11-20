@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573065/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "ילדי שכונת בקעה בירושלים מחכים לבוא הספרייה הניידת. -[Children of Baka neighborhood in Jerusalem wait for the mobile library to come.] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ילדי שכונת בקעה בירושלים מחכים לבוא הספרייה הניידת. -[Children of Baka neighborhood in Jerusalem wait for the mobile library to come.] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573065"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 130 X 183 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Children of Baka neighborhood in Jerusalem wait for the mobile library to come.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573065"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573065/sequence/IE19145104",
+      "@type": "sc:Sequence",
+      "label": "ילדי שכונת בקעה בירושלים מחכים לבוא הספרייה הניידת.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166425",
+          "@type": "sc:Canvas",
+          "label": "003573065-R",
+          "width": 800,
+          "height": 575,
+          "images": [
+            {
+              "@id": "FL19166425",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166425",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166425/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573065-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166425",
+                  "label": "003573065-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 575,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166417",
+          "@type": "sc:Canvas",
+          "label": "003573065-V",
+          "width": 800,
+          "height": 578,
+          "images": [
+            {
+              "@id": "FL19166417",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166417",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166417/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573065-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166417",
+                  "label": "003573065-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 578,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166416",
+      "@type": "sc:Range",
+      "label": "REP19166416",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166425",
+          "@type": "sc:Canvas",
+          "label": "003573065-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166417",
+          "@type": "sc:Canvas",
+          "label": "003573065-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573065",
+  "viewingHint": "paged"
+}

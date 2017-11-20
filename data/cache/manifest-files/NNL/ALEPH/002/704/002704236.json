@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002704236/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jewish ethics",
+  "label": "חבור במוסר בערבית יהודית (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חבור במוסר בערבית יהודית (קטע)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jewish ethics"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002704236"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ז-י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף..; כנראה הדף הראשון של החיבור. כותרת מעוטרת."
+    },
+    {
+      "label": "Language",
+      "value": "jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002704236"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002704236/sequence/IE17218328",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.220=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17284502",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3372,
+          "height": 3201,
+          "images": [
+            {
+              "@id": "FL17284502",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17284502",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17284502/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17284502",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3201,
+                "width": 3372
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17284501",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3372,
+          "height": 3201,
+          "images": [
+            {
+              "@id": "FL17284501",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17284501",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17284501/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17284501",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3201,
+                "width": 3372
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17284500",
+      "@type": "sc:Range",
+      "label": "REP17284500",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17284502",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17284501",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002704236",
+  "viewingHint": "paged"
+}

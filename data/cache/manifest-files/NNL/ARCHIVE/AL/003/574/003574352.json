@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003574352/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "טקס הכרזת המדינה, ה' אייר תש\"ח. -[Declaration of State of Israel, 14.5.1948] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "טקס הכרזת המדינה, ה' אייר תש\"ח. -[Declaration of State of Israel, 14.5.1948] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003574352"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 110 X 135 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Declaration of State of Israel, 14.5.1948]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003574352"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003574352/sequence/IE19144587",
+      "@type": "sc:Sequence",
+      "label": "טקס הכרזת המדינה  ה' אייר תש\"ח.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168523",
+          "@type": "sc:Canvas",
+          "label": "003574352-R",
+          "width": 650,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19168523",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168523",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168523/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003574352-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168523",
+                  "label": "003574352-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 650
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168531",
+          "@type": "sc:Canvas",
+          "label": "003574352-V",
+          "width": 638,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19168531",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168531",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168531/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003574352-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168531",
+                  "label": "003574352-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 638
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168522",
+      "@type": "sc:Range",
+      "label": "REP19168522",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168523",
+          "@type": "sc:Canvas",
+          "label": "003574352-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168531",
+          "@type": "sc:Canvas",
+          "label": "003574352-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003574352",
+  "viewingHint": "paged"
+}

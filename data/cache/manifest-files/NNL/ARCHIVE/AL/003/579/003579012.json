@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003579012/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "Gemini XI - A view of Israel and its neighbors. -[ישראל ושכנותיה מן החלל] [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Gemini XI - A view of Israel and its neighbors. -[ישראל ושכנותיה מן החלל] [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003579012"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : Color ; 263 X 340 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[ישראל ושכנותיה מן החלל]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003579012"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003579012/sequence/IE19144276",
+      "@type": "sc:Sequence",
+      "label": "Gemini XI - A view of Israel and its neighbors.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169324",
+          "@type": "sc:Canvas",
+          "label": "003579012-R",
+          "width": 800,
+          "height": 689,
+          "images": [
+            {
+              "@id": "FL19169324",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169324",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169324/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003579012-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169324",
+                  "label": "003579012-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 689,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169332",
+          "@type": "sc:Canvas",
+          "label": "003579012-V",
+          "width": 800,
+          "height": 685,
+          "images": [
+            {
+              "@id": "FL19169332",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169332",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169332/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003579012-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169332",
+                  "label": "003579012-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 685,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169323",
+      "@type": "sc:Range",
+      "label": "REP19169323",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169324",
+          "@type": "sc:Canvas",
+          "label": "003579012-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169332",
+          "@type": "sc:Canvas",
+          "label": "003579012-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003579012",
+  "viewingHint": "paged"
+}

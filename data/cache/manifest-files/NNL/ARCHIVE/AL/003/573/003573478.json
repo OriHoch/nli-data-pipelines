@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573478/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Photographs",
+  "label": "מבצע קדש: חיילי צה\"ל בעמדה מצרית שנכבשה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מבצע קדש: חיילי צה\"ל בעמדה מצרית שנכבשה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573478"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 123 X 155 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[IDF soldiers in Sinai, 1956.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573478"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573478/sequence/IE19144225",
+      "@type": "sc:Sequence",
+      "label": "מבצע קדש: חיילי צה\"ל בעמדה מצרית שנכבשה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169141",
+          "@type": "sc:Canvas",
+          "label": "003573478-R",
+          "width": 661,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169141",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169141",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169141/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573478-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169141",
+                  "label": "003573478-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 661
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169146",
+          "@type": "sc:Canvas",
+          "label": "003573478-V",
+          "width": 675,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169146",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169146",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169146/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573478-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169146",
+                  "label": "003573478-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 675
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169140",
+      "@type": "sc:Range",
+      "label": "REP19169140",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169141",
+          "@type": "sc:Canvas",
+          "label": "003573478-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169146",
+          "@type": "sc:Canvas",
+          "label": "003573478-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573478",
+  "viewingHint": "paged"
+}

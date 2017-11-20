@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002636985/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Responsa; Miscellaneous prayers (Jewish liturgy); Judaism -- Liturgy -- Texts",
+  "label": "תפלה לתוקע.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תפלה לתוקע."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Responsa; Miscellaneous prayers (Jewish liturgy); Judaism -- Liturgy -- Texts"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002636985"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ז-י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 28 ס\"מ רוחב..; דף נייר קטוע מלמטה, - 3 קרעים. שרדו 7 שורות העליונות. ניקוד מלא. כתיבה גדולה, כנראה מיועד לחזן. עבר שימוש משני כחומר כריכה.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002636985"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002636985/sequence/IE4475723",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.41=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449814",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 8448,
+          "height": 4056,
+          "images": [
+            {
+              "@id": "FL8449814",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449814",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449814/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449814",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4056,
+                "width": 8448
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449813",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 7824,
+          "height": 3560,
+          "images": [
+            {
+              "@id": "FL8449813",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449813",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449813/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449813",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3560,
+                "width": 7824
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP8449812",
+      "@type": "sc:Range",
+      "label": "REP8449812",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449814",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449813",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002636985",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003687401/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "הוצאת י.ש. גפנר, מאה שערים, ירושלם; Tsefat (Israel)",
+  "label": "ציון בניהו בן יהוידע הכהן, צפת. -[Rabbi Dosa ben Harkinas Cave in Safed] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ציון בניהו בן יהוידע הכהן, צפת. -[Rabbi Dosa ben Harkinas Cave in Safed] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "הוצאת י.ש. גפנר, מאה שערים, ירושלם; Tsefat (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003687401"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 100 X 140 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Rabbi Dosa ben Harkinas Cave in Safed]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003687401"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003687401/sequence/IE16092150",
+      "@type": "sc:Sequence",
+      "label": "ציון בניהו בן יהוידע הכהן  צפת.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157557",
+          "@type": "sc:Canvas",
+          "label": "3687401-10_r",
+          "width": 800,
+          "height": 576,
+          "images": [
+            {
+              "@id": "FL16157557",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157557",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157557/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3687401-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157557",
+                  "label": "3687401-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 576,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157556",
+          "@type": "sc:Canvas",
+          "label": "3687401-10_v",
+          "width": 800,
+          "height": 578,
+          "images": [
+            {
+              "@id": "FL16157556",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157556",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157556/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3687401-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157556",
+                  "label": "3687401-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 578,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157555",
+      "@type": "sc:Range",
+      "label": "REP16157555",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157557",
+          "@type": "sc:Canvas",
+          "label": "3687401-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157556",
+          "@type": "sc:Canvas",
+          "label": "3687401-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003687401",
+  "viewingHint": "paged"
+}

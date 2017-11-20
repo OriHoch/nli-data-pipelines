@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003538664/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "בקור הגב' והא' אוסישקין על יד הבנין, הדר הכרמל, 27.10.1921.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בקור הגב' והא' אוסישקין על יד הבנין, הדר הכרמל, 27.10.1921."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003538664"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 120 X 175 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Ussishkin and his wife visiting the building site of their new home in Haifa]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003538664"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003538664/sequence/IE19145627",
+      "@type": "sc:Sequence",
+      "label": "בקור הגב' והא' אוסישקין על יד הבנין  הדר הכרמל  27.10.1921.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168298",
+          "@type": "sc:Canvas",
+          "label": "003538664-R",
+          "width": 800,
+          "height": 639,
+          "images": [
+            {
+              "@id": "FL19168298",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168298",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168298/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003538664-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168298",
+                  "label": "003538664-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 639,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168299",
+          "@type": "sc:Canvas",
+          "label": "003538664-V",
+          "width": 800,
+          "height": 636,
+          "images": [
+            {
+              "@id": "FL19168299",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168299",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168299/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003538664-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168299",
+                  "label": "003538664-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 636,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168297",
+      "@type": "sc:Range",
+      "label": "REP19168297",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168298",
+          "@type": "sc:Canvas",
+          "label": "003538664-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168299",
+          "@type": "sc:Canvas",
+          "label": "003538664-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003538664",
+  "viewingHint": "paged"
+}

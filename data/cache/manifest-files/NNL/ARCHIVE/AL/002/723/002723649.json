@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002723649/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel)",
+  "label": "[פועלים עברים מניחים צנור מים בעיר העתיקה בירושלים]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[פועלים עברים מניחים צנור מים בעיר העתיקה בירושלים]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002723649"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 125 X 175 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Hebrew Workers Laying Water Pipes in the Old City of Jerusalem"
+    },
+    {
+      "label": "SysNum",
+      "value": "002723649"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002723649/sequence/IE19145832",
+      "@type": "sc:Sequence",
+      "label": "[פועלים עברים מניחים צנור מים בעיר העתיקה בירושלים]",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165673",
+          "@type": "sc:Canvas",
+          "label": "002723649-R",
+          "width": 581,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19165673",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165673",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165673/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723649-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165673",
+                  "label": "002723649-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 581
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165672",
+          "@type": "sc:Canvas",
+          "label": "002723649-V",
+          "width": 587,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19165672",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165672",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165672/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723649-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165672",
+                  "label": "002723649-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 587
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165671",
+      "@type": "sc:Range",
+      "label": "REP19165671",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165673",
+          "@type": "sc:Canvas",
+          "label": "002723649-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165672",
+          "@type": "sc:Canvas",
+          "label": "002723649-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002723649",
+  "viewingHint": "paged"
+}

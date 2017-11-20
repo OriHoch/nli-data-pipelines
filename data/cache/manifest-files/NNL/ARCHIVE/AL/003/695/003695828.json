@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003695828/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "חברת \"לבנון\" ווארשא; Rishon Letsiyon (Israel)",
+  "label": "ראשון לציון: גן המושבה. -Колоніа Ришонъ. Общественный сад. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ראשון לציון: גן המושבה. -Колоніа Ришонъ. Общественный сад. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "חברת \"לבנון\" ווארשא; Rishon Letsiyon (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003695828"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Колоніа Ришонъ. Общественный сад."
+    },
+    {
+      "label": "SysNum",
+      "value": "003695828"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003695828/sequence/IE16093533",
+      "@type": "sc:Sequence",
+      "label": "ראשון לציון: גן המושבה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157879",
+          "@type": "sc:Canvas",
+          "label": "3695828-10_r",
+          "width": 800,
+          "height": 520,
+          "images": [
+            {
+              "@id": "FL16157879",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157879",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157879/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3695828-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157879",
+                  "label": "3695828-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 520,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157880",
+          "@type": "sc:Canvas",
+          "label": "3695828-10_v",
+          "width": 800,
+          "height": 520,
+          "images": [
+            {
+              "@id": "FL16157880",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157880",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157880/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3695828-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157880",
+                  "label": "3695828-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 520,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157878",
+      "@type": "sc:Range",
+      "label": "REP16157878",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157879",
+          "@type": "sc:Canvas",
+          "label": "3695828-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157880",
+          "@type": "sc:Canvas",
+          "label": "3695828-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003695828",
+  "viewingHint": "paged"
+}

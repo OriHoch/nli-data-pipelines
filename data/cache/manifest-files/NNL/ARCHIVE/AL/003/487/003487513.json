@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003487513/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "חזית חנות הצילום של ח'ליל ראאד, רחוב יפו, ירושלים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חזית חנות הצילום של ח'ליל ראאד, רחוב יפו, ירושלים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003487513"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 126 X 169 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[In front of Khalil Raad's photography studio on Jaffa Street, Jerusalem.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003487513"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003487513/sequence/IE19144654",
+      "@type": "sc:Sequence",
+      "label": "חזית חנות הצילום של ח'ליל ראאד  רחוב יפו  ירושלים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166999",
+          "@type": "sc:Canvas",
+          "label": "003487513-R",
+          "width": 582,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166999",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166999",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166999/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487513-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166999",
+                  "label": "003487513-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 582
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167000",
+          "@type": "sc:Canvas",
+          "label": "003487513-V",
+          "width": 800,
+          "height": 582,
+          "images": [
+            {
+              "@id": "FL19167000",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167000",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167000/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487513-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167000",
+                  "label": "003487513-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 582,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166998",
+      "@type": "sc:Range",
+      "label": "REP19166998",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166999",
+          "@type": "sc:Canvas",
+          "label": "003487513-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167000",
+          "@type": "sc:Canvas",
+          "label": "003487513-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003487513",
+  "viewingHint": "paged"
+}

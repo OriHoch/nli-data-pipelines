@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003664656/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Folklore; Jewish magic",
+  "label": "פתח לאחיזות עיניים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פתח לאחיזות עיניים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Folklore; Jewish magic"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003664656"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1..; פתק נייר קטן.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003664656"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003664656/sequence/IE7660291",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.392A=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7871696",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 2890,
+          "height": 1824,
+          "images": [
+            {
+              "@id": "FL7871696",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7871696",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7871696/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7871696",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1824,
+                "width": 2890
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7871697",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 2890,
+          "height": 1824,
+          "images": [
+            {
+              "@id": "FL7871697",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7871697",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7871697/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7871697",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1824,
+                "width": 2890
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7871695",
+      "@type": "sc:Range",
+      "label": "REP7871695",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7871696",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7871697",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003664656",
+  "viewingHint": "paged"
+}

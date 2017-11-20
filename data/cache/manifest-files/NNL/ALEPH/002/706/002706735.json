@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002706735/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תאג' (דברים טז:ג-טז:יא).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תאג' (דברים טז:ג-טז:יא)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002706735"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף ; 27X19.5 ס\"מ..; דף כמעט שלם, נזקי תולעים וחיסור בפינה תחתונה. שני טורים לעמוד, 28 שורות לטור. פסוקי מקרא בטעמים וניקוד טברני. פסוקי אונקלוס בניקוד עליון. מידות השטח הכתוב 23.5X16 ס\"מ, רוחב הטור 7 ס\"מ. נמצא יחד עם שרידים מכתב יד אחר (מס' 247), בשימוש משני כחומר ביטנה בכרכת ספר אחר.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002706735"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002706735/sequence/IE6296456",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.246=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7333735",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 8562,
+          "height": 5214,
+          "images": [
+            {
+              "@id": "FL7333735",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7333735",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7333735/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7333735",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5214,
+                "width": 8562
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7333734",
+      "@type": "sc:Range",
+      "label": "REP7333734",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7333735",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002706735",
+  "viewingHint": "paged"
+}

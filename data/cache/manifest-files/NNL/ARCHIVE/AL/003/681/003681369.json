@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003681369/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Theo Stroefer, Nürnberg; Eretz Israel",
+  "label": "Das Helige Bad am Jordan.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Das Helige Bad am Jordan."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Theo Stroefer, Nürnberg; Eretz Israel"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003681369"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : color ; 89 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[נהר הירדן]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003681369"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003681369/sequence/IE16091346",
+      "@type": "sc:Sequence",
+      "label": "Das Helige Bad am Jordan.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156288",
+          "@type": "sc:Canvas",
+          "label": "3681369-10_r",
+          "width": 800,
+          "height": 516,
+          "images": [
+            {
+              "@id": "FL16156288",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156288",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156288/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3681369-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156288",
+                  "label": "3681369-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 516,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156287",
+          "@type": "sc:Canvas",
+          "label": "3681369-10_v",
+          "width": 800,
+          "height": 511,
+          "images": [
+            {
+              "@id": "FL16156287",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156287",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156287/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3681369-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156287",
+                  "label": "3681369-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 511,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156286",
+      "@type": "sc:Range",
+      "label": "REP16156286",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156288",
+          "@type": "sc:Canvas",
+          "label": "3681369-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156287",
+          "@type": "sc:Canvas",
+          "label": "3681369-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003681369",
+  "viewingHint": "paged"
+}

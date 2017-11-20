@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573365/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Israel -- Photographs",
+  "label": "חוות אילנות לחקר היער.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חוות אילנות לחקר היער."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Israel -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ויסנשטין, רודי, 1910-1992 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573365"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 127 X 181 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Ilanot Tree Nursery and Experimental Station]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003573365"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573365/sequence/IE19145251",
+      "@type": "sc:Sequence",
+      "label": "חוות אילנות לחקר היער.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167073",
+          "@type": "sc:Canvas",
+          "label": "003573365-R",
+          "width": 800,
+          "height": 553,
+          "images": [
+            {
+              "@id": "FL19167073",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167073",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167073/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573365-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167073",
+                  "label": "003573365-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 553,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167072",
+          "@type": "sc:Canvas",
+          "label": "003573365-V",
+          "width": 800,
+          "height": 550,
+          "images": [
+            {
+              "@id": "FL19167072",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167072",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167072/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573365-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167072",
+                  "label": "003573365-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 550,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167071",
+      "@type": "sc:Range",
+      "label": "REP19167071",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167073",
+          "@type": "sc:Canvas",
+          "label": "003573365-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167072",
+          "@type": "sc:Canvas",
+          "label": "003573365-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573365",
+  "viewingHint": "paged"
+}

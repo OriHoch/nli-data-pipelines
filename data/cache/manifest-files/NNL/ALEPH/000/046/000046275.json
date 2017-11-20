@@ -1,0 +1,185 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH000046275/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Medicine -- Early works to 1800",
+  "label": "אקרבדין (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אקרבדין (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "גורודצקי, עזרא פ., 1928- בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Medicine -- Early works to 1800"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אלישע היווני"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH000046275"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים..; הדפים קרועים ואכולים שהוצאו מכריכה.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "000046275"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000046275/sequence/IE48975384",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 6566=24",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975390",
+          "@type": "sc:Canvas",
+          "label": "Leaf 001",
+          "width": 6786,
+          "height": 4912,
+          "images": [
+            {
+              "@id": "FL48975390",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48975390",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48975390/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf 001",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48975390",
+                  "label": "Leaf 001",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4912,
+                "width": 6786
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975391",
+          "@type": "sc:Canvas",
+          "label": "Leaf 002",
+          "width": 6818,
+          "height": 4907,
+          "images": [
+            {
+              "@id": "FL48975391",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48975391",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48975391/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Leaf 002",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48975391",
+                  "label": "Leaf 002",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4907,
+                "width": 6818
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975392",
+          "@type": "sc:Canvas",
+          "label": "Color",
+          "width": 6775,
+          "height": 4902,
+          "images": [
+            {
+              "@id": "FL48975392",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL48975392",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL48975392/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL48975392",
+                  "label": "Color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4902,
+                "width": 6775
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP48975389",
+      "@type": "sc:Range",
+      "label": "REP48975389",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975390",
+          "@type": "sc:Canvas",
+          "label": "Leaf 001"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975391",
+          "@type": "sc:Canvas",
+          "label": "Leaf 002"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL48975392",
+          "@type": "sc:Canvas",
+          "label": "Color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH000046275",
+  "viewingHint": "paged"
+}

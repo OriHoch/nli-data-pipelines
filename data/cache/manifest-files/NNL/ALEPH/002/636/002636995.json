@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002636995/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תרגום ערבי לתורה (דברים כד:כ- כו:ה).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תרגום ערבי לתורה (דברים כד:כ- כו:ה)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "סעדיה בן יוסף, אלפיומי, 882-942"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002636995"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף..; החצי התחתון של דף נייר שעבר שימוש משני כחומר כריכה. קרוע מעט בקצה הפנימי, שרדו 11 מתוך בערך 22 שורות לעמוד שלם.."
+    },
+    {
+      "label": "Language",
+      "value": "jrb;heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002636995"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002636995/sequence/IE4475689",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.42=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449811",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 6536,
+          "height": 4880,
+          "images": [
+            {
+              "@id": "FL8449811",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449811",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449811/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449811",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4880,
+                "width": 6536
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449810",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 6688,
+          "height": 4584,
+          "images": [
+            {
+              "@id": "FL8449810",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8449810",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8449810/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8449810",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4584,
+                "width": 6688
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP8449809",
+      "@type": "sc:Range",
+      "label": "REP8449809",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449811",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8449810",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002636995",
+  "viewingHint": "paged"
+}

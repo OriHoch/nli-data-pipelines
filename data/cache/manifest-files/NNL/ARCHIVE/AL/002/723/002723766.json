@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002723766/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "בורלא, יהודה, 1886-1969; בן עמי, מרדכי, 1854-1932; שטריט, שלום, 1888-1946; ביאליק, חיים נחמן, 1873-1934; Zikhron Ya'akov (Israel) -- Photographs",
+  "label": "[קבוצת סופרים עברים בזכרון יעקב, תרפ\"ו].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[קבוצת סופרים עברים בזכרון יעקב, תרפ\"ו]."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "בורלא, יהודה, 1886-1969; בן עמי, מרדכי, 1854-1932; שטריט, שלום, 1888-1946; ביאליק, חיים נחמן, 1873-1934; Zikhron Ya'akov (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002723766"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 13 X 18 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "A Group of Hebrew Authors in Zikhron Yaaqov, 1926."
+    },
+    {
+      "label": "SysNum",
+      "value": "002723766"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002723766/sequence/IE19145840",
+      "@type": "sc:Sequence",
+      "label": "[קבוצת סופרים עברים בזכרון יעקב  תרפ\"ו].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166582",
+          "@type": "sc:Canvas",
+          "label": "002723766-R",
+          "width": 800,
+          "height": 573,
+          "images": [
+            {
+              "@id": "FL19166582",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166582",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166582/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723766-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166582",
+                  "label": "002723766-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 573,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166585",
+          "@type": "sc:Canvas",
+          "label": "002723766-V",
+          "width": 800,
+          "height": 575,
+          "images": [
+            {
+              "@id": "FL19166585",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166585",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166585/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002723766-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166585",
+                  "label": "002723766-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 575,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166580",
+      "@type": "sc:Range",
+      "label": "REP19166580",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166582",
+          "@type": "sc:Canvas",
+          "label": "002723766-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166585",
+          "@type": "sc:Canvas",
+          "label": "002723766-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002723766",
+  "viewingHint": "paged"
+}

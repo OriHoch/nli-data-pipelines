@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573098/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Petah Tikva (Israel) -- Photographs",
+  "label": "הספרייה וחדר העיון בבית התלמיד, פתח תקוה. -[The Library and Reading room for High School Pupils in Peath Tiqwa.] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הספרייה וחדר העיון בבית התלמיד, פתח תקוה. -[The Library and Reading room for High School Pupils in Peath Tiqwa.] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Petah Tikva (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573098"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 130 X 183 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[The Library and Reading room for High School Pupils in Peath Tiqwa.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573098"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573098/sequence/IE19145163",
+      "@type": "sc:Sequence",
+      "label": "הספרייה וחדר העיון בבית התלמיד  פתח תקוה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166191",
+          "@type": "sc:Canvas",
+          "label": "003573098-R",
+          "width": 800,
+          "height": 582,
+          "images": [
+            {
+              "@id": "FL19166191",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166191",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166191/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573098-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166191",
+                  "label": "003573098-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 582,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166182",
+          "@type": "sc:Canvas",
+          "label": "003573098-V",
+          "width": 578,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166182",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166182",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166182/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573098-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166182",
+                  "label": "003573098-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 578
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166181",
+      "@type": "sc:Range",
+      "label": "REP19166181",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166191",
+          "@type": "sc:Canvas",
+          "label": "003573098-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166182",
+          "@type": "sc:Canvas",
+          "label": "003573098-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573098",
+  "viewingHint": "paged"
+}

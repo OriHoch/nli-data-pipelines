@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003567738/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "ברקאי, סם, 1898-1975; Tel Aviv-Yafo (Israel) -- Photographs; Reḥov Byaliḳ (Tel Aviv-Yafo, Israel) -- Photographs",
+  "label": "בנין בית ביאליק.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בנין בית ביאליק."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "ברקאי, סם, 1898-1975; Tel Aviv-Yafo (Israel) -- Photographs; Reḥov Byaliḳ (Tel Aviv-Yafo, Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003567738"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 118 X 172 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Bialik's house under construction]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003567738"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003567738/sequence/IE19145402",
+      "@type": "sc:Sequence",
+      "label": "בנין בית ביאליק.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167137",
+          "@type": "sc:Canvas",
+          "label": "003567738-R",
+          "width": 800,
+          "height": 557,
+          "images": [
+            {
+              "@id": "FL19167137",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167137",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167137/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567738-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167137",
+                  "label": "003567738-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 557,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167136",
+          "@type": "sc:Canvas",
+          "label": "003567738-V",
+          "width": 554,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167136",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167136",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167136/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567738-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167136",
+                  "label": "003567738-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 554
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167135",
+      "@type": "sc:Range",
+      "label": "REP19167135",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167137",
+          "@type": "sc:Canvas",
+          "label": "003567738-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167136",
+          "@type": "sc:Canvas",
+          "label": "003567738-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003567738",
+  "viewingHint": "paged"
+}

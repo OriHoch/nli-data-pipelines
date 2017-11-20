@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003015204/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jewish sermons, Hebrew; Talmud Bavli. Megillah 28b -- Commentaries",
+  "label": "דרשה בדיני הספד.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דרשה בדיני הספד."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jewish sermons, Hebrew; Talmud Bavli. Megillah 28b -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003015204"
+    },
+    {
+      "label": "Creation Date",
+      "value": "תל\"ד (1674)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע ; 20.5 ס\"מ אורך..; נמצא בשימוש משני כחומר כריכה לעותק משנה דפוס קושטא ת\"ד..; מס' מדף R 8°35V 4074. קטעו בשני הקצוות, כתיבה רהוטה צפופה, כותרת ו-34, 41 שורות לעמוד.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003015204"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003015204/sequence/IE6364033",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.327=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084520",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3468,
+          "height": 5216,
+          "images": [
+            {
+              "@id": "FL7084520",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7084520",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7084520/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7084520",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5216,
+                "width": 3468
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084519",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3468,
+          "height": 5216,
+          "images": [
+            {
+              "@id": "FL7084519",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7084519",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7084519/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7084519",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5216,
+                "width": 3468
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7084518",
+      "@type": "sc:Range",
+      "label": "REP7084518",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084520",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084519",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003015204",
+  "viewingHint": "paged"
+}

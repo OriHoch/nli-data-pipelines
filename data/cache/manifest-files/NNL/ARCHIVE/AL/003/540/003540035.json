@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003540035/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "כרמי גדרה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כרמי גדרה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003540035"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 200 X 263 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[General View of the Wineyards near Gederah]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003540035"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003540035/sequence/IE19145723",
+      "@type": "sc:Sequence",
+      "label": "כרמי גדרה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169638",
+          "@type": "sc:Canvas",
+          "label": "003540035-R",
+          "width": 569,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169638",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169638",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169638/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003540035-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169638",
+                  "label": "003540035-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 569
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169640",
+          "@type": "sc:Canvas",
+          "label": "003540035-V",
+          "width": 568,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169640",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169640",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169640/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003540035-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169640",
+                  "label": "003540035-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 568
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169636",
+      "@type": "sc:Range",
+      "label": "REP19169636",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169638",
+          "@type": "sc:Canvas",
+          "label": "003540035-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169640",
+          "@type": "sc:Canvas",
+          "label": "003540035-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003540035",
+  "viewingHint": "paged"
+}

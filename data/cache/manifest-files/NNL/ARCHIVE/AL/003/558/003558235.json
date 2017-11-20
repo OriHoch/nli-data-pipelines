@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003558235/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "[ספינת המעפילים \"ארבע חירויות\" בנמל חיפה]. -[Illegal immigration ship \"Four Freedoms\" in Haifa harbor]. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[ספינת המעפילים \"ארבע חירויות\" בנמל חיפה]. -[Illegal immigration ship \"Four Freedoms\" in Haifa harbor]. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003558235"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 83 X 110 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Illegal immigration ship \"Four Freedoms\" in Haifa harbor]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003558235"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558235/sequence/IE38045949",
+      "@type": "sc:Sequence",
+      "label": "[ספינת המעפילים \"ארבע חירויות\" בנמל חיפה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048405",
+          "@type": "sc:Canvas",
+          "label": "3868240-10_0001_R",
+          "width": 2728,
+          "height": 1892,
+          "images": [
+            {
+              "@id": "FL38048405",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048405",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048405/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3868240-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048405",
+                  "label": "3868240-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1892,
+                "width": 2728
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048404",
+          "@type": "sc:Canvas",
+          "label": "3868240-10_0001_V",
+          "width": 2777,
+          "height": 1945,
+          "images": [
+            {
+              "@id": "FL38048404",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048404",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048404/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3868240-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048404",
+                  "label": "3868240-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 1945,
+                "width": 2777
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048403",
+      "@type": "sc:Range",
+      "label": "REP38048403",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048405",
+          "@type": "sc:Canvas",
+          "label": "3868240-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048404",
+          "@type": "sc:Canvas",
+          "label": "3868240-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003558235",
+  "viewingHint": "paged"
+}

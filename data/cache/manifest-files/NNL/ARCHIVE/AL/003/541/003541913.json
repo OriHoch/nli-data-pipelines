@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003541913/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "קונצרט של הרביעיה הירושלמית לכלי מיתר - רביעית האוזר.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קונצרט של הרביעיה הירושלמית לכלי מיתר - רביעית האוזר."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003541913"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 238 X 298 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Members of the Hauser String Quartet in a Concert]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003541913"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003541913/sequence/IE19145780",
+      "@type": "sc:Sequence",
+      "label": "קונצרט של הרביעיה הירושלמית לכלי מיתר - רביעית האוזר.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169439",
+          "@type": "sc:Canvas",
+          "label": "003541913-R",
+          "width": 800,
+          "height": 643,
+          "images": [
+            {
+              "@id": "FL19169439",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169439",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169439/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003541913-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169439",
+                  "label": "003541913-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 643,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169436",
+          "@type": "sc:Canvas",
+          "label": "003541913-V",
+          "width": 800,
+          "height": 640,
+          "images": [
+            {
+              "@id": "FL19169436",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169436",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169436/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003541913-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169436",
+                  "label": "003541913-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 640,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169435",
+      "@type": "sc:Range",
+      "label": "REP19169435",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169439",
+          "@type": "sc:Canvas",
+          "label": "003541913-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169436",
+          "@type": "sc:Canvas",
+          "label": "003541913-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003541913",
+  "viewingHint": "paged"
+}

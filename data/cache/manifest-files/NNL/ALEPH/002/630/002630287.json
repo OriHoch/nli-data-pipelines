@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002630287/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "קינות לנפטרים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קינות לנפטרים."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002630287"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 19.8X15.5 ס\"מ..; דף נייר כמעט שלם, 17 שורות לעמוד. 14.5X12 ס\"מ. ניקוד מלא.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "קינות."
+    },
+    {
+      "label": "SysNum",
+      "value": "002630287"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002630287/sequence/IE39696116",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1235.1=24",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696150",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r",
+          "width": 4694,
+          "height": 6114,
+          "images": [
+            {
+              "@id": "FL39696150",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696150",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696150/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696150",
+                  "label": "Frag. 001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6114,
+                "width": 4694
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696161",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v",
+          "width": 4694,
+          "height": 6114,
+          "images": [
+            {
+              "@id": "FL39696161",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39696161",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39696161/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. 001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39696161",
+                  "label": "Frag. 001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6114,
+                "width": 4694
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39696149",
+      "@type": "sc:Range",
+      "label": "REP39696149",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696150",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39696161",
+          "@type": "sc:Canvas",
+          "label": "Frag. 001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002630287",
+  "viewingHint": "paged"
+}

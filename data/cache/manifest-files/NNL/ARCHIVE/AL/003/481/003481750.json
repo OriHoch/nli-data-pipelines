@@ -1,0 +1,140 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003481750/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "ועדת הכותל, 1930. -[International Commission for the Wailing Wall, 1930.] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ועדת הכותל, 1930. -[International Commission for the Wailing Wall, 1930.] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003481750"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 178 X 230 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "[ועדת החקירה הבין לאומית מטעם חבר הלאומים לענין הכותל המערבי]",
+        "[International Commission for the Wailing Wall, 1930.]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003481750"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003481750/sequence/IE19145520",
+      "@type": "sc:Sequence",
+      "label": "ועדת הכותל  1930.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168037",
+          "@type": "sc:Canvas",
+          "label": "003481750-R",
+          "width": 800,
+          "height": 298,
+          "images": [
+            {
+              "@id": "FL19168037",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168037",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168037/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003481750-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168037",
+                  "label": "003481750-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 298,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168034",
+          "@type": "sc:Canvas",
+          "label": "003481750-V",
+          "width": 800,
+          "height": 302,
+          "images": [
+            {
+              "@id": "FL19168034",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168034",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168034/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003481750-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168034",
+                  "label": "003481750-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 302,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168033",
+      "@type": "sc:Range",
+      "label": "REP19168033",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168037",
+          "@type": "sc:Canvas",
+          "label": "003481750-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168034",
+          "@type": "sc:Canvas",
+          "label": "003481750-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003481750",
+  "viewingHint": "paged"
+}

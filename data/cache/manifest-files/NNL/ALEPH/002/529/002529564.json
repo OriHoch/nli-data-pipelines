@@ -1,0 +1,155 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002529564/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תרגום ערבי לתורה (הקדמה).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תרגום ערבי לתורה (הקדמה)."
+    },
+    {
+      "label": "Contributor",
+      "value": "שלמה בן סעדיה, הבחור בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "סעדיה בן יוסף, אלפיומי, 882-942"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002529564"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1200"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 12.5X15 ס\"מ..; דף קרוע מלמטה, כנראה הדף הראשון שבמחברת. צד א', עמוד השער, ריק, ונוספו לו חיתמות בעלים. צד ב' שרדו 11 שורות, 5 מהל שלמות (10 ס\"מ). קרוע מלמטה, במעט בפינות. מקופל לרבעים.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002529564"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002529564/sequence/IE37457479",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.5.27=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457491",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001r]",
+          "width": 4000,
+          "height": 5336,
+          "images": [
+            {
+              "@id": "FL37457491",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37457491",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37457491/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. [001r]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37457491",
+                  "label": "Fol. [001r]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5336,
+                "width": 4000
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457492",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001v]",
+          "width": 4000,
+          "height": 5336,
+          "images": [
+            {
+              "@id": "FL37457492",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37457492",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37457492/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. [001v]",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37457492",
+                  "label": "Fol. [001v]",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5336,
+                "width": 4000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002529564/sequence/IE9284616",
+      "@type": "sc:Sequence",
+      "label": "תרגום ערבי לתורה (הקדמה)."
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37457490",
+      "@type": "sc:Range",
+      "label": "REP37457490",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457491",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001r]"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37457492",
+          "@type": "sc:Canvas",
+          "label": "Fol. [001v]"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002529564",
+  "viewingHint": "paged"
+}

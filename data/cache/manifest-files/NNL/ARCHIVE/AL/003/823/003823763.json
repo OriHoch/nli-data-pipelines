@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003823763/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs; London (England) -- Photographs",
+  "label": "ביקור שר האוצר בלונדון. -[Visit of Israeli Minister of Finance in London] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ביקור שר האוצר בלונדון. -[Visit of Israeli Minister of Finance in London] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs; London (England) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003823763"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 129 X 173 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Visit of Israeli Minister of Finance in London]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003823763"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003823763/sequence/IE38045938",
+      "@type": "sc:Sequence",
+      "label": "ביקור שר האוצר בלונדון.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048399",
+          "@type": "sc:Canvas",
+          "label": "3868255-10_0001_R",
+          "width": 4121,
+          "height": 3089,
+          "images": [
+            {
+              "@id": "FL38048399",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048399",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048399/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3868255-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048399",
+                  "label": "3868255-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3089,
+                "width": 4121
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048398",
+          "@type": "sc:Canvas",
+          "label": "3868255-10_0001_V",
+          "width": 4137,
+          "height": 3091,
+          "images": [
+            {
+              "@id": "FL38048398",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048398",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048398/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3868255-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048398",
+                  "label": "3868255-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3091,
+                "width": 4137
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048397",
+      "@type": "sc:Range",
+      "label": "REP38048397",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048399",
+          "@type": "sc:Canvas",
+          "label": "3868255-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048398",
+          "@type": "sc:Canvas",
+          "label": "3868255-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003823763",
+  "viewingHint": "paged"
+}

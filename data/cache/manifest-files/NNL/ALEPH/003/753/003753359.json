@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003753359/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "Antiphonarium (strip on back).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Antiphonarium (strip on back)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003753359"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1450-1500"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 fr. ; 213X117 mm..; Thick white parchment. Text space 167 x 117 mm. 1 col, 3 lines, written in brown ink, one hand..; One 5-lines brown initial, one red rubric.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003753359"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003753359/sequence/IE26448110",
+      "@type": "sc:Sequence",
+      "label": "Antiphonarium (strip on back).",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL26448115",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 8150,
+          "height": 6113,
+          "images": [
+            {
+              "@id": "FL26448115",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL26448115",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL26448115/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL26448115",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6113,
+                "width": 8150
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL26448116",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 8150,
+          "height": 6113,
+          "images": [
+            {
+              "@id": "FL26448116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL26448116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL26448116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL26448116",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6113,
+                "width": 8150
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP26448114",
+      "@type": "sc:Range",
+      "label": "REP26448114",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL26448115",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL26448116",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003753359",
+  "viewingHint": "paged"
+}

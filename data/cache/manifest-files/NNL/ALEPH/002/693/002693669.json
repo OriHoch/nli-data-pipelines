@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002693669/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תורה (שמות לד:כה-לה:ט) : עם תרגום אונקלוס אחרי כל פסוק.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תורה (שמות לד:כה-לה:ט) : עם תרגום אונקלוס אחרי כל פסוק."
+    },
+    {
+      "label": "Contributor",
+      "value": "אונקלוס"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002693669"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה יז-יח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף..; דף קרוע מלמעלה, חסר יותר משליש העליון, שרדו 16 שורות לעמוד. פסוקי המקרא עם טעמים וניקוד (תחתון) מלא, פסוקי התרגום עם ניקוד מלא. מסמן פרשה ברווחים. שומר דף.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002693669"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002693669/sequence/IE18977130",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.189=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL30803616",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5124,
+          "height": 3601,
+          "images": [
+            {
+              "@id": "FL30803616",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL30803616",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL30803616/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL30803616",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3601,
+                "width": 5124
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL30803615",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5124,
+          "height": 3601,
+          "images": [
+            {
+              "@id": "FL30803615",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL30803615",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL30803615/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL30803615",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3601,
+                "width": 5124
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP30803614",
+      "@type": "sc:Range",
+      "label": "REP30803614",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL30803616",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL30803615",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002693669",
+  "viewingHint": "paged"
+}

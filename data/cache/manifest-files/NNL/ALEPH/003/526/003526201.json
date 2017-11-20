@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003526201/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jewish law",
+  "label": "משנה תורה (ספר זמנים, הלכות שבת כד:ח-כה:ד).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "משנה תורה (ספר זמנים, הלכות שבת כד:ח-כה:ד)."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלוני, נחמיה, 1906-1983 בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jewish law"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "משה בן מימון, 1138-1204"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003526201"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-ט\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 20.5X16 ס\"מ..; דף נייר, קרוע וחסר מעט בפינות. כותרת הפרק באות מוגדלת עם צבע אדום סביב כל אות. מידות השטח הכתוב 16.5X12 ס\"מ. מסמן סוף הלכה ב-3 רווחים, ללא מיספור.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003526201"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003526201/sequence/IE2642913",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8385.27=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5299018",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3976,
+          "height": 5736,
+          "images": [
+            {
+              "@id": "FL5299018",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5299018",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5299018/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5299018",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5736,
+                "width": 3976
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5299005",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3976,
+          "height": 5736,
+          "images": [
+            {
+              "@id": "FL5299005",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5299005",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5299005/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5299005",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5736,
+                "width": 3976
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5299004",
+      "@type": "sc:Range",
+      "label": "REP5299004",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5299018",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5299005",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003526201",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003570158/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "Rabbi Lowenthal of the United Synagogue of America addressing the gathering assembled at the Laying of the Cornerstone of the Jeshurun Synagogue Center.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Rabbi Lowenthal of the United Synagogue of America addressing the gathering assembled at the Laying of the Cornerstone of the Jeshurun Synagogue Center."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003570158"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[הרב לוונטל נואם בטקס הנחת אבן הפנה לבית הכנסת של הסתדרות \"ישרון\" בירושלים]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003570158"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003570158/sequence/IE19144221",
+      "@type": "sc:Sequence",
+      "label": "Rabbi Lowenthal of the United Synagogue of America addressing the gathering assembled at the Laying of the Cornerstone of the Jeshurun Synagogue Center.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166084",
+          "@type": "sc:Canvas",
+          "label": "003570158-R",
+          "width": 800,
+          "height": 515,
+          "images": [
+            {
+              "@id": "FL19166084",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166084",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166084/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570158-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166084",
+                  "label": "003570158-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 515,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166076",
+          "@type": "sc:Canvas",
+          "label": "003570158-V",
+          "width": 513,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166076",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166076",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166076/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570158-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166076",
+                  "label": "003570158-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 513
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166075",
+      "@type": "sc:Range",
+      "label": "REP19166075",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166084",
+          "@type": "sc:Canvas",
+          "label": "003570158-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166076",
+          "@type": "sc:Canvas",
+          "label": "003570158-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003570158",
+  "viewingHint": "paged"
+}

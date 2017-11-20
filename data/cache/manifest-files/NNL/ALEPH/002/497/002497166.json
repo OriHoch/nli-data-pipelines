@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002497166/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Egypt -- Cairo -- History -- Sources",
+  "label": "שטר מכר בערבית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שטר מכר בערבית."
+    },
+    {
+      "label": "Contributor",
+      "value": "נהראי בן נסים (מוזכר) ; עלאן בן אברהם (מוזכר) ; יעקב בן סלמאן (מוזכר)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Egypt -- Cairo -- History -- Sources"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002497166"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1052"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 29X19 ס\"מ..; דף קלף גדול, קרוע מעט בפינה התחתית-שמאלית מקופל לרחבו באמצע. מעט דהוי מחמת כתם מים באמצע. בצד ב' כתוב בכיוון הפוך, כתיבה אחרת ליד הקיפול, שמות בעלי הדין שבמסמך, כנראה לצורך תיוק ארכיוני של נהראי. כתיבה מרובעת למחצה פורמאלית. כתוב לרוחב הדף, 18 שורות, ללא סירגול.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002497166"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002497166/sequence/IE2494898",
+      "@type": "sc:Sequence",
+      "label": "שטר מכר בערבית.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328355",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3865,
+          "height": 2493,
+          "images": [
+            {
+              "@id": "FL5328355",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5328355",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5328355/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5328355",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2493,
+                "width": 3865
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328314",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3865,
+          "height": 2493,
+          "images": [
+            {
+              "@id": "FL5328314",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5328314",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5328314/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5328314",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2493,
+                "width": 3865
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5328313",
+      "@type": "sc:Range",
+      "label": "REP5328313",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328355",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5328314",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002497166",
+  "viewingHint": "paged"
+}

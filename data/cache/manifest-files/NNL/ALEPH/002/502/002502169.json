@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002502169/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Responsa",
+  "label": "שאלות ותשובות בערבית (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שאלות ותשובות בערבית (קטע)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Responsa"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "יצחק בן יעקב, אלפסי, 1013-1103"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002502169"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1300"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 22X15 ס\"מ..; דף שלם, 20 שורות לעמוד. שומר דף בסוף צד ב'. מסמן סוף תשובה בעיגול בין רווחים. מידות השטח הכתוב 16X9.5 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002502169"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002502169/sequence/IE38074192",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.5.12=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38074197",
+          "@type": "sc:Canvas",
+          "label": "Front cover",
+          "width": 4000,
+          "height": 5336,
+          "images": [
+            {
+              "@id": "FL38074197",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38074197",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38074197/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Front cover",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38074197",
+                  "label": "Front cover",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5336,
+                "width": 4000
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38074198",
+          "@type": "sc:Canvas",
+          "label": "Flyleaf 001",
+          "width": 4000,
+          "height": 5336,
+          "images": [
+            {
+              "@id": "FL38074198",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38074198",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38074198/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Flyleaf 001",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38074198",
+                  "label": "Flyleaf 001",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5336,
+                "width": 4000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38074196",
+      "@type": "sc:Range",
+      "label": "REP38074196",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38074197",
+          "@type": "sc:Canvas",
+          "label": "Front cover"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38074198",
+          "@type": "sc:Canvas",
+          "label": "Flyleaf 001"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002502169",
+  "viewingHint": "paged"
+}

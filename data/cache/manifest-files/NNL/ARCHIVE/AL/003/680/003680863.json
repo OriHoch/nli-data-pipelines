@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003680863/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "Herzlia - Gymnasia Ibrith, Jaffa, Palestine, Tell Abib [!].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Herzlia - Gymnasia Ibrith, Jaffa, Palestine, Tell Abib [!]."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003680863"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 85 X 140 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[גמנסיה הרצליה, תל אביב]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003680863"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003680863/sequence/IE16091102",
+      "@type": "sc:Sequence",
+      "label": "Herzlia - Gymnasia Ibrith  Jaffa  Palestine  Tell Abib [!].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16155988",
+          "@type": "sc:Canvas",
+          "label": "3680863-10_r",
+          "width": 495,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL16155988",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16155988",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16155988/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3680863-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16155988",
+                  "label": "3680863-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 495
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16155991",
+          "@type": "sc:Canvas",
+          "label": "3680863-10_v",
+          "width": 800,
+          "height": 487,
+          "images": [
+            {
+              "@id": "FL16155991",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16155991",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16155991/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3680863-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16155991",
+                  "label": "3680863-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 487,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16155987",
+      "@type": "sc:Range",
+      "label": "REP16155987",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16155988",
+          "@type": "sc:Canvas",
+          "label": "3680863-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16155991",
+          "@type": "sc:Canvas",
+          "label": "3680863-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003680863",
+  "viewingHint": "paged"
+}

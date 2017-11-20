@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924782/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "اقرارنامه",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "اقرارنامه"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924782"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 leaf ; 305X105 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Acknowledgement deed."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924782"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924782/sequence/IE40238440",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 8333.65=4 ",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238535",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r",
+          "width": 3817,
+          "height": 6548,
+          "images": [
+            {
+              "@id": "FL40238535",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40238535",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40238535/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40238535",
+                  "label": "Frag. [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6548,
+                "width": 3817
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238570",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v",
+          "width": 3817,
+          "height": 6548,
+          "images": [
+            {
+              "@id": "FL40238570",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40238570",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40238570/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40238570",
+                  "label": "Frag. [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 6548,
+                "width": 3817
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP40238532",
+      "@type": "sc:Range",
+      "label": "REP40238532",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238535",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40238570",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924782",
+  "viewingHint": "paged"
+}

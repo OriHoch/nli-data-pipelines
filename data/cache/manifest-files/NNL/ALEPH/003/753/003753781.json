@@ -1,0 +1,176 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003753781/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "Breviarium (cover).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Breviarium (cover)."
+    },
+    {
+      "label": "Publisher",
+      "value": "1280-1320."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003753781"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1280"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 f. ; 350X245 mm..; Vellum. Ruled in brown ink. Text space 260 x 180 mm. Thick brownish parchment. 2 cols., 32 lines written in brown ink, one hand. At the joints after front and before rear covers appear two small parchment fragments (appr. 200 x 5 mm). They contain one line written in brown ink and red rubric.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "SysNum",
+      "value": "003753781"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003753781/sequence/IE18688092",
+      "@type": "sc:Sequence",
+      "label": "Breviarium.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906849",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5524,
+          "height": 5342,
+          "images": [
+            {
+              "@id": "FL18906849",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL18906849",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL18906849/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL18906849",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5342,
+                "width": 5524
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906848",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5524,
+          "height": 5342,
+          "images": [
+            {
+              "@id": "FL18906848",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL18906848",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL18906848/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL18906848",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5342,
+                "width": 5524
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906846",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "width": 5524,
+          "height": 5342,
+          "images": [
+            {
+              "@id": "FL18906846",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL18906846",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL18906846/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 3",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL18906846",
+                  "label": "Page 3",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5342,
+                "width": 5524
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP18906845",
+      "@type": "sc:Range",
+      "label": "REP18906845",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906849",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906848",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18906846",
+          "@type": "sc:Canvas",
+          "label": "Page 3"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003753781",
+  "viewingHint": "paged"
+}

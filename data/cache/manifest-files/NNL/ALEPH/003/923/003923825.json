@@ -1,0 +1,148 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003923825/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Bible. Leviticus XI -- Commentaries",
+  "label": "פרוש התורה בפרסית יהודית (ויקרא יא).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש התורה בפרסית יהודית (ויקרא יא)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bible. Leviticus XI -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003923825"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב."
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע ; [160X13 מ\"מ]..; פינה עליונה של דף קלף דק עם שירטוט רוחב וחירור. שרידים מ-30 שורות לעמוד. בצד ב'(?) רוב הכתיבה דהויה ופגומה, וניתן לקרוא רק מילים בודדים.."
+    },
+    {
+      "label": "Language",
+      "value": "jpr;heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003923825"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923825/sequence/IE36901911",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°8333.34",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901933",
+          "@type": "sc:Canvas",
+          "label": "Fragmanet recto",
+          "width": 4667,
+          "height": 5415,
+          "images": [
+            {
+              "@id": "FL36901933",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901933",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901933/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragmanet recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901933",
+                  "label": "Fragmanet recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5415,
+                "width": 4667
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901938",
+          "@type": "sc:Canvas",
+          "label": "Fragmanet verso",
+          "width": 4667,
+          "height": 5415,
+          "images": [
+            {
+              "@id": "FL36901938",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901938",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901938/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragmanet verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901938",
+                  "label": "Fragmanet verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5415,
+                "width": 4667
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923825/sequence/IE45507927",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.34=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36901932",
+      "@type": "sc:Range",
+      "label": "REP36901932",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901933",
+          "@type": "sc:Canvas",
+          "label": "Fragmanet recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901938",
+          "@type": "sc:Canvas",
+          "label": "Fragmanet verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003923825",
+  "viewingHint": "paged"
+}

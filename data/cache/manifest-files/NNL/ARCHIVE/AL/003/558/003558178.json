@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003558178/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "[ספינת המעפילים \"מקס נורדאו\" בנמל חיפה]. -[Illegal immigration ship \"Max Nordau\" in Haifa harbor]. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[ספינת המעפילים \"מקס נורדאו\" בנמל חיפה]. -[Illegal immigration ship \"Max Nordau\" in Haifa harbor]. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003558178"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 83 X 110 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Illegal immigration ship \"Max Nordau\" in Haifa harbor]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003558178"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558178/sequence/IE19145155",
+      "@type": "sc:Sequence",
+      "label": "[ספינת המעפילים \"מקס נורדאו\" בנמל חיפה].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169717",
+          "@type": "sc:Canvas",
+          "label": "003558178-R",
+          "width": 575,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169717",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169717",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169717/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558178-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169717",
+                  "label": "003558178-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 575
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169713",
+          "@type": "sc:Canvas",
+          "label": "003558178-V",
+          "width": 576,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19169713",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169713",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169713/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558178-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169713",
+                  "label": "003558178-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 576
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558178/sequence/IE38045807",
+      "@type": "sc:Sequence",
+      "label": "[ספינת המעפילים \"מקס נורדאו\" בנמל חיפה]."
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169712",
+      "@type": "sc:Range",
+      "label": "REP19169712",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169717",
+          "@type": "sc:Canvas",
+          "label": "003558178-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169713",
+          "@type": "sc:Canvas",
+          "label": "003558178-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003558178",
+  "viewingHint": "paged"
+}

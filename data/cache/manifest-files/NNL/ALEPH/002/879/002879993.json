@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002879993/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Hadran",
+  "label": "סדר סיום מסכת משנה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סדר סיום מסכת משנה."
+    },
+    {
+      "label": "Contributor",
+      "value": "רגיו, אברהם חי, 1755-1846 (ממנו)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Hadran"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002879993"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 16.5X11 ס\"מ..; דף נייר שלם, 16-17 שורות לעמוד. נמצא בין דפי כתב יד הספריה הלאומית 4°7421, היינו תלמוד מסכת שבת דפוס אמ\"ד ת\"ה עם הערות גליון בכתב יד של ר' אברהם רגי'ו, רב ומקובל בעיר גוריציאה, איטליה, במחצית השניה של המאה הי\"ח.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "משנה."
+    },
+    {
+      "label": "SysNum",
+      "value": "002879993"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002879993/sequence/IE6358837",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.283=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084375",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 4166,
+          "height": 4467,
+          "images": [
+            {
+              "@id": "FL7084375",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7084375",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7084375/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7084375",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4467,
+                "width": 4166
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084374",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 4166,
+          "height": 4467,
+          "images": [
+            {
+              "@id": "FL7084374",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7084374",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7084374/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7084374",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4467,
+                "width": 4166
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7084373",
+      "@type": "sc:Range",
+      "label": "REP7084373",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084375",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084374",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002879993",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002634071/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "פרוש התורה לרש\"י (ויקרא כב, כג).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש התורה לרש\"י (ויקרא כב, כג)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "שלמה בן יצחק (רש\"י), 1040-1105"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002634071"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ד-ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע..; קטע מהחצי העליון של דף קלף. קטוע לאורך הקצה החיצוני. מידות השטח הכתוב בערך 19X12.2 ס\"מ. שרידים מכתיבה לטינית וחשבונות האופייניות לקלפים שעברו שימוש משני כחומר כריכה בארכיוני אירופה. שרדו 13 שורות כמעט שלמות, מתוך בערך 28 שורות לעמוד שלם.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002634071"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002634071/sequence/IE39908152",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 7875=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908168",
+          "@type": "sc:Canvas",
+          "label": "Frag [001]r",
+          "width": 4858,
+          "height": 4497,
+          "images": [
+            {
+              "@id": "FL39908168",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908168",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908168/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908168",
+                  "label": "Frag [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4497,
+                "width": 4858
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908179",
+          "@type": "sc:Canvas",
+          "label": "Frag [001]v",
+          "width": 4858,
+          "height": 4497,
+          "images": [
+            {
+              "@id": "FL39908179",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL39908179",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL39908179/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL39908179",
+                  "label": "Frag [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4497,
+                "width": 4858
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP39908167",
+      "@type": "sc:Range",
+      "label": "REP39908167",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908168",
+          "@type": "sc:Canvas",
+          "label": "Frag [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL39908179",
+          "@type": "sc:Canvas",
+          "label": "Frag [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002634071",
+  "viewingHint": "paged"
+}

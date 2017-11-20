@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003557811/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Abu Ghosh (Israel) -- Photographs",
+  "label": "הבחירות לאסיפה המכוננת: קלפי באבו גוש.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הבחירות לאסיפה המכוננת: קלפי באבו גוש."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Abu Ghosh (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003557811"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 94X137 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Polling Station at Abu Ghosh during the elections to the Constituent Assembly, January 1949.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003557811"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003557811/sequence/IE19144878",
+      "@type": "sc:Sequence",
+      "label": "הבחירות לאסיפה המכוננת: קלפי באבו גוש.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170069",
+          "@type": "sc:Canvas",
+          "label": "003557811-R",
+          "width": 800,
+          "height": 563,
+          "images": [
+            {
+              "@id": "FL19170069",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19170069",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19170069/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003557811-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19170069",
+                  "label": "003557811-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 563,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170067",
+          "@type": "sc:Canvas",
+          "label": "003557811-V",
+          "width": 800,
+          "height": 561,
+          "images": [
+            {
+              "@id": "FL19170067",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19170067",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19170067/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003557811-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19170067",
+                  "label": "003557811-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 561,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19170065",
+      "@type": "sc:Range",
+      "label": "REP19170065",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170069",
+          "@type": "sc:Canvas",
+          "label": "003557811-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170067",
+          "@type": "sc:Canvas",
+          "label": "003557811-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003557811",
+  "viewingHint": "paged"
+}

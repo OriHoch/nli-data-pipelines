@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003022951/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "Libri Psalmorum.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Libri Psalmorum."
+    },
+    {
+      "label": "Contributor",
+      "value": "Yaron, Reuven, 1924- former owner"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003022951"
+    },
+    {
+      "label": "Creation Date",
+      "value": "15th cen"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 f. ; 337X224 mm..; Thick yellowish parchment. Ruled in lead point (1 and 1 vert. bounding lines). Text space 135 x 208 mm. 1 col., 18 lines written in brown ink, set up below top line, one hand. Late number 71 written in margin opposite beginning of Psalm 71.."
+    },
+    {
+      "label": "Language",
+      "value": "lat"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Bible."
+    },
+    {
+      "label": "SysNum",
+      "value": "003022951"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003022951/sequence/IE4933724",
+      "@type": "sc:Sequence",
+      "label": "Libri Psalmorum.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5400807",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 6845,
+          "height": 8339,
+          "images": [
+            {
+              "@id": "FL5400807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5400807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5400807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5400807",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8339,
+                "width": 6845
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5400812",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 6845,
+          "height": 8339,
+          "images": [
+            {
+              "@id": "FL5400812",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5400812",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5400812/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5400812",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 8339,
+                "width": 6845
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5400806",
+      "@type": "sc:Range",
+      "label": "REP5400806",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5400807",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5400812",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003022951",
+  "viewingHint": "paged"
+}

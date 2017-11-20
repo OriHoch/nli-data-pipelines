@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002631897/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Judaism -- Liturgy -- Texts; Judaism -- Ashkenazic rite",
+  "label": "מחזור מנהג צרפת (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מחזור מנהג צרפת (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "שפיאר, שלמה בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Judaism -- Liturgy -- Texts; Judaism -- Ashkenazic rite"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002631897"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ג-י\"ד"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "3 פיסות קלף קטנות."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002631897"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002631897/sequence/IE37881192",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1428.2=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37881206",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001",
+          "width": 5146,
+          "height": 3725,
+          "images": [
+            {
+              "@id": "FL37881206",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37881206",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37881206/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fol. 001",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37881206",
+                  "label": "Fol. 001",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3725,
+                "width": 5146
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37881210",
+          "@type": "sc:Canvas",
+          "label": "Color",
+          "width": 5146,
+          "height": 4018,
+          "images": [
+            {
+              "@id": "FL37881210",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL37881210",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL37881210/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Color",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL37881210",
+                  "label": "Color",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4018,
+                "width": 5146
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP37881205",
+      "@type": "sc:Range",
+      "label": "REP37881205",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37881206",
+          "@type": "sc:Canvas",
+          "label": "Fol. 001"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL37881210",
+          "@type": "sc:Canvas",
+          "label": "Color"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002631897",
+  "viewingHint": "paged"
+}

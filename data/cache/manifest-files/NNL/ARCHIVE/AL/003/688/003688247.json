@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003688247/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "הוצאת יפת, יפו",
+  "label": "יודישע היטלען אין פערשידענע צייטען. -[Jewish hats in various times] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יודישע היטלען אין פערשידענע צייטען. -[Jewish hats in various times] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "הוצאת יפת, יפו"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003688247"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Jewish hats in various times]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003688247"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003688247/sequence/IE16092358",
+      "@type": "sc:Sequence",
+      "label": "יודישע היטלען אין פערשידענע צייטען.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157841",
+          "@type": "sc:Canvas",
+          "label": "3688247-10_r",
+          "width": 518,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL16157841",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157841",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157841/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3688247-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157841",
+                  "label": "3688247-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 518
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157842",
+          "@type": "sc:Canvas",
+          "label": "3688247-10_v",
+          "width": 800,
+          "height": 517,
+          "images": [
+            {
+              "@id": "FL16157842",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157842",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157842/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3688247-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157842",
+                  "label": "3688247-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 517,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157840",
+      "@type": "sc:Range",
+      "label": "REP16157840",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157841",
+          "@type": "sc:Canvas",
+          "label": "3688247-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157842",
+          "@type": "sc:Canvas",
+          "label": "3688247-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003688247",
+  "viewingHint": "paged"
+}

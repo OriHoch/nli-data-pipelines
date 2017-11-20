@@ -1,0 +1,153 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002642904/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rishon Letsiyon (Israel) -- Photographs",
+  "label": "תזמרת ראשון לציון -המנצח בוריס אוסוביצקי עם נגני תזמורת ראשון לציון [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תזמרת ראשון לציון -המנצח בוריס אוסוביצקי עם נגני תזמורת ראשון לציון [תמונה]"
+    },
+    {
+      "label": "Contributor",
+      "value": "ריטבסקי, אברהם אהרן"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rishon Letsiyon (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ריטבסקי, אברהם אהרן צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002642904"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 25 X 19 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "המנצח בוריס אוסוביצקי עם נגני תזמורת ראשון לציון",
+        "[The Orchestra of Rishon le Zion]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002642904"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002642904/sequence/IE19143876",
+      "@type": "sc:Sequence",
+      "label": "תזמרת ראשון לציון",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168212",
+          "@type": "sc:Canvas",
+          "label": "002642904-R",
+          "width": 800,
+          "height": 638,
+          "images": [
+            {
+              "@id": "FL19168212",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168212",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168212/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002642904-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168212",
+                  "label": "002642904-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 638,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168208",
+          "@type": "sc:Canvas",
+          "label": "002642904-V",
+          "width": 800,
+          "height": 636,
+          "images": [
+            {
+              "@id": "FL19168208",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168208",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168208/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002642904-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168208",
+                  "label": "002642904-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 636,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168207",
+      "@type": "sc:Range",
+      "label": "REP19168207",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168212",
+          "@type": "sc:Canvas",
+          "label": "002642904-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168208",
+          "@type": "sc:Canvas",
+          "label": "002642904-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002642904",
+  "viewingHint": "paged"
+}

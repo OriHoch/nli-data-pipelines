@@ -1,0 +1,149 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002722485/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bat Yam (Israel) -- Photographs",
+  "label": "על אדמת \"מנורה\". -ראשי תנועת \"המזרחי\" באתר הבניה של שכונת \"מנורה\" מדרום לתל אביב [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "על אדמת \"מנורה\". -ראשי תנועת \"המזרחי\" באתר הבניה של שכונת \"מנורה\" מדרום לתל אביב [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bat Yam (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "סוסקין, אברהם, 1881-1963 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002722485"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, sepia ; 22 X 27 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "ראשי תנועת \"המזרחי\" באתר הבניה של שכונת \"מנורה\" מדרום לתל אביב",
+        "A Group of \"Mizrahi\" Leaders at the Building Site of \"Menora\" Neighborhood, South to Tel Aviv"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002722485"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002722485/sequence/IE19143988",
+      "@type": "sc:Sequence",
+      "label": "על אדמת \"מנורה\".",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165793",
+          "@type": "sc:Canvas",
+          "label": "002722485-R",
+          "width": 800,
+          "height": 653,
+          "images": [
+            {
+              "@id": "FL19165793",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165793",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165793/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002722485-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165793",
+                  "label": "002722485-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 653,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165803",
+          "@type": "sc:Canvas",
+          "label": "002722485-V",
+          "width": 800,
+          "height": 653,
+          "images": [
+            {
+              "@id": "FL19165803",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165803",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165803/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002722485-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165803",
+                  "label": "002722485-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 653,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165792",
+      "@type": "sc:Range",
+      "label": "REP19165792",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165793",
+          "@type": "sc:Canvas",
+          "label": "002722485-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165803",
+          "@type": "sc:Canvas",
+          "label": "002722485-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002722485",
+  "viewingHint": "paged"
+}

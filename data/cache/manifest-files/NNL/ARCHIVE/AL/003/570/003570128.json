@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003570128/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "Conference on Jewish Italian Poetesses: Palatin Hotel, Tel Aviv",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Conference on Jewish Italian Poetesses: Palatin Hotel, Tel Aviv"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003570128"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 86 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[קהל המשתתפים בכינוס על משוררות יהודיות באיטליה: מלון פלטין, תל אביב]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003570128"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003570128/sequence/IE19144191",
+      "@type": "sc:Sequence",
+      "label": "Conference on Jewish Italian Poetesses: Palatin Hotel  Tel Aviv",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165974",
+          "@type": "sc:Canvas",
+          "label": "003570128-R",
+          "width": 800,
+          "height": 516,
+          "images": [
+            {
+              "@id": "FL19165974",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165974",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165974/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570128-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165974",
+                  "label": "003570128-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 516,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165967",
+          "@type": "sc:Canvas",
+          "label": "003570128-V",
+          "width": 800,
+          "height": 506,
+          "images": [
+            {
+              "@id": "FL19165967",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165967",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165967/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003570128-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165967",
+                  "label": "003570128-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 506,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165965",
+      "@type": "sc:Range",
+      "label": "REP19165965",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165974",
+          "@type": "sc:Canvas",
+          "label": "003570128-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165967",
+          "@type": "sc:Canvas",
+          "label": "003570128-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003570128",
+  "viewingHint": "paged"
+}

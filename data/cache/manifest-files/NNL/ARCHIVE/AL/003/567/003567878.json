@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003567878/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "אחד העם בשדרות הטכניון, חיפה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אחד העם בשדרות הטכניון, חיפה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003567878"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 85 X 132 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Ahad Ha'am next to the Technion in Haifa]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003567878"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003567878/sequence/IE19144146",
+      "@type": "sc:Sequence",
+      "label": "אחד העם בשדרות הטכניון  חיפה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166457",
+          "@type": "sc:Canvas",
+          "label": "003567878-R",
+          "width": 800,
+          "height": 529,
+          "images": [
+            {
+              "@id": "FL19166457",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166457",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166457/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567878-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166457",
+                  "label": "003567878-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 529,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166455",
+          "@type": "sc:Canvas",
+          "label": "003567878-V",
+          "width": 529,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19166455",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166455",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166455/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567878-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166455",
+                  "label": "003567878-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 529
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166454",
+      "@type": "sc:Range",
+      "label": "REP19166454",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166457",
+          "@type": "sc:Canvas",
+          "label": "003567878-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166455",
+          "@type": "sc:Canvas",
+          "label": "003567878-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003567878",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003924948/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "برات.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "برات."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003924948"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 78X108 mm.."
+    },
+    {
+      "label": "Language",
+      "value": "per"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Translation of title by cataloguer: Receipt."
+    },
+    {
+      "label": "SysNum",
+      "value": "003924948"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003924948/sequence/IE40182246",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8333.174=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40182284",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r",
+          "width": 3719,
+          "height": 2893,
+          "images": [
+            {
+              "@id": "FL40182284",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40182284",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40182284/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40182284",
+                  "label": "Frag. [001]r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2893,
+                "width": 3719
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40182286",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v",
+          "width": 3719,
+          "height": 2893,
+          "images": [
+            {
+              "@id": "FL40182286",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL40182286",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL40182286/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Frag. [001]v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL40182286",
+                  "label": "Frag. [001]v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2893,
+                "width": 3719
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP40182283",
+      "@type": "sc:Range",
+      "label": "REP40182283",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40182284",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL40182286",
+          "@type": "sc:Canvas",
+          "label": "Frag. [001]v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003924948",
+  "viewingHint": "paged"
+}

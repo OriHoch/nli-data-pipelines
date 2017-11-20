@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003484946/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "אהל על קבר הצדיק רבי מנחם נחום פרידמאן משטיפיענעשט, יאסי.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "אהל על קבר הצדיק רבי מנחם נחום פרידמאן משטיפיענעשט, יאסי."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003484946"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 163 X 227 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Rabbi Menachem Nachum Friedman of Stefanesti Tombstone in Iassi, Rumania.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003484946"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003484946/sequence/IE19145720",
+      "@type": "sc:Sequence",
+      "label": "אהל על קבר הצדיק רבי מנחם נחום פרידמאן משטיפיענעשט  יאסי.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166916",
+          "@type": "sc:Canvas",
+          "label": "003484946-R",
+          "width": 800,
+          "height": 573,
+          "images": [
+            {
+              "@id": "FL19166916",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166916",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166916/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003484946-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166916",
+                  "label": "003484946-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 573,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166915",
+          "@type": "sc:Canvas",
+          "label": "003484946-V",
+          "width": 800,
+          "height": 569,
+          "images": [
+            {
+              "@id": "FL19166915",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166915",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166915/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003484946-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166915",
+                  "label": "003484946-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 569,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166914",
+      "@type": "sc:Range",
+      "label": "REP19166914",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166916",
+          "@type": "sc:Canvas",
+          "label": "003484946-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166915",
+          "@type": "sc:Canvas",
+          "label": "003484946-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003484946",
+  "viewingHint": "paged"
+}

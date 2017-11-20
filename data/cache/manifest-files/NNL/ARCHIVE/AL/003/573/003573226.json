@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573226/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "חנוכת מעון הסטודנטים ברחוב איתמר בן אב\"י, ירושלים. -[Opening Ceremony of a Students' Hostel in Jerusalem] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חנוכת מעון הסטודנטים ברחוב איתמר בן אב\"י, ירושלים. -[Opening Ceremony of a Students' Hostel in Jerusalem] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "בראון, ורנר, 1918- צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573226"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 100 X 123 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Opening Ceremony of a Students' Hostel in Jerusalem]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573226"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573226/sequence/IE19145201",
+      "@type": "sc:Sequence",
+      "label": "חנוכת מעון הסטודנטים ברחוב איתמר בן אב\"י  ירושלים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166683",
+          "@type": "sc:Canvas",
+          "label": "003573226-R",
+          "width": 800,
+          "height": 651,
+          "images": [
+            {
+              "@id": "FL19166683",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166683",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166683/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573226-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166683",
+                  "label": "003573226-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 651,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166685",
+          "@type": "sc:Canvas",
+          "label": "003573226-V",
+          "width": 800,
+          "height": 646,
+          "images": [
+            {
+              "@id": "FL19166685",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166685",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166685/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573226-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166685",
+                  "label": "003573226-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 646,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166682",
+      "@type": "sc:Range",
+      "label": "REP19166682",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166683",
+          "@type": "sc:Canvas",
+          "label": "003573226-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166685",
+          "@type": "sc:Canvas",
+          "label": "003573226-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573226",
+  "viewingHint": "paged"
+}

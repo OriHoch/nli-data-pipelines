@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002722699/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel)",
+  "label": "סופרים עברים בועידת הסופרים, תל אביב, תרצ\"א.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "סופרים עברים בועידת הסופרים, תל אביב, תרצ\"א."
+    },
+    {
+      "label": "Contributor",
+      "value": "קפלנסקי, משה; פוטו פלסטיקה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "קפלנסקי, משה, 1887-1967 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002722699"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 175 X 125 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Hebrew Authors during the Author's Conference in Tel Aviv, 1931"
+    },
+    {
+      "label": "SysNum",
+      "value": "002722699"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002722699/sequence/IE19143992",
+      "@type": "sc:Sequence",
+      "label": "סופרים עברים בועידת הסופרים  תל אביב  תרצ\"א.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165973",
+          "@type": "sc:Canvas",
+          "label": "002722699-R",
+          "width": 800,
+          "height": 635,
+          "images": [
+            {
+              "@id": "FL19165973",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165973",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165973/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002722699-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165973",
+                  "label": "002722699-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 635,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165966",
+          "@type": "sc:Canvas",
+          "label": "002722699-V",
+          "width": 800,
+          "height": 628,
+          "images": [
+            {
+              "@id": "FL19165966",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19165966",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19165966/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002722699-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19165966",
+                  "label": "002722699-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 628,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19165964",
+      "@type": "sc:Range",
+      "label": "REP19165964",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165973",
+          "@type": "sc:Canvas",
+          "label": "002722699-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19165966",
+          "@type": "sc:Canvas",
+          "label": "002722699-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002722699",
+  "viewingHint": "paged"
+}

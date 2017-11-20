@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003567745/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "אפטוביצר, אביגדור, 1871-1942; אפשטין, אברהם, 1841-1918; Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "Abraham Epstein und Prof. Dr. Awigdor Aptowitzer in Baden bei Wien.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Abraham Epstein und Prof. Dr. Awigdor Aptowitzer in Baden bei Wien."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "אפטוביצר, אביגדור, 1871-1942; אפשטין, אברהם, 1841-1918; Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003567745"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 119 X 172 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[אברהם אפשטיין בחברת מזכירו אביגדור אפטוביצר]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003567745"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003567745/sequence/IE19144100",
+      "@type": "sc:Sequence",
+      "label": "Abraham Epstein und Prof. Dr. Awigdor Aptowitzer in Baden bei Wien.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166765",
+          "@type": "sc:Canvas",
+          "label": "003567745-R",
+          "width": 800,
+          "height": 558,
+          "images": [
+            {
+              "@id": "FL19166765",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166765",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166765/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567745-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166765",
+                  "label": "003567745-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 558,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166764",
+          "@type": "sc:Canvas",
+          "label": "003567745-V",
+          "width": 800,
+          "height": 558,
+          "images": [
+            {
+              "@id": "FL19166764",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166764",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166764/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003567745-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166764",
+                  "label": "003567745-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 558,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166763",
+      "@type": "sc:Range",
+      "label": "REP19166763",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166765",
+          "@type": "sc:Canvas",
+          "label": "003567745-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166764",
+          "@type": "sc:Canvas",
+          "label": "003567745-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003567745",
+  "viewingHint": "paged"
+}

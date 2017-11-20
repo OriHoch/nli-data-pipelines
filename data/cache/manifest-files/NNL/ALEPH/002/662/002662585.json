@@ -1,0 +1,143 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002662585/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Philosophy -- Early works to 1800; Jewish ethics",
+  "label": "חבור במוסר : על דרך הפילוסופיה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חבור במוסר : על דרך הפילוסופיה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Philosophy -- Early works to 1800; Jewish ethics"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002662585"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ו-ט\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 דף ; 28.6X20.5 ס\"מ..; דף נייר שלם. 34 שדורות לעמוד. מידות השטח הכתוב 18X14 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002662585"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002662585/sequence/IE7134245",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.144=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7138950",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 4013,
+          "height": 4719,
+          "images": [
+            {
+              "@id": "FL7138950",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7138950",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7138950/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7138950",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4719,
+                "width": 4013
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7138951",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 4117,
+          "height": 4719,
+          "images": [
+            {
+              "@id": "FL7138951",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7138951",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7138951/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7138951",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4719,
+                "width": 4117
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7138949",
+      "@type": "sc:Range",
+      "label": "REP7138949",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7138950",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7138951",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002662585",
+  "viewingHint": "paged"
+}

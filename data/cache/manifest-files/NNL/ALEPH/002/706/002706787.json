@@ -1,0 +1,117 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002706787/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Mishnah. Pe'ah 5, mishnah 7-8 -- Commentaries; Mishnah. Ma'aser Sheni 4-5 -- Commentaries",
+  "label": "פרוש המשנה לרמב\"ם (סדר זרעים, קטעים).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "פרוש המשנה לרמב\"ם (סדר זרעים, קטעים)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Mishnah. Pe'ah 5, mishnah 7-8 -- Commentaries; Mishnah. Ma'aser Sheni 4-5 -- Commentaries"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "משה בן מימון, 1138-1204"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002706787"
+    },
+    {
+      "label": "Creation Date",
+      "value": "י\"ד-ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים וקטעים..; הדפים דבוקים יחד, וכשהופרדו חלק מדף אחד נותר דבוק על השני. נמצאים, יחד עם שרידים מכתב יד אחר (מס' 246), בשימוש משני כחומר ביטנה בכרכת ספר אחר. לפחות 28 שורות לעמוד. שרידים מלפחות 4 דפים נוספים מאותו כ\"י נדבקו יחד בכריכה זו.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "משנה."
+    },
+    {
+      "label": "SysNum",
+      "value": "002706787"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002706787/sequence/IE6357642",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.247=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084337",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 8562,
+          "height": 5214,
+          "images": [
+            {
+              "@id": "FL7084337",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7084337",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7084337/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7084337",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5214,
+                "width": 8562
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7084336",
+      "@type": "sc:Range",
+      "label": "REP7084336",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7084337",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002706787",
+  "viewingHint": "paged"
+}

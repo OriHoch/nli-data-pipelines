@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002720084/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tsefat (Israel)",
+  "label": "עשרת החלוצים הראשונים של המושבה מחנים בארץ הקדש",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "עשרת החלוצים הראשונים של המושבה מחנים בארץ הקדש"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tsefat (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002720084"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 185 X 120 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "The First Ten Pioneers of the Colony Mahanaim in Palestine"
+    },
+    {
+      "label": "SysNum",
+      "value": "002720084"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002720084/sequence/IE19143956",
+      "@type": "sc:Sequence",
+      "label": "עשרת החלוצים הראשונים של המושבה מחנים בארץ הקדש",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166607",
+          "@type": "sc:Canvas",
+          "label": "002720084-R",
+          "width": 800,
+          "height": 525,
+          "images": [
+            {
+              "@id": "FL19166607",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166607",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166607/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002720084-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166607",
+                  "label": "002720084-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 525,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166612",
+          "@type": "sc:Canvas",
+          "label": "002720084-V",
+          "width": 800,
+          "height": 522,
+          "images": [
+            {
+              "@id": "FL19166612",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166612",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166612/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002720084-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166612",
+                  "label": "002720084-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 522,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166605",
+      "@type": "sc:Range",
+      "label": "REP19166605",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166607",
+          "@type": "sc:Canvas",
+          "label": "002720084-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166612",
+          "@type": "sc:Canvas",
+          "label": "002720084-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002720084",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003670186/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs; Hebron (West Bank) -- Photographs",
+  "label": "שכונת הדר הכרמל, חיפה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שכונת הדר הכרמל, חיפה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs; Hebron (West Bank) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "מאיר, שרלוט, 1911-1978 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003670186"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 110 X 165 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Hadar HaCarmel Neighbourhood, Haifa]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003670186"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003670186/sequence/IE19144886",
+      "@type": "sc:Sequence",
+      "label": "שכונת הדר הכרמל  חיפה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166615",
+          "@type": "sc:Canvas",
+          "label": "003670186-R",
+          "width": 800,
+          "height": 563,
+          "images": [
+            {
+              "@id": "FL19166615",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166615",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166615/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003670186-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166615",
+                  "label": "003670186-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 563,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166617",
+          "@type": "sc:Canvas",
+          "label": "003670186-V",
+          "width": 800,
+          "height": 560,
+          "images": [
+            {
+              "@id": "FL19166617",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166617",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166617/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003670186-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166617",
+                  "label": "003670186-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 560,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166613",
+      "@type": "sc:Range",
+      "label": "REP19166613",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166615",
+          "@type": "sc:Canvas",
+          "label": "003670186-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166617",
+          "@type": "sc:Canvas",
+          "label": "003670186-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003670186",
+  "viewingHint": "paged"
+}

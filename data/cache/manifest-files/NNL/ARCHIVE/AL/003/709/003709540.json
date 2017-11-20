@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003709540/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel)",
+  "label": "ירושלים: בית הכנסת והרובע היהודי בעיר העתיקה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ירושלים: בית הכנסת והרובע היהודי בעיר העתיקה."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003709540"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w ; 90 X 140 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Jerusalem - The Jewish Synagogue in the Old City."
+    },
+    {
+      "label": "SysNum",
+      "value": "003709540"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003709540/sequence/IE16096323",
+      "@type": "sc:Sequence",
+      "label": "ירושלים: בית הכנסת והרובע היהודי בעיר העתיקה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157623",
+          "@type": "sc:Canvas",
+          "label": "3709540-10_r",
+          "width": 800,
+          "height": 517,
+          "images": [
+            {
+              "@id": "FL16157623",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157623",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157623/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3709540-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157623",
+                  "label": "3709540-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 517,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157622",
+          "@type": "sc:Canvas",
+          "label": "3709540-10_v",
+          "width": 800,
+          "height": 516,
+          "images": [
+            {
+              "@id": "FL16157622",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16157622",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16157622/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3709540-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16157622",
+                  "label": "3709540-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 516,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16157621",
+      "@type": "sc:Range",
+      "label": "REP16157621",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157623",
+          "@type": "sc:Canvas",
+          "label": "3709540-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16157622",
+          "@type": "sc:Canvas",
+          "label": "3709540-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003709540",
+  "viewingHint": "paged"
+}

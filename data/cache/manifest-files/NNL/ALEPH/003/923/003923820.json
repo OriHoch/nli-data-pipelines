@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003923820/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "כתובים (משלי כב-כג).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "כתובים (משלי כב-כג)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003923820"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "קטע 1 ; [140X110 מ\"מ]..; קטע מדף נייר קרוע מלמעלה ומהקצה החיצוני. חסר בערך רבע רוחבו וחצי העליון. שרידים מ-15- 17 שורות לעמוד. כתיבה מרובעת למחצה. מסמן סוף פסוק בעיגול מעל רווח..; קטע קרוע בשלשה צדדים.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Proverbs 22-23",
+        "תנ\"ך."
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003923820"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923820/sequence/IE36901719",
+      "@type": "sc:Sequence",
+      "label": "Ms. Heb. 4°8333.31",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901741",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto",
+          "width": 4905,
+          "height": 5251,
+          "images": [
+            {
+              "@id": "FL36901741",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901741",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901741/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment recto",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901741",
+                  "label": "Fragment recto",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5251,
+                "width": 4905
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901746",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso",
+          "width": 4905,
+          "height": 5251,
+          "images": [
+            {
+              "@id": "FL36901746",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL36901746",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL36901746/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Fragment verso",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL36901746",
+                  "label": "Fragment verso",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5251,
+                "width": 4905
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003923820/sequence/IE45507897",
+      "@type": "sc:Sequence",
+      "label": "NLI Ms. Heb. 8333.31=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP36901740",
+      "@type": "sc:Range",
+      "label": "REP36901740",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901741",
+          "@type": "sc:Canvas",
+          "label": "Fragment recto"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL36901746",
+          "@type": "sc:Canvas",
+          "label": "Fragment verso"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003923820",
+  "viewingHint": "paged"
+}

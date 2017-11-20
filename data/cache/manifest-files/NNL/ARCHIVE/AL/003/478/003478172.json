@@ -1,0 +1,137 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003478172/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "יום הולדתו השבעים של אחד העם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "יום הולדתו השבעים של אחד העם."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003478172"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 215 X 275 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[A Meeting of Hebrew Authors in Honor of Ahad Haam's 70th Birthday.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003478172"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003478172/sequence/IE19145944",
+      "@type": "sc:Sequence",
+      "label": "יום הולדתו השבעים של אחד העם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166470",
+          "@type": "sc:Canvas",
+          "label": "003478172-R",
+          "width": 800,
+          "height": 676,
+          "images": [
+            {
+              "@id": "FL19166470",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166470",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166470/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003478172-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166470",
+                  "label": "003478172-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 676,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166464",
+          "@type": "sc:Canvas",
+          "label": "003478172-V",
+          "width": 800,
+          "height": 679,
+          "images": [
+            {
+              "@id": "FL19166464",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19166464",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19166464/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003478172-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19166464",
+                  "label": "003478172-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 679,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19166462",
+      "@type": "sc:Range",
+      "label": "REP19166462",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166470",
+          "@type": "sc:Canvas",
+          "label": "003478172-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19166464",
+          "@type": "sc:Canvas",
+          "label": "003478172-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003478172",
+  "viewingHint": "paged"
+}

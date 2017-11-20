@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003571815/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "הלבורטוריה החימית בבית המדרש למורים בירושלם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הלבורטוריה החימית בבית המדרש למורים בירושלם."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003571815"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 225 X 295 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[The chemical laboratory in the Hebrew Teachers Seminary of Jerusalem]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003571815"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003571815/sequence/IE19145088",
+      "@type": "sc:Sequence",
+      "label": "הלבורטוריה החימית בבית המדרש למורים בירושלם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167464",
+          "@type": "sc:Canvas",
+          "label": "003571815-R",
+          "width": 800,
+          "height": 689,
+          "images": [
+            {
+              "@id": "FL19167464",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167464",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167464/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571815-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167464",
+                  "label": "003571815-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 689,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167465",
+          "@type": "sc:Canvas",
+          "label": "003571815-V",
+          "width": 800,
+          "height": 683,
+          "images": [
+            {
+              "@id": "FL19167465",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167465",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167465/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003571815-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167465",
+                  "label": "003571815-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 683,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167463",
+      "@type": "sc:Range",
+      "label": "REP19167463",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167464",
+          "@type": "sc:Canvas",
+          "label": "003571815-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167465",
+          "@type": "sc:Canvas",
+          "label": "003571815-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003571815",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003696861/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "חברת \"לבנון\" ווארשא; Haifa (Israel)",
+  "label": "חיפה. -Хайфа. [picture] -[Haifa] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "חיפה. -Хайфа. [picture] -[Haifa] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "חברת \"לבנון\" ווארשא; Haifa (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003696861"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : color ; 88 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "Хайфа.",
+        "[Haifa]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003696861"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003696861/sequence/IE16093905",
+      "@type": "sc:Sequence",
+      "label": "חיפה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156003",
+          "@type": "sc:Canvas",
+          "label": "3696861-10_r",
+          "width": 800,
+          "height": 527,
+          "images": [
+            {
+              "@id": "FL16156003",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156003",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156003/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3696861-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156003",
+                  "label": "3696861-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 527,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156007",
+          "@type": "sc:Canvas",
+          "label": "3696861-10_v",
+          "width": 800,
+          "height": 531,
+          "images": [
+            {
+              "@id": "FL16156007",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156007",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156007/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3696861-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156007",
+                  "label": "3696861-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 531,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156002",
+      "@type": "sc:Range",
+      "label": "REP16156002",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156003",
+          "@type": "sc:Canvas",
+          "label": "3696861-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156007",
+          "@type": "sc:Canvas",
+          "label": "3696861-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003696861",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002643733/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Rishon Letsiyon (Israel) -- Photographs; Vilnius (Lithuania) -- Photographs",
+  "label": "קבוצת סופרים עברים בוילנה",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קבוצת סופרים עברים בוילנה"
+    },
+    {
+      "label": "Contributor",
+      "value": "צינוביץ, א"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Rishon Letsiyon (Israel) -- Photographs; Vilnius (Lithuania) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "צינוביץ', א צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002643733"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 15 X 11 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[A group of Hebrew authors in Wilna]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002643733"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002643733/sequence/IE19143900",
+      "@type": "sc:Sequence",
+      "label": "קבוצת סופרים עברים בוילנה",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168354",
+          "@type": "sc:Canvas",
+          "label": "002643733-R",
+          "width": 800,
+          "height": 658,
+          "images": [
+            {
+              "@id": "FL19168354",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168354",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168354/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002643733-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168354",
+                  "label": "002643733-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 658,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168355",
+          "@type": "sc:Canvas",
+          "label": "002643733-V",
+          "width": 800,
+          "height": 660,
+          "images": [
+            {
+              "@id": "FL19168355",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168355",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168355/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002643733-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168355",
+                  "label": "002643733-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 660,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168353",
+      "@type": "sc:Range",
+      "label": "REP19168353",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168354",
+          "@type": "sc:Canvas",
+          "label": "002643733-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168355",
+          "@type": "sc:Canvas",
+          "label": "002643733-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002643733",
+  "viewingHint": "paged"
+}

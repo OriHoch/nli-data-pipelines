@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003558244/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Midrash",
+  "label": "נור אלצ'לאם (כי תשא).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "נור אלצ'לאם (כי תשא)."
+    },
+    {
+      "label": "Contributor",
+      "value": "אלוני, נחמיה, 1906-1983 בעלים קודמים"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Midrash"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "נתנאל בן ישעיה"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003558244"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ד-ט\"ו"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 22.5 ס\"מ אורך..; דף נייר כמעט שלם, מתפורר בקצוות, עבר שימוש משני כחומר כריכה. 30 שורות לעמוד.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003558244"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003558244/sequence/IE2642170",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 8385.98=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5735029",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3792,
+          "height": 5976,
+          "images": [
+            {
+              "@id": "FL5735029",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5735029",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5735029/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5735029",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5976,
+                "width": 3792
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5735030",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3792,
+          "height": 5976,
+          "images": [
+            {
+              "@id": "FL5735030",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL5735030",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL5735030/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL5735030",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 5976,
+                "width": 3792
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP5735028",
+      "@type": "sc:Range",
+      "label": "REP5735028",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5735029",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL5735030",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003558244",
+  "viewingHint": "paged"
+}

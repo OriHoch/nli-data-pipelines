@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003454134/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jewish philosophy -- Early works to 1800",
+  "label": "דלאלה אלחאירין (חלק ג' פרק לא-לב).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "דלאלה אלחאירין (חלק ג' פרק לא-לב)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jewish philosophy -- Early works to 1800"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "משה בן מימון, 1138-1204"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003454134"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ד-ט\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף..; דף נייר קטוע בקצה ומלמטה, נדבק יחד עם אוסף דפים מכתבי יד שונים המרכיבים לוח כריכה. שרד צד אחד, חלק ממנו נקלף ונתלש. בו שרידים מ-13 שורות כולל כותרת פרק (ללא מיספור), ועוד מילים באותיות מוגדלות. שרדו רוב רוחבן של 24 שורות.."
+    },
+    {
+      "label": "Language",
+      "value": "jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003454134"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003454134/sequence/IE18688138",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.527=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18904461",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 6427,
+          "height": 3593,
+          "images": [
+            {
+              "@id": "FL18904461",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL18904461",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL18904461/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL18904461",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3593,
+                "width": 6427
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18904460",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 6427,
+          "height": 3593,
+          "images": [
+            {
+              "@id": "FL18904460",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL18904460",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL18904460/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL18904460",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3593,
+                "width": 6427
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP18904459",
+      "@type": "sc:Range",
+      "label": "REP18904459",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18904461",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL18904460",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003454134",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003725165/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "ישיבה של מועצת יד ושם, קיץ תש\"ך.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ישיבה של מועצת יד ושם, קיץ תש\"ך."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "מאירוביץ, קורט, צלם, 1906-2000"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003725165"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w ; 86 X 134 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Yad Vashem board meeting in summer 1960]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003725165"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003725165/sequence/IE38045736",
+      "@type": "sc:Sequence",
+      "label": "ישיבה של מועצת יד ושם  קיץ תש\"ך.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048315",
+          "@type": "sc:Canvas",
+          "label": "3725165-10_0001_R",
+          "width": 3206,
+          "height": 2138,
+          "images": [
+            {
+              "@id": "FL38048315",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048315",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048315/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3725165-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048315",
+                  "label": "3725165-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2138,
+                "width": 3206
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048316",
+          "@type": "sc:Canvas",
+          "label": "3725165-10_0001_V",
+          "width": 3177,
+          "height": 2110,
+          "images": [
+            {
+              "@id": "FL38048316",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048316",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048316/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3725165-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048316",
+                  "label": "3725165-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 2110,
+                "width": 3177
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048314",
+      "@type": "sc:Range",
+      "label": "REP38048314",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048315",
+          "@type": "sc:Canvas",
+          "label": "3725165-10_0001_R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048316",
+          "@type": "sc:Canvas",
+          "label": "3725165-10_0001_V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003725165",
+  "viewingHint": "paged"
+}

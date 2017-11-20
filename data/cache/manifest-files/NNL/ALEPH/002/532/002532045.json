@@ -1,0 +1,152 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002532045/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "תורה (דברים ו-ז).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תורה (דברים ו-ז)."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002532045"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"א-י\"ב"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 12X18.5 ס\"מ..; דף נייר קרוע מלמעלה ולאורך הקצה הפנימי. לפחות שני טורים לעמוד, שרדו עד 11 שורות לעמוד. עם טעמים וניקוד מלא. אינו שומר סרגל שמאל.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "תנ\"ך."
+    },
+    {
+      "label": "SysNum",
+      "value": "002532045"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002532045/sequence/IE16472186",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.6.42=4",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16825776",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL16825776",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16825776",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16825776/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16825776",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16825775",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL16825775",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16825775",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16825775/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16825775",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002532045/sequence/IE9284338",
+      "@type": "sc:Sequence",
+      "label": "תורה (דברים ו-ז)."
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002532045/sequence/IE54274712",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 577.6.42=4"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16825774",
+      "@type": "sc:Range",
+      "label": "REP16825774",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16825776",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16825775",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002532045",
+  "viewingHint": "paged"
+}

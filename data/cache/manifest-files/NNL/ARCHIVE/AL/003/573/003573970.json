@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573970/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Bet Ha'Arava (Israel) -- Photographs",
+  "label": "Member of the Youth Aliyah Settlement at the Dead Sea Northen End.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Member of the Youth Aliyah Settlement at the Dead Sea Northen End."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Bet Ha'Arava (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "גידל, נחום טים, 1909-1996 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573970"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 115 X 168 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[דיוקן חבר קיבוץ בית הערבה]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573970"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573970/sequence/IE19144420",
+      "@type": "sc:Sequence",
+      "label": "Member of the Youth Aliyah Settlement at the Dead Sea Northen End.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168012",
+          "@type": "sc:Canvas",
+          "label": "003573970-R",
+          "width": 546,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19168012",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168012",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168012/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573970-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168012",
+                  "label": "003573970-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 546
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168009",
+          "@type": "sc:Canvas",
+          "label": "003573970-V",
+          "width": 544,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19168009",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168009",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168009/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573970-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168009",
+                  "label": "003573970-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 544
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168008",
+      "@type": "sc:Range",
+      "label": "REP19168008",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168012",
+          "@type": "sc:Canvas",
+          "label": "003573970-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168009",
+          "@type": "sc:Canvas",
+          "label": "003573970-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573970",
+  "viewingHint": "paged"
+}

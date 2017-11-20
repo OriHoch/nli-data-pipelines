@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573680/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs; She'ar Yeshuv (Israel) -- Photographs",
+  "label": "ילדי שאר ישוב עם אמותיהם. -[She'ar Yashuv: After work mothers meet their children.] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "ילדי שאר ישוב עם אמותיהם. -[She'ar Yashuv: After work mothers meet their children.] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs; She'ar Yeshuv (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573680"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 123 X 145 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[She'ar Yashuv: After work mothers meet their children.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573680"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573680/sequence/IE19144381",
+      "@type": "sc:Sequence",
+      "label": "ילדי שאר ישוב עם אמותיהם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167702",
+          "@type": "sc:Canvas",
+          "label": "003573680-R",
+          "width": 675,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167702",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167702",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167702/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573680-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167702",
+                  "label": "003573680-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 675
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167707",
+          "@type": "sc:Canvas",
+          "label": "003573680-V",
+          "width": 677,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19167707",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167707",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167707/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573680-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167707",
+                  "label": "003573680-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 677
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167701",
+      "@type": "sc:Range",
+      "label": "REP19167701",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167702",
+          "@type": "sc:Canvas",
+          "label": "003573680-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167707",
+          "@type": "sc:Canvas",
+          "label": "003573680-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573680",
+  "viewingHint": "paged"
+}

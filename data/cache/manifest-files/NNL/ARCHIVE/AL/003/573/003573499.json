@@ -1,0 +1,146 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573499/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "מראה כללי של האוניברסיטה העברית בירושלים, הר הצופים. -[General View of the Hebrew University Buildings on Mt. Scopus, Jerusalem.] [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מראה כללי של האוניברסיטה העברית בירושלים, הר הצופים. -[General View of the Hebrew University Buildings on Mt. Scopus, Jerusalem.] [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "ברנהיים, אלפרד, 1885-1974 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573499"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photographs : b&w, ; 116 X 180 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[General View of the Hebrew University Buildings on Mt. Scopus, Jerusalem.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573499"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573499/sequence/IE19144264",
+      "@type": "sc:Sequence",
+      "label": "מראה כללי של האוניברסיטה העברית בירושלים  הר הצופים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167968",
+          "@type": "sc:Canvas",
+          "label": "003573499-R",
+          "width": 800,
+          "height": 524,
+          "images": [
+            {
+              "@id": "FL19167968",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167968",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167968/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573499-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167968",
+                  "label": "003573499-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 524,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167971",
+          "@type": "sc:Canvas",
+          "label": "003573499-V",
+          "width": 800,
+          "height": 526,
+          "images": [
+            {
+              "@id": "FL19167971",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167971",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167971/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573499-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167971",
+                  "label": "003573499-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 526,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167967",
+      "@type": "sc:Range",
+      "label": "REP19167967",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167968",
+          "@type": "sc:Canvas",
+          "label": "003573499-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167971",
+          "@type": "sc:Canvas",
+          "label": "003573499-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573499",
+  "viewingHint": "paged"
+}

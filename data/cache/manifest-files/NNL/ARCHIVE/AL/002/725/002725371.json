@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002725371/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Migdal (Israel) -- Photographs",
+  "label": "הנחת אבן הפנה במגדל לבתים הראשונים -הנחת אבן הפינה וחתימת מגילת היסוד להקמת \"תל משה\" [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הנחת אבן הפנה במגדל לבתים הראשונים -הנחת אבן הפינה וחתימת מגילת היסוד להקמת \"תל משה\" [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Migdal (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002725371"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 115 X 165 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "הנחת אבן הפינה וחתימת מגילת היסוד להקמת \"תל משה\"",
+        "The Cornerstone Ceremony of Tel Moshe Neighborhood in Migdal"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "002725371"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002725371/sequence/IE19372813",
+      "@type": "sc:Sequence",
+      "label": "הנחת אבן הפנה במגדל לבתים הראשונים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377913",
+          "@type": "sc:Canvas",
+          "label": "002725371-1",
+          "width": 800,
+          "height": 573,
+          "images": [
+            {
+              "@id": "FL19377913",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377913",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377913/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725371-1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377913",
+                  "label": "002725371-1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 573,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377912",
+          "@type": "sc:Canvas",
+          "label": "002725371-2",
+          "width": 800,
+          "height": 565,
+          "images": [
+            {
+              "@id": "FL19377912",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377912",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377912/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002725371-2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377912",
+                  "label": "002725371-2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 565,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19377911",
+      "@type": "sc:Range",
+      "label": "REP19377911",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377913",
+          "@type": "sc:Canvas",
+          "label": "002725371-1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377912",
+          "@type": "sc:Canvas",
+          "label": "002725371-2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002725371",
+  "viewingHint": "paged"
+}

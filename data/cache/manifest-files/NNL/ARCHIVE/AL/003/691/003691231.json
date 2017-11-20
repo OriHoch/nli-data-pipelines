@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003691231/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "האחים אליהו (הוצאה) (תל אביב); Mishmar Hayarden (Israel)",
+  "label": "המושבה משמר הירדן בגליל. -Mishnmr Hayarden - Colony in Galilea. [picture]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "המושבה משמר הירדן בגליל. -Mishnmr Hayarden - Colony in Galilea. [picture]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "האחים אליהו (הוצאה) (תל אביב); Mishmar Hayarden (Israel)"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003691231"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 postcard : b&w sepia ; 90 X 138 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "Mishnmr Hayarden - Colony in Galilea."
+    },
+    {
+      "label": "SysNum",
+      "value": "003691231"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003691231/sequence/IE16092629",
+      "@type": "sc:Sequence",
+      "label": "המושבה משמר הירדן בגליל.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156332",
+          "@type": "sc:Canvas",
+          "label": "3691231-10_r",
+          "width": 800,
+          "height": 521,
+          "images": [
+            {
+              "@id": "FL16156332",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156332",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156332/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3691231-10_r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156332",
+                  "label": "3691231-10_r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 521,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156333",
+          "@type": "sc:Canvas",
+          "label": "3691231-10_v",
+          "width": 800,
+          "height": 521,
+          "images": [
+            {
+              "@id": "FL16156333",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL16156333",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL16156333/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3691231-10_v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL16156333",
+                  "label": "3691231-10_v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 521,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP16156331",
+      "@type": "sc:Range",
+      "label": "REP16156331",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156332",
+          "@type": "sc:Canvas",
+          "label": "3691231-10_r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL16156333",
+          "@type": "sc:Canvas",
+          "label": "3691231-10_v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003691231",
+  "viewingHint": "paged"
+}

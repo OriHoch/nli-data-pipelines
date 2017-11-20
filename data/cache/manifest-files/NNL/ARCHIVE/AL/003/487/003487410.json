@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003487410/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Deganya Alef (Israel) -- Photographs",
+  "label": "בתי דגניה ממעוף הצפור.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "בתי דגניה ממעוף הצפור."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Deganya Alef (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003487410"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 132 X 179 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[Aerial view of Degania, Palestine.]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003487410"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003487410/sequence/IE19144566",
+      "@type": "sc:Sequence",
+      "label": "בתי דגניה ממעוף הצפור.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169449",
+          "@type": "sc:Canvas",
+          "label": "003487410-R",
+          "width": 800,
+          "height": 589,
+          "images": [
+            {
+              "@id": "FL19169449",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169449",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169449/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487410-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169449",
+                  "label": "003487410-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 589,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169450",
+          "@type": "sc:Canvas",
+          "label": "003487410-V",
+          "width": 800,
+          "height": 590,
+          "images": [
+            {
+              "@id": "FL19169450",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19169450",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19169450/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003487410-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19169450",
+                  "label": "003487410-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 590,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19169448",
+      "@type": "sc:Range",
+      "label": "REP19169448",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169449",
+          "@type": "sc:Canvas",
+          "label": "003487410-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19169450",
+          "@type": "sc:Canvas",
+          "label": "003487410-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003487410",
+  "viewingHint": "paged"
+}

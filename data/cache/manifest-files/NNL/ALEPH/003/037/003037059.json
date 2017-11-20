@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH003037059/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Judaism -- Liturgy -- Texts; Shemini Atzeret; Simḥat Torah",
+  "label": "מחזור לשמיני עצרת ושמחת תורה (קטע).",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "מחזור לשמיני עצרת ושמחת תורה (קטע)."
+    },
+    {
+      "label": "Contributor",
+      "value": "יצחק, הקטן (ממנו)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Judaism -- Liturgy -- Texts; Shemini Atzeret; Simḥat Torah"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH003037059"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ז-י\"ח"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 19X14 ס\"מ..; דף שלם, כתמי לחות. 24 שורות לעמוןד. מנוקד לפי הצורך. מידות השטח הכתוב 15X10.5 ס\"מ. כתיבה בינונית-רהוטה.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "003037059"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH003037059/sequence/IE7134467",
+      "@type": "sc:Sequence",
+      "label": "JER NLI 1800.381=8",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7139136",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 3511,
+          "height": 3899,
+          "images": [
+            {
+              "@id": "FL7139136",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7139136",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7139136/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7139136",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3899,
+                "width": 3511
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7139137",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 3511,
+          "height": 3899,
+          "images": [
+            {
+              "@id": "FL7139137",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL7139137",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL7139137/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL7139137",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3899,
+                "width": 3511
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP7139135",
+      "@type": "sc:Range",
+      "label": "REP7139135",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7139136",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL7139137",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH003037059",
+  "viewingHint": "paged"
+}

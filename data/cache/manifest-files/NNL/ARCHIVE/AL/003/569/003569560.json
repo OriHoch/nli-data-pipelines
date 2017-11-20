@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003569560/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Jerusalem (Israel) -- Photographs",
+  "label": "[נוף מן האמפיתיאטרון על הר הצופים].",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "[נוף מן האמפיתיאטרון על הר הצופים]."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jerusalem (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003569560"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, sepia ; 100 X 135 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[View from the Amphitheatre on Mt. Scopus]."
+    },
+    {
+      "label": "SysNum",
+      "value": "003569560"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003569560/sequence/IE38046211",
+      "@type": "sc:Sequence",
+      "label": "[נוף מן האמפיתיאטרון על הר הצופים].",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048521",
+          "@type": "sc:Canvas",
+          "label": "3569560-10_0001_V",
+          "width": 2376,
+          "height": 3222,
+          "images": [
+            {
+              "@id": "FL38048521",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048521",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048521/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3569560-10_0001_V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048521",
+                  "label": "3569560-10_0001_V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3222,
+                "width": 2376
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048520",
+          "@type": "sc:Canvas",
+          "label": "3569560-10_0001_R",
+          "width": 2411,
+          "height": 3293,
+          "images": [
+            {
+              "@id": "FL38048520",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL38048520",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL38048520/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "3569560-10_0001_R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL38048520",
+                  "label": "3569560-10_0001_R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 3293,
+                "width": 2411
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP38048519",
+      "@type": "sc:Range",
+      "label": "REP38048519",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048521",
+          "@type": "sc:Canvas",
+          "label": "3569560-10_0001_V"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL38048520",
+          "@type": "sc:Canvas",
+          "label": "3569560-10_0001_R"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003569560",
+  "viewingHint": "paged"
+}

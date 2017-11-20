@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002529049/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "שימוש בית דין בערבית.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "שימוש בית דין בערבית."
+    },
+    {
+      "label": "Contributor",
+      "value": "חלפון בן מנשה, הלוי (מעתיק) ; אפרים הזקן (מוזכר)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002529049"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י\"ב (עד שנת ד'תתצ\"ח 1138)"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 23X15.5 ס\"מ..; דף נייר קרוע בפינה עליונה שמאלית ומלמטה, שרדו 27 שורות, רק 6 מהן, באמצע הדף, שלמות. צד ב' ריק.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;jrb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002529049"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002529049/sequence/IE9285081",
+      "@type": "sc:Sequence",
+      "label": "שימוש בית דין בערבית.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695116",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695116",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695116",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695116/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695116",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695115",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695115",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695115",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695115/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695115",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9695114",
+      "@type": "sc:Range",
+      "label": "REP9695114",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695116",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695115",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002529049",
+  "viewingHint": "paged"
+}

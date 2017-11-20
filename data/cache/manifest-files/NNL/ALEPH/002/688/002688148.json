@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002688148/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Philosophy -- Early works to 1800",
+  "label": "Tract against signing the Oxford address.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tract against signing the Oxford address."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Philosophy -- Early works to 1800"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "Isaac Newton Sir, 1642-1727"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002688148"
+    },
+    {
+      "label": "Creation Date",
+      "value": "168-"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "1 f.."
+    },
+    {
+      "label": "Language",
+      "value": "eng"
+    },
+    {
+      "label": "SysNum",
+      "value": "002688148"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002688148/sequence/IE8579172",
+      "@type": "sc:Sequence",
+      "label": "Newton Papers 32",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8778029",
+          "@type": "sc:Canvas",
+          "label": "001r",
+          "width": 2802,
+          "height": 4111,
+          "images": [
+            {
+              "@id": "FL8778029",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8778029",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8778029/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "001r",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8778029",
+                  "label": "001r",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4111,
+                "width": 2802
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8778028",
+          "@type": "sc:Canvas",
+          "label": "001v",
+          "width": 2802,
+          "height": 4111,
+          "images": [
+            {
+              "@id": "FL8778028",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL8778028",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL8778028/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "001v",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL8778028",
+                  "label": "001v",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4111,
+                "width": 2802
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP8778027",
+      "@type": "sc:Range",
+      "label": "REP8778027",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8778029",
+          "@type": "sc:Canvas",
+          "label": "001r"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL8778028",
+          "@type": "sc:Canvas",
+          "label": "001v"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002688148",
+  "viewingHint": "paged"
+}

@@ -1,0 +1,155 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002516960/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Italy -- Ancona -- History; Fires -- Italy -- Ancona",
+  "label": "קינה על שרופי אנקונה.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קינה על שרופי אנקונה."
+    },
+    {
+      "label": "Contributor",
+      "value": "מונדולפו, יחיאל (מוזכר) ; דבלנש, מרדכי בן יהודה"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Italy -- Ancona -- History; Fires -- Italy -- Ancona"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "בלנס, מרדכי בן יהודה די"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002516960"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה ט\"ז-י\"ז"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 20X15 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "Alternative Title",
+      "value": "קינות."
+    },
+    {
+      "label": "SysNum",
+      "value": "002516960"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002516960/sequence/IE9285069",
+      "@type": "sc:Sequence",
+      "label": "קינה על שרופי אנקונה.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695106",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695106",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695106",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695106/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695106",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695107",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5428,
+          "height": 7230,
+          "images": [
+            {
+              "@id": "FL9695107",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9695107",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9695107/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9695107",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 7230,
+                "width": 5428
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9695105",
+      "@type": "sc:Range",
+      "label": "REP9695105",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695106",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9695107",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002516960",
+  "viewingHint": "paged"
+}

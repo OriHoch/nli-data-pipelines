@@ -1,0 +1,151 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002497435/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "description": "Jews -- Egypt -- Cairo -- History -- Sources",
+  "label": "תעודת הסכם.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "תעודת הסכם."
+    },
+    {
+      "label": "Contributor",
+      "value": "מצליח בן שלמה הכהן גאון (מוזכר) ; עלי בן נתנאל הלוי (מעתיק) ; יוסף בן יעקב, הכהן, החבר ; יוסף בן יעקב החזן (חותם) ; שמואל בן יהודה אסד (מוזכר) ; שמואל בן משה בן אלכראז (מוזכר)"
+    },
+    {
+      "label": "Publisher",
+      "value": "1132."
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Jews -- Egypt -- Cairo -- History -- Sources"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002497435"
+    },
+    {
+      "label": "Creation Date",
+      "value": "1132"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "דף 1 ; 73X20 ס\"מ..; דף קלף גדול, צד ב' חלק. קוי קיפול לרוחב כל 3-5 ס\"מ, 56 שורות תוכן ועוד 2 שורות חתימות, ונותר עוד גליון תחתון ארוך חלק.."
+    },
+    {
+      "label": "Language",
+      "value": "heb;ara"
+    },
+    {
+      "label": "SysNum",
+      "value": "002497435"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002497435/sequence/IE9284150",
+      "@type": "sc:Sequence",
+      "label": "תעודת הסכם.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9694935",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 8328,
+          "height": 17728,
+          "images": [
+            {
+              "@id": "FL9694935",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9694935",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9694935/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9694935",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 17728,
+                "width": 8328
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9694936",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 8848,
+          "height": 18072,
+          "images": [
+            {
+              "@id": "FL9694936",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL9694936",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL9694936/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL9694936",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 18072,
+                "width": 8848
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP9694934",
+      "@type": "sc:Range",
+      "label": "REP9694934",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9694935",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL9694936",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002497435",
+  "viewingHint": "paged"
+}

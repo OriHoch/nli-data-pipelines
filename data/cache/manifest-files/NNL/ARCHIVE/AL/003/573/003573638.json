@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003573638/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Haifa (Israel) -- Photographs",
+  "label": "Post War Refugees: New People for a New Land. -[עולים חדשים ממזרח אירופה בנמל חיפה] [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Post War Refugees: New People for a New Land. -[עולים חדשים ממזרח אירופה בנמל חיפה] [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Haifa (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003573638"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 203 X 262 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[עולים חדשים ממזרח אירופה בנמל חיפה]"
+    },
+    {
+      "label": "SysNum",
+      "value": "003573638"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003573638/sequence/IE19145440",
+      "@type": "sc:Sequence",
+      "label": "Post War Refugees: New People for a New Land.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167211",
+          "@type": "sc:Canvas",
+          "label": "003573638-R",
+          "width": 800,
+          "height": 625,
+          "images": [
+            {
+              "@id": "FL19167211",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167211",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167211/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573638-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167211",
+                  "label": "003573638-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 625,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167212",
+          "@type": "sc:Canvas",
+          "label": "003573638-V",
+          "width": 800,
+          "height": 621,
+          "images": [
+            {
+              "@id": "FL19167212",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19167212",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19167212/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003573638-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19167212",
+                  "label": "003573638-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 621,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19167210",
+      "@type": "sc:Range",
+      "label": "REP19167210",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167211",
+          "@type": "sc:Canvas",
+          "label": "003573638-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19167212",
+          "@type": "sc:Canvas",
+          "label": "003573638-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003573638",
+  "viewingHint": "paged"
+}

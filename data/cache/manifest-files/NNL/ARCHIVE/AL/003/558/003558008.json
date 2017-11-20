@@ -1,0 +1,142 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003558008/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Migdal (Israel) -- Photographs",
+  "label": "Villa Lord Melchett, Migdal, im bau. -וילה מלצ'ט, מגדל, בעת בנייתה. [תמונה]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Villa Lord Melchett, Migdal, im bau. -וילה מלצ'ט, מגדל, בעת בנייתה. [תמונה]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Migdal (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003558008"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 90 X 139 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "וילה מלצ'ט, מגדל, בעת בנייתה."
+    },
+    {
+      "label": "SysNum",
+      "value": "003558008"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003558008/sequence/IE19145091",
+      "@type": "sc:Sequence",
+      "label": "Villa Lord Melchett  Migdal  im bau.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170171",
+          "@type": "sc:Canvas",
+          "label": "003558008-R",
+          "width": 800,
+          "height": 520,
+          "images": [
+            {
+              "@id": "FL19170171",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19170171",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19170171/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558008-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19170171",
+                  "label": "003558008-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 520,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170172",
+          "@type": "sc:Canvas",
+          "label": "003558008-V",
+          "width": 523,
+          "height": 800,
+          "images": [
+            {
+              "@id": "FL19170172",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19170172",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19170172/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003558008-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19170172",
+                  "label": "003558008-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 800,
+                "width": 523
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19170170",
+      "@type": "sc:Range",
+      "label": "REP19170170",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170171",
+          "@type": "sc:Canvas",
+          "label": "003558008-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19170172",
+          "@type": "sc:Canvas",
+          "label": "003558008-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003558008",
+  "viewingHint": "paged"
+}

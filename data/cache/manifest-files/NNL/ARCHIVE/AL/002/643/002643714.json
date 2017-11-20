@@ -1,0 +1,150 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL002643714/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "description": "Tel Aviv-Yafo (Israel) -- Photographs",
+  "label": "הישיבה האחרונה של ועדת העשרים",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "הישיבה האחרונה של ועדת העשרים"
+    },
+    {
+      "label": "Contributor",
+      "value": "סוסקין, אברהם, 1881-1963"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Subject",
+      "value": "Tel Aviv-Yafo (Israel) -- Photographs"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "סוסקין, אברהם, 1881-1963 צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL002643714"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 17.5 X 12 cm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": "[The last meeting of the Jewish Educational Commission]"
+    },
+    {
+      "label": "SysNum",
+      "value": "002643714"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL002643714/sequence/IE19372736",
+      "@type": "sc:Sequence",
+      "label": "הישיבה האחרונה של ועדת העשרים",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377808",
+          "@type": "sc:Canvas",
+          "label": "002643714-1",
+          "width": 800,
+          "height": 655,
+          "images": [
+            {
+              "@id": "FL19377808",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377808",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377808/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002643714-1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377808",
+                  "label": "002643714-1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 655,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377807",
+          "@type": "sc:Canvas",
+          "label": "002643714-2",
+          "width": 800,
+          "height": 656,
+          "images": [
+            {
+              "@id": "FL19377807",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19377807",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19377807/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "002643714-2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19377807",
+                  "label": "002643714-2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 656,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19377806",
+      "@type": "sc:Range",
+      "label": "REP19377806",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377808",
+          "@type": "sc:Canvas",
+          "label": "002643714-1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19377807",
+          "@type": "sc:Canvas",
+          "label": "002643714-2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL002643714",
+  "viewingHint": "paged"
+}

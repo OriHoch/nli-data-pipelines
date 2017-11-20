@@ -1,0 +1,147 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ALEPH002530050/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "מאוסף הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "label": "קבץ שירים.",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "קבץ שירים."
+    },
+    {
+      "label": "Contributor",
+      "value": "שמריה, הכהן (ממנו)"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ALEPH002530050"
+    },
+    {
+      "label": "Creation Date",
+      "value": "מאה י-י\"א"
+    },
+    {
+      "label": "Type",
+      "value": "manuscript"
+    },
+    {
+      "label": "Format",
+      "value": "2 דפים ; 8X12 ס\"מ..; זוג דפים שלמים מתוך מחברת קטנה. מנוקד ניקוד מלא מקצת הכתביה דהויה. עם קישוטים פשוטים בגבולות העמוד. 6 שורות לעמוד, מידות השטח הכתוב 6X8 ס\"מ.."
+    },
+    {
+      "label": "Language",
+      "value": "heb"
+    },
+    {
+      "label": "SysNum",
+      "value": "002530050"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002530050/sequence/IE17215500",
+      "@type": "sc:Sequence",
+      "label": "קבץ שירים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17285003",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL17285003",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17285003",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17285003/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 1",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17285003",
+                  "label": "Page 1",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17285002",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "width": 5336,
+          "height": 4000,
+          "images": [
+            {
+              "@id": "FL17285002",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL17285002",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL17285002/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "Page 2",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL17285002",
+                  "label": "Page 2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 4000,
+                "width": 5336
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH002530050/sequence/IE17215533",
+      "@type": "sc:Sequence",
+      "label": "קבץ שירים."
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP17285001",
+      "@type": "sc:Range",
+      "label": "REP17285001",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17285003",
+          "@type": "sc:Canvas",
+          "label": "Page 1"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL17285002",
+          "@type": "sc:Canvas",
+          "label": "Page 2"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ALEPH002530050",
+  "viewingHint": "paged"
+}

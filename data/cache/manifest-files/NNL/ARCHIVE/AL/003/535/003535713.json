@@ -1,0 +1,144 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/DOCID/NNL_ARCHIVE_AL003535713/manifest",
+  "@type": "sc:Manifest",
+  "attribution": [
+    "אוסף התצלומים, הספרייה הלאומית"
+  ],
+  "logo": [
+    "http://iiif.nli.org.il/IIIFv21/images/nli_logo.jpg"
+  ],
+  "license": [
+    "http://web.nli.org.il/sites/NLI/Hebrew/library/items-terms-of-use/Pages/nli-public-domain.aspx"
+  ],
+  "label": "לשכת הסופרים של חברת אנגליא-פלשתינה בירושלים. -[סניף אנגלו פלשתינה בנק בעיר ירושלים: תפנים]",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "לשכת הסופרים של חברת אנגליא-פלשתינה בירושלים. -[סניף אנגלו פלשתינה בנק בעיר ירושלים: תפנים]"
+    },
+    {
+      "label": "Base",
+      "value": "NNL01"
+    },
+    {
+      "label": "Source",
+      "value": "The National Library of Israel"
+    },
+    {
+      "label": "The Creator",
+      "value": "אדלשטין, יהודה ליב צלם"
+    },
+    {
+      "label": "Doc Id",
+      "value": "NNL_ARCHIVE_AL003535713"
+    },
+    {
+      "label": "Type",
+      "value": "image"
+    },
+    {
+      "label": "Format",
+      "value": "1 photograph : b&w, ; 119X168 mm.."
+    },
+    {
+      "label": "Alternative Title",
+      "value": [
+        "[Interior of the Anglo-Palestine Bank Branch in Jerusalem]",
+        "[סניף אנגלו פלשתינה בנק בעיר ירושלים: תפנים]"
+      ]
+    },
+    {
+      "label": "SysNum",
+      "value": "003535713"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ARCHIVE_AL003535713/sequence/IE19145483",
+      "@type": "sc:Sequence",
+      "label": "לשכת הסופרים של חברת אנגליא-פלשתינה בירושלים.",
+      "canvases": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168539",
+          "@type": "sc:Canvas",
+          "label": "003535713-R",
+          "width": 800,
+          "height": 588,
+          "images": [
+            {
+              "@id": "FL19168539",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168539",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168539/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003535713-R",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168539",
+                  "label": "003535713-R",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 588,
+                "width": 800
+              }
+            }
+          ]
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168543",
+          "@type": "sc:Canvas",
+          "label": "003535713-V",
+          "width": 800,
+          "height": 587,
+          "images": [
+            {
+              "@id": "FL19168543",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://iiif.nli.org.il/IIIFv21/FL19168543",
+              "resource": {
+                "@id": "http://iiif.nli.org.il/IIIFv21/FL19168543/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "label": "003535713-V",
+                "format": "image/jpeg;",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://iiif.nli.org.il/IIIFv21/FL19168543",
+                  "label": "003535713-V",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                },
+                "height": 587,
+                "width": 800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "REP19168538",
+      "@type": "sc:Range",
+      "label": "REP19168538",
+      "members": [
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168539",
+          "@type": "sc:Canvas",
+          "label": "003535713-R"
+        },
+        {
+          "@id": "http://iiif.nli.org.il/IIIFv21/FL19168543",
+          "@type": "sc:Canvas",
+          "label": "003535713-V"
+        }
+      ]
+    }
+  ],
+  "related": "http://merhav.nli.org.il/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=NNL_ARCHIVE_AL003535713",
+  "viewingHint": "paged"
+}
