@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300396/sequence/IE9202413",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. טשקנט, אוזבקיסטן, תרע&quot;ו]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9468372",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 546,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9468372",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9468372",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9468372/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9468372",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 546
+          }
+        }
+      ]
+    }
+  ]
+}

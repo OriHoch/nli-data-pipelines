@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300511/sequence/IE9202872",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. איזמיר, תורכיה, תרצ&quot;ד]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9466063",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 625,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9466063",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9466063",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9466063/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9466063",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 625
+          }
+        }
+      ]
+    }
+  ]
+}

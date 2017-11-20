@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301709/sequence/IE9204082",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. פיטרסבורג, וירג&apos;יניה, ארצות הברית, תרמ&quot;ב]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9468524",
+      "@type": "sc:Canvas",
+      "label": "Ketubba",
+      "width": 622,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9468524",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9468524",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9468524/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "Ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9468524",
+              "label": "Ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 622
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301124/sequence/IE9204476",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. הראת, אפגניסטן, תרל&quot;ג]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9469427",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 625,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9469427",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9469427",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9469427/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9469427",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 625
+          }
+        }
+      ]
+    }
+  ]
+}

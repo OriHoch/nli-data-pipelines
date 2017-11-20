@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300912/sequence/IE9215423",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. לז&apos;יסק, פולין, תרצ&quot;ד]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9470333",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 606,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9470333",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9470333",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9470333/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9470333",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 606
+          }
+        }
+      ]
+    }
+  ]
+}

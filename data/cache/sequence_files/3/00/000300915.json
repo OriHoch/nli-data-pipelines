@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300915/sequence/IE9204327",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. סלונים, בלרוס, תרצ&quot;ה]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9467614",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 624,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9467614",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9467614",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9467614/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9467614",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 624
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000300299/sequence/IE9202191",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. ארצות הברית, תש&quot;-]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9465226",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 800,
+      "height": 525,
+      "images": [
+        {
+          "@id": "FL9465226",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9465226",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9465226/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9465226",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 525,
+            "width": 800
+          }
+        }
+      ]
+    }
+  ]
+}

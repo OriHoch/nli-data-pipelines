@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000301079/sequence/IE9204394",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. רומא, איטליה, תרכ&quot;ח]",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9468576",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 555,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9468576",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9468576",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9468576/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9468576",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 555
+          }
+        }
+      ]
+    }
+  ]
+}

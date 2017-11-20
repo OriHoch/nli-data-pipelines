@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH000303247/sequence/IE9205079",
+  "@type": "sc:Sequence",
+  "label": "[כתובה. הורני ליטבינוב, צ&apos;כיה, תש&quot;ה].",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL9467737",
+      "@type": "sc:Canvas",
+      "label": "ketubba",
+      "width": 571,
+      "height": 800,
+      "images": [
+        {
+          "@id": "FL9467737",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL9467737",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL9467737/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "ketubba",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL9467737",
+              "label": "ketubba",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 800,
+            "width": 571
+          }
+        }
+      ]
+    }
+  ]
+}

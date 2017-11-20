@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://iiif.nli.org.il/IIIFv21/NNL_ALEPH001187576/sequence/IE21081130",
+  "@type": "sc:Sequence",
+  "label": "רב אלפס :",
+  "canvases": [
+    {
+      "@id": "http://iiif.nli.org.il/IIIFv21/FL21085447",
+      "@type": "sc:Canvas",
+      "label": "PDF00001",
+      "width": 16,
+      "height": 9,
+      "images": [
+        {
+          "@id": "FL21085447",
+          "@type": "oa:Annotation",
+          "motivation": "sc:painting",
+          "on": "http://iiif.nli.org.il/IIIFv21/FL21085447",
+          "resource": {
+            "@id": "http://iiif.nli.org.il/IIIFv21/FL21085447/full/max/0/default.jpg",
+            "@type": "dctypes:Image",
+            "label": "PDF00001",
+            "format": "image/jpeg;",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://iiif.nli.org.il/IIIFv21/FL21085447",
+              "label": "PDF00001",
+              "profile": "http://iiif.io/api/image/2/level1.json"
+            },
+            "height": 9,
+            "width": 16
+          }
+        }
+      ]
+    }
+  ]
+}
