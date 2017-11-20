@@ -62,7 +62,7 @@ k8s/helm_install.sh
 
 ### Upgrade the cluster (AKA deploy)
 
-You should have a Docker Hub account, set your docker hub user in the .env file (replace `your_username`):
+You should have a Docker Hub account, set your docker hub user in the `k8s/.env` file (replace `your_username`):
 
 ```
 echo "PUSH_TAG=your_username/nli-data-pipelines"
@@ -104,8 +104,8 @@ Set it in the .env file for reference
 echo "NGINX_EXTERNAL_IP=1.2.3.4" >> k8s/.env
 ```
 
-* Pipelines dashboard is available at http://1.2.3.4/pipelines/
-* Data files are available at http://1.2.3.4/data/
+* Pipelines dashboard is available at http://${NGINX_EXTERNAL_IP}/pipelines/
+* Data files are available at http://${NGINX_EXTERNAL_IP}/data/
 
 ### Removing the cluster
 
@@ -123,3 +123,19 @@ gcloud compute forwarding-rules list
 
 Delete using `gcloud compute forwarding-rules delete NAME`
 
+### Provisioning google storage integration
+
+Assuming you have the `.env` at the project root with the provisioned google account details:
+
+```
+kubectl create secret generic env-vars --from-env-file .env
+```
+
+enable GCS in `values.yaml`:
+
+```
+pipelines:
+  enableGcs: true
+```
+
+Deploy, wait for images to download, when done, you should set enableGcs: false - it will still run the relevant pipeline but won't download again

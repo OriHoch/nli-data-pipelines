@@ -2,6 +2,9 @@ pipelines:
   ALLOW_GITHUB_DOWNLOAD: 'yes'
   enabled: true
   image: orihoch/nli-data-pipelines:20171120121103
+  enableGcs: false
+  GCS_PROJECT: uumpa123
+  GCS_IMAGES_BUCKET: nli-images
 nginx:
   enabled: true
   enableData: true

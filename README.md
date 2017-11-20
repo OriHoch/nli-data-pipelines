@@ -157,3 +157,27 @@ git push origin data
 popd
 rm -rf $TEMPDIR
 ```
+
+### Running the download_images pipeline
+
+Images are downloaded to Google Cloud Storage, to enable it you need to set some env vars
+
+```
+GCS_PROJECT=your google project id
+GCS_IMAGES_BUCKET=bucket to upload images to
+GCS_IMAGES_SERVICE_ACCOUNT_NAME=nli-images
+```
+
+create the resources and set permissions
+
+```
+eval `dotenv -f ".env" list`
+gsutil mb "gs://${GCS_IMAGES_BUCKET}"
+gcloud iam service-accounts create "${GCS_IMAGES_SERVICE_ACCOUNT_NAME}"
+TEMPDIR=`mktemp -d`
+gcloud iam service-accounts keys create "--iam-account=${GCS_IMAGES_SERVICE_ACCOUNT_NAME}@${GCS_PROJECT}.iam.gserviceaccount.com" "${TEMPDIR}/key"
+gsutil iam ch -d "serviceAccount:${GCS_IMAGES_SERVICE_ACCOUNT_NAME}@${GCS_PROJECT}.iam.gserviceaccount.com" "gs://${GCS_IMAGES_BUCKET}"
+gsutil iam ch "serviceAccount:${GCS_IMAGES_SERVICE_ACCOUNT_NAME}@${GCS_PROJECT}.iam.gserviceaccount.com:objectCreator,objectViewer,objectAdmin" "gs://${GCS_IMAGES_BUCKET}"
+echo "GCS_SERVICE_ACCOUNT_B64_KEY=`cat $TEMPDIR/key | base64 -w0`" >> .env
+rm -rf $TEMPDIR
+```

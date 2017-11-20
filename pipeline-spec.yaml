@@ -64,3 +64,16 @@ sequences:
   - run: dump.to_path
     parameters:
       out-path: data/sequences
+
+download-images:
+  dependencies:
+  - pipeline: ./sequences
+  pipeline:
+  - run: load_resource
+    parameters:
+      url: data/sequences/datapackage.json
+      resource: .*
+  - run: download_images
+  - run: dump.to_path
+    parameters:
+      out-path: data/images
