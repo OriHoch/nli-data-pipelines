@@ -2,8 +2,6 @@
 
 Data Pipelines for NLI Data, using [datapackage-pipelines framework](https://github.com/frictionlessdata/datapackage-pipelines)
 
-**Work In Progress, not all data is ready yet / available in the repo**
-
 There are 2 ways to use this repo:
 
 1. Download and use the data directly by:
