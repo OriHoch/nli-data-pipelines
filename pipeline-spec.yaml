@@ -8,6 +8,8 @@ collections-root:
       out-path: data/collections_root
 
 collections:
+  dependencies:
+  - pipeline: ./collections-root
   pipeline:
   - run: load_resource
     parameters:
@@ -20,6 +22,8 @@ collections:
       out-path: data/collections
 
 members:
+  dependencies:
+  - pipeline: ./collections
   pipeline:
   - run: load_resource
     parameters:

@@ -1,0 +1,32 @@
+{{ if .Values.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: pipelines
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pipelines
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
+      containers:
+      - image: {{ .Values.image | default "orihoch/nli-data-pipelines" | quote }}
+        name: pipelines
+        ports:
+        - containerPort: 5000
+        args:
+        - server
+        volumeMounts:
+        - name: "pipelines-data"
+          mountPath: "/pipelines/data"
+        env:
+        - name: ALLOW_GITHUB_DOWNLOAD
+          value: {{ .Values.ALLOW_GITHUB_DOWNLOAD | quote }}
+      volumes:
+      - name: pipelines-data
+        emptyDir:
+          medium: Memory
+{{ end }}

@@ -9,7 +9,7 @@ There are 2 ways to use this repo:
 1. Download and use the data directory, most of the data is available under [/data](/data)
 2. Extend the pipelines to compute aggregations / process / export the data in different ways
 
-## running the pipelines
+## Running the pipelines
 
 Using Docker is the easiest way to run the pipelines
 
@@ -17,18 +17,27 @@ Just install Docker and Docker Compose and you're good to go
 
 If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 
-See the list of available pipelines:
+Start the Pipelines server -
 
 ```
-docker-compose run pipelines
+docker-compose up pipelines
+```
+
+You can see the pipelines status at http://localhost:5000/
+
+You can also use the pipelines manually, stop the server (Ctrl+C)
+
+Get the list of available pipelines:
+
+```
+docker-compose run --entrypoint dpp pipelines
 ```
 
 Run a pipeline
 
 ```
-docker-compose run pipelines run ./collections-root
+docker-compose run --entrypoint dpp pipelines run ./collections-root
 ```
-
 
 ## Local Installation
 
@@ -67,4 +76,12 @@ You can also switch into a pipevn shell (AKA activate the virtualenv) and then y
 ```
 pipenv shell
 dpp run ./collections-root
+```
+
+## Common Tasks
+
+### Pushing the images to Docker Hub
+
+```
+docker-compose build && docker-compose push
 ```

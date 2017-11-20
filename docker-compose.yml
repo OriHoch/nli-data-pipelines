@@ -4,7 +4,12 @@ services:
 
   pipelines:
     build: .
+    image: nli-data-pipelines
     ports:
     - "5000:5000"
     volumes:
     - ".:/pipelines"
+    command:
+    - server
+    environment:
+    - ALLOW_GITHUB_DOWNLOAD
