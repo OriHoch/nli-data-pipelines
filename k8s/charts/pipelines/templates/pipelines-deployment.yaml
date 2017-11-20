@@ -22,11 +22,8 @@ spec:
         volumeMounts:
         - name: "pipelines-data"
           mountPath: "/pipelines/data"
-        env:
-        - name: ALLOW_GITHUB_DOWNLOAD
-          value: {{ .Values.ALLOW_GITHUB_DOWNLOAD | quote }}
       volumes:
       - name: pipelines-data
-        emptyDir:
-          medium: Memory
+        hostPath:
+          path: /var/pipelines-data
 {{ end }}

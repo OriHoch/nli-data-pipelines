@@ -35,15 +35,13 @@ docker-compose up --build -d pipelines
 
 Once done, you should be able to see the pipelines dashboard at http://localhost:5000/
 
-## Common Tasks
+Whether the pipelines succeeded or not, you should have some data available under data/ directory
 
-### Accessing the data files directly
+(You might need to set permissions on the files - `sudo chown -R $USER data/`)
 
-The data files will be created under data/ directory, you might need to set their permissions:
+## Tasks
 
-```
-sudo chown -R $USER data/
-```
+### Accessing the manifest files cache
 
 The manifest files cache is not available locally due to the large amount of files.
 
@@ -130,3 +128,9 @@ Set permissions on it
 ```
 sudo chown -R $USER /path/to/the/data/cache/directory
 ```
+
+### Kubernetes
+
+You can use Kubernetes on Google Cloud to quickly setup cloud machines to run the pipelines on or to start Databases or other services
+
+see [k8s/README.md](k8s/README.md)

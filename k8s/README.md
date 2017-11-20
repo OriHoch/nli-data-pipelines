@@ -62,14 +62,47 @@ k8s/helm_install.sh
 
 ### Upgrade the cluster (AKA deploy)
 
-```
-k8s/helm_upgrade.sh
-```
-
-### Access the pipelines dashboard via kube proxy
+You should have a Docker Hub account, set your docker hub user in the .env file (replace `your_username`):
 
 ```
-kubectl proxy
+echo "PUSH_TAG=your_username/nli-data-pipelines"
 ```
 
-pipelines dashboard is available at http://localhost:8001/api/v1/namespaces/default/services/pipelines/proxy/
+now you can run the build push script:
+
+```
+k8s/build_push.sh
+```
+
+and deploy:
+
+```
+k8s/helm_upgrade.sh --recreate-pods
+```
+
+You can see in the output the name of the old pod (terminating) and new pod (container creating)
+
+### Checking logs
+
+Follow the log of a pod using:
+
+```
+kubectl logs -f name-of-the-pod
+```
+
+### Access the cluster external services
+
+Get the External IP of the nginx service
+
+```
+kubectl get service
+```
+
+Set it in the .env file for reference
+
+```
+echo "NGINX_EXTERNAL_IP=1.2.3.4" >> k8s/.env
+```
+
+* Pipelines dashboard is available at http://1.2.3.4/pipelines/
+* Data files are available at http://1.2.3.4/data/
