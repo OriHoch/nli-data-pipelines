@@ -65,7 +65,7 @@ k8s/helm_install.sh
 You should have a Docker Hub account, set your docker hub user in the `k8s/.env` file (replace `your_username`):
 
 ```
-echo "PUSH_TAG=your_username/nli-data-pipelines"
+echo "PUSH_TAG=your_username/nli-data-pipelines" >> k8s/.env
 ```
 
 now you can run the build push script:

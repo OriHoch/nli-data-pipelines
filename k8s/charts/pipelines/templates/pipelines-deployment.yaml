@@ -24,8 +24,8 @@ spec:
           mountPath: "/pipelines/data"
         {{ if .Values.enableGcs }}
         env:
-        - {"name": "GCS_PROJECT", "value": {{ Values.GCS_PROJECT }}}
-        - {"name": "GCS_IMAGES_BUCKET", "value": {{ Values.GCS_IMAGES_BUCKET }}}
+        - {"name": "GCS_PROJECT", "value": {{ .Values.GCS_PROJECT }}}
+        - {"name": "GCS_IMAGES_BUCKET", "value": {{ .Values.GCS_IMAGES_BUCKET }}}
         - name: GCS_SERVICE_ACCOUNT_B64_KEY
           valueFrom:
             secretKeyRef:
