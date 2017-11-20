@@ -20,31 +20,39 @@ If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 Start the Pipelines server
 
 ```
-docker-compose up --build pipelines
+docker-compose up --build -d pipelines
 ```
 
-**on first run it will take some time** - to build the images and download the initial data, please be patient
+**on first run it will take some time** you can follow the progress using `docker-compose logs`
 
 Once done, you should be able to see the pipelines dashboard at http://localhost:5000/
 
 The data files will be created under data/ directory, you might need to set their permissions:
 
 ```
-sudo chown -r $USER data/
+sudo chown -R $USER data/
 ```
 
-You can also use the pipelines manually, stop the server (Ctrl+C)
+The manifest files cache is not available locally due to the large amount of files.
+
+To get the path to the manifest cache:
+
+```
+docker volume inspect nlidatapipelines_data-cache
+```
+
+the MountPoint attribute contains the absolute path to the manifest cache
 
 Get the list of available pipelines:
 
 ```
-docker-compose run --entrypoint dpp pipelines
+docker-compose exec pipelines dpp
 ```
 
 Run a pipeline
 
 ```
-docker-compose run --entrypoint dpp pipelines run ./collections-root
+docker-compose exec pipelines dpp run ./collections-root
 ```
 
 ## Local Installation
@@ -86,10 +94,16 @@ pipenv shell
 dpp run ./collections-root
 ```
 
-## Common Tasks
+to access the manifest cache locally you need to get the mountpath (see above)
 
-### Pushing the images to Docker Hub
+if it's not `/var/lib/docker/volumes/nlidatapipelines_data-cache/_data`, set it in the .env file
 
 ```
-docker-compose build && docker-compose push
+echo "PIPELINES_HOST_DATA_CACHE_PATH=/path/to/the/data/cache/directory" >> .env
+```
+
+Set permissions on it
+
+```
+sudo chown -R $USER /path/to/the/data/cache/directory
 ```
