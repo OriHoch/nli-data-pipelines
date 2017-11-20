@@ -2,11 +2,11 @@
 
 Data Pipelines for NLI Data, using [datapackage-pipelines framework](https://github.com/frictionlessdata/datapackage-pipelines)
 
-**Work In Progress, not all data is ready yet / available in the repo**
-
 There are 2 ways to use this repo:
 
-1. Download and use the data directory, most of the data is available under [/data](/data)
+1. Download and use the data directly by:
+    * Downloading all the data as a [single zip file ~150MB](https://github.com/OriHoch/nli-data-pipelines/archive/data.zip)
+    * Browsing the files on GitHub [under the data branch](https://github.com/OriHoch/nli-data-pipelines/tree/data/data)
 2. Extend the pipelines to compute aggregations / process / export the data in different ways
 
 ## Running the pipelines
@@ -20,7 +20,7 @@ If you are using Ubuntu (Or similar Linux) - try the install_docker.sh script
 Start the Pipelines server
 
 ```
-docker-compose up pipelines
+docker-compose up --build pipelines
 ```
 
 **on first run it will take some time** - to build the images and download the initial data, please be patient
