@@ -1,73 +1,76 @@
-collections-root:
-  pipeline:
-  - run: load_collections_root
-    parameters:
-      root_url: http://iiif.nli.org.il/collections/root.json
-  - run: dump.to_path
-    parameters:
-      out-path: data/collections_root
+# commented-out pipelines already exist in the github data files - no need to recreate them each time
+# if you make a change in these pipelines processors - uncomment to re-run
 
-collections:
-  dependencies:
-  - pipeline: ./collections-root
-  pipeline:
-  - run: load_resource
-    parameters:
-      url: data/collections_root/datapackage.json
-      resource: collections
-  - run: stream_remote_resources
-  - run: load_collections
-  - run: dump.to_path
-    parameters:
-      out-path: data/collections
-
-members:
-  dependencies:
-  - pipeline: ./collections
-  pipeline:
-  - run: load_resource
-    parameters:
-      url: data/collections/datapackage.json
-      resource: .*
-  - run: stream_remote_resources
-  - run: load_members
-  - run: dump.to_path
-    parameters:
-      out-path: data/members
-
-manifests:
-  dependencies:
-  - pipeline: ./members
-  pipeline:
-  - run: load_resource
-    parameters:
-      url: data/members/datapackage.json
-      resource: .*
-  - run: stream_remote_resources
-  - run: parse_manifests
-  - run: dump.to_path
-    parameters:
-      out-path: data/manifests
-
-sequences:
-  dependencies:
-  - pipeline: ./members
-  pipeline:
-  - run: load_resource
-    parameters:
-      url: data/members/datapackage.json
-      resource: .*
-  - run: stream_remote_resources
-  - run: parse_manifests
-    parameters:
-      parse-sequences: true
-  - run: dump.to_path
-    parameters:
-      out-path: data/sequences
+#collections-root:
+#  pipeline:
+#  - run: load_collections_root
+#    parameters:
+#      root_url: http://iiif.nli.org.il/collections/root.json
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/collections_root
+#
+#collections:
+#  dependencies:
+#  - pipeline: ./collections-root
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/collections_root/datapackage.json
+#      resource: collections
+#  - run: stream_remote_resources
+#  - run: load_collections
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/collections
+#
+#members:
+#  dependencies:
+#  - pipeline: ./collections
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/collections/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: load_members
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/members
+#
+#manifests:
+#  dependencies:
+#  - pipeline: ./members
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/members/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: parse_manifests
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/manifests
+#
+#sequences:
+#  dependencies:
+#  - pipeline: ./members
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/members/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: parse_manifests
+#    parameters:
+#      parse-sequences: true
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/sequences
 
 download-images:
-  dependencies:
-  - pipeline: ./sequences
+#  dependencies:
+#  - pipeline: ./sequences
   pipeline:
   - run: load_resource
     parameters:

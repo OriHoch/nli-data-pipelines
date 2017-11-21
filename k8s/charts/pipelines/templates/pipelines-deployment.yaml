@@ -31,6 +31,7 @@ spec:
             secretKeyRef:
               name: env-vars
               key: "GCS_SERVICE_ACCOUNT_B64_KEY"
+        - {"name": "DOWNLOAD_IMAGES_NUM_THREADS", "value": {{ .Values.DOWNLOAD_IMAGES_NUM_THREADS | quote }}}
         {{ end }}
       volumes:
       - name: pipelines-data

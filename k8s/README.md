@@ -27,10 +27,7 @@ Create the cluster -
 ```
 source k8s/connect.sh 2>/dev/null  # ignore the errors
 gcloud container clusters create "${CLOUDSDK_CONTAINER_CLUSTER}" \
-                                 --disk-size=20 --no-enable-cloud-endpoints \
-                                 --no-enable-cloud-logging \
-                                 --no-enable-cloud-monitoring \
-                                 --machine-type n1-standard-1 \
+                                 --disk-size=20 --machine-type n1-standard-1 \
                                  --num-nodes=1
 ```
 
