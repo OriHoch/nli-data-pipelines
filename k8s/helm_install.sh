@@ -2,8 +2,8 @@
 
 source k8s/connect.sh
 
-echo "helm init"
-helm init
+echo "helm init --upgrade"
+helm init --upgrade
 
 echo "Waiting for tiller pod"
 while ! timeout 5s kubectl get --namespace=kube-system pods | grep " Running " | grep tiller; do

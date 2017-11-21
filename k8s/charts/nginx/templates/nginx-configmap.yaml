@@ -15,6 +15,7 @@ data:
   services.inc: |
     {{ if .Values.enableData }} include /etc/nginx/conf.d/data.inc; {{ end }}
     {{ if .Values.enablePipelines }} include /etc/nginx/conf.d/pipelines.inc; {{ end }}
+    {{ if .Values.enablePipelines2 }} include /etc/nginx/conf.d/pipelines2.inc; {{ end }}
 
   healthcheck.inc: |
     location = / {
@@ -25,6 +26,11 @@ data:
   pipelines.inc: |
     location /pipelines/ {
         proxy_pass http://pipelines:5000/;
+    }
+
+  pipelines2.inc: |
+    location /pipelines2/ {
+        proxy_pass http://pipelines2:5000/;
     }
 
   data.inc: |

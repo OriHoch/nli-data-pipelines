@@ -2,18 +2,26 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: pipelines
+  name: pipelines2
 spec:
   replicas: 1
   strategy: {type: Recreate}
   template:
     metadata:
       labels:
-        app: pipelines
+        app: pipelines2
     spec:
-      restartPolicy:
       nodeSelector:
         cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
+      affinity:
+        podAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values: ["pipelines"]
+            topologyKey: "kubernetes.io/hostname"
       containers:
       - image: {{ .Values.image | default "orihoch/nli-data-pipelines" | quote }}
         name: pipelines
@@ -33,7 +41,8 @@ spec:
             secretKeyRef:
               name: env-vars
               key: "GCS_SERVICE_ACCOUNT_B64_KEY"
-        - {"name": "DOWNLOAD_IMAGES_NUM_THREADS", "value": {{ .Values.DOWNLOAD_IMAGES_NUM_THREADS | quote }}}
+        - {"name": "DOWNLOAD_IMAGES_NUM_THREADS", "value": "0"}
+        - {"name": "GCS_DISABLE_DOWNLOAD", "value": "1"}
         {{ end }}
       volumes:
       - name: pipelines-data
