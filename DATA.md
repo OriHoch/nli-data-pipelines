@@ -12,3 +12,8 @@
 
 ### High-Level Overview
 
+Collections
+
+![collections_tagcloud](docs/collections_tagcloud.png)
+
+[collection_language_count.csv](docs/collection_language_count.csv)
