@@ -1,0 +1,23 @@
+{{ if .Values.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: db
+spec:
+  replicas: 1
+  strategy: {type: Recreate}
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
+      containers:
+      - image: orihoch/nli-data-pipelines-db
+        name: db
+        ports:
+        - containerPort: 5432
+        env:
+        - {"name": "POSTGRES_PASSWORD", "value": "supersecret321"}
+{{ end }}

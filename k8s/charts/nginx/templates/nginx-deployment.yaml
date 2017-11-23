@@ -12,16 +12,22 @@ spec:
     spec:
       nodeSelector:
         cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
-      affinity:
-        # nginx must be on the same as pipelines - to have access to the data files
-        podAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-          - labelSelector:
-              matchExpressions:
-              - key: app
-                operator: In
-                values: ["pipelines"]
-            topologyKey: "kubernetes.io/hostname"
+#      affinity:
+#        # nginx must be on the same as pipelines - to have access to the data files
+#        podAffinity:
+#          requiredDuringSchedulingIgnoredDuringExecution:
+#          - labelSelector:
+#              matchExpressions:
+#              - key: app
+#                operator: In
+#                values:
+#                {{ if .Values.enablePipeline }}
+#                - pipelines
+#                {{ end }}
+#                {{ if .Values.enableLetsencrypt }}
+#                - letsencrypt
+#                {{ end }}
+#            topologyKey: "kubernetes.io/hostname"
       containers:
       - image: {{ .Values.image | default "nginx:alpine" | quote }}
         name: nginx
@@ -33,6 +39,12 @@ spec:
           readOnly: true
         - name: pipelines-data
           mountPath: /pipelines/data
+        {{ if .Values.enableLetsencrypt }}
+        - name: letsencrypt-etc
+          mountPath: /etc/letsencrypt
+        - name: nginx-html
+          mountPath: /usr/share/nginx/html
+        {{ end }}
       volumes:
       - name: nginx-conf-d
         configMap:
@@ -40,4 +52,12 @@ spec:
       - name: pipelines-data
         hostPath:
           path: /var/pipelines-data
+      {{ if .Values.enableLetsencrypt }}
+      - name: letsencrypt-etc
+        hostPath:
+          path: /var/letsencrypt-etc
+      - name: nginx-html
+        hostPath:
+          path: /var/nginx-html
+      {{ end }}
 {{ end }}

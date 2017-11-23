@@ -1,4 +1,127 @@
-# commented-out pipelines already exist in the github data files - no need to recreate them each time
+
+#download_meetings:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      # you need to clone OriHoch/knesset-data-committees and build the data to this location
+#      url: ../knesset-data-committees/data/committee-meetings/datapackage.json
+#      resource: kns_committeesession
+#  - run: stream_remote_resources
+#  - run: filter
+#    parameters:
+#      resource: kns_committeesession
+#      in:
+#      - KnessetNum: 20
+#  - run: filter
+#    parameters:
+#      resource: kns_committeesession
+#      in:
+#      - CommitteeID: 926
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/kns_committeesession
+
+dump_protocols_to_elasticsearch:
+  pipeline:
+  - run: load_resource
+    parameters:
+      url: https://minio.oknesset.org/committees/datapackage.json
+      resource: committee_meeting_protocols_parsed
+#  - run: load_resource
+#    parameters:
+#      # you need to clone OriHoch/knesset-data-committees and build the data to this location
+#      url: ../knesset-data-committees/data/committee-meetings/datapackage.json
+#      resource: kns_committeesession
+  - run: stream_remote_resources
+  - run: parse_knesset_protocols
+  - run: dump_to_elasticsearch
+    parameters:
+      resource: protocols
+      index-name: protocols
+      drop-index: true
+      commit-every: 1000
+
+
+#parse_protocols:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      # you need to clone OriHoch/knesset-data-committees and build the data to this location
+#      url: data/kns_committeesession/datapackage.json
+#      resource: kns_committeesession
+#  - run: stream_remote_resources
+#  - run: parse_knesset_protocols
+#    parameters:
+#      protocols-cache-path: ../knesset-data-committees/data/minio-cache/committees
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/knesset_protocols
+
+
+
+#dump_manifests_to_sql:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/manifests/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: join_collections
+#    parameters:
+#      output-resource: manifests
+#      primary-key: ["sysnum"]
+#  - run: dump.to_sql
+#    parameters:
+#      tables:
+#        manifests:
+#          resource-name: manifests
+#
+#dump_sequences_to_sql:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/sequences/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: join_collections
+#    parameters:
+#      output-resource: sequences
+#      add-image-urls: true
+#  - run: dump.to_sql
+#    parameters:
+#      tables:
+#        sequences:
+#          resource-name: sequences
+
+
+#dump_manifests_to_elasticsearch:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/manifests/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: join_collections
+#    parameters:
+#      output-resource: manifests
+#      primary-key: ["sysnum"]
+#  - run: prepare_manifests_for_elasticsearch
+#  - run: dump_to_elasticsearch
+#    parameters:
+#      resource: manifests
+#      index-name: manifests
+#      drop-index: true
+#      commit-every: 100
+
+#  - run: elasticsearch.dump.to_index
+#    parameters:
+#      indexes:
+#        manifests:
+#          - resource-name: manifests
+#            doc-type: manifest
+
+
+# commented-out pipelines already exist in the github data files or are explorations which didn't bear fruit - no need to recreate them each time
 # if you make a change in these pipelines processors - uncomment to re-run
 
 #collections-root:
@@ -68,15 +191,62 @@
 #    parameters:
 #      out-path: data/sequences
 
-download-images:
+#download-images:
 #  dependencies:
 #  - pipeline: ./sequences
-  pipeline:
-  - run: load_resource
-    parameters:
-      url: data/sequences/datapackage.json
-      resource: .*
-  - run: download_images
-  - run: dump.to_path
-    parameters:
-      out-path: data/images
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/sequences/datapackage.json
+#      resource: .*
+#  - run: download_images
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/images
+
+#images-archive:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/sequences/datapackage.json
+#      resource: ephemera
+#  - run: archive_images
+#  - run: dump.to_path
+#    parameters:
+#      out-path: data/images-archive
+
+#dump_collection_members_to_sql:
+#  pipeline:
+#  - run: load_resource
+#    parameters:
+#      url: data/collections/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: join_collections
+#    parameters:
+#      output-resource: collection_manifests
+#  - run: load_resource
+#    parameters:
+#      url: data/members/datapackage.json
+#      resource: .*
+#  - run: stream_remote_resources
+#  - run: join_collections
+#    parameters:
+#      output-resource: collection_members
+#      start-at-resource-index: 1
+#  - run: join
+#    parameters:
+#      source:
+#        name: collection_manifests
+#        key: ["manifest"]
+#      target:
+#        name: collection_members
+#        key: ["manifest_url"]
+#      fields:
+#        collection:
+#        label:
+#  - run: dump.to_sql
+#    parameters:
+#      tables:
+#        collection_members:
+#          resource-name: collection_members

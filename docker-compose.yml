@@ -2,6 +2,16 @@ version: "3"
 
 services:
 
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile.db
+    image: nli-data-pipelines-db
+    environment:
+    - "POSTGRES_PASSWORD=123456"
+    ports:
+    - "5432:5432"
+
   pipelines:
     build: .
     image: nli-data-pipelines
@@ -12,6 +22,13 @@ services:
     - "data-cache:/pipelines/data/cache"
     command:
     - server
+    environment:
+    - "DPP_DB_ENGINE=postgresql://postgres:123456@db:5432/postgres"
+
+  adminer:
+    image: adminer:4.3.1-standalone
+    ports:
+    - "8080:8080"
 
 volumes:
   data-cache:

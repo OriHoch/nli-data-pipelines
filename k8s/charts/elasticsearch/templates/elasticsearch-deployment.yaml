@@ -1,0 +1,44 @@
+{{ if .Values.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: elasticsearch
+spec:
+  replicas: 1
+  strategy: {type: Recreate}
+  template:
+    metadata:
+      labels:
+        app: elasticsearch
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/elasticsearch-config.yaml") . | sha256sum }}
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
+      containers:
+      - name: sysctl-conf
+        image: busybox:1.26.2
+        command: ["sh", "-c", "sysctl -w vm.max_map_count=262166 && while true; do sleep 86400; done"]
+        resources:
+          limits:
+            cpu: 1m
+            memory: 5Mi
+          requests:
+            cpu: 1m
+            memory: 5Mi
+        securityContext:
+          privileged: true
+      - image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.0.0
+        name: elasticsearch
+        ports:
+        - containerPort: 9200
+        - containerPort: 9300
+        volumeMounts:
+        - name: elasticsearch-conf
+          mountPath: /usr/share/elasticsearch/config/elasticsearch.yml
+          subPath: elasticsearch.yml
+      volumes:
+      - name: elasticsearch-conf
+        configMap:
+          name: elasticsearch-conf
+{{ end }}

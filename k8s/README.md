@@ -28,7 +28,8 @@ Create the cluster -
 source k8s/connect.sh 2>/dev/null  # ignore the errors
 gcloud container clusters create "${CLOUDSDK_CONTAINER_CLUSTER}" \
                                  --disk-size=20 --machine-type n1-standard-1 \
-                                 --num-nodes=1
+                                 --num-nodes=1 \
+                                 --cluster-version=1.8.3-gke.0
 ```
 
 Make sure you are connected to the cluster (you should have 1 node)
@@ -109,7 +110,7 @@ echo "NGINX_EXTERNAL_IP=1.2.3.4" >> k8s/.env
 The cluster will cost ~1-2$ per hour - so remember to delete it when done (it only takes a few minutes to start a new one)
 
 ```
-k8s/remove_cluster.sh
+gcloud container clusters delete "${CLOUDSDK_CONTAINER_CLUSTER}"
 ```
 
 Check that there aren't any dangling load balancers

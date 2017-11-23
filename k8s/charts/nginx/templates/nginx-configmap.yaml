@@ -11,16 +11,32 @@ data:
         include /etc/nginx/conf.d/healthcheck.inc;
         include /etc/nginx/conf.d/services.inc;
     }
-
-  services.inc: |
-    {{ if .Values.enableData }} include /etc/nginx/conf.d/data.inc; {{ end }}
-    {{ if .Values.enablePipelines }} include /etc/nginx/conf.d/pipelines.inc; {{ end }}
-    {{ if .Values.enablePipelines2 }} include /etc/nginx/conf.d/pipelines2.inc; {{ end }}
+    server {
+        listen 9200;
+        server_name  _;
+        location / {
+            proxy_pass http://elasticsearch:9200;
+        }
+    }
 
   healthcheck.inc: |
     location = / {
         return 200 'it works!';
         add_header Content-Type text/plain;
+    }
+
+  services.inc: |
+    {{ if .Values.enableData }} include /etc/nginx/conf.d/data.inc; {{ end }}
+    {{ if .Values.enablePipelines }} include /etc/nginx/conf.d/pipelines.inc; {{ end }}
+    {{ if .Values.enablePipelines2 }} include /etc/nginx/conf.d/pipelines2.inc; {{ end }}
+    {{ if .Values.enableElasticsearch }} include /etc/nginx/conf.d/elasticsearch.inc; {{ end }}
+    {{ if .Values.enableKibana }} include /etc/nginx/conf.d/kibana.inc; {{ end }}
+    {{ if .Values.enableAdminer }} include /etc/nginx/conf.d/adminer.inc; {{ end }}
+
+  data.inc: |
+    location /data/ {
+      root /pipelines;
+      autoindex on;
     }
 
   pipelines.inc: |
@@ -33,9 +49,19 @@ data:
         proxy_pass http://pipelines2:5000/;
     }
 
-  data.inc: |
-    location /data/ {
-      root /pipelines;
-      autoindex on;
+  elasticsearch.inc: |
+    location /elasticsearch/ {
+        proxy_pass http://elasticsearch:9200/;
     }
+
+  kibana.inc: |
+    location /kibana/ {
+        proxy_pass http://kibana:5601/;
+    }
+
+  adminer.inc: |
+    location /adminer/ {
+        proxy_pass http://adminer:8080;
+    }
+
 {{ end }}

@@ -1,0 +1,31 @@
+{{ if .Values.enabled }}
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kibana
+spec:
+  replicas: 1
+  strategy: {type: Recreate}
+  template:
+    metadata:
+      labels:
+        app: kibana
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/kibana-config.yaml") . | sha256sum }}
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-nodepool: {{ .Values.global.gkeNodePool | default "default-pool" | quote }}
+      containers:
+      - image: docker.elastic.co/kibana/kibana-oss:6.0.0
+        name: kibana
+        ports:
+        - containerPort: 5601
+        volumeMounts:
+        - name: kibana-conf
+          mountPath: /usr/share/kibana/config/kibana.yml
+          subPath: kibana.yml
+      volumes:
+      - name: kibana-conf
+        configMap:
+          name: kibana-conf
+{{ end }}

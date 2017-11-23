@@ -1,0 +1,25 @@
+# FROM postgres:10.1
+# Used to create a DB which is autoloaded with the data
+# to create the dump.sql file used by this file, you need to create the DB with the pipelines
+# then, run:
+# docker-compose exec db su postgres -c "pg_dumpall --lock-wait-timeout=300000 --clean | grep -v 'DROP ROLE ' | grep -v 'CREATE ROLE ' | grep -v 'ALTER ROLE '" > dump.sql
+# finally, remove *.sql from .dockerignore (it's added to speed up builds)
+# COPY dump.sql .
+
+# this image already contains the dump
+FROM orihoch/nli-data-pipelines-db:dump-2017-11-22
+
+ENTRYPOINT ["bash", "-c", " \
+           if [ ! -f ${PGDATA}/db_bootstraped ]; then     \
+               echo 'Bootstrapping DB...';                \
+               /docker-entrypoint.sh postgres &           \
+               sleep 10;                                  \
+               su postgres -c 'psql -f /dump.sql';        \
+               sleep 3;                                   \
+               touch ${PGDATA}/db_bootstraped;            \
+               while true; do                             \
+                   sleep 86400;                           \
+               done;                                      \
+           else                                           \
+               exec /docker-entrypoint.sh;                \
+           fi"]

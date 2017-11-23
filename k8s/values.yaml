@@ -1,11 +1,28 @@
 nginx:
-  enableData: true
-  enablePipelines: true
+  enableData: false
+  enablePipelines: false
+  enablePipelines2: false
+  enableElasticsearch: true
+  enableKibana: true
+  enableAdminer: true
   enabled: true
 pipelines:
   ALLOW_GITHUB_DOWNLOAD: 'yes'
+  DOWNLOAD_IMAGES_NUM_THREADS: 500
   GCS_IMAGES_BUCKET: nli-images
   GCS_PROJECT: uumpa123
-  enableGcs: false
+  enableGcs: true
+  enabled: false
+  image: orihoch/nli-data-pipelines:20171121105648
+elasticsearch:
   enabled: true
-  image: orihoch/nli-data-pipelines:20171120185628
+kibana:
+  enabled: true
+sysctl-conf:
+  enabled: true
+db:
+  enabled: true
+adminer:
+  enabled: true
+global:
+  gkeNodePool: pool-2

@@ -181,3 +181,43 @@ gsutil iam ch "serviceAccount:${GCS_IMAGES_SERVICE_ACCOUNT_NAME}@${GCS_PROJECT}.
 echo "GCS_SERVICE_ACCOUNT_B64_KEY=`cat $TEMPDIR/key | base64 -w0`" >> .env
 rm -rf $TEMPDIR
 ```
+
+### Create an images archive
+
+```
+pipenv run dpp run ./images-archive
+eval `dotenv -f ".env" list`
+echo "${PIPELINES_HOST_DATA_CACHE_PATH}"
+```
+
+### Using a DB
+
+```
+docker-compose up -d db adminer
+```
+
+DB is automatically filled with data (it takes a few seconds)
+
+Adminer can be used for quick DB management, it should be available at http://localhost:8080/
+
+Log-in with the following details:
+
+* System: PostgreSQL
+* Server: db
+* Username: postgres
+* Password: 123456
+* Database: postgres
+
+If you want to run the pipelines with the db from local host -
+
+```
+pipenv shell
+export DPP_DB_ENGINE=postgresql://postgres:123456@localhost:5432/postgres
+dpp run ./dump_manifests_to_sql && dpp run ./dump_sequences_to_sql
+```
+
+### Add nodes to the cluster
+
+If you get errors from K8S about insufficient CPU, easiest solution is to add more nodes
+
+You can edit the cluster in Google Cloud Console and add more nodes to the default node pool

@@ -7,6 +7,11 @@ spec:
   ports:
   - port: 80
     name: "80"
+  - port: 443
+    name: "443"
+  - port: 8937
+    name: "8937"
+    targetPort: 9200
   selector:
     app: nginx
   type: LoadBalancer
